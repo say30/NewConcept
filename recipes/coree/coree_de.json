@@ -1,0 +1,1594 @@
+[
+  {
+    "id": "https-www-marmiton-org-recettes-recette-poulet-frit-a-la-coreenne-au-airfryer-538224-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_poulet-frit-a-la-coreenne-au-airfryer_538224.aspx",
+    "name": "Koreanisches gebratenes Hähnchen aus dem Airfryer",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 Personen",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 16,
+    "total_minutes": 31,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "Hähnchen-Oberschenkel",
+        "raw": "500 g Hähnchen-Oberschenkel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "geschnittene Frühlingszwiebeln",
+        "raw": "1  geschnittene Frühlingszwiebeln"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "Pfeffer",
+        "raw": "1 pincées Pfeffer"
+      },
+      {
+        "quantity": "1/4",
+        "unit": "cuillères à café",
+        "name": "Salz",
+        "raw": "1/4 cuillères à café Salz"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "Speisestärke",
+        "raw": "2 cuillères à soupe Speisestärke"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Esslöffel Pflanzenöl",
+        "raw": "1  Esslöffel Pflanzenöl"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Sojasoße",
+        "raw": "1 cuillères à soupe Sojasoße"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Ketchup",
+        "raw": "1 cuillères à soupe Ketchup"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Teelöffel Sesamöl",
+        "raw": "1  Teelöffel Sesamöl"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Teelöffel gehackter Knoblauch",
+        "raw": "2  Teelöffel gehackter Knoblauch"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "Ingwer",
+        "raw": "1 cuillères à café Ingwer"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Gochujang (koreanische rote Chilipaste)",
+        "raw": "1 cuillères à soupe Gochujang (koreanische rote Chilipaste)"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "Esslöffel Wasser",
+        "raw": "3  Esslöffel Wasser"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à soupe",
+        "name": "Sesamkörner",
+        "raw": "1/2 cuillères à soupe Sesamkörner"
+      }
+    ],
+    "steps": [
+      "1. Die Hähnchen-Oberschenkel in kleine Würfel schneiden, salzen und pfeffern, dann sorgfältig von allen Seiten in Stärke wenden.",
+      "2. Die Hähnchenstücke in einer einzigen Schicht in den Airfryer-Korb legen, mit einem Pinsel oder einer Ölsprühflasche mit Pflanzenöl einölen und den Korb einschieben. Bei 200 °C 13 Minuten garen, dabei den Korb auf halbem Weg schütteln. Bei kleineren Airfryer-Modellen in mehreren Durchgängen zubereiten.",
+      "3. In einem Topf Sojasoße, Ketchup, Sesamöl, fein gehackten Knoblauch und Ingwer, Gochujang-Paste und Wasser vermengen und zum Kochen bringen. 1 Minute köcheln lassen, dann vom Herd nehmen und beiseitestellen.",
+      "4. Sobald das Hähnchen gar ist, sofort in die Sauce geben und gut durchmischen, damit es gleichmäßig überzogen wird. Sofort servieren, garniert mit Sesamkörnern und Frühlingszwiebelringen, dazu gedämpften Reis reichen."
+    ],
+    "tags_raw": "Poulet frit à la coréenne au Airfryer, , haut de cuisse, oignon nouveau, poivre, sel, fécule, huile végétale, sauce soja, ketchup, huile de sésame, ail, gingembre, gochujang (pâte de piment rouge coréen), eau, graines de sésame, très facile, bon marché",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 21,
+    "country_match_reasons": [
+      "tag:coreen",
+      "titre:coreenne",
+      "tag:gochujang",
+      "ingredient:gochujang"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bibimbap-coreen-340709-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bibimbap-coreen_340709.aspx",
+    "name": "Koreanisches Bibimbap",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 Personen",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "Reis (z. B. Jasminreis)",
+        "raw": "300 g Reis (z. B. Jasminreis)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Karotten",
+        "raw": "2  Karotten"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Zucchini (wenn Saison)",
+        "raw": "2  Zucchini (wenn Saison)"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "Sojasprossen",
+        "raw": "200 g Sojasprossen"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "Shiitake-Pilze",
+        "raw": "200 g Shiitake-Pilze"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "Babyspinat (wenn Saison)",
+        "raw": "200 g Babyspinat (wenn Saison)"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "Knoblauch",
+        "raw": "2 gousses Knoblauch"
+      },
+      {
+        "quantity": "1",
+        "unit": "morceaux",
+        "name": "geriebener Ingwer",
+        "raw": "1 morceaux geriebener Ingwer"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "Rindfleisch (z. B. Rumpsteak)",
+        "raw": "500 g Rindfleisch (z. B. Rumpsteak)"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "Eier",
+        "raw": "6  Eier"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "Sojasoße",
+        "raw": "3 cuillères à soupe Sojasoße"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "Esslöffel Sonnenblumenöl",
+        "raw": "3  Esslöffel Sonnenblumenöl"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "brauner Zucker",
+        "raw": "4 cuillères à soupe brauner Zucker"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "Reisessig",
+        "raw": "4 cuillères à soupe Reisessig"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "Esslöffel Sesamöl",
+        "raw": "4  Esslöffel Sesamöl"
+      }
+    ],
+    "steps": [
+      "1. Die Zubereitung beginnen, indem der Reis gemäß den Anweisungen auf der Verpackung gekocht wird.",
+      "2. Anschließend die Sauce zubereiten.",
+      "3. In einer Schüssel den Zucker, das Sesamöl, den Reisessig, den zuvor zerdrückten Knoblauch sowie ein kleines Stück fein gewürfelten Ingwer vermengen und alles gut vermischen.",
+      "4. Das Rindfleisch in sehr dünne Streifen schneiden, in die Marinade legen und im Kühlschrank beiseitestellen.",
+      "5. Die Karotten und Zucchini in dünne Streifen schneiden und die Pilze in Scheiben schneiden.",
+      "6. In einer großen, gut erhitzten Pfanne oder einem Wok das Gemüse mit einem Schuss Sonnenblumenöl und einem Spritzer Sojasoße anbraten.",
+      "7. Die Rindfleischstreifen 2 Minuten in etwas heißem Öl scharf anbraten.",
+      "8. Anschließend die Eier als Spiegeleier zubereiten.",
+      "9. Alles in großen Schüsseln anrichten: den Reis auf dem Boden verteilen, das Gemüse rundherum anordnen und das Fleisch und/oder das Ei in der Mitte platzieren."
+    ],
+    "tags_raw": "Bibimbap coréen, plats coréens, riz, carotte, courgette, germes de soja, champignon, pousses d'épinards, ail, gingembre, boeuf, oeuf, sauce soja, huile de tournesol, sucre roux, vinaigre de riz, huile de sésame, facile, moyen | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:coreen",
+      "titre:bibimbap"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-dwaeji-bulgogi-barbecue-de-porc-coreen-322511-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_dwaeji-bulgogi-barbecue-de-porc-coreen_322511.aspx",
+    "name": "Dwaeji Bulgogi (koreanisches Schweinefleisch-Barbecue)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "5 Personen",
+    "servings": 5,
+    "prep_minutes": 90,
+    "cook_minutes": 15,
+    "total_minutes": 105,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "Schweinebauch",
+        "raw": "500 g Schweinebauch"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Frühlingszwiebeln",
+        "raw": "1  Frühlingszwiebeln"
+      },
+      {
+        "quantity": "1",
+        "unit": "demis",
+        "name": "Karotte",
+        "raw": "1 demis Karotte"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Rote Chilipaste",
+        "raw": "1 cuillères à soupe Rote Chilipaste"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Esslöffel zerdrückter Knoblauch",
+        "raw": "1  Esslöffel zerdrückter Knoblauch"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "Sojasoße",
+        "raw": "4 cuillères à soupe Sojasoße"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "Esslöffel Sesamöl",
+        "raw": "3  Esslöffel Sesamöl"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Zucker oder flüssiger Honig",
+        "raw": "1 cuillères à soupe Zucker oder flüssiger Honig"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Sonnenblumenöl",
+        "raw": "Sonnenblumenöl"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Sesam",
+        "raw": "Sesam"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "leicht pikante Miso-Paste",
+        "raw": "leicht pikante Miso-Paste"
+      }
+    ],
+    "steps": [
+      "1. In einer großen Schüssel Gochujang, Knoblauch, Sojasoße, Sesamöl und Zucker vermengen. Die Frühlingszwiebel und die Karotte in feine Streifen schneiden und zusammen mit dem Schweinefleisch in die Schüssel geben. Alles sorgfältig vermischen, am besten mit der Hand unter Verwendung eines Einweghandschuhs.",
+      "2. Das Fleisch mindestens 1 Stunde in der Marinade ruhen lassen. Anschließend etwas Öl in einer Pfanne erhitzen und das Fleisch darin anbraten – dünnere Scheiben verkürzen die Garzeit. Zum Abschluss Sesamsamen darüberstreuen.",
+      "3. Mit etwas Ssamjang (einer leicht würzigen Sojabohnenpaste) servieren und alles in ein Salatblatt einwickeln. Weißer Reis passt hervorragend als Beilage zu diesem Gericht."
+    ],
+    "tags_raw": "Dwaeji Bulgogi (barbecue de porc coréen), plats coréens, poitrine de porc, oignon, carotte, purée de piment, ail, sauce soja, huile de sésame, sucre, huile de tournesol, sésame, miso, facile, bon marché | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:coreen",
+      "titre:bulgogi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bulgogi-59365-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bulgogi_59365.aspx",
+    "name": "Bulgogi",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 Personen",
+    "servings": 3,
+    "prep_minutes": 40,
+    "cook_minutes": 60,
+    "total_minutes": 100,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "Rindfleisch",
+        "raw": "400 g Rindfleisch"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Pilz",
+        "raw": "Pilz"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Zwiebel",
+        "raw": "Zwiebel"
+      },
+      {
+        "quantity": "5",
+        "unit": "cuillères à soupe",
+        "name": "Soja",
+        "raw": "5 cuillères à soupe Soja"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Esslöffel Sesamöl",
+        "raw": "1  Esslöffel Sesamöl"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à soupe",
+        "name": "Zucker",
+        "raw": "1/2 cuillères à soupe Zucker"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Esslöffel gehackter Knoblauch",
+        "raw": "1  Esslöffel gehackter Knoblauch"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "Soju (koreanischer Reisschnaps)",
+        "raw": "2 cuillères à soupe Soju (koreanischer Reisschnaps)"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Birne",
+        "raw": "1 cuillères à soupe Birne"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Sesam",
+        "raw": "Sesam"
+      }
+    ],
+    "steps": [
+      "1. Das Rindfleisch in Stücke schneiden.",
+      "2. Das Rindfleisch 30 Minuten in der Sauce marinieren lassen. Bei längerer Einwirkzeit kann das Ergebnis enttäuschend ausfallen.",
+      "3. Das marinierte Rindfleisch in einer gut erhitzten Pfanne grillen.",
+      "4. Zögern Sie nicht, Gemüse nach Wahl direkt in die Pfanne zu geben."
+    ],
+    "tags_raw": "Bulgogi, , boeuf, champignon, oignon, moyenne, moyen",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 13,
+    "country_match_reasons": [
+      "ingredient:coreen",
+      "titre:bulgogi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-ragout-de-poulet-epice-539065-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_ragout-de-poulet-epice_539065.aspx",
+    "name": "Würziger Hühnereintopf",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 Personen",
+    "servings": 2,
+    "prep_minutes": 25,
+    "cook_minutes": 15,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "Hähnchenschenkel",
+        "raw": "300 g Hähnchenschenkel"
+      },
+      {
+        "quantity": "225",
+        "unit": "g",
+        "name": "Kartoffel",
+        "raw": "225 g Kartoffel"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "Karotte",
+        "raw": "75 g Karotte"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "Zwiebel",
+        "raw": "60 g Zwiebel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Gochujang (koreanische rote Chilipaste)",
+        "raw": "1 cuillères à soupe Gochujang (koreanische rote Chilipaste)"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "cuillères à soupe",
+        "name": "Reisessig",
+        "raw": "1.5 cuillères à soupe Reisessig"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "Sojasoße",
+        "raw": "3 cuillères à soupe Sojasoße"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à soupe",
+        "name": "Zucker",
+        "raw": "1/2 cuillères à soupe Zucker"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "Esslöffel zerdrückter Knoblauch",
+        "raw": "1/2  Esslöffel zerdrückter Knoblauch"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à soupe",
+        "name": "geriebener Ingwer",
+        "raw": "1/2 cuillères à soupe geriebener Ingwer"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "",
+        "name": "Esslöffel Sesamöl",
+        "raw": "1.5  Esslöffel Sesamöl"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "Gemüsebrühe",
+        "raw": "15 cl Gemüsebrühe"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Esslöffel Frühlingszwiebeln",
+        "raw": "2  Esslöffel Frühlingszwiebeln"
+      }
+    ],
+    "steps": [
+      "1. Kartoffeln, Karotte und Zwiebel waschen und in Stücke schneiden. Alle benötigten Zutaten bereitstellen: Hähnchenschenkel, Brühe, Gewürze und das Übrige.",
+      "2. Die Zwiebel fein hacken und die Frühlingszwiebeln beiseitelegen.",
+      "3. Alle Zutaten außer den Frühlingszwiebeln in den Topf geben: das Hähnchen, das Gemüse, die Gewürze, die Brühe sowie die Saucen. Alles kurz vermischen.",
+      "4. Das Programm Druckgaren bei hohem Druck wählen und die Garzeit auf 15 Minuten einstellen.",
+      "5. Nach Ende der Garzeit den Druck ablassen, den Inhalt in eine Servierschüssel geben und die Frühlingszwiebeln darüber verteilen. Sofort heiß servieren und bei Bedarf die Warmhaltefunktion aktivieren."
+    ],
+    "tags_raw": "Ragoût de poulet épicé, , cuisse de poulet, pomme de terre, carotte, oignon, gochujang (pâte de piment rouge coréen), vinaigre de riz, sauce soja, sucre, ail, gingembre, huile de sésame, bouillon de légumes, oignon nouveau, facile, moyen",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 13,
+    "country_match_reasons": [
+      "tag:coreen",
+      "tag:gochujang",
+      "ingredient:gochujang"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-soupe-a-la-coreenne-343999-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_soupe-a-la-coreenne_343999.aspx",
+    "name": "Koreanische Suppe",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 Personen",
+    "servings": 2,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Shiitake-Pilze",
+        "raw": "2  Shiitake-Pilze"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Chinakohl",
+        "raw": "1  Chinakohl"
+      },
+      {
+        "quantity": "30",
+        "unit": "cl",
+        "name": "Wasser",
+        "raw": "30 cl Wasser"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Eier",
+        "raw": "2  Eier"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "koreanisches Chilipulver",
+        "raw": "1 pincées koreanisches Chilipulver"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "Knoblauch",
+        "raw": "1 gousses Knoblauch"
+      },
+      {
+        "quantity": "1",
+        "unit": "morceaux",
+        "name": "Ingwer",
+        "raw": "1 morceaux Ingwer"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Frühlingszwiebel",
+        "raw": "1  Frühlingszwiebel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Zucker",
+        "raw": "1 cuillères à soupe Zucker"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "Sojasoße",
+        "raw": "2 cuillères à soupe Sojasoße"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "Glasnudeln",
+        "raw": "20 g Glasnudeln"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Schnittlauchhalm",
+        "raw": "Schnittlauchhalm"
+      }
+    ],
+    "steps": [
+      "1. Die getrockneten Shiitake-Pilze in den 30 cl Wasser, das mit Sojasoße und Zucker versetzt wurde, einweichen, bis sie vollständig rehydriert sind.",
+      "2. Den Knoblauch und den Ingwer fein reiben, dann mit dem koreanischen Chilipulver vermischen.",
+      "3. Die rehydrierten Shiitake-Pilze und den Chinakohl in Stücke schneiden, dann die Einweichflüssigkeit der Shiitakes in einen Topf gießen, Knoblauch, geriebenen Ingwer und Chili hinzufügen und alles zum Köcheln bringen.",
+      "4. Die Glasnudeln in die heiße Brühe tauchen, dann Chinakohl, Shiitakes und Frühlingszwiebeln einrühren."
+    ],
+    "tags_raw": "soupe à la coréenne, plats coréens, lentin, chou chinois, eau, oeuf, piment, ail, gingembre, ciboule, sucre, sauce soja, vermicelles de soja, ciboulette, très facile, bon marché, rapide | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 13,
+    "country_match_reasons": [
+      "ingredient:coreen",
+      "titre:coreenne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-japchae-au-poulet-537177-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_japchae-au-poulet_537177.aspx",
+    "name": "Japchae mit Hähnchen",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 Personen",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "Süßkartoffelnudeln (Dangmyeon)",
+        "raw": "150 g Süßkartoffelnudeln (Dangmyeon)"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "Hähnchenbrust",
+        "raw": "200 g Hähnchenbrust"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "Zucchini",
+        "raw": "1 pièces Zucchini"
+      },
+      {
+        "quantity": "2",
+        "unit": "pièces",
+        "name": "Karotte",
+        "raw": "2 pièces Karotte"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "Knoblauch",
+        "raw": "2 gousses Knoblauch"
+      },
+      {
+        "quantity": "6",
+        "unit": "cuillères à soupe",
+        "name": "Sojasoße",
+        "raw": "6 cuillères à soupe Sojasoße"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Esslöffel Sesamöl",
+        "raw": "2  Esslöffel Sesamöl"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Esslöffel Erdnussöl",
+        "raw": "2  Esslöffel Erdnussöl"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "Frühlingszwiebel",
+        "raw": "1 pièces Frühlingszwiebel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "Zucker",
+        "raw": "1 cuillères à café Zucker"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "gehäufte Esslöffel Sesamsamen",
+        "raw": "1  gehäufte Esslöffel Sesamsamen"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "frisch gemahlener Pfeffer",
+        "raw": "frisch gemahlener Pfeffer"
+      }
+    ],
+    "steps": [
+      "1. In einer Schüssel 1 EL Sesamöl mit 1 geschälten und zerdrückten Knoblauchzehe, 1 TL Zucker und 2 EL Sojasoße vermischen. Die Hähnchenbrust mit dieser Mischung einreiben und mindestens eine Stunde marinieren lassen.",
+      "2. Die Süßkartoffelnudeln in eine Schüssel mit kochendem Wasser geben und 10 Minuten einweichen lassen. Sorgfältig abtropfen lassen und beiseitelegen.",
+      "3. Einen Wok bei starker Hitze erhitzen, 1 EL neutrales Öl hineingeben und die ganze Hähnchenbrust – ohne sie zu zerkleinern, um ihre Saftigkeit zu bewahren – 15 Minuten anbraten. Die Marinade regelmäßig darübergießen, um eine schöne glasierte und glänzende Oberfläche zu erhalten. Das Fleisch aus dem Wok nehmen, sobald es gar ist, und auf einem Teller beiseitelegen.",
+      "4. Die zweite Knoblauchzehe schälen und zerdrücken. Die Karotten und die Zucchini abspülen und trocknen, dann in feine, gleichmäßige Stifte schneiden. 1 EL Öl in den Wok geben und die Karotten hineingeben. 5 Minuten anbraten, dann die Zucchinistifte, den gehackten Knoblauch und 1 EL Sesamöl hinzufügen.",
+      "5. Weitere 5 Minuten unter ständigem Rühren garen, sodass das Gemüse weich ist, aber noch etwas Biss hat. Die Süßkartoffelnudeln hinzufügen, mit Sojasoße begießen und großzügig pfeffern. Kräftig durchmischen, damit sich alle Zutaten verbinden und gut mit der Soße überziehen.",
+      "6. Das Hähnchen in mundgerechte Stücke schneiden und die Frühlingszwiebel fein hacken. Beides in den Wok geben und alles vermengen. Beim Servieren mit Sesamsamen bestreuen und heiß genießen."
+    ],
+    "tags_raw": "Japchae au poulet, , vermicelles, blanc de poulet, courgette, carotte, ail, sauce soja, huile de sésame, huile d'arachide, oignon cébette, sucre en poudre, graines de sésame, poivre du moulin, facile, moyen",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:japchae",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-barbecue-coreen-30497-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_barbecue-coreen_30497.aspx",
+    "name": "Koreanisches Barbecue",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 Personen",
+    "servings": 6,
+    "prep_minutes": 45,
+    "cook_minutes": 10,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "Fleisch in dünne Scheiben geschnitten (Rind, Schwein …)",
+        "raw": "500 g Fleisch in dünne Scheiben geschnitten (Rind, Schwein …)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Esslöffel Sesamöl",
+        "raw": "2  Esslöffel Sesamöl"
+      },
+      {
+        "quantity": "5",
+        "unit": "cuillères à soupe",
+        "name": "Sojasoße",
+        "raw": "5 cuillères à soupe Sojasoße"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "Sake",
+        "raw": "2 cuillères à soupe Sake"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Mirin",
+        "raw": "1 cuillères à soupe Mirin"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "Pfefferzucker",
+        "raw": "2 cuillères à soupe Pfefferzucker"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "gehackter Lauch",
+        "raw": "4 cuillères à soupe gehackter Lauch"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Esslöffel gehackter Knoblauch",
+        "raw": "1  Esslöffel gehackter Knoblauch"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "zerstoßener Sesam",
+        "raw": "2 cuillères à soupe zerstoßener Sesam"
+      },
+      {
+        "quantity": "1",
+        "unit": "morceaux",
+        "name": "frischer Ingwer (in der Größe einer Knoblauchzehe, in Scheiben geschnitten)",
+        "raw": "1 morceaux frischer Ingwer (in der Größe einer Knoblauchzehe, in Scheiben geschnitten)"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "Sojasoße",
+        "raw": "20 cl Sojasoße"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "Zucker",
+        "raw": "50 g Zucker"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "Mirin",
+        "raw": "50 cl Mirin"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "Zitronen in Scheiben",
+        "raw": "1/2  Zitronen in Scheiben"
+      },
+      {
+        "quantity": "1",
+        "unit": "moitiés",
+        "name": "Apfel",
+        "raw": "1 moitiés Apfel"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "Sake",
+        "raw": "50 cl Sake"
+      }
+    ],
+    "steps": [
+      "1. Alle Zutaten der Marinade miteinander vermischen, das Fleisch darin einlegen und das Sesamöl darüber gießen, ohne es unterzurühren. Vor dem Servieren 1 bis 2 Stunden ruhen lassen.",
+      "2. Für die Zubereitung der Sauce alle Zutaten außer dem Sake, den Zitronenscheiben und dem Apfel erhitzen. Diese werden erst nach dem Herd außerhalb der Hitze eingerührt, damit die Sauce abkühlen kann (etwa 1 Stunde einplanen).",
+      "3. Das Fleisch in seiner Marinade in der Mitte des Tisches anrichten. Jeder Gast greift sich ein Stück und gart es nach seinem Geschmack auf dem Grill oder dem Grillstein, dann taucht er es vor dem Verzehr in die Sauce."
+    ],
+    "tags_raw": "Barbecue coréen, plats coréens, viande, huile de sésame, soja, saké, mirin, sucre, poireau, ail, sésame, gingembre, sauce soja, sucre, mirin, citron, pomme, saké, moyenne, assez cher, rapide | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreen"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bibimbap-vegetarien-346178-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bibimbap-vegetarien_346178.aspx",
+    "name": "Vegetarisches Bibimbap",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 Personen",
+    "servings": 3,
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "Karotten",
+        "raw": "3  Karotten"
+      },
+      {
+        "quantity": "2",
+        "unit": "poignées",
+        "name": "Shiitake-Pilze oder Champignons",
+        "raw": "2 poignées Shiitake-Pilze oder Champignons"
+      },
+      {
+        "quantity": "3",
+        "unit": "poignées",
+        "name": "Sojasprossen",
+        "raw": "3 poignées Sojasprossen"
+      },
+      {
+        "quantity": "4",
+        "unit": "poignées",
+        "name": "Spinatblätter",
+        "raw": "4 poignées Spinatblätter"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "Knoblauch",
+        "raw": "1 gousses Knoblauch"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Ingwerpulver oder geriebener Ingwer",
+        "raw": "Ingwerpulver oder geriebener Ingwer"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Sojasoße",
+        "raw": "Sojasoße"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Pfeffer",
+        "raw": "Pfeffer"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "Eier",
+        "raw": "3  Eier"
+      }
+    ],
+    "steps": [
+      "1. Die Karotten und Pilze in feine Streifen schneiden.",
+      "2. Einen Schuss Öl in eine heiße Pfanne geben und die Sojasprossen darin anbraten.",
+      "3. Die Sojasoße sowie den Ingwer einrühren, dann diesen Vorgang mit jedem Gemüse wiederholen.",
+      "4. Das Gemüse beiseitelegen in eine Schüssel, die mit Aluminiumfolie abgedeckt wird, um es warm zu halten.",
+      "5. Die Eier in der Pfanne braten.",
+      "6. In Tellern oder Schüsseln eine Portion gekochten Reis verteilen, das Gemüse rundherum anrichten und das Ei oben auf den Reis legen."
+    ],
+    "tags_raw": "Bibimbap végétarien, , carotte, champignon, germes de soja, pousses d'épinards, ail, gingembre, sauce soja, poivre, oeuf, facile, moyen",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bibimbap"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boeuf-marine-a-la-coreenne-37108-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boeuf-marine-a-la-coreenne_37108.aspx",
+    "name": "Koreanisches mariniertes Rindfleisch",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 Personen",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "Rindfleisch (Fondue-Scheiben)",
+        "raw": "400 g Rindfleisch (Fondue-Scheiben)"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "Zucker",
+        "raw": "3 cuillères à soupe Zucker"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "Reiswein",
+        "raw": "2 cuillères à soupe Reiswein"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "Sojasoße",
+        "raw": "4 cuillères à soupe Sojasoße"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "",
+        "name": "Esslöffel gehackter Knoblauch (oder Knoblauchpulver)",
+        "raw": "1.5  Esslöffel gehackter Knoblauch (oder Knoblauchpulver)"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "Esslöffel gehackte Frühlingszwiebeln",
+        "raw": "3  Esslöffel gehackte Frühlingszwiebeln"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Esslöffel Sesamöl",
+        "raw": "2  Esslöffel Sesamöl"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "gerösteter Sesam",
+        "raw": "1 cuillères à soupe gerösteter Sesam"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Pfeffer",
+        "raw": "Pfeffer"
+      }
+    ],
+    "steps": [
+      "1. Das Fleisch in sehr dünne Scheiben schneiden — um die Arbeit zu erleichtern, legen Sie es etwa 3 Stunden vor dem Schneiden in das Gefrierfach.",
+      "2. Alle Zutaten in einer großen Schüssel vermengen, sorgfältig mischen und dann 30 Minuten ruhen lassen.",
+      "3. Die Fleischscheiben einzeln in die Schüssel tauchen und darauf achten, dass sie gut mit der Soße überzogen sind, dann mindestens 2 Stunden im Kühlschrank marinieren lassen.",
+      "4. In einer großen, gut erhitzten Pfanne mit einem Schuss Öl das Fleisch in kleinen Mengen schnell anbraten und dabei flach in der Pfanne ausbreiten.",
+      "5. Das Fleisch nach und nach in eine tiefe Schüssel umfüllen und den Bratensaft dazugeben."
+    ],
+    "tags_raw": "Boeuf mariné à la coréenne, plats coréens, boeuf, sucre, vin, soja, ail, oignon nouveau, huile de sésame, sésame, poivre, facile, moyen, rapide | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreenne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chou-coreen-51771-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chou-coreen_51771.aspx",
+    "name": "Koreanischer Kohl",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "50 cl",
+    "servings": 50,
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Kohl",
+        "raw": "1  Kohl"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Knoblauch",
+        "raw": "1  Knoblauch"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Ingwer",
+        "raw": "1  Ingwer"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "Chili",
+        "raw": "2 cuillères à soupe Chili"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "gemahlener Pfeffer",
+        "raw": "1 cuillères à soupe gemahlener Pfeffer"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "Sojamilch",
+        "raw": "15 cl Sojamilch"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "Zucker",
+        "raw": "1 cuillères à café Zucker"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Salz",
+        "raw": "Salz"
+      }
+    ],
+    "steps": [
+      "1. Den Kohl in feine Streifen schneiden und über Nacht in einer gut konzentrierten Salzlake ruhen lassen.",
+      "2. Am nächsten Tag die Marinade zubereiten, indem man Knoblauch, Ingwer und Chili reibt und sie dann mit Pfeffer, Sojasoße und Zucker vermischt.",
+      "3. Den Kohl mehrmals gründlich abspülen, gut ausdrücken und dann in die vorbereitete Marinade einarbeiten.",
+      "4. Mit Frischhaltefolie abdecken und eine ganze Nacht bei Zimmertemperatur ruhen lassen.",
+      "5. In luftdichte Glasgefäße umfüllen und 4 bis 5 Tage warten, bevor man es genießt."
+    ],
+    "tags_raw": "Chou coréen, , chou, ail, gingembre, piment, poivre, lait de soja, sucre, sel, facile, moyen, rapide",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreen"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cotelettes-a-la-coreenne-92383-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cotelettes-a-la-coreenne_92383.aspx",
+    "name": "Koreanische Koteletts",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 Personen",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "12.5",
+        "unit": "cl",
+        "name": "helle Sojasoße",
+        "raw": "12.5 cl helle Sojasoße"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "Mirin (süßer Reiswein)",
+        "raw": "25 cl Mirin (süßer Reiswein)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "gehackte Frühlingszwiebeln",
+        "raw": "2  gehackte Frühlingszwiebeln"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "gepresster Knoblauch",
+        "raw": "2 gousses gepresster Knoblauch"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "frisch geriebener Ingwer",
+        "raw": "20 g frisch geriebener Ingwer"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "brauner Zucker",
+        "raw": "1 cuillères à soupe brauner Zucker"
+      },
+      {
+        "quantity": "16",
+        "unit": "",
+        "name": "Lammkoteletts",
+        "raw": "16  Lammkoteletts"
+      }
+    ],
+    "steps": [
+      "1. In einer Schüssel Sojasoße, Mirin, Frühlingszwiebeln, Knoblauch, Ingwer und Zucker vermengen. Die Koteletts in diese Marinade tauchen, sie von allen Seiten gut einreiben und anschließend für einige Stunden im Kühlschrank marinieren. Dabei regelmäßig wenden.",
+      "2. Die Koteletts aus der Marinade nehmen und sorgfältig abtropfen lassen, dann vorzugsweise auf dem Barbecue oder einem Grill grillen. Sofort servieren.",
+      "3. Guten Appetit!"
+    ],
+    "tags_raw": "Côtelettes à la coréenne, plats coréens, sauce soja, mirin, oignon, ail, gingembre, sucre brun, côtelette d'agneau, très facile, bon marché | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreenne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-jajangmyeon-specialite-coreenne-530255-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_jajangmyeon-specialite-coreenne_530255.aspx",
+    "name": "Jajangmyeon (koreanische Spezialität)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 Personen",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 12,
+    "total_minutes": 22,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "Nudeln",
+        "raw": "400 g Nudeln"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "fermentierte Sojapaste (\"Black Bean Sauce\")",
+        "raw": "3 cuillères à soupe fermentierte Sojapaste (\"Black Bean Sauce\")"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Esslöffel Wasser",
+        "raw": "2  Esslöffel Wasser"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Esslöffel Rapsöl",
+        "raw": "2  Esslöffel Rapsöl"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Frühlingszwiebeln",
+        "raw": "1  Frühlingszwiebeln"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "Pilz",
+        "raw": "300 g Pilz"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Zucchini",
+        "raw": "1  Zucchini"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Zwiebeln",
+        "raw": "1  Zwiebeln"
+      }
+    ],
+    "steps": [
+      "1. Waschen Sie die Pilze, die Zucchini und die Zwiebeln unter Wasser und schneiden Sie alles in dünne Scheiben.",
+      "2. Kochen Sie die Nudeln gemäß den Anweisungen auf der Verpackung.",
+      "3. Geben Sie das Öl in einen Wok oder, falls nicht vorhanden, in eine große Pfanne und erhitzen Sie es.",
+      "4. Braten Sie die Pilze, die Zwiebel und die Zucchini zusammen 5 Minuten lang an.",
+      "5. Rühren Sie die Sojapaste ein und verdünnen Sie die Sauce anschließend mit etwas Wasser.",
+      "6. Verlängern Sie die Garzeit um weitere 5 Minuten, fügen Sie dann die Nudeln hinzu und rühren Sie alles 2 Minuten lang auf dem Herd um.",
+      "7. Zum Abschluss mit Frühlingszwiebelringen bestreuen und sofort servieren."
+    ],
+    "tags_raw": "Jajangmyeon (spécialité coréenne), plats coréens, nouilles, pâte de soja fermentée, eau, huile de colza, oignon cébette, champignon, courgette, oignon, facile, bon marché, rapide | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreenne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kimbap-391428-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kimbap_391428.aspx",
+    "name": "Kimbap",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 Personen",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "Sushi-Reis",
+        "raw": "300 g Sushi-Reis"
+      },
+      {
+        "quantity": "350",
+        "unit": "ml",
+        "name": "Wasser",
+        "raw": "350 ml Wasser"
+      },
+      {
+        "quantity": "8",
+        "unit": "feuilles",
+        "name": "Nori",
+        "raw": "8 feuilles Nori"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Karotten",
+        "raw": "1  Karotten"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Gurken",
+        "raw": "1  Gurken"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "Eier",
+        "raw": "2  Eier"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "gekochter Thunfisch",
+        "raw": "150 g gekochter Thunfisch"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Esslöffel Sesamöl",
+        "raw": "1  Esslöffel Sesamöl"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "Sesamsamen",
+        "raw": "2 cuillères à soupe Sesamsamen"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Mayonnaise",
+        "raw": "1 cuillères à soupe Mayonnaise"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "Zucker",
+        "raw": "10 g Zucker"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "Reisessig",
+        "raw": "1 cuillères à café Reisessig"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Salz",
+        "raw": "Salz"
+      }
+    ],
+    "steps": [
+      "1. Den Reis unter einem dünnen Strahl kalten Wassers abspülen und gründlich waschen, um Verunreinigungen zu entfernen und überschüssige Stärke von der Oberfläche zu lösen.",
+      "2. Den Reis in einen Topf mit gesalzenem Wasser geben und bei schwacher Hitze mit Deckel 20 Minuten köcheln lassen. Anschließend vollständig abkühlen lassen.",
+      "3. Die Karotte und die Gurke schälen und in dünne Stäbchen von etwa 1 cm Dicke schneiden.",
+      "4. Wenn der Reis vollständig abgekühlt ist, ihn mit dem Zucker, den Sesamsamen, dem Reisessig, 1 Esslöffel Sesamöl und einer Prise Salz vermengen und alles gut durchmischen.",
+      "5. Den Thunfisch in einer tiefen Schüssel zerkleinern und mit der Mayonnaise vermischen, bis eine gleichmäßige Masse entsteht. Beiseitestellen.",
+      "6. Das Sesamöl in eine Pfanne geben und bei mittlerer Hitze erhitzen.",
+      "7. Die Eier zu einem Omelett verquirlen und in die heiße Pfanne gießen, dabei darauf achten, eine möglichst dünne und gleichmäßige Schicht zu erhalten.",
+      "8. Das Omelett vollständig abkühlen lassen und anschließend in dünne, gleichmäßige Streifen schneiden.",
+      "9. Eine kleine Schüssel mit Wasser und einem Teelöffel Reisessig vorbereiten. Eine Bambusmatte mit Frischhaltefolie einwickeln und die Finger anfeuchten, um das Arbeiten zu erleichtern.",
+      "10. Das Nori-Blatt auf die mit Frischhaltefolie bedeckte Matte legen, dabei die strukturierte Seite nach oben richten.",
+      "11. Eine Portion Reis gleichmäßig auf dem Nori-Blatt verteilen und dabei die Ränder freilassen.",
+      "12. Einige Karotten- und Gurkenstäbchen der Länge nach darauflegen, dann den Thunfisch und die Omelettstreifen darüber verteilen.",
+      "13. Mithilfe der Bambusmatte das Nori-Blatt über die Füllung aufrollen. Die Rolle dabei fest zusammendrücken und während des gesamten Rollvorgangs gleichmäßigen Druck ausüben, um einen kompakten Kimbap zu erhalten.",
+      "14. Den Kimbap anschließend in 1 bis 2 cm dicke Scheiben schneiden und im Kühlschrank aufbewahren."
+    ],
+    "tags_raw": "Kimbap, plat de riz, riz, eau, feuille de nori, carotte, concombre, oeuf, thon, huile de sésame, graines de sésame, mayonnaise, sucre, vinaigre de riz, sel, moyenne, bon marché | plat de riz",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:kimbap"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-omelette-au-riz-d-une-belle-maman-coreenne-311643-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_omelette-au-riz-d-une-belle-maman-coreenne_311643.aspx",
+    "name": "Omelett mit Reis einer koreanischen Schwiegermutter",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 Personen",
+    "servings": 2,
+    "prep_minutes": 5,
+    "cook_minutes": 20,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "240",
+        "unit": "g",
+        "name": "Sushireis (oder 2 Beutel normaler Reis, z. B. Basmati)",
+        "raw": "240 g Sushireis (oder 2 Beutel normaler Reis, z. B. Basmati)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Paprika (vorzugsweise rot)",
+        "raw": "1  Paprika (vorzugsweise rot)"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "Schinkenwürfel oder Schinkenwurst zum Schneiden",
+        "raw": "75 g Schinkenwürfel oder Schinkenwurst zum Schneiden"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "Eier",
+        "raw": "5  Eier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Olivenöl",
+        "raw": "Olivenöl"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Sesamöl (fakultativ)",
+        "raw": "Sesamöl (fakultativ)"
+      }
+    ],
+    "steps": [
+      "1. Kochen Sie den Reis gemäß den Packungsanweisungen. Nutzen Sie die Zeit, um die Eier in einer Schüssel aufzuschlagen und mit Salz und Pfeffer zu würzen. Fetten Sie eine Pfanne großzügig ein, erhitzen Sie sie und bereiten Sie dann mit der Hälfte der Eier ein dünnes Omelett nach Art eines Crêpes zu. Bräunen Sie es auf beiden Seiten, halten Sie es warm und wiederholen Sie den Vorgang mit den restlichen Eiern, sodass Sie ein Omelett pro Person erhalten.",
+      "2. Während der Reis weiterkocht, waschen Sie die Paprika, entfernen Sie die Kerne und die weißen Trennwände und schneiden Sie sie in feine Juliennestreifen.",
+      "3. Geben Sie einen Schuss Öl in eine Pfanne und braten Sie die Paprika darin an, bis sie weich ist.",
+      "4. Schneiden Sie den Schinken in kleine Würfel und geben Sie ihn zur Paprika in die Pfanne. Würzen Sie alles mit einer Prise Salz, einem Esslöffel Olivenöl und einem Esslöffel Sesamöl.",
+      "5. Sobald die Paprika gar ist und der Reis fertig ist, geben Sie den Reis in die Pfanne. Stellen Sie die Hitze auf die niedrigste Stufe, mischen Sie alles sorgfältig und passen Sie die Würzung nach Ihrem Geschmack an.",
+      "6. Zum Anrichten verteilen Sie den Reis auf der Hälfte jedes Omeletts und falten Sie es dann über sich selbst zusammen, um es zu schließen.",
+      "7. Sie können die Oberseite nach Belieben mit einem Schuss Ketchup verfeinern."
+    ],
+    "tags_raw": "Omelette au riz d'une belle-maman coréenne, plat de riz, riz, poivron, jambon, oeuf, huile d'olive, huile de sésame, très facile, bon marché | plat de riz",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreenne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-rice-cake-tteok-coreens-538955-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_rice-cake-tteok-coreens_538955.aspx",
+    "name": "Reiskuchen (koreanisches Tteok)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 Personen",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "Klebreismehl (glutinous rice)",
+        "raw": "300 g Klebreismehl (glutinous rice)"
+      },
+      {
+        "quantity": "150",
+        "unit": "ml",
+        "name": "Wasser",
+        "raw": "150 ml Wasser"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "Puderzucker",
+        "raw": "2 cuillères à soupe Puderzucker"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "kräftige Prisen Salz",
+        "raw": "1  kräftige Prisen Salz"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Sesamöl",
+        "raw": "Sesamöl"
+      }
+    ],
+    "steps": [
+      "1. In einer großen Schüssel das gesiebte Reismehl mit dem Wasser, dem Zucker und dem Salz vermengen. Alles kneten, bis ein glatter und gleichmäßiger Teig entsteht.",
+      "2. Den Teig in eine geeignete, zuvor mit Sesamöl eingefettete Form geben. Gleichmäßig ausbreiten, um eine etwa 1 bis 1,5 cm dicke Schicht zu formen.",
+      "3. Die Form in den Dampfgarer stellen und 20 bis 30 Minuten dämpfen, bis der Teig vollständig fest ist. Vom Herd nehmen und vollständig abkühlen lassen.",
+      "4. Mit einem leicht geölten Messer Rechtecke von etwa 4 cm Länge schneiden und lösen. Vor dem Servieren oder für eine spätere Verwendung mit einem leichten Hauch Öl bestreichen."
+    ],
+    "tags_raw": "Rice cake (tteok coréen), , farine de riz, eau, sucre en poudre, sel, huile de sésame, facile, moyen",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreen"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-budae-jjigae-539294-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_budae-jjigae_539294.aspx",
+    "name": "Budae Jjigae",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 90,
+    "total_minutes": 105,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Knoblauchsauce",
+        "raw": "1  Knoblauchsauce"
+      },
+      {
+        "quantity": "8",
+        "unit": "",
+        "name": "Knacker",
+        "raw": "8  Knacker"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Hacksteaks",
+        "raw": "1  Hacksteaks"
+      },
+      {
+        "quantity": "8",
+        "unit": "tranches",
+        "name": "Speck",
+        "raw": "8 tranches Speck"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Zucchini",
+        "raw": "1  Zucchini"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "Zwiebeln",
+        "raw": "1  Zwiebeln"
+      },
+      {
+        "quantity": "10",
+        "unit": "champignons",
+        "name": "Champignons",
+        "raw": "10 champignons Champignons"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "Sojasoße",
+        "raw": "3 cuillères à soupe Sojasoße"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Fermentierte Sojapaste",
+        "raw": "1 cuillères à soupe Fermentierte Sojapaste"
+      },
+      {
+        "quantity": "5",
+        "unit": "gousses",
+        "name": "Knoblauch",
+        "raw": "5 gousses Knoblauch"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "Gochugaru (koreanisches rotes Chilipulver)",
+        "raw": "3 cuillères à soupe Gochugaru (koreanisches rotes Chilipulver)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Wasser nach Bedarf",
+        "raw": "Wasser nach Bedarf"
+      }
+    ],
+    "steps": [
+      "1. Schneiden Sie das gesamte Fleisch in gleichmäßige Stücke. Bereiten Sie anschließend das Gemüse vor: Schneiden Sie die Zucchini in Scheiben, hacken Sie die Zwiebeln fein und schneiden Sie die Champignons in dünne Scheiben.",
+      "2. Vermischen Sie in einer Schüssel alle Zutaten für die Sauce: die Sojasoße, den Zucker, die fermentierte Sojapaste, den zerdrückten Knoblauch und das koreanische Chilipulver. Rühren Sie alles gut durch, bis eine vollkommen glatte und gleichmäßige Masse entsteht.",
+      "3. Geben Sie in einen großen Topf das gesamte Fleisch, das vorbereitete Gemüse, die soeben zubereitete Sauce sowie eine gute Handvoll geschnittenes Kimchi.",
+      "4. Fügen Sie so viel Wasser hinzu, dass alle Zutaten vollständig bedeckt sind.",
+      "5. Verschließen Sie den Topf mit dem Deckel und bringen Sie alles zum Kochen. Reduzieren Sie anschließend die Hitze auf mittlere bis starke Stufe und lassen Sie alles etwa 1 Stunde 30 Minuten köcheln."
+    ],
+    "tags_raw": "Budae jjigae, , saucisse, knacki, steak haché, bacon, courgette, oignon, champignons de Paris, sauce soja, pâte de soja fermentée, ail, gochugaru (poudre de piment rouge coréen), eau, facile, bon marché",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:coreen"
+    ]
+  }
+]
