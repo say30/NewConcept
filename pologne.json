@@ -1,0 +1,2986 @@
+[
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bigos-choucroute-polonaise-au-paprika-33047-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bigos-choucroute-polonaise-au-paprika_33047.aspx",
+    "name": "Bigos (choucroute polonaise au paprika)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 120,
+    "total_minutes": 150,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "choucroute crue",
+        "raw": "1 kg de choucroute crue"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "épaule de veau",
+        "raw": "500 g d'épaule de veau"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "échine de porc",
+        "raw": "500 g d'échine de porc"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "poitrine fumée",
+        "raw": "300 g de poitrine fumée"
+      },
+      {
+        "quantity": "3",
+        "unit": "saucisses",
+        "name": "Strasbourg",
+        "raw": "3 saucisses de Strasbourg"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "girolles déshydratées (ou mélange de champignons forestiers)",
+        "raw": "1 boîtes de girolles déshydratées (ou mélange de champignons forestiers)"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "concentré de tomates",
+        "raw": "100 g de concentré de tomates"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons",
+        "raw": "3 oignons"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "3 gousses d'ail"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "paprika doux moulu",
+        "raw": "20 g de paprika doux moulu"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "thym",
+        "raw": "thym"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "laurier",
+        "raw": "laurier"
+      }
+    ],
+    "steps": [
+      "1. Emincez les oignons. Coupez le veau, le porc et la poitrine fumée en dés. Faites revenir le tout dans une cocotte avec un peu d'huile.",
+      "2. Une fois que la viande est dorée, ajoutez le paprika et le concentré de tomates puis mouillez à hauteur avec de l'eau froide.",
+      "3. Portez le tout à ébullition. Pendant ce temps, rincez et essorez (comme une éponge) la choucroute.",
+      "4. Une fois l'ébullition obtenue, incorporez progressivement la choucroute en mélangeant régulièrement afin d'éviter que celle-ci ne forme des \"paquets\".",
+      "5. Ajoutez l'ail, le thym et le laurier. Salez puis couvrez et laissez cuire à feu doux pendant 1 h30 en remuant régulièrement.",
+      "6. Pendant ce temps, faites tremper les champignons et coupez les saucisses en rondelles.",
+      "7. Ajoutez-les à l'ensemble et laissez cuire encore 30 mn en prenant soin de rajouter un peu d'eau si la choucroute attache au fond de la cocotte.",
+      "8. Servez chaud mais ne mangez pas tout car c'est encore meilleur le lendemain !"
+    ],
+    "tags_raw": "Bigos (choucroute polonaise au paprika), choucroute, choucroute, épaule de veau, échine de porc, poitrine fumée, saucisse de Strasbourg, girolles, concentré de tomates, oignon, ail, paprika, thym, laurier, facile, bon marché | choucroute",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 19,
+    "country_match_reasons": [
+      "titre:polonaise",
+      "titre:bigos",
+      "titre:choucroute"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pierogi-pologne-12176-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pierogi-pologne_12176.aspx",
+    "name": "Pierogi (Pologne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 60,
+    "cook_minutes": 5,
+    "total_minutes": 65,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "farine",
+        "raw": "300 g de farine"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "150 g de beurre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "eau",
+        "raw": "eau"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "fromage blanc bien égoutté",
+        "raw": "200 g de fromage blanc bien égoutté"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "purée de pommes de terre",
+        "raw": "300 g de purée de pommes de terre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Préparer la pâte : disposer la farine dans une terrine, en creusant une fontaine au milieu, couper le beurre en petits morceaux, casser les 2 œufs, mettre le beurre, œufs et sel au centre de la fontaine, mélanger tous les éléments avec la farine pour obtenir une pâte souple.",
+      "2. Rouler cette pâte plusieurs fois au rouleau.",
+      "3. Préparer la farce : mettre le fromage blanc dans une terrine, la purée de pommes de terre, sel, poivre et noix muscade. Bien mélanger.",
+      "4. Saupoudrer de farine le plan de travail, poser dessus la pâte et l'abaisser sur une épaisseur de 3 millimètre.",
+      "5. Découper cette pâte en disques de 6 à 8 cm de diamètre.",
+      "6. Poser sur la moitié de chaque disque la farce au fromage blanc, replier le disque pour former un chausson, mouiller les bords et pincer pour souder.",
+      "7. Faire chauffer une casserole d'eau et plonger les chaussons dans l'eau bouillante environ 5 min.",
+      "8. Égoutter dès la sortie sur un papier absorbant.",
+      "9. On peut conserver les piroguees au frais dans le réfrigérateur, il suffira de les griller à la poêle avec du beurre, servir immédiatement les piroguees bien chauds.",
+      "10. C'est une recette que ma grand-mère polonaise avait plaisir à me faire aussi et que j'adorais déguster !"
+    ],
+    "tags_raw": "Pierogi (Pologne), , farine, beurre, oeuf, sel, eau, facile, bon marché, rapide",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:pologne",
+      "titre:pierogi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bigos-de-ma-babcia-166542-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bigos-de-ma-babcia_166542.aspx",
+    "name": "Bigos de ma babcia",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "5 personnes",
+    "servings": 5,
+    "prep_minutes": 30,
+    "cook_minutes": 150,
+    "total_minutes": 180,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "paquets",
+        "name": "choucroute",
+        "raw": "2 paquets de choucroute"
+      },
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "lard",
+        "raw": "4 tranches de lard"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "lardons fumés",
+        "raw": "300 g de lardons fumés"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "saucissons polonais)",
+        "raw": "2 saucissons polonais)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "saindoux (pour les réticents ou pour plus de facilité, un petit morceau de beurre peu aller)",
+        "raw": "saindoux (pour les réticents ou pour plus de facilité, un petit morceau de beurre peu aller)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "champignon (selon vos goûts)",
+        "raw": "250 g de champignon (selon vos goûts)"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "purée de tomate (moyenne)",
+        "raw": "1 boîtes de purée de tomate (moyenne)"
+      },
+      {
+        "quantity": "2",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "2 feuilles de laurier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment ou poivre de Jamaïque), paprika, sel et poivre",
+        "raw": "piment ou poivre de Jamaïque), paprika, sel et poivre"
+      }
+    ],
+    "steps": [
+      "1. Faites fondre le saindoux (ou le beurre), mettez la choucroute et assaisonnez avec les feuilles de laurier, les graines de Jamaïque, le paprika, le sel et le poivre.",
+      "2. Noyez d’eau et laissez cuire à feu doux.",
+      "3. Pendant ce temps, faites revenir dans une poêle l’entre-lardé (coupé en morceaux et sans la couenne) avec l’oignon puis ajoutez les lardons fumés et enfin les champignons émincés.",
+      "4. Laissez cuire 15 minutes.",
+      "5. Ajoutez ce mélange à la choucroute et laissez cuire au moins 2 heures.",
+      "6. En fin de cuisson, ajoutez la purée de tomate et le saucisson coupé en tranches et laissez cuire encore 20 minutes.",
+      "7. Servez avec de la baguette et du vin blanc.",
+      "8. Smacznego ! (Bon appétit !)",
+      "9. NB : Si vous avez l'occasion de le faire la veille... C'est encore meilleur réchauffé le lendemain."
+    ],
+    "tags_raw": "Bigos de ma babcia, , choucroute, lard, lardons fumés, saucisson, saindoux, oignon, champignon, purée de tomate, feuille de laurier, piment, facile, moyen",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 14,
+    "country_match_reasons": [
+      "ingredient:polonais",
+      "titre:bigos",
+      "ingredient:choucroute"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-babka-pologne-24335-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_babka-pologne_24335.aspx",
+    "name": "Babka (pologne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 50,
+    "total_minutes": 65,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "farine",
+        "raw": "300 g de farine"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "fécule de pomme de terre",
+        "raw": "100 g de fécule de pomme de terre"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "200 g de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "levure chimique",
+        "raw": "1 sachets de levure chimique"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "5 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "sucre vanillé",
+        "raw": "1 sachets de sucre vanillé"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "beurre en pommade",
+        "raw": "200 g de beurre en pommade"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "sel",
+        "raw": "1 sel"
+      }
+    ],
+    "steps": [
+      "1. Travailler le beurre avec la sucre, le sucre vanillé et la pincée de sel. Ajouter ensuite les oeufs un à un en continuant de travailler la pâte. puis ajouter la farine tamisée, la fécule et la levure pour obtenir une pâte bien homogène.",
+      "2. Beurrer un moule en couronne ou à kougelhopf et y mettre la préparation.",
+      "3. Faire cuire environ 50 mn dans un four pré-chauffé à 180°C (thermostat 6). Ne pas ouvrir la porte pendant le début de cuisson!",
+      "4. Démouler le gâteau encore tiède et le saupoudrer de sucre glace (facultatif)."
+    ],
+    "tags_raw": "Babka (pologne), , farine, fécule de pomme de terre, sucre, levure chimique, oeuf, sucre vanillé, beurre, sel, facile, bon marché",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:pologne",
+      "ingredient:pomme de terre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gateau-polonais-babka-71789-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gateau-polonais-babka_71789.aspx",
+    "name": "Gâteau polonais (babka)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "200 g de beurre"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "sucre fin",
+        "raw": "200 g de sucre fin"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "4 oeufs"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "farine",
+        "raw": "250 g de farine"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "fécule de pomme de terre",
+        "raw": "100 g de fécule de pomme de terre"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "sucre vanillé",
+        "raw": "1 paquets de sucre vanillé"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "levure alsa",
+        "raw": "1 paquets de levure alsa"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "lait",
+        "raw": "3 cuillères à soupe de lait"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "zeste de citron",
+        "raw": "zeste de citron"
+      }
+    ],
+    "steps": [
+      "1. Faire fondre le beurre, et commencer à mélanger le sucre, la farine, la fécule de pomme de terre, la levure, le sucre vanillé.",
+      "2. Incorporer à ce mélange les oeufs entier et mélanger le tout.",
+      "3. Y ajouter ensuite le beurre fondu et mélanger.",
+      "4. Verser dans un moule (à kouglopf) beurré et cuire à 180°, thermostat 6.",
+      "5. Variante: au moment de verser la pâte, on peut ne verser que la moitié et incorporer quelque cuillères de chocolat en poudre dans l'autre moitié, mélanger et finir de verser."
+    ],
+    "tags_raw": "Gâteau polonais (babka), , beurre, sucre fin, oeuf, farine, fécule de pomme de terre, sucre vanillé, levure, lait, citron, facile, bon marché",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:polonais",
+      "ingredient:pomme de terre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pierogi-ruskie-au-fromage-12146-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pierogi-ruskie-au-fromage_12146.aspx",
+    "name": "Pierogi ruskie (au fromage)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 45,
+    "cook_minutes": 6,
+    "total_minutes": 51,
+    "ingredients": [
+      {
+        "quantity": "350",
+        "unit": "g",
+        "name": "farine",
+        "raw": "350 g de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "125",
+        "unit": "ml",
+        "name": "eau tiède",
+        "raw": "125 ml d'eau tiède"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "pomme de terre (pas des nouvelles, plutôt des bintje)",
+        "raw": "600 g de pomme de terre (pas des nouvelles, plutôt des bintje)"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "fromage blanc frais type faisselle",
+        "raw": "250 g de fromage blanc frais type faisselle"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons moyen",
+        "raw": "1 oignons moyen"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "beurre",
+        "raw": "1 cuillères à soupe de beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "saindoux avec des lardons",
+        "raw": "2 cuillères à soupe de saindoux avec des lardons"
+      },
+      {
+        "quantity": "2",
+        "unit": "ml",
+        "name": "crème fraîche épaisse",
+        "raw": "2 ml de crème fraîche épaisse"
+      }
+    ],
+    "steps": [
+      "1. Préparez la farce : épluchez les pommes de terre et faites-les cuire dans de l'eau salée.",
+      "2. Avec une fourchette, écrasez les pommes de terre encore chaudes et travaillez-les avec une spatule en bois.",
+      "3. Emincez les oignons et faites les  dorer dans une cas de beurre. Emiettez le fromage. Mélangez dans un saladier fromage, oignon, graisse de cuisson, sel, poivre.",
+      "4. Ne malaxez pas les ingrédients, car dans la farce doivent se trouver ds grumeaux de fromage blanc et de pommes de terre.",
+      "5. Préparez l'abaisse : dans un saladier, versez la farine en fontaine, ajoutez un oeuf, salez, arrosez d'eau tiède, pétrissez pour obtenir une pâte molle.",
+      "6. Divisez la pâte en deux parties. Etalez au rouleau en deux fois pour obtenir une abaisse fine. Détaillez des ronds de 7-8 cm de diamètre avec un verre.",
+      "7. Garnissez chaque rond d'une cuillère bombée de farce, pliez en deux et soudez bien les bords. Pas de farce entre les bords sinon ils se decollerons à la cuisson.",
+      "8. Jetez les dans une grande quantité d'eau bouillante salée. Ils sont cuits quand ils sont remontés à la surface + 2-3 mn. Sortez les avec une écumoire. Servez avec le lard fondu et les lardons ou du beurre fondu.",
+      "9. Servez la crème fraîche à part."
+    ],
+    "tags_raw": "Pierogi ruskie (au fromage), , farine, oeuf, eau, sel, moyenne, bon marché, rapide",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:pierogi",
+      "ingredient:pomme de terre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pierogis-polonais-de-babcia-220732-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pierogis-polonais-de-babcia_220732.aspx",
+    "name": "Pierogis polonais de \"Babcia\"",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "60 pierogis",
+    "servings": 60,
+    "prep_minutes": 120,
+    "cook_minutes": 15,
+    "total_minutes": 135,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "farine",
+        "raw": "1 kg de farine"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "sel",
+        "raw": "20 g de sel"
+      },
+      {
+        "quantity": "40",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "40 cl d'eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "choucroute au riesling",
+        "raw": "1 kg de choucroute au riesling"
+      },
+      {
+        "quantity": "350",
+        "unit": "g",
+        "name": "boeuf ou mélange",
+        "raw": "350 g de boeuf ou mélange"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "lardons",
+        "raw": "lardons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Préparer la farce en faisant revenir la viande avec l’oignon émincé. Poivrer, saler légèrement. Ajouter la choucroute, mélanger et laisser mijoter 15 min environ. Laisser refroidir.",
+      "2. Préparer la pâte en mélangeant tous les ingrédients et former une boule.",
+      "3. Étaler des pâtons finement (à la machine, ça va mieux…), y former des ronds avec un moule à ravioles (10 cm de diamètre) et farcir au fur et à mesure (la pâte dessèche assez rapidement) pour obtenir les pierogis.",
+      "4. Faire bouillir de l’eau salée dans un grand faitout, y plonger quelques pierogis 2-3 min les retirer et les disposer dans un plat. Ne pas les superposer ou séparer les couches avec du papier sulfurisé.",
+      "5. Faire revenir les pierogis dans une poêle avec de l’huile sur feu doux à couvert (important, ils sont plus gonflés) pendant 10 à 15 min. Faire rissoler les lardons à part.",
+      "6. Servir avec les lardons et une salade verte (une salade de betteraves, c’est pas mal non plus)."
+    ],
+    "tags_raw": "Pierogis polonais de \"Babcia\", , farine, oeuf, sel, eau, moyenne, bon marché",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:polonais",
+      "ingredient:choucroute"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-raviolis-polonais-les-pierogis-80704-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_raviolis-polonais-les-pierogis_80704.aspx",
+    "name": "Raviolis polonais (les pierogis)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 60,
+    "cook_minutes": 10,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "farine",
+        "raw": "250 g de farine"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "eau",
+        "raw": "eau"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "pomme de terre",
+        "raw": "500 g de pomme de terre"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "faisselle compacte",
+        "raw": "200 g de faisselle compacte"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Epluchez les pommes de terre et cuisez-les, écrasez-les pour en faire une purée avec la faisselle bien égouttée.",
+      "2. Poivrez et salez à votre convenance.",
+      "3. Dans un saladier préparez une fontaine avec la farine, incorporez les œufs.",
+      "4. Travaillez rapidement en ajoutant l'eau nécessaire pour avoir une pâte lisse.",
+      "5. Etalez au rouleau avec un peu de farine et découpez des ronds avec un bol.",
+      "6. Garnissez les ronds de pâte au centre et refermez-les en chausson en fermant bien les côtés avec un peu d'eau.",
+      "7. Faire cuire les raviolis dans une casserole d'eau salée, égouttez-les et disposez-les dans un plat.",
+      "8. Arrosez-les du beurre fondu légèrement coloré et servez."
+    ],
+    "tags_raw": "Raviolis polonais (les pierogis), raviolis, farine, oeuf, eau, moyenne, bon marché, rapide | raviolis",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:polonais",
+      "ingredient:pomme de terre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-sernik-pologne-13503-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_sernik-pologne_13503.aspx",
+    "name": "Sernik (Pologne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 50,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "margarine",
+        "raw": "125 g de margarine"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "150 g de sucre"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs (jaunes d'oeufs + 4 blancs battus)",
+        "raw": "4 oeufs (jaunes d'oeufs + 4 blancs battus)"
+      },
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "fromage blanc (plutot sec)",
+        "raw": "600 g de fromage blanc (plutot sec)"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères",
+        "name": "fécule pomme de terre",
+        "raw": "1/2 cuillères de fécule pomme de terre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "levure",
+        "raw": "1/2 cuillères à café de levure"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "vanille (extrait)",
+        "raw": "vanille (extrait)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "abricot secs en petits dés",
+        "raw": "abricot secs en petits dés"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "raisins secs",
+        "raw": "raisins secs"
+      }
+    ],
+    "steps": [
+      "1. Mélanger l'ensemble, puis ajouter les blancs battus en neige. Déposer dans un moule a manquer beurré et fariné.",
+      "2. Cuira à four préchauffé (180°C) environ 50 mn."
+    ],
+    "tags_raw": "Sernik (Pologne), , margarine, sucre, oeuf, fromage blanc, fécule, levure, vanille, abricot, raisins secs, facile, bon marché",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:pologne",
+      "ingredient:pomme de terre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-beignets-aux-fleurs-d-acacias-placki-recette-polonaise-90475-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_beignets-aux-fleurs-d-acacias-placki-recette-polonaise_90475.aspx",
+    "name": "Beignets aux fleurs d'acacias (placki, recette polonaise)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "20",
+        "unit": "fleurs",
+        "name": "acacia fraiches",
+        "raw": "20 fleurs d'acacia fraiches"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "4 oeufs"
+      },
+      {
+        "quantity": "8",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "8 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à café",
+        "name": "sucre",
+        "raw": "3 cuillères à café de sucre"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "20 cl de lait"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de friture",
+        "raw": "huile de friture"
+      }
+    ],
+    "steps": [
+      "1. Mélanger les jaunes d'oeufs avec le sucre.",
+      "2. Ajouter la farine et le lait, mélanger.",
+      "3. Battre les blancs en neige ferme et les ajouter délicatement au mélange fait précédemment.",
+      "4. Ajouter les fleurs d'acacias nettoyées, et mélanger le tout délicatement.",
+      "5. Dans une poêle bien huilée (la poêle doit avoir son fond recouvert d'huile)à feu assez vif, déposer les fleurs imbibées de pâte dans la poêle.",
+      "6. Faire dorer.",
+      "7. Retirer du feu et déposer dans une assiette sur un morceau de sopalin.",
+      "8. Peut etre accompagné de sucre glace ou de confiture."
+    ],
+    "tags_raw": "Beignets aux fleurs d'acacias (placki, recette polonaise), beignets sucrés, fleur d'acacia, oeuf, farine, sucre, lait, huile de friture, très facile, bon marché | beignets sucrés",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bobka-ou-babka-gateau-polonais-32856-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bobka-ou-babka-gateau-polonais_32856.aspx",
+    "name": "Bobka ou babka (gâteau polonais)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 50,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "beurre tendre",
+        "raw": "200 g de beurre tendre"
+      },
+      {
+        "quantity": "1",
+        "unit": "bols",
+        "name": "sucre en poudre",
+        "raw": "1 bols de sucre en poudre"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "4 oeufs"
+      },
+      {
+        "quantity": "2",
+        "unit": "bols",
+        "name": "farine ordinaire",
+        "raw": "2 bols de farine ordinaire"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "levure chimique",
+        "raw": "1 sachets de levure chimique"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "sucre vanillé",
+        "raw": "1 paquets de sucre vanillé"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons et son zeste râpé",
+        "raw": "1 citrons et son zeste râpé"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites boîtes de lait concentré non sucré",
+        "raw": "1 petites boîtes de lait concentré non sucré"
+      }
+    ],
+    "steps": [
+      "1. Travailler ensemble le beurre et le sucre et lorsque le mélange est homogène, ajouter un à un les 4 oeufs.",
+      "2. Ajouter ensuite un bol de farine, bien mélanger puis ajouter le lait concentré.",
+      "3. Mélanger le second bol de farine avec la levure sèche et l'ajouter à la pâte. Mélanger. puis ajouter enfin le jus de citron et le zeste.",
+      "4. Beurrer un moule à bobka mais prendre à défaut un moule à 4/4, beurrer le moule et y verser la préparation.",
+      "5. Mettre d'abord à feu moyen (thermostat 5/6, soit 170°C) pendant environ 20 min, puis plus doux ensuite (thermostat 4/5), pour cuire le gâteau en profondeur. Vérifier la cuisson à l'aide d'une aiguille en piquant le gâteau. Si le gâteau est cuit, l'aiguille ressort sèche."
+    ],
+    "tags_raw": "Bobka ou babka (gâteau polonais), , beurre tendre, sucre en poudre, oeuf, farine, levure chimique, sucre vanillé, citron, lait concentré non sucré, facile, bon marché",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bouillon-de-poulet-avec-kneidler-recette-juive-polonaise-82227-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bouillon-de-poulet-avec-kneidler-recette-juive-polonaise_82227.aspx",
+    "name": "Bouillon de poulet avec kneidler (recette juive polonaise)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 60,
+    "cook_minutes": 60,
+    "total_minutes": 120,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poulets frais (ou une poule)",
+        "raw": "1 poulets frais (ou une poule)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poireaux",
+        "raw": "1 poireaux"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "carottes",
+        "raw": "4 carottes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "navets",
+        "raw": "1 navets"
+      },
+      {
+        "quantity": "3",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "3 pommes de terre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "branche de céleri avec les feuilles",
+        "raw": "branche de céleri avec les feuilles"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "chou blanc (facultatif)",
+        "raw": "chou blanc (facultatif)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs ou plus",
+        "raw": "4 oeufs ou plus"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "cuillères à soupe d'huile ou 50 g de margarine",
+        "raw": "4 cuillères à soupe d'huile ou 50 g de margarine"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "farine de matsa",
+        "raw": "200 g de farine de matsa"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "2",
+        "unit": "pincées",
+        "name": "muscade",
+        "raw": "2 pincées de muscade"
+      }
+    ],
+    "steps": [
+      "1. Mettre le poulet lavé dans une marmite et le recouvrir d'eau",
+      "2. Laver les légumes, les éplucher (carottes, pommes de terre) et les ajouter au poulet.",
+      "3. Laisser cuire 1 heure (ou +...).",
+      "4. On peut enlever le poulet à la fin de la cuisson et le découper, réserver les cuisses et blancs et remettre la carcasse dans le bouillon (si on veut une belle présentation).",
+      "5. Pour les kneidler :",
+      "6. Dans un récipient, mettre la farine de matsa et les oeufs, l'huile, sel, poivre et noix de muscade.",
+      "7. Mélanger le tout (à la main, c'est plus facile), la pâte ne doit pas être trop ferme et avoir la consistance d'une purée.",
+      "8. Ajouter eventuellement un oeuf ou un demi verre d'eau si ce n'est pas le cas.",
+      "9. Laisser un peu reposer la pâte.",
+      "10. Mouiller les mains et former des petites boulettes (taille d'une grosse noix).",
+      "11. Les pocher dans une grande casserole d'eau salée (éventuellent avec un cube de bouillon de poulet) ou directement dans le bouillon.",
+      "12. Quand elles remontent à la surface, elles sont cuites.",
+      "13. Les servir avec le bouillon de poulet."
+    ],
+    "tags_raw": "Bouillon de poulet avec kneidler (recette juive polonaise), soupe, poulet, oignon, poireau, carotte, navet, pomme de terre, céleri, chou blanc, poivre, sel, facile, bon marché | soupe",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chou-farci-a-la-polonaise-51460-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chou-farci-a-la-polonaise_51460.aspx",
+    "name": "Chou farci à la polonaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 pieces",
+    "servings": 8,
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "8",
+        "unit": "feuilles",
+        "name": "chou frisé",
+        "raw": "8 feuilles de chou frisé"
+      },
+      {
+        "quantity": "350",
+        "unit": "g",
+        "name": "farce à saucisse ou de boeuf haché",
+        "raw": "350 g de farce à saucisse ou de boeuf haché"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "coulis de tomate",
+        "raw": "25 cl de coulis de tomate"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "riz cuit",
+        "raw": "150 g de riz cuit"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à café d'huile d'olive",
+        "raw": "2 cuillères à café d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "marjolaine",
+        "raw": "1 cuillères à soupe de marjolaine"
+      }
+    ],
+    "steps": [
+      "1. Blanchir les feuilles de chou dans l'eau salée frémissante pendant 2 minutes puis réserver de côté.",
+      "2. Mélanger la viande, le riz, l'oeuf et la marjolaine dans un saladier à l'aide d'une spatule.",
+      "3. Assaisonner de sel et de poivre.",
+      "4. Si le farce est trop liquide, ajouter un peu de chapelure.",
+      "5. Prendre une feuille de choux, la farcir avec la preparation, refermer la feuille et la maintenir fermée avec un fil de cuisson.",
+      "6. Préparer ainsi toutes les feuilles.",
+      "7. Dans une cocotte, faire chauffer l'huile et y mettre les feuilles de chou farci.",
+      "8. Colorer de toutes les faces.",
+      "9. Arroser de 7 cl d'eau et ajouter le coulis de tomate.",
+      "10. Laisser cuire 30 minutes à couvert puis rectifier l'assaisonnement.",
+      "11. Servir avec purée de pomme de terre faite maison."
+    ],
+    "tags_raw": "Chou farci à la polonaise, légumes farcis, chou, farce, oeuf, coulis de tomate, riz, huile d'olive, poivre, sel, marjolaine, facile, bon marché | légumes farcis",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chou-fleur-a-la-polonaise-26095-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chou-fleur-a-la-polonaise_26095.aspx",
+    "name": "Chou-fleur à la polonaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 personnes",
+    "servings": 3,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "choux-fleurs",
+        "raw": "1 choux-fleurs"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs durs (selon les goûts)",
+        "raw": "2 oeufs durs (selon les goûts)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "biscottes",
+        "raw": "2 biscottes"
+      },
+      {
+        "quantity": "1",
+        "unit": "noisettes",
+        "name": "beurre pour la cuisson",
+        "raw": "1 noisettes de beurre pour la cuisson"
+      }
+    ],
+    "steps": [
+      "1. Coupez en bouquets votre chou-fleur et lavez-le.",
+      "2. Faites-le cuire à la vapeur 20 mn (ou en cocotte mais moins de temps ;) ).",
+      "3. Pendant ce temps préparez les oeufs durs.",
+      "4. Une fois le chou-fleur cuit et un peu refroidi, faites-le dorer dans une poêle avec une noisette de beurre. Salez et poivrez.",
+      "5. Lorsqu'il commence à être doré, râpez (avec une râpe à fromage!!!) les biscottes par-dessus le chou fleur encore dans la poêle. Mélangez.",
+      "6. Enfin, râpez les oeufs durs sur le mélange. Remuez une dernière fois et servez !!"
+    ],
+    "tags_raw": "Chou-fleur à la polonaise, , chou-fleur, oeuf, biscotte, beurre, très facile, bon marché",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-choucroute-20312-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_choucroute_20312.aspx",
+    "name": "Choucroute",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "5 personnes",
+    "servings": 5,
+    "prep_minutes": 20,
+    "cook_minutes": 180,
+    "total_minutes": 200,
+    "ingredients": [
+      {
+        "quantity": "1.2",
+        "unit": "kg",
+        "name": "choucroute nature (crue) à peser",
+        "raw": "1.2 kg de choucroute nature (crue) à peser"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "côtes de porc d'1 cm d'épaisseur (appellées aussi \"spiringues\")",
+        "raw": "2 côtes de porc d'1 cm d'épaisseur (appellées aussi \"spiringues\")"
+      },
+      {
+        "quantity": "2",
+        "unit": "tranches",
+        "name": "petit salé",
+        "raw": "2 tranches de petit salé"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "lardons fumés",
+        "raw": "200 g de lardons fumés"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "tranche de bacon (1 cm d'épaisseur) ou 1 crosse fumée (à brosser sous l’eau avant)",
+        "raw": "tranche de bacon (1 cm d'épaisseur) ou 1 crosse fumée (à brosser sous l’eau avant)"
+      },
+      {
+        "quantity": "12",
+        "unit": "saucisses",
+        "name": "Francfort",
+        "raw": "12 saucisses de Francfort"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "saucisses polonaises (ou autres)",
+        "raw": "3 saucisses polonaises (ou autres)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "2 feuilles de laurier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "thym",
+        "raw": "thym"
+      },
+      {
+        "quantity": "2",
+        "unit": "clous",
+        "name": "girofle",
+        "raw": "2 clous de girofle"
+      },
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "genièvre",
+        "raw": "10 genièvre"
+      },
+      {
+        "quantity": "15",
+        "unit": "grains",
+        "name": "poivre",
+        "raw": "15 grains de poivre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "bonnes cuillères de cumin",
+        "raw": "2 bonnes cuillères de cumin"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouteilles",
+        "name": "riesling (vin blanc sec)",
+        "raw": "1 bouteilles de riesling (vin blanc sec)"
+      },
+      {
+        "quantity": "1",
+        "unit": "cubes",
+        "name": "poulet dégraissé dilué dans 300 ml d’eau",
+        "raw": "1 cubes de poulet dégraissé dilué dans 300 ml d’eau"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pomme de terre crue râpée",
+        "raw": "pomme de terre crue râpée"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      }
+    ],
+    "steps": [
+      "1. Rincer la choucroute et la laisser égoutter.",
+      "2. Faire revenir l’oignon dans une grande marmite et y ajouter 100 g de lardons fumés.",
+      "3. Les ingrédients sont à ajouter dans la casserole par étage. \nAjouter 1/3 de la choucroute dans la casserole.",
+      "4. Couper les spiringues et les saucisses polonaises en dés de plus ou moins 1 cm carré et ajouter la moitié dans la marmite. \nVerser un peu de vin.",
+      "5. Mettre les baies de genévrier, les clous de girofles, l’ail, le laurier, le thym, le cumin, la viande de porc fumée et les grains de poivres. \nNe pas saler.",
+      "6. On creuse un puits et on y plante la crosse de porc.",
+      "7. Verser le bouillon dessus.",
+      "8. Recouvrir avec un autre tiers du chou puis le reste des lardons fumés puis le dernier tiers du chou, le reste de la spiringue et le la saucisse polonaise et le reste du vin.",
+      "9. Laisser mijoter à feu doux pendant 45 min.",
+      "10. Mélanger et laisser encore mijoter 45 min.",
+      "11. Ajouter la pomme de terre râpée égouttée. Mélanger et laisser encore mijoter 45 min. \nAu total, laisser mijoter trois à quatre heures.",
+      "12. Les saucisses de Francfort sont à réchauffer à part et à ajouter dans le plat au moment de servir."
+    ],
+    "tags_raw": "Choucroute, choucroute, choucroute, côte de porc, petit salé, lardons fumés, bacon, saucisse de Francfort, saucisse, huile d'olive, oignon, feuille de laurier, thym, clou de girofle, genièvre, poivre, cumin, riesling, poulet, pomme de terre, ail, très facile, moyen | choucroute",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "etape:polonaise",
+      "combinaison:choucroute saucisse pomme de terre",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-choux-farcis-recette-polonaise-que-je-tiens-de-ma-mamie-55937-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_choux-farcis-recette-polonaise-que-je-tiens-de-ma-mamie_55937.aspx",
+    "name": "Choux farcis (recette polonaise que je tiens de ma mamie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "7 choux",
+    "servings": 7,
+    "prep_minutes": 60,
+    "cook_minutes": 20,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "choux frisé",
+        "raw": "1 choux frisé"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "haché de veau",
+        "raw": "500 g de haché de veau"
+      },
+      {
+        "quantity": "1",
+        "unit": "tranches",
+        "name": "pain de mie",
+        "raw": "1 tranches de pain de mie"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "lait",
+        "raw": "lait"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "échalotes ou oignon",
+        "raw": "1 échalotes ou oignon"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites poignées de riz",
+        "raw": "1 petites poignées de riz"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites boîtes de concentré de tomates",
+        "raw": "1 petites boîtes de concentré de tomates"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "thym",
+        "raw": "thym"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel /poivre",
+        "raw": "sel /poivre"
+      }
+    ],
+    "steps": [
+      "1. Faire cuire les feuilles de choux dans une casserole d'eau.",
+      "2. Quand elles sont cuites (mais pas trop molles), les rincer à l'eau claire.",
+      "3. Préparer la farce avec le hachis, le pain de mie, l'échalote hachée, l'oeuf et la poignée de riz.",
+      "4. Saler, poivrer.",
+      "5. Constituer les choux farcis, en mettant une poignée de farce dans une petite feuille de chou.",
+      "6. L'envelopper dans une plus grande et ficeller le tout.",
+      "7. Dans une grande casserole, faire chauffer de l'huile et bien faire rissoler les choux.",
+      "8. Ajouter le concentré de tomates dilué dans de l'eau, avec le thym.",
+      "9. Laisser mijoter."
+    ],
+    "tags_raw": "Choux farcis (recette polonaise que je tiens de ma mamie), légumes farcis, chou, haché de veau, pain de mie, lait, oeuf, échalote, riz, concentré de tomates, thym, sel, facile, moyen | légumes farcis",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chlodnik-soupe-aux-radis-et-betteraves-pologne-93522-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chlodnik-soupe-aux-radis-et-betteraves-pologne_93522.aspx",
+    "name": "Chłodnik - Soupe aux radis et betteraves (Pologne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "l",
+        "name": "lait fermenté",
+        "raw": "1 l de lait fermenté"
+      },
+      {
+        "quantity": "125",
+        "unit": "ml",
+        "name": "crème fraîche épaisse",
+        "raw": "125 ml de crème fraîche épaisse"
+      },
+      {
+        "quantity": "1",
+        "unit": "bottes",
+        "name": "radis",
+        "raw": "1 bottes de radis"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "concombres",
+        "raw": "1 concombres"
+      },
+      {
+        "quantity": "4",
+        "unit": "oignons",
+        "name": "printemps",
+        "raw": "4 oignons de printemps"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "aneth",
+        "raw": "1 bouquets d'aneth"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "betteraves",
+        "raw": "1 betteraves"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "jus de citron",
+        "raw": "1 cuillères à soupe de jus de citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "eau",
+        "raw": "eau"
+      },
+      {
+        "quantity": "40",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "40 g de sucre"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "g de viande émincés (veau, ou à la limite, poulet)",
+        "raw": "g de viande émincés (veau, ou à la limite, poulet)"
+      }
+    ],
+    "steps": [
+      "1. 1. Laver la betterave, la peler, la couper en rondelles et la faire bouillir pendant 10 minutes dans une petite quantité d'eau additionnée du jus de citron",
+      "2. 2. Pendant ce temps, cuire les œufs durs (9 minutes dans une casserole d'eau bouillante) et les laisser refroidir",
+      "3. 3. Peler le concombre, le détailler en tout petits cubes",
+      "4. 4. Laver les radis, enlever les fanes et les découper en fines rondelles",
+      "5. 5. Laver les oignons de printemps et les émincer finement",
+      "6. 6. Rincer l'aneth, la tamponner avec un essuie-tout et la hacher finement",
+      "7. 7. Fouetter le lait fermenté pour le rendre mousseux, fouetter la crème fraîche à part pendant 2 minutes, mélanger les deux et fouetter encore 5 minutes",
+      "8. 8. Ajouter le concombre, les radis, les oignons, l'aneth, le bouillon de betterave (sans la betterave), le sucre, et saler/poivrer au goût",
+      "9. 9. Réfrigérer pendant 2-3 heures, avant de servir. Au dernier moment, écaler les œufs et en déposer une moitié dans chaque assiette, sur la soupe. Décorer avec de l'aneth."
+    ],
+    "tags_raw": "Chłodnik - Soupe aux radis et betteraves (Pologne), soupe, lait fermenté, crème fraîche épaisse, radis, concombre, oignon, aneth, betterave, jus de citron, eau, sucre, oeuf, poivre, sel, viande, facile, bon marché, rapide | soupe",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:pologne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cloppse-pologne-168239-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cloppse-pologne_168239.aspx",
+    "name": "Cloppse (Pologne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 90,
+    "total_minutes": 120,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "porc",
+        "raw": "300 g de porc"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "boeuf",
+        "raw": "300 g de boeuf"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "échalotes",
+        "raw": "3 échalotes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "pains blanc",
+        "raw": "2 pains blanc"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "3 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "margarine",
+        "raw": "margarine"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "thym",
+        "raw": "thym"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "kub or",
+        "raw": "kub or"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "viandox",
+        "raw": "viandox"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Mélanger la viande de porc et celle de bœuf",
+      "2. Y incorporer un œuf, de la mie de pain trempée dans du lait ou de l'eau, le thym, 2 échalotes émincées, sel et poivre.",
+      "3. Faire des boulettes de cette préparation (taille d'une pêche).",
+      "4. Faire fondre de la margarine dans une poêle à rebords anti-adhésive.",
+      "5. Faire revenir la dernière échalote",
+      "6. Ajouter les boulettes, les faire revenir de chaque coté pendant une dizaine de minutes.",
+      "7. Saupoudrer de farine",
+      "8. Ajouter un petit verre d'eau",
+      "9. Baissez le feu",
+      "10. Ajouter un cube or, du thym, sel et poivre",
+      "11. Laisser mijoter une heure a feu doux",
+      "12. Ajouter de l'eau si nécessaire",
+      "13. En fin de cuisson, mettre deux cuillères à soupe de viandox et épaissir la sauce avec un mélange de farine et d'eau (prendre un verre, mettre 5 cuillères à soupe de farine, ajouter de l'eau, mélanger jusqu’à obtention d'une pâte homogène)",
+      "14. Rectifier l'assaisonnement",
+      "15. Servir avec purée, frites ou pommes sautées"
+    ],
+    "tags_raw": "Cloppse (Pologne), , porc, boeuf, échalote, oeuf, pain, farine, margarine, thym, kub or, viandox, sel, poivre, facile, bon marché",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:pologne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gateau-au-pavot-recette-polonaise-91934-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gateau-au-pavot-recette-polonaise_91934.aspx",
+    "name": "Gâteau au pavot (recette polonaise)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "total_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "pommes épluchées et rapées",
+        "raw": "4 pommes épluchées et rapées"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "pavot",
+        "raw": "100 g de pavot"
+      },
+      {
+        "quantity": "5",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "5 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "6 oeufs"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "250 g de beurre"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à café",
+        "name": "levure",
+        "raw": "3 cuillères à café de levure"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "sucre",
+        "raw": "3 cuillères à soupe de sucre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sucre glace",
+        "raw": "sucre glace"
+      },
+      {
+        "quantity": "1",
+        "unit": "demis",
+        "name": "citron",
+        "raw": "1 demis de citron"
+      }
+    ],
+    "steps": [
+      "1. - Mélanger les jaunes d'oeuf et le sucre.",
+      "2. - Ajouter le beurre mou. Mélanger.",
+      "3. - Ajouter les graines de pavot, la farine et la levure. Mélanger au fur et à mesure.",
+      "4. - Ajouter les pommes rapées au préalable.",
+      "5. - Monter les blancs en neige. Les ajouter délicatement au mélange.",
+      "6. - Beurrer le plat, le fariner et verser le tout.",
+      "7. - Mettre à four chaud à 180° pendant environ une heure.",
+      "8. Glaçage :",
+      "9. Mélanger lentement le sucre glace et le citron. Ajouter du sucre glace jusqu'à ce que ça forme une pâte que l'on peut étaler sur le dessus du gâteau, c'est à dire pas trop liquide mais pas trop dense non plus. Etaler la pâte et laisser refroidir au frigo afin de laisser le glaçage prendre. Sortir. Attendre un peu que le gâteau se soit réchauffé (c'est meilleur que tout juste sorti du réfrigérateur). Servir."
+    ],
+    "tags_raw": "Gâteau au pavot (recette polonaise), , pomme, pavot, farine, oeuf, beurre, levure, sucre, sucre glace, citron, facile, bon marché",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-harengs-fumes-a-la-polonaise-52826-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_harengs-fumes-a-la-polonaise_52826.aspx",
+    "name": "Harengs fumés à la polonaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 personnes",
+    "servings": 3,
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "hareng fumés",
+        "raw": "200 g de hareng fumés"
+      },
+      {
+        "quantity": "6",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "6 pommes de terre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "oignons blancs",
+        "raw": "1/2 oignons blancs"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "carottes",
+        "raw": "1 carottes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "jus de citron",
+        "raw": "jus de citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile neutre",
+        "raw": "huile neutre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre (moulin 5 baies de préférence)",
+        "raw": "poivre (moulin 5 baies de préférence)"
+      }
+    ],
+    "steps": [
+      "1. Faire cuire les pommes de terre environ 6 min au micro-ondes, à couvert, jusqu'à ce qu'elles soient tendres.",
+      "2. Couper la carotte et le 1/2 oignon en rondelles, et couper en 4 les petites pommes de terre epluchées.",
+      "3. Couper en petits morceaux les filets de hareng (2 sur 1 cm).",
+      "4. Dans un saladier, mettre les morceaux de hareng, les rondelles de carottes et d'oignon, les pommes de terre; arroser d'un filet de jus de citron, et poivrer généreusement.",
+      "5. Arroser d'huile : selon les goûts, on peut immerger le poisson pour faire comme un marinade, ou bien mettre 2 à 3 cuillères d huile pour        l'onctuosité; mélanger délicatement.",
+      "6. C'est prêt, bon appétit !"
+    ],
+    "tags_raw": "Harengs fumés à la polonaise, , hareng, pomme de terre, oignon blanc, carotte, jus de citron, huile, poivre, très facile, bon marché, rapide",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kruszanek-pologne-15991-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kruszanek-pologne_15991.aspx",
+    "name": "Kruszanek (Pologne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 30,
+    "cook_minutes": 45,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine (ordinaire)",
+        "raw": "500 g de farine (ordinaire)"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "margarine",
+        "raw": "200 g de margarine"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "200 g de sucre"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs entier",
+        "raw": "3 oeufs entier"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "l de confiture de groseille",
+        "raw": "1/2 l de confiture de groseille"
+      },
+      {
+        "quantity": "2",
+        "unit": "paquets",
+        "name": "levure",
+        "raw": "2 paquets de levure"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "3/4",
+        "unit": "cuillères",
+        "name": "café ) d'extrait d'amande amère",
+        "raw": "3/4 cuillères de café ) d'extrait d'amande amère"
+      }
+    ],
+    "steps": [
+      "1. Mettre la farine dans une terrine, mélanger la levure et le sel. Y faire un trou et y verser le sucre.",
+      "2. Après avoir versé l'extrait d'amande amère, mélanger le tout en incorporant les oeufs et la margarine.",
+      "3. Pétrir le tout (avec les mains), graisser un moule, le fariner légèrement, mettre une couche de pâte, et mettre la confiture avant de recouvrir avec le reste de la pâte.",
+      "4. Faire cuire pendant 45 mn au four (thermostat 6 ou 7, température 180°C).",
+      "5. Rajouter un gobelet d'eau pour faire monter le gâteau."
+    ],
+    "tags_raw": "Kruszanek (Pologne), , farine, margarine, sucre, oeuf, confiture de groseille, levure, sel, café, moyenne, bon marché",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:pologne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-la-salade-de-harengs-fumes-a-la-polonaise-311132-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_la-salade-de-harengs-fumes-a-la-polonaise_311132.aspx",
+    "name": "La salade de harengs fumés à la polonaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 240,
+    "cook_minutes": 0,
+    "total_minutes": 240,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "hareng fumés",
+        "raw": "400 g de hareng fumés"
+      },
+      {
+        "quantity": "250",
+        "unit": "",
+        "name": "crème fraîche épaisse",
+        "raw": "250 crème fraîche épaisse"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pommes (golden)",
+        "raw": "1 pommes (golden)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons (moyens)",
+        "raw": "2 oignons (moyens)"
+      }
+    ],
+    "steps": [
+      "1. Eplucher et couper les oignons assez menus.",
+      "2. S’ils sont forts, on peut passer dessus de l’eau bouillante, sur une passoire.",
+      "3. (Dans ce cas refroidir aussitôt.)",
+      "4. Enlever les pépins de la pomme (garder la peau) et râper-la gros.",
+      "5. Couper les harengs en lamelles de 0,5 cm d’épaisseur.",
+      "6. Ajouter la crème fraîche et mélanger.",
+      "7. Laisser reposer quelques heures au frigo (on prépare cette salade souvent la veille) : d'où les 4 heures.",
+      "8. Servir frais."
+    ],
+    "tags_raw": "La salade de harengs fumés à la polonaise, , hareng, crème fraîche épaisse, pomme, oignon, facile, bon marché, rapide",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-la-veritable-recette-des-ponchki-beignets-polonais-63979-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_la-veritable-recette-des-ponchki-beignets-polonais_63979.aspx",
+    "name": "La véritable recette des PONCHKI (beignets polonais)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "18 beignets",
+    "servings": 18,
+    "prep_minutes": 120,
+    "cook_minutes": 15,
+    "total_minutes": 135,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine",
+        "raw": "500 g de farine"
+      },
+      {
+        "quantity": "85",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "85 g de sucre"
+      },
+      {
+        "quantity": "85",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "85 g de beurre"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "30",
+        "unit": "cl",
+        "name": "lait (soit 2 tasses à café)",
+        "raw": "30 cl de lait (soit 2 tasses à café)"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "levure de boulanger fraîche",
+        "raw": "1 paquets de levure de boulanger fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "100 g de sucre"
+      },
+      {
+        "quantity": "2",
+        "unit": "sachets",
+        "name": "sucre vanillé",
+        "raw": "2 sachets de sucre vanillé"
+      },
+      {
+        "quantity": "1",
+        "unit": "l",
+        "name": "huile d'arachide",
+        "raw": "1 l d'huile d'arachide"
+      }
+    ],
+    "steps": [
+      "1. Verser la farine dans un saladier et creuser un puits.",
+      "2. Incorporer la levure diluée dans le lait tiède, mélanger doucement.",
+      "3. Ajouter les œufs entiers, le sucre et le beurre fondu et une pincée de sel.",
+      "4. Travailler la pâte jusqu'à la formation de petites bulles (poche d'air).",
+      "5. Laisser monter la pâte dans un endroit chaud.",
+      "6. Lorsque cette dernière a doublé de volume, former des petites boules avec la pâte. Y incorporer au centre un pruneau d'Agen. Disposer sur une une table farinée et laisser monter.",
+      "7. Faire chauffer de l'huile d'arachide dans une casserole.Une fois l'huile chaude, y plonger les boules de pâte et laisser cuire en pensant à les retourner. Une fois cuites, les rouler dans un mélange de sucre et de sucre vanillé."
+    ],
+    "tags_raw": "La véritable recette des PONCHKI (beignets polonais), beignets sucrés, farine, sucre, beurre, oeuf, lait, levure de boulanger fraîche, sel, moyenne, bon marché | beignets sucrés",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-le-piernik-pain-d-epices-polonais-59945-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_le-piernik-pain-d-epices-polonais_59945.aspx",
+    "name": "Le Piernik (pain d'épices polonais)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "45",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "45 cl de lait"
+      },
+      {
+        "quantity": "375",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "375 g de sucre"
+      },
+      {
+        "quantity": "310",
+        "unit": "g",
+        "name": "farine",
+        "raw": "310 g de farine"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "margarine",
+        "raw": "125 g de margarine"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "levure",
+        "raw": "1 sachets de levure"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "cacao en poudre",
+        "raw": "2 cuillères à soupe de cacao en poudre"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères",
+        "name": "Confiture de prune",
+        "raw": "2 cuillères de Confiture de prune"
+      }
+    ],
+    "steps": [
+      "1. Mettre dans une casserole le lait, le sucre, le cacao et la margarine. Faire chauffer le tout à feu doux pendant 5 minutes. Retirer la casserole du feu dès que le lait commence à être en ébullition. Laisser refroidir quelques minutes.",
+      "2. Préchauffer le four à 180°C (thermostat 6).",
+      "3. Une fois la préparation refroidie, ajouter la farine, la confiture et la levure. Bien mélanger et laisser reposer.",
+      "4. En attendant, séparer les jaunes des blancs d'oeuf et battre les blancs en neige bien ferme. Ensuite, ajouter les jaunes au reste de la préparation, bien mélanger et ajouter les blancs puis laisser reposer.",
+      "5. Mixer la pâte à l'aide d'un batteur programmé à la 1ère vitesse.",
+      "6. Beurrer et fariner un grand moule rectangulaire, y verser la pâte, puis enfourner pour 40-45 minutes.",
+      "7. A la sortie du four, saupoudrer de sucre glace et déguster !!"
+    ],
+    "tags_raw": "Le Piernik (pain d'épices polonais), Pain d'épices, lait, sucre, farine, margarine, oeuf, levure, cacao, Confiture de prune, facile, bon marché | Pain d'épices",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-le-poulet-a-la-polonaise-31225-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_le-poulet-a-la-polonaise_31225.aspx",
+    "name": "Le poulet à la Polonaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 poulet",
+    "servings": 1,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "total_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poulets",
+        "raw": "1 poulets"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "foie de volaille",
+        "raw": "foie de volaille"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "foie de veau",
+        "raw": "100 g de foie de veau"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "riz",
+        "raw": "60 g de riz"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "champignons de Paris",
+        "raw": "100 g de champignons de Paris"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "20 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "carottes",
+        "raw": "1 carottes"
+      },
+      {
+        "quantity": "1",
+        "unit": "morceaux",
+        "name": "céleri",
+        "raw": "1 morceaux de céleri"
+      },
+      {
+        "quantity": "1",
+        "unit": "verres",
+        "name": "vin blanc",
+        "raw": "1 verres de vin blanc"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "laurier",
+        "raw": "laurier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Couper en morceaux les champignons et les faire revenir, ajouter les foies hachés. Faire cuire le riz, et ajouter au reste. Assaisonner avec sel et poivre.",
+      "2. Farcir le poulet et mettre également un morceau de beurre. Coudre la peau pour bien fermer. Saler le poulet, déposez-le dans une cocotte et garnir avec les légumes coupés en rondelles, et le laurier. Poivrez et ajouter de l'eau.",
+      "3. Faire mijoter à feu doux (temps en fonction de la qualité et de la grosseur du poulet).",
+      "4. Mixer la sauce en ajoutant le vin blanc, faire chauffer et verser dans une saucière.",
+      "5. Servir le poulet avec des pommes de terre."
+    ],
+    "tags_raw": "Le poulet à la Polonaise, , poulet, foie, foie de veau, riz, champignons de Paris, beurre, carotte, céleri, vin blanc, persil, laurier, poivre, sel, moyenne, moyen",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-mazurek-gateau-de-printemps-polonais-305603-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_mazurek-gateau-de-printemps-polonais_305603.aspx",
+    "name": "Mazurek : gâteau de printemps polonais",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 Personnes",
+    "servings": 8,
+    "prep_minutes": 30,
+    "cook_minutes": 50,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "farine",
+        "raw": "600 g de farine"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "beurre à température ambiante",
+        "raw": "400 g de beurre à température ambiante"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "300 g de sucre en poudre"
+      },
+      {
+        "quantity": "8",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "8 jaunes d'oeuf"
+      },
+      {
+        "quantity": "130",
+        "unit": "g",
+        "name": "noix et fruits secs",
+        "raw": "130 g de noix et fruits secs"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "4 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "sucre brun",
+        "raw": "4 cuillères à soupe de sucre brun"
+      },
+      {
+        "quantity": "1/8",
+        "unit": "cuillères à café",
+        "name": "poudre à lever",
+        "raw": "1/8 cuillères à café de poudre à lever"
+      },
+      {
+        "quantity": "1/8",
+        "unit": "cuillères à café",
+        "name": "bicarbonate",
+        "raw": "1/8 cuillères à café de bicarbonate"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à café d'arôme de rhum (sans alcool) ou arôme de vanille",
+        "raw": "1 cuillères à café d'arôme de rhum (sans alcool) ou arôme de vanille"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Confiture d'orange",
+        "raw": "Confiture d'orange"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four à 190°C (thermostat 6-7).",
+      "2. Sur une planche recouverte de papier sulfurisé, déposez le beurre coupé en petits cubes, mélangez avec la farine et ajoutez les jaunes au fur et à mesure. Ecrasez avec les mains jusqu’à former une pâte lisse mais collante (perso, je l’ai fait avec un robot par manque de patience et le résultat était parfait aussi !). Ne surtout pas rajouter de farine ou alors le moins possible sinon la pâte sera cassante !",
+      "3. Formez une boule avec cette pâte et la diviser en 2 parties dont une sera légèrement plus petite, elle sera la couche supérieure. Placez la boule plus petite au frigo en attendant.",
+      "4. Toujours sur papier sulfurisé, étalez la pâte avec un rouleau à pâtisserie pour en faire une pâte fine (grosseur d’un doigt maximum).",
+      "5. Découpez une forme dans la pâte (au choix, cercle, carré, triangle, …) et utilisez les restes coupés pour faire des bords à la pâte, on en fait de petits « boudins » que l’on colle sur la pâte sur les bords (voilà aussi pourquoi la pâte doit être collante).",
+      "6. Une fois la pâte prête, enfournez là sur le papier sulfurisé pour environ 15 minutes (jusqu’à  ce que le biscuit soit bien doré).",
+      "7. Pendant que la base cuit, sortez la plus petite boule de pâtes du four, idem, travaillez là au rouleau à pâtisserie faites la même forme, découpez et placez les bords (retenir que cette couche-là sois plus petite que la première car elle devra être placée dessus.)",
+      "8. Une fois la 2eme couche de pâte formée, étalez le mélange de noix dessus.",
+      "9. Quand la première couche a fini de cuire, sortez la avec précaution et laisser la refroidir et durcir. Une fois refroidie recouvrez là d’une belle couche de confiture d’orange.",
+      "10. Baissez la température du four à 150°C (thermostat 5), une fois que la température est ok, enfournez le second étage avec le mélange de noix pour environ 30 à 40 minutes ! Il faut que la surface du mélange soit bien dorée couleur miel.",
+      "11. Sortir du four une fois fini, laissez refroidir et durcir !",
+      "12. Étape délicate, vaut mieux avoir de l’aide pour ça : déplacer le biscuit supérieur avec le mélange de noix et le placer sur la première couche.",
+      "13. Décorer comme vous le sentez."
+    ],
+    "tags_raw": "Mazurek : gâteau de printemps polonais, , farine, beurre, sucre en poudre, jaune d'oeuf, moyenne, bon marché",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-placek-gateau-aux-raisins-pologne-15873-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_placek-gateau-aux-raisins-pologne_15873.aspx",
+    "name": "Placek gâteau aux raisins (Pologne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 60,
+    "cook_minutes": 30,
+    "total_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "farine + 125 g pour le 'gravier'",
+        "raw": "1 kg de farine + 125 g pour le 'gravier'"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "matière grasse (+ 70 g pour le 'gravier')",
+        "raw": "250 g de matière grasse (+ 70 g pour le 'gravier')"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "sucre fin (+ 30 à 50 g pour le 'gravier', selon vos goûts)",
+        "raw": "250 g de sucre fin (+ 30 à 50 g pour le 'gravier', selon vos goûts)"
+      },
+      {
+        "quantity": "2",
+        "unit": "paquets",
+        "name": "sucre vanillé",
+        "raw": "2 paquets de sucre vanillé"
+      },
+      {
+        "quantity": "2",
+        "unit": "blocs",
+        "name": "levure de boulanger fraîche",
+        "raw": "2 blocs de levure de boulanger fraîche"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "4 oeufs"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "raisins secs (peut se faire avec des pommes ou des abricots)",
+        "raw": "250 g de raisins secs (peut se faire avec des pommes ou des abricots)"
+      },
+      {
+        "quantity": "2",
+        "unit": "verres",
+        "name": "lait plein",
+        "raw": "2 verres de lait plein"
+      },
+      {
+        "quantity": "1/4",
+        "unit": "",
+        "name": "l d'eau tiède",
+        "raw": "1/4 l d'eau tiède"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      }
+    ],
+    "steps": [
+      "1. Faire fondre doucement la matière grasse, le lait, le sucre et le sel, sans jamais porter à ébullition.",
+      "2. Battre les œufs en omelette. Délayer la levure dans l'eau tiède. Y mettre la farine entière, mélanger le sucre vanillé, les raisins, les œufs battus en omelette et la matière grasse.",
+      "3. Battre à la main jusqu'au ce que la pâte ne colle plus aux mains (compter environ 1 heure ou le mélanger au batteur électrique mains dans ce cas, la pâte sera plus liquide et collera. Il en résulte que si vous êtes pressés de manger le gâteau, il faut choisir la deuxième solution, sinon, si on veut un gâteau plus aérien et moelleux, il faut choisir la première solution).",
+      "4. Laisser reposer la pâte pendant 2 heures en la couvrant, dans un endroit chaud.",
+      "5. Diviser ensuite le pâton en deux et mettez les moitiés soit dans des moules à manqué (moules de 26 cm de diamètre et assez haut), soit dans des toles carrées et assez hautes (3-4cm).",
+      "6. Mélanger à la main pour former une sorte de 'gravier' les 125 g de farine, les 70 g de beurre et le sucre (la quantité est à déterminer en goûtant ce mélange qui doit être assez sucré).",
+      "7. Saupoudrer les deux pâtons de ce gravier.",
+      "8. Laisser de nouveau reposer 30 min et, pendant ce temps, préchauffer le four à thermostat 7 (210°C), puis enfourner et laisser cuire pendant environ 25 à 30 mn en surveillant la cuisson.",
+      "9. La cuisson est bonne quand en trempant une lame dans le gâteau, celle-ci ressort propre.",
+      "10. Attendre le lendemain pour déguster."
+    ],
+    "tags_raw": "Placek gâteau aux raisins (Pologne), gâteaux aux fruits, farine, matière grasse, sucre fin, sucre vanillé, levure de boulanger fraîche, oeuf, raisins secs, lait, eau, sel, moyenne, moyen | gâteaux aux fruits",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:pologne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-plenze-crepe-de-pomme-de-terre-329622-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_plenze-crepe-de-pomme-de-terre_329622.aspx",
+    "name": "Plenzé (galette de pommes de terre polonaise)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 Personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "6",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "6 pommes de terre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "3 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1 cuillères à café de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'arachide ou de tournesol",
+        "raw": "1 cuillères à soupe d'huile d'arachide ou de tournesol"
+      }
+    ],
+    "steps": [
+      "1. Éplucher les pommes de terre et les râper finement.",
+      "2. Ajouter les œufs, la farine et le sel. Bien mélanger.",
+      "3. Enlever l'excès d'eau s'il y en a et si la pâte est trop liquide, ajouter un peu de farine.",
+      "4. Dans une poêle, faire chauffer de l'huile de cuisson (arachide ou tournesol).",
+      "5. A l'aide d'une louche, verser la pâte en faisant 3-4 plenze.",
+      "6. Laisser colorer quelques minutes puis retourner les plenze à l'aide d'une spatule.",
+      "7. Lorsqu’ils sont bien dorés des deux côtés, saupoudrer de sucre (ou garnir de confiture) et servir chaud."
+    ],
+    "tags_raw": "Plenzé (galette de pommes de terre polonaise), , pomme de terre, oeuf, farine, sel, huile d'arachide, facile, bon marché, rapide",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-polonaise-baba-creme-patissiere-fruits-confits-et-meringue-29609-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_polonaise-baba-creme-patissiere-fruits-confits-et-meringue_29609.aspx",
+    "name": "Polonaise : baba, crème pâtissière, fruits confits et meringue",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 50,
+    "cook_minutes": 10,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "180",
+        "unit": "g",
+        "name": "pâte à baba",
+        "raw": "180 g de pâte à baba"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "fruit confit",
+        "raw": "50 g de fruit confit"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "cerises confites (bigarreaux)",
+        "raw": "50 g de cerises confites (bigarreaux)"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "amandes effilées",
+        "raw": "20 g d'amandes effilées"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre glace .",
+        "raw": "50 g de sucre glace ."
+      },
+      {
+        "quantity": "4",
+        "unit": "blancs",
+        "name": "oeuf",
+        "raw": "4 blancs d'oeuf"
+      },
+      {
+        "quantity": "380",
+        "unit": "g",
+        "name": "sucre semoule",
+        "raw": "380 g de sucre semoule"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "grand-marnier",
+        "raw": "3 cuillères à soupe de grand-marnier"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "10 cl d'eau"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "10 cl de lait"
+      },
+      {
+        "quantity": "1",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "1 jaunes d'oeuf"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "farine",
+        "raw": "10 g de farine"
+      },
+      {
+        "quantity": "1/4",
+        "unit": "gousses",
+        "name": "vanille",
+        "raw": "1/4 gousses de vanille"
+      }
+    ],
+    "steps": [
+      "1. Préchauffez le four à 180°C (thermostat 6) et faites cuire le baba dans un moule à brioche pendant 15-20 minutes.",
+      "2. Préparez une crème pâtissière en mélangeant le jaune d'oeuf avec 30 g de sucre et la farine.",
+      "3. Amenez le lait à ébullition avec la vanille puis versez-le sur le mélange précédent en remuant. Remettez sur le feu et faites bouillir 1 minute sans cesser de remuer. Parfumez d'1 cuillère à soupe de Grand-Marnier.",
+      "4. Faites bouillir l'eau avec 100 g de sucre pendant 2 minutes puis ajoutez le reste du Grand-Marnier.",
+      "5. Coupez le baba refroidi en 3 dans l'épaisseur et imbibez chaque couche du sirop.",
+      "6. Déposez la base du baba dans un moule à manqué, étalez la moitié de la crème et ajoutez la moitié des fruits confits hachés.",
+      "7. Recouvez de la deuxième couche de baba imbibé, du reste de la crème et des fruits confits.",
+      "8. Posez dessus la dernière couche de baba et placez au réfrigérateur.",
+      "9. Montez les blancs en neige ferme en leur ajoutant 2 cuillères à soupe de sucre pour les soutenir.",
+      "10. Faites fondre le reste du sucre dans 4 cuillères à soupe d'eau et faites cuire jusqu'au grand boulé, soit 120 °C au thermomètre à sucre (sans thermomètre à sucre, prélevez une noisette de sirop et plongez-la dans l'eau glacée, le sirop est prêt lorsque vous pouvez roulez le sucre en boule).",
+      "11. Versez rapidement ce sirop sur les blancs en neige en le faisant couler sur le bord du saladier et non directement sur les blancs. Fouettez à petite vitesse jusqu'à complet refroidissement.",
+      "12. Mettez le four à 240°C (thermostat 8).",
+      "13. Enrobez entièrement le baba de meringue sur 1 cm d'épaisseur à l'aide d'une spatule. Parsemez d'amandes effilées et saupoudrez de sucre glace.",
+      "14. Enfournez 10 minutes. Lorsque la meringue est bien colorée, arrêtez le four."
+    ],
+    "tags_raw": "Polonaise : baba, crème pâtissière, fruits confits et meringue, crème pâtissière, pâte, fruit confit, cerises, amandes effilées, sucre glace, blanc d'oeuf, sucre semoule, grand-marnier, eau, lait, jaune d'oeuf, farine, vanille, facile, moyen, rapide | crème pâtissière",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-racuchy-ratsoure-polonais-aux-pommes-173251-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_racuchy-ratsoure-polonais-aux-pommes_173251.aspx",
+    "name": "Racuchy polonais aux pommes",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "pommes",
+        "raw": "4 pommes"
+      },
+      {
+        "quantity": "300",
+        "unit": "",
+        "name": "farine",
+        "raw": "300 farine"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petits pots de crème fraîche allégée",
+        "raw": "1 petits pots de crème fraîche allégée"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "sucre vanillé",
+        "raw": "1 sachets de sucre vanillé"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "miel",
+        "raw": "miel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cannelle",
+        "raw": "cannelle"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "muscade",
+        "raw": "muscade"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Râper les pommes en copeaux (pas en purée) – sur une râpe à main, utiliser le coté « gros copeaux ».",
+      "2. Dans un saladier, mélanger la farine, les œufs, la crème fraîche, le sucre vanillé. Puis ajouter les pommes, la cannelle, la muscade, une pincée de sel.",
+      "3. Ajouter de 1 à 3 cuillères à soupe de miel.",
+      "4. Bien mélanger, le mélange obtenu doit être fluide mais pas trop (à peine plus épais que la pâte à crêpes). S’il est trop épais, ajouter du lait, s’il est trop liquide, ajouter de la farine.",
+      "5. Préparer une poêle profonde avec un centimètre d'huile (surtout pas d'huile d'olive, bien sûr).",
+      "6. Verser la pâte à la louche ou à la cuillère, pour former des « steaks » d’environ la taille d’un cookie (à peu près 10 cm de diamètre, 1 demi centimètre d’épaisseur), les passer dans l'huile jusqu'à ce qu'ils roussissent.",
+      "7. Les retourner, une fois cuits, les laisser s'égoutter de l'huile à part, ou encore mieux les essuyer avec du papier essuie-tout."
+    ],
+    "tags_raw": "Racuchy polonais aux pommes, , pomme, farine, oeuf, crème fraîche allégée, sucre vanillé, miel, cannelle, muscade, sel, très facile, bon marché",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-roule-au-pavot-makowiec-pologne-13242-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_roule-au-pavot-makowiec-pologne_13242.aspx",
+    "name": "Roulé au pavot Makowiec (Pologne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 60,
+    "cook_minutes": 50,
+    "total_minutes": 110,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "pavot noir",
+        "raw": "400 g de pavot noir"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "200 g de sucre"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "miel",
+        "raw": "3 cuillères à soupe de miel"
+      },
+      {
+        "quantity": "1",
+        "unit": "blancs",
+        "name": "oeuf",
+        "raw": "1 blancs d'oeuf"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "zestes",
+        "name": "orange",
+        "raw": "1 zestes d'orange"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "noisettes ou d'amandes en poudre",
+        "raw": "2 cuillères à soupe de noisettes ou d'amandes en poudre"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "raisins secs (à faire tremper dans du rhum)",
+        "raw": "2 cuillères à soupe de raisins secs (à faire tremper dans du rhum)"
+      },
+      {
+        "quantity": "7.5",
+        "unit": "g",
+        "name": "sucre vanillé",
+        "raw": "7.5 g de sucre vanillé"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine",
+        "raw": "500 g de farine"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "125 g de beurre"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "150 g de sucre"
+      },
+      {
+        "quantity": "7.5",
+        "unit": "g",
+        "name": "sucre vanillé",
+        "raw": "7.5 g de sucre vanillé"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "levure de boulangerie",
+        "raw": "50 g de levure de boulangerie"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "lait chaud",
+        "raw": "15 cl de lait chaud"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oranges (1 zeste)",
+        "raw": "1 oranges (1 zeste)"
+      }
+    ],
+    "steps": [
+      "1. Préparation de la farce :",
+      "2. Dans une casserole, mettre le pavot à tremper pendant 2 heures en versant dessus de l'eau bouillante, puis le faire cuire à feu doux jusqu'à ce que les grains s'écrasent facilement sous les doigts. Egoutter et passer à la moulinette.",
+      "3. Dans une grande casserole, faire fonde le beurre, ajouter le pavot moulu, le sucre, le zeste râpé, les raisins, le miel, les noisettes ou les amandes en poudre et le sucre vanillé. Faire cuire 10 mn à feu doux sans cesser de remuer.",
+      "4. Mélanger avec le blanc battu en neige et laisser refroidir.",
+      "5. Préparation de la pâte :",
+      "6. Délayer la levure dans deux cuillères à soupe de lait chaud, une cuillère à soupe de sucre et une cuillère à soupe de farine. Laisser monter.",
+      "7. Mélanger la farine, le beurre fondu, les oeufs, le reste de lait, le sucre en poudre, le sucre vanillé, le levain, le zeste d'orange et une pincée de sel. Travailler la pâte pour qu'elle soit homogène mais pas trop épaisse. La séparer en deux boules, recouvrir d'un torchon propre et laisser monter une heure dans un endroit chaud.",
+      "8. Sur le torchon étalé et saupoudré de farine, abaisser la pâte au rouleau en lui donnant une forme carrée d'une épaisseur de 2 cm. Etaler la moitié de la farce et rouler le tout à l'aide du torchon.",
+      "9. Recommencer l'opération avec l'autre boule de pâte et le reste de farce.",
+      "10. Beurre une plaque à four et y disposer les deux roulés. Laisser reposer 30 mn, puis les badigeonner avec un jaune d'oeuf battu.",
+      "11. Faire cuire à four chaud 40 à 50 mn. Vérifier la cuisson en piquant avec un couteau pointu dont la lame doit ressortir sèche.",
+      "12. On peut recouvrir les roulés d'un glaçage à l'orange ou les saupoudrer de sucre glace."
+    ],
+    "tags_raw": "Roulé au pavot Makowiec (Pologne), gâteau roulé, pavot, sucre, miel, blanc d'oeuf, beurre, orange, noisettes, raisins secs, sucre vanillé, moyenne, moyen | gâteau roulé",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:pologne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-soupe-de-betteraves-rouges-polonais-42510-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_soupe-de-betteraves-rouges-polonais_42510.aspx",
+    "name": "Soupe de betteraves rouges (Polonais)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 litre",
+    "servings": 1,
+    "prep_minutes": 10,
+    "cook_minutes": 60,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "betteraves rouges crues",
+        "raw": "2 betteraves rouges crues"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "cuillères à café d'acide citrique",
+        "raw": "1/2 cuillères à café d'acide citrique"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "eau",
+        "raw": "eau"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "crème fraîche",
+        "raw": "crème fraîche"
+      }
+    ],
+    "steps": [
+      "1. Eplucher les betteraves crues, et les couper en rondelles d'environ 4 mm d'épaisseur.",
+      "2. Faire cuire les betteraves, dans 1 litre et demi d'eau salée.",
+      "3. Quand elles sont cuites, rajouter l'acide citrique (goûtez, pour juger de l'acidité), rajouter la crème fraîche.",
+      "4. Et passer la soupe au chinois.",
+      "5. Cette soupe, chez moi, se sert dans des verres ne craignant pas le chaud, avec des pommes de terre bouillies, et des oignons qu'on a coupé en rondelles et fait roussir à la poêle dans de l'huile neutre (pas d'huile d'olive)."
+    ],
+    "tags_raw": "Soupe de betteraves rouges (Polonais), , betterave, acide citrique, eau, crème fraîche, très facile, bon marché",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-terrine-de-foies-de-lapin-a-la-polonaise-96036-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_terrine-de-foies-de-lapin-a-la-polonaise_96036.aspx",
+    "name": "Terrine de foies de lapin à la polonaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "total_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "6",
+        "unit": "foie",
+        "name": "lapin",
+        "raw": "6 foie de lapin"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oignons moyens",
+        "raw": "4 oignons moyens"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs durs 2 a 3 cuilères a soupe de graisse d'oie ou de canard'sel et poivre.",
+        "raw": "4 oeufs durs 2 a 3 cuilères a soupe de graisse d'oie ou de canard'sel et poivre."
+      }
+    ],
+    "steps": [
+      "1. faire fondre dans une poêle une cuillère de graisse ajoutez les oignons finement emincés et cuire sans coloration juste fondus.Ajoutez les foies coupésen moreaux et cuire mais pas griller salez et poivrez.Passez le tout a la moulinette pas au mixer et ajoutez lesoeufs durs ecrasés a la fourchette,bien melanger si le mélange est un peu trop sec ajoutez une cuillère de graisse fondue.Mettre en terrine tassez le tout mettre au réfrigérateur.servir la crême de foie avec toasts grillés ou une salade."
+    ],
+    "tags_raw": "Terrine de foies de lapin à la polonaise, foie, foie, oignon, oeuf, moyenne, moyen | foie",
+    "country": "pologne",
+    "country_label": "Pologne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:polonaise"
+    ]
+  }
+]

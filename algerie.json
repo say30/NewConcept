@@ -1,0 +1,4054 @@
+[
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chorba-soupe-aux-legumes-algerienne-12187-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chorba-soupe-aux-legumes-algerienne_12187.aspx",
+    "name": "Chorba (soupe aux légumes algérienne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 40,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "mouton",
+        "raw": "200 g de mouton"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "tomate bien mûres ou 2 cuillerées à soupe de concentré de tomates diluées dans 1 verre d'eau",
+        "raw": "500 g de tomate bien mûres ou 2 cuillerées à soupe de concentré de tomates diluées dans 1 verre d'eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "pois chiches trempés de la veille",
+        "raw": "1 poignées de pois chiches trempés de la veille"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "louches d'huile d'olive ou 100 gr de beurre",
+        "raw": "1/2 louches d'huile d'olive ou 100 gr de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "1 pommes de terre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "carottes",
+        "raw": "1 carottes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "courgettes",
+        "raw": "1 courgettes"
+      },
+      {
+        "quantity": "2",
+        "unit": "branches",
+        "name": "céleri",
+        "raw": "2 branches de céleri"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "coriandre",
+        "raw": "1 bouquets de coriandre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à soupe",
+        "name": "poivre rouge",
+        "raw": "1/2 cuillères à soupe de poivre rouge"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "poivre noir",
+        "raw": "1 pincées de poivre noir"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "cannelle",
+        "raw": "1 pincées de cannelle"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "vermicelles fins",
+        "raw": "100 g de vermicelles fins"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "citron",
+        "raw": "citron"
+      }
+    ],
+    "steps": [
+      "1. Lavez les tomates et coupez-lez en quatre.",
+      "2. Passez-les à la moulinette.",
+      "3. Coupez la viande en petits morceaux.",
+      "4. Nettoyez puis coupez en dés très fins les légumes.",
+      "5. Faites revenir dans l'huile les dés de viande avec l'oignon râpé, les tomates, la moitié du bouquet de coriandre haché, les épices et le sel.",
+      "6. Mouillez avec 1 litre d'eau. Amenez à ébullition.",
+      "7. Jetez les légumes, les pois chiches et les branches de céleri dans le bouillon.",
+      "8. Couvrez et laissez cuire en vérifiant l'eau de temps en temps.",
+      "9. Une fois la viande et les légumes bien cuits, ajoutez de l'eau froide (pour avoir une quantité de soupe suffisante).",
+      "10. Jetez les vermicelles en pluie et saupoudrez de coriandre hachée.",
+      "11. Laissez cuire encore quelques minutes. Vérifiez l'assaisonnement.",
+      "12. Servez avec un filet de citron.",
+      "13. En saison, ajoutez une poignée de petits pois et de fèves tendres."
+    ],
+    "tags_raw": "Chorba (soupe aux légumes algérienne), soupe, mouton, tomate, pois chiches, huile d'olive, oignon, pomme de terre, carotte, courgette, céleri, coriandre, poivre, poivre, cannelle, vermicelles, citron, facile, bon marché | soupe",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 18,
+    "country_match_reasons": [
+      "titre:algerienne",
+      "titre:chorba",
+      "ingredient:pois chiches",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chorba-soupe-algerienne-40666-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chorba-soupe-algerienne_40666.aspx",
+    "name": "chorba (soupe algérienne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 60,
+    "total_minutes": 85,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "gros sel",
+        "raw": "1 cuillères à café de gros sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "poivre moulu",
+        "raw": "1 cuillères à café de poivre moulu"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "gingembre en poudre",
+        "raw": "1 cuillères à café de gingembre en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "carvi en poudre",
+        "raw": "1 cuillères à soupe de carvi en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "piment doux",
+        "raw": "1 cuillères à café de piment doux"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "safran (ou colorant alimentaire)",
+        "raw": "1 pincées de safran (ou colorant alimentaire)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile (tournesol ou olive)",
+        "raw": "1 cuillères à soupe d'huile (tournesol ou olive)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "tomates",
+        "raw": "1 tomates"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "viande (boeuf ou gigot ou épaule d'agneau)",
+        "raw": "viande (boeuf ou gigot ou épaule d'agneau)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "moitié de pâtes",
+        "raw": "moitié de pâtes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil et coriandre",
+        "raw": "persil et coriandre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "concentré de tomates",
+        "raw": "1 cuillères à soupe de concentré de tomates"
+      }
+    ],
+    "steps": [
+      "1. Couper la viande en dés moyens.",
+      "2. La mettre dans une cocotte avec l'oignon et les gousses d'ail rapées ainsi qu'un demi verre d'eau, l'huile et les épices. Mélanger et faire dorer.",
+      "3. Lorsque les oignons ont fondu, ajouter la tomate préalablement émincée. Laisser chauffer 3 à 4 min.",
+      "4. Ajouter ensuite le de concentré de tomate et couvrir d'eau à un peu plus de la moitié de la cocotte.",
+      "5. Refermer la cocotte et laisser cuire environ 40 min, le temps que la viande soit bien cuite.",
+      "6. Lorsque la cocotte a refroidi (lorsqu'il est possible de l'ouvrir), ajouter 1/4 d'un bouquet de persil et la moitié d'un bouquet de coriandre.",
+      "7. Attention à ne pas mettre les queues, il faut retirer juste les feuilles et les ciseler sur une planche.",
+      "8. Ajouter aussi les becs d'oiseau, laisser cuire 10 à 15 min.",
+      "9. Il n'y à plus qu'à se régaler!"
+    ],
+    "tags_raw": "chorba (soupe algérienne), soupe, oignon, ail, gros sel, poivre, gingembre, carvi, piment, safran, huile, tomate, viande, pâtes, persil, concentré de tomates, facile, moyen | soupe",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 17,
+    "country_match_reasons": [
+      "titre:algerienne",
+      "titre:chorba",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chorba-algerienne-recette-de-ma-grand-mere-71766-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chorba-algerienne-recette-de-ma-grand-mere_71766.aspx",
+    "name": "chorba algerienne (recette de ma grand-mère)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "total_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "collier d'agneau",
+        "raw": "1 kg de collier d'agneau"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "courgettes",
+        "raw": "1 courgettes"
+      },
+      {
+        "quantity": "1",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "1 pommes de terre"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "haricots verts frais et ou de haricots plats",
+        "raw": "1 poignées de haricots verts frais et ou de haricots plats"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "petits pois frais (gros)",
+        "raw": "1 poignées de petits pois frais (gros)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "haricots coco (mis à tremper la veille)",
+        "raw": "1 poignées de haricots coco (mis à tremper la veille)"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "tomate entière",
+        "raw": "1 boîtes de tomate entière"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "paprika",
+        "raw": "1 cuillères à soupe de paprika"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "cumin",
+        "raw": "1 cuillères à soupe de cumin"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "coriandre fraîche",
+        "raw": "1 bouquets de coriandre fraîche"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "menthe fraîche",
+        "raw": "1 bouquets de menthe fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      }
+    ],
+    "steps": [
+      "1. Préparation des légumes",
+      "2. Couper tous les légumes en petit dés (la courgette, la pomme de terre, les haricots verts (en bâtonnets) et l'oignon). Ecosser les petits pois.",
+      "3. Sans un couscousier, faire revenir dans l'huile d'olive la viande coupée en morceaux d'environ 4 cm et l'oignon coupé en petit morceaux.",
+      "4. Après que cela ait bien doré, saler, poivrer et ajouter les épices (ne pas laisser trop sur le feu car les épices peuvent brûler et donner un mauvais goût).",
+      "5. Rajouter les légumes et mouiller d'un litre d'eau, metttre le dessus du couscousier (la passoire) et mettre dans celle-ci la boîte de tomates entières.",
+      "6. Laisser cuire à feu doux une bonne heure; à moitié temps rajouter les herbes fraîches ciselées et la tomate.",
+      "7. A la fin de cuisson, il est possible de rajouter des petites pâtes (les langues d'oiseau sont les mieux adaptées; ce sont de petites pâtes ressemblant à des grains de riz long)."
+    ],
+    "tags_raw": "chorba algerienne (recette de ma grand-mère), , collier d'agneau, courgette, pomme de terre, haricots verts, petits pois, oignon, haricots coco, tomate, paprika, cumin, coriandre, menthe, poivre, sel, huile d'olive, très facile, moyen",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 17,
+    "country_match_reasons": [
+      "titre:algerienne",
+      "titre:chorba",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kesra-algerienne-537179-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kesra-algerienne_537179.aspx",
+    "name": "Kesra algérienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 5,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "semoule fine blé dur",
+        "raw": "500 g de semoule fine blé dur"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "eau tiède",
+        "raw": "20 cl d'eau tiède"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe bombées de levure de boulanger sèche",
+        "raw": "1 cuillères à soupe bombées de levure de boulanger sèche"
+      },
+      {
+        "quantity": "5",
+        "unit": "cl",
+        "name": "huile",
+        "raw": "5 cl d'huile"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sel fin",
+        "raw": "1 cuillères à café de sel fin"
+      }
+    ],
+    "steps": [
+      "1. Passez la semoule au tamis pour obtenir un grain bien uniforme. Versez-la dans un saladier puis ajoutez la levure sèche, le sel et mélangez.",
+      "2. Ajoutez ensuite l’eau tiède progressivement en imbibant toute la semoule jusqu’à former une boule de pâte assez dense et ferme. Laissez reposer 5 min.",
+      "3. Après avoir laissé reposer la pâte, travaillez à la main en écrasant la pâte vers l’avant durant au moins 10 min jusqu’à obtenir une texture bien lisse et souple (mais pas molle). Couvrez avec un torchon propre et laissez reposer environ 20 minutes.",
+      "4. Récupérez votre boule de pâte et scindez-la en deux boules de même taille. Abaissez-les à la main sur un plan de travail propre (préalablement fariné si nécessaire). Travaillez-les ensuite au rouleau pour former des disques de 0,5 cm d’épaisseur. Piquez-les à la fourchette.",
+      "5. Faire chauffer à blanc un tajine en terre cuite ou, à défaut, une grande poêle anti-adhésive. Déposez la première kesra. Faites-la dorer uniformément en la tournant sur elle-même pendant 1 à 2 minutes. Répétez l'opération pour la deuxième boule.",
+      "6. Retournez-la kesra à l’aide d’une assiette et piquez-la à la fourchette avant de faire dorer l’autre face. Une fois la kesra bien colorée des deux côtés, sortez du feu et répétez l’opération pour la seconde portion.",
+      "7. Servez comme du pain avec une soupe chorba ou un autre plat en sauce. Cette kesra peut également se consommer simplement en version sucrée avec du miel."
+    ],
+    "tags_raw": "Kesra algérienne, , semoule fine, eau, levure de boulanger sèche, huile, sel fin, très facile, bon marché, rapide",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 17,
+    "country_match_reasons": [
+      "titre:algerienne",
+      "titre:kesra",
+      "ingredient:semoule"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-poulet-a-la-coriandre-algerie-73284-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_poulet-a-la-coriandre-algerie_73284.aspx",
+    "name": "Poulet à la coriandre (Algérie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poulets vidé et nettoyé",
+        "raw": "1 poulets vidé et nettoyé"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "5 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "coriandre",
+        "raw": "1 bouquets de coriandre"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "tomates",
+        "raw": "3 tomates"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons",
+        "raw": "3 oignons"
+      },
+      {
+        "quantity": "4",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "4 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "olives",
+        "raw": "olives"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "gingembre",
+        "raw": "gingembre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Ras el Hanout",
+        "raw": "Ras el Hanout"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1/2 citrons"
+      }
+    ],
+    "steps": [
+      "1. Couper en morceaux les oignons et les tomates. Ajouter la coriandre et l'ail hachés finement.",
+      "2. Mélanger le tout dans l'huile d'olive avec le sel, le poivre, une demi-cuillère à café de gingembre, une cuillère à soupe de ras el hanout et le jus d'un demi citron.",
+      "3. Laisser le poulet mijoter dans cette sauce aussi longtemps que possible (au moins un quart d'heure, l'idéal étant de le laisser reposer ainsi toute une nuit au frigo).",
+      "4. Mouiller le tout avec un verre d'eau et mettre au four à chaleur moyenne.",
+      "5. Une fois le poulet cuit, ajouter les olives et laisser mijoter plus doucement pendant 20 minutes.",
+      "6. Accompagner de la garniture qui vous plaira."
+    ],
+    "tags_raw": "Poulet à la coriandre (Algérie), , poulet, huile d'olive, coriandre, tomate, oignon, ail, olives, sel, poivre, gingembre, Ras el Hanout, citron, facile, moyen",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:algerie",
+      "titre:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chorba-17644-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chorba_17644.aspx",
+    "name": "CHORBA",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "mouton (collier)",
+        "raw": "300 g de mouton (collier)"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "tomates pelées",
+        "raw": "1 kg de tomates pelées"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "concentré de tomates",
+        "raw": "100 g de concentré de tomates"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "pois chiches",
+        "raw": "100 g de pois chiches"
+      },
+      {
+        "quantity": "2",
+        "unit": "bottes",
+        "name": "coriandre",
+        "raw": "2 bottes de coriandre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites bottes de menthe",
+        "raw": "1 petites bottes de menthe"
+      },
+      {
+        "quantity": "2",
+        "unit": "poignées",
+        "name": "boulgour (blé concassé)",
+        "raw": "2 poignées de boulgour (blé concassé)"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "beurre ou d'huile",
+        "raw": "20 g de beurre ou d'huile"
+      },
+      {
+        "quantity": "2",
+        "unit": "l",
+        "name": "eau",
+        "raw": "2 l d'eau"
+      }
+    ],
+    "steps": [
+      "1. Faire tremper les pois chiches dans l'eau la veille.",
+      "2. Peler et hacher les oignons et l'ail. Couper la viande en dés.",
+      "3. Laver et hacher la coriandre et la menthe.",
+      "4. Faire fondre le beurre ou l'huile dans une cocotte et y faire fondre les oignons et l'ail.",
+      "5. Saler, poivrer.",
+      "6. Ajouter la viande et la faire revenir sur chaque côté pendant un quart d'heure.",
+      "7. Ajouter les tomates, le concentré et les pois chiches et bien mélanger. Ajouter l'eau et laisser bouillir jusqu'à ce que les pois chiches soient cuits. Ajouter la coriandre, une demi cuillerée à café de menthe et le boulgour.",
+      "8. Laisser mijoter à feu doux pendant 20 mn."
+    ],
+    "tags_raw": "CHORBA, , oignon, ail, mouton, tomates pelées, concentré de tomates, pois chiches, coriandre, menthe, boulgour, beurre, eau, facile, moyen",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 10,
+    "country_match_reasons": [
+      "titre:chorba",
+      "ingredient:pois chiches",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chorba-algeroise-d-avicenne-27427-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chorba-algeroise-d-avicenne_27427.aspx",
+    "name": "Chorba algéroise d'Avicenne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 180,
+    "total_minutes": 195,
+    "ingredients": [
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "mouton ou agneau entre 50 et 100 g par personne",
+        "raw": "mouton ou agneau entre 50 et 100 g par personne"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons",
+        "raw": "3 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites boîtes de concentré de tomates",
+        "raw": "1 petites boîtes de concentré de tomates"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "carottes",
+        "raw": "5 carottes"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "courgettes",
+        "raw": "5 courgettes"
+      },
+      {
+        "quantity": "2",
+        "unit": "pommes",
+        "name": "terre (facultatif)",
+        "raw": "2 pommes de terre (facultatif)"
+      },
+      {
+        "quantity": "2",
+        "unit": "branches",
+        "name": "céleri",
+        "raw": "2 branches de céleri"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "pois chiches",
+        "raw": "1 boîtes de pois chiches"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "coriandre et de menthe fraîche",
+        "raw": "coriandre et de menthe fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "vermicelles",
+        "raw": "vermicelles"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cumin",
+        "raw": "cumin"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "eau",
+        "raw": "eau"
+      }
+    ],
+    "steps": [
+      "1. Faire revenir la viande coupée avec les oignons, sel, poivre, à petit feu.",
+      "2. Ajouter le concentré de tomate, un peu d'eau et laisser revenir.",
+      "3. Rajouter les légumes coupés en petits morceaux et les pois chiches, le coriandre, la menthe et le cumin.",
+      "4. Rajouter l'eau laisser cuire 3 heure à feu très doux.",
+      "5. Rajouter le vermicelle 5 mn avant de servir ou les langues d'oiseau 12 mn avant.",
+      "6. Vous pouvez remettre du coriandre et de la menthe."
+    ],
+    "tags_raw": "Chorba algéroise d'Avicenne, , mouton, oignon, concentré de tomates, carotte, courgette, pomme de terre, céleri, pois chiches, coriandre, vermicelles, poivre, sel, cumin, eau, très facile, bon marché",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 10,
+    "country_match_reasons": [
+      "titre:chorba",
+      "ingredient:pois chiches",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chorba-rapide-au-thermomix-538391-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chorba-rapide-au-thermomix_538391.aspx",
+    "name": "Chorba au Thermomix",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 65,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "gigot d'agneau",
+        "raw": "200 g de gigot d'agneau"
+      },
+      {
+        "quantity": "70",
+        "unit": "g",
+        "name": "pois chiches",
+        "raw": "70 g de pois chiches"
+      },
+      {
+        "quantity": "70",
+        "unit": "g",
+        "name": "pâtes",
+        "raw": "70 g de pâtes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "branches",
+        "name": "céleri",
+        "raw": "1/2 branches de céleri"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "bouquets de coriandre",
+        "raw": "1/2 bouquets de coriandre"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "cuillères à café",
+        "name": "concentré de tomates",
+        "raw": "1.5 cuillères à café de concentré de tomates"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "paprika",
+        "raw": "1/2 cuillères à café de paprika"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "10 g de beurre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1/2 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "15",
+        "unit": "g",
+        "name": "huile d'olive",
+        "raw": "15 g d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Épluchez l’oignon et coupez-le en deux. Placez-le dans le bol du Thermomix et mixez 5 secondes à vitesse 5. Raclez les parois avec la spatule.",
+      "2. Ajoutez le céleri en morceaux (avec les feuilles) et la coriandre. Hachez 7 secondes à vitesse 6, puis raclez à nouveau les parois. Versez l’huile d’olive et ajoutez le beurre. Faites revenir 3 minutes à 100°C, vitesse 1.",
+      "3. Ajoutez les morceaux de viande dans le bol. Faites dorer 4 minutes à 100°C, en mode sens inverse, vitesse 1. Une fois cette étape terminée, placez la viande dans le panier cuisson.",
+      "4. Dans le bol, ajoutez les tomates concassées, le concentré de tomate, les épices, le sel et le poivre.\nInsérez le panier contenant la viande, puis versez de l’eau jusqu’à la limite indiquée. Fermez le couvercle (sans le gobelet doseur) et placez le couvercle haute température pour éviter les projections. Programmez 40 minutes, 100°C, sens inverse, vitesse cuillère.",
+      "5. Retirez le panier et réservez la viande. Mixez le bouillon 10 secondes à vitesse 6. Ajoutez les pois chiches et les pâtes dans le bol. Replacez la viande et, si nécessaire, ajoutez de l’eau jusqu’au niveau maximal. Relancez la cuisson pour 20 minutes, 100°C, sens inverse, vitesse cuillère, toujours avec le couvercle haute température.",
+      "6. Servez bien chaud et ajoutez de la menthe fraîche ciselée et des rondelles d’oignon rouge sur le dessus."
+    ],
+    "tags_raw": "Chorba au Thermomix, , gigot d'agneau, pois chiches, pâtes, oignon, céleri, coriandre, concentré de tomates, paprika, beurre, cannelle, huile d'olive, sel, poivre, facile, moyen",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 10,
+    "country_match_reasons": [
+      "titre:chorba",
+      "ingredient:pois chiches",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chorba-aux-langues-d-oiseau-538511-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chorba-aux-langues-d-oiseau_538511.aspx",
+    "name": "Chorba aux langues d'oiseau",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 60,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "agneau",
+        "raw": "250 g d'agneau"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "20 cl d'eau"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "tomates concassées",
+        "raw": "200 g de tomates concassées"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "pâtes langues d'oiseau",
+        "raw": "100 g de pâtes langues d'oiseau"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "pois chiches",
+        "raw": "60 g de pois chiches"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "branches",
+        "name": "céleri",
+        "raw": "2 branches de céleri"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "bouquets de coriandre",
+        "raw": "1/2 bouquets de coriandre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "paprika",
+        "raw": "1/2 cuillères à café de paprika"
+      },
+      {
+        "quantity": "25",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "25 g de beurre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1/2 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bonnes pincées de sel",
+        "raw": "1 bonnes pincées de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bonnes pincées de poivre",
+        "raw": "1 bonnes pincées de poivre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      }
+    ],
+    "steps": [
+      "1. Épluchez l'oignon, découpez-le en petits morceaux, puis faites-le revenir dans une cocotte avec un généreux filet d'huile d'olive, à feu élevé. Incorporez le céleri coupé, y compris les feuilles. Faites-le revenir en remuant régulièrement. Assaisonnez légèrement avec du sel et du poivre.",
+      "2. Ajoutez les morceaux de viande et faites-les saisir pendant quelques minutes. Incorporez la coriandre, mélangez bien. Versez la purée de tomates et ajoutez les épices. Ajoutez l'eau et laissez mijoter pendant 50 minutes à feu moyen.",
+      "3. Intégrez les pâtes et les pois chiches, puis continuez la cuisson à feu doux pendant 10 minutes supplémentaires. Goûtez et ajustez l'assaisonnement en sel et en poivre. Servez bien chaud."
+    ],
+    "tags_raw": "Chorba aux langues d'oiseau, , agneau, eau, tomates concassées, pâtes, pois chiches, oignon, céleri, coriandre, paprika, beurre, cannelle, sel, poivre, huile d'olive, facile, moyen",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 10,
+    "country_match_reasons": [
+      "titre:chorba",
+      "ingredient:pois chiches",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chorba-charbo-soupe-40841-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chorba-charbo-soupe_40841.aspx",
+    "name": "chorba charbo (soupe)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "5 personnes",
+    "servings": 5,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "collier d'agneau",
+        "raw": "500 g de collier d'agneau"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "courgette (ne pas les éplucher)",
+        "raw": "400 g de courgette (ne pas les éplucher)"
+      },
+      {
+        "quantity": "10",
+        "unit": "branches",
+        "name": "céleri",
+        "raw": "10 branches de céleri"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "tomates pelées (ou de chair de tomate)",
+        "raw": "1 boîtes de tomates pelées (ou de chair de tomate)"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à café",
+        "name": "concentré de tomates",
+        "raw": "2 cuillères à café de concentré de tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "tasses",
+        "name": "pois chiches",
+        "raw": "1 tasses de pois chiches"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "pâtes à potage rondes (ou langue d'oiseau)",
+        "raw": "3 cuillères à soupe de pâtes à potage rondes (ou langue d'oiseau)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "paprika",
+        "raw": "paprika"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment de Cayenne",
+        "raw": "piment de Cayenne"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "menthe fraîche",
+        "raw": "1 bouquets de menthe fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "coriandre fraîche",
+        "raw": "coriandre fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cumin",
+        "raw": "cumin"
+      }
+    ],
+    "steps": [
+      "1. Faire revenir la viande, coupée en petits morceaux, dans de l'huile d'olive, ajouter l'oignon coupé, et faire revenir.",
+      "2. Saler, poivrer. Et avant que l'oignon ne brunisse, ajouter les courgettes coupées en dés, et le céleri ciselé coupé fin.",
+      "3. Laisser cuire à découvert 5 à 10 min, à petit feu.",
+      "4. Ajouter la tomate, les pois chiche, le paprika, et le piment de Cayenne.",
+      "5. Couvrir le tout avec de l'eau, jusqu'à recouvrir largement la viande.",
+      "6. Laisser cuire 1 h, à petit feu.",
+      "7. Au dernier moment, ajouter les pâtes, et la menthe finement ciselée.",
+      "8. Servir bien chaud."
+    ],
+    "tags_raw": "chorba charbo (soupe), soupe, collier d'agneau, oignon, courgette, céleri, tomates pelées, concentré de tomates, pois chiches, pâtes, paprika, piment de Cayenne, ail, menthe, coriandre, cumin, très facile, bon marché | soupe",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 10,
+    "country_match_reasons": [
+      "titre:chorba",
+      "ingredient:pois chiches",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chorba-constantinoise-de-peps-40379-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chorba-constantinoise-de-peps_40379.aspx",
+    "name": "chorba constantinoise de peps",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "total_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "morceaux",
+        "name": "agneau",
+        "raw": "4 morceaux d'agneau"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "côtes d'agneau",
+        "raw": "4 côtes d'agneau"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "6",
+        "unit": "brins",
+        "name": "coriandre fraîche si possible",
+        "raw": "6 brins de coriandre fraîche si possible"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "pois chiches en bocal",
+        "raw": "250 g de pois chiches en bocal"
+      },
+      {
+        "quantity": "2",
+        "unit": "huile",
+        "name": "olive",
+        "raw": "2 huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "paprika",
+        "raw": "1 pincées de paprika"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pâtes \"plombs\"",
+        "raw": "pâtes \"plombs\""
+      }
+    ],
+    "steps": [
+      "1. Peler les oignons et l'ail, et émincer.",
+      "2. Chauffer l'huile d'olives dans une cocotte, placer la viande nettoyée et essuyée. Rôtir sur les 2 faces légérement.",
+      "3. Ajouter oignons, ail, laisser rôtir doucement 20 min.",
+      "4. Ajouter 1 l d'eau, saler, poivrer ajouter le paprika.",
+      "5. Couvrir, laisser mijoter dans la cocotte fermée 15 min, doucement.",
+      "6. Ajouter les tomates concassées, les pois chiches rincés, laisser mijoter avec le couvercle pendant 12 min.",
+      "7. Ouvrir et ajouter la coriandre plus une tasse moyenne de plombs.",
+      "8. Cuire encore 12 min.",
+      "9. Saler et poivrer, vérifier la cuisson puis servir."
+    ],
+    "tags_raw": "chorba constantinoise de peps, , agneau, côte d'agneau, oignon, ail, coriandre, pois chiches, huile d'olive, paprika, poivre, sel, pâtes, facile, moyen",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 10,
+    "country_match_reasons": [
+      "titre:chorba",
+      "ingredient:pois chiches",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chorba-facile-au-cookeo-538382-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chorba-facile-au-cookeo_538382.aspx",
+    "name": "Chorba facile au Cookeo",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 23,
+    "total_minutes": 33,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "pois chiches",
+        "raw": "500 g de pois chiches"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "carottes",
+        "raw": "3 carottes"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "agneau",
+        "raw": "300 g d'agneau"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "courgettes",
+        "raw": "1 courgettes"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Ras el Hanout",
+        "raw": "1 cuillères à soupe de Ras el Hanout"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "menthe",
+        "raw": "menthe"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "coriandre",
+        "raw": "coriandre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Épluchez l’oignon, puis émincez-le finement. Pelez les carottes et découpez-les en rondelles ou en petits morceaux. Lavez la courgette et coupez-la en dés. Détaillez la viande en morceaux de taille moyenne.",
+      "2. Faites chauffer un filet d’huile d’olive dans la cuve de votre Cookeo en mode « dorer ». Ajoutez la viande et l’oignon émincé, puis faites revenir pendant environ 10 minutes en remuant régulièrement. Incorporez les pois chiches, les morceaux de carottes et de courgette.",
+      "3. Saupoudrez d’épices Ras-El-Hanout, ajoutez la menthe et la coriandre finement ciselées. Versez de l’eau jusqu’à recouvrir tous les ingrédients.",
+      "4. Lancez la cuisson sous pression et laissez cuire pendant 13 minutes. Vérifiez l’assaisonnement et ajustez-le si nécessaire avec du sel et du poivre."
+    ],
+    "tags_raw": "Chorba facile au Cookeo, , pois chiches, carotte, agneau, courgette, Ras el Hanout, oignon, huile d'olive, sel, menthe, coriandre, poivre, facile, bon marché",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 10,
+    "country_match_reasons": [
+      "titre:chorba",
+      "ingredient:pois chiches",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chorba-frik-371933-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chorba-frik_371933.aspx",
+    "name": "Chorba frik",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 95,
+    "total_minutes": 110,
+    "ingredients": [
+      {
+        "quantity": "350",
+        "unit": "g",
+        "name": "mouton",
+        "raw": "350 g de mouton"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "pois chiches",
+        "raw": "100 g de pois chiches"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "frik (blé dur concassé)",
+        "raw": "100 g de frik (blé dur concassé)"
+      },
+      {
+        "quantity": "1",
+        "unit": "branches",
+        "name": "céleri",
+        "raw": "1 branches de céleri"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "concentré de tomates",
+        "raw": "1 cuillères à soupe de concentré de tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "coriandre",
+        "raw": "1 bouquets de coriandre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cuillère à soupe d'huile d'olive",
+        "raw": "cuillère à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "piment",
+        "raw": "1 cuillères à soupe de piment"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "paprika",
+        "raw": "1 cuillères à café de paprika"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. La veille, mettre les pois chiches à tremper dans un saladier d'eau froide.",
+      "2. Détailler la viande et morceau, la désosser.",
+      "3. Éplucher et émincer finement l'oignon. \nLaver et émincer la branche de céleri. \nLaver et ciseler la coriandre.",
+      "4. Faire revenir les morceaux de viande dans une marmite avec un peu d'huile.",
+      "5. Ajouter l'oignon, le céleri, les pois chiches égouttés, la coriandre et un filet d'huile d'olive. \nParsemer de piment, de paprika, saler et poivrer. \nLaisser cuire 10 minutes.",
+      "6. Ajouter 50 cl d'eau, réduire à feu moyen et laisser mijoter 30 minutes.",
+      "7. Ajouter le concentré de tomate et bien mélanger jusqu'à dissolution complète. Ajouter environ 1l d'eau. \nLaisser cuire à nouveau 30 minutes.",
+      "8. Ajouter le frik après l'avoir rincé, mélanger et poursuivre la cuisson 20 minutes à feu doux.",
+      "9. Servir bien chaud."
+    ],
+    "tags_raw": "Chorba frik, soupe, mouton, pois chiches, frik, céleri, oignon, concentré de tomates, coriandre, huile d'olive, piment, paprika, poivre, sel, facile, bon marché | soupe",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 10,
+    "country_match_reasons": [
+      "titre:chorba",
+      "ingredient:pois chiches",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-couscous-algerien-facile-45621-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_couscous-algerien-facile_45621.aspx",
+    "name": "Couscous algérien facile",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 60,
+    "cook_minutes": 120,
+    "total_minutes": 180,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "tomate fraîches ou en boîte",
+        "raw": "1 kg de tomate fraîches ou en boîte"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "poivrons",
+        "raw": "2 poivrons"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "carotte",
+        "raw": "1 kg de carotte"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "courgette fraîches",
+        "raw": "1 kg de courgette fraîches"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "pois chiches secs",
+        "raw": "1 paquets de pois chiches secs"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "aubergines (facultatifs)",
+        "raw": "2 aubergines (facultatifs)"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "semoule grain moyen",
+        "raw": "1 boîtes de semoule grain moyen"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "épices à couscous",
+        "raw": "épices à couscous"
+      },
+      {
+        "quantity": "1",
+        "unit": "noix",
+        "name": "beurre",
+        "raw": "1 noix de beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "harissa",
+        "raw": "harissa"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons en plus, une bonne cuillère à soupe de sucre en poudre, de la cannelle en poudre",
+        "raw": "1 oignons en plus, une bonne cuillère à soupe de sucre en poudre, de la cannelle en poudre"
+      },
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "boeuf",
+        "raw": "800 g de boeuf"
+      },
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "côte d'agneau",
+        "raw": "800 g de côte d'agneau"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "poules",
+        "raw": "6 poules"
+      }
+    ],
+    "steps": [
+      "1. La veille, faire gonfler les pois chiches.",
+      "2. Réalisation :",
+      "3. Faire bien griller le boeuf et l'agneau dans l'huile d'olive et les oignons, et ajouter les aubergines, les courgettes, les tomates, les pois chiches et les carottes; saler et poivrer.",
+      "4. Ajouter les épices et 1/2 litre d'eau, et laisser cuire doucement 2 ou 3 h.",
+      "5. 1/2 heure avant le repas, ajouter les cuisses de poules",
+      "6. Les sauces :",
+      "7. Sauce épicée...",
+      "8. Recueillir du jus de cuisson dans un bol, et y ajouter une petite cuiller d'harissa",
+      "9. Sauce sucrée...",
+      "10. Faire revenir l'oignon émincé dans le sucre, laisser bien dorer, ajouter une louche du jus de cuisson et une cuillère à café de cannelle.",
+      "11. Pour la graine :",
+      "12. Au micro-ondes, c'est très simple et délicieux...",
+      "13. Mettre la graine dans un saladier en verre, couvrir d'eau bouillante, et saler. Passer au micro-ondes pendant 5 min.",
+      "14. Retirer du four, couvrir avec une assiette, et ajouter du beurre au moment de servir.",
+      "15. Pour servir, il est préférable de mettre la viande dans un plat à part."
+    ],
+    "tags_raw": "Couscous algérien facile, couscous, tomate, poivron, carotte, courgette, pois chiches, aubergine, semoule, oignon, huile d'olive, épices à couscous, beurre, harissa, facile, moyen | couscous",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 10,
+    "country_match_reasons": [
+      "titre:algerien",
+      "ingredient:semoule",
+      "ingredient:pois chiches"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-la-chorba-algeroise-47457-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_la-chorba-algeroise_47457.aspx",
+    "name": "La chorba  algéroise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "mouton (épaule de préférance)",
+        "raw": "400 g de mouton (épaule de préférance)"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "blanc de poulet",
+        "raw": "150 g de blanc de poulet"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "tomates bien rouge et mûres",
+        "raw": "4 tomates bien rouge et mûres"
+      },
+      {
+        "quantity": "1",
+        "unit": "courgettes",
+        "name": "150 g environ",
+        "raw": "1 courgettes de 150 g environ"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "carottes",
+        "raw": "2 carottes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons blancs",
+        "raw": "1 oignons blancs"
+      },
+      {
+        "quantity": "2",
+        "unit": "pommes",
+        "name": "terre (environ 300 g)",
+        "raw": "2 pommes de terre (environ 300 g)"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "pois chiches",
+        "raw": "1 poignées de pois chiches"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "concentré de tomates",
+        "raw": "2 cuillères à soupe de concentré de tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "beaux bouquets de coriandre fraîche",
+        "raw": "1 beaux bouquets de coriandre fraîche"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bonnes poignées de menthe",
+        "raw": "1 bonnes poignées de menthe"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "poivre noir",
+        "raw": "1/2 cuillères à café de poivre noir"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1/2 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "coriandre en graines concassées ou en poudre",
+        "raw": "1 cuillères à café de coriandre en graines concassées ou en poudre"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "4 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "vermicelles ou de blé concassée",
+        "raw": "1 poignées de vermicelles ou de blé concassée"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "citron (facultatif)",
+        "raw": "citron (facultatif)"
+      }
+    ],
+    "steps": [
+      "1. Mettre la viande coupée en petitx morceaux dans une marmite assez haute.",
+      "2. Ajouter le blanc de poulet entier, les légumes coupés en petits dés, les pommes de terre entières, les pois chiches, les tomates pelées , épépinées et coupées en morceaux, l’oignon coupé finement, le concentré de tomates, le bouquet de coriandre coupé finement (en réserver 1 poignée pour la fin).",
+      "3. Ajouter les 3/4 de menthe coupé finement, l’huile, les épices et 1 cuillère à café de sel.",
+      "4. Cuire à feu doux pendant une dizaine de minutes, tout en remuant.",
+      "5. Couvrir d’eau à mi-hauteur du mélange viandes-légumes (l’eau ne doit pas couvrir la préparation).",
+      "6. Laisser cuire ainsi une quinzaine de minutes à feu doux, tout en surveillant que les aliments n’attachent pas au fond de la marmite.",
+      "7. Ajouter 1 et 1/2 à 2 litres d’eau, selon si on veut une soupe très légère ou plutôt consistante.",
+      "8. Rectifier le sel éventuellement, et laisser cuire 1/2 heure.",
+      "9. A mi cuisson, retirer les pommes de terre dès qu’elles sont cuites pour les écraser en purée et les remettre dans la marmite.",
+      "10. De même pour le blanc de poulet, le retirer et l’effiler à l’aide de 2 fourchettes, puis le remettre dans la soupe.",
+      "11. 10 min avant la fin de la cuisson, ajouter les vermicelles.",
+      "12. Avant de servir ajouté la poignée de coriandre et de menthe que vous avez réservé, ainsi que quelques pincées de cannelle et de poivre.",
+      "13. A servir bien chaud avec des rondelles de citron."
+    ],
+    "tags_raw": "La chorba  algéroise, , mouton, blanc de poulet, tomate, courgette, carotte, oignon blanc, pomme de terre, pois chiches, concentré de tomates, coriandre, menthe, poivre, cannelle, coriandre, huile, vermicelles, sel, citron, facile, bon marché",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 10,
+    "country_match_reasons": [
+      "titre:chorba",
+      "ingredient:pois chiches",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-carentica-algerie-18577-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_carentica-algerie_18577.aspx",
+    "name": "Carentica (Algérie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 35,
+    "total_minutes": 65,
+    "ingredients": [
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "farine de pois chiches",
+        "raw": "250 g de farine de pois chiches"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs entier et un jaune d'oeuf",
+        "raw": "1 oeufs entier et un jaune d'oeuf"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "cumin",
+        "raw": "1/2 cuillères à café de cumin"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "verres",
+        "name": "beurre fondu",
+        "raw": "1/2 verres de beurre fondu"
+      },
+      {
+        "quantity": "3",
+        "unit": "verres",
+        "name": "eau",
+        "raw": "3 verres d'eau"
+      }
+    ],
+    "steps": [
+      "1. Mettre tous les ingrédients ensemble (sauf le jaune d'oeuf) et mélangez énergiquement jusqu'à ce que le mélange devienne liquide et de couleur jaune.",
+      "2. Laisser reposer 30 mn, puis mélanger de nouveau (au besoin rajouter un peu d'eau).",
+      "3. Beurrer un moule à manqué et verser le carentica (la préparation).",
+      "4. Verser par dessus le jaune d'oeuf battu et le cumin.",
+      "5. Enfourner 30 à 35 mn à four doux et servir tiède ou froid."
+    ],
+    "tags_raw": "Carentica (Algérie), , farine de pois chiches, oeuf, cumin, beurre, eau, très facile, bon marché",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:algerie",
+      "ingredient:pois chiches"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chorba-beida-facile-538507-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chorba-beida-facile_538507.aspx",
+    "name": "Chorba Beida facile",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "blanc de poulet",
+        "raw": "500 g de blanc de poulet"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "pois chiches",
+        "raw": "1 poignées de pois chiches"
+      },
+      {
+        "quantity": "1",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "1 jaunes d'oeuf"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "persil",
+        "raw": "1 bouquets de persil"
+      },
+      {
+        "quantity": "25",
+        "unit": "g",
+        "name": "beurre salé",
+        "raw": "25 g de beurre salé"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1 cuillères à café de sel"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1/2 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "1",
+        "unit": "jus",
+        "name": "citron",
+        "raw": "1 jus de citron"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "poivre",
+        "raw": "1/2 cuillères à café de poivre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bonnes poignées de vermicelles",
+        "raw": "1 bonnes poignées de vermicelles"
+      },
+      {
+        "quantity": "1",
+        "unit": "l",
+        "name": "bouillon de volaille",
+        "raw": "1 l de bouillon de volaille"
+      }
+    ],
+    "steps": [
+      "1. Déposez les morceaux de poulet dans une grande casserole. Râpez finement l’oignon par-dessus, puis incorporez le beurre salé, ainsi que le sel, le poivre, la cannelle et une tasse d’eau avec un cube de bouillon de volaille dilué.",
+      "2. Faites revenir le tout pendant 10 minutes en remuant régulièrement. Ensuite, couvrez avec le reste du liquide, ajoutez les pois chiches et laissez cuire environ 40 minutes (ou seulement 20 minutes si vous utilisez une cocotte-minute).",
+      "3. Une fois ce temps écoulé, incorporez le vermicelle et laissez mijoter doucement pendant 10 minutes.\n\nPrélevez une louche de la sauce et versez-la dans un bol. Ajoutez-y le jus de citron, le persil finement haché et le jaune d’œuf, puis mélangez vigoureusement à l’aide d’une fourchette.",
+      "4. Reversez cette préparation dans la marmite et mélangez délicatement.",
+      "5. Coupez immédiatement le feu.",
+      "6. Servez bien chaud, en parsemant la soupe de persil ciselé."
+    ],
+    "tags_raw": "Chorba Beida facile, , blanc de poulet, oignon, pois chiches, jaune d'oeuf, persil, beurre salé, sel, cannelle, jus de citron, poivre, vermicelles, bouillon de volaille, facile, moyen",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:chorba",
+      "ingredient:pois chiches"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-couscous-sauce-blanche-algerie-30704-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_couscous-sauce-blanche-algerie_30704.aspx",
+    "name": "Couscous sauce blanche (Algérie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 60,
+    "cook_minutes": 60,
+    "total_minutes": 120,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "couscous moyen",
+        "raw": "1 kg de couscous moyen"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "courgette (1 kg)",
+        "raw": "courgette (1 kg)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "navet (0,500 kg)",
+        "raw": "navet (0,500 kg)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pois chiches (+ou- selon le goût)",
+        "raw": "pois chiches (+ou- selon le goût)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cannelle",
+        "raw": "cannelle"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poulet coupé en 8 soit de l'agneau (collier de préférence)",
+        "raw": "poulet coupé en 8 soit de l'agneau (collier de préférence)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "oignon (3 gros)",
+        "raw": "oignon (3 gros)"
+      }
+    ],
+    "steps": [
+      "1. Faites revenir les oignons hachés avec la viande jusqu'à ce qu'elle dore parfaitement.",
+      "2. Mouillez avec 2 litres d'eau et ajoutez les épices. Nettoyez les légumes et les couper en tronçons. Mettez les navets ainsi que les pois chiches à cuire dans le bouillon. A mi-cuisson des légumes, ajoutez les courgettes.",
+      "3. Préparez la semoule comme d'habitude. Ajoutez du beurre en quantité généreuse dans la semoule.",
+      "4. Dégustez et bon appétit !"
+    ],
+    "tags_raw": "Couscous sauce blanche (Algérie), couscous, couscous, courgette, navet, pois chiches, cannelle, sel, poivre, poulet, oignon, très facile, moyen | couscous",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:algerie",
+      "ingredient:pois chiches"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kesra-371934-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kesra_371934.aspx",
+    "name": "Kesra",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "semoule",
+        "raw": "1 kg de semoule"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "huile",
+        "raw": "15 cl d'huile"
+      },
+      {
+        "quantity": "40",
+        "unit": "cl",
+        "name": "eau tiède",
+        "raw": "40 cl d'eau tiède"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "levure",
+        "raw": "1/2 cuillères à café de levure"
+      }
+    ],
+    "steps": [
+      "1. Dans un grand saladier, verser la semoule, le sel et la levure. Bien mélanger.",
+      "2. Ajouter l'huile travailler avec les mains pour que la semoule absorbe l'huile et que ça ne fasse pas de morceaux.",
+      "3. Ajouter l'eau progressivement jusqu'à l'obtention d'une pâte lisse, pas trop dure mais non collante. La pâte doit former une boule ni trop molle ni trop dure. \nTravailler avec la main en appuyant avec la paume avant de reformer une boule et ainsi de suite.",
+      "4. Couvrir et laisser reposer 20 minutes.",
+      "5. Détailler la pâte en 2 à 6 boules selon la taille des galettes souhaitées.",
+      "6. À l'aide d'un rouleau à pâtisserie, étaler les pâtons de pâte.",
+      "7. Piquer la surface de chaque galette avec une fourchette.",
+      "8. Déposer une galette dans une poêle anti-adhésive et laisser cuire des 2 côtés. \nRépéter l'opération avec toutes les galettes.",
+      "9. Servir chaudes, froides ou tièdes. \nLes kesra se consomment sucrées ou salées selon l'accompagnement, comme le pain."
+    ],
+    "tags_raw": "Kesra, accompagnement, semoule, huile, eau, sel, levure, très facile, bon marché | accompagnement",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:kesra",
+      "ingredient:semoule"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-la-chorba-17706-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_la-chorba_17706.aspx",
+    "name": "la chorba",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 90,
+    "total_minutes": 120,
+    "ingredients": [
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "agneau",
+        "raw": "agneau"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "oignon",
+        "raw": "oignon"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pomme de terre",
+        "raw": "pomme de terre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "courgette",
+        "raw": "courgette"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pois chiches",
+        "raw": "pois chiches"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "pâtes (60 à 80 g par personnes)",
+        "raw": "300 g de pâtes (60 à 80 g par personnes)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment en poudre",
+        "raw": "piment en poudre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "concentré de tomates",
+        "raw": "concentré de tomates"
+      }
+    ],
+    "steps": [
+      "1. Faire revenir l'oignon dans l'huile d'olive, mettre la viande et saler laisser prendre de la couleur, ajouter les légumes coupés en julienne, saler, recouvrir d'eau mettre le concentré de tomate (2 cuillères à soupe environ)",
+      "2. Cuire 1h un quart environ, ajouter les pâtes (60 g environ par personnes) et refaire cuire 10 mn.",
+      "3. Pour la sauce faire avec le bouillon et le piment en poudre, soit on y ajoute directe ou bien à part.",
+      "4. Bon appétit !"
+    ],
+    "tags_raw": "la chorba, , agneau, oignon, pomme de terre, courgette, pois chiches, pâtes, sel, piment, huile d'olive, concentré de tomates, facile, moyen",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:chorba",
+      "ingredient:pois chiches"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-la-chorba-sans-tomate-de-mamie-jeanne-85530-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_la-chorba-sans-tomate-de-mamie-jeanne_85530.aspx",
+    "name": "La chorba sans tomate de Mamie Jeanne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 120,
+    "total_minutes": 150,
+    "ingredients": [
+      {
+        "quantity": "1.5",
+        "unit": "kg",
+        "name": "mouton (collier)",
+        "raw": "1.5 kg de mouton (collier)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons blancs",
+        "raw": "1 oignons blancs"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "carottes",
+        "raw": "6 carottes"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "navets",
+        "raw": "4 navets"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "courgettes",
+        "raw": "6 courgettes"
+      },
+      {
+        "quantity": "3",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "3 pommes de terre"
+      },
+      {
+        "quantity": "1",
+        "unit": "bottes",
+        "name": "coriandre frais (ou en poudre)",
+        "raw": "1 bottes de coriandre frais (ou en poudre)"
+      },
+      {
+        "quantity": "1",
+        "unit": "bottes",
+        "name": "persil plat (pas frisé)",
+        "raw": "1 bottes de persil plat (pas frisé)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "citrons",
+        "raw": "2 citrons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "1 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "poivre rouge en poudre (ou piment doux)",
+        "raw": "3 cuillères à soupe de poivre rouge en poudre (ou piment doux)"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "cumin en poudre",
+        "raw": "2 cuillères à soupe de cumin en poudre"
+      }
+    ],
+    "steps": [
+      "1. Couper l'agneau en petits morceaux (cubes de 2 à 3 centimètres).",
+      "2. Faire revenir à feu vif le mouton dans l'huile d'olive.",
+      "3. Quand la viande est dorée, ajouter l'oignon blanc coupé fin.",
+      "4. Couvrir et mettre à feu doux.",
+      "5. Quand l'oignon devient transparent, ajouter la moitié des épices (piment et cumin).",
+      "6. Ajouter les légumes coupés en petits morceaux.",
+      "7. NE PAS AJOUTER l'eau tout de suite, il faut laisser revenir le tout quelques instants (5 min).",
+      "8. Ajouter l'eau (tiède) en quantité voulue.",
+      "9. Laisser bouillir 30 min.",
+      "10. Ajouter la coriandre et le persil en botte.",
+      "11. En fin de cuisson, ajouter le reste des épices.",
+      "12. Avant de servir, ajouter le jus des 2 citrons.",
+      "13. Facultatif : on peut ajouter du vermicelle ou faire pocher des œufs dans la soupe avant de servir."
+    ],
+    "tags_raw": "La chorba sans tomate de Mamie Jeanne, , mouton, oignon blanc, carotte, navet, courgette, pomme de terre, coriandre, persil, citron, huile d'olive, poivre, cumin en poudre, facile, moyen",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:chorba",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-mahjouba-ou-crepes-fourrees-franco-algerienne-26285-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_mahjouba-ou-crepes-fourrees-franco-algerienne_26285.aspx",
+    "name": "mahjouba ou crêpes fourrées franco-algérienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 90,
+    "cook_minutes": 5,
+    "total_minutes": 95,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "semoule à couscous mais la semoule style farine",
+        "raw": "200 g de semoule à couscous mais la semoule style farine"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "farine",
+        "raw": "200 g de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "eau",
+        "raw": "eau"
+      },
+      {
+        "quantity": "3",
+        "unit": "oignons",
+        "name": "bonne taille",
+        "raw": "3 oignons de bonne taille"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail réduits en pulpe",
+        "raw": "2 gousses d'ail réduits en pulpe"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "bonnes cuillères à soupe de concentré de tomates",
+        "raw": "4 bonnes cuillères à soupe de concentré de tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cumin",
+        "raw": "1 cuillères à café de cumin"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "Ras el Hanout",
+        "raw": "1 cuillères à café de Ras el Hanout"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "harissa et du piment en poudre ou Tabasco selon le goût supporté",
+        "raw": "harissa et du piment en poudre ou Tabasco selon le goût supporté"
+      }
+    ],
+    "steps": [
+      "1. Mélanger énergiquement la semouline et la farine tamisées ensemble avec le sel. Mouiller peu à peu de l’eau pour que la pâte soit ferme. Laisser reposer à couvert 15 min.",
+      "2. Pendant ce temps préparer la farce, l’idéal et le plus simple :",
+      "3. Mettre tous les ingrédients dans un robot et tout mouliner, les oignons doivent conserver des morceaux, ne pas les réduire en purée.",
+      "4. Sinon si vous n’avez pas de robot, sortez vos mouchoirs et snif, snif, on taille finement les oignons et on mélange le reste.",
+      "5. On revient à notre pâte :",
+      "6. Pétrir la pâte ensuite pendant 20 min en aspergeant d’eau.",
+      "7. Surtout ne pas s’affoler. La pâte parait très collante au début quand on ajoute de l’eau, mais peu à peu la semoule boit l’eau. Je ne peux dire combien je mets d’eau car je le vois à la consistance de la pâte, on doit obtenir une pâte légère, élastique et non collante.",
+      "8. On doit pouvoir étirer la pâte sans qu’elle se déchire.",
+      "9. La laisser reposer 5 min recouverte d’un torchon.",
+      "10. Former des boulettes de la grosseur d’un œuf avec les mains légèrement huilées.",
+      "11. Déposer un peu d’huile sur le plan de travail et l’étaler comme on le fait avec de la farine quand on étale une pâte à tarte.",
+      "12. Prendre une boulette de pâte, l’étirer un peu, déposer un tout petit peu d’huile sur la pâte pour l’étaler avec les doigts le plus finement possible.",
+      "13. Je m’explique, et faites en même temps que moi et vous allez comprendre :",
+      "14. Poser votre index et votre majeur sur l’huile déposée sur la pâte et faire des petits cercle afin d’étirer la pâte. On doit obtenir une sorte de crêpe de 20 cm presque transparente, élastique et qui ne perce pas.",
+      "15. Déposer de la farce sur un côté et rabattre l’autre pour former le chausson.",
+      "16. Déposer ce chausson dans une poêle très chaude non huilée (vous avez compris pourquoi).",
+      "17. Faire cuire les 2 faces."
+    ],
+    "tags_raw": "mahjouba ou crêpes fourrées franco-algérienne , , semoule, farine, sel, eau, moyenne, bon marché, rapide",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:algerienne",
+      "ingredient:semoule"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-makrout-309743-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_makrout_309743.aspx",
+    "name": "Makrout",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 40,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "semoule de blé dur moyenne",
+        "raw": "400 g de semoule de blé dur moyenne"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "pâte de dattes",
+        "raw": "500 g de pâte de dattes"
+      },
+      {
+        "quantity": "5",
+        "unit": "cuillères",
+        "name": "café d'eau de fleur d'oranger",
+        "raw": "5 cuillères de café d'eau de fleur d'oranger"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "cannelle",
+        "raw": "1 pincées de cannelle"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "pots",
+        "name": "miel",
+        "raw": "1 pots de miel"
+      },
+      {
+        "quantity": "1",
+        "unit": "verres",
+        "name": "eau",
+        "raw": "1 verres d'eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "huile",
+        "name": "friture (facultatif)",
+        "raw": "1 huile de friture (facultatif)"
+      }
+    ],
+    "steps": [
+      "1. Préparer une première pâte avec la semoule, le beurre, le sel, un verre d'eau et 4 cuillerées a café d'eau de fleur d'oranger.",
+      "2. Mélanger le tout et rouler la pâte de façon a obtenir un long boudin.",
+      "3. Préparer une seconde pâte avec la pâte de dattes, la cannelle et la dernière cuillerée d'eau de fleur d'oranger, passer la au micro-ondes quelques secondes pour qu'elle soit plus malléable. Mélanger et constituer un second boudin.",
+      "4. Creuser une tranchée dans la première pâte et y insérer la seconde puis rouler afin de fermer de façon homogène. Couper le boudin obtenu en losanges.",
+      "5. Cuisson : laisser cuire au four 5 min à 250°C puis 15 min à 150°C.",
+      "6. Ils ressortent toujours blancs alors je les passes quelques secondes dans un bain de friture.",
+      "7. Juste après la cuisson faire chauffer 1 min un bol de miel au micro-ondes et tremper chaque losanges dedans sur les 2 faces puis les installer sur une grille pour égoutter le surplus de miel.",
+      "8. Laisser refroidir dans une assiette en les séparant bien puis REGALEZ-VOUS !"
+    ],
+    "tags_raw": "Makrout, makrout, semoule, beurre, pâte de dattes, café, cannelle, sel, miel, eau, huile de friture, facile, bon marché | makrout",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:makrout",
+      "ingredient:semoule"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-matlouh-535303-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_matlouh_535303.aspx",
+    "name": "Matlouh, pain traditionnel algérien",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "total_minutes": 165,
+    "ingredients": [
+      {
+        "quantity": "450",
+        "unit": "g",
+        "name": "farine",
+        "raw": "450 g de farine"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "semoule fine",
+        "raw": "100 g de semoule fine"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "2 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "eau tiède",
+        "raw": "50 cl d'eau tiède"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "sachets",
+        "name": "levure chimique",
+        "raw": "1/2 sachets de levure chimique"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "grosses pincées de sel",
+        "raw": "1 grosses pincées de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sucre en poudre",
+        "raw": "1 cuillères à soupe de sucre en poudre"
+      }
+    ],
+    "steps": [
+      "1. Mélanger dans un récipient la semoule, la farine, le sel, le sucre et la levure.",
+      "2. Former un puits et ajoutez l'huile au centre. Mélanger délicatement.",
+      "3. Incorporer l'eau au fur et à mesure en mélangeant délicatement. Pétrir la pâte jusqu'à obtenir un mélange lisse, homogène et non collant.",
+      "4. Huiler légèrement la pâte et la laisser pousser pendant 1h30 dans un endroit sec, dans le saladier recouvert d'un linge propre.",
+      "5. Après le temps de repos, récupérer la pâte et la dégazer.",
+      "6. Diviser la pâte en pâtons et façonner les petits pains.",
+      "7. Laisser à nouveau pousser pendant 30 minutes.",
+      "8. Après le temps de repos, faire cuire les pains à la poêle ou au tajine pour une cuisson parfaite. Retourner les pains à mi-cuisson lorsque des petites bulles se forment."
+    ],
+    "tags_raw": "Matlouh, pain traditionnel algérien, pain, farine, semoule fine, huile, eau, levure chimique, sel, sucre en poudre, facile, bon marché | pain",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:algerien",
+      "ingredient:semoule"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-merkouda-specialite-algerienne-41926-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_merkouda-specialite-algerienne_41926.aspx",
+    "name": "Merkouda (spécialité algérienne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "flocon de purée (pour 4 personnes)",
+        "raw": "1 sachets de flocon de purée (pour 4 personnes)"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail frais",
+        "raw": "1 gousses d'ail frais"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "bouquets de coriandre fraîche",
+        "raw": "1/2 bouquets de coriandre fraîche"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "Ras el Hanout",
+        "raw": "1/2 cuillères à café de Ras el Hanout"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "cumin en poudre",
+        "raw": "1/2 cuillères à café de cumin en poudre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "curcuma",
+        "raw": "1/2 cuillères à café de curcuma"
+      },
+      {
+        "quantity": "1",
+        "unit": "doses",
+        "name": "safran en poudre",
+        "raw": "1 doses de safran en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "30",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "30 cl d'eau"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de friture",
+        "raw": "huile de friture"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Mélanger les flocons de purée avec les épices, ajouter 20 cl d'eau, puis malaxer à la main.",
+      "2. Ajouter, petit à petit, (pas tout, si c'est pas nécessaire) l'eau restante... Tout réside dans le dosage de l'eau!",
+      "3. Le mélange ne doit pas être trop compacte, et pas trop mou...",
+      "4. Prendre un petit peu de pâte, et en faire une boulette.",
+      "5. Bien la tasser, et l'applatir pour en faire une galette (qui tient tout juste dans le creux de la paume).",
+      "6. Faire de même avec toute la pâte.",
+      "7. Battre l'oeuf, et y plonger chacune des galettes.",
+      "8. Faire frire les galettes dans de l'huile de friture assez chaude, pour ne pas qu'elles accrochent, et déguster chaud, tiède ou froid...",
+      "9. A vous de jouer!!"
+    ],
+    "tags_raw": "Merkouda (spécialité algérienne), , flocon de purée, ail, coriandre, Ras el Hanout, cumin en poudre, curcuma, safran, oeuf, eau, huile de friture, poivre, sel, facile, bon marché, rapide",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:algerienne",
+      "ingredient:coriandre"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-mtewwem-marqa-bayda-algerie-93958-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_mtewwem-marqa-bayda-algerie_93958.aspx",
+    "name": "Mtewwem marqa bayda (algérie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 45,
+    "total_minutes": 65,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "mouton",
+        "raw": "500 g de mouton"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "pois chiches trempés la veille",
+        "raw": "1 poignées de pois chiches trempés la veille"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bonnes poignées d'amandes etières, bien blanches",
+        "raw": "1 bonnes poignées d'amandes etières, bien blanches"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "ail",
+        "raw": "1 ail"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "2 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "beurre ou de smen (beurre salé)",
+        "raw": "1 cuillères à soupe de beurre ou de smen (beurre salé)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre noir",
+        "raw": "poivre noir"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cannelle",
+        "raw": "cannelle"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "viande hachée",
+        "raw": "250 g de viande hachée"
+      },
+      {
+        "quantity": "1",
+        "unit": "blancs",
+        "name": "oeuf",
+        "raw": "1 blancs d'oeuf"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "farine",
+        "raw": "1 farine"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cumin",
+        "raw": "cumin"
+      }
+    ],
+    "steps": [
+      "1. -> Faites revenir la viande dans l'huile et le beurre.",
+      "2. - Pilez l'ail avec 1 pincée de poivre noir, 1 pincée de cannelle et du sel.",
+      "3. - Versez sur la viande et laissez revenir encore quelques minutes.",
+      "4. - Mouillez avec 1/2 litre d'eau environ.",
+      "5. - Jetez les pois chiches et les amandes mondées dans la sauce.",
+      "6. - Laissez cuire.",
+      "7. -> Entre-temps préparez les boulettes.",
+      "8. - Assaisonnez la viande hachée avec 1 pincée de poivre noir, 1 pincée de cannelle, 1 pincée de cumin et du sel.",
+      "9. - Ajoutez une gousse d'ail pilée, le blanc d'oeuf et la farine.",
+      "10. - Formez-en de petites boulettes et réservez.",
+      "11. - Une fois la viande en morceaux cuite, plongez les boulettes dans la sauce.",
+      "12. - Laissez cuire et mijoter quelques minutes."
+    ],
+    "tags_raw": "Mtewwem marqa bayda (algérie), , mouton, pois chiches, amandes, ail, huile, beurre, poivre, cannelle, sel, très facile, bon marché",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:algerie",
+      "ingredient:pois chiches"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-rechta-537176-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_rechta_537176.aspx",
+    "name": "Rechta",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 50,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "pâtes rechta",
+        "raw": "500 g de pâtes rechta"
+      },
+      {
+        "quantity": "4",
+        "unit": "pièces",
+        "name": "cuisse de poulet",
+        "raw": "4 pièces de cuisse de poulet"
+      },
+      {
+        "quantity": "1",
+        "unit": "verres",
+        "name": "pois chiches",
+        "raw": "1 verres de pois chiches"
+      },
+      {
+        "quantity": "3",
+        "unit": "pièces",
+        "name": "navet",
+        "raw": "3 pièces de navet"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "courgette",
+        "raw": "1 pièces de courgette"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "oignon",
+        "raw": "1 pièces d'oignon"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à soupe",
+        "name": "beurre fermenté (Smen)",
+        "raw": "1/2 cuillères à soupe de beurre fermenté (Smen)"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "4 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "gingembre en poudre",
+        "raw": "1/2 cuillères à café de gingembre en poudre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre du moulin",
+        "raw": "poivre du moulin"
+      },
+      {
+        "quantity": "1",
+        "unit": "noix",
+        "name": "beurre doux",
+        "raw": "1 noix de beurre doux"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "eau",
+        "raw": "eau"
+      }
+    ],
+    "steps": [
+      "1. faites tremper les pois chiches la veille et rincez-les avant utilisation. Lavez le navet et la courgette, retirez la peau et coupez-les en gros morceaux. Pelez et émincez l’oignon.",
+      "2. Dans une marmite, faites chauffer le smen avec un peu d’huile. Faites-y dorer le poulet à feu vif pendant 10 minutes. Ajoutez l’oignon émincé, le gingembre, la cannelle, le sel et le poivre. Mélangez bien.",
+      "3. Ajoutez ½ litre d’eau, baissez le feu et laissez mijoter pendant 20 minutes à feu moyen. Ajoutez ensuite les pois chiches, les morceaux de courgette et de navet. Et poursuivez la cuisson sans couvrir. Si trop d’eau s’est évaporée, rajoutez-en également.",
+      "4. Pendant ce temps, humidifiez la rechta avec un peu d’eau et arrosez avec de l’huile. Salez légèrement.  Mélangez à la main pour bien humidifier toutes les pâtes. Placez-les ensuite dans un couscoussier préalablement beurré et faites cuire à la vapeur une première fois pendant 15 minutes. Répétez l’opération une seconde fois en prenant bien le temps de décoller la rechta.",
+      "5. Récupérez deux belles louches de jus de cuisson de la viande. Placez ensuite le couscoussier avec la rechta au-dessus de la marmite. Arrosez généreusement de jus et laissez les nouilles s’imprégner avant de servir.",
+      "6. Pour le servir, placez la rechta dans un plat creux. Arrosez de jus de cuisson. Placez ensuite par-dessus les morceaux de légumes et les pois chiches puis les morceaux de poulet. Saupoudrez d’un peu de cannelle et régalez-vous !"
+    ],
+    "tags_raw": "Rechta, , pâtes, cuisse de poulet, pois chiches, navet, courgette, oignon, beurre, huile, cannelle, gingembre en poudre, sel, poivre du moulin, beurre doux, eau, difficile, assez cher",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:rechta",
+      "ingredient:pois chiches"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-soupe-de-riz-aux-feves-algerie-23510-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_soupe-de-riz-aux-feves-algerie_23510.aspx",
+    "name": "Soupe de riz aux fèves ( Algérie )",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 40,
+    "cook_minutes": 20,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "riz",
+        "raw": "200 g de riz"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "fèves",
+        "raw": "1 kg de fèves"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "5 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "tomates pelées",
+        "raw": "2 tomates pelées"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "parmesan",
+        "raw": "parmesan"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Ecossez les fèves et mettez les dans 1 casserole d'eau chaude. Porter à ébullition et laisser cuire 3 mn.",
+      "2. Egouttez les fèves, et ôtez leur petite peau. Coupez les tomates en petits morceaux. Hachez l'oignon. Mettez l'huile dans 1 casserole et faites blondir l'oignon. Ajoutez-y les fèves, les tomates, le sel et le poivre, couvrez et laissez cuire 5 à 6 mn.",
+      "3. Ajoutez le riz dans la casserole et remuez. Versez peu à peu 1 litre d'eau bien chaude. Couvrer et laisser cuire à feu doux. Dès que le riz est cuit, servez avec du parmesan râpé."
+    ],
+    "tags_raw": "Soupe de riz aux fèves ( Algérie ), plat de riz, riz, oignon, fèves, huile d'olive, tomates pelées, parmesan, poivre, sel, très facile, bon marché | plat de riz",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:algerie",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boules-a-la-noix-de-coco-recette-algerienne-52202-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boules-a-la-noix-de-coco-recette-algerienne_52202.aspx",
+    "name": "Boules à la noix de coco (recette algérienne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "700",
+        "unit": "g",
+        "name": "farine",
+        "raw": "700 g de farine"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "4 oeufs"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "verres",
+        "name": "beurre fondu",
+        "raw": "1/2 verres de beurre fondu"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "250 g de sucre en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "levure chimique",
+        "raw": "1 sachets de levure chimique"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "sucre vanillé",
+        "raw": "1 sachets de sucre vanillé"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petits pots de confiture de fraises",
+        "raw": "1 petits pots de confiture de fraises"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "noix de coco rapée",
+        "raw": "400 g de noix de coco rapée"
+      }
+    ],
+    "steps": [
+      "1. Préchauffez le four à 180°C (thermostat 6).",
+      "2. Dans un grand saladier, mélangez les oeufs battus, le beurre et le sucre en poudre.",
+      "3. Ajoutez la farine, la levure chimique et le sucre vanillé.",
+      "4. Mélangez bien la pâte avec vos mains.",
+      "5. Formez des boules de la taille d'une noix et applatissez-les un peu sur le dessus, disposez les sur une plaque.",
+      "6. Faites cuire 20 min.",
+      "7. Attendez que les rochers soit froids.",
+      "8. Faites tiédir la confiture, mettez-en un peu sur le coté plat d'un des rochers, puis soudez-en un autre dessus.",
+      "9. Vous obtenez une boule : roulez cette boule dans la confiture, puis dans la noix de coco."
+    ],
+    "tags_raw": "Boules à la noix de coco (recette algérienne), , farine, oeuf, beurre, sucre en poudre, levure chimique, sucre vanillé, confiture de fraises, noix de coco rapée, facile, moyen",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:algerienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boulettes-de-viande-a-l-algerienne-81068-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boulettes-de-viande-a-l-algerienne_81068.aspx",
+    "name": "Boulettes de viande à l'algérienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "bifteck haché",
+        "raw": "400 g de bifteck haché"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères",
+        "name": "moutarde",
+        "raw": "1 cuillères de moutarde"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "beaux bouquets de menthe fraîche",
+        "raw": "1 beaux bouquets de menthe fraîche"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "carvi",
+        "raw": "carvi"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "tomates pelées",
+        "raw": "1 boîtes de tomates pelées"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "concentré de tomates",
+        "raw": "1 cuillères à soupe de concentré de tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bouquets garnis",
+        "raw": "1 bouquets garnis"
+      }
+    ],
+    "steps": [
+      "1. Mélanger la viande hachée avec la moutarde, la moitié de l'oignon émincé, la menthe hachée, l'oeuf et le carvi. Saler et poivrer.",
+      "2. Confectionner des boulettes que vous faites revenir dans une cuillère à soupe d'huile d'olive. Lorsque la viande est dorée, la retirer de la poêle et laisser en attente.",
+      "3. Faire une sauce tomate: faire blondir la moitié de l'oignon émincé restant, ajouter la boîte de tomates coupées en dés, la cuillère de concentré de tomate, l'ail, le bouquet garni et du carvi. Saler poivrer.",
+      "4. Ajouter dans la sauce les boulettes de viande afin qu'elles finissent de cuire dans la sauce tomate.",
+      "5. Laisser mijoter 30 minutes environ. Servir avec du riz."
+    ],
+    "tags_raw": "Boulettes de viande à l'algérienne, , bifteck haché, oignon, moutarde, menthe, huile d'olive, carvi, oeuf, ail, tomates pelées, concentré de tomates, bouquet garni, facile, bon marché",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:algerienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-brick-saveur-d-algerie-carbe-semon-51885-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_brick-saveur-d-algerie-carbe-semon_51885.aspx",
+    "name": "Brick saveur d'Algérie \"carbe semon\"",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 60,
+    "cook_minutes": 15,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "feuille de brick",
+        "raw": "feuille de brick"
+      },
+      {
+        "quantity": "6",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "6 pommes de terre"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "thon nature",
+        "raw": "1 boîtes de thon nature"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "saumon fumé",
+        "raw": "250 g de saumon fumé"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "surimi au crabe",
+        "raw": "1 boîtes de surimi au crabe"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "persil",
+        "raw": "1 poignées de persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "toastinette",
+        "raw": "toastinette"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile",
+        "raw": "huile"
+      }
+    ],
+    "steps": [
+      "1. Faire cuire les pommes de terre dans une casserole puis les réduire en purée.",
+      "2. Ajouter le thon, le surimi coupé en morceaux, le persil, l'oeuf, du sel et du poivre.",
+      "3. Couper les feuilles de bricks en deux.",
+      "4. Prendre une moitié de feuille puis 1 bâton de surimi déroulé dessus, la farce aux pommes de terre puis une tranche de saumon fumé.",
+      "5. Rouler le tout.",
+      "6. Dorer à la poêle dans l'huile bien chaude.",
+      "7. Bon appétit."
+    ],
+    "tags_raw": "Brick saveur d'Algérie \"carbe semon\", brick, brick, pomme de terre, thon, saumon fumé, surimi, persil, poivre, sel, toastinette, oeuf, huile, facile, moyen | brick",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:algerie"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gigot-a-l-algerienne-40907-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gigot-a-l-algerienne_40907.aspx",
+    "name": "Gigot à l'Algérienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 1,
+    "cook_minutes": 60,
+    "total_minutes": 61,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "gigot",
+        "name": "agneau (1,2 à 1,5 kg)",
+        "raw": "1 gigot d'agneau (1,2 à 1,5 kg)"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "tomates",
+        "raw": "1 tomates"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "safran à diluer",
+        "raw": "safran à diluer"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel de guérande, poivre",
+        "raw": "sel de guérande, poivre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "1 cuillères à soupe d'huile"
+      }
+    ],
+    "steps": [
+      "1. La veille :",
+      "2. Diluer le safran dans 1,2 litres d'eau tiède.",
+      "3. Badigeonner tout le gigot avec la préparation, puis laisser le gigot mariner (en le retournant de temps à autre) toute la nuit.",
+      "4. Le jour même :",
+      "5. Piquer d'ail le gigot, saler et poivrer.",
+      "6. Faire revenir le gigot dans un peu d'huile.",
+      "7. Ajouter la tomate moulinée.",
+      "8. Mettre de l'eau dans une cocotte (environ à la moitié du gigot), et laisser à découvert 30 min.",
+      "9. Ensuite, mettre au four à 210°C (thermostat 7) pendant 30 min.",
+      "10. Pendant ce temps, laisser réduire la sauce dans la cocotte, à feu doux, puis le mettre dans le plat de service (et qui va au four!).",
+      "11. Quand le gigot est cuit, le transférer dans le plat, et enfourner le tout à 210° (therm.7).",
+      "12. Laisser dorer tout en surveillant pendant 10-15 min."
+    ],
+    "tags_raw": "Gigot à l'Algérienne, , gigot d'agneau, ail, tomate, safran, sel, huile, facile, assez cher",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:algerienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-griwech-algerien-537186-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_griwech-algerien_537186.aspx",
+    "name": "Griwech algérien",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 60,
+    "cook_minutes": 10,
+    "total_minutes": 100,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine",
+        "raw": "500 g de farine"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "beurre doux",
+        "raw": "150 g de beurre doux"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "oeuf",
+        "raw": "1 pièces d'oeuf"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "Vanille en poudre Vahiné",
+        "raw": "1 cuillères à café de Vanille en poudre Vahiné"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "sachets",
+        "name": "levure chimique",
+        "raw": "1/2 sachets de levure chimique"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sucre en poudre",
+        "raw": "1 cuillères à café de sucre en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "vinaigre blanc",
+        "raw": "1 cuillères à café de vinaigre blanc"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'eau de fleur d'oranger",
+        "raw": "2 cuillères à soupe d'eau de fleur d'oranger"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "10 cl d'eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "cuillères à soupe bombées de graines de sésame",
+        "raw": "4 cuillères à soupe bombées de graines de sésame"
+      },
+      {
+        "quantity": "250",
+        "unit": "ml",
+        "name": "miel toutes fleurs",
+        "raw": "250 ml de miel toutes fleurs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de friture",
+        "raw": "huile de friture"
+      }
+    ],
+    "steps": [
+      "1. Préparez la pâte : mélangez la farine, la levure chimique, le sucre, et le sel dans un grand bol. Ajoutez le beurre fondu et mélangez bien avec vos mains jusqu'à obtenir une texture sableuse.",
+      "2. Ajoutez les liquides : faites un puits au centre du mélange et ajoutez l'œuf, le vinaigre, et 1 càs d'eau de fleur d'oranger. Mélangez en ajoutant petit à petit de l'eau tiède jusqu'à obtenir une pâte souple et homogène. Pétrissez légèrement puis laissez reposer la pâte, couverte, pendant environ 30 minutes.",
+      "3. Formez les griwech : divisez la pâte en petites boules. Étalez chaque boule finement (environ 2 mm d'épaisseur) sur une surface légèrement farinée. Découpez des rectangles (environ 10x5 cm) dans la pâte. Dans chaque rectangle, faites 3 ou 4 entailles parallèles sans aller jusqu'aux bords. Ensuite, attrapez chaque entaille et passez une extrémité du rectangle à travers une entaille pour former la forme caractéristique du griwech.",
+      "4. Faites chauffer de l'huile dans une friteuse ou une grande casserole. Faites frire les griwech à feu moyen jusqu'à ce qu'ils soient dorés et croustillants. Égouttez-les sur du papier absorbant.",
+      "5. Chauffez le miel avec 1 càs d'eau de fleur d'oranger dans une casserole jusqu'à ce qu'il devienne liquide. Plongez chaque griwech dans le miel chaud, puis égouttez-le et disposez-le sur une assiette.",
+      "6. Saupoudrez immédiatement les griwech de graines de sésame grillées avant que le miel ne durcisse. Vous pouvez conserver les griwech dans une boîte hermétique pour qu'ils restent croquants plus longtemps."
+    ],
+    "tags_raw": "Griwech algérien, , farine, beurre doux, oeuf, Vanille en poudre Vahiné, levure chimique, sucre en poudre, vinaigre blanc, eau de fleur d'oranger, eau, sel, graines de sésame, miel toutes fleurs, huile de friture, difficile, moyen, rapide",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:algerien"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-lapin-a-l-algerienne-de-meme-345581-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_lapin-a-l-algerienne-de-meme_345581.aspx",
+    "name": "Lapin à l'algérienne de mémé",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 90,
+    "total_minutes": 105,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "lapin coupé en morceaux",
+        "raw": "1 lapin coupé en morceaux"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "tomates pelées",
+        "raw": "1 boîtes de tomates pelées"
+      },
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "oignons",
+        "raw": "10 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs durs",
+        "raw": "2 oeufs durs"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "bouquet garni",
+        "raw": "1 cuillères à café de bouquet garni"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "piment fort",
+        "raw": "1 pincées de piment fort"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "piment doux",
+        "raw": "1 pincées de piment doux"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "huile",
+        "raw": "20 g d'huile"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "1 cuillères à soupe d'huile"
+      }
+    ],
+    "steps": [
+      "1. Dans une cocotte, faire dorer les morceaux de lapin dans le mélange beurre et huile.",
+      "2. Ajouter les tomates pelées, les petits oignons épluchés, du bouquet garni, le piment, sel et poivre.",
+      "3. Écraser finement à la fourchette les deux oeufs durs et les ajouter au lapin.",
+      "4. Couvrir et laisser mijoter 1h30.",
+      "5. On peut aussi préparer cette recette dans une cocotte minute et ne laisser mijoter que 45 minutes."
+    ],
+    "tags_raw": "Lapin à l'algérienne de mémé, , lapin, tomates pelées, oignon, oeuf, bouquet garni, piment fort, piment, huile, huile, facile, bon marché",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:algerienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-maquereaux-a-l-algerienne-13389-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_maquereaux-a-l-algerienne_13389.aspx",
+    "name": "Maquereaux à l'algérienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "maquereaux",
+        "raw": "4 maquereaux"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "piments doux",
+        "raw": "2 piments doux"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sauce tomate",
+        "raw": "sauce tomate"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "paprika",
+        "raw": "paprika"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "rondelle de citron",
+        "raw": "rondelle de citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "chapelure",
+        "raw": "chapelure"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile",
+        "raw": "huile"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil haché",
+        "raw": "persil haché"
+      }
+    ],
+    "steps": [
+      "1. Enlever les arêtes des maquereux. Les assaisonner intérieurement de sel et de poivre et les farcir d'une bonne cuillerée de julienne de piment doux étuvé à l'huile.",
+      "2. Ranger les poissons bien serrés les uns contre les autres, sur un plat allant au feu.",
+      "3. Tapisser de sauce tomate assaisonnée au paprika.",
+      "4. Saupoudrer de chapelure, arroser d'huile.",
+      "5. Cuire au four (thermostat 6/180°C) pendant 30 mn.",
+      "6. Avant de servir, mettre des rondelles de citron sur les maquereaux et saupoudrer de persil haché."
+    ],
+    "tags_raw": "Maquereaux à l'algérienne, , maquereau, poivre, sel, piment, sauce tomate, paprika, citron, chapelure, huile, persil, moyenne, moyen",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:algerienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pates-aux-saveurs-de-l-orient-de-bejaia-en-algerie-58649-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pates-aux-saveurs-de-l-orient-de-bejaia-en-algerie_58649.aspx",
+    "name": "Pâtes aux saveurs de l'Orient - de Béjaïa en Algérie",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "pâtes en forme de langues de chat (hypermarché ou magasin de la communauté maghrébine)",
+        "raw": "500 g de pâtes en forme de langues de chat (hypermarché ou magasin de la communauté maghrébine)"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "agneau de préférence (morceaux tendres) ou de boeuf (type faux-filets)",
+        "raw": "250 g d'agneau de préférence (morceaux tendres) ou de boeuf (type faux-filets)"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "6 oeufs"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons ou 2 petits",
+        "raw": "1 oignons ou 2 petits"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "2 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "cuillères à café d'huile d'olive",
+        "raw": "3 cuillères à café d'huile d'olive"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "poivre noir",
+        "raw": "1/2 cuillères à café de poivre noir"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites bottes de persil",
+        "raw": "1 petites bottes de persil"
+      }
+    ],
+    "steps": [
+      "1. Préparer séparément la viande, l'omelette et les pâtes :",
+      "2. La viande :",
+      "3. Faire revenir l'oignon dans l'huile d'olive + 1 pincée de sel et de poivre, jusqu'à ce qu'ils dorent. Puis mettre la viande coupée en petits morceaux de 1,5 cm de coté. Les faire revenir avec l'oignon doré et 2 cuillères à café de cannelle. Les laisser cuire environ 15 min à feu moyen jusqu'à ce qu'ils rôtissent et qu'il reste environ un demi-verre de sauce. Attention : vérifier souvent la cuisson de la viande, s'il ne reste plus de jus et que la viande n'est toujours pas rôtie, diminuer le feu et rajouter 2 cl d'eau en poursuivant la cuisson).",
+      "4. L'omelette :",
+      "5. Battre les oeufs entiers + sel (à votre convenance) + une pincée de poivre + le persil ciselé.",
+      "6. Faire cuire l'omelette dans une poêle anti-adhésive. Une fois l'omelette cuite, la découper en petit carrés de 1 cm de côté (environ) puis réservez.",
+      "7. Les pâtes :",
+      "8. Faire cuire les pâtes dans 1 litre d'eau + sel. Mettre de côté.",
+      "9. Une fois la viande cuite, rajouter dans la poêle les pâtes et l'omelette. Bien mélanger pour que le tout s'imprègne de la sauce de la viande.",
+      "10. Rajouter 80 g de beurre et bien mélanger. Goûter et réajuster l'assaisonnement à votre convenance.",
+      "11. Bon appétit."
+    ],
+    "tags_raw": "Pâtes aux saveurs de l'Orient - de Béjaïa en Algérie, autres pâtes, pâtes, agneau, oeuf, beurre, oignon, cannelle, huile d'olive, poivre, persil, très facile, bon marché | autres pâtes",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:algerie"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-salade-mechouia-algerienne-de-coralie-313660-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_salade-mechouia-algerienne-de-coralie_313660.aspx",
+    "name": "Salade méchouia algérienne de Coralie",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 Personnes",
+    "servings": 6,
+    "prep_minutes": 90,
+    "cook_minutes": 30,
+    "total_minutes": 120,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "poivrons verts",
+        "raw": "4 poivrons verts"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "poivrons rouges",
+        "raw": "2 poivrons rouges"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "tomates",
+        "raw": "5 tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "piments verts",
+        "raw": "1 piments verts"
+      },
+      {
+        "quantity": "6",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "6 gousses d'ail"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "6 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "thon",
+        "raw": "150 g de thon"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs durs",
+        "raw": "4 oeufs durs"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "olives",
+        "raw": "100 g d'olives"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Faire griller tous les ingrédients ainsi que l'ail au gaz avec une grille. Retournez-les au fur et a mesure pour qu'ils soient bien grillés (noir) sur tout les côtés.",
+      "2. Quand ils sont bien grillés, mettez-les dans un sac de congélation, fermer et laisser refroidir.",
+      "3. Ensuite quand ils ont bien refroidis passer les légumes sous l'eau froide pour les peler facilement et retirer bien tous les pépins.",
+      "4. Coupez tous les ingrédients en très petits dès avec un couteau ou hachoir.",
+      "5. Mettre le tout dans un plat mélangez-y l'huile d'olive, sel et poivre.",
+      "6. Couper les oeufs durs en 4, mettre le thon et les olives.",
+      "7. Mettre au frais pendant 2 h et puis bon appétit."
+    ],
+    "tags_raw": "Salade méchouia algérienne de Coralie, , poivron vert, poivron rouge, tomate, piment vert, ail, huile d'olive, thon, oeuf, olives, sel, poivre, facile, bon marché",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:algerienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-sardines-congelees-sous-l-huile-algerie-73173-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_sardines-congelees-sous-l-huile-algerie_73173.aspx",
+    "name": "Sardines congelées sous l'huile (Algérie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "sardine bien fraîches",
+        "raw": "500 g de sardine bien fraîches"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "huile végétale",
+        "raw": "50 cl d'huile végétale"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "gros sel",
+        "raw": "gros sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "vinaigre ou de jus de citron",
+        "raw": "1 cuillères à café de vinaigre ou de jus de citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "aromate (la recette originale se confectionne avec des épices algériennes, mais vous pouvez les remplacer par du Niora, du piment fort, ou un mélange d'herbes de votre choix)",
+        "raw": "aromate (la recette originale se confectionne avec des épices algériennes, mais vous pouvez les remplacer par du Niora, du piment fort, ou un mélange d'herbes de votre choix)"
+      }
+    ],
+    "steps": [
+      "1. Préparez les sadines comme vous en avez l'habitude.",
+      "2. Mettez-les à dégorger crues, sous le gros sel (2 cuillères à soupe) pendant 6 h au frigo. Tournez de temps à autre.",
+      "3. Faites chauffer une bonne quantité d'eau légèrement citronnée ou vinaigrée, non salée, avec les épices que vous aimez ou nature.",
+      "4. Débarassez soigneusement les sardines de leur sel en les lavant sous le robinet.",
+      "5. Pochez-les dans l'eau bouillante (2 min).",
+      "6. Sortez-les. Laissez refroidir.",
+      "7. Disposez-les dans un (ou des) ramequin(s) un peu profond(s).",
+      "8. Si vous voulez les parfumer, n'oubliez pas de rajouter des herbes ou des épices au fond du plat. Mais vous pouvez aussi faire \"nature\".",
+      "9. Recouvrez totalement les sardines d'huile. Prenez soin de laisser un espace de dilatation en haut du ramequin. Fermez d'un film transparent ou d'un couvercle.",
+      "10. Mettez de suite au congélateur... sans renverser!!!",
+      "11. Quand vous voudrez vous servir de ces sardines, décongelez-les. Elles seront toutes fraîches, très parfumées et moelleuses à souhait.",
+      "12. Ces sardines aiment particulièrement un accompagnement d'oignons légèrement dorés avec des raisins secs et de la cannelle."
+    ],
+    "tags_raw": "Sardines congelées sous l'huile (Algérie), , sardine, huile, gros sel, vinaigre, aromate, facile, bon marché, rapide",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:algerie"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-sepia-seiche-a-l-algerienne-24625-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_sepia-seiche-a-l-algerienne_24625.aspx",
+    "name": "Sépia (seiche à l'algérienne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 45,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "seiche",
+        "raw": "1 kg de seiche"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "échalotes",
+        "raw": "4 échalotes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "1/4",
+        "unit": "",
+        "name": "vin blanc",
+        "raw": "1/4 vin blanc"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "l d'eau chaude",
+        "raw": "1/2 l d'eau chaude"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "3 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites boîtes de concentré de tomates",
+        "raw": "1 petites boîtes de concentré de tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "poivre de Cayenne",
+        "raw": "1 pincées de poivre de Cayenne"
+      }
+    ],
+    "steps": [
+      "1. 1) Faire revenir les échalotes hachées dans l’huile d’olive.",
+      "2. 2) Ajouter le blanc de seiche épluché et coupé en dés.",
+      "3. 3) Laisser dorer quelques minutes.",
+      "4. 4) Ajouter la farine, remuer ; mouiller avec l’eau chaude puis avec le vin blanc.",
+      "5. 5) Ajouter l’ail écrasé, puis le concentré de tomates.",
+      "6. 6) Saler, poivrer, ajouter le cayenne.",
+      "7. 7) Laisser mijoter à feu doux pendant 45 à 50 mn."
+    ],
+    "tags_raw": "Sépia (seiche à l'algérienne), calamar, poulpe, seiche, échalote, huile d'olive, ail, vin blanc, eau, farine, poivre, sel, concentré de tomates, poivre de Cayenne, très facile, bon marché | calamar, poulpe",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:algerienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tcharak-corne-de-gazelle-en-algerie-26326-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tcharak-corne-de-gazelle-en-algerie_26326.aspx",
+    "name": "Tcharak (corne de gazelle en Algérie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "50 pièces",
+    "servings": 50,
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine",
+        "raw": "500 g de farine"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "500 g de beurre"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "amandes en poudre",
+        "raw": "300 g d'amandes en poudre"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "300 g de sucre"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre glace",
+        "raw": "100 g de sucre glace"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "eau glacée",
+        "raw": "10 cl d'eau glacée"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "eau de fleur d'oranger",
+        "raw": "10 cl d'eau de fleur d'oranger"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cannelle en poudre",
+        "raw": "1 cuillères à café de cannelle en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites pincées de sel",
+        "raw": "1 petites pincées de sel"
+      }
+    ],
+    "steps": [
+      "1. Dans un saladier, pétrir la farine, le beurre, le sel et l'eau. Laisser reposer 1 h.",
+      "2. A part, mélanger l'amande en poudre avec le sucre, l'œuf, la moitié de l'eau de fleur d'oranger et la cannelle.",
+      "3. Étaler la pâte et découper en carrés de 8 cm. Déposer sur un des coins des carrés un peu de farce et rouler en croissant.",
+      "4. Enfourner à 180°C pendant 20 min. Mouiller du reste de l'eau de fleur d'oranger et les rouler dans le sucre glace."
+    ],
+    "tags_raw": "Tcharak (corne de gazelle en Algérie), cornes de gazelle, farine, beurre, amandes, sucre, sucre glace, oeuf, eau, eau de fleur d'oranger, cannelle, sel, facile, moyen | cornes de gazelle",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:algerie"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tchoutchouka-23661-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tchoutchouka_23661.aspx",
+    "name": "Tchoutchouka",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "total_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "poivrons rouges",
+        "raw": "5 poivrons rouges"
+      },
+      {
+        "quantity": "7",
+        "unit": "",
+        "name": "tomates",
+        "raw": "7 tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "morceaux de sucre",
+        "raw": "1/2 morceaux de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "olives vertes dénoyautées",
+        "raw": "1 poignées d'olives vertes dénoyautées"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de tournesol",
+        "raw": "huile de tournesol"
+      }
+    ],
+    "steps": [
+      "1. Faire griller les poivrons au barbecue (moi j'utilise un barbecue electrique) ou au four. Les mettre directement sur la grille et faire noircir toute la peau des poivrons.",
+      "2. Une fois noircis, les mettre un par un dans du papier journal ou dans un sac plastique hermétique jusqu'a ce qu'ils tiédissent.",
+      "3. Une fois les poivrons tièdes, en retirer la peau (qui devrait partir facilement), les graines, puis les couper en lamelles d'environ 1cm de large. Couper les tomates en dés.",
+      "4. Dans un faitout anti-adhésif, mettre un peu d'huile, les poivrons et les tomates, ainsi que l'ail haché, le morceau de sucre et les olive vertes (bien égoutées et coupées en deux).",
+      "5. Faire cuire à grand feu pendant une vingtaine de minutes puis à petit ou moyen feu jusqu'à ce que la préparation commence à accrocher. Il ne doit plus y avoir d'eau."
+    ],
+    "tags_raw": "Tchoutchouka, , poivron rouge, tomate, ail, sucre, olives vertes, huile de tournesol, facile, bon marché",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:tchoutchouka"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-semoule-aux-pois-chiches-et-a-la-tomate-37220-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_semoule-aux-pois-chiches-et-a-la-tomate_37220.aspx",
+    "name": "Semoule aux pois chiches et à la tomate",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "semoule pour couscous",
+        "raw": "80 g de semoule pour couscous"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "tomates fraîches ou en conserve (si pas de saison)",
+        "raw": "2 tomates fraîches ou en conserve (si pas de saison)"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1/2 oignons"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "pois chiches",
+        "raw": "150 g de pois chiches"
+      }
+    ],
+    "steps": [
+      "1. Mettre une grande casserole d'eau à bouillir.",
+      "2. Pendant ce temps émincer le 1/2 oignon et remplir un saladier d'eau et de quelques glaçons.",
+      "3. Une fois l'eau bouillante y mettre les tomates. Les laisser 1 à 2 minutes au maximum puis les plonger directement dans le saladier. Les retirer puis les peler et les découper en petits morceaux.",
+      "4. Faire cuire la semoule.",
+      "5. Faire chauffer les pois chiches.",
+      "6. Dans une poêle huilée faire dorer les oignons puis y ajouter les tomates en remuant fréquemment. Saler, poivrer. Après une ou deux minutes de cuisson rajouter un peu d'eau pour que ça ait l'aspect d'une sauce.",
+      "7. Chacun se sert comme il le souhaite !!"
+    ],
+    "tags_raw": "Semoule aux pois chiches et à la tomate, accompagnement, semoule, tomate, oignon, pois chiches, très facile, bon marché | accompagnement",
+    "country": "algerie",
+    "country_label": "Algérie",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:semoule",
+      "titre:pois chiches"
+    ]
+  }
+]

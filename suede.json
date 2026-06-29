@@ -1,0 +1,4768 @@
+[
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tartine-suedoise-au-saumon-69843-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tartine-suedoise-au-saumon_69843.aspx",
+    "name": "Tartine suédoise au saumon",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "total_minutes": 5,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "petit pain suédois",
+        "raw": "4 tranches de petit pain suédois"
+      },
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "saumon fumé",
+        "raw": "4 tranches de saumon fumé"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "fromage frais salé (madame loïc, boursin ...)",
+        "raw": "150 g de fromage frais salé (madame loïc, boursin ...)"
+      },
+      {
+        "quantity": "10",
+        "unit": "rondelles",
+        "name": "concombre",
+        "raw": "10 rondelles de concombre"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "Noix concassée",
+        "raw": "50 g de Noix concassée"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "aneth",
+        "raw": "aneth"
+      }
+    ],
+    "steps": [
+      "1. (pour une tartine)",
+      "2. Sur une tranche de pain suédois, tartinez généreusement votre fromage frais salé.",
+      "3. Saupoudrez de noix concassées et ajouter 2 ou 3 rondelles de concombre.",
+      "4. Mettez une tranche de saumon fumé sur le tout.",
+      "5. Assaisonnez d'un filet d'huile d'olive et d'aneth.",
+      "6. Faites les suivantes selon le même principe et savourez !"
+    ],
+    "tags_raw": "Tartine suédoise au saumon, tartine, petit pain suédois, saumon fumé, fromage frais, concombre, Noix concassée, huile d'olive, aneth, très facile, bon marché, rapide | tartine",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 18,
+    "country_match_reasons": [
+      "tag:suedois",
+      "titre:suedoise",
+      "ingredient:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kanelbullar-pains-suedois-a-la-cannelle-46126-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kanelbullar-pains-suedois-a-la-cannelle_46126.aspx",
+    "name": "Kanelbullar (pains suédois à la cannelle)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "20 bullar",
+    "servings": 20,
+    "prep_minutes": 120,
+    "cook_minutes": 6,
+    "total_minutes": 126,
+    "ingredients": [
+      {
+        "quantity": "700",
+        "unit": "g",
+        "name": "farine (12 dl ou 120 cl)",
+        "raw": "700 g de farine (12 dl ou 120 cl)"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "lait (3 dl ou 30 cl)",
+        "raw": "300 g de lait (3 dl ou 30 cl)"
+      },
+      {
+        "quantity": "120",
+        "unit": "g",
+        "name": "sucre (1,25 dl ou 12,5 cl)",
+        "raw": "120 g de sucre (1,25 dl ou 12,5 cl)"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "levure boulangère fraîche",
+        "raw": "30 g de levure boulangère fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "cardamome moulue",
+        "raw": "1 pincées de cardamome moulue"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre fondu",
+        "raw": "50 g de beurre fondu"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sucre en poudre (selon votre goût)",
+        "raw": "sucre en poudre (selon votre goût)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cannelle en poudre",
+        "raw": "cannelle en poudre"
+      }
+    ],
+    "steps": [
+      "1. Délayer la levure dans un peu du lait tiède, ajouter le reste du lait tiédi et le beurre fondu puis le reste des ingrédients.",
+      "2. Mélanger les ingrédients dans un saladier, ou une machine à pain.",
+      "3. Pétrir 15 min (10 min en machine), couvrir avec un torchon, et laisser reposer 30 min.",
+      "4. Etaler la pâte (4 mm d'épaisseur, 30 cm de largeur environ). La badigeonner de beurre fondu, saupoudrer de sucre et de cannelle et rouler sans trop serrer...",
+      "5. Découper ensuite en tranches, les déposer sur une plaque, et les laisser ensuite lever sous un torchon pendant 60 min.",
+      "6. Dorer à l'oeuf, saupoudrer de perles de sucre, et enfourner pendant 6 à 8 min à 240°C (thermostat 8).",
+      "7. Vous avez maintenant des kanelbullar!"
+    ],
+    "tags_raw": "Kanelbullar (pains suédois à la cannelle), , farine, lait, sucre, beurre, oeuf, levure, sel, cardamome, beurre, sucre en poudre, cannelle, facile, bon marché, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:suedois",
+      "titre:kanelbullar"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kanelbullar-recette-suedoise-379277-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kanelbullar-recette-suedoise_379277.aspx",
+    "name": "Kanelbullar (recette suédoise)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "30 Kanelbullar",
+    "servings": 30,
+    "prep_minutes": 60,
+    "cook_minutes": 8,
+    "total_minutes": 68,
+    "ingredients": [
+      {
+        "quantity": "850",
+        "unit": "g",
+        "name": "farine",
+        "raw": "850 g de farine"
+      },
+      {
+        "quantity": "500",
+        "unit": "ml",
+        "name": "lait",
+        "raw": "500 ml de lait"
+      },
+      {
+        "quantity": "2",
+        "unit": "sachets",
+        "name": "levure de boulanger sèche",
+        "raw": "2 sachets de levure de boulanger sèche"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1 cuillères à café de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cardamome",
+        "raw": "1 cuillères à café de cardamome"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "100 g de sucre"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "jaunes",
+        "name": "oeuf pour la dorure",
+        "raw": "1 jaunes d'oeuf pour la dorure"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "100 g de sucre"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "cannelle",
+        "raw": "3 cuillères à soupe de cannelle"
+      }
+    ],
+    "steps": [
+      "1. Verser le lait dans une casserole et chauffer à feu doux jusqu’à ce que le lait soit tiède (37 °C).",
+      "2. Ajouter la levure et remuer, laisser agir hors du feu pendant 15-20 min.",
+      "3. Dans un saladier, ajouter au mélange lait-levure la farine, le sucre, la cardamome, et le sel. Pétrir pendant 10 min.",
+      "4. Ajouter 100 g de beurre ramolli à la pâte et continuer de pétrir pendant 5 min.",
+      "5. Former une boule et couvrir le saladier (avec un torchon ou cellophane). Laisser lever la pâte à température ambiante pendant 1 h. La pâte doit doubler de volume.",
+      "6. Étendre au rouleau la pâte en forme de rectangle sur 40 cm de longueur et 20 cm de largeur (avec une épaisseur d'environ 0,5 cm).",
+      "7. Préparation de la garniture : étaler le beurre ramolli sur toute la surface de la pâte.",
+      "8. Saupoudrer par-dessus le sucre et la cannelle.",
+      "9. Rouler la pâte sur elle même dans le sens de la largeur pour former un saucisson sans trop serrer.",
+      "10. Couper en 20 tranches de 2 cm d'épaisseur, et placer les tranches à plat sur une plaque recouverte de papier cuisson.",
+      "11. Recouvrir d’un torchon et laisser lever pendant 30 min.",
+      "12. Dorer les kanelbullar au jaune d'œuf.",
+      "13. Cuire au four pendant 8 min à 210 °C.",
+      "14. Laisser refroidir et déguster ! (congélation possible)"
+    ],
+    "tags_raw": "Kanelbullar (recette suédoise), autres biscuits et petits gâteaux , farine, lait, levure de boulanger sèche, sel, cardamome, sucre, beurre, jaune d'oeuf, très facile, bon marché, rapide | autres biscuits et petits gâteaux",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:suedoise",
+      "titre:kanelbullar"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bruschetta-suedoise-80443-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bruschetta-suedoise_80443.aspx",
+    "name": "Bruschetta Suèdoise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "petits pains suédois",
+        "raw": "4 petits pains suédois"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "fromage de chèvre",
+        "raw": "fromage de chèvre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "courgettes (ou 2 si le seul légume)",
+        "raw": "1 courgettes (ou 2 si le seul légume)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "aubergines (facultatif)",
+        "raw": "1 aubergines (facultatif)"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "3 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "herbes de Provence ou origan",
+        "raw": "herbes de Provence ou origan"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four à 200°, thermostat 6-7.",
+      "2. Couper les légumes en petits dés, puis les mélanger dans un saladier avec l'huile d'olive.",
+      "3. Disposer des tranches de chèvre sur les pains suèdois puis mettre grossièrement les légumes dessus.",
+      "4. Mettre les herbes de Provence ou l'origan et poivrer.",
+      "5. Enfourner pendant 10 min; le fromage de chèvre doit être fondant et les légumes un peu colorés.",
+      "6. Peut se servir seul ou accompagné de salade."
+    ],
+    "tags_raw": "Bruschetta Suèdoise, bruschetta, petit pain suédois, fromage de chèvre, courgette, aubergine, huile d'olive, herbes de Provence, poivre, très facile, bon marché, rapide | bruschetta",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 14,
+    "country_match_reasons": [
+      "tag:suedois",
+      "titre:suedoise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-glace-alcoolisee-suedoise-maison-67231-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_glace-alcoolisee-suedoise-maison_67231.aspx",
+    "name": "Glace alcoolisée suédoise maison",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 litre",
+    "servings": 1,
+    "prep_minutes": 2,
+    "cook_minutes": 0,
+    "total_minutes": 2,
+    "ingredients": [
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "blanc d'oeuf (soit 3 ou 4 blancs d'oeufs, selon leur taille)",
+        "raw": "10 cl de blanc d'oeuf (soit 3 ou 4 blancs d'oeufs, selon leur taille)"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "sucre en poudre",
+        "raw": "20 cl de sucre en poudre"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "15 cl d'eau"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "crème liquide (placée préalablement au réfrigérateur)",
+        "raw": "15 cl de crème liquide (placée préalablement au réfrigérateur)"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "kirsch ou 1 à 2 de rhum (ou autre alcool)",
+        "raw": "1 cuillères à café de kirsch ou 1 à 2 de rhum (ou autre alcool)"
+      }
+    ],
+    "steps": [
+      "1. Utiliser un saladier ou un autre récipient pouvant aller au congélateur.",
+      "2. La recette est à faire de préférence avec quelques jours d'avance (mais fonctionne malgré tout la veille pour le lendemain).",
+      "3. Verser le sucre et l'eau dans une casserole épaisse. Les faire chauffer et laisser bouillir 8 à 10 min jusqu'à ce que la consistance soit épaisse et \"fileuse\" (à vérifier en pinçant, entre le pouce et l'index, une goutte de sirop versée dans une assiette, en faisant attention à ne pas se brûler!).",
+      "4. A part, verser les blancs d'oeuf dans le récipient choisi. Y verser ensuite d'une main un filet du sirop obtenu, mixer de l'autre au batteur électrique. Au début, on peut avoir l'impression que cela ne va pas marcher, mais mixer jusqu'à ce que le tout épaississe et constitue un mélange blanc brillant (qui \"tient\" si l'on retourne le récipient).",
+      "5. Mixer quelques min pour que le tout refroidisse un peu. Placer au congélateur pendant 3 à 4 h.",
+      "6. Sortir la crème liquide du réfrigérateur. La battre et ajouter l'alcool choisi (pour obtenir un genre de chantilly).",
+      "7. Mélanger avec une cuillère cette crème au contenu du récipient sorti du congélateur. Replacer ensuite le tout au congélateur, au moins pendant une nuit, en le recouvrant (dans un sac plastique par exemple).",
+      "8. Il n'y a plus qu'à patienter avant de déguster le tout !",
+      "9. Bon appétit ! Ou comme disent les Suédois : \"Småklig måltid !\""
+    ],
+    "tags_raw": "Glace alcoolisée suédoise maison, glace à l'italienne, blanc d'oeuf, sucre en poudre, eau, crème liquide, kirsch, moyenne, bon marché, rapide | glace à l'italienne",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 12,
+    "country_match_reasons": [
+      "etape:suedois",
+      "titre:suedoise",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-saumon-cru-marine-gravad-lax-en-suedois-26486-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_saumon-cru-marine-gravad-lax-en-suedois_26486.aspx",
+    "name": "Saumon cru mariné ('gravad lax' en suédois)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 0,
+    "total_minutes": 1465,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "saumon entier d'1 kg",
+        "raw": "1 saumon entier d'1 kg"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "gros sel",
+        "raw": "50 g de gros sel"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "50 g de sucre en poudre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "aneth hachées",
+        "raw": "aneth hachées"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "grain de poivre concassés",
+        "raw": "grain de poivre concassés"
+      }
+    ],
+    "steps": [
+      "1. Prélever les filets de saumon sans en ôter la peau.",
+      "2. Enlever toutes les petites arêtes avec soin, et essuyer sans laver.",
+      "3. Dans un récipient plat mais suffisamment large, disposer le premier filet, peau vers le bas.",
+      "4. Saupoudrer abondamment avec le mélange sel et sucre.",
+      "5. Poser le second filet dessus, la peau tournée vers le haut.",
+      "6. Poser par-dessus une plaque et des poids assez lourds.",
+      "7. Laisser mariner au frais pendant 24 h au moins, en retournant à mi-temps.",
+      "8. Pour servir, couper des tranches fines en biais, en s'arrêtant juste avant la peau.",
+      "9. On peut faire une sauce d'accompagnement, avec du fromage blanc battu, de la moutarde suédoise (ou de la Savora), de l'aneth et un peu de citron."
+    ],
+    "tags_raw": "Saumon cru mariné ('gravad lax' en suédois) , gravelax, saumon, gros sel, sucre en poudre, aneth, poivre, très facile, moyen, rapide | gravelax",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 12,
+    "country_match_reasons": [
+      "titre:suedois",
+      "ingredient:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-saumon-gravlax-533945-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_saumon-gravlax_533945.aspx",
+    "name": "Saumon gravlax",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 45,
+    "cook_minutes": 0,
+    "total_minutes": 255,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "saumon bio",
+        "raw": "500 g de saumon bio"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "gros sel de Camargue",
+        "raw": "200 g de gros sel de Camargue"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre semoule",
+        "raw": "100 g de sucre semoule"
+      },
+      {
+        "quantity": "5",
+        "unit": "g",
+        "name": "bicarbonate",
+        "raw": "5 g de bicarbonate"
+      },
+      {
+        "quantity": "1",
+        "unit": "bottes",
+        "name": "aneth",
+        "raw": "1 bottes d'aneth"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons verts",
+        "raw": "1 citrons verts"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "baies roses",
+        "raw": "2 cuillères à soupe de baies roses"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "coriandre en grains",
+        "raw": "1 cuillères à café de coriandre en grains"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "fenouil en grains",
+        "raw": "1 cuillères à café de fenouil en grains"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "poivre de sichuan",
+        "raw": "1 cuillères à café de poivre de sichuan"
+      },
+      {
+        "quantity": "2",
+        "unit": "cl",
+        "name": "gin",
+        "raw": "2 cl de gin"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "vergeoise blonde",
+        "raw": "vergeoise blonde"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "chou rouge",
+        "raw": "200 g de chou rouge"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "50 g de sucre"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "vinaigre blanc",
+        "raw": "100 g de vinaigre blanc"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "eau",
+        "raw": "200 g d'eau"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "graines de coriandre",
+        "raw": "10 g de graines de coriandre"
+      },
+      {
+        "quantity": "2",
+        "unit": "grains",
+        "name": "poivre de sichuan",
+        "raw": "2 grains de poivre de sichuan"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "anis étoilé",
+        "raw": "1 anis étoilé"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "carottes pourpres",
+        "raw": "2 carottes pourpres"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons verts",
+        "raw": "1 citrons verts"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "mâche",
+        "raw": "1 poignées de mâche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel et poivre",
+        "raw": "sel et poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment d'Espelette",
+        "raw": "piment d'Espelette"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oranges",
+        "raw": "1 oranges"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "2",
+        "unit": "traits",
+        "name": "vinaigre de cidre",
+        "raw": "2 traits de vinaigre de cidre"
+      }
+    ],
+    "steps": [
+      "1. Enlever les arêtes du saumon.",
+      "2. Dans un bol, mélanger le sel de Camargue, le sucre et le bicarbonate.",
+      "3. Enlever la peau du saumon et tailler des fines tranches d’un demi centimètre.",
+      "4. Déposer dans un plat, un fond de cette salaison puis dessus, à plat, les tranches de\nsaumon et recouvrir du reste de salaison. Filmer contact et mettre au frais 1 heure.",
+      "5. Sortir du frais le saumon, le rincer à l’eau claire et le laisser dessaler dans de l’eau 30 min.\nEnsuite bien le sécher dans un linge.",
+      "6. Etaler à plat les tranches de saumon sur un papier sulfurisé de la taille d’un grand sac\nsous vide.",
+      "7. Laver et hacher l’aneth, concasser au pilon les épices. Couvrir d’épices le saumon, ensuite\nd’aneth, puis de vergeoise et pour finir arroser avec le gin et le jus d’un citron vert. Faire\nglisser le papier sulfurisé avec le saumon dans le sac sous vide et le sous vider. Faire\nmariner au frais 1 heure.",
+      "8. Sortir du frais le saumon, retirer le saumon du sac et gratter les épices. Puis le sécher sur\nun linge.",
+      "9. Répartir les tranches bien à plat en cercle dans 4 assiettes rondes à entrée avec une\ngrande garde. Filmer et garder au frais.",
+      "10. Dans un bol, mélanger les épices, le sucre, le vinaigre et l’eau.",
+      "11. Laver et émincer finement le chou rouge et l’ajouter au pickles. Laisser mariner au frais\nminimum 2heures. Le mieux et de le faire la veille.",
+      "12. Laver la mâche et les carottes. Eplucher les carottes et les tailler en fine juliennes dans un\nbol.",
+      "13. Ajouter le zeste d’un citron vert et son jus, sel, poivre du moulin, piment d’Espelette et\nun filet d’huile d’olive. Mélanger et laisser mariner pour que les carottes commencent à\nse ramollir.",
+      "14. Dans un bol, mettre la moitié du zeste de l’orange, son jus, les baies roses concassées et\nle vinaigre de cidre. Assaisonner sel et poivre du moulin et monter avec l’huile d’olive\npour faire une vinaigrette.",
+      "15. Finition et dressage :\n- Sortir les assiettes du frais.\n- Avec un pinceau, appliquer la vinaigrette sur le gravlax.\n- Egoutter et presser les carottes et le chou rouge de leurs jus. Les réunir dans un bol et les\nmélanger.\n- Faire un beau nid de ces légumes au centre de l’assiette et ajouter quelques pousses de\nmâche autour."
+    ],
+    "tags_raw": "Saumon gravlax, gravelax, saumon, gros sel de Camargue, sucre semoule, bicarbonate, aneth, citron vert, baies roses, coriandre en grains, fenouil en grains, poivre de sichuan, gin, vergeoise blonde, difficile, assez cher, rapide | gravelax",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 12,
+    "country_match_reasons": [
+      "titre:gravlax",
+      "ingredient:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-saumon-gravelax-24589-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_saumon-gravelax_24589.aspx",
+    "name": "Saumon Gravlax : recette facile",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "saumon frais (en 1 ou 2 pavés)",
+        "raw": "1 kg de saumon frais (en 1 ou 2 pavés)"
+      },
+      {
+        "quantity": "6",
+        "unit": "cuillères à soupe",
+        "name": "sel",
+        "raw": "6 cuillères à soupe de sel"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "sucre",
+        "raw": "4 cuillères à soupe de sucre"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "aneth",
+        "raw": "50 g d'aneth"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "poivre concassé",
+        "raw": "20 g de poivre concassé"
+      }
+    ],
+    "steps": [
+      "1. Retirer les arêtes éventuelles à l'aide d'une pince à épiler.",
+      "2. Essuyer le saumon avec du papier absorbant.",
+      "3. Enduire le poisson du mélange sel + sucre + poivre.",
+      "4. Dans un grand plat, mettre une grande feuille de film transparent. Poser le saumon coté peau en dessous, mettre de l'aneth sur le coté sans peau (s'il y a 2 pavés, les empiler l'un sur l'autre en remettant de l’aneth au dessus). Fermer la « papillote » bien serrée.",
+      "5. Poser un poids lourd sur le saumon (boite de pois chiches ou autre). Laisser mariner 48 h au frigo, en retournant le poisson tous les jours (jeter l’eau rendue).",
+      "6. Le jour j, essuyer le saumon avec du papier absorbant pour ôter le sel (ne pas le rincer sous l’eau!) puis découper le saumon en fines lamelles (comme un carpaccio).",
+      "7. Déguster nature avec du citron ou bien une sauce appropriée.",
+      "8. Lorsque je ne fais pas de sauce, je rajoute de l’aneth sur le poisson une fois qu’il est en lamelles.",
+      "9. Sauce : faire une mayonnaise avec...",
+      "10. - 3-4 cuillères à soupe de moutarde douce",
+      "11. - 1 cuillère à soupe de vin rouge",
+      "12. - 1 cuillère à soupe de sucre en poudre",
+      "13. - 1/3 cuillère à café de sel",
+      "14. - 3 cuillères à soupe d’huile (excepté l’huile d’olive)",
+      "15. Une fois la sauce faite, incorporer 3 cuillères à soupe d’aneth."
+    ],
+    "tags_raw": "Saumon Gravlax : recette facile, gravelax, saumon frais, sel, sucre, aneth, poivre, facile, moyen, rapide | gravelax",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 12,
+    "country_match_reasons": [
+      "titre:gravlax",
+      "ingredient:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-saumon-gravlax-a-la-betterave-537449-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_saumon-gravlax-a-la-betterave_537449.aspx",
+    "name": "Saumon gravlax à la betterave",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "total_minutes": 2895,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "saumon frais",
+        "raw": "500 g de saumon frais"
+      },
+      {
+        "quantity": "120",
+        "unit": "g",
+        "name": "gros sel",
+        "raw": "120 g de gros sel"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "50 g de sucre"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "betterave",
+        "raw": "300 g de betterave"
+      },
+      {
+        "quantity": "15",
+        "unit": "g",
+        "name": "aneth",
+        "raw": "15 g d'aneth"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      }
+    ],
+    "steps": [
+      "1. Dans un saladier, mélangez le sel, le sucre, les betteraves, la vodka, l’aneth et le citron (zeste et jus).",
+      "2. Dans un plat, placez la moitié du mélange, puis mettez le filet de saumon. Intégrez le reste du mélange et frottez le saumon pour qu’il soit complètement couvert. Recouvrez d’une pellicule plastique et réservez la préparation pendant environ 48 heures pour que le tout marine bien.",
+      "3. Avant de découper finement le saumon, lavez sous de l'eau claire pour enlever le sel. Épongez légèrement à l’aide de papier absorbant."
+    ],
+    "tags_raw": "Saumon gravlax à la betterave, , saumon frais, gros sel, sucre, betterave, aneth, citron, facile, moyen, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 12,
+    "country_match_reasons": [
+      "titre:gravlax",
+      "ingredient:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pain-surprise-surprenant-55060-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pain-surprise-surprenant_55060.aspx",
+    "name": "Pain surprise surprenant",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 0,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "galettes (bretonnes) rondes de pain suédois (au rayon pain de mie ou en épicerie suédoise)",
+        "raw": "10 galettes (bretonnes) rondes de pain suédois (au rayon pain de mie ou en épicerie suédoise)"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "saumon fumé",
+        "raw": "100 g de saumon fumé"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "poulet",
+        "raw": "100 g de poulet"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "rillettes de thon, de porc ou de canard",
+        "raw": "rillettes de thon, de porc ou de canard"
+      },
+      {
+        "quantity": "2",
+        "unit": "tranches",
+        "name": "jambon de dinde, de poulet ou de porc",
+        "raw": "2 tranches de jambon de dinde, de poulet ou de porc"
+      },
+      {
+        "quantity": "1",
+        "unit": "fromages",
+        "name": "chèvre frais",
+        "raw": "1 fromages de chèvre frais"
+      },
+      {
+        "quantity": "3",
+        "unit": "demis",
+        "name": "tomates confites à l’huile",
+        "raw": "3 demis de tomates confites à l’huile"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "mayonnaise",
+        "raw": "mayonnaise"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "fromage blanc",
+        "raw": "fromage blanc"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "curry ou mélange d'épices indiennes",
+        "raw": "curry ou mélange d'épices indiennes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "ciboulette",
+        "raw": "ciboulette"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "menthe",
+        "raw": "menthe"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "herbes de Provence",
+        "raw": "herbes de Provence"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment doux",
+        "raw": "piment doux"
+      }
+    ],
+    "steps": [
+      "1. Préparez une sauce en mélangeant une grosse cuillère à soupe de fromage blanc avec de la ciboulette hachée et de la menthe à votre convenance.",
+      "2. Salez, poivrez et étalez cette préparation sur un pain.",
+      "3. Posez dessus les tranches de saumon fumé.",
+      "4. Mélangez 2 ou 3 cuillères à soupe de mayonnaise avec 2 cuillères à café de curry (suivant le goût désiré).",
+      "5. Tartinez sur un pain et recouvrir des émincés de poulet (préalablement cuits, ou achetés déjà préparés).",
+      "6. Coupez en tout petits morceaux les tomates confites.",
+      "7. Incorporez-les au fromage de chèvre et saupoudrez d'une cuillère à café d'herbes de Provence.",
+      "8. Poivrez (mais évitez de saler).",
+      "9. Posez également sur un pain.",
+      "10. Tartinez un pain des rillettes que vous aurez choisi.",
+      "11. Mélangez 2 ou 3 cuillères à soupe de mayonnaise avec 1 cuillère à café de piment doux.",
+      "12. Etalez cette sauce sur un pain et recouvrez des tranches de jambon.",
+      "13. Recouvrez chaque pain tartiné d'un pain nature et empilez les différents sandwiches dans l'ordre de votre choix.",
+      "14. Coupez le \"gâteau\" obtenu en 8, ou en 6 pour de plus grandes parts. Réservez au frais au moins 2 heures et servir !"
+    ],
+    "tags_raw": "Pain surprise surprenant, , galettes (bretonnes), saumon fumé, poulet, rillettes, jambon, fromage de chèvre, tomates confites à l’huile, mayonnaise, fromage blanc, curry, ciboulette, menthe, herbes de Provence, piment, facile, moyen, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 11,
+    "country_match_reasons": [
+      "ingredient:suedois",
+      "ingredient:suedoise",
+      "ingredient:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gaufres-salees-a-la-suedoise-46451-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gaufres-salees-a-la-suedoise_46451.aspx",
+    "name": "Gaufres salées à la suédoise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 5,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "120",
+        "unit": "g",
+        "name": "farine de blé",
+        "raw": "120 g de farine de blé"
+      },
+      {
+        "quantity": "130",
+        "unit": "g",
+        "name": "farine complète",
+        "raw": "130 g de farine complète"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "avoine (enrichis en fibres)",
+        "raw": "10 cl d'avoine (enrichis en fibres)"
+      },
+      {
+        "quantity": "70",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "70 cl de lait"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "2 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "saumon fumé",
+        "raw": "saumon fumé"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "crème fraîche",
+        "raw": "crème fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "citron",
+        "raw": "citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "aneth",
+        "raw": "aneth"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "fromage de chèvre",
+        "raw": "fromage de chèvre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "miel liquide et romarin",
+        "raw": "miel liquide et romarin"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "jambon et légumes revenus à la poêle",
+        "raw": "jambon et légumes revenus à la poêle"
+      }
+    ],
+    "steps": [
+      "1. Préparation : 20 min",
+      "2. Cuisson : 3 à 5 min environ",
+      "3. Ingrédients (pour 4 personnes) :",
+      "4. Préparation :",
+      "5. Mélangez farines, flocons d'avoine et la moitié du lait.",
+      "6. Quand vous avez une pâte lisse, ajoutez le sel, les oeufs le reste du lait et l'huile.",
+      "7. Cuire de préférence dans un gaufrier qui forme des coeurs bien dorés, des gaufriers comme cela on en trouve entre autres en Allemagne...",
+      "8. Garnir et déguster par exemple en apéritif, mais ça peut aussi faire une entrée originale."
+    ],
+    "tags_raw": "Gaufres salées à la suédoise, Gaufre salée, farine de blé, farine complète, avoine, lait, sel, oeuf, huile, très facile, bon marché, rapide | Gaufre salée",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 10,
+    "country_match_reasons": [
+      "titre:suedoise",
+      "ingredient:aneth",
+      "ingredient:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gravlax-de-boeuf-49328-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gravlax-de-boeuf_49328.aspx",
+    "name": "Gravlax de boeuf",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "boeuf ficelé en rôti",
+        "raw": "1 kg de boeuf ficelé en rôti"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "80 g de sucre"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "sauce soja (ou sauce soja indonésienne + soja japonaise)",
+        "raw": "20 cl de sauce soja (ou sauce soja indonésienne + soja japonaise)"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "10 cl d'huile d'olive"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "gros sel",
+        "raw": "60 g de gros sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "étoiles",
+        "name": "badiane",
+        "raw": "1 étoiles de badiane"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "parmesan",
+        "raw": "100 g de parmesan"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "piments oiseau",
+        "raw": "1 piments oiseau"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "gingembre frais",
+        "raw": "10 g de gingembre frais"
+      }
+    ],
+    "steps": [
+      "1. Râper finement le zeste de citron et le gingembre, après avoir épluché le gingembre et bien rincé le citron.",
+      "2. Peler l'ail et l'écraser.",
+      "3. Mettre la viande dans le bocal préalablement ébouillanté et séché.",
+      "4. Ajouter le zeste de citron, l'ail écrasé, le sucre, la sauce soja, l'huile d'olive, le gros sel, la badiane, le piment, le gingembre. Fermer le bocal et secouer énergiquement.",
+      "5. Réserver au réfrigérateur pendant 36 heures, en retournant de temps en temps le bocal.",
+      "6. Puis, une fois la marinade terminée, égoutter et éponger soigneusement le boeuf.",
+      "7. Dans une cocotte, faire revenir la viande avec de l'huile d'olive pendant 15 min à feu vif, SANS JAMAIS LA PIQUER!",
+      "8. Eponger à nouveau le rôti, puis laisser refroidir.",
+      "9. Servir le rôti en tranches très fines, avec quelques copeaux de parmesan détaillés à l'économe."
+    ],
+    "tags_raw": "Gravlax de boeuf, gravelax, boeuf, citron, ail, sucre, sauce soja, huile d'olive, gros sel, étoile de badiane, parmesan, piment, gingembre, moyenne, moyen | gravelax",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:gravlax",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-sauce-gravlax-539445-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_sauce-gravlax_539445.aspx",
+    "name": "Sauce gravlax",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "total_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "moutarde de Dijon",
+        "raw": "3 cuillères à soupe de moutarde de Dijon"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "miel liquide",
+        "raw": "2 cuillères à soupe de miel liquide"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "vergeoise brune",
+        "raw": "1 cuillères à soupe de vergeoise brune"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "vinaigre blanc",
+        "raw": "2 cuillères à soupe de vinaigre blanc"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "huile de colza",
+        "raw": "20 cl d'huile de colza"
+      },
+      {
+        "quantity": "2",
+        "unit": "bouquets",
+        "name": "aneth frais",
+        "raw": "2 bouquets d'aneth frais"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre blanc",
+        "raw": "poivre blanc"
+      }
+    ],
+    "steps": [
+      "1. Lavez et séchez l'aneth avant de le ciseler finement. Dans un grand bol, déposez la moutarde et versez le vinaigre progressivement tout en mélangeant.",
+      "2. Ajoutez le miel et assaisonnez avec le sel et le poivre blanc. Versez l'huile progressivement tout en mélangeant pour créer une belle émulsion.",
+      "3. Ajoutez le sucre en mélangeant et terminez avec l'aneth. Transférez dans un récipient hermétique et placez au frais pendant au moins 30 min. Remuez légèrement avant emploi."
+    ],
+    "tags_raw": "Sauce gravlax, , moutarde de Dijon, miel liquide, vergeoise brune, vinaigre blanc, huile de colza, aneth, sel, poivre blanc, facile, bon marché, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:gravlax",
+      "ingredient:aneth"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tomate-mozzarella-facon-crumble-pain-suedois-49515-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tomate-mozzarella-facon-crumble-pain-suedois_49515.aspx",
+    "name": "Tomate mozzarella façon crumble (pain suédois)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "tomate",
+        "raw": "800 g de tomate"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "mozzarella",
+        "raw": "400 g de mozzarella"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "60 g de beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "petit pain suédois",
+        "raw": "petit pain suédois"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "basilic",
+        "raw": "basilic"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "herbes de Provence",
+        "raw": "herbes de Provence"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Peler les tomates (les plonger dans l'eau bouillante 30 secondes), les couper en tranches et les épépiner.",
+      "2. Mettre dans une passoire avec un peu de sel.",
+      "3. Pendant ce temps couper la mozzarella en tranche et réserver.",
+      "4. Mélanger l'ail écrasé (ou en poudre) aux diverses herbes.",
+      "5. Mixer les pains suédois avec le beurre afin d'obtenir une pâte sableuse/granuleuse.",
+      "6. Dans un plat beurré faire une couche de tomates, sel, poivre,  herbes, mozzarella, sel.",
+      "7. Recommnencer une nouvelle fois, terminer par la mozzarella et recouvrir le tout de la chapelure au pain suedois.",
+      "8. Cuire au four à 210°C (Thermostat 7) pendant environ 15 min.",
+      "9. Se déguste chaud ou tiède accompagné d'un bonne salade."
+    ],
+    "tags_raw": "Tomate mozzarella façon crumble (pain suédois), crumble salé, tomate, ail, mozzarella, beurre, petit pain suédois, persil, basilic, herbes de Provence, poivre, sel, très facile, bon marché | crumble salé",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:suedois",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-biscuits-aux-amandes-sans-gluten-suede-17506-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_biscuits-aux-amandes-sans-gluten-suede_17506.aspx",
+    "name": "Biscuits aux amandes sans gluten (Suède)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 45,
+    "cook_minutes": 15,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "beurre ou de margarine",
+        "raw": "125 g de beurre ou de margarine"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "150 g de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons (zeste)",
+        "raw": "1 citrons (zeste)"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "amandes en poudre ou hachées finement",
+        "raw": "50 g d'amandes en poudre ou hachées finement"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "fécule de pomme de terre",
+        "raw": "300 g de fécule de pomme de terre"
+      }
+    ],
+    "steps": [
+      "1. Mélanger sucre et beurre jusqu'à obtention d'une pâte lisse. Ajouter zeste, œuf, amandes et fécule. Mélanger le tout rapidement.",
+      "2. Partager en environ 40 morceaux. Former des boules. Placer ces dernières sur une plaque graissée ou un papier antiadhésif et les écraser légèrement avec une fourchette.",
+      "3. Cuire au milieu du four à 175°C pendant 10 à 15 min."
+    ],
+    "tags_raw": "Biscuits aux amandes sans gluten (Suède), autres biscuits et petits gâteaux , beurre, sucre, citron, amandes, oeuf, fécule de pomme de terre, très facile, bon marché | autres biscuits et petits gâteaux",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suede"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boules-au-chocolat-suede-17173-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boules-au-chocolat-suede_17173.aspx",
+    "name": "Boules au chocolat (Suède)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "20 bouchées",
+    "servings": 20,
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "margarine ou de beurre",
+        "raw": "100 g de margarine ou de beurre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "dl de sucre",
+        "raw": "1/2 dl de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sucre vanillé",
+        "raw": "1 cuillères à soupe de sucre vanillé"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "cacao",
+        "raw": "3 cuillères à soupe de cacao"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "cuillères à soupe d'eau",
+        "raw": "3 cuillères à soupe d'eau"
+      },
+      {
+        "quantity": "5",
+        "unit": "dl",
+        "name": "avoine",
+        "raw": "5 dl d'avoine"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "noix de coco rapée",
+        "raw": "noix de coco rapée"
+      }
+    ],
+    "steps": [
+      "1. Sortir la matière grasse au préalable du réfrigérateur. La mélanger avec le sucre. Ajouter le sucre vanillé, le cacao, l´eau et les flocons d´avoine et mélanger en une pâte homogène.",
+      "2. Former de petites boules d´environ 3 cm de diamètre et les rouler dans la noix de coco râpée.",
+      "3. A conserver au réfrigérateur dans une boîte hermétique."
+    ],
+    "tags_raw": "Boules au chocolat (Suède), , margarine, sucre, sucre vanillé, cacao, eau, avoine, noix de coco rapée, très facile, bon marché, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suede"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boulettes-de-viande-a-la-suedoise-15601-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boulettes-de-viande-a-la-suedoise_15601.aspx",
+    "name": "Boulettes de viande à la suédoise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 30,
+    "cook_minutes": 8,
+    "total_minutes": 38,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "beurre",
+        "raw": "1 cuillères à soupe de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "cuillères à soupe d'oignon finement hachés",
+        "raw": "4 cuillères à soupe d'oignon finement hachés"
+      },
+      {
+        "quantity": "1",
+        "unit": "pommes",
+        "name": "terre bouillie, réduite en purée (une tasse)",
+        "raw": "1 pommes de terre bouillie, réduite en purée (une tasse)"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "chapelure (fine)",
+        "raw": "3 cuillères à soupe de chapelure (fine)"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "boeuf haché maigre",
+        "raw": "500 g de boeuf haché maigre"
+      },
+      {
+        "quantity": "5",
+        "unit": "cuillères à soupe",
+        "name": "crème épaisse",
+        "raw": "5 cuillères à soupe de crème épaisse"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1 cuillères à café de sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil haché (au goût)",
+        "raw": "persil haché (au goût)"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "1 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cuillère à soupe de beurre et 2 cuillères à soupe d'huile",
+        "raw": "cuillère à soupe de beurre et 2 cuillères à soupe d'huile"
+      }
+    ],
+    "steps": [
+      "1. A feu modéré, faites fondre le beurre dans une petite poêle. Une fois la mousse résorbée, faites cuire les oignons pendant environ 5 minutes; ils doivent être tendres et transparents, mais pas bruns.",
+      "2. Dans un grand récipient, disposez les oignons, la pomme de terre  écrasée, la chapelure, la viande, la crème, le sel et l’œuf (et le persil si désiré).",
+      "3. Mélangez le tout avec énergie (avec les mains, c'est parfait) jusqu’à ce que le mélange soit homogène. Formez des petites boulettes et placez-les sur une plaque allant au four puis couvrez-les d'une pellicule plastique. Laissez reposer les boulettes au réfrigérateur une heure avant la cuisson.",
+      "4. A feu vif, liez le beurre et l'huile dans un grand poêlon. Une fois la mousse résorbée, placez-y les boulettes, 8 ou 10 à la fois. Réduisez à feu moyen et faites frire vos boulettes tout en secouant la poêle pour que la viande se roule bien dans le gras et que les boulettes conservent leur forme.",
+      "5. Au bout de 8 à 10 minutes, les boulettes doivent être brunies extérieurement et ne pas être rosées au centre.",
+      "6. Ajoutez beurre et huile si nécessaire, au fur et à mesure et disposez chaque nouvelle série de boulettes dans un plat que vous garderez au four à 200°C.",
+      "7. Au besoin, le jus de cuisson peut être utilisé pour faire une sauce (avec la farine)."
+    ],
+    "tags_raw": "Boulettes de viande à la suédoise, , beurre, oeuf, oignon, pomme de terre, chapelure, boeuf haché, crème épaisse, sel, persil, farine, beurre, facile, bon marché, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suedoise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boulettes-suedoises-335667-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boulettes-suedoises_335667.aspx",
+    "name": "Boulettes suédoises",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 Personnes",
+    "servings": 6,
+    "prep_minutes": 0,
+    "cook_minutes": 0,
+    "total_minutes": 0,
+    "ingredients": [
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "boeuf haché",
+        "raw": "600 g de boeuf haché"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "pains au lait",
+        "raw": "3 pains au lait"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "30",
+        "unit": "cl",
+        "name": "bouillon de boeuf",
+        "raw": "30 cl de bouillon de boeuf"
+      },
+      {
+        "quantity": "7",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "7 cl de lait"
+      },
+      {
+        "quantity": "5",
+        "unit": "cl",
+        "name": "crème fraîche",
+        "raw": "5 cl de crème fraîche"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "1 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sauce soja",
+        "raw": "1 cuillères à soupe de sauce soja"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment d'Espelette",
+        "raw": "piment d'Espelette"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Déchirez les pains au lait en petits morceaux et faites-les tremper dans le lait environ 5 minutes.",
+      "2. Hachez l'oignon et faites-le revenir dans de l'huile d'olive.",
+      "3. Mélangez les pains au lait, l'oignon, la viande hachée, l'oeuf, le piment, le poivre. Ne salez surtout pas, la sauce soja (pour la sauce à la fin) est déjà très salée.",
+      "4. Formez des boulettes. Mettez-les dans un plat, recouvrez et mettez-les au réfrigérateur environ 30 minutes. Si les boulettes sont un peu liquides, mettez-les au congélateur pendant le même temps.",
+      "5. A la fin de ce temps, faites revenir pendant environ 15-20 minutes les boulettes, dans une poêle suffisamment grande pour que les boulettes ne se touchent pas trop.",
+      "6. Pendant ce temps, dans une petite casserole, mélangez la farine au bouillon de boeuf, en fouettant pour éviter les grumeaux. Ajoutez la crème fraîche, et laissez épaissir pendant 5 minutes. Versez la sauce soja, poivrez.",
+      "7. Versez la sauce sur les boulettes. A  déguster avec des pommes de terre."
+    ],
+    "tags_raw": "Boulettes suédoises, boulettes de viande, boeuf haché, pain au lait, oeuf, oignon, bouillon de boeuf, lait, crème fraîche, farine, sauce soja, huile d'olive, piment d'Espelette, poivre, moyenne, bon marché, rapide | boulettes de viande",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:boulettes suedoises"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gateau-de-pommes-suede-12255-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gateau-de-pommes-suede_12255.aspx",
+    "name": "Gateau de Pommes (Suède)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "pommes",
+        "raw": "6 pommes"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "150 g de beurre"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "125 g de sucre en poudre"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "amandes en poudre",
+        "raw": "75 g d'amandes en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "verres",
+        "name": "chapelure",
+        "raw": "1 verres de chapelure"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "1 cuillères à soupe de farine"
+      }
+    ],
+    "steps": [
+      "1. Battez le beurre, ramolli à la température ambiante avec 100 g de sucre.",
+      "2. Lorsque le mélange est crémeux, ajoutez la chapelure, la poudre d'amandes et la farine.",
+      "3. Beurrez un plat à gratin.",
+      "4. Répartissez dans le fond la moitié de la préparation.",
+      "5. Pelez et épépinez les pommes. Passez-les à la  moulinette. Etalez-les sur la préparatin. Saupoudrez du sucre restant.",
+      "6. Recouvrez avec le reste de mélange à base de chapelure.",
+      "7. Enfournez à four moyen (180°C, thermostat 5-6) pendant 30 min."
+    ],
+    "tags_raw": "Gateau de Pommes (Suède), gâteau aux pommes, pomme, beurre, sucre en poudre, amandes en poudre, chapelure, farine, très facile, bon marché | gâteau aux pommes",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suede"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-glogg-suede-27025-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_glogg-suede_27025.aspx",
+    "name": "Glögg (Suède)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "bouteilles",
+        "name": "vin rouge",
+        "raw": "1 bouteilles de vin rouge"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "bouteilles de madère",
+        "raw": "1/2 bouteilles de madère"
+      },
+      {
+        "quantity": "5",
+        "unit": "clous",
+        "name": "girofle",
+        "raw": "5 clous de girofle"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "bâtons de cannelle",
+        "raw": "2 bâtons de cannelle"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "150 g de sucre en poudre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "zeste d'orange",
+        "raw": "zeste d'orange"
+      },
+      {
+        "quantity": "2",
+        "unit": "verres",
+        "name": "raisin de Corinthe",
+        "raw": "2 verres de raisin de Corinthe"
+      },
+      {
+        "quantity": "2",
+        "unit": "verres",
+        "name": "amandes entières pelées",
+        "raw": "2 verres d'amandes entières pelées"
+      }
+    ],
+    "steps": [
+      "1. Dans une casserole, mélanger le vin, le Madère et les épices. Couvrir et chauffer à feu doux. Le mélange ne doit pas bouillir.",
+      "2. Ajouter le sucre et les zestes d'orange et remuer. Laisser sur le feu une dizaine de minutes.",
+      "3. Ajouter les raisins de Corinthe et les amandes et servir chaud, avec une petite cuillère pour manger les raisins et les amandes, comme il est coutume de le faire en Suède."
+    ],
+    "tags_raw": "Glögg (Suède), , vin rouge, madère, clou de girofle, cannelle, sucre en poudre, orange, raisin, amandes, très facile, moyen",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suede"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gravlax-de-cabillaud-blinis-verts-529461-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gravlax-de-cabillaud-blinis-verts_529461.aspx",
+    "name": "Gravlax de cabillaud, blinis verts",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "total_minutes": 755,
+    "ingredients": [
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "dos de cabillaud bien épais",
+        "raw": "600 g de dos de cabillaud bien épais"
+      },
+      {
+        "quantity": "100",
+        "unit": "",
+        "name": "gros sel",
+        "raw": "100 gros sel"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "100 g de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "betteraves crue",
+        "raw": "1 betteraves crue"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "gin ou de vodka",
+        "raw": "4 cuillères à soupe de gin ou de vodka"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "200",
+        "unit": "ml",
+        "name": "lait",
+        "raw": "200 ml de lait"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "beurre fondu",
+        "raw": "30 g de beurre fondu"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "pousses d'épinards",
+        "raw": "100 g de pousses d'épinards"
+      },
+      {
+        "quantity": "175",
+        "unit": "g",
+        "name": "farine",
+        "raw": "175 g de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "levure",
+        "raw": "1 sachets de levure"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile",
+        "raw": "huile"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "crème fleurette entière",
+        "raw": "20 cl de crème fleurette entière"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "baies roses",
+        "raw": "baies roses"
+      }
+    ],
+    "steps": [
+      "1. Le veille : râpez la betterave et mélangez avec le sucre, le sel, le zeste du citron (réservez le jus), l'alcool et le poivre. Étalez la moitié du mélange dans le fond d'un plat, déposez le dos de cabillaud, recouvrez du reste de la marinade. Filmez et laissez mariner 12 h au réfrigérateur.",
+      "2. Pour les blinis : mixez les oeufs avec le lait, les pousses d'épinard et le beurre fondu.",
+      "3. Mélangez dans un saladier la farine avec la levure, le sel et le liquide. Mélangez sans insister.",
+      "4. Faites chauffer une poêle huilée à feu moyen. Versez des cuillères de pâte, quand les bulles se forment sur le dessus, retournez les blinis et laissez encore quelques minutes.",
+      "5. Mélangez la crème fleurette avec la moitié du jus de citron, salez, poivrez et ajoutez les baies roses.",
+      "6. Tranchez le poisson finement et servez avec les blinis et la crème.",
+      "7. Astuces : vous pouvez faire la même recette avec du saumon."
+    ],
+    "tags_raw": "Gravlax de cabillaud, blinis verts, gravelax, dos de cabillaud, gros sel, sucre, citron, betterave, gin, moyenne, moyen | gravelax",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:gravlax"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gravlax-de-carottes-529923-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gravlax-de-carottes_529923.aspx",
+    "name": "Gravlax de carottes",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 5,
+    "total_minutes": 145,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "carottes",
+        "raw": "3 carottes"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "sauce soja",
+        "raw": "4 cuillères à soupe de sauce soja"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "thé noir",
+        "raw": "1 cuillères à café de thé noir"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "jus de citron",
+        "raw": "2 cuillères à soupe de jus de citron"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sucre",
+        "raw": "1 cuillères à soupe de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "mélange 5 baies",
+        "raw": "1 cuillères à café de mélange 5 baies"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Laver puis éplucher les carottes en faisant des lamelles de chair (un peu épaisses) avec un épluche-légumes.",
+      "2. Porter une casserole d'eau à ébullition avec le thé, plonger les lamelles de carottes dedans et laisser cuire 5 minutes.",
+      "3. Pendant ce temps, préparer la marinade: mélanger dans un saladier l'huile d'olive, le jus de citron, le sirop d'érable, le sucre, la sauce soja et les 5 baies.",
+      "4. Egoutter les lamelles de carottes, les verser dans la marinade, puis les mélanger pour qu’elles soient toutes immergées. Ajouter un peu d’eau de cuisson au thé si besoin.",
+      "5. Laisser refroidir, et faire mariner au frigo le plus longtemps possible jusqu’à la dégustation. \nServir les lamelles égouttées sur du pain grillé."
+    ],
+    "tags_raw": "Gravlax de carottes, , carotte, huile d'olive, sauce soja, thé, jus de citron, sucre, mélange 5 baies, sel, facile, bon marché, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:gravlax"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gateau-suedois-au-safran-39941-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gateau-suedois-au-safran_39941.aspx",
+    "name": "Gâteau suédois au safran",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 40,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs (blancs et jaunes séparés)",
+        "raw": "3 oeufs (blancs et jaunes séparés)"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "crème fraîche",
+        "raw": "300 g de crème fraîche"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "3 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "miel",
+        "raw": "2 cuillères à soupe de miel"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "g de safran",
+        "raw": "1/2 g de safran"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Confiture de framboise",
+        "raw": "Confiture de framboise"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four à 175°C (thermostat 6).",
+      "2. Mélanger les 3 jaunes d'œufs, le safran, les 2 cuillères à soupe de miel et les 3 cuillères à soupe de farine.",
+      "3. À part, battre la crème fraîche avec les 3 blancs d'œufs.",
+      "4. Incorporer délicatement le mélange jaunes-farine-miel-safran au mélange blancs-crème fraîche.",
+      "5. Verser le tout dans un plat (bas, genre tarte, pas cake) beurré en enfourner pendant 40 min. Servir avec la confiture."
+    ],
+    "tags_raw": "Gâteau suédois au safran, , oeuf, crème fraîche, farine, miel, safran, Confiture de framboise, facile, moyen",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suedois"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gateaux-suedois-au-gingembre-et-au-citron-47283-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gateaux-suedois-au-gingembre-et-au-citron_47283.aspx",
+    "name": "Gâteaux suédois au gingembre et au citron",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "50 petits biscuits",
+    "servings": 50,
+    "prep_minutes": 20,
+    "cook_minutes": 12,
+    "total_minutes": 32,
+    "ingredients": [
+      {
+        "quantity": "350",
+        "unit": "ml",
+        "name": "farine (environ 140 g)",
+        "raw": "350 ml de farine (environ 140 g)"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "levure chimique",
+        "raw": "1 cuillères à café de levure chimique"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "beurre mou ou de margarine",
+        "raw": "150 g de beurre mou ou de margarine"
+      },
+      {
+        "quantity": "150",
+        "unit": "ml",
+        "name": "sucre (environ 125 g)",
+        "raw": "150 ml de sucre (environ 125 g)"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "mélasse claire, golden sirup ou miel",
+        "raw": "2 cuillères à soupe de mélasse claire, golden sirup ou miel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "zeste de citron non traité",
+        "raw": "zeste de citron non traité"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "gingembre en poudre",
+        "raw": "1 cuillères à soupe de gingembre en poudre"
+      }
+    ],
+    "steps": [
+      "1. Mélanger la farine, le gingembre, le zeste et la levure dans un bol.",
+      "2. A part, mélanger beurre, sucre et mélasse au robot par exemple.",
+      "3. Ajouter le mélange de farine et d'épices.",
+      "4. Partager la pâte en 4 et rouler en 4 longs rouleaux sur du papier sulfurisé.",
+      "5. Faire cuire à 200°C (thermostat 6-7) 10 à 12 minutes.",
+      "6. Découper ensuite les petits biscuits de travers de facon à ce qu'ils fassent 3 cm de long."
+    ],
+    "tags_raw": "Gâteaux suédois au gingembre et au citron, , farine, levure chimique, beurre, sucre, mélasse, citron, gingembre, très facile, bon marché, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suedois"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-hallongrottor-suedois-232297-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_hallongrottor-suedois_232297.aspx",
+    "name": "Hallongrottor suédois",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 35,
+    "cook_minutes": 12,
+    "total_minutes": 47,
+    "ingredients": [
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "beurre tendre",
+        "raw": "125 g de beurre tendre"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "farine",
+        "raw": "200 g de farine"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "80 g de sucre"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "fécule de pomme de terre",
+        "raw": "50 g de fécule de pomme de terre"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "Confiture de framboise",
+        "raw": "50 g de Confiture de framboise"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "levure chimique",
+        "raw": "1 sachets de levure chimique"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "sucre vanillé",
+        "raw": "1 sachets de sucre vanillé"
+      },
+      {
+        "quantity": "15",
+        "unit": "",
+        "name": "moules à muffins de taille moyenne",
+        "raw": "15 moules à muffins de taille moyenne"
+      }
+    ],
+    "steps": [
+      "1. Mélanger le beurre et le sucre. Ajouter la farine, la farine de pommes de terre, le sucre vanille et la levure chimique.",
+      "2. Faire un rouleau avec la pâte et la découper en 15 morceaux.",
+      "3. Placer chaque morceau dans un moules à muffin.",
+      "4. Faire un creux dans chaque gâteau avec le pouce et remplir de confiture de framboise.",
+      "5. Cuire 10 minutes à thermostat 7 (210°C)."
+    ],
+    "tags_raw": "Hallongrottor suédois, , beurre tendre, farine, sucre, fécule de pomme de terre, Confiture de framboise, levure chimique, sucre vanillé, moules, facile, bon marché, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suedois"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-hasselback-potatoes-pommes-de-terre-roties-a-la-suedoise-336386-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_hasselback-potatoes-pommes-de-terre-roties-a-la-suedoise_336386.aspx",
+    "name": "Hasselback potatoes : pommes de terre rôties à la suédoise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 Personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "4 pommes de terre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "beurre par pommes de terre",
+        "raw": "1 cuillères à café de beurre par pommes de terre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive vierge",
+        "raw": "huile d'olive vierge"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "fleur de sel",
+        "raw": "fleur de sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre du moulin",
+        "raw": "poivre du moulin"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "paprika",
+        "raw": "paprika"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "origan",
+        "raw": "origan"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "thym",
+        "raw": "thym"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "romarin (frais de préférence)",
+        "raw": "romarin (frais de préférence)"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four à 180°C (thermostat 6).",
+      "2. Lavez les pommes de terre. Entailler-les dans le sens de la largeur à intervalle régulier en veillant à conserver chaque pomme de terre entière.",
+      "3. Parsemer chaque pomme de terre de thym,de romarin, d'origan, de fleur de sel, de poivre du moulin et de paprika.",
+      "4. Mettez une petite cuiller de beurre au sommet de chaque pomme de terre ou répartissez dans chaque entaille.",
+      "5. Arroser légèrement d'huile d'olive. Placer les pommes de terre dans un plat ou sur une plaque de cuisson allant au four.",
+      "6. Placez au four environ 45 minutes."
+    ],
+    "tags_raw": "Hasselback potatoes : pommes de terre rôties à la suédoise, potatoes, pomme de terre, beurre, huile d'olive, fleur de sel, poivre, paprika, origan, thym, romarin, facile, bon marché | potatoes",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suedoise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-omelette-au-lard-et-confiture-d-airelles-suede-112860-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_omelette-au-lard-et-confiture-d-airelles-suede_112860.aspx",
+    "name": "Omelette au lard et confiture d'airelles (Suède)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 50,
+    "cook_minutes": 35,
+    "total_minutes": 85,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "beurre",
+        "raw": "1 cuillères à soupe de beurre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "l de lait",
+        "raw": "1/2 l de lait"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "farine",
+        "raw": "150 g de farine"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1/2 cuillères à café de sel"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "lard",
+        "raw": "100 g de lard"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "airelles (fraiches ou surgelées)",
+        "raw": "100 g d'airelles (fraiches ou surgelées)"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "sucre en poudre",
+        "raw": "2 cuillères à soupe de sucre en poudre"
+      }
+    ],
+    "steps": [
+      "1. Découper le lard en lamelles d'environ 1,5cm d'épaisseur et les faire griller à la poêle. Préchauffer le four à 225°.",
+      "2. Beurrer un plat allant au four, y disposer les tranches de lard.",
+      "3. Dans un bol, mélanger les oeufs avec la moitié du lait jusqu'à obtention d'une pâte lisse. Ajouter la farine et le sel, mélanger jusqu'à ce qu'il n'y ait plus de grumeaux. Ajouter le reste du lait et mélanger à nouveau.",
+      "4. Verser le mélange sur le lard et laisser cuire au four pendant 35 minutes.",
+      "5. Pendant ce temps, mettre les airelles dans un bol et écraser avec le sucre (les airelles restent entières mais donnent du jus). Cette confiture donnera la touche sucré-salé pour accompagner votre omelette une fois sortie du four."
+    ],
+    "tags_raw": "Omelette au lard et confiture d'airelles (Suède), omelette, beurre, lait, oeuf, farine, sel, lard, très facile, moyen | omelette",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suede"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pain-polaire-suede-47487-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pain-polaire-suede_47487.aspx",
+    "name": "Pain Polaire (Suède)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "24 pains",
+    "servings": 24,
+    "prep_minutes": 180,
+    "cook_minutes": 30,
+    "total_minutes": 210,
+    "ingredients": [
+      {
+        "quantity": "700",
+        "unit": "g",
+        "name": "farine sans additif",
+        "raw": "700 g de farine sans additif"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "farine de seigle",
+        "raw": "300 g de farine de seigle"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "eau",
+        "raw": "500 g d'eau"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "levain ferme non salé",
+        "raw": "150 g de levain ferme non salé"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "crème fraîche épaisse",
+        "raw": "150 g de crème fraîche épaisse"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "sucre semoule",
+        "raw": "30 g de sucre semoule"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "sel",
+        "raw": "20 g de sel"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "levure",
+        "raw": "20 g de levure"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "poudre à lever",
+        "raw": "10 g de poudre à lever"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "graine de fenouil (facultatif)",
+        "raw": "10 g de graine de fenouil (facultatif)"
+      }
+    ],
+    "steps": [
+      "1. Pétrir tous les ingrédients pendant 10 à 15 min au robot, puis laisser gonfler 1 heure à 25°C (pâte couverte).",
+      "2. Abaisser la pâte à 2-3 mm. Passer une fourchette, donc faire des trous rapides et un peu partout (comme sur les biscuits TUC).",
+      "3. Laisser \"détendre\" 20 min au réfrigérateur, pâte couverte.",
+      "4. Découper avec un bol des disques, puis laisser reposer 1 h sur une feuille de cuisson à température ambiante.",
+      "5. Pour la cuisson : dans une poêle chaude, sur feu doux, environ 30 secondes par face, les faces doivent rester claires.",
+      "6. Faire refroidir sur une grille afin de permettre l'évaporation des pains polaires, puis les empiler pour éviter le dessèchement.",
+      "7. Ces pains ressemblent à de grands \"blinis\"."
+    ],
+    "tags_raw": "Pain Polaire (Suède), , farine, farine de seigle, eau, levain, crème fraîche épaisse, sucre semoule, sel, levure, poudre à lever, graine de fenouil, moyenne, bon marché",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suede"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pain-suedois-creme-d-amande-et-chocolat-392470-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pain-suedois-creme-d-amande-et-chocolat_392470.aspx",
+    "name": "Pain suédois, crème d'amande et chocolat de Pierre Augé",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 12,
+    "cook_minutes": 7,
+    "total_minutes": 19,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petits pains suédois",
+        "raw": "1 petits pains suédois"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre mou",
+        "raw": "50 g de beurre mou"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre semoule",
+        "raw": "50 g de sucre semoule"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "vanille",
+        "raw": "1 gousses de vanille"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "amandes en poudre",
+        "raw": "50 g d'amandes en poudre"
+      },
+      {
+        "quantity": "25",
+        "unit": "g",
+        "name": "farine",
+        "raw": "25 g de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bananes",
+        "raw": "1 bananes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "chocolat noir",
+        "raw": "chocolat noir"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "fleur de sel",
+        "raw": "1 pincées de fleur de sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "amandes",
+        "raw": "amandes"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four à 180 degrés (thermostat 6).",
+      "2. Mélanger le beurre et le sucre dans un cul de poule jusqu’à obtenir une pâte bien blanche.",
+      "3. Ajouter l’œuf entier et bien mélanger.",
+      "4. Une fois bien incorporé, ajouter la poudre d’amande et la farine qui va venir stabiliser la crème à la cuisson.",
+      "5. Râper le zeste du citron dans la préparation.",
+      "6. Venir napper le pain de la crème, 1 cm d’épaisseur environ",
+      "7. Découper la banane en rondelles régulières, légèrement en biais.\nDéposer les morceaux de banane sur la crème.",
+      "8. Enfourner pour 7 min de cuisson.",
+      "9. La crème va gonfler et les bananes vont dorer\nConcasser les morceaux de chocolat pour en faire des gros copeaux\nAjouter une petite pincée de fleur de sel sur le dessus et les quelques bâtonnets d’amandes."
+    ],
+    "tags_raw": "Pain suédois, crème d'amande et chocolat de Pierre Augé, dessert, petit pain suédois, beurre, sucre semoule, vanille, oeuf, amandes en poudre, farine, citron, banane, chocolat noir, fleur de sel, amandes, facile, moyen, rapide | dessert",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suedois"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-prinsesstarta-patisserie-suedoise-309599-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_prinsesstarta-patisserie-suedoise_309599.aspx",
+    "name": "Prinsesstårta : pâtisserie suédoise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 120,
+    "cook_minutes": 30,
+    "total_minutes": 150,
+    "ingredients": [
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "crème fraîche",
+        "raw": "150 g de crème fraîche"
+      },
+      {
+        "quantity": "2",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "2 jaunes d'oeuf"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "maïzena",
+        "raw": "10 g de maïzena"
+      },
+      {
+        "quantity": "2",
+        "unit": "sachets",
+        "name": "sucre vanillé",
+        "raw": "2 sachets de sucre vanillé"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "130",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "130 g de sucre"
+      },
+      {
+        "quantity": "45",
+        "unit": "g",
+        "name": "farine",
+        "raw": "45 g de farine"
+      },
+      {
+        "quantity": "45",
+        "unit": "g",
+        "name": "maïzena",
+        "raw": "45 g de maïzena"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "levure",
+        "raw": "1 sachets de levure"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "10 g de beurre"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "chapelure",
+        "raw": "2 cuillères à soupe de chapelure"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "amandes",
+        "raw": "125 g d'amandes"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "sucre glace",
+        "raw": "150 g de sucre glace"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "colorant alimentaire (vert ou jaune + bleu)",
+        "raw": "colorant alimentaire (vert ou jaune + bleu)"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "crème liquide 30%",
+        "raw": "15 cl de crème liquide 30%"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "sucre glace",
+        "raw": "20 g de sucre glace"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "confiture ou équivalent (framboise, myrtille ou mûre)",
+        "raw": "80 g de confiture ou équivalent (framboise, myrtille ou mûre)"
+      }
+    ],
+    "steps": [
+      "1. Pour la préparation de ce gâteau, il faut prévoir en plus des ingrédients précédents : du temps, de la patience et des marges... Le gâteau a été fait avec un moule à manquer de 23 cm de diamètre. Les dimensions suivantes sont données sur cette base.",
+      "2. Partie I : Crème vanille",
+      "3. La crème doit commencer à être préparée au moins 5h avant l’heure du dessert. Le mieux étant de prévoir une nuit d’avance. D’un coté mélanger les deux jaunes d’oeufs au sucre vanillé, bien touillé pour faire légèrement mousser. Ajouter la maïzena. De l’autre côté, faire fondre légèrement la crème fraîche dans une casserole, à feu très doux. Ajouter la préparation jaunes d’oeufs/sucre/maïzena à la crème fraîche et fouetter à feu très doux.",
+      "4. Il faut ensuite calibrer le feu pour qu’il soit assez fort pour atteindre l’ébullition, sans que ça fasse des oeufs brouillés. Si la crème commence à accrocher au fond de la casserole, la retirer immédiatement du feu, réduire le feu, et fouetter énergiquement le mélange pour ne pas que la crème prenne ! Dès que la crème montre les premiers signes de frémissement, enlever la casserole du feu, transvaser dans un bol et laisser refroidir pendant au moins 3 heures au frigo. La crème épaissit en refroidissant.",
+      "5. Partie II : Génoise",
+      "6. Beurrer le moule à manquer. Laisser une très fine couche de chapelure sur le fond pour que ça n’accroche pas au démoulage. Préchauffer le four à 180°C (thermostat 6).",
+      "7. Battre les 3 oeufs entiers avec le sucre d’abord à la main rapidement. Puis mixer le mélange avec un batteur électrique, afin qu’il triple de volume. Une fois qu’il a pris du volume, continuer à mixer 2 à 3 minutes pour qu’il épaississe. Ajouter la farine, la maïzena et la levure, mélanger au fouet afin d’y incorporer de l’air. Cuire 30 minutes environ au four. Vérifier à la sortie du four, en plantant un couteau, que la lame ressort bien sec. Laisser reposer une demi-heure au moins, à température ambiante.",
+      "8. Partie III : Pâte d’amande",
+      "9. La partie qui demande le plus de patience. Mélanger 125 g de poudre d’amande à 150 g de sucre glace. Dans un verre, rempli à moitié (environ 10 cl d’eau), placer 4 gouttes de colorant vert ou 2 gouttes de colorant bleu, 2 gouttes de colorant jaune. Mélanger pour homogénéiser la couleur.",
+      "10. Incorporer une première cuillère à soupe d’eau colorée au mélange poudre d’amande/sucre glace. Malaxer le mélange. Ajouter une seconde cuillère à soupe, et bien malaxer le mélange à nouveau. La pâte d’amande obtenue doit être uniforme, ne doit pas coller aux doigts du tout, ni être trop craquante. Si elle est trop craquante, ajouter quelques gouttes d’eau verte, si elle colle, ajouter un peu de sucre glace.",
+      "11. Pour étaler la pâte d’amande, prendre une feuille de papier cuisson sulfurisé, d’environ 35 cm de large, et saupoudrer légèrement de sucre glace. Etaler dessus la pâte d’amande avec un rouleau, de façon à obtenir un disque d’au moins 31 à 33 cm de diamètre. La pâte d’amande ne doit pas coller au rouleau, sinon, ajouter du sucre glace sur le dessus. Si elle se craquelle, il est possible de refaire un peu de pâte et de l’ajouter. Il y aura plus de chutes, elles serviront pour la décoration... Une fois étalée, il faut absolument vérifier qu’elle ne colle pas trop au papier sulfurisé, et qu’elle pourra être décollée, au moment voulue, sans se déchirer.",
+      "12. Partie IV : Chantilly.",
+      "13. Deux heures environ avant de préparer la chantilly, placer le saladier qui servira à la monter au congélateur. La crème liquide doit absolument contenir au moins 30% de matière grasse et être bien fraîche. Un peu avant le montage final du gâteau, battre la crème liquide dans le saladier très froid pour la faire monter en chantilly bien ferme. Une fois la chantilly montée, ajouter le sucre glace et bien homogénéiser l’ensemble.",
+      "14. Partie V : Montage",
+      "15. Découper la génoise en deux dans l’épaisseur. Sur la partie inférieure, étaler la confiture (je préfère pour ma part utiliser des \"fausses confitures\" plus riches en fruits, parfois appelées \"fruits au chaudron\" ou \"fruitée intense\"). Sortir la crème vanille du frigo, et l’étaler au centre de la confiture, en laissant une marge d’environ 2 cm sur les bords. Sur la partie supérieure de la génoise, couper 1,5 cm de bord, afin de réduire son diamètre de 23 cm à 20 cm. Cela facilitera énormément la suite du montage. Placer alors la partie supérieure de la génoise sur la couche de crème vanillée. Avec la chantilly, former un dôme emprisonnant la génoise.",
+      "16. Poser la pâte d’amande étalée sur le papier sulfurisé, au dessus du dôme. Cette opération est bien plus facile si le diamètre de la pâte est bien supérieur au diamètre de la génoise. Sans presser la pâte d’amande, et sans la déchirer, retirer délicatement le papier sulfurisé. Former les bords de la pâte d’amande pour épouser les contours de la génoise, et avec un couteau, découper le surplus de pâte d’amande.",
+      "17. La pâte d’amande restante peut être utilisée pour décorer le gâteau, on peut y ajouter d’autres colorants, rouge pour faire une rose, ou ajouter du vert pour faire des feuilles."
+    ],
+    "tags_raw": "Prinsesstårta : pâtisserie suédoise, , crème fraîche, jaune d'oeuf, maïzena, sucre vanillé, difficile, moyen",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suedoise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-riz-au-lait-suedois-36343-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_riz-au-lait-suedois_36343.aspx",
+    "name": "Riz au lait suédois",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "riz rond",
+        "raw": "100 g de riz rond"
+      },
+      {
+        "quantity": "1",
+        "unit": "l",
+        "name": "lait",
+        "raw": "1 l de lait"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "100 g de sucre en poudre"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "amandes effilées",
+        "raw": "125 g d'amandes effilées"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "fruit confit assortis en dés",
+        "raw": "100 g de fruit confit assortis en dés"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "crème liquide",
+        "raw": "20 cl de crème liquide"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "madère (ou similaire, porto...)",
+        "raw": "2 cuillères à soupe de madère (ou similaire, porto...)"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      }
+    ],
+    "steps": [
+      "1. Mettez les fruits confits à macérer dans le Madère.",
+      "2. Rincez le riz. Faites-le blanchir 2 mn à l'eau bouillante puis égouttez-le.",
+      "3. Portez ensuite le lait à ébullition avec le sel. Faites-y cuire le riz 35 mn sur feu très doux jusqu'à ce que tout le lait soit absorbé.",
+      "4. En fin de cuisson, saupoudrez de sucre et mélangez délicatement. Prolongez la cuisson de 5 mn.",
+      "5. Après refroidissement, incorporez les fruits confits macérés dans le Madère, les amandes puis, délicatement, la crème liquide très froide fouettée en chantilly.",
+      "6. Mettez 1 h au réfrigérateur avant de servir."
+    ],
+    "tags_raw": "Riz au lait suédois, riz au lait, riz rond, lait, sucre en poudre, amandes effilées, fruit confit, crème liquide, madère, sel, facile, moyen | riz au lait",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suedois"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-sandwich-suedois-aux-asperges-et-oeuf-poche-318788-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_sandwich-suedois-aux-asperges-et-oeuf-poche_318788.aspx",
+    "name": "Sandwich suédois aux asperges et oeuf poché",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 Personnes",
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "petit pain suédois",
+        "raw": "4 tranches de petit pain suédois"
+      },
+      {
+        "quantity": "120",
+        "unit": "g",
+        "name": "asperges vertes",
+        "raw": "120 g d'asperges vertes"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pavot",
+        "raw": "pavot"
+      }
+    ],
+    "steps": [
+      "1. A la fourchette écraser les asperges avec le St Môret et ajouter des graines de sésame.",
+      "2. Faire pocher les oeufs 3 min dans de l'eau bouillante vinaigrée.",
+      "3. Faire légèrement griller les tranches de pain suédois et tartiner 2 tranches du mélange aux asperges, garder 2 cuillères à soupe pour la tranche du dessus, refermer le sandwich, décorer avec une cuillère à soupe du mélange aux asperges et y déposer l’œuf poché bien égoutté.",
+      "4. Vous pouvez aussi décorer avec des pointes d'asperges ou des asperges entières."
+    ],
+    "tags_raw": "Sandwich suédois aux asperges et oeuf poché, sandwich, petit pain suédois, asperges, oeuf, pavot, facile, bon marché, rapide | sandwich",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suedois"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-semlor-patisserie-suedoise-45671-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_semlor-patisserie-suedoise_45671.aspx",
+    "name": "Semlor (pâtisserie suédoise)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "14 gâteaux",
+    "servings": 14,
+    "prep_minutes": 75,
+    "cook_minutes": 10,
+    "total_minutes": 85,
+    "ingredients": [
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "3",
+        "unit": "dl",
+        "name": "lait",
+        "raw": "3 dl de lait"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "levure",
+        "raw": "50 g de levure"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères",
+        "name": "sel",
+        "raw": "1/2 cuillères de sel"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "sucre",
+        "raw": "10 cl de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "l",
+        "name": "farine",
+        "raw": "1 l de farine"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "sel de corne de cerf (carbonate d'ammonium)",
+        "raw": "1/2 cuillères à café de sel de corne de cerf (carbonate d'ammonium)"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "pâte d'amande",
+        "raw": "200 g de pâte d'amande"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "10 cl de lait"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "crème pâtissière",
+        "raw": "crème pâtissière"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sucre glace",
+        "raw": "sucre glace"
+      }
+    ],
+    "steps": [
+      "1. Effriter la levure dans un grand saladier.",
+      "2. Faire fondre le beurre, et le mélanger au lait, puis porter à 37°C exactement.",
+      "3. Verser sur la levure, et mélanger.",
+      "4. Ajouter le sucre, l'oeuf et le sel sans arrêter de tourner.",
+      "5. Quand le liquide est bien homogène, commencer à ajouter petit à petit la farine et le sel de corne de cerf. Malaxer jusqu'à avoir une pâte homogène, couvrir avec un torchon humide, et laisser reposer 30 min.",
+      "6. Sur un plat recouvert de papier sulfurisé, confectionner 14 boules avec la pâte. Il faut que la surface soit bien lisse et qu'il n'y ait pas d'irrégularités.",
+      "7. Couvrir et laisser à nouveau reposer 30 min.",
+      "8. Enfourner 8 à 10 min à 225°C (th 7-8), et laisser ensuite refroidir (très important!).",
+      "9. Pendant ce temps, on aura mélangé le lait et la pâte d'amande.",
+      "10. Pour terminer la préparation, couper le haut des semlor, enlever l'intérieur de la partie basse (et le manger !), puis remplir de pâte d'amande.",
+      "11. Recouvrir généreusement de crème pâtissière, puis remettre le chapeau et saupoudrer de sucre glace."
+    ],
+    "tags_raw": "Semlor (pâtisserie suédoise), , beurre, lait, levure, sel, sucre, oeuf, farine, sel, très facile, bon marché, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suedoise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-sockerkaka-gateau-sans-gluten-suede-17504-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_sockerkaka-gateau-sans-gluten-suede_17504.aspx",
+    "name": "Sockerkaka / gâteau sans gluten (Suède)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 45,
+    "cook_minutes": 30,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "2",
+        "unit": "dl",
+        "name": "sucre",
+        "raw": "2 dl de sucre"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "dl",
+        "name": "farine sans gluten (supermarchés, rayon diététique)",
+        "raw": "1.5 dl de farine sans gluten (supermarchés, rayon diététique)"
+      },
+      {
+        "quantity": "1",
+        "unit": "dl",
+        "name": "fécule de pomme de terre",
+        "raw": "1 dl de fécule de pomme de terre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sucre vanillé",
+        "raw": "1 cuillères à café de sucre vanillé"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à café",
+        "name": "levure sans gluten",
+        "raw": "2 cuillères à café de levure sans gluten"
+      },
+      {
+        "quantity": "1",
+        "unit": "dl",
+        "name": "eau chaude",
+        "raw": "1 dl d'eau chaude"
+      }
+    ],
+    "steps": [
+      "1. Mélanger intimement oeufs et sucre, de préférence au batteur. Ajouter les farines, la levure, le sucre vanillé (passez éventuellement au tamis).",
+      "2. Ajouter l'eau et mélangez bien.",
+      "3. Faire chauffer le four à 200°C et cuire dans un moule bien graissé environ 30 mn."
+    ],
+    "tags_raw": "Sockerkaka / gâteau sans gluten (Suède), , oeuf, sucre, farine sans gluten, fécule de pomme de terre, sucre vanillé, levure, eau, très facile, bon marché",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suede"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tartine-de-thon-vermicelle-de-soja-et-concombre-sur-pain-suedois-339751-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tartine-de-thon-vermicelle-de-soja-et-concombre-sur-pain-suedois_339751.aspx",
+    "name": "Tartine de thon, vermicelle de soja et concombre sur pain suédois",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 2 pieces",
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 4,
+    "total_minutes": 19,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "tranches",
+        "name": "petit pain suédois",
+        "raw": "2 tranches de petit pain suédois"
+      },
+      {
+        "quantity": "40",
+        "unit": "g",
+        "name": "fromage blanc",
+        "raw": "40 g de fromage blanc"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "citrons pressé",
+        "raw": "1/2 citrons pressé"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "branche de ciboulette fraîche",
+        "raw": "branche de ciboulette fraîche"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites boîtes de thon en miettes",
+        "raw": "1 petites boîtes de thon en miettes"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "vermicelles de soja",
+        "raw": "50 g de vermicelles de soja"
+      }
+    ],
+    "steps": [
+      "1. Mélanger le fromage blanc, le jus de citron et la ciboulette préalablement hachée puis réserver au frais.",
+      "2. Faire bouillir de l’eau dans une casserole puis plonger les vermicelles de soja. Laisser cuire 4 minutes hors feu et couvercle fermé. Une fois cuit, les égoutter puis les passer sous l’eau froide.",
+      "3. Eplucher (ou non) le demi concombre en très fines lamelles, si possible à la mandoline.",
+      "4. Prenez la moitié de votre préparation fromage blanc et la mélanger au thon afin d’obtenir des rillettes.",
+      "5. Disposer une tranche de pain sur chaque assiette et répartir le fromage blanc dessus. Disposer ensuite la préparation au thon. Répartir les vermicelles de soja sur chaque tartine et finir avec le concombre.",
+      "6. Vous pouvez parfaire votre recette avec quelques gouttes de citron sur le dessus ainsi que quelques brins de ciboulettes pour un résultat plus frais et goûteux."
+    ],
+    "tags_raw": "Tartine de thon, vermicelle de soja et concombre sur pain suédois, tartine, petit pain suédois, fromage blanc, citron, ciboulette, thon, vermicelles de soja, très facile, bon marché, rapide | tartine",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:suedois"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tapavrons-amuse-bouches-poivron-fromage-33336-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tapavrons-amuse-bouches-poivron-fromage_33336.aspx",
+    "name": "Tapavrons (amuse-bouches poivron + fromage)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poivrons",
+        "raw": "1 poivrons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petits pains suédois grillé (ou biscotte, pain rassis, chapelure)",
+        "raw": "1 petits pains suédois grillé (ou biscotte, pain rassis, chapelure)"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "poudre de noisette",
+        "raw": "50 g de poudre de noisette"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "fromage râpé (gruyère, parmesan, etc)",
+        "raw": "50 g de fromage râpé (gruyère, parmesan, etc)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à café d'origan ou d'herbes de Provence",
+        "raw": "1 cuillères à café d'origan ou d'herbes de Provence"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      }
+    ],
+    "steps": [
+      "1. Écraser le pain grillé entre ses doigts pour le réduire en poudre.",
+      "2. Émincer très finement l'ail et l'oignon.",
+      "3. Mélanger dans un bol tous les ingrédients sauf le poivron.",
+      "4. Enlever le pédoncule du poivron, les graines, et les parties blanches (qui sont amères). Laver le poivron. Couper le poivron en petits carrés de 1 à 2 cm de côté.",
+      "5. Préparer un plat allant au four (moule à tarte, par exemple), ou disposer du papier d'aluminium sur la plaque de cuisson.",
+      "6. Mettre le four à préchauffer, sur grill 240°C.",
+      "7. Sur chaque carré de poivron, disposer une cuillère à café du mélange (sur la face interne), et poser le carré sur le plat (le poivron en dessous).",
+      "8. S'il reste de la farce, en faire de petites boules, à disposer également sur le plat.",
+      "9. Mettre le plat à griller, en haut du four, juqu'à ce que la farce brunisse (environ 10 mn, mais surveiller).",
+      "10. Sortir du four et piquer quelques cure-dents dans quelques tapavrons.",
+      "11. Apporter le plat (ou la plaque de cuisson) directement à table : les tapavrons resterons ainsi plus chauds."
+    ],
+    "tags_raw": "Tapavrons (amuse-bouches poivron + fromage), bouchée ou amuse-bouche, poivron, petit pain suédois, poudre de noisette, fromage râpé, oeuf, ail, oignon, origan, sel, facile, bon marché, rapide | bouchée ou amuse-bouche",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 7,
+    "country_match_reasons": [
+      "tag:suedois",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-biscuits-d-automne-41665-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_biscuits-d-automne_41665.aspx",
+    "name": "biscuits d'automne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "20 biscuits environ",
+    "servings": 20,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "120",
+        "unit": "g",
+        "name": "farine",
+        "raw": "120 g de farine"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "petits pains suédois",
+        "raw": "5 petits pains suédois"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "abricots secs et quelques amandes entières non pelées",
+        "raw": "2 abricots secs et quelques amandes entières non pelées"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "sachets",
+        "name": "levure chimique",
+        "raw": "1/2 sachets de levure chimique"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "demi de citron",
+        "raw": "demi de citron"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1/2 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "2",
+        "unit": "fruits",
+        "name": "clous de girofle concassés",
+        "raw": "2 fruits de clous de girofle concassés"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      }
+    ],
+    "steps": [
+      "1. Mixer les pains suédois en chapelure.",
+      "2. D'une part, mélanger la farine, la pincée de sel et la levure.",
+      "3. D'autre part travaillez dans un récipient (lui même, dans un récipient plus grand contenant de l'eau chaude) le sucre et le beurre jusqu'à obtenir une crème légèrement mousseuse.",
+      "4. Ajouter tout en remuant vivement, la chapelure de pain suédois, le jus de citron et la cannelle ainsi que le mélange farine.",
+      "5. Pétrir le tout jusqu'a obtenir une pâte homogène, filmer le tout et laisser une heure au frais...",
+      "6. Préchauffer le four à 180°C (thermostat 6).",
+      "7. Beurrer légèrement du papier sulfurisé, et y déposer des ronds de pâte d'environ 5 cm de diamètre (utiliser une tasse ou un verre à liqueur) et d'une épaisseur de 0.8 à 1 cm environ.",
+      "8. Enfin couper grossièrement les amandes et les abricots secs pour décorer au choix les biscuits.",
+      "9. Enfournez à 180°C (thermostat 6) pendant une heure."
+    ],
+    "tags_raw": "biscuits d'automne, autres biscuits et petits gâteaux , farine, petit pain suédois, beurre, oeuf, abricot, levure chimique, citron, cannelle, fruits, sel, facile, moyen | autres biscuits et petits gâteaux",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:suedois"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cake-saumon-poireaux-et-aneth-51638-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cake-saumon-poireaux-et-aneth_51638.aspx",
+    "name": "Cake saumon, poireaux et aneth",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "poireaux",
+        "raw": "2 poireaux"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "saumon fumé tranché",
+        "raw": "200 g de saumon fumé tranché"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "gruyère râpé",
+        "raw": "100 g de gruyère râpé"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "farine",
+        "raw": "200 g de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "levure chimique",
+        "raw": "1 sachets de levure chimique"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "10 cl de lait"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "10 cl d'huile d'olive"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à café d'aneth",
+        "raw": "2 cuillères à café d'aneth"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. - Couper les blancs de poireaux en rondelles, les faire revenir dans un peu d'huile d'olive jusqu'à ce qu'ils ne soient plus croquants.",
+      "2. - Dans un saladier, mélanger les oeufs battus, le lait, l'huile et l'aneth, saler, poivrer.",
+      "3. - Incorporer la farine mélangée à la levure, bien remuer, puis terminer en ajoutant le fromage et les poireaux.",
+      "4. - Préchauffer le four pendant 20 minutes à 200°C.",
+      "5. - Verser un peu de pâte dans un moule à cake beurré, puis une partie du saumon.",
+      "6. Alterner les deux en finissant par de la pâte et parsemer de gruyère.",
+      "7. - Cuisson : 40 minutes"
+    ],
+    "tags_raw": "Cake saumon, poireaux et aneth, cake salé apéritif, poireau, saumon fumé, oeuf, gruyère râpé, farine, levure chimique, lait, huile d'olive, aneth, poivre, sel, facile, moyen | cake salé apéritif",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cheesecake-sale-skyr-saumon-fume-et-aneth-391663-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cheesecake-sale-skyr-saumon-fume-et-aneth_391663.aspx",
+    "name": "Cheesecake salé skyr, saumon fumé et aneth",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "total_minutes": 200,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "saumon fumé",
+        "raw": "4 tranches de saumon fumé"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "skyr bio Les 2 Vaches®",
+        "raw": "100 g de skyr bio Les 2 Vaches®"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "fromage frais à tartiner",
+        "raw": "300 g de fromage frais à tartiner"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "biscuits apéritifs type crackers",
+        "raw": "100 g de biscuits apéritifs type crackers"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "60 g de beurre"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "jus",
+        "name": "citron",
+        "raw": "1.5 jus de citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "aneth",
+        "raw": "aneth"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "baies roses",
+        "raw": "baies roses"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. À l’aide d’un mixeur, réduire en poudre les biscuits apéritifs.\nSans mixeur à disposition, placer les crackers dans un sac de congélation et les écraser avec un rouleau à pâtisserie.",
+      "2. Faire fondre le beurre et le mélanger aux biscuits réduits en miettes.",
+      "3. Placer une feuille de papier sulfurisé sur une plaque. Huiler 4 emporte-pièces et les placer sur cette dernière. Garnir le fond des emporte-pièces avec la pâte obtenue précédemment. Bien tasser la base avant de réserver au frais.",
+      "4. Dans un saladier, mélanger le fromage frais, le skyr bio Les 2 Vaches®, le jus de citron. Ciseler l’aneth et ajouter le sel, le poivre et les baies.",
+      "5. Disposer la préparation dans les emporte-pièces. Lisser à l’aide d’une cuillère et réserver au frais pendant au minimum 3h.",
+      "6. Au moment de la dégustation, démouler soigneusement les mini cheesecakes. Les décorer\navec une tranche de saumon fumé et quelques pluches d’aneth."
+    ],
+    "tags_raw": "Cheesecake salé skyr, saumon fumé et aneth, entrée, saumon fumé, skyr bio Les 2 Vaches®, fromage frais, biscuits apéritifs, beurre, jus de citron, aneth, baies roses, sel, poivre, facile, bon marché, rapide | entrée",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-croustillants-de-saumon-a-l-aneth-33787-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_croustillants-de-saumon-a-l-aneth_33787.aspx",
+    "name": "Croustillants de saumon à l' aneth",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 7,
+    "total_minutes": 27,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "saumon , sans la peau",
+        "raw": "300 g de saumon , sans la peau"
+      },
+      {
+        "quantity": "12",
+        "unit": "",
+        "name": "crevettes roses décortiquées",
+        "raw": "12 crevettes roses décortiquées"
+      },
+      {
+        "quantity": "4",
+        "unit": "feuilles",
+        "name": "brick",
+        "raw": "4 feuilles de brick"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "tomates",
+        "raw": "1 tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "coeurs",
+        "name": "salade frisée",
+        "raw": "1 coeurs de salade frisée"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cerfeuil et aneth ciselés",
+        "raw": "cerfeuil et aneth ciselés"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "crème fraîche épaisse",
+        "raw": "crème fraîche épaisse"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "vinaigre de cidre",
+        "raw": "vinaigre de cidre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "moutarde",
+        "raw": "moutarde"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "grain d'anis vert ou de fenouil",
+        "raw": "grain d'anis vert ou de fenouil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre moulu",
+        "raw": "poivre moulu"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Allumez le four à Th 8 (240°C). Coupez les feuilles de brik en deux. Détaillez le filet de saumon en lanières. Mélangez quatre cuillerées de crème, une cuillerée à café d'anis broyé, deux brins d'aneth effeuillés, du sel et du poivre moulu.",
+      "2. Badigeonnez les feuilles de brik d'oeuf sur une face. Farcissez-les de lanières de saumon, de crevettes, et nappez de crème à l'aneth. Fermez de tous les côtés et alignez-les, fermeture en dessous, dans un plat huilé. Badigeonnez-les de l'oeuf restant. Enfournez 7 à 8 mn.",
+      "3. Mélangez une cuillerée à soupe de vinaigre avec une cuillère à café de moutarde, sel, poivre et trois cuillerées à soupe d'huile. Assaisonnez la salade, ajoutez six brins de persil et de cerfeuil, posez-la sur les assiettes. Disposez les croustillants dessus, décorez de pluches d'aneth et ajoutez éventuellement quelques crevettes."
+    ],
+    "tags_raw": "Croustillants de saumon à l' aneth, , saumon, crevette rose, brick, tomate, salade frisée, persil, cerfeuil, oeuf, crème fraîche épaisse, huile d'olive, vinaigre de cidre, moutarde, anis, poivre, sel, très facile, bon marché, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-feuillete-saumon-aneth-fromage-frais-en-forme-de-sapin-348886-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_feuillete-saumon-aneth-fromage-frais-en-forme-de-sapin_348886.aspx",
+    "name": "Feuilleté saumon aneth fromage frais (en forme de sapin)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 0,
+    "cook_minutes": 0,
+    "total_minutes": 0,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "pâtes feuilletées",
+        "raw": "2 pâtes feuilletées"
+      },
+      {
+        "quantity": "3",
+        "unit": "pavés",
+        "name": "saumon",
+        "raw": "3 pavés de saumon"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "fromage frais",
+        "raw": "20 g de fromage frais"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "aneth",
+        "raw": "aneth"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "1",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "1 jaunes d'oeuf"
+      }
+    ],
+    "steps": [
+      "1. Retirer la peau du saumon et le détailler en petits morceaux.",
+      "2. Mélanger le fromage frais avec les saumon, l'aneth et le jus de citron.",
+      "3. Dérouler une pâte feuilletée, étaler du fromage frais au saumon sur une bande de pâte, la rouler puis couper. Répéter l'opération jusqu'à épuisement de la pâte puis avec la seconde pâte. \nCouper chaque boudin de pâte en tronçons de taille identique.",
+      "4. Badigeonner chaque boudin de jaune d'oeuf puis les disposer, debout dans un moule en les serrant bien les uns aux autres.",
+      "5. Enfourner 35 minutes"
+    ],
+    "tags_raw": "Feuilleté saumon aneth fromage frais (en forme de sapin), feuilleté, pâte feuilletée, saumon, fromage frais, aneth, citron, jaune d'oeuf, très facile, bon marché, rapide | feuilleté",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gratin-poireaux-colin-tout-leger-57492-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gratin-poireaux-colin-tout-leger_57492.aspx",
+    "name": "Gratin poireaux-colin tout léger",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "poireaux",
+        "raw": "2 poireaux"
+      },
+      {
+        "quantity": "2",
+        "unit": "pavés",
+        "name": "colin",
+        "raw": "2 pavés de colin"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons émincé",
+        "raw": "1 oignons émincé"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "fromage blanc 0%",
+        "raw": "250 g de fromage blanc 0%"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "petits pains suédois",
+        "raw": "2 petits pains suédois"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre et muscade",
+        "raw": "poivre et muscade"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faire revenir l'oignon émincé et le colin émietté à feu doux.",
+      "2. Assaisonner puis réserver.",
+      "3. Emincer les blancs de poireaux et les faire revenir.",
+      "4. Disposer les blanc de poireaux dans un plat à gratin, recouvrir du mélange colin-oignon et verser la préparation FB 0% (fromage blanc 0% + oeufs + sel, poivre et muscade).",
+      "5. Pour un touche de craquant, saupoudrer le plat des 2 pains suédois écrasés.",
+      "6. Un plat léger et facile à réaliser...",
+      "7. Bon appétit!!"
+    ],
+    "tags_raw": "Gratin poireaux-colin tout léger, gratin de légumes, poireau, colin, oignon, fromage blanc, oeuf, petit pain suédois, poivre, sel, très facile, bon marché | gratin de légumes",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:suedois"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-parmentier-de-thon-vraiment-facile-et-pas-cher-58430-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_parmentier-de-thon-vraiment-facile-et-pas-cher_58430.aspx",
+    "name": "parmentier de thon vraiment facile et pas cher",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "flocon de purée type mouss.....",
+        "raw": "1 sachets de flocon de purée type mouss....."
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "grosses boîtes de thon",
+        "raw": "2 grosses boîtes de thon"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "citron vert vendu en petite bouteille ou le jus d'un citron vert",
+        "raw": "citron vert vendu en petite bouteille ou le jus d'un citron vert"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "reste de biscotte",
+        "raw": "reste de biscotte"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "petit pain suédois",
+        "raw": "petit pain suédois"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "crème liquide (facultatif)",
+        "raw": "crème liquide (facultatif)"
+      }
+    ],
+    "steps": [
+      "1. Préparer la purée en flocons comme indiquée sur la boîte.",
+      "2. Rajouter un peu de crème liquide ou de beurre (facultatif) pour adoucir la purée.",
+      "3. Ouvrir les boîtes de thon, les incorporer dans la purée (sans l'eau!!).",
+      "4. Rajouter 4 à 6 cuillères à soupe de ciron vert selon les goûts.",
+      "5. Faire de la chapelure avec les restes de biscottes ou pain suédois ou de pain rassis (pour ma part, je mets le tout dans un sac type congélation et j'écrase à l'aide d'une bouteille en verre...).",
+      "6. Parsemer la purée au thon de cette chapelure et mettre au four 8 minutes thermostat 6-7 (200°C)."
+    ],
+    "tags_raw": "parmentier de thon vraiment facile et pas cher, hachis parmentier, flocon de purée, thon, citron vert, biscotte, petit pain suédois, crème liquide, très facile, bon marché, rapide | hachis parmentier",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:suedois"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-paves-de-saumon-sauce-cremeuse-a-l-aneth-44797-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_paves-de-saumon-sauce-cremeuse-a-l-aneth_44797.aspx",
+    "name": "Pavés de saumon, sauce crémeuse à l'aneth",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "pavés",
+        "name": "saumon frais",
+        "raw": "2 pavés de saumon frais"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "échalotes",
+        "raw": "1 échalotes"
+      },
+      {
+        "quantity": "6",
+        "unit": "rondelles",
+        "name": "carotte",
+        "raw": "6 rondelles de carotte"
+      },
+      {
+        "quantity": "6",
+        "unit": "rondelles",
+        "name": "courgette avec la peau (j'ai toujours des légumes surgelés, coupés en rondelles, dans le congélateur)",
+        "raw": "6 rondelles de courgette avec la peau (j'ai toujours des légumes surgelés, coupés en rondelles, dans le congélateur)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "petits verres de vin blanc sec",
+        "raw": "2 petits verres de vin blanc sec"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cuillère à café de fumet de poisson et d’1/2 cuillère à café de bouillon de légumes émietté",
+        "raw": "cuillère à café de fumet de poisson et d’1/2 cuillère à café de bouillon de légumes émietté"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "crème fraîche liquide",
+        "raw": "20 cl de crème fraîche liquide"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "crème fraîche épaisse",
+        "raw": "2 cuillères à soupe de crème fraîche épaisse"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "5",
+        "unit": "brins",
+        "name": "aneth",
+        "raw": "5 brins d'aneth"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four à 210°C (th 7).",
+      "2. Hacher les rondelles de carotte et de courgette, avec l’échalote.",
+      "3. Faire revenir le mélange dans une casserole à fond épais, jusqu’à ce que ça blondisse.",
+      "4. Ajouter l’ail/persil haché, à votre convenance.",
+      "5. Pendant ce temps, déposer les pavés de saumon dans un plat allant au four (on peut préalablement badigeonner le fond avec un peu d’huile; mais dans mon plat en terre cuite, ça ne colle pas), et enfourner 15 à 20 min.",
+      "6. Dans la casserole, ajouter le vin blanc + fumet de poisson/bouillon de légumes, porter à ébullition, et laisser réduire sur feu moyen  environ 10 min.",
+      "7. Une fois que le vin a réduit, rajouter la crème et l’aneth ciselée, et laisser réchauffer 2 min.",
+      "8. Rectifier l’assaisonnement (on peut rajouter un filet de jus de citron).",
+      "9. Servir les filets de saumon, nappés de sauce..."
+    ],
+    "tags_raw": "Pavés de saumon, sauce crémeuse à l'aneth, filets de poisson, saumon frais, échalote, carotte, courgette, vin blanc sec, fumet, crème fraîche liquide, crème fraîche épaisse, ail, aneth, persil, poivre, sel, facile, moyen | filets de poisson",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-petit-feuillete-au-saumon-et-a-l-aneth-23064-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_petit-feuillete-au-saumon-et-a-l-aneth_23064.aspx",
+    "name": "Petit feuilleté au saumon et à l'aneth",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pâtes feuilletées",
+        "raw": "1 pâtes feuilletées"
+      },
+      {
+        "quantity": "2",
+        "unit": "pavés",
+        "name": "saumon crus",
+        "raw": "2 pavés de saumon crus"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "crème fraîche épaisse",
+        "raw": "crème fraîche épaisse"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "aneth",
+        "raw": "aneth"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "jus de citron",
+        "raw": "jus de citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre 5 baies",
+        "raw": "poivre 5 baies"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Découper les pavés de saumon en deux.",
+      "2. Découper la pâte feuilletée en quatre parts égales.",
+      "3. Poser au centre de chaque part de pâte un morceau de saumon. Mouiller le saumon avec une pointe de jus de citron, saler, poivrer. Répartir ensuite une bonne cuillère à soupe de crème fraîche épaisse sur le dessus du poisson. Verser sur la crème de l'aneth finement hachée.",
+      "4. Plier la pâte feuilletée par dessus le saumon. Mettre au four (thermostat 6) pendant 10 mn environ."
+    ],
+    "tags_raw": "Petit feuilleté au saumon et à l'aneth, feuilleté, pâte feuilletée, saumon, crème fraîche épaisse, aneth, jus de citron, poivre, sel, très facile, moyen, rapide | feuilleté",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-sauce-aneth-pour-saumon-fume-164602-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_sauce-aneth-pour-saumon-fume_164602.aspx",
+    "name": "Sauce aneth pour saumon fumé",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "total_minutes": 10,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "crème fraîche",
+        "raw": "2 cuillères à soupe de crème fraîche"
+      },
+      {
+        "quantity": "5",
+        "unit": "branches",
+        "name": "aneth",
+        "raw": "5 branches d'aneth"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "jus de citron",
+        "raw": "1 cuillères à soupe de jus de citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Mélanger la crème et le jus de citron.",
+      "2. Hacher finement l'aneth et l'incorporer à la crème.",
+      "3. Saler et poivrer.",
+      "4. La crème peut rendre fade cette préparation, donc ne pas hésiter à rajouter de l'aneth si besoin, et même à en mettre beaucoup!!",
+      "5. Vous pouvez servir cette sauce sur blinis tièdes avec du saumon fumé."
+    ],
+    "tags_raw": "Sauce aneth pour saumon fumé, Autres sauces, crème fraîche, aneth, jus de citron, poivre, sel, très facile, bon marché, rapide | Autres sauces",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-saumon-et-fenouil-avec-sauce-a-l-aneth-85143-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_saumon-et-fenouil-avec-sauce-a-l-aneth_85143.aspx",
+    "name": "Saumon et fenouil avec sauce à l'aneth",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "fenouil ou 2 petits (prévoir un petit fenouil par personne, ou la moitié d'un gros)",
+        "raw": "1 fenouil ou 2 petits (prévoir un petit fenouil par personne, ou la moitié d'un gros)"
+      },
+      {
+        "quantity": "2",
+        "unit": "filets",
+        "name": "saumon (200 g)",
+        "raw": "2 filets de saumon (200 g)"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "yaourt",
+        "raw": "100 g de yaourt"
+      },
+      {
+        "quantity": "3",
+        "unit": "brins",
+        "name": "aneth",
+        "raw": "3 brins d'aneth"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "olives vertes en bocal",
+        "raw": "5 olives vertes en bocal"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "court-bouillon",
+        "raw": "1 court-bouillon"
+      }
+    ],
+    "steps": [
+      "1. Commencez par faire cuire le fenouil: lavez-le, enlevez les petites branches pour ne garder vraiment que le bulbe et mettez-le entier dans de l'eau bouillante un peu salée.",
+      "2. Comptez environ 45 min, mais cela dépend de la taille du bulbe. Pour savoir s'il est cuit, enfoncez un couteau: le fenouil devra être tendre.",
+      "3. En attendant, préparez la cuisson du saumon : mettez de l'eau dans une casserole, assez pour qu'elle puisse ensuite recouvrir les filets de saumon, mettez-la sur le feu, et salez-la.",
+      "4. Si vous le souhaitez, vous pouvez ajouter des épices à court-bouillon selon vos goûts. Certains supermarchés vendent par exemple des préparations pour poissons, à base de fenugrec, clous de girofles, laurier et autres épices. Sinon, le poisson peut cuire simplement dans l'eau salée.",
+      "5. Les filets de saumon cuisent durant 15 min après ébullition, à feu doux.",
+      "6. Pendant la cuisson du fenouil et du saumon :",
+      "7. Lavez quelques brins d'aneth.",
+      "8. Coupez et enlevez les tiges les plus grosses.",
+      "9. Hachez les brins.",
+      "10. Versez le yaourt ou le fromage blanc dans un bol.",
+      "11. Ajoutez un filet de jus de citron, salez et poivrez le yaourt, ajoutez l'aneth et remuez.",
+      "12. Votre sauce est prête.",
+      "13. Retirez ensuite le fenouil de l'eau, coupez-le grossièrement en morceaux de quelques centimètres.",
+      "14. Faites de même avec le saumon.",
+      "15. Disposez les morceaux de fenouil et de saumon dans un plat, laissez tiédir 5 min.",
+      "16. Versez la sauce au yaourt et à l'aneth dessus et ajoutez les olives vertes... C'est prêt !"
+    ],
+    "tags_raw": "Saumon et fenouil avec sauce à l'aneth, , fenouil, saumon, yaourt, aneth, olives vertes, citron, poivre, sel, court-bouillon, très facile, moyen",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-saumon-poche-et-sa-sauce-a-l-aneth-16453-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_saumon-poche-et-sa-sauce-a-l-aneth_16453.aspx",
+    "name": "Saumon poché et sa sauce à l'aneth",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "saumon frais de 250 g chacun",
+        "raw": "4 tranches de saumon frais de 250 g chacun"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "l de fumet de poisson",
+        "raw": "1/2 l de fumet de poisson"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons finement haché",
+        "raw": "1 oignons finement haché"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "carottes moyenne, taillée en macédoine",
+        "raw": "1 carottes moyenne, taillée en macédoine"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "petits bouquets de persil",
+        "raw": "3 petits bouquets de persil"
+      },
+      {
+        "quantity": "2",
+        "unit": "tranches",
+        "name": "citron",
+        "raw": "2 tranches de citron"
+      },
+      {
+        "quantity": "250",
+        "unit": "ml",
+        "name": "vin blanc",
+        "raw": "250 ml de vin blanc"
+      }
+    ],
+    "steps": [
+      "1. Mettez dans une marmite basse l'oignon, la carotte, le persil, le vin blanc et le fumet de poisson.",
+      "2. Portez à ébullition et faites bouillir à feu vif pendant 2 min, environ.",
+      "3. Baissez le feu et disposez-y délicatement les tranches de saumon. Couvrez et laissez cuire à feu modéré durant 10 min. Retirez du feu.",
+      "4. Pendant ce temps, faites fondre le beurre dans une casserole. Ajoutez la farine et faites cuire à feu doux en mélangeant constamment, et ce pendant 2 min.",
+      "5. Incorporez à ce roux une tasse du jus de cuisson du saumon. Portez à légère ébullition 3 min tout en remuant, puis baissez le feu.",
+      "6. Dans un bol, incorporez le jaune d’œuf et la crème fraîche de façon à obtenir une composition homogène. Ajoutez une petite quantité de ce composé au roux, toujours en mélangeant. Réchauffez-le dans une casserole. Rectifiez l'assaisonnement et ajoutez l'aneth. Retirez du feu.",
+      "7. A l'aide d'une spatule à poisson, mettez le saumon sur du papier absorbant. Disposez-les ensuite sur un plat chaud, nappez-les de sauces et servez aussitôt."
+    ],
+    "tags_raw": "Saumon poché et sa sauce à l'aneth, , saumon frais, fumet, oignon, carotte, persil, citron, vin blanc, facile, moyen",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-saumon-poele-et-sa-sauce-citronnee-a-l-aneth-222809-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_saumon-poele-et-sa-sauce-citronnee-a-l-aneth_222809.aspx",
+    "name": "Saumon poêlé et sa sauce citronnée à l'aneth",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 personne",
+    "servings": 1,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "pavés",
+        "name": "saumon",
+        "raw": "1 pavés de saumon"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "brins",
+        "name": "aneth pour décorer",
+        "raw": "1 brins d'aneth pour décorer"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "2",
+        "unit": "tours",
+        "name": "moulin de poivre du moulin",
+        "raw": "2 tours de moulin de poivre du moulin"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "échalotes",
+        "raw": "1 échalotes"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1/2 citrons"
+      },
+      {
+        "quantity": "1",
+        "unit": "noisettes",
+        "name": "beurre",
+        "raw": "1 noisettes de beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "aneth",
+        "raw": "aneth"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "crème liquide",
+        "raw": "10 cl de crème liquide"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre du moulin",
+        "raw": "poivre du moulin"
+      }
+    ],
+    "steps": [
+      "1. Poêler le saumon à l'unilatérale (c'est à dire, sur une seule face) à l'huile d'olive très chaude côté peau, après 2/3 min de cuisson, baisser le feu et couvrir la poêle.",
+      "2. Le laisser cuire jusqu'à ce que le haut du saumon soit translucide. Saler, poivrer.",
+      "3. Pour la sauce :",
+      "4. Éplucher et couper l'échalote en rondelles. La faire blondir dans une casserole avec le beurre, ajouter l'aneth et mélanger.",
+      "5. Ajouter ensuite le jus d'1/2 citron, la crème liquide, une pincée de sel et quelques tours de poivre. Laisser cuire 2 min sans porter à ébullition.",
+      "6. Placer le saumon dans une assiette et le napper avec la sauce. Décorer avec quelques brins d'aneth, servir."
+    ],
+    "tags_raw": "Saumon poêlé et sa sauce citronnée à l'aneth, , saumon, huile d'olive, aneth, sel, poivre, facile, moyen",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-saumon-a-la-creme-d-aneth-et-d-agrumes-27813-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_saumon-a-la-creme-d-aneth-et-d-agrumes_27813.aspx",
+    "name": "Saumon à la crème d'aneth et d'agrumes",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "pavés",
+        "name": "saumon",
+        "raw": "2 pavés de saumon"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'aneth hachée",
+        "raw": "2 cuillères à soupe d'aneth hachée"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "coriandre fraîche hachée",
+        "raw": "2 cuillères à soupe de coriandre fraîche hachée"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oranges",
+        "raw": "1 oranges"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pamplemousses rose",
+        "raw": "1 pamplemousses rose"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cassonade",
+        "raw": "1 cuillères à café de cassonade"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "3 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "lait concentré non sucré ou de crème liquide allégée",
+        "raw": "3 cuillères à soupe de lait concentré non sucré ou de crème liquide allégée"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Dans un plat allant au four, mélangez le jus de l'orange et du pamplemousse avec la gousse d'ail, deux cuillers à soupe d'huile d'olive, la cassonade et la moitié des herbes fraîches. Salez et poivrez le saumon et faites-le mariner une demi-heure au frais. Préchauffez le four à 200°C (et cuisez environ 200 g de pennes).",
+      "2. Faites cuire le poisson 10 à 12 mn au four. Sortez le saumon du four, récupérez la marinade avec les herbes et l'ail et réservez le poisson au chaud.",
+      "3. Dans le bol du mixer versez la marinade, le restant des herbes, une cuiller à soupe d'huile d'olive et le lait concentré. Mixez jusqu'à obtention d'une belle crème veloutée. Réchauffez la sauce si nécessaire.",
+      "4. Servez aussitôt le poisson sur un lit de pennes, et nappez de sauce (veillez à laisser entrevoir un peu du rose du saumon, l'harmonie des couleurs est très appétissante !)."
+    ],
+    "tags_raw": "Saumon à la crème d'aneth et d'agrumes, , saumon, aneth, coriandre, ail, orange, pamplemousse, cassonade, huile d'olive, lait concentré non sucré, poivre, sel, facile, moyen, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tartare-de-saumon-et-fenouil-et-aneth-530689-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tartare-de-saumon-et-fenouil-et-aneth_530689.aspx",
+    "name": "Tartare de saumon et fenouil et aneth",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "12",
+        "unit": "tranches",
+        "name": "saumon fumé Écosse U",
+        "raw": "12 tranches de saumon fumé Écosse U"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons jaunes Primofiori U non traités",
+        "raw": "1 citrons jaunes Primofiori U non traités"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "fenouil",
+        "raw": "1 fenouil"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "graines de fenouil",
+        "raw": "1 poignées de graines de fenouil"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "1 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bonnes pincées de sel",
+        "raw": "1 bonnes pincées de sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "aneth",
+        "raw": "aneth"
+      }
+    ],
+    "steps": [
+      "1. Tailler le saumon fumé en petits cubes. \nRincer le fenouil, couper les extrémités du bulbe.",
+      "2. Découper le fenouil en dés et ciseler l’aneth.",
+      "3. Mélanger le saumon, avec le fenouil, l’aneth, le jus du citron, le sel et l’huile d’olive.",
+      "4. Dresser dans chaque assiette à l’aide d’un emporte-pièce, parsemer de graines de fenouil et de pluches d’aneth. Pour finir, râper quelques zestes de citron sur le dessus. Servir bien frais."
+    ],
+    "tags_raw": "Tartare de saumon et fenouil et aneth, entrée froide, saumon fumé Écosse U, citron jaune Primofiori U non traité, fenouil, graines de fenouil, huile d'olive, sel, aneth, facile, bon marché, rapide | entrée froide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tartare-de-saumon-frais-a-l-aneth-18817-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tartare-de-saumon-frais-a-l-aneth_18817.aspx",
+    "name": "Tartare de saumon frais à l'aneth",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "coeur de saumon très frais (ou filet de saumon sans la peau)",
+        "raw": "300 g de coeur de saumon très frais (ou filet de saumon sans la peau)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "tomates",
+        "raw": "1 tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons verts",
+        "raw": "1 citrons verts"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "aneth (ou aneth surgelée)",
+        "raw": "1 bouquets d'aneth (ou aneth surgelée)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "miel liquide",
+        "raw": "miel liquide"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "tabasco",
+        "raw": "tabasco"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "épinards frais",
+        "raw": "épinards frais"
+      }
+    ],
+    "steps": [
+      "1. Détailler les coeurs de saumon en petits dés.",
+      "2. Détailler la chair de tomates en petits dés.",
+      "3. Presser le citron vert.",
+      "4. Ciseler l'aneth.",
+      "5. Dans un bol, préparer une vinaigrette avec 10 cuillères à soupe d'huile d'olive, le jus du citron vert, quelques gouttes de tabasco, l'aneth ciselé, 1 cuillère à café de miel, sel et poivre. Mélanger.",
+      "6. Mélanger les dés de saumon avec la vinaigrette et les dés de tomates et laisser reposer une heure au frigo.",
+      "7. Sur chaque assiette, disposez au centre le tartare de saumon et entourez-le de pousses d'épinards.",
+      "8. Servir avec du pain."
+    ],
+    "tags_raw": "Tartare de saumon frais à l'aneth, tartare, coeur de saumon, tomate, citron vert, huile d'olive, aneth, miel liquide, tabasco, poivre, sel, épinards frais, très facile, moyen, rapide | tartare",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tarte-au-saumon-et-a-l-aneth-3401-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tarte-au-saumon-et-a-l-aneth_3401.aspx",
+    "name": "Tarte au saumon et à l'aneth",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 5,
+    "cook_minutes": 10,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pâtes feuilletées",
+        "raw": "1 pâtes feuilletées"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "carré frais de 75 g",
+        "raw": "1 carré frais de 75 g"
+      },
+      {
+        "quantity": "5",
+        "unit": "tranches",
+        "name": "saumon fumé",
+        "raw": "5 tranches de saumon fumé"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "aneth",
+        "raw": "aneth"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "goutte de citron",
+        "raw": "goutte de citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Garnissez un moule de pâte feuilletée.",
+      "2. Enfournez à 150°C (th 5), pendant environ 10 min, afin de cuire la pâte.",
+      "3. Pendant ce temps, découpez le saumon fumé en petits morceaux.",
+      "4. Une fois la pâte cuite, sortez-la du four, et tartinez-la de Carré Frais.",
+      "5. Répartissez, par dessus, le saumon fumé.",
+      "6. Puis, aromatisez avec quelques gouttes de citron préssé, le sel, le poivre, et les brins d'aneth.",
+      "7. Servir bien frais, accompagné d'une salade verte."
+    ],
+    "tags_raw": "Tarte au saumon et à l'aneth, , pâte feuilletée, carré frais, saumon fumé, aneth, citron, poivre, sel, facile, bon marché, rapide",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-terrine-de-saumon-a-l-aneth-27240-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_terrine-de-saumon-a-l-aneth_27240.aspx",
+    "name": "Terrine de saumon à l'aneth",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 45,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "saumon en boîte",
+        "raw": "400 g de saumon en boîte"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites boîtes de lait concentré (170 g)",
+        "raw": "1 petites boîtes de lait concentré (170 g)"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "fromage blanc",
+        "raw": "50 g de fromage blanc"
+      },
+      {
+        "quantity": "3",
+        "unit": "tranches",
+        "name": "pain de mie",
+        "raw": "3 tranches de pain de mie"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "échalotes",
+        "raw": "1 échalotes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons non traité",
+        "raw": "1 citrons non traité"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères",
+        "name": "céleri-rave râpé",
+        "raw": "2 cuillères de céleri-rave râpé"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à café d'aneth hachée",
+        "raw": "2 cuillères à café d'aneth hachée"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "moutarde",
+        "raw": "1 cuillères à café de moutarde"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Préchauffez le four à 200°C (thermostat 6-7).",
+      "2. Egouttez le saumon et émiettez-le à la fourchette. Hachez l'échalote. Prélevez le zeste de la moitié du citron.",
+      "3. Mélangez les oeufs avec le pain de mie coupé en morceaux, le fromage blanc et le lait concentré. Ajoutez le céleri râpé, l'échalote, le zeste de citron, l'aneth et la moutarde. Ajoutez le jus d'un demi citron, salez, poivrez.",
+      "4. Versez le tout dans un moule à cake beurré. Placez-le dans un bain-marie.",
+      "5. Enfournez et laissez cuire environ 45 minutes.",
+      "6. Servez chaud ou froid avec de la mayonnaise ou un coulis de légumes."
+    ],
+    "tags_raw": "Terrine de saumon à l'aneth, terrine, pâté, saumon, oeuf, lait concentré, fromage blanc, pain de mie, échalote, citron, céleri-rave, aneth, moutarde, poivre, sel, facile, moyen | terrine, pâté",
+    "country": "suede",
+    "country_label": "Suède",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:aneth",
+      "titre:saumon"
+    ]
+  }
+]

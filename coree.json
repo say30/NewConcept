@@ -1,0 +1,1594 @@
+[
+  {
+    "id": "https-www-marmiton-org-recettes-recette-poulet-frit-a-la-coreenne-au-airfryer-538224-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_poulet-frit-a-la-coreenne-au-airfryer_538224.aspx",
+    "name": "Poulet frit à la coréenne au Airfryer",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 16,
+    "total_minutes": 31,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "haut de cuisse de poulet",
+        "raw": "500 g de haut de cuisse de poulet"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons nouveaux émincé",
+        "raw": "1 oignons nouveaux émincé"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "poivre",
+        "raw": "1 pincées de poivre"
+      },
+      {
+        "quantity": "1/4",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1/4 cuillères à café de sel"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "fécule",
+        "raw": "2 cuillères à soupe de fécule"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile végétale",
+        "raw": "1 cuillères à soupe d'huile végétale"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sauce soja",
+        "raw": "1 cuillères à soupe de sauce soja"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "ketchup",
+        "raw": "1 cuillères à soupe de ketchup"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à café d'huile de sésame",
+        "raw": "1 cuillères à café d'huile de sésame"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à café d'ail haché",
+        "raw": "2 cuillères à café d'ail haché"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "gingembre",
+        "raw": "1 cuillères à café de gingembre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "gochujang (pâte de piment rouge coréen)",
+        "raw": "1 cuillères à soupe de gochujang (pâte de piment rouge coréen)"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "cuillères à soupe d'eau",
+        "raw": "3 cuillères à soupe d'eau"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à soupe",
+        "name": "graines de sésame",
+        "raw": "1/2 cuillères à soupe de graines de sésame"
+      }
+    ],
+    "steps": [
+      "1. Coupez les hauts de cuisse de poulet en petits morceaux, assaisonnez-les avec du sel et du poivre moulu, puis enrobez-les uniformément de fécule.",
+      "2. Disposez les morceaux de poulet en une seule couche dans le panier, badigeonnez-les ou vaporisez-les d'huile végétale et glissez le panier dans le Airfryer. Lancez la cuisson pour 13 minutes à 200°C, en secouant une fois à mi-cuisson. Si vous possédez un petit modèle d'Airfryer, faites cuire par lots.",
+      "3. Dans une casserole, mélangez la sauce soja, le ketchup, l'huile de sésame, l'ail et le gingembre hachés la pâte gochujang et l'eau, et portez le tout à ébullition. Poursuivez la cuisson pendant 1 minute. Retirez du feu et réservez.",
+      "4. Une fois les morceaux de poulet cuits, transférez-les dans la sauce préparée et mélangez pour les enrober uniformément sur tous les côtés. Servez-les chauds, parsemés de graines de sésame et d'oignons nouveaux émincés, avec du riz vapeur en accompagnement."
+    ],
+    "tags_raw": "Poulet frit à la coréenne au Airfryer, , haut de cuisse, oignon nouveau, poivre, sel, fécule, huile végétale, sauce soja, ketchup, huile de sésame, ail, gingembre, gochujang (pâte de piment rouge coréen), eau, graines de sésame, très facile, bon marché",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 21,
+    "country_match_reasons": [
+      "tag:coreen",
+      "titre:coreenne",
+      "tag:gochujang",
+      "ingredient:gochujang"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bibimbap-coreen-340709-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bibimbap-coreen_340709.aspx",
+    "name": "Bibimbap coréen",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "riz type riz thaï",
+        "raw": "300 g de riz type riz thaï"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "carottes",
+        "raw": "2 carottes"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "courgettes (si de saison)",
+        "raw": "2 courgettes (si de saison)"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "germes de soja",
+        "raw": "200 g de germes de soja"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "champignon shiitakés",
+        "raw": "200 g de champignon shiitakés"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "pousses d'épinards (si de saison)",
+        "raw": "200 g de pousses d'épinards (si de saison)"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "morceaux",
+        "name": "gingembre râpé",
+        "raw": "1 morceaux de gingembre râpé"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "boeuf type pavés de rumsteak",
+        "raw": "500 g de boeuf type pavés de rumsteak"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "6 oeufs"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "sauce soja",
+        "raw": "3 cuillères à soupe de sauce soja"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de tournesol",
+        "raw": "3 cuillères à soupe d'huile de tournesol"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "sucre roux",
+        "raw": "4 cuillères à soupe de sucre roux"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "vinaigre de riz",
+        "raw": "4 cuillères à soupe de vinaigre de riz"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de sésame",
+        "raw": "4 cuillères à soupe d'huile de sésame"
+      }
+    ],
+    "steps": [
+      "1. Commencer par faire cuire le riz comme indiqué sur le sachet.",
+      "2. Préparer la sauce.",
+      "3. Pour cela,  mélanger le sucre, l'huile de sésame, le vinaigre de riz, l'ail que vous aurez écrasé et un petit morceau de gingembre découpé en petits morceaux.",
+      "4. Couper le boeuf en très fines lamelles, placer les dans la sauce et  mettre au frais.",
+      "5. Couper les carottes et courgettes en fines lamelles. Émincer les champignons.",
+      "6. Dans une grande poêle ou un grand wok, faire revenir les légumes avec un peu d'huile de tournesol et un peu de sauce soja.",
+      "7. Faire cuire 2 minutes le boeuf dans un peu d'huile bien chaude.",
+      "8. Ensuite, faire cuire les oeufs (oeufs au plat)",
+      "9. Dresser l'ensemble dans des grands bols avec du riz au fond, des légumes autour, et la viande et/ou le riz au milieu."
+    ],
+    "tags_raw": "Bibimbap coréen, plats coréens, riz, carotte, courgette, germes de soja, champignon, pousses d'épinards, ail, gingembre, boeuf, oeuf, sauce soja, huile de tournesol, sucre roux, vinaigre de riz, huile de sésame, facile, moyen | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:coreen",
+      "titre:bibimbap"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-dwaeji-bulgogi-barbecue-de-porc-coreen-322511-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_dwaeji-bulgogi-barbecue-de-porc-coreen_322511.aspx",
+    "name": "Dwaeji Bulgogi (barbecue de porc coréen)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "5 Personnes",
+    "servings": 5,
+    "prep_minutes": 90,
+    "cook_minutes": 15,
+    "total_minutes": 105,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "poitrine de porc",
+        "raw": "500 g de poitrine de porc"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons vert",
+        "raw": "1 oignons vert"
+      },
+      {
+        "quantity": "1",
+        "unit": "demis",
+        "name": "carotte",
+        "raw": "1 demis de carotte"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "purée de piment rouge",
+        "raw": "1 cuillères à soupe de purée de piment rouge"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'ail écrasé",
+        "raw": "1 cuillères à soupe d'ail écrasé"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "sauce soja",
+        "raw": "4 cuillères à soupe de sauce soja"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de sésame",
+        "raw": "3 cuillères à soupe d'huile de sésame"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sucre ou de miel liquide",
+        "raw": "1 cuillères à soupe de sucre ou de miel liquide"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de tournesol",
+        "raw": "huile de tournesol"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sésame",
+        "raw": "sésame"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "miso légèrement piquant",
+        "raw": "miso légèrement piquant"
+      }
+    ],
+    "steps": [
+      "1. Mélangez le gochujang, l'ail, la sauce soja, l'huile de sésame et le sucre dans un grand saladier. Coupez l’oignon vert et la carotte en lamelles. Placez-les dans le saladier avec la viande de porc. Mélangez bien (à la main avec 1 gant jetable par exemple).",
+      "2. Laissez mariner 1 heure minimum. Dans une poêle, versez un petit filet d’huile et faites revenir la viande (plus les tranches sont fines, plus la cuisson est rapide). Parsemez de graines de sésame.",
+      "3. A déguster avec une noisette de samjang (pâte de soja légèrement piquante) et enrobé d’une feuille de batavia par exemple. A côté, vous pouvez préparer du riz blanc."
+    ],
+    "tags_raw": "Dwaeji Bulgogi (barbecue de porc coréen), plats coréens, poitrine de porc, oignon, carotte, purée de piment, ail, sauce soja, huile de sésame, sucre, huile de tournesol, sésame, miso, facile, bon marché | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:coreen",
+      "titre:bulgogi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bulgogi-59365-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bulgogi_59365.aspx",
+    "name": "Bulgogi",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 personnes",
+    "servings": 3,
+    "prep_minutes": 40,
+    "cook_minutes": 60,
+    "total_minutes": 100,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "boeuf",
+        "raw": "400 g de boeuf"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "champignon",
+        "raw": "champignon"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "oignon",
+        "raw": "oignon"
+      },
+      {
+        "quantity": "5",
+        "unit": "cuillères à soupe",
+        "name": "soja",
+        "raw": "5 cuillères à soupe de soja"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de sésame",
+        "raw": "1 cuillères à soupe d'huile de sésame"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à soupe",
+        "name": "sucre",
+        "raw": "1/2 cuillères à soupe de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'ail haché",
+        "raw": "1 cuillères à soupe d'ail haché"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "soju (l’alcool du riz coréen)",
+        "raw": "2 cuillères à soupe de soju (l’alcool du riz coréen)"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "poire",
+        "raw": "1 cuillères à soupe de poire"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sésame",
+        "raw": "sésame"
+      }
+    ],
+    "steps": [
+      "1. Coupez le boeuf.",
+      "2. Marinez le boeuf dans la sauce pendant 30 minutes. Si vous marinez plus de 30 minutes, ce ne sera pas bon.",
+      "3. Grillez le boeuf mariné dans une poêle.",
+      "4. Vous pouvez ajouter les légumes que vous voulez dans la poêle."
+    ],
+    "tags_raw": "Bulgogi, , boeuf, champignon, oignon, moyenne, moyen",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 13,
+    "country_match_reasons": [
+      "ingredient:coreen",
+      "titre:bulgogi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-ragout-de-poulet-epice-539065-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_ragout-de-poulet-epice_539065.aspx",
+    "name": "Ragoût de poulet épicé",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 25,
+    "cook_minutes": 15,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "cuisse de poulet",
+        "raw": "300 g de cuisse de poulet"
+      },
+      {
+        "quantity": "225",
+        "unit": "g",
+        "name": "pomme de terre",
+        "raw": "225 g de pomme de terre"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "carotte",
+        "raw": "75 g de carotte"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "oignon",
+        "raw": "60 g d'oignon"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "gochujang (pâte de piment rouge coréen)",
+        "raw": "1 cuillères à soupe de gochujang (pâte de piment rouge coréen)"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "cuillères à soupe",
+        "name": "vinaigre de riz",
+        "raw": "1.5 cuillères à soupe de vinaigre de riz"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "sauce soja",
+        "raw": "3 cuillères à soupe de sauce soja"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à soupe",
+        "name": "sucre",
+        "raw": "1/2 cuillères à soupe de sucre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "cuillères à soupe d'ail écrasé",
+        "raw": "1/2 cuillères à soupe d'ail écrasé"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à soupe",
+        "name": "gingembre râpé",
+        "raw": "1/2 cuillères à soupe de gingembre râpé"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de sésame",
+        "raw": "1.5 cuillères à soupe d'huile de sésame"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "bouillon de légumes",
+        "raw": "15 cl de bouillon de légumes"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'oignon nouveau",
+        "raw": "2 cuillères à soupe d'oignon nouveau"
+      }
+    ],
+    "steps": [
+      "1. Laver et découper les pommes de terre, carotte, oignon. Préparer tous les ingrédients (cuisses de poulet, bouillon, épices, etc.)",
+      "2. Hacher l’oignon et réserver les oignons nouveaux.",
+      "3. Mettre tous les ingrédients (sauf les oignons nouveaux) dans la cuve : poulet, légumes, épices, bouillon, sauces. Mélanger légèrement.",
+      "4. Sélectionner le mode Cuisson sous pression (haute pression) pendant 15 minutes.",
+      "5. À la fin de la cuisson, décompresser, transférer dans un plat et parsemer les oignons nouveaux. Servir bien chaud en mode “Maintien au chaud” si besoin."
+    ],
+    "tags_raw": "Ragoût de poulet épicé, , cuisse de poulet, pomme de terre, carotte, oignon, gochujang (pâte de piment rouge coréen), vinaigre de riz, sauce soja, sucre, ail, gingembre, huile de sésame, bouillon de légumes, oignon nouveau, facile, moyen",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 13,
+    "country_match_reasons": [
+      "tag:coreen",
+      "tag:gochujang",
+      "ingredient:gochujang"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-soupe-a-la-coreenne-343999-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_soupe-a-la-coreenne_343999.aspx",
+    "name": "soupe à la coréenne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "lentins s",
+        "raw": "2 lentins s"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "choux chinois",
+        "raw": "1 choux chinois"
+      },
+      {
+        "quantity": "30",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "30 cl d'eau"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "piment coréen en poudre",
+        "raw": "1 pincées de piment coréen en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "morceaux",
+        "name": "gingembre",
+        "raw": "1 morceaux de gingembre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "ciboule",
+        "raw": "1 ciboule"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sucre",
+        "raw": "1 cuillères à soupe de sucre"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "sauce soja",
+        "raw": "2 cuillères à soupe de sauce soja"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "vermicelles de soja",
+        "raw": "20 g de vermicelles de soja"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "brin de ciboulette",
+        "raw": "brin de ciboulette"
+      }
+    ],
+    "steps": [
+      "1. Réhydrater les shiitakes séchés dans les 30 cl d'eau avec la sauce soja et le sucre.",
+      "2. Râper l'ail et le gingembre, ajouter le piment coréen en poudre.",
+      "3. Couper les shiitakes réhydratés et le chou chinois, dans une casserole faire chauffer l'eau des shiitakes avec l'ail et le gingembre râpé et le piment.",
+      "4. Ajouter les vermicelles de soja dans la soupe avec le chou, les shiitakes et la ciboule."
+    ],
+    "tags_raw": "soupe à la coréenne, plats coréens, lentin, chou chinois, eau, oeuf, piment, ail, gingembre, ciboule, sucre, sauce soja, vermicelles de soja, ciboulette, très facile, bon marché, rapide | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 13,
+    "country_match_reasons": [
+      "ingredient:coreen",
+      "titre:coreenne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-japchae-au-poulet-537177-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_japchae-au-poulet_537177.aspx",
+    "name": "Japchae au poulet",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "vermicelles de patate douce (dangmyeon)",
+        "raw": "150 g de vermicelles de patate douce (dangmyeon)"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "blanc de poulet",
+        "raw": "200 g de blanc de poulet"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "courgette",
+        "raw": "1 pièces de courgette"
+      },
+      {
+        "quantity": "2",
+        "unit": "pièces",
+        "name": "carotte",
+        "raw": "2 pièces de carotte"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "6",
+        "unit": "cuillères à soupe",
+        "name": "sauce soja",
+        "raw": "6 cuillères à soupe de sauce soja"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de sésame",
+        "raw": "2 cuillères à soupe d'huile de sésame"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'arachide",
+        "raw": "2 cuillères à soupe d'huile d'arachide"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "oignon cébette",
+        "raw": "1 pièces d'oignon cébette"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sucre en poudre",
+        "raw": "1 cuillères à café de sucre en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe bombées de graines de sésame",
+        "raw": "1 cuillères à soupe bombées de graines de sésame"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre du moulin",
+        "raw": "poivre du moulin"
+      }
+    ],
+    "steps": [
+      "1. Dans un bol, mélangez 1 càs d’huile de sésame, avec 1 gousse d’ail pelée et pressée, 1 càc de sucre et 2 càs de sauce soja. Versez sur le blanc de poulet. Laissez mariner au moins une heure.",
+      "2. Mettez les vermicelles de patate douce dans un bol d’eau bouillante et laissez tremper 10 min. Retirez de l’eau et égouttez. Réservez.",
+      "3. Dans un wok bien chaud, versez 1 càs d’huile neutre et faites cuire le poulet sans le couper (afin d’éviter qu’il sèche) pendant 15 minutes à feu vif. Arrosez avec la marinade pour un beau laquage. Une fois la viande cuite, sortez-la du wok et réservez dans une assiette.",
+      "4. Pelez et pressez la seconde gousse d’ail. Lavez et séchez les carottes et la courgette avant de les couper en petits bâtonnets uniformes. Ajoutez 1 càs d’huile dans le wok et mettez-y les carottes. Faites sauter durant 5 minutes avant d’y ajouter les bâtonnets de courgette, l’ail hachée et 1 càs d’huile de sésame.",
+      "5. Faites sauter 5 minutes supplémentaires en remuant afin que les légumes soient cuits, mais conservent une partie de leur croquant. Ajoutez les vermicelles de patate douce et arrosez avec la sauce soja, poivrez. Mélangez bien pour tous les éléments se mêlent et s’imprègnent de sauce.",
+      "6. Coupez le poulet en morceaux pas trop gros et ciselez la cébette. Ajoutez-les dans le wok et mélangez. Parsemer de graines de sésame avant de servir bien chaud."
+    ],
+    "tags_raw": "Japchae au poulet, , vermicelles, blanc de poulet, courgette, carotte, ail, sauce soja, huile de sésame, huile d'arachide, oignon cébette, sucre en poudre, graines de sésame, poivre du moulin, facile, moyen",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:japchae",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-barbecue-coreen-30497-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_barbecue-coreen_30497.aspx",
+    "name": "Barbecue coréen",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 45,
+    "cook_minutes": 10,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "viande coupée en fines tranches (boeuf, porc...)",
+        "raw": "500 g de viande coupée en fines tranches (boeuf, porc...)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de sésame",
+        "raw": "2 cuillères à soupe d'huile de sésame"
+      },
+      {
+        "quantity": "5",
+        "unit": "cuillères à soupe",
+        "name": "soja",
+        "raw": "5 cuillères à soupe de soja"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "saké",
+        "raw": "2 cuillères à soupe de saké"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "mirin",
+        "raw": "1 cuillères à soupe de mirin"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "sucre de poivre",
+        "raw": "2 cuillères à soupe de sucre de poivre"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "poireau émincés",
+        "raw": "4 cuillères à soupe de poireau émincés"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'ail haché",
+        "raw": "1 cuillères à soupe d'ail haché"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "sésame pilé",
+        "raw": "2 cuillères à soupe de sésame pilé"
+      },
+      {
+        "quantity": "1",
+        "unit": "morceaux",
+        "name": "gingembre frais (de la taille d'une gousse d'ail, découpé en rondelles)",
+        "raw": "1 morceaux de gingembre frais (de la taille d'une gousse d'ail, découpé en rondelles)"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "sauce soja",
+        "raw": "20 cl de sauce soja"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "50 g de sucre"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "mirin",
+        "raw": "50 cl de mirin"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "citrons en rondelles",
+        "raw": "1/2 citrons en rondelles"
+      },
+      {
+        "quantity": "1",
+        "unit": "moitiés",
+        "name": "pomme",
+        "raw": "1 moitiés de pomme"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "saké",
+        "raw": "50 cl de saké"
+      }
+    ],
+    "steps": [
+      "1. Mélanger les ingrédients de la marinade, y mettre la viande à macérer, puis y rajouter l'huile de sésame sans remuer. Laisser environ 1 à 2 h avant le repas.",
+      "2. Pour faire la sauce, faire chauffer tous les ingrédients de cette sauce sauf saké, rondelles de citron et pomme, que l'on rajoutera en dehors du feu, le temps que la sauce refroidisse (environ 1 h).",
+      "3. Présenter la viande avec sa marinade. Les convives prennent un morceaux de viande et la font griller sur grill ou pierre de cuisson avant de la tremper dans la sauce."
+    ],
+    "tags_raw": "Barbecue coréen, plats coréens, viande, huile de sésame, soja, saké, mirin, sucre, poireau, ail, sésame, gingembre, sauce soja, sucre, mirin, citron, pomme, saké, moyenne, assez cher, rapide | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreen"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bibimbap-vegetarien-346178-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bibimbap-vegetarien_346178.aspx",
+    "name": "Bibimbap végétarien",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 personnes",
+    "servings": 3,
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "carottes",
+        "raw": "3 carottes"
+      },
+      {
+        "quantity": "2",
+        "unit": "poignées",
+        "name": "champignon shiitake ou de champignons de Paris",
+        "raw": "2 poignées de champignon shiitake ou de champignons de Paris"
+      },
+      {
+        "quantity": "3",
+        "unit": "poignées",
+        "name": "germes de soja",
+        "raw": "3 poignées de germes de soja"
+      },
+      {
+        "quantity": "4",
+        "unit": "poignées",
+        "name": "pousses d'épinards",
+        "raw": "4 poignées de pousses d'épinards"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "gingembre en poudre ou du gingembre râpé",
+        "raw": "gingembre en poudre ou du gingembre râpé"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sauce soja",
+        "raw": "sauce soja"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      }
+    ],
+    "steps": [
+      "1. Couper les carottes et les champignons en lamelles.",
+      "2. Faire chauffer une poêle avec de l'huile et y faire frire les pousses de soja.",
+      "3. Ajouter de la sauce soja et du gingembre et reproduire l'action pour chaque légume.",
+      "4. Réserver les légumes dans un plat recouvert d'aluminium.",
+      "5. Faire frire les oeufs.",
+      "6. Dans les assiettes ou les bols, mettre une portion de riz cuit. Autour, disposer les légumes puis poser l'oeuf par dessus le riz."
+    ],
+    "tags_raw": "Bibimbap végétarien, , carotte, champignon, germes de soja, pousses d'épinards, ail, gingembre, sauce soja, poivre, oeuf, facile, moyen",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bibimbap"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boeuf-marine-a-la-coreenne-37108-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boeuf-marine-a-la-coreenne_37108.aspx",
+    "name": "Boeuf mariné à la coréenne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "boeuf (type tranche à fondue)",
+        "raw": "400 g de boeuf (type tranche à fondue)"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "sucre",
+        "raw": "3 cuillères à soupe de sucre"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "vin de riz",
+        "raw": "2 cuillères à soupe de vin de riz"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "soja",
+        "raw": "4 cuillères à soupe de soja"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "",
+        "name": "cuillères à soupe d'ail émincé (ou ail en semoule)",
+        "raw": "1.5 cuillères à soupe d'ail émincé (ou ail en semoule)"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "cuillères à soupe d'oignon nouveau émincé",
+        "raw": "3 cuillères à soupe d'oignon nouveau émincé"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de sésame",
+        "raw": "2 cuillères à soupe d'huile de sésame"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sésame grillées",
+        "raw": "1 cuillères à soupe de sésame grillées"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Découper la viande en très fines tranches. (Pour faciliter la découpe, vous pouvez mettre la viande au congélateur pendant 3h).",
+      "2. Mélanger tous les ingrédients dans un grand saladier, bien mélanger et laisser au repos 1/2h.",
+      "3. Mettre les tranches de viande une à une dans le saladier en prenant soin de bien les imbiber de sauce, puis laisser mariner la viande au moins 2h au réfrigérateur.",
+      "4. Dans une grande poêle chaude, avec un peu d'huile, faire saisir rapidement en petite quantité la viande bien étalée.",
+      "5. Mettre dans un plat creux la viande cuite ainsi que le jus après chaque cuisson."
+    ],
+    "tags_raw": "Boeuf mariné à la coréenne, plats coréens, boeuf, sucre, vin, soja, ail, oignon nouveau, huile de sésame, sésame, poivre, facile, moyen, rapide | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreenne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chou-coreen-51771-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chou-coreen_51771.aspx",
+    "name": "Chou coréen",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "50 cl",
+    "servings": 50,
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "choux",
+        "raw": "1 choux"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "ail",
+        "raw": "1 ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "gingembre",
+        "raw": "1 gingembre"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "piment",
+        "raw": "2 cuillères à soupe de piment"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "poivre moulu",
+        "raw": "1 cuillères à soupe de poivre moulu"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "lait de soja",
+        "raw": "15 cl de lait de soja"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sucre",
+        "raw": "1 cuillères à café de sucre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Râper le chou et le faire tremper une nuit dans de la saumure (eau très fortement salée).",
+      "2. Le lendemain, râper l'ail, le gingembre, le piment et les mélanger au poivre, au soja et au sucre.",
+      "3. Essorer et rincer le chou plusieurs fois puis le mélanger au mélange précédent.",
+      "4. Laisser à température ambiante toute une nuit avec un film plastique par dessus.",
+      "5. Mettre en pot (des pots en verre de confiture par exemple) et attendre 4-5 jours avant de commencer à consommer."
+    ],
+    "tags_raw": "Chou coréen, , chou, ail, gingembre, piment, poivre, lait de soja, sucre, sel, facile, moyen, rapide",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreen"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cotelettes-a-la-coreenne-92383-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cotelettes-a-la-coreenne_92383.aspx",
+    "name": "Côtelettes à la coréenne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "12.5",
+        "unit": "cl",
+        "name": "sauce soja claire",
+        "raw": "12.5 cl de sauce soja claire"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "mirin (vin de riz doux)",
+        "raw": "25 cl de mirin (vin de riz doux)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons verts émincés",
+        "raw": "2 oignons verts émincés"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail pilées",
+        "raw": "2 gousses d'ail pilées"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "gingembre frais râpé",
+        "raw": "20 g de gingembre frais râpé"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sucre brun",
+        "raw": "1 cuillères à soupe de sucre brun"
+      },
+      {
+        "quantity": "16",
+        "unit": "",
+        "name": "côtelettes d'agneau",
+        "raw": "16 côtelettes d'agneau"
+      }
+    ],
+    "steps": [
+      "1. Mélangez dans un récipient la sauce soja ,le mirin,les oignons, l'ail, le gingembre et le sucre.Ajoutez les cotellettes, retournez les plusieurs fois dans cette marinade et laissez les quelques heures au réfrigirateur en les tournants régulièrement.",
+      "2. Egouttez les bien puis faites les griller de préférences au barbecue ( ou sur un grill)servez sans attendre!",
+      "3. bonne appétit"
+    ],
+    "tags_raw": "Côtelettes à la coréenne, plats coréens, sauce soja, mirin, oignon, ail, gingembre, sucre brun, côtelette d'agneau, très facile, bon marché | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreenne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-jajangmyeon-specialite-coreenne-530255-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_jajangmyeon-specialite-coreenne_530255.aspx",
+    "name": "Jajangmyeon (spécialité coréenne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 12,
+    "total_minutes": 22,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "nouilles",
+        "raw": "400 g de nouilles"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "pâte de soja fermentée (\"black bean sauce\")",
+        "raw": "3 cuillères à soupe de pâte de soja fermentée (\"black bean sauce\")"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'eau",
+        "raw": "2 cuillères à soupe d'eau"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de colza",
+        "raw": "2 cuillères à soupe d'huile de colza"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons cébettes",
+        "raw": "1 oignons cébettes"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "champignon",
+        "raw": "300 g de champignon"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "courgettes",
+        "raw": "1 courgettes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      }
+    ],
+    "steps": [
+      "1. Laver les champignons, la courgette et les oignons. Émincer tous les légumes.",
+      "2. Cuire les nouilles selon les indications du paquet.",
+      "3. Faire chauffer l'huile dans un wok ou à défaut dans une grande poêle.",
+      "4. Faire revenir les champignons, l'oignon et la courgettes pendant 5 minutes.",
+      "5. Ajouter la pâte de soja et délayer la sauce avec un peu d'eau.",
+      "6. Laisser cuire encore 5 minutes, ajouter les nouilles et mélanger sur le feu 2 minutes.",
+      "7. Parsemer d'oignon cébette avant de servir."
+    ],
+    "tags_raw": "Jajangmyeon (spécialité coréenne), plats coréens, nouilles, pâte de soja fermentée, eau, huile de colza, oignon cébette, champignon, courgette, oignon, facile, bon marché, rapide | plats coréens",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreenne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kimbap-391428-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kimbap_391428.aspx",
+    "name": "Kimbap",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "riz pour suhis",
+        "raw": "300 g de riz pour suhis"
+      },
+      {
+        "quantity": "350",
+        "unit": "ml",
+        "name": "eau",
+        "raw": "350 ml d'eau"
+      },
+      {
+        "quantity": "8",
+        "unit": "feuilles",
+        "name": "nori",
+        "raw": "8 feuilles de nori"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "carottes",
+        "raw": "1 carottes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "concombres",
+        "raw": "1 concombres"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "thon cuit",
+        "raw": "150 g de thon cuit"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de sésame",
+        "raw": "1 cuillères à soupe d'huile de sésame"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "graines de sésame",
+        "raw": "2 cuillères à soupe de graines de sésame"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "mayonnaise",
+        "raw": "1 cuillères à soupe de mayonnaise"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "10 g de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "vinaigre de riz",
+        "raw": "1 cuillères à café de vinaigre de riz"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Rincer abondamment le riz à l’eau claire, pour le débarrasser des poussières et enlever la fine couche d’amidon.",
+      "2. Placer le riz dans une casserole d’eau salée, et laisser cuire à feu doux et à couvert pendant 20 minutes. Puis le laisser refroidir.",
+      "3. Peler la carotte et le concombre. Les découper en fin bâtonnets d’environ 1cm d’épaisseur.",
+      "4. Une fois le riz entièrement refroidi, le mélanger avec le sucre, les graines de sésame, le vinaigre de riz, 1 cuillère à soupe d’huile de sésame et une pincée de sel.",
+      "5. Émietter le thon dans une assiette et le mélanger à la mayonnaise. Réserver.",
+      "6. Faire chauffer l’huile de sésame dans une poêle.",
+      "7. Battre les oeufs en omelette et les faire cuire à la poêle. Veiller à faire cuire les oeufs en fine couche.",
+      "8. Laisser refroidir l’omelette et la détailler en fines lamelles.",
+      "9. Préparer un petit bol d’eau mélangé à une cuillère à café de vinaigre de riz. Se munir d’une natte en bambou et l’enrouler dans du papier cellophane. S’humidifier les doigts pour faciliter le pliage.",
+      "10. Disposer la feuille de nori sur la natte, la face rugueuse vers le haut.",
+      "11. Répartir une partie du riz sur la feuille de nori en veillant à laisser les bordures dégagées.",
+      "12. Déposer quelques bâtonnets de carotte et de concombre sur toute la longueur de la feuille. Ajouter le thon et les lamelles d’omelette.",
+      "13. À l’aide de la natte en bambou, commencer à enrouler la feuille de nori autour de la garniture. Rouler en veillant à bien serrer le kimbap et en appuyant continuellement sur le boudin formé.",
+      "14. Couper ensuite le kimbap en tranches de 1 à 2 cm, et réserver au frais."
+    ],
+    "tags_raw": "Kimbap, plat de riz, riz, eau, feuille de nori, carotte, concombre, oeuf, thon, huile de sésame, graines de sésame, mayonnaise, sucre, vinaigre de riz, sel, moyenne, bon marché | plat de riz",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:kimbap"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-omelette-au-riz-d-une-belle-maman-coreenne-311643-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_omelette-au-riz-d-une-belle-maman-coreenne_311643.aspx",
+    "name": "Omelette au riz d'une belle-maman coréenne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 5,
+    "cook_minutes": 20,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "240",
+        "unit": "g",
+        "name": "riz à sushis (ou 2 sachets de riz \"normal\" type basmati)",
+        "raw": "240 g de riz à sushis (ou 2 sachets de riz \"normal\" type basmati)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poivrons (de préférence rouge)",
+        "raw": "1 poivrons (de préférence rouge)"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "jambon en dés ou de saucisson de jambon à couper",
+        "raw": "75 g de jambon en dés ou de saucisson de jambon à couper"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "5 oeufs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de sésame (facultatif)",
+        "raw": "huile de sésame (facultatif)"
+      }
+    ],
+    "steps": [
+      "1. Commencez par cuire votre riz en suivant les instructions sur le paquet. Pendant ce temps cassez les œufs dans un bol, battez-les en oubliant pas d'y ajouter du sel et du poivre. Faites chauffez une poêle bien huilée et faites une omelette (façon crêpe) avec la moitié des œufs battus. Faites cuire votre crêpe au œufs des deux côtés, réservez-la au chaud et répétez l'opération avec le reste des œufs afin d'avoir une crêpe par personne.",
+      "2. Pendant que votre riz cuit toujours, lavez et égrainez le poivron, puis coupez-le en julienne.",
+      "3. Faites-le ensuite cuire dans une poêle huilée.",
+      "4. Coupez le jambon en petits cubes et ajoutez celui-ci à votre poivron dans la poêle. Ajoutez à votre mélange une pincée de sel, une cuillère à soupe d'huile d'olive et une cuillère à soupe d'huile sésame.",
+      "5. Une fois votre poivron cuit ajoutez-y le riz cuit lui aussi. Réduisez le feu au minimum. Mélangez bien le tout et rectifiez assaisonnement si nécessaire.",
+      "6. Pour le dressage, déposez du riz sur toute une moitié de chacune des omelettes et refermez-les.",
+      "7. Vous pouvez ajouter un peu de ketchup au sommet si vous le désirez."
+    ],
+    "tags_raw": "Omelette au riz d'une belle-maman coréenne, plat de riz, riz, poivron, jambon, oeuf, huile d'olive, huile de sésame, très facile, bon marché | plat de riz",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreenne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-rice-cake-tteok-coreens-538955-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_rice-cake-tteok-coreens_538955.aspx",
+    "name": "Rice cake (tteok coréen)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "farine de riz Riz gluant (glutinous rice)",
+        "raw": "300 g de farine de riz Riz gluant (glutinous rice)"
+      },
+      {
+        "quantity": "150",
+        "unit": "ml",
+        "name": "eau",
+        "raw": "150 ml d'eau"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "sucre en poudre",
+        "raw": "2 cuillères à soupe de sucre en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bonnes pincées de sel",
+        "raw": "1 bonnes pincées de sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de sésame",
+        "raw": "huile de sésame"
+      }
+    ],
+    "steps": [
+      "1. Dans un saladier, mélangez la farine de riz tamisée avec l'eau, le sucre et le sel. Travaillez la préparation jusqu'à l'obtention d'une pâte homogène",
+      "2. Versez cette pâte dans un plat adapté et préalablement enduit d'huile de sésame. Il faut former une couche homogène d'environ 1 à 1,5 cm d'épaisseur.",
+      "3. Faites cuire cette pâte à la vapeur pendant 20 à 30 min afin qu'elle soit bien prise. Laissez-la ensuite refroidir.",
+      "4. À l'aide d'un couteau légèrement huilé, découpez et décollez des rectangles d'environ 4 cm de long. Huilez-les légèrement avant de les consommer ou des les conserver pour une préparation ultérieure."
+    ],
+    "tags_raw": "Rice cake (tteok coréen), , farine de riz, eau, sucre en poudre, sel, huile de sésame, facile, moyen",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coreen"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-budae-jjigae-539294-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_budae-jjigae_539294.aspx",
+    "name": "Budae jjigae",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 90,
+    "total_minutes": 105,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "saucisses à l'ail",
+        "raw": "1 saucisses à l'ail"
+      },
+      {
+        "quantity": "8",
+        "unit": "",
+        "name": "knackis",
+        "raw": "8 knackis"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "steaks hachés",
+        "raw": "1 steaks hachés"
+      },
+      {
+        "quantity": "8",
+        "unit": "tranches",
+        "name": "bacon",
+        "raw": "8 tranches de bacon"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "courgettes",
+        "raw": "1 courgettes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "10",
+        "unit": "champignons",
+        "name": "Paris",
+        "raw": "10 champignons de Paris"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "sauce soja",
+        "raw": "3 cuillères à soupe de sauce soja"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "pâte de soja fermentée",
+        "raw": "1 cuillères à soupe de pâte de soja fermentée"
+      },
+      {
+        "quantity": "5",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "5 gousses d'ail"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "gochugaru (poudre de piment rouge coréen)",
+        "raw": "3 cuillères à soupe de gochugaru (poudre de piment rouge coréen)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "eau à hauteur",
+        "raw": "eau à hauteur"
+      }
+    ],
+    "steps": [
+      "1. Découpez toutes les viandes en morceaux. Taillez ensuite les légumes : tranchez la courgette, émincez les oignons et coupez les champignons de Paris en lamelles.",
+      "2. Dans un bol, réunissez les ingrédients de la sauce : sauce soja, sucre, pâte de soja fermentée, ail écrasé et poudre de piment coréenne. Mélangez soigneusement jusqu’à obtenir une préparation homogène.",
+      "3. Déposez dans une grande marmite toutes les viandes, les légumes, la sauce préparée ainsi qu’une poignée de kimchi coupé.",
+      "4. Versez de l’eau jusqu’à recouvrir l’ensemble des ingrédients.",
+      "5. Couvrez la marmite et portez à ébullition. Réduisez ensuite à feu moyen-fort et laissez cuire environ 1 h 30."
+    ],
+    "tags_raw": "Budae jjigae, , saucisse, knacki, steak haché, bacon, courgette, oignon, champignons de Paris, sauce soja, pâte de soja fermentée, ail, gochugaru (poudre de piment rouge coréen), eau, facile, bon marché",
+    "country": "coree",
+    "country_label": "Corée",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:coreen"
+    ]
+  }
+]

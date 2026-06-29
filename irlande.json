@@ -1,0 +1,1965 @@
+[
+  {
+    "id": "https-www-marmiton-org-recettes-recette-guinness-cake-gateau-irlandais-a-la-biere-brune-59199-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_guinness-cake-gateau-irlandais-a-la-biere-brune_59199.aspx",
+    "name": "Guinness Cake (gâteau irlandais à la bière brune)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "12 personnes",
+    "servings": 12,
+    "prep_minutes": 45,
+    "cook_minutes": 80,
+    "total_minutes": 125,
+    "ingredients": [
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "Guinness",
+        "raw": "50 cl de Guinness"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "250 g de beurre"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "cassonade",
+        "raw": "250 g de cassonade"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "raisin de Corinthe",
+        "raw": "250 g de raisin de Corinthe"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "raisin blonds",
+        "raw": "250 g de raisin blonds"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "fruit confit divers",
+        "raw": "150 g de fruit confit divers"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine",
+        "raw": "500 g de farine"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "levure chimique",
+        "raw": "1 sachets de levure chimique"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cannelle et/ou de gingembre",
+        "raw": "1 cuillères à café de cannelle et/ou de gingembre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "zeste de citron (facultatif)",
+        "raw": "zeste de citron (facultatif)"
+      }
+    ],
+    "steps": [
+      "1. Note : il est meilleur préparé la veille.",
+      "2. Normalement, cette recette irlandaise se fait avec de la bière brune Porter mais vous pouvez utiliser de la Guinness, plus facile à se procurer.",
+      "3. Préchauffer le four à 180°C (thermostat 6).",
+      "4. Mélanger le beurre et le sucre avec la bière dans une grande casserole, faire chauffer doucement jusqu'à ce que le beurre soit fondu. Ajouter les fruits secs et laisser mijoter pendant 10 minutes. Laisser refroidir et ajouter la farine, la levure, les épices et le zeste de citron. Battre les oeufs et les incorporer à la cuillère en bois.",
+      "5. Répartir la pâte dans 2 moules à cake. Cuire dans le four préchauffé, pendant environ 1 h 20. Tester la cuisson avec un couteau. Laisser tiédir le gâteau avant de la démouler.",
+      "6. Conseil : si, comme moi, vous ne disposez que d'un moule, il suffit de réserver la moitié de la pâte à température ambiante en la couvrant ; puis penser à tourner un peu la pâte à la cuillère avant de la verser dans le moule."
+    ],
+    "tags_raw": "Guinness Cake (gâteau irlandais à la bière brune), , Guinness, beurre, cassonade, raisin, raisin, fruit confit, farine, oeuf, levure chimique, cannelle, citron, facile, moyen",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 19,
+    "country_match_reasons": [
+      "titre:irlandais",
+      "titre:guinness",
+      "titre:guinness"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-colcannon-irlande-36813-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_colcannon-irlande_36813.aspx",
+    "name": "Colcannon (Irlande)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "choux vert moyen",
+        "raw": "1 choux vert moyen"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons moyens",
+        "raw": "2 oignons moyens"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "pomme de terre farineuses (à purée)",
+        "raw": "1 kg de pomme de terre farineuses (à purée)"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "30 g de beurre"
+      }
+    ],
+    "steps": [
+      "1. Couper le chou en 4, retirer le coeur dur à la base, laver soigneusement et bien égoutter.",
+      "2. Couper finement les quartiers (émincer). Hacher les oignons épluchés.",
+      "3. Cuire les pommes de terre jusqu'à ce qu'elles soient très tendres. Les écraser en purée un peu grossière",
+      "4. Dans une poêle, faire blondir les oignons, puis ajouter le chou emincé et laisser suer jusqu'à ce que tout soit tendre.",
+      "5. Saler et poivrer, ajouter le chou à la purée avec un bon morceau de beurre, du persil, et servir bien chaud."
+    ],
+    "tags_raw": "Colcannon (Irlande), , chou, oignon, pomme de terre, beurre, très facile, bon marché",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:irlande",
+      "titre:colcannon"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-guinness-brownies-extra-noirs-55653-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_guinness-brownies-extra-noirs_55653.aspx",
+    "name": "Guinness brownies extra noirs",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "chocolat noir",
+        "raw": "300 g de chocolat noir"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "chocolat blanc",
+        "raw": "100 g de chocolat blanc"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "cacao en poudre non sucré",
+        "raw": "100 g de cacao en poudre non sucré"
+      },
+      {
+        "quantity": "180",
+        "unit": "g",
+        "name": "farine",
+        "raw": "180 g de farine"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "4 oeufs"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "200 g de sucre"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "80 g de beurre"
+      },
+      {
+        "quantity": "33",
+        "unit": "cl",
+        "name": "Guinness (bière brune irlandaise)",
+        "raw": "33 cl de Guinness (bière brune irlandaise)"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "noix (facultatif)",
+        "raw": "1 poignées de noix (facultatif)"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four à 180°C (thermostat 6).",
+      "2. Battre les oeufs avec le sucre pour que ça mousse.",
+      "3. Faire fondre les chocolats et le beurre à feu doux.",
+      "4. Ajouter au mélange beurre-sucre.",
+      "5. Mélanger la farine avec le cacao, l'ajouter au mélange précédent.",
+      "6. Finir avec la guinness en l'intégrant an plusieurs fois, ajouter les noix éventuellement.",
+      "7. Verser la pâte dans un moule de 28 cm de diamètre.",
+      "8. Enfourner 20 à 25 minutes, le dessus doit être cuit, mais un couteau planté au centre ne doit pas ressortir propre... laisser refroidir et déguster le lendemain, coupé en carrés."
+    ],
+    "tags_raw": "Guinness brownies extra noirs, brownie, chocolat noir, chocolat blanc, cacao, farine, oeuf, sucre, beurre, Guinness, noix, très facile, moyen | brownie",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 16,
+    "country_match_reasons": [
+      "ingredient:irlandaise",
+      "titre:guinness",
+      "titre:guinness"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-soda-bread-irlandais-253627-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_soda-bread-irlandais_253627.aspx",
+    "name": "Soda bread irlandais",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 pain",
+    "servings": 1,
+    "prep_minutes": 10,
+    "cook_minutes": 35,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "180",
+        "unit": "g",
+        "name": "farine (T45)",
+        "raw": "180 g de farine (T45)"
+      },
+      {
+        "quantity": "180",
+        "unit": "g",
+        "name": "farine complète",
+        "raw": "180 g de farine complète"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "levure chimique",
+        "raw": "1 sachets de levure chimique"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "bicarbonate",
+        "raw": "1/2 cuillères à café de bicarbonate"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1/2 cuillères à café de sel"
+      },
+      {
+        "quantity": "30",
+        "unit": "cl",
+        "name": "babeurre ou de yaourt",
+        "raw": "30 cl de babeurre ou de yaourt"
+      }
+    ],
+    "steps": [
+      "1. Préchauffez le four à 200°C (th.6/7). Mettez les deux farines, la levure, le bicarbonate de soude et le sel dans une jatte ; mélangez intimement avec un fouet ballon.",
+      "2. Faites un puits au centre, et versez-y le babeurre (ou le yaourt). Incorporez-le progressivement, puis mélangez avec les mains de façon à former une boule de pâte, et pétrissez-la pour l'assouplir.",
+      "3. Formez à nouveau une boule et déposez-la sur une plaque tapissée de papier sulfurisé. Entaillez-la en formant une croix assez profonde (cela permettra à l'air de nourrir la pâte durant la cuisson), puis saupoudrez-la d'un peu de farine.",
+      "4. Enfournez pour 30 à 35 min : la miche doit sonner creux quand on la tapote par le dessous.",
+      "5. Laissez refroidir sur une grille avant de déguster."
+    ],
+    "tags_raw": "Soda bread irlandais, accompagnement, farine, farine complète, levure chimique, bicarbonate, sel, babeurre, facile, bon marché | accompagnement",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:irlandais",
+      "titre:soda bread"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-irish-coffee-irlande-12137-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_irish-coffee-irlande_12137.aspx",
+    "name": "Irish coffee ( Irlande )",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 personne",
+    "servings": 1,
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "total_minutes": 5,
+    "ingredients": [
+      {
+        "quantity": "5",
+        "unit": "cl",
+        "name": "whisky (whisky irlandais)",
+        "raw": "5 cl de whisky (whisky irlandais)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sucre (plus pratique, 2 cuillères à café de sirop de canne)",
+        "raw": "sucre (plus pratique, 2 cuillères à café de sirop de canne)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "café assez fort et bien chaud",
+        "raw": "café assez fort et bien chaud"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "crème chantilly",
+        "raw": "crème chantilly"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cacao non sucré pour la déco",
+        "raw": "cacao non sucré pour la déco"
+      }
+    ],
+    "steps": [
+      "1. Deux astuces avant de commencer : le whiskey sucré et le café doivent être à la même température, c'est à dire très chauds.",
+      "2. L'autre astuce est un petit instrument très simple à réaliser, il vous suffit de \"sacrifier\" une petite cuillère : pliez une cuillère en \"L\" de façon à former un angle de 90°.",
+      "3. Dans un grand verre à pied résistant à la chaleur, versez le whiskey et le sucre de canne bien chaud. Utilisez ensuite votre petite cuillère pliée : il faut la placer dans le verre, à la surface du mélange, versez ensuite le café chaud dans la cuillère, en la remontant au fur et à mesure. Cela permet au café de ne pas \"plonger\" dans le whiskey, donc de rester au dessus et former une deuxième couche.",
+      "4. Ajoutez alors la chantilly, qui va former la troisième couche. Eventuellement, saupoudrez de cacao non sucré. Servez avec une paille."
+    ],
+    "tags_raw": "Irish coffee ( Irlande ), café, whisky, sucre, café, crème chantilly, cacao, moyenne, moyen, rapide | café",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 13,
+    "country_match_reasons": [
+      "ingredient:irlandais",
+      "titre:irlande"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boeuf-braise-a-la-guinness-16247-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boeuf-braise-a-la-guinness_16247.aspx",
+    "name": "Boeuf braisé à la Guinness",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "5 personnes",
+    "servings": 5,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "total_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "2 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "2",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "2 feuilles de laurier"
+      },
+      {
+        "quantity": "1.25",
+        "unit": "kg",
+        "name": "boeuf à braiser en morceaux",
+        "raw": "1.25 kg de boeuf à braiser en morceaux"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons émincé",
+        "raw": "1 oignons émincé"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "farine assaisonnée",
+        "raw": "2 cuillères à soupe de farine assaisonnée"
+      },
+      {
+        "quantity": "150",
+        "unit": "ml",
+        "name": "Guinness",
+        "raw": "150 ml de Guinness"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "225",
+        "unit": "g",
+        "name": "carotte en tronçons",
+        "raw": "225 g de carotte en tronçons"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "persil hâché",
+        "raw": "1 cuillères à soupe de persil hâché"
+      }
+    ],
+    "steps": [
+      "1. Chauffer l’huile, y jeter les feuilles de laurier, ajouter le bœuf puis faire colorer rapidement. Mettre de côté, ajouter  les oignons, et les faire suer.",
+      "2. Saupoudrer avec la farine et faire colorer, puis ajouter la Guinness et de l’eau en quantités similaire, ou un peu plus si nécessaire pour recouvrir à peine.",
+      "3. Bien assaisonner et ajouter les carottes. Amener à ébullition, puis couvrir et braiser dans un four modéré (160°C ou thermostat 5) pendant 1h30.",
+      "4. Vérifier de temps en temps que le ragout ne sèche pas, sinon rajouter un peu de liquide. Vérifier aussi que la viande est assez cuite.",
+      "5. Servir parsemé du persil hâché."
+    ],
+    "tags_raw": "Boeuf braisé à la Guinness, daube, bourguignon, huile, feuille de laurier, boeuf, oignon, farine, Guinness, poivre, sel, carotte, persil, très facile, moyen | daube, bourguignon",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:guinness",
+      "titre:guinness"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boeuf-a-la-guinness-facon-isa-342872-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boeuf-a-la-guinness-facon-isa_342872.aspx",
+    "name": "Boeuf à la Guinness façon Isa",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 180,
+    "total_minutes": 195,
+    "ingredients": [
+      {
+        "quantity": "1.4",
+        "unit": "kg",
+        "name": "boeuf à bourguignon",
+        "raw": "1.4 kg de boeuf à bourguignon"
+      },
+      {
+        "quantity": "6",
+        "unit": "tranches",
+        "name": "pain d'épices tartinées de moutarde",
+        "raw": "6 tranches de pain d'épices tartinées de moutarde"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oignons",
+        "raw": "4 oignons"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "3 gousses d'ail"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "Guinness",
+        "raw": "50 cl de Guinness"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bouquets garnis",
+        "raw": "1 bouquets garnis"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "poivre",
+        "raw": "1 pincées de poivre"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "vergeoise",
+        "raw": "2 cuillères à soupe de vergeoise"
+      },
+      {
+        "quantity": "2",
+        "unit": "bouillon",
+        "name": "boeuf",
+        "raw": "2 bouillon de boeuf"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four à 170°C (thermostat 5-6).",
+      "2. Faire revenir dans une poêle (ou à même la cocotte si elle va sur le feu) les cubes de boeuf pour faire dorer.",
+      "3. Ajouter l'ail et les oignons émincés.",
+      "4. Ajouter la vergeoise et remuer.",
+      "5. Transvaser dans la cocotte qui va au four.",
+      "6. Arroser avec la Guinness, ajouter le reste des ingrédients (les cube de bouillon, les 6 tranches de pain d'épices tartinées de moutarde, le bouquet garnir et le poivre).",
+      "7. Enfourner pour 3 heures de cuisson à couvert."
+    ],
+    "tags_raw": "Boeuf à la Guinness façon Isa, , boeuf, pain d'épices, oignon, ail, Guinness, bouquet garni, poivre, vergeoise, bouillon de boeuf, facile, moyen",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:guinness",
+      "titre:guinness"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gratin-de-boeuf-a-la-guinness-58582-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gratin-de-boeuf-a-la-guinness_58582.aspx",
+    "name": "Gratin de boeuf à la Guinness",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 120,
+    "cook_minutes": 60,
+    "total_minutes": 180,
+    "ingredients": [
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "boeuf haché",
+        "raw": "800 g de boeuf haché"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "carottes",
+        "raw": "2 carottes"
+      },
+      {
+        "quantity": "33",
+        "unit": "cl",
+        "name": "Guinness (en bouteille à 8,2°C)",
+        "raw": "33 cl de Guinness (en bouteille à 8,2°C)"
+      },
+      {
+        "quantity": "12",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "12 pommes de terre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "emmental râpé",
+        "raw": "emmental râpé"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères",
+        "name": "huile",
+        "raw": "1 cuillères d'huile"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "muscade",
+        "raw": "muscade"
+      }
+    ],
+    "steps": [
+      "1. Réduire les carottes et l'oignon en très petits morceaux. Les faire revenir à la poêle dans un peu d'huile, bien assaisonnés de sel et de poivre.",
+      "2. Ajouter la viande hachée et la faire cuire jusqu'à ce qu'elle soit bien dorée. Ajouter la Guinness dans la poêle et faire cuire à feu doux jusqu'à réduction complète du jus. Eteindre le feu.",
+      "3. Préparer une purée de pommes de terre. Ajouter la muscade à la purée.",
+      "4. Dans un plat : mettre la viande, recouvrir avec la purée et ajouter l'emmental râpé au-dessus.",
+      "5. Mettre au four à 150°C (thermostat 5) jusqu'à ce que le fromage ait fondu et gratine le dessus.",
+      "6. Servir immédiatement."
+    ],
+    "tags_raw": "Gratin de boeuf à la Guinness, , boeuf haché, oignon, carotte, Guinness, pomme de terre, emmental, huile, muscade, facile, moyen",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:guinness",
+      "titre:guinness"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-mousse-legere-chocolat-et-guinness-229010-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_mousse-legere-chocolat-et-guinness_229010.aspx",
+    "name": "Mousse légère chocolat et Guinness",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "chocolat noir (58% cacao, type chocolat dessert)",
+        "raw": "150 g de chocolat noir (58% cacao, type chocolat dessert)"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "blancs",
+        "name": "oeuf",
+        "raw": "1 blancs d'oeuf"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "50 g de sucre"
+      },
+      {
+        "quantity": "8",
+        "unit": "cl",
+        "name": "Guinness Draught",
+        "raw": "8 cl de Guinness Draught"
+      }
+    ],
+    "steps": [
+      "1. Faire fondre le chocolat au bain-marie.",
+      "2. Pendant ce temps, casser les œufs en séparant les jaunes des blancs.",
+      "3. Mélanger les jaunes avec le sucre : ne pas attendre pour mélanger, car le sucre \"cuit\" les jaunes. Une fois le sucre dissous, il n'y a plus de problème.",
+      "4. Ajouter ce mélange au chocolat fondu, et lisser la préparation avec une cuillère en bois. Ajouter ensuite la Guinness et bien mélanger le tout.",
+      "5. Monter les blancs en neige ferme avec un pincée de sel (les blancs doivent être à température ambiante).",
+      "6. En prendre une cuillère à soupe et la mélanger vivement au chocolat, cela permet de le \"détendre\".",
+      "7. Ajouter ensuite le reste des blancs, et mélanger délicatement avec une spatule, lentement, sans \"casser\" les blancs.",
+      "8. Verser dans des ramequins, et laisser réfrigérer au moins 2 heures.",
+      "9. Bon appétit !"
+    ],
+    "tags_raw": "Mousse légère chocolat et Guinness, mousse au chocolat, chocolat noir, oeuf, blanc d'oeuf, sucre, Guinness, facile, bon marché, rapide | mousse au chocolat",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:guinness",
+      "titre:guinness"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-beignet-d-huitres-irlande-14016-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_beignet-d-huitres-irlande_14016.aspx",
+    "name": "Beignet d'huîtres (Irlande)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 5,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "24",
+        "unit": "",
+        "name": "huîtres",
+        "raw": "24 huîtres"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs (ou 2 selon la quantité d'huîtres à frire)",
+        "raw": "3 oeufs (ou 2 selon la quantité d'huîtres à frire)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil haché",
+        "raw": "persil haché"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "chapelure",
+        "raw": "chapelure"
+      }
+    ],
+    "steps": [
+      "1. Faire ouvrir les huîtres à la vapeur dans une cocotte avec un peu d'eau.",
+      "2. Battre les oeufs avec sel et poivre et éventuellement un peu de farine.",
+      "3. Tremper les huîtres dans la préparation d'oeufs, puis les rouler ensuite dans la chapelure et le persil.",
+      "4. Mettre à frire dans l'huile chaude très peu de temps pour qu'elles soit dorées."
+    ],
+    "tags_raw": "Beignet d'huîtres (Irlande), huîtres, huître, oeuf, persil, poivre, sel, chapelure, très facile, assez cher, rapide | huîtres",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irlande"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-brown-bread-pain-irlandais-31512-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_brown-bread-pain-irlandais_31512.aspx",
+    "name": "Brown bread ( pain irlandais )",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 pains",
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 50,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "680",
+        "unit": "g",
+        "name": "farine complète",
+        "raw": "680 g de farine complète"
+      },
+      {
+        "quantity": "230",
+        "unit": "g",
+        "name": "farine blanche",
+        "raw": "230 g de farine blanche"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "60 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sel fin",
+        "raw": "1 cuillères à café de sel fin"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à café",
+        "name": "bicarbonate (en poudre, pharmacie)",
+        "raw": "2 cuillères à café de bicarbonate (en poudre, pharmacie)"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cassonade",
+        "raw": "1 cuillères à café de cassonade"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "mélasse (en supermarché, ou à défaut, dans les boutiques bio)",
+        "raw": "2 cuillères à soupe de mélasse (en supermarché, ou à défaut, dans les boutiques bio)"
+      },
+      {
+        "quantity": "700",
+        "unit": "ml",
+        "name": "babeurre (à défaut, 1 mélange 1/3 yaourt - 2/3 lait entier)",
+        "raw": "700 ml de babeurre (à défaut, 1 mélange 1/3 yaourt - 2/3 lait entier)"
+      }
+    ],
+    "steps": [
+      "1. Tamiser les farines avec le sel et le bicarbonate. Ajouter le beurre et mélanger du bout des doigts pour obtenir un aspect grumeleux.",
+      "2. Dans un bol, mélanger l'oeuf, la mélasse et le babeurre, puis verser sur les ingrédients secs en remuant. La pâte doit être assez dense, mais encore \"humide\". En gros, on doit pouvoir la verser dans un moule à la cuillère, mais elle ne doit pas couler.",
+      "3. Mettre dans un grand moule à cake beurré, ou 2 petits, et cuire à 200°C (four préchauffé) pendant environ 50 mn."
+    ],
+    "tags_raw": "Brown bread ( pain irlandais ), , farine complète, farine, beurre, oeuf, sel, bicarbonate, cassonade, mélasse, babeurre, très facile, bon marché",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irlandais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cake-irlandais-barm-brack-14411-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cake-irlandais-barm-brack_14411.aspx",
+    "name": "Cake irlandais (Barm Brack)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 40,
+    "cook_minutes": 60,
+    "total_minutes": 100,
+    "ingredients": [
+      {
+        "quantity": "450",
+        "unit": "g",
+        "name": "farine",
+        "raw": "450 g de farine"
+      },
+      {
+        "quantity": "30",
+        "unit": "cl",
+        "name": "lait tiède",
+        "raw": "30 cl de lait tiède"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1/2 cuillères à café de sel"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre semoule",
+        "raw": "100 g de sucre semoule"
+      },
+      {
+        "quantity": "25",
+        "unit": "g",
+        "name": "levure de boulanger",
+        "raw": "25 g de levure de boulanger"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "fruit confit",
+        "raw": "60 g de fruit confit"
+      },
+      {
+        "quantity": "1/4",
+        "unit": "cuillères à café",
+        "name": "muscade",
+        "raw": "1/4 cuillères à café de muscade"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "raisin de smyrn",
+        "raw": "100 g de raisin de smyrn"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "raisins secs noirs",
+        "raw": "100 g de raisins secs noirs"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "60 g de beurre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1/2 cuillères à café de cannelle"
+      }
+    ],
+    "steps": [
+      "1. Tous les ustensiles doivent être tièdes quand on cuisine avec de la levure.",
+      "2. Tamiser la farine dans une grande jatte avec le sel et les épices.",
+      "3. Incorporer le beurre avec les doigts comme pour faire une pâte brisée.",
+      "4. Réduire la levure en crème dans un bol en ajoutant 1 cuillère à café de sucre et 1 cuillère à café de lait tiède. Elle doit mousser légèrement.",
+      "5. Mettre le reste du sucre avec le mélange farine/beurre .",
+      "6. Ajouter le reste du lait tiède et l'oeuf battu à la levure, puis incorporer le tout à la farine.",
+      "7. Bien mélanger à la cuillère en bois ou avec un batteur (fouets pâte) pendant 5 mn.",
+      "8. La pâte doit être épaisse mais souple. Incorporer délicatement les fruit secs et confits.",
+      "9. Couvrir d'un torchon propre et laisser gonfler la pâte pendant 1h-1h30. Celle-ci doit doubler de volume.",
+      "10. Remplir un grand moule à cake préalablement beurré (ne pas oublier  la bague).",
+      "11. Couvrir de nouveau avec le torchon  et laisser gonfler encore 30 mn.",
+      "12. Faire cuire dans un four moyen - chaud à 200°C ou N°5/6 pendant 1 h.",
+      "13. En fin de cuisson, pour donner un aspect brillant au 'brack', répandre un sirop de sucre dessus (1 cuillère à soupe de sucre dissoute dans 2 cuillères à soupe d'eau bouillante) et remettre",
+      "14. au four chaud pendant 3 mn.",
+      "15. Laisser refroidir avant de servir, c'est meilleur pour la digestion, même s'il est très tentant d'en prendre une petite tranche avec du beurre !!!",
+      "16. Ce 'brack' est accompagné tout simplement d'une tasse de thé."
+    ],
+    "tags_raw": "Cake irlandais (Barm Brack), , farine, lait, sel, sucre semoule, levure de boulanger, fruit confit, muscade, oeuf, raisin, raisins secs, beurre, cannelle, facile, bon marché",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irlandais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cappuccino-a-l-irlandaise-169200-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cappuccino-a-l-irlandaise_169200.aspx",
+    "name": "Cappuccino à l'irlandaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 personne",
+    "servings": 1,
+    "prep_minutes": 3,
+    "cook_minutes": 1,
+    "total_minutes": 4,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "traits",
+        "name": "vanille liquide",
+        "raw": "1 traits de vanille liquide"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "ricoré",
+        "raw": "1 cuillères à café de ricoré"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à café",
+        "name": "nesquik",
+        "raw": "3 cuillères à café de nesquik"
+      },
+      {
+        "quantity": "1",
+        "unit": "traits",
+        "name": "whisky",
+        "raw": "1 traits de whisky"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "lait",
+        "raw": "1 lait"
+      }
+    ],
+    "steps": [
+      "1. Dans le meug mettre la moitié du lait avec les autres ingrédients, faire chauffer 1 minute au micro-onde. Dans un shaker (ou un pot de confiture vide !) mettre l'autre moitié du lait et secouer énergiquement pour former une mousse dense. Mélanger le lait chaud parfumé et ajouter la mousse de lait par dessus. Boire sans attendre.",
+      "2. C'est très bon mais attention ça reste de l'alcool."
+    ],
+    "tags_raw": "Cappuccino à l'irlandaise, café, vanille, ricoré, nesquik, whisky, lait, très facile, bon marché, rapide | café",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irlandaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-coddle-potee-irlandaise-222927-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_coddle-potee-irlandaise_222927.aspx",
+    "name": "Coddle (Potée irlandaise)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "total_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "chipolata",
+        "raw": "500 g de chipolata"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "lard en tranches (3 mm environ)",
+        "raw": "250 g de lard en tranches (3 mm environ)"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "pomme de terre",
+        "raw": "1 kg de pomme de terre"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "carottes",
+        "raw": "3 carottes"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "l",
+        "name": "bouillon de poule (eau + 2 cubes)",
+        "raw": "1 l de bouillon de poule (eau + 2 cubes)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "beurre",
+        "raw": "beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil plat",
+        "raw": "persil plat"
+      }
+    ],
+    "steps": [
+      "1. Coupez la saucisse et le lard en tronçons de 6 cm.",
+      "2. Mettez du beurre dans une poêle, faites-y dorer le lard, retirez et mettez à la place la saucisse.",
+      "3. Épluchez les légumes. Coupez carottes et oignons en fines rondelles et les pommes de terre en rondelles d'1 cm.",
+      "4. Dans une sauteuse, faites revenir l'oignon, puis ajoutez carottes et pommes de terre. Mélangez, puis ajoutez le bouillon et la viande. Mélangez et laissez mijoter 1 h.",
+      "5. 15 min avant la fin de la cuisson, ajouter le persil plat haché. Servez bien chaud."
+    ],
+    "tags_raw": "Coddle (Potée irlandaise), , chipolata, lard, pomme de terre, carotte, oignon, bouillon de poule, beurre, persil, facile, bon marché",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irlandaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cotes-de-porc-a-l-irlandaise-18966-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cotes-de-porc-a-l-irlandaise_18966.aspx",
+    "name": "Côtes de porc à l'Irlandaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "total_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "côtes de porc",
+        "raw": "4 côtes de porc"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "lardons natures",
+        "raw": "1 paquets de lardons natures"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "citrons",
+        "raw": "3 citrons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "grosses boîtes de champignons de Paris",
+        "raw": "1 grosses boîtes de champignons de Paris"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "l de vin blanc",
+        "raw": "1/2 l de vin blanc"
+      }
+    ],
+    "steps": [
+      "1. Faire revenir dans une cocotte-minute, l'huile d'olive les oignons avec l'ail haché fin.",
+      "2. Faire revenir les côtes de porc.",
+      "3. Ajouter les lardons et les champignons.",
+      "4. Quand tout est bien doré, ajouter les citrons coupés en rondelles (avec l'écorce) et le vin blanc.",
+      "5. Fermer la cocotte et cuire 20 mn.",
+      "6. Bon appétit bien-sûr!"
+    ],
+    "tags_raw": "Côtes de porc à l'Irlandaise, côtelettes, côte de porc, oignon, lardons, citron, champignons de Paris, ail, vin blanc, facile, bon marché | côtelettes",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irlandaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gateau-typique-irlandais-pour-halloween-le-barm-brack-63863-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gateau-typique-irlandais-pour-halloween-le-barm-brack_63863.aspx",
+    "name": "Gâteau typique Irlandais pour Halloween : le BARM BRACK",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 35,
+    "cook_minutes": 30,
+    "total_minutes": 65,
+    "ingredients": [
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "farine",
+        "raw": "250 g de farine"
+      },
+      {
+        "quantity": "15",
+        "unit": "g",
+        "name": "levure",
+        "raw": "15 g de levure"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "50 g de sucre"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "10 cl de lait"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1/2 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "muscade",
+        "raw": "1/2 cuillères à café de muscade"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1/2 cuillères à café de sel"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "raisins secs",
+        "raw": "60 g de raisins secs"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "fruit confit",
+        "raw": "60 g de fruit confit"
+      }
+    ],
+    "steps": [
+      "1. Faire mariner la veille les raisins et écorces de fruits dans du thé froid.",
+      "2. Mélanger la levure et 1 cuillère à café de sucre dans 2 cuillères à soupe de lait préalablement chauffé. Laisser monter.",
+      "3. Faire fondre le beurre et le laisser refroidir.",
+      "4. Mélanger la farine, les épices, le sucre, le sel.",
+      "5. Verser le reste du lait et la mixture de levure.",
+      "6. Battre l'oeuf, le mélanger au beurre et ajouter à la préparation.",
+      "7. Mélanger le tout pendant 5 min, jusqu'à ce que la pâte soit élastique et ne colle plus au saladier.",
+      "8. Couvrir d'un torchon humide et laisser reposer 1 h dans un endroit assez chaud.",
+      "9. Egoutter les écorces et raisins et les ajouter à la pâte.",
+      "10. Pétrir.",
+      "11. Préchauffer le four à 220°C (thermostat 7).",
+      "12. Dans un moule à cake beurré, étaler la pâte et laisser reposer 30 min.",
+      "13. Faire cuire le gâteau 25 min puis réduire à 180°C (thermostat 6) et laisser cuire encore 5 min. (Vérifier la cuisson avec la pointe du couteau).",
+      "14. Laisser le Barm Brack refroidir 15 min hors du four avant de démouler.",
+      "15. Laisser refroidir complètement avant de déguster."
+    ],
+    "tags_raw": "Gâteau typique Irlandais pour Halloween : le BARM BRACK, desserts d'Halloween, farine, levure, sucre, lait, oeuf, beurre, cannelle, muscade, sel, raisins secs, fruit confit, facile, bon marché | desserts d'Halloween",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irlandais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-irish-stew-51844-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_irish-stew_51844.aspx",
+    "name": "Irish stew",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 120,
+    "total_minutes": 135,
+    "ingredients": [
+      {
+        "quantity": "1.5",
+        "unit": "kg",
+        "name": "collier d'agneau",
+        "raw": "1.5 kg de collier d'agneau"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oignons moyens",
+        "raw": "4 oignons moyens"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "carottes moyennes",
+        "raw": "4 carottes moyennes"
+      },
+      {
+        "quantity": "60",
+        "unit": "cl",
+        "name": "bouillon de boeuf",
+        "raw": "60 cl de bouillon de boeuf"
+      },
+      {
+        "quantity": "4",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "4 pommes de terre"
+      },
+      {
+        "quantity": "15",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "15 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "persil ciselé",
+        "raw": "1 cuillères à café de persil ciselé"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "ciboulette hachée",
+        "raw": "1 cuillères à café de ciboulette hachée"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Coupez l'agneau en morceaux en veillant à ôter l'excédant de graisse.",
+      "2. Nappez le fond d'une cocotte avec de l'huile et sur feu vif faites dorer de chaque côté les morceaux de viande.",
+      "3. Couper les oignons et les carottes en quartiers, ajoutez à la viande et tournez.",
+      "4. Ajoutez bouillon, sel et poivre.",
+      "5. Laissez mijoter à petit feu pendant 2 heures.",
+      "6. Ajoutez les pommes de terre à mi-cuisson.",
+      "7. Quand la viande est cuite versez le jus de cuisson dans une casserole, dégraissez-le quand il est un peu refroidi puis reversez dans la cocotte avec beurre, persil et ciboulette.",
+      "8. Faites réchauffer et servez."
+    ],
+    "tags_raw": "Irish stew, , collier d'agneau, oignon, carotte, bouillon de boeuf, pomme de terre, beurre, persil, ciboulette, poivre, sel, très facile, bon marché",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irish stew"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-irish-stew-a-la-biere-68277-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_irish-stew-a-la-biere_68277.aspx",
+    "name": "Irish stew à la bière",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 120,
+    "total_minutes": 150,
+    "ingredients": [
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "viande d’agneau (si c’est un gigot, prendre en compte le poids de l’os)",
+        "raw": "800 g de viande d’agneau (si c’est un gigot, prendre en compte le poids de l’os)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "4",
+        "unit": "pommes",
+        "name": "terre fermes (nicolas ou charlotte)",
+        "raw": "4 pommes de terre fermes (nicolas ou charlotte)"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "navets",
+        "raw": "3 navets"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "carottes",
+        "raw": "2 carottes"
+      },
+      {
+        "quantity": "6",
+        "unit": "choux",
+        "name": "bruxelles coupés en deux",
+        "raw": "6 choux de bruxelles coupés en deux"
+      },
+      {
+        "quantity": "1",
+        "unit": "blancs",
+        "name": "poireaux",
+        "raw": "1 blancs de poireaux"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "bière brune type Guiness",
+        "raw": "50 cl de bière brune type Guiness"
+      },
+      {
+        "quantity": "35",
+        "unit": "cl",
+        "name": "bouillon de volaille",
+        "raw": "35 cl de bouillon de volaille"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "bouquet garni",
+        "raw": "bouquet garni"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "farine",
+        "raw": "farine"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "maïzena",
+        "raw": "maïzena"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sucre ou sirop de liège",
+        "raw": "sucre ou sirop de liège"
+      }
+    ],
+    "steps": [
+      "1. Couper les légumes en gros morceaux. Couper la viande en gros dés (enlever le plus possible le gras, le cas échéant).",
+      "2. Dans une cocotte ou une grosse casserole, faire dorer les oignons et la viande dans un peu d’huile d’olive.",
+      "3. Rajouter deux cuillères à soupe de farine. Cela permettra à la sauce de se lier un peu pendant la cuisson.",
+      "4. Rajouter tous les légumes sauf les pommes de terre. Saler, poivrer et mouiller avec la guiness et le bouillon.",
+      "5. Ajouter le bouquet garni. Couvrir et laisser cuire 1 h.",
+      "6. Après 1 h, ajouter les pommes de terre. Laisser cuire encore au moins 1 h à feu doux.",
+      "7. Après, sortir la viande et les légumes, incorporer la maïzena pour épaissir la sauce et rajouter (pour couper l’amertume de la bière) 2 cuillères à café de sucre ou de sirop de liège (c’est meilleur).",
+      "8. Rectifier l’assaisonnement.",
+      "9. Rajouter la viande et les légumes. Servir ou réchauffer plus tard, au moins 30 minutes à feux doux.",
+      "10. Servir avec une bonne bière et du pain frais."
+    ],
+    "tags_raw": "Irish stew à la bière, , viande d’agneau, oignon, pomme de terre, navet, carotte, chou de bruxelles, blanc de poireau, bière brune, bouillon de volaille, bouquet garni, poivre, sel, huile d'olive, farine, maïzena, sucre, facile, moyen",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irish stew"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pain-irlandais-13744-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pain-irlandais_13744.aspx",
+    "name": "Pain Irlandais",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 pain",
+    "servings": 1,
+    "prep_minutes": 5,
+    "cook_minutes": 20,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine blanche",
+        "raw": "500 g de farine blanche"
+      },
+      {
+        "quantity": "30",
+        "unit": "cl",
+        "name": "lait fermenté",
+        "raw": "30 cl de lait fermenté"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "bicarbonate",
+        "raw": "1/2 cuillères à café de bicarbonate"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "sel fin",
+        "raw": "1/2 cuillères à café de sel fin"
+      }
+    ],
+    "steps": [
+      "1. Préchauffez le four à thermostat 8 (240°C).",
+      "2. Tamisez la farine, le sel et le bicarbonate de soude au-dessus d'une jatte, formez une fontaine au centre. Versez-y le lait fermenté.",
+      "3. Ramenez la farine vers le centre, formez une boule et aplatissez-la légèrement.",
+      "4. Tracez une croix sur le pain ansi formé et enfournez pendant 20 mn."
+    ],
+    "tags_raw": "Pain Irlandais, accompagnement, farine, lait fermenté, bicarbonate, sel, très facile, bon marché | accompagnement",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irlandais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pain-irlandais-ou-brown-bread-31549-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pain-irlandais-ou-brown-bread_31549.aspx",
+    "name": "Pain Irlandais (ou Brown Bread)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 45,
+    "total_minutes": 65,
+    "ingredients": [
+      {
+        "quantity": "220",
+        "unit": "g",
+        "name": "farine complète",
+        "raw": "220 g de farine complète"
+      },
+      {
+        "quantity": "220",
+        "unit": "g",
+        "name": "farine à poudre levante incorporée",
+        "raw": "220 g de farine à poudre levante incorporée"
+      },
+      {
+        "quantity": "170",
+        "unit": "g",
+        "name": "flocons d'avoine",
+        "raw": "170 g de flocons d'avoine"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à café rases de soda \" (ou bicarbonate)",
+        "raw": "1 cuillères à café rases de soda \" (ou bicarbonate)"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "levure chimique",
+        "raw": "1 cuillères à café de levure chimique"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "yaourt à la noisette",
+        "raw": "125 g de yaourt à la noisette"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "lait",
+        "raw": "lait"
+      }
+    ],
+    "steps": [
+      "1. Mélanger le yaourt et les oeufs, puis compléter avec du lait jusqu'à obtenir 550 cl de liquide. Bien mélanger jusqu'à obtenir un liquide homogène.",
+      "2. Mélanger les ingrédients secs (farine, avoine, bicarbonate et levure).",
+      "3. Rajouter le mélange liquide au mélange sec et bien mélanger.",
+      "4. La pâte ne ressemble pas à une pâte à pain classique, on ne peut pas la pétrir car elle est trop humide, c'est normal.",
+      "5. Placer la pâte dans un moule à cake (beurré ou non, ça dépend du moule. .).",
+      "6. Cuire pendant 40-50 mn à 160°C, attention cependant, entre la 5ème et la 15me minute de cuisson, le pain commence à gonfler, vous pouvez choisir de l'entailler à ce moment là pour avoir une coupure nette (si pour vous l'esthétique change quelque chose au goût ;) ).",
+      "7. Une fois cuit, vous pouvez le mettre à refroidir sur une grille et éventuellement l'entourer d'un torchon si vous ne voulez pas que la croûte durcisse trop.",
+      "8. Il se conserve également sans problèmes quelques jours enveloppé dans un torchon."
+    ],
+    "tags_raw": "Pain Irlandais (ou Brown Bread), , farine complète, farine, flocons d'avoine, soda, levure chimique, oeuf, yaourt, lait, très facile, bon marché",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irlandais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-poulet-irlandais-a-la-biere-brune-28255-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_poulet-irlandais-a-la-biere-brune_28255.aspx",
+    "name": "Poulet irlandais à la bière brune",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poulets découpé en morceaux",
+        "raw": "1 poulets découpé en morceaux"
+      },
+      {
+        "quantity": "33",
+        "unit": "cl",
+        "name": "bière brune",
+        "raw": "33 cl de bière brune"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "champignon",
+        "raw": "150 g de champignon"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "échalotes",
+        "raw": "4 échalotes"
+      },
+      {
+        "quantity": "6",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "6 gousses d'ail"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "concentré de tomates",
+        "raw": "2 cuillères à soupe de concentré de tomates"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "2 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "crème liquide",
+        "raw": "10 cl de crème liquide"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile",
+        "raw": "huile"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faire revenir le poulet dans une cocotte avec de l'huile.",
+      "2. Les retirer et vider le gras de la cocotte.",
+      "3. Remettre un peu d'huile et y faire dorer les oignons émincés et les échalotes entières.",
+      "4. Rajouter les morceaux de poulet, saupoudrer de farine tamisée et verser la bière. Ajouter les champignons, l'ail, le concentré de tomates, saler et poivrer.",
+      "5. Laisser mijoter 1 h à découvert.",
+      "6. Retirer alors les morceaux de poulet et lier la sauce avec la crème liquide.",
+      "7. Faire réduire jusqu'à une consistance onctueuse.",
+      "8. Remettre le poulet dans la cocotte, réchauffer 2-3 minutes et servir."
+    ],
+    "tags_raw": "Poulet irlandais à la bière brune, , poulet, bière brune, champignon, oignon, échalote, ail, concentré de tomates, farine, crème liquide, huile, poivre, sel, facile, bon marché",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irlandais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-soupe-de-poisson-irlandaise-seafood-chowder-54242-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_soupe-de-poisson-irlandaise-seafood-chowder_54242.aspx",
+    "name": "Soupe de poisson irlandaise (Seafood chowder)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "total_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "beurre",
+        "raw": "beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons émincé",
+        "raw": "1 oignons émincé"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bâtons de céleri frais finement émincé",
+        "raw": "1 bâtons de céleri frais finement émincé"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "champignon frais ou en conserve",
+        "raw": "200 g de champignon frais ou en conserve"
+      },
+      {
+        "quantity": "1",
+        "unit": "pommes",
+        "name": "terre coupée en gros cubes de 1 à 2 cm",
+        "raw": "1 pommes de terre coupée en gros cubes de 1 à 2 cm"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "concentré de tomates",
+        "raw": "1 cuillères à soupe de concentré de tomates"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "tomates coupées en gros cubes (soit fraîches soit en boîte)",
+        "raw": "3 tomates coupées en gros cubes (soit fraîches soit en boîte)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "safran (optionnel)",
+        "raw": "1 safran (optionnel)"
+      },
+      {
+        "quantity": "1",
+        "unit": "fumets",
+        "name": "poisson",
+        "raw": "1 fumets de poisson"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre noir et sel",
+        "raw": "poivre noir et sel"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "Poisson et fruits de mer au choix (saumon frais ou fume, colin, cabillaud, etc, moules, crevettes, etc....)",
+        "raw": "500 g de Poisson et fruits de mer au choix (saumon frais ou fume, colin, cabillaud, etc, moules, crevettes, etc....)"
+      },
+      {
+        "quantity": "125",
+        "unit": "ml",
+        "name": "crème fraîche",
+        "raw": "125 ml de crème fraîche"
+      }
+    ],
+    "steps": [
+      "1. Faire fondre du beurre et y faire revenir l'oignon, le céleri et les champignons en mélangeant régulièrement jusqu'à ce que tout soit bien doré.",
+      "2. Ajouter les morceaux de pomme de terre, le concentré de tomates, les tomates, le fumet de poisson et un peu de sel.",
+      "3. Faire boullir et enlever l'écume de la surface.",
+      "4. Laisser cuire 20 min jusqu'à ce que les légumes soient bien tendres.",
+      "5. Prélever la moitié de la préparation, soit environ 1/2 litre, le mixer et le rajouter à la préparation.",
+      "6. Goûter et rectifier l'assaisonnement.",
+      "7. Ajouter le poisson coupé en gros cubes et les fruits de mer, laisser cuire 15 minutes.",
+      "8. La soupe est prête à servir.",
+      "9. Il est possible de congeler la soupe à cette étape.",
+      "10. Une fois decongelée, rajouter ou non de l'eau si la soupe est trop épaisse.",
+      "11. Au moment de servir ajouter la crème fraîche, servir avec du pain complet et du beurre."
+    ],
+    "tags_raw": "Soupe de poisson irlandaise (Seafood chowder), soupe de poisson, beurre, oignon, céleri, champignon frais, pomme de terre, concentré de tomates, tomate, safran, fumet, poivre, Poisson, crème fraîche, facile, bon marché | soupe de poisson",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irlandaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-thon-a-l-irlandaise-11266-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_thon-a-l-irlandaise_11266.aspx",
+    "name": "Thon à l'irlandaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 5,
+    "cook_minutes": 15,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "lentilles",
+        "raw": "1 boîtes de lentilles"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "saumon",
+        "raw": "2 saumon"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "crème fraîche",
+        "raw": "10 cl de crème fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faire chauffer les lentilles.",
+      "2. Faire revenir les darnes sans matières grasses à la poêle, les servir.",
+      "3. Faire chauffer la crème dans la poêle ayant servi à cuire les darnes, ajouter cette crème aux lentilles, puis servir avec les darnes, saler, poivrer."
+    ],
+    "tags_raw": "Thon à l'irlandaise, , lentilles, saumon, crème fraîche, poivre, sel, moyenne, moyen",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:irlandaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pain-a-la-biere-par-laurent-mariotte-533412-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pain-a-la-biere-par-laurent-mariotte_533412.aspx",
+    "name": "Pain à la bière par Laurent Mariotte",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 pain",
+    "servings": 1,
+    "prep_minutes": 10,
+    "cook_minutes": 45,
+    "total_minutes": 85,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "levure de boulanger sèche",
+        "raw": "1 sachets de levure de boulanger sèche"
+      },
+      {
+        "quantity": "5",
+        "unit": "cl",
+        "name": "eau tiède",
+        "raw": "5 cl d'eau tiède"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "bière Guinness",
+        "raw": "25 cl de bière Guinness"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "miel",
+        "raw": "1 cuillères à soupe de miel"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "farine T65",
+        "raw": "200 g de farine T65"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "farine T80 ou T150",
+        "raw": "200 g de farine T80 ou T150"
+      },
+      {
+        "quantity": "6",
+        "unit": "g",
+        "name": "sel fin",
+        "raw": "6 g de sel fin"
+      },
+      {
+        "quantity": "1",
+        "unit": "noix",
+        "name": "beurre",
+        "raw": "1 noix de beurre"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "flocons d'avoine",
+        "raw": "4 cuillères à soupe de flocons d'avoine"
+      }
+    ],
+    "steps": [
+      "1. Préchauffez le four à 200°C.",
+      "2. Diluez la levure de boulanger dans l’eau tiède.",
+      "3. Dans la cuve d’un robot, mélangez la farine et le sel.",
+      "4. Ajoutez la bière, le miel et la levure. Pétrissez à l’aide d’un crochet jusqu’à ce que la pâte soit homogène (5 minutes).",
+      "5. Transférez dans un saladier, couvrez d’un linge propre et laissez reposer 30 minutes à température ambiante, à l’abri des courants d’air.",
+      "6. Recouvrez de la moitié de flocons d’avoine le fond et les côtés de votre moule à cake ou cocotte beurré.",
+      "7. Dégazez la pâte à la main, puis déposez-la dans le\nplat.",
+      "8. Saupoudrez le dessus des flocons d’avoine.",
+      "9. Enfournez à couvert pour 30 min puis enlevez le couvercle et poursuivez la cuisson 15 min.",
+      "10. Vérifiez la cuisson avec la pointe d’un couteau avant de le sortir du four.",
+      "11. Dégustez avec une tranche de saumon fumé, du vieux cheddar ou du bacon."
+    ],
+    "tags_raw": "Pain à la bière par Laurent Mariotte, pain, levure de boulanger sèche, eau, bière, miel, farine, farine, sel fin, beurre, flocons d'avoine, très facile, bon marché | pain",
+    "country": "irlande",
+    "country_label": "Irlande",
+    "country_score": 6,
+    "country_match_reasons": [
+      "ingredient:guinness",
+      "ingredient:guinness"
+    ]
+  }
+]

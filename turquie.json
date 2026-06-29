@@ -1,0 +1,4304 @@
+[
+  {
+    "id": "https-www-marmiton-org-recettes-recette-borek-turc-au-fromage-537302-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_borek-turc-au-fromage_537302.aspx",
+    "name": "Börek turc au fromage",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 3,
+    "total_minutes": 13,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "feuille de brick feuilles de borek",
+        "raw": "1 paquets de feuille de brick feuilles de borek"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "fromage turc",
+        "raw": "1 boîtes de fromage turc"
+      },
+      {
+        "quantity": "1",
+        "unit": "bottes",
+        "name": "persil",
+        "raw": "1 bottes de persil"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites bottes de menthe",
+        "raw": "1 petites bottes de menthe"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      }
+    ],
+    "steps": [
+      "1. Lavez et ciselez les herbes. Dans un bol, émiettez le fromage turc à la fourchette. Ajoutez-lui les herbes émincées et un petit filet d’huile d’olive. Mélangez bien. L’appareil doit être pâteux et collant.",
+      "2. Pour les feuilles de borek, disposez en une sur le plan de travail propre. Badigeonnez avec de l’huile à l’aide d’un pinceau de cuisine. Déposez une seconde feuille de borek. Huilez également. Découpez les deux feuilles en 6 parts égales (Certaines feuilles à borek sont vendues déjà en portion).",
+      "3. Prenez une portion, et disposez la pointe vers le haut. Déposez l’appareil au fromage à environ 2 cm du bord face à vous. Faites un petit boudin bien tassé sans atteindre les bords de la feuille. Commencez à rouler bien compact pour couvrir le fromage. Rabattez les deux côtés puis continuez de rouler.",
+      "4. Mettez un peu d’eau ou de jaune d’œuf sur la pointe pour bien coller la feuille sur elle-même. Vous pouvez ensuite faire cuire ces borek à la poêle durant 3 minutes dans un peu d’huile d’olive."
+    ],
+    "tags_raw": "Börek turc au fromage, , feuille de brick, fromage, persil, menthe, huile d'olive, facile, moyen, rapide",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 25,
+    "country_match_reasons": [
+      "titre:turc",
+      "titre:borek",
+      "titre:börek",
+      "ingredient:menthe"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-lahmacun-pizza-turque-530233-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_lahmacun-pizza-turque_530233.aspx",
+    "name": "lahmacun (pizza turque)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "farine pour pain",
+        "raw": "250 g de farine pour pain"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "levure de boulanger sèche",
+        "raw": "1 cuillères à café de levure de boulanger sèche"
+      },
+      {
+        "quantity": "150",
+        "unit": "ml",
+        "name": "eau tiède (mais pas chaude !)",
+        "raw": "150 ml d'eau tiède (mais pas chaude !)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "1 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sucre",
+        "raw": "sucre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "350",
+        "unit": "g",
+        "name": "viande hachée",
+        "raw": "350 g de viande hachée"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "concentré de tomates petite",
+        "raw": "1 boîtes de concentré de tomates petite"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons rouges haché",
+        "raw": "1 oignons rouges haché"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poivrons rouges",
+        "raw": "1 poivrons rouges"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poivrons verts",
+        "raw": "1 poivrons verts"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poivrons jaunes",
+        "raw": "1 poivrons jaunes"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "cumin en poudre",
+        "raw": "1 pincées de cumin en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "paprika",
+        "raw": "1 pincées de paprika"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil haché",
+        "raw": "persil haché"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Commencer par délayer la levure avec un peu d'eau tiède et une pincée de sucre.",
+      "2. Dans un saladier, verser la farine à pain, le sucre et une pincée de sel, ajouter ensuite l'huile d'olive et la levure. Ajouter le reste de l'eau tiède et pétrir jusqu'à obtenir une pâte homogène. Elle doit être encore un peu collante, c'est normal.",
+      "3. Faire une boule, la placer dans un saladier recouvrir d'un linge humide et la laisser reposer pour qu'elle double de volume.",
+      "4. Hacher les poivrons finement, l'oignon au robot. Dans un saladier, mettre la viande et les ingrédients hachés, le concentré de tomates, le persil, les épices, une pincée de sel et de poivre et bien mélanger.",
+      "5. Dégazer la pâte avec vos poings et former des petites boules.",
+      "6. Étaler les boules finement.",
+      "7. Faire chauffer une poêle large et déposer une pâte, la garnir avec la farce.",
+      "8. Laisser cuire 5 minutes à feu doux et à couvert pour bien cuire la farce sur le dessus.",
+      "9. Recommencer la même opération avec le reste de pâte et de farce."
+    ],
+    "tags_raw": "lahmacun (pizza turque), plat principal, farine, levure de boulanger sèche, eau, huile d'olive, sucre, sel, facile, bon marché, rapide | plat principal",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:turque",
+      "titre:lahmacun"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cig-kofte-kofte-crues-20247-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cig-kofte-kofte-crues_20247.aspx",
+    "name": "Cig köfte (kofte crues)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 60,
+    "cook_minutes": 0,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "viande hachée 15% de matière grasse",
+        "raw": "200 g de viande hachée 15% de matière grasse"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "boulgour (blé concassé), fin si possible",
+        "raw": "250 g de boulgour (blé concassé), fin si possible"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "tomates (de la taille d'un oeuf ou une grosse tomate)",
+        "raw": "2 tomates (de la taille d'un oeuf ou une grosse tomate)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cumin",
+        "raw": "cumin"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivron (épicerie turque ou tomate concentrée)",
+        "raw": "poivron (épicerie turque ou tomate concentrée)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil en branche",
+        "raw": "persil en branche"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      }
+    ],
+    "steps": [
+      "1. Dans un saladier mettre le boulgour, les tomates épluchées et en petits morceaux, une cuillère à soupe de la sauce de poivron, une demi-cuillère à café de cumin et l'oignon haché fin. Malaxer le tout, goûtez, ajoutez du sel s'il en faut. Continuez à malaxer jusqu'à ce que le boulgour ne croque pas trop sous la dent.",
+      "2. Ajoutez la viande et les feuilles de persil, malaxez à nouveau. Si le boulgour croque toujours sous la dent, faites une boule avec le tout et attendez un quart d'heure (la prochaine fois achetez un boulgour à grain plus fin). Une fois que ça ne croque plus, prenez des petites boulettes de la taille d'une noix, pressez-la dans votre main. Voilà le köfte, disposez les dans une assiette et pressez un peu de citron dessus.",
+      "3. Vous ne vous trompez pas, il n'y a rien à cuire! Bon appétit."
+    ],
+    "tags_raw": "Cig köfte (kofte crues), , viande hachée, boulgour, tomate, oignon, sel, cumin, poivron, persil, citron, facile, bon marché, rapide",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 14,
+    "country_match_reasons": [
+      "ingredient:turque",
+      "titre:kofte",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-delice-du-sultan-hunkar-begendi-ou-saute-d-agneau-aux-aubergines-turc-69571-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_delice-du-sultan-hunkar-begendi-ou-saute-d-agneau-aux-aubergines-turc_69571.aspx",
+    "name": "Délice du Sultan (Hünkar Begendi) ou Sauté d'agneau aux aubergines turc",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 60,
+    "total_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "aubergine longues bien mûres",
+        "raw": "1 kg d'aubergine longues bien mûres"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "agneau coupée en petits morceaux",
+        "raw": "500 g d'agneau coupée en petits morceaux"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "25 cl de lait"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "farine",
+        "raw": "50 g de farine"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre arabe (à défaut d'huile d'olive)",
+        "raw": "100 g de beurre arabe (à défaut d'huile d'olive)"
+      },
+      {
+        "quantity": "70",
+        "unit": "g",
+        "name": "fromage turc à râper (à défaut du gruyère)",
+        "raw": "70 g de fromage turc à râper (à défaut du gruyère)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "tomates",
+        "raw": "2 tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "ail au goût",
+        "raw": "ail au goût"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "aromate turcs (origan, cannelle, muscade, fenugrec, laurier, anis). Les audacieux pourront aussi assaisonner de Sumac et rajouter une cuillère de miel.",
+        "raw": "aromate turcs (origan, cannelle, muscade, fenugrec, laurier, anis). Les audacieux pourront aussi assaisonner de Sumac et rajouter une cuillère de miel."
+      }
+    ],
+    "steps": [
+      "1. Faites revenir dans la matière grasse l'oignon haché et la viande coupée en dés de 1 à 2 cm (suivant tendresse). Ajoutez les aromates. Ajoutez les morceaux de tomates épépinées.",
+      "2. Couvrez bien et faites mijoter 1h à feu doux.",
+      "3. Si tout se passe bien, pas besoin d'ajouter du liquide. Sinon mouillez d'une tasse de bon bouillon.",
+      "4. Confectionnez une purée d'aubergines avec la pulpe des aubergines cuites au four (30 à 40 min à 180°C - thermostat 6) ou au feu de bois. Ne mettez pas la peau. Ajoutez 50 g de matière grasse, puis peu à peu, le lait.",
+      "5. Faites prendre le tout (5 à 6 min) dans une poêle en tournant à la spatule pour éviter que la purée n'attache. Ajoutez le fromage râpé. Tournez encore environ 1 min.",
+      "6. Versez la purée sur un plat. Creusez un puits où vous déposerez votre préparation de viande. Servez de suite."
+    ],
+    "tags_raw": "Délice du Sultan (Hünkar Begendi) ou Sauté d'agneau aux aubergines turc, , aubergine, agneau, lait, farine, beurre, fromage, tomate, oignon, ail, sel, poivre, aromate, très facile, moyen",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:turc",
+      "ingredient:aubergine"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-doner-kebab-12628-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_doner-kebab_12628.aspx",
+    "name": "Döner  kebab",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "gigot d'agneau épaisses",
+        "raw": "4 tranches de gigot d'agneau épaisses"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons doux",
+        "raw": "2 oignons doux"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poivrons rouges",
+        "raw": "1 poivrons rouges"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "tomates",
+        "raw": "1 tomates"
+      },
+      {
+        "quantity": "8",
+        "unit": "feuilles",
+        "name": "laitue",
+        "raw": "8 feuilles de laitue"
+      },
+      {
+        "quantity": "2",
+        "unit": "feuilles",
+        "name": "menthe",
+        "raw": "2 feuilles de menthe"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "pains ronds",
+        "raw": "4 pains ronds"
+      },
+      {
+        "quantity": "2",
+        "unit": "dl",
+        "name": "crème fraîche",
+        "raw": "2 dl de crème fraîche"
+      },
+      {
+        "quantity": "1",
+        "unit": "bottes",
+        "name": "ciboulette",
+        "raw": "1 bottes de ciboulette"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "3 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Détailler les oignons en lamelles et les poivrons en lanières. Faire revenir dans l'huile d'olive quelques minutes.",
+      "2. Ciseler les feuilles de laitue en lanières et coupre les tomates en dés.",
+      "3. Couper le gigot d'agneau en fines lamelles et les faire cuire à feu vif pendant environ 5 minutes.",
+      "4. Réchauffer les petits pains au four puis les couper en 2 sur un tiers de leur longueur.",
+      "5. Répartir dans chaque pain : salade, tomates, mélange oignons/poivrons et viande.",
+      "6. Terminer avec un mélange de crème, ciboulette, menthe, sel et poivre.",
+      "7. Servir immédiatement."
+    ],
+    "tags_raw": "Döner  kebab, kebab, gigot d'agneau, oignon, poivron rouge, tomate, laitue, menthe, pain, crème fraîche, ciboulette, huile d'olive, poivre, sel, très facile, bon marché, rapide | kebab",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:kebab",
+      "ingredient:menthe"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kebab-capucin-a-l-effiloche-d-agneau-533953-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kebab-capucin-a-l-effiloche-d-agneau_533953.aspx",
+    "name": "Kebab capucin à l'effiloché d'agneau",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 30,
+    "cook_minutes": 450,
+    "total_minutes": 480,
+    "ingredients": [
+      {
+        "quantity": "330",
+        "unit": "g",
+        "name": "farine de sarrasin",
+        "raw": "330 g de farine de sarrasin"
+      },
+      {
+        "quantity": "75",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "75 cl d'eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "75 g de beurre"
+      },
+      {
+        "quantity": "2.5",
+        "unit": "kg",
+        "name": "gigot d'agneau",
+        "raw": "2.5 kg de gigot d'agneau"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "couenne de porc",
+        "raw": "250 g de couenne de porc"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "oignon",
+        "raw": "300 g d'oignon"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "carotte",
+        "raw": "200 g de carotte"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "tomate",
+        "raw": "500 g de tomate"
+      },
+      {
+        "quantity": "3",
+        "unit": "l",
+        "name": "fond de veau",
+        "raw": "3 l de fond de veau"
+      },
+      {
+        "quantity": "100",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "100 cl d'huile d'olive"
+      },
+      {
+        "quantity": "500",
+        "unit": "cl",
+        "name": "vin blanc",
+        "raw": "500 cl de vin blanc"
+      },
+      {
+        "quantity": "100",
+        "unit": "cl",
+        "name": "cognac",
+        "raw": "100 cl de cognac"
+      },
+      {
+        "quantity": "2",
+        "unit": "bouquets",
+        "name": "menthe",
+        "raw": "2 bouquets de menthe"
+      },
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "sucrines",
+        "raw": "10 sucrines"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "jus de cuisson de l'agneau",
+        "raw": "jus de cuisson de l'agneau"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "carotte",
+        "raw": "500 g de carotte"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "miel",
+        "raw": "100 g de miel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cumin",
+        "raw": "cumin"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "oignon",
+        "raw": "500 g d'oignon"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "agar-agar",
+        "raw": "agar-agar"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "yaourt à la grecque",
+        "raw": "500 g de yaourt à la grecque"
+      },
+      {
+        "quantity": "250",
+        "unit": "cl",
+        "name": "huile de pépin de raisin",
+        "raw": "250 cl d'huile de pépin de raisin"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment d'Espelette",
+        "raw": "piment d'Espelette"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel et poivre",
+        "raw": "sel et poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre blanc",
+        "raw": "poivre blanc"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "gros sel",
+        "raw": "gros sel"
+      }
+    ],
+    "steps": [
+      "1. Dans un saladier, former un puits avec la \nfarine de sarrasin, mettre le sel, l'oeuf et mélanger doucement au fouet en \nincorporant l'eau au fur et à mesure.",
+      "2. Laisser la pâte reposer 30 minutes.",
+      "3. Faire cuire à la poêle avec un peu de beurre fondu.",
+      "4. Une fois les galettes cuitent, les rouler \nfaçon capucin et les faire sécher au four. . Réserver.",
+      "5. Rissoler à l'huile d'olive le gigot, le déposer \ndans une cocotte sur un lit de couenne. - Ajouter les oignons, carottes en mirepoix et \nles tomates épépinées concassées",
+      "6. Mouiller au vin blanc et cognac et laisser \ncuire jusqu'à évaporation de l'alcool, ajouter le fond de veau à hauteur, ajouter le bouquet garni et poursuivre la cuisson au four à couvert pendant environ 7h à \n130°C.",
+      "7. En fin de cuisson, décanter le gigot, passer \nla sauce au chinois en foulant fortement.",
+      "8. Faire réduire la sauce si nécessaire et \ninfuser les bottes de menthe, laisser infuser quelques minutes.",
+      "9. Détacher les chairs du gigot et caraméliser \navec un peu de sauce sous la salamandre. Réserver.",
+      "10. Blanchir les sucrines entières. . Les refroidir et les presser.",
+      "11. Les disposer dans un plat et couvrir avec le \nreste de cuisson de l'agneau. Réserver après cuisson.",
+      "12. Tailler les carottes en sifflet et les glacer à blanc en remplaçant le sucre par le miel",
+      "13. Emincer les oignons et les mettre à \ncompoter avec le beurre jusqu'à coloration et cuisson, mixer et ajouter de l'eau si nécessaire, coller à l'agar agar (4g au litre), mouler et laisser prendre au froid, détailler en cube. Réserver",
+      "14. Emulsionner le yaourt et l'huile de pépin de raisin, ajouter le piment d'Espelette.",
+      "15. Dresser l'assiette."
+    ],
+    "tags_raw": "Kebab capucin à l'effiloché d'agneau, viande, farine de sarrasin, eau, oeuf, beurre, facile, moyen | viande",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:kebab",
+      "ingredient:menthe"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kofte-aux-lentilles-corail-174754-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kofte-aux-lentilles-corail_174754.aspx",
+    "name": "Köfte aux lentilles corail",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "lentilles corail",
+        "raw": "300 g de lentilles corail"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "boulgour fin",
+        "raw": "150 g de boulgour fin"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "gousses d'ail",
+        "raw": "1/2 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "concentré de tomates",
+        "raw": "1 cuillères à café de concentré de tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "poivron rouge",
+        "raw": "1 cuillères à café de poivron rouge"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "ciboulette hachée",
+        "raw": "ciboulette hachée"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil haché",
+        "raw": "persil haché"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "menthe hachée",
+        "raw": "menthe hachée"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Rincer les lentilles à l'eau froide, puis les cuire 20 min à l'eau bouillante salée. Égoutter. On peut alors les réduire en purée.",
+      "2. Cuire le boulgour 5 min, puis ajouter aux lentilles.",
+      "3. Faire revenir l'ail haché et les oignons à l'huile d'olive. Ajouter hors du feu les concentrés de tomate et poivron. Ajouter aux lentilles.",
+      "4. Bien mélanger, former des boulettes ovales bien tassées dans son poing fermé. Laisser refroidir.",
+      "5. On peut les servir comme une entrée, ou en accompagnement d'un plat de viande."
+    ],
+    "tags_raw": "Köfte aux lentilles corail, lentilles, lentilles corail, boulgour, oignon, ail, concentré de tomates, poivron rouge, ciboulette, persil, menthe, huile d'olive, sel, facile, moyen | lentilles",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:kofte",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-melemen-turc-60291-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_melemen-turc_60291.aspx",
+    "name": "Melemen turc",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 3,
+    "total_minutes": 13,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "tomates",
+        "raw": "2 tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "noix",
+        "name": "beurre",
+        "raw": "1 noix de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères",
+        "name": "huile",
+        "raw": "1 cuillères d'huile"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "paprika ou piment selon les goûts",
+        "raw": "paprika ou piment selon les goûts"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "fromage turc type feta (accompagnement)",
+        "raw": "fromage turc type feta (accompagnement)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pain",
+        "raw": "pain"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "saucisson turc \"sucuk\" (dire soudjouk) si l'on veut que ça soit complet",
+        "raw": "saucisson turc \"sucuk\" (dire soudjouk) si l'on veut que ça soit complet"
+      }
+    ],
+    "steps": [
+      "1. Peler les tomates (pour plus de facilité les plonger dans l'eau bouillante durant 1 min).",
+      "2. Dans une poêle, faire chauffer l'huile et y faire fondre le beurre. (Attention, si vous y mettez le sucuk, pas besoin de beurre, il suffit de placer quelques rondelles du saucisson à ce moment là).",
+      "3. Couper grossièrement les tomates et les laisser fondre dans la poêle.",
+      "4. Casser les oeufs par dessus et chauffer tout en remuant, il faut que ça reste un peu \"baveux\" mais pas trop.",
+      "5. Déguster avec du pain garni de fromage feta.",
+      "6. Bon appétit !!!"
+    ],
+    "tags_raw": "Melemen turc , , oeuf, tomate, beurre, huile, poivre, sel, paprika, fromage, pain, saucisson, très facile, bon marché, rapide",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:turc",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-sauce-blanche-pour-kebab-81366-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_sauce-blanche-pour-kebab_81366.aspx",
+    "name": "Sauce blanche pour kebab",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "total_minutes": 5,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "yaourts à la grecque",
+        "raw": "2 yaourts à la grecque"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à café",
+        "name": "mayonnaise",
+        "raw": "2 cuillères à café de mayonnaise"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "citrons pressé",
+        "raw": "1/2 citrons pressé"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "piment doux",
+        "raw": "1 pincées de piment doux"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "cumin",
+        "raw": "1 pincées de cumin"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à café d'ail en poudre",
+        "raw": "1 cuillères à café d'ail en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à café d'échalote finement émincée",
+        "raw": "1 cuillères à café d'échalote finement émincée"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "herbes de Provence",
+        "raw": "1 cuillères à café de herbes de Provence"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil et de menthe",
+        "raw": "persil et de menthe"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "lait",
+        "raw": "lait"
+      }
+    ],
+    "steps": [
+      "1. Mélanger tous les ingrédients, puis diluer un peu avec le lait de manière à obtenir la consistance désirée.",
+      "2. Goûter pour rectifier l'assaisonnement, c'est tout!",
+      "3. Voilà la recette authentique!"
+    ],
+    "tags_raw": "Sauce blanche pour kebab, Autres sauces, yaourt à la grecque, mayonnaise, citron, piment, cumin, ail, échalote, herbes de Provence, persil, poivre, sel, lait, très facile, bon marché, rapide | Autres sauces",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:kebab",
+      "ingredient:menthe"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-sauce-pitta-pour-kebab-37574-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_sauce-pitta-pour-kebab_37574.aspx",
+    "name": "Sauce pitta pour kebab",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "total_minutes": 5,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "crème fraîche épaisse",
+        "raw": "3 cuillères à soupe de crème fraîche épaisse"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail pressée (ou hachée)",
+        "raw": "1 gousses d'ail pressée (ou hachée)"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "ciboulette hachée",
+        "raw": "1 cuillères à café de ciboulette hachée"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "menthe hachée",
+        "raw": "1 cuillères à café de menthe hachée"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "persil haché",
+        "raw": "1/2 cuillères à café de persil haché"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "jus de citron",
+        "raw": "1/2 cuillères à café de jus de citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Dans un bol, mélanger tous les ingrédients à la crème fraîche.",
+      "2. Pour que la sauce ait plus de goût, laissez-la reposer 30 min au réfrigérateur, surtout si vous utilisez des herbes sèches."
+    ],
+    "tags_raw": "Sauce pitta pour kebab, Autres sauces, crème fraîche épaisse, ail, ciboulette, menthe, persil, jus de citron, sel, poivre, très facile, bon marché, rapide | Autres sauces",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:kebab",
+      "ingredient:menthe"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-viande-epicee-et-sechee-pastirma-pastourma-turquie-armenie-221877-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_viande-epicee-et-sechee-pastirma-pastourma-turquie-armenie_221877.aspx",
+    "name": "Viande épicée et séchée - Pastirma / Pastourma (Turquie/Arménie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "5 personnes",
+    "servings": 5,
+    "prep_minutes": 120,
+    "cook_minutes": 0,
+    "total_minutes": 120,
+    "ingredients": [
+      {
+        "quantity": "1.2",
+        "unit": "kg",
+        "name": "boeuf (morceau de gite exempt de déchets)",
+        "raw": "1.2 kg de boeuf (morceau de gite exempt de déchets)"
+      },
+      {
+        "quantity": "2",
+        "unit": "kg",
+        "name": "gros sel de mer (humide)",
+        "raw": "2 kg de gros sel de mer (humide)"
+      },
+      {
+        "quantity": "12",
+        "unit": "gousses",
+        "name": "ail écrasées",
+        "raw": "12 gousses d'ail écrasées"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "harissa",
+        "raw": "300 g de harissa"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "piment d’Espelette finement broyés",
+        "raw": "20 g de piment d’Espelette finement broyés"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "Ras el Hanout (épices à couscous)",
+        "raw": "3 cuillères à soupe de Ras el Hanout (épices à couscous)"
+      }
+    ],
+    "steps": [
+      "1. Faire découper par votre boucher un morceau de muscle de bœuf (gite) paré (exempt de déchets)  régulier d’environ 10 cm de diamètre et d’environ 1.5 kg.",
+      "2. Prendre une grande terrine ou un plat profond déposer 5 cm de  gros sel au fond  puis placer dessus la pièce de viande, la recouvrir enfin de gros sel sur toute la surface sur environ 5 cm d’épaisseur. Couvrir, mettre au frais, et laisser l’ensemble en l’état pendant une durée de 24 h par livre de viande.",
+      "3. A la fin du temps imparti sortir la viande du sel et la rincer soigneusement à l’eau douce, la sécher et la placer dans un linge propre au réfrigérateur pendant 12 heures.",
+      "4. Enrobage ;",
+      "5. Sortir la viande et passer à travers l’une des extrémités une ficelle de cuisine double à l’aide d’une aiguille à brider et faire une boucle (celle-ci servira à suspendre l’ensemble).",
+      "6. Mélanger soigneusement les différents ingrédients dans un cul de poule afin d’obtenir une pâte onctueuse rouge foncée.",
+      "7. Étaler cette pâte à l’aide d’une spatule sur l’ensemble de la surface de la pièce de manière uniforme et sur environ 6 à 8 mm d’épaisseur.",
+      "8. Séchage :",
+      "9. Suspendre l’ensemble ainsi obtenu dans un endroit frais et aéré en le protégeant avec un sac à jambon (singalette à base de coton apprêtée aux amidons de maïs). S’assurer que la pièce ne touche pas le tissu du sac au cours du processus de séchage/maturation.",
+      "10. Laisser reposer et sécher pendant environ 6 semaines.",
+      "11. Trancher finement et consommer après avoir enlevé la pellicule d’enrobage."
+    ],
+    "tags_raw": "Viande épicée et séchée - Pastirma / Pastourma (Turquie/Arménie), , boeuf, gros sel, moyenne, moyen, rapide",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:turquie",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-coban-salatas-194959-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_coban-salatas_194959.aspx",
+    "name": "Çoban salatası (salade turque)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "tomates bien mûres",
+        "raw": "2 tomates bien mûres"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "concombres",
+        "raw": "2 concombres"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons frais (ou ciboules)",
+        "raw": "2 oignons frais (ou ciboules)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "piments verts doux ou 1/2 poivron vert",
+        "raw": "1 piments verts doux ou 1/2 poivron vert"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "poivrons rouges (facultatif)",
+        "raw": "1/2 poivrons rouges (facultatif)"
+      },
+      {
+        "quantity": "1",
+        "unit": "jus",
+        "name": "citron",
+        "raw": "1 jus de citron"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil plat",
+        "raw": "persil plat"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "menthe fraîche",
+        "raw": "menthe fraîche"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "Saint Morêt",
+        "raw": "125 g de Saint Morêt"
+      }
+    ],
+    "steps": [
+      "1. Dans un grand saladier, découper les tomates en petits dés, quitte à les écraser légèrement pour qu'elles rendent correctement leur jus.",
+      "2. Couper les concombres en petits cubes (les couper en 4 dans le sens de la longueur, puis les détailler en dés).",
+      "3. Émincer les oignons ou ciboules en fines tranches.",
+      "4. Ajouter le piment vert doux découpé en fines rondelles ou les poivrons verts et rouge coupés en petits dés.",
+      "5. Mélanger le tout.",
+      "6. Découper le fromage en petits cubes, les disposer sur la salade.",
+      "7. Hacher le persil plat et la menthe, les mettre dans un bol avec le jus de citron, l'huile d'olive et du sel à votre convenance. Mélanger le tout et verser sur la salade.",
+      "8. Servir frais."
+    ],
+    "tags_raw": "Çoban salatası (salade turque), , tomate, concombre, oignon, piment vert, poivron rouge, jus de citron, huile d'olive, persil, menthe, Saint Morêt, très facile, bon marché, rapide",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:turque",
+      "ingredient:menthe"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-agneau-a-l-abricot-recette-turque-50367-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_agneau-a-l-abricot-recette-turque_50367.aspx",
+    "name": "Agneau à l'abricot (recette turque)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 120,
+    "cook_minutes": 60,
+    "total_minutes": 180,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "agneau",
+        "raw": "1 kg d'agneau"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "riz",
+        "raw": "300 g de riz"
+      },
+      {
+        "quantity": "24",
+        "unit": "",
+        "name": "abricots secs",
+        "raw": "24 abricots secs"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sucre en poudre",
+        "raw": "1 cuillères à soupe de sucre en poudre"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "matière grasse (saindoux, beurre ou huile)",
+        "raw": "50 g de matière grasse (saindoux, beurre ou huile)"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "75",
+        "unit": "cl",
+        "name": "bouillon",
+        "raw": "75 cl de bouillon"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faites tremper les abricots pendant 1 heure dans l'eau froide puis égouttez-les.",
+      "2. Coupez la viande en cube de 4 cm environ puis faites-les dorer en cocotte dans la matière grasse.",
+      "3. Saupoudrez de sucre et laissez caraméliser.",
+      "4. Lorsque la viande est bien rissolée, ôtez la graisse et mouillez de 15 cl d'eau tiède.",
+      "5. Grattez le fond de la cocotte pour décoller les sucs de cuisson de la viande.",
+      "6. Ajoutez les abricots égouttés, du sel et du poivre puis couvrez et laissez cuire à petit feu pendant 40 minutes en remuant de temps en temps.",
+      "7. Faites fondre le beurre dans une poêle, versez le riz et remuez jusqu'à ce qu'il soit bien enrobé de gras puis ajoutez-le au contenu de la cocotte avec le bouillon chaud.",
+      "8. Couvrez et laissez cuire à feu très doux jusqu'à ce que le riz est absorbé tout le liquide."
+    ],
+    "tags_raw": "Agneau à l'abricot (recette turque), , agneau, riz, abricot, sucre en poudre, matière grasse, beurre, bouillon, poivre, sel, moyenne, moyen",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turque"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-baklava-253677-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_baklava_253677.aspx",
+    "name": "Baklava",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "12 personnes",
+    "servings": 12,
+    "prep_minutes": 30,
+    "cook_minutes": 40,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "fruits secs dé-coquillés au choix, noix, pistaches, amandes...",
+        "raw": "300 g de fruits secs dé-coquillés au choix, noix, pistaches, amandes..."
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "muscade fraîchement râpée",
+        "raw": "1 cuillères à café de muscade fraîchement râpée"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cannelle fraîchement râpée",
+        "raw": "1 cuillères à café de cannelle fraîchement râpée"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "cardamome en poudre",
+        "raw": "1 pincées de cardamome en poudre"
+      },
+      {
+        "quantity": "450",
+        "unit": "g",
+        "name": "pâte filo",
+        "raw": "450 g de pâte filo"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "beurre fondu",
+        "raw": "150 g de beurre fondu"
+      },
+      {
+        "quantity": "1",
+        "unit": "clous",
+        "name": "girofle (facultatif)",
+        "raw": "1 clous de girofle (facultatif)"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "250 g de sucre en poudre"
+      },
+      {
+        "quantity": "120",
+        "unit": "g",
+        "name": "miel liquide",
+        "raw": "120 g de miel liquide"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bâtons de cannelle",
+        "raw": "1 bâtons de cannelle"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oranges non traitée pour le zeste",
+        "raw": "1 oranges non traitée pour le zeste"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à café d'eau de fleur d'oranger",
+        "raw": "2 cuillères à café d'eau de fleur d'oranger"
+      }
+    ],
+    "steps": [
+      "1. Pensez à vous équiper d'un plat à four d'environ 20 x 24 cm.",
+      "2. Concassez les fruits secs ou hachez-les rapidement au mixeur, par impulsions brèves. Mélangez-les avec les épices. Beurrez le plat à four. Préchauffez le four à 180°C (thermostat 6).",
+      "3. Placez les feuille de filo sous un linge pour les empêcher de se dessécher.",
+      "4. Disposez une couche de feuilles de filo dans le plat beurré et badigeonnez-les de beurre fondu avec un pinceau.",
+      "5. Montez ainsi 6 couches successives. Couvrez avec la moitié du mélange fruits secs et épices, puis montez 6 autres dernière couche de feuilles filo.",
+      "6. Coupez toutes les épaisseurs en losanges avec un couteau bien aiguisé.",
+      "7. Piquez un clou de girofle au centre de chaque losange (facultatif). Enfournez pour 40 min environ.",
+      "8. Pendant ce temps, mélangez dans une casserole tous les ingrédients du sirop avec 25 cl d'eau.",
+      "9. Laissez frémir à feu moyen 15 min, pour faire réduire d'un tiers environ, puis laissez refroidir.",
+      "10. A la sortir du four, arrosez le baklava de la moité de ce sirop ; attendez 5 min, puis arrosez avec le reste de sirop. Laissez reposer au moins 2 h avant de servir."
+    ],
+    "tags_raw": "Baklava, , fruits secs, muscade, cannelle, cardamome, pâte filo, beurre, clou de girofle, facile, assez cher",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:baklava"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-baklava-petit-nid-d-oiseau-d-hilda-33027-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_baklava-petit-nid-d-oiseau-d-hilda_33027.aspx",
+    "name": "Baklava (petit nid d'oiseau) d'Hilda",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 45,
+    "cook_minutes": 20,
+    "total_minutes": 65,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "400 g de sucre"
+      },
+      {
+        "quantity": "19",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "19 cl d'eau"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'eau de fleur d'oranger",
+        "raw": "2 cuillères à soupe d'eau de fleur d'oranger"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "jus de citron",
+        "raw": "1 cuillères à café de jus de citron"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "pâte filo",
+        "raw": "1 paquets de pâte filo"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "beurre fondu et clarifié",
+        "raw": "300 g de beurre fondu et clarifié"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "pistaches moulues (environ), suivant le nombre de nids",
+        "raw": "300 g de pistaches moulues (environ), suivant le nombre de nids"
+      }
+    ],
+    "steps": [
+      "1. Commencer d'abord à préparer le sirop : dans une casserole, faire fondre le sucre dans l'eau, puis laisser bouillir un peu jusqu'à ce que le sirop commence juste à légèrement épaissir, puis ajouter 1 cuillère à café de jus de citron et 2 cuillères à soupe d'eau de fleur d'oranger. Redonner un bouillon et éteindre le feu. Laisser refroidir.",
+      "2. Faire fondre le beurre, le clarifier (le transvaser délicatement dans un bol en éliminant l'écume et le dépot blanc).",
+      "3. Si vous avez de très grandes feuilles de filo, les couper en deux dans la largeur pour avoir à la fin un format A4 environ (format classique des feuilles de papier blanc).",
+      "4. Poser un feuille de filo sur le plan de travail. A l'aide d'un pinceau, la badigeonner de beurre clarifié, puis la rouler à l'aide d'une baguette, (la baguette des ceintres(où on range le pantalon d'un costume par exemple, ou alors une grosse aiguille à tricoter).",
+      "5. Poser la baguette sur le coin inférieur gauche de la pâte filo et rouler la feuille de filo sur la baguette. Nous obtenons ainsi un boudin de pâte enroulé autour de la baguette.",
+      "6. C'et là que l'on découvre l'intérêt de la baguette : empoigner avec les deux mains les deux extrémités de la pâte et foncer celle-ci (comme un acordéon) vers le milieu, puis retirer la baguette. Nous obtenons ainsi un boudin de pâte tout plissé.",
+      "7. Rouler ce boudin en escargot et le placer dans un plat à four recouvert de papier sulfurisé beurré. Recommencer l'opération avec les autre feuilles de filo.",
+      "8. Badigeonner les baklavas avec du beurre fondu et les faire cuire au four préchauffé 200°C durant environ 20 à 25 mn jusqu'à ce que les petits nids soient bien rosés.",
+      "9. Important : Arroser les baklavas dès la sortie du four (donc brûlants) avec le sirop de sucre refroidi. On 'entend' les baklavas 'boire' le sirop. Ceci permet d'avoir des baklavas croustillants.",
+      "10. Décorer chaque petit nid de pistaches moulues, à raison d'1 cuillère à café par petit nid (environ). Tasser un peu les pistaches délicatement sur la surface et au centre des petits nids et voilà!",
+      "11. Présenter dans un joli plat et vous aurez des propositions en mariage en pagaille!!!"
+    ],
+    "tags_raw": "Baklava (petit nid d'oiseau) d'Hilda, , sucre, eau, eau de fleur d'oranger, jus de citron, pâte filo, beurre, pistaches, moyenne, moyen",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:baklava"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-baklava-aux-noix-66588-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_baklava-aux-noix_66588.aspx",
+    "name": "Baklava aux noix",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "12 personnes",
+    "servings": 12,
+    "prep_minutes": 45,
+    "cook_minutes": 60,
+    "total_minutes": 105,
+    "ingredients": [
+      {
+        "quantity": "350",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "350 g de sucre"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "miel",
+        "raw": "3 cuillères à soupe de miel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "jus de citron",
+        "raw": "1 cuillères à soupe de jus de citron"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "fleur d'oranger",
+        "raw": "1 cuillères à soupe de fleur d'oranger"
+      },
+      {
+        "quantity": "40",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "40 cl d'eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "filo",
+        "raw": "1 paquets de filo"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "150 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "450",
+        "unit": "g",
+        "name": "Noix concassée",
+        "raw": "450 g de Noix concassée"
+      }
+    ],
+    "steps": [
+      "1. Préparer le sirop :",
+      "2. Dans une casserole à fond épais, verser tous les ingrédients.",
+      "3. Porter tout doucement à ébullition, puis faire réduire jusqu'au stade du filet (un fil se forme lorsqu'on fait couler un peu de sirop avec une petite cuillère).",
+      "4. Laisser tiédir puis mettre au froid.",
+      "5. Préchauffer le four à 140°C (thermostat 4-5).",
+      "6. Préparer le Baklava :",
+      "7. Faire fondre le beurre dans un bol.",
+      "8. Dans un autre bol, mélanger les noix et la cannelle.",
+      "9. Beurrer la lèchefrite du four ou un plat rectangulaire de la taille des feuilles de filo.",
+      "10. Poser à plat 1 feuille de filo dans la lèchefrite, la beurrer sur toute sa surface avec un pinceau.",
+      "11. Superposer 4 feuilles en les beurrant au fur et à mesure.",
+      "12. Etaler la moitié des noix dessus.",
+      "13. Resuperposer 2 ou 4 feuilles de filo en les beurrant comme précedemment.",
+      "14. Etaler le reste de noix.",
+      "15. Recommencer en superposant les 4 dernières feuilles de filo, sans oublier de les beurrer.",
+      "16. Avec un couteau, faire des incisions en losanges ou carrés en quadrillant la pâte.",
+      "17. Plonger la main dans un peu d'eau et asperger la pâte pour l'humecter.",
+      "18. Mettre au four et laissez cuire 1 heure.",
+      "19. Lorsque le Baklava est cuit et doré, le sortir du four et l'arroser avec le sirop froid pendant qu'il est encore chaud."
+    ],
+    "tags_raw": "Baklava aux noix, , sucre, miel, jus de citron, fleur d'oranger, eau, facile, moyen",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:baklava"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-baklava-aux-noix-et-aux-amandes-24357-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_baklava-aux-noix-et-aux-amandes_24357.aspx",
+    "name": "Baklava aux noix et aux amandes",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "12 personnes",
+    "servings": 12,
+    "prep_minutes": 60,
+    "cook_minutes": 20,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "pâte filo",
+        "raw": "500 g de pâte filo"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "cerneau de noix",
+        "raw": "200 g de cerneau de noix"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "amandes",
+        "raw": "200 g d'amandes"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "cannelle",
+        "raw": "1 cuillères à soupe de cannelle"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "sucre glace",
+        "raw": "3 cuillères à soupe de sucre glace"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "250 g de beurre"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "50 cl d'eau"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "400 g de sucre en poudre"
+      },
+      {
+        "quantity": "12",
+        "unit": "cl",
+        "name": "miel liquide",
+        "raw": "12 cl de miel liquide"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "citrons non traité",
+        "raw": "1/2 citrons non traité"
+      },
+      {
+        "quantity": "1",
+        "unit": "clous",
+        "name": "girofle",
+        "raw": "1 clous de girofle"
+      }
+    ],
+    "steps": [
+      "1. Préparez le sirop : mettez le sucre, le miel, le jus et le zeste du citron, le clou de girofle et l'eau dans une casserole. Portez à ébullition et maintenez-la pendant 10 minutes.",
+      "2. Laissez refroidir.",
+      "3. Faites fondre le beurre à feu doux, clarifiez-le : retirez l'écume blanche qui remonte à la surface et jetez-la.",
+      "4. Hachez les noix et les amandes avec le sucre et la cannelle, réduisez en poudre pas trop fine.",
+      "5. Etalez 1 feuille de filo sur la table, beurrez-la au pinceau, posez une 2e puis une 3e feuille en beurrant à chaque fois.",
+      "6. Parsemez de poudre de noix-amandes-cannelle. Roulez le tout en partant du bas, de manière à former un long boudin. Coupez en rondelles de 1 à 2 cm d'épaisseur. Posez-les à plat sur un plat garni de papier sulfurisé.",
+      "7. Répétez l'opération jusqu'à épuisement des ingrédients.",
+      "8. Faire cuire les baklavas ainsi formés au four à 150°C (thermostat 5) pendant environ 20 minutes.",
+      "9. Ils doivent être bien dorés et croustillants. Dès la sortie du four, les planger dans le sirop et laissez égoutter sur une grille.",
+      "10. On peut aussi les arroser directement de sirop sur la plaque que l'on inclinera ensuite pour vider le trop-plein de sirop.",
+      "11. Laissez refroidir et dégustez-les froid, avec un thé à la menthe ou un café aromatisé à la cannelle."
+    ],
+    "tags_raw": "Baklava aux noix et aux amandes, , pâte filo, cerneau de noix, amandes, cannelle, sucre glace, beurre, eau, sucre en poudre, miel liquide, citron, clou de girofle, facile, moyen",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:baklava"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-baklava-aux-pistaches-au-airfryer-538233-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_baklava-aux-pistaches-au-airfryer_538233.aspx",
+    "name": "Baklava aux pistaches au Airfryer",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "16 personnes",
+    "servings": 16,
+    "prep_minutes": 21,
+    "cook_minutes": 35,
+    "total_minutes": 56,
+    "ingredients": [
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "noix",
+        "raw": "100 g de noix"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "noisettes",
+        "raw": "50 g de noisettes"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "pistaches",
+        "raw": "30 g de pistaches"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "pâte filo",
+        "raw": "250 g de pâte filo"
+      },
+      {
+        "quantity": "120",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "120 g de beurre"
+      },
+      {
+        "quantity": "110",
+        "unit": "g",
+        "name": "sucre de canne",
+        "raw": "110 g de sucre de canne"
+      },
+      {
+        "quantity": "200",
+        "unit": "ml",
+        "name": "eau",
+        "raw": "200 ml d'eau"
+      },
+      {
+        "quantity": "70",
+        "unit": "g",
+        "name": "miel",
+        "raw": "70 g de miel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "jus de citron",
+        "raw": "1 cuillères à soupe de jus de citron"
+      }
+    ],
+    "steps": [
+      "1. Hachez les noix, les noisettes et les pistaches avec un robot de cuisine, un hachoir ou un blender.",
+      "2. Beurrez l'accessoire de cuisson type four du Airfryer.",
+      "3. Placez 4 feuilles de pâte filo dans l'accessoire de cuisson beurré. Enduisez chaque feuille de beurre généreusement au pinceau.",
+      "4. Parsemez les fruits à coque hachés sur la base de pâte filo.",
+      "5. Placez 4 feuilles de pâte filo par-dessus le fourrage aux fruits à coque. Enduisez généreusement chaque feuille de beurre au pinceau.",
+      "6. Placez l'accessoire de cuisson dans le panier du Airfryer et faites cuire pour 35 minutes à 160°C, jusqu'à ce que la surface soit croustillante et dorée.",
+      "7. Pendant que le baklava cuit, mettez du sucre de canne, de l'eau, du miel et du jus de citron dans une petite casserole à feu moyen et faites frémir. Réduisez le feu et faites mijoter pendant 15 minutes.",
+      "8. Une fois le baklava cuit, versez immédiatement le sirop au sucre par-dessus. Laissez refroidir complètement avant de servir."
+    ],
+    "tags_raw": "Baklava aux pistaches au Airfryer, , noix, noisettes, pistaches, pâte filo, beurre, sucre de canne, eau, miel, jus de citron, très facile, bon marché",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:baklava"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-baklava-aux-pistaches-faciles-537450-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_baklava-aux-pistaches-faciles_537450.aspx",
+    "name": "Baklava aux pistaches faciles",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "pâte filo",
+        "raw": "250 g de pâte filo"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "pistaches",
+        "raw": "150 g de pistaches"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "50 g de sucre"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "200 g de sucre"
+      },
+      {
+        "quantity": "150",
+        "unit": "ml",
+        "name": "eau",
+        "raw": "150 ml d'eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "jus de citron",
+        "raw": "1 cuillères à soupe de jus de citron"
+      }
+    ],
+    "steps": [
+      "1. Préchauffez votre four à 180°C (thermostat 6).",
+      "2. Dans un bol, mélangez les pistaches hachées et le sucre.",
+      "3. Étalez une feuille de pâte filo sur le plan de travail et badigeonnez-la de beurre fondu. Répétez l'opération avec 3 à 4 feuilles de pâte filo, en les badigeonnant de beurre à chaque fois.",
+      "4. Répartissez une couche de mélange de pistaches sur la pâte.",
+      "5. Continuez avec 3 à 4 feuilles de pâte filo, en les badigeonnant de beurre à chaque fois, puis ajoutez à nouveau le mélange de pistaches. Répétez cette opération jusqu'à ce que tous les ingrédients soient utilisés, en terminant par 3 à 4 feuilles de pâte filo.",
+      "6. À l'aide d'un couteau bien aiguisé, découpez des baklavas en losanges ou en carrés avant de les enfourner pour 35 minutes, jusqu'à ce qu'ils soient dorés et croustillants.",
+      "7. Pendant ce temps, préparez le sirop. Dans une casserole, combinez le sucre, l'eau et le jus de citron. Portez à ébullition, puis réduisez le feu et laissez mijoter pendant 10 minutes.",
+      "8. Sortez les baklavas du four et versez le sirop encore chaud sur le dessus. Laissez refroidir avant de déguster."
+    ],
+    "tags_raw": "Baklava aux pistaches faciles, , pâte filo, pistaches, beurre, sucre, facile, bon marché",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:baklava"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-baklava-express-aux-amandes-et-miel-538414-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_baklava-express-aux-amandes-et-miel_538414.aspx",
+    "name": "Baklava express aux amandes et miel",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "noix",
+        "raw": "125 g de noix"
+      },
+      {
+        "quantity": "65",
+        "unit": "g",
+        "name": "pistaches",
+        "raw": "65 g de pistaches"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "amandes",
+        "raw": "75 g d'amandes"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "75 g de beurre"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "miel",
+        "raw": "100 g de miel"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "50 g de sucre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'eau de fleur d'oranger",
+        "raw": "2 cuillères à soupe d'eau de fleur d'oranger"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1/2 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "pâte filo",
+        "raw": "5 pâte filo"
+      }
+    ],
+    "steps": [
+      "1. Hachez grossièrement les fruits secs dans votre robot mixeur, sans les transformer en poudre. Incorporez le sucre en poudre, l'eau de fleur d’oranger et le beurre fondu.",
+      "2. Découpez 5 feuilles de pâte filo en fonction de la taille de votre plat. Couvrez les autres feuilles avec un torchon humide pour les garder souples. Badigeonnez chaque feuille de beurre fondu à l’aide d’un pinceau, puis superposez-les au fond du moule. Étalez la moitié du mélange de fruits secs sur les feuilles beurrées. Déposez ensuite 5 autres feuilles beurrées par-dessus, puis répartissez le reste de la farce. Beurrez et découpez les 5 feuilles restantes, puis empilez-les sur la deuxième couche de farce. Saupoudrez de cannelle. Avec un couteau bien affûté, réalisez des découpes en carrés ou en losanges, à la profondeur souhaitée. Faites cuire au four pendant environ 20 minutes, jusqu’à ce que la pâte soit bien dorée.",
+      "3. Chauffez doucement le miel et les 2 cuillères à soupe d’eau de fleur d’oranger dans une petite casserole. Versez le mélange chaud sur le baklava en filet. Laissez refroidir et reposer toute une journée avant de servir. Coupez le baklava en portions et présentez-le dans de petites caissettes en papier pour plus de facilité lors du service."
+    ],
+    "tags_raw": "Baklava express aux amandes et miel, , noix, pistaches, amandes, beurre, miel, sucre, eau de fleur d'oranger, cannelle, pâte filo, facile, bon marché",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:baklava"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boulettes-d-agneau-kebab-166779-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boulettes-d-agneau-kebab_166779.aspx",
+    "name": "Boulettes d'agneau kebab",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "agneau",
+        "raw": "300 g d'agneau"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "crème liquide",
+        "raw": "2 cuillères à soupe de crème liquide"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "bouquets de coriandre fraîche",
+        "raw": "1/2 bouquets de coriandre fraîche"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "2 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "tomates concassées (500g)",
+        "raw": "1 boîtes de tomates concassées (500g)"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "concentré de tomates",
+        "raw": "1 cuillères à soupe de concentré de tomates"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cumin en poudre",
+        "raw": "2 cumin en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "piments",
+        "name": "Cayenne en poudre",
+        "raw": "1 piments de Cayenne en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "gingembre en poudre",
+        "raw": "1 gingembre en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "coriandre en poudre",
+        "raw": "1 coriandre en poudre"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "3 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel fin",
+        "raw": "sel fin"
+      }
+    ],
+    "steps": [
+      "1. Mettre dans le bol du mixeur l'agneau en gros dés et salé, 1 cs de farine, 1 cc de cumin, 1/2 cc de piment de Cayenne, la coriandre  fraîche et le concentré de tomate. Hacher pendant 15s. Ajouter l'oeuf battu et mixer encore pendant 15s.",
+      "2. Dans une assiette creuse, mélanger 1 cs de farine avec le reste des épices : 1 cc de cumin, 1/2 cc de piment de Cayenne, le gingembre et la coriandre en poudre.",
+      "3. Façonner des boulettes d'agneau de la taille d'une noix et les rouler dans le mélange farine-épices (conserver le reste de farine épicée). Réserver les boulettes au frais pendant 1h.",
+      "4. Eplucher et hacher l'oignon. Le faire revenir dans 1 cs d'huile d'olive pendant 2mn. Verser sur l'oignon le reste de farine épicée, mélanger, puis verser les tomates concassées avec leur jus. Saler et laisser cuire pendant 10 mn sur feux doux et à découvert.",
+      "5. Faire dorer les boulettes à la poêle dans 2 cs d'huile d'olive pendant 5 mn. Les ajouter à la sauce tomate sur feu moyen et faire cuire pendant 8 mn.",
+      "6. Au moment de servir, ajouter la crème liquide dans la casserole."
+    ],
+    "tags_raw": "Boulettes d'agneau kebab, boulettes de viande, agneau, oeuf, crème liquide, oignon, coriandre, farine, tomates concassées, concentré de tomates, cumin en poudre, piment de Cayenne, gingembre, coriandre, huile d'olive, sel, facile, moyen | boulettes de viande",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:kebab"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boulgour-turc-facon-pilaf-538352-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boulgour-turc-facon-pilaf_538352.aspx",
+    "name": "Boulgour turc façon pilaf",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 0,
+    "cook_minutes": 28,
+    "total_minutes": 43,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "tasses",
+        "name": "boulgour",
+        "raw": "1 tasses de boulgour"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "oignon",
+        "raw": "1 pièces d'oignon"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "pièces de poivron vert",
+        "raw": "1/2 pièces de poivron vert"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "2",
+        "unit": "pièces",
+        "name": "tomate",
+        "raw": "2 pièces de tomate"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "thym",
+        "raw": "1/2 cuillères à café de thym"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "1 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "300",
+        "unit": "ml",
+        "name": "eau",
+        "raw": "300 ml d'eau"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Pelez l’oignon et émincez-le finement. Plongez les tomates dans l’eau bouillante pour les monder. Taillez-les en dés. Ôtez le cœur du poivron avec les graines si nécessaire. Découpez-le en dés.",
+      "2. Faites chauffer l’huile d’olive dans une sauteuse et ajoutez-y l’oignon et l’ail. Faites suer légèrement puis ajoutez le poivron et les tomates. Mélangez bien, sur feu moyen à vif, durant 2 à 3 minutes. Ajoutez le boulgour. Mélangez. Faites rissoler pour développer les saveurs.",
+      "3. Mouillez avec l’eau et salez généreusement. Ajoutez le thym. Portez à ébullition et baissez le feu au minimum. Laissez mijoter à couvert pendant 20 à 25 minutes. Le riz doit absorber l’intégralité du liquide. Laissez reposer, feu éteint, durant 10 à 15 minutes.",
+      "4. Servez chaud en accompagnement."
+    ],
+    "tags_raw": "Boulgour turc façon pilaf, , boulgour, oignon, poivron vert, ail, tomate, thym, huile d'olive, eau, sel, poivre, facile, bon marché",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turc"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cafe-turc-48768-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cafe-turc_48768.aspx",
+    "name": "Café turc",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 personne",
+    "servings": 1,
+    "prep_minutes": 0,
+    "cook_minutes": 5,
+    "total_minutes": 5,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites tasses d'eau froide",
+        "raw": "1 petites tasses d'eau froide"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sucre 1,5 très sucré, 1 normalement sucré, 1/2 peu sucré",
+        "raw": "sucre 1,5 très sucré, 1 normalement sucré, 1/2 peu sucré"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères",
+        "name": "café de café finement moulu (spécial café turc)",
+        "raw": "1 cuillères de café de café finement moulu (spécial café turc)"
+      }
+    ],
+    "steps": [
+      "1. Dans une petite casserole, verser l'eau, puis ajouter le sucre et la poudre de café.",
+      "2. Mettre sur flamme moyenne, et ne pas remuer! Une mousse va petit à petit apparaître sur le dessus.",
+      "3. Le café est prêt dés qu'il commence à entrer en ébulition.",
+      "4. Eteindre tout de suite, sans le laisser bouillir, et verser dans les tasses en répartissant la mousse dans chacunes.",
+      "5. Attendre que le marc de café se dépose au fond de la tasse, pour commencer à le boire."
+    ],
+    "tags_raw": "Café turc, café, eau, sucre, café, très facile, bon marché, rapide | café",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turc"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cafe-turc-traditionnel-aux-epices-538256-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cafe-turc-traditionnel-aux-epices_538256.aspx",
+    "name": "Café turc traditionnel aux épices",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 2,
+    "cook_minutes": 6,
+    "total_minutes": 8,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "cuillères à café",
+        "name": "café en poudre très finement moulu",
+        "raw": "4 cuillères à café de café en poudre très finement moulu"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "sucre en poudre",
+        "raw": "2 cuillères à soupe de sucre en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cardamome en poudre",
+        "raw": "1 cuillères à café de cardamome en poudre"
+      },
+      {
+        "quantity": "1/4",
+        "unit": "cuillères à café",
+        "name": "gingembre moulu",
+        "raw": "1/4 cuillères à café de gingembre moulu"
+      },
+      {
+        "quantity": "200",
+        "unit": "ml",
+        "name": "eau",
+        "raw": "200 ml d'eau"
+      }
+    ],
+    "steps": [
+      "1. Versez tous les ingrédients dans une casserole. Portez à ébullition en mélangeant doucement. Le café doit mousser légèrement. Retirez ensuite du feu et laissez tiédir. Portez une seconde fois à ébullition pour une mousse plus intense.",
+      "2. Veillez à ne pas faire déborder ni brûler le café. Laissez tiédir légèrement.",
+      "3. Servez dans de petites tasses avec la mousse et dégustez immédiatement."
+    ],
+    "tags_raw": "Café turc traditionnel aux épices, boissons, café en poudre, sucre en poudre, cardamome, gingembre, eau, facile, bon marché, rapide | boissons",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turc"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cheesecake-facon-baklava-pistaches-et-miel-535455-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cheesecake-facon-baklava-pistaches-et-miel_535455.aspx",
+    "name": "Cheesecake façon Baklava (pistaches et miel)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "10",
+        "unit": "feuilles",
+        "name": "pâte filo",
+        "raw": "10 feuilles de pâte filo"
+      },
+      {
+        "quantity": "140",
+        "unit": "g",
+        "name": "beurre fondu",
+        "raw": "140 g de beurre fondu"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "pistaches",
+        "raw": "150 g de pistaches"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "sucre glace",
+        "raw": "30 g de sucre glace"
+      },
+      {
+        "quantity": "450",
+        "unit": "g",
+        "name": "cream cheese",
+        "raw": "450 g de cream cheese"
+      },
+      {
+        "quantity": "195",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "195 g de sucre en poudre"
+      },
+      {
+        "quantity": "15",
+        "unit": "g",
+        "name": "farine",
+        "raw": "15 g de farine"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "crème liquide",
+        "raw": "75 g de crème liquide"
+      },
+      {
+        "quantity": "120",
+        "unit": "g",
+        "name": "eau",
+        "raw": "120 g d'eau"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "jus de citron (de 1/2 citron)",
+        "raw": "jus de citron (de 1/2 citron)"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "miel",
+        "raw": "60 g de miel"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "rose arôme",
+        "raw": "2 cuillères à soupe de rose arôme"
+      }
+    ],
+    "steps": [
+      "1. Beurrer au pinceau chaque feuille de filo.",
+      "2. Les disposer une par une dans un moule circulaire.",
+      "3. Découper toute la pâte qui dépasse du moule.",
+      "4. Ajouter le surplus coupé au fond du moule. Cela permettra d'apporter encore plus de croustillant au cheesecake.",
+      "5. Dans un bol, verser les pistaches préalablement concassées, 80g de beurre fondu et 30g de sucre glace.",
+      "6. Mélanger le tout à la main en malaxant bien.",
+      "7. Tapisser le fond de votre moule avec votre préparation en allant bien jusqu'aux bords.",
+      "8. Pour la préparation du cream cheese, verser dans un saladier le cream cheese, 120g de sucre en poudre, les oeufs, la farine et la crème liquide.",
+      "9. Mélanger au fouet.",
+      "10. Verser la préparation de cream cheese dans le moule.",
+      "11. Enfourner à 180°c pour 45 minutes.",
+      "12. Pendant ce temps, préparer le sirop. Dans une casserole, verser l'eau, 75g de sucre, le jus d'un demi citron et le miel. Mélanger et faire cuire pendant 10min à feu doux, jusqu'à obtenir une texture sirupeuse.",
+      "13. Hors du feu, ajouter l'arôme de rose si vous en avez.",
+      "14. Badigeonner le sirop sur le cheesecake généreusement.",
+      "15. Parsemer le tout de pistaches concassées.",
+      "16. Laisser le cheesecake refroidir au moins 1h ou 2h avant de déguster."
+    ],
+    "tags_raw": "Cheesecake façon Baklava (pistaches et miel), cheesecake, pâte filo, beurre, pistaches, sucre glace, cream cheese, sucre en poudre, farine, oeuf, crème liquide, eau, jus de citron, miel, rose, moyenne, moyen | cheesecake",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:baklava"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chiche-kebab-a-l-armenienne-55953-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chiche-kebab-a-l-armenienne_55953.aspx",
+    "name": "Chiche Kebab à L'armenienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 120,
+    "cook_minutes": 20,
+    "total_minutes": 140,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "gigot",
+        "name": "agneau Desossé",
+        "raw": "1 gigot d'agneau Desossé"
+      },
+      {
+        "quantity": "1",
+        "unit": "bottes",
+        "name": "persil",
+        "raw": "1 bottes de persil"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "oignon blanc",
+        "raw": "1 kg d'oignon blanc"
+      },
+      {
+        "quantity": "1",
+        "unit": "jus",
+        "name": "citron",
+        "raw": "1 jus de citron"
+      },
+      {
+        "quantity": "1",
+        "unit": "verres",
+        "name": "huile d'olive",
+        "raw": "1 verres d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "poivre",
+        "raw": "1 cuillères à soupe de poivre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sel",
+        "raw": "1 cuillères à soupe de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "cumin",
+        "raw": "1 cuillères à soupe de cumin"
+      }
+    ],
+    "steps": [
+      "1. La veille, dégraissez le gigot et coupez-le en dés de 3 cm de côté.",
+      "2. Mettez les dés à mariner avec le persil ciselé, les oignons coupés en fines rondelles, le jus de citron, l'huile d'olive, le poivre, le sel et le cumin.",
+      "3. Laisser reposer au réfrigérateur.",
+      "4. Le lendemain, mettre 5 ou 6 morceaux de viande par brochette (chiche).",
+      "5. Allumez le barbecue avec du charbon  de bois ; lorsque la braise n'est plus très vive, faire cuire les brochettes.",
+      "6. Accompagnez ces brochettes avec les oignons et le persil macérés et un riz pilaf (voir remarques ci-dessous)."
+    ],
+    "tags_raw": "Chiche Kebab à L'armenienne, kebab, gigot d'agneau, persil, oignon blanc, jus de citron, huile d'olive, poivre, sel, cumin, facile, moyen | kebab",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:kebab"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-dulum-rahat-et-halkum-loukoum-turquie-12622-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_dulum-rahat-et-halkum-loukoum-turquie_12622.aspx",
+    "name": "Dulum (rahat et halkum - Loukoum) (Turquie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "sucre",
+        "raw": "1 kg de sucre"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "citrons suivant les goûts",
+        "raw": "4 citrons suivant les goûts"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "amidon raffiné",
+        "raw": "125 g d'amidon raffiné"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "amandes",
+        "raw": "250 g d'amandes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pistaches et noisettes",
+        "raw": "pistaches et noisettes"
+      }
+    ],
+    "steps": [
+      "1. Faire un sirop épais avec le sucre et 1dl d'eau. Y ajouter le jus des citrons puis l'amidon délayé dans un peu d'eau et mettre au feu. Cuire sans cesser de remuer. Ajouter amandes, pistaches et noisettes épluchées.",
+      "2. A épaisseur, verser dans un plat poudré d'amidon, carré sur quatre centimètres d'épaisseur.",
+      "3. Laisser refroidir."
+    ],
+    "tags_raw": "Dulum (rahat et halkum - Loukoum) (Turquie), , sucre, citron, amidon, amandes, pistaches, très facile, bon marché",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turquie"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-epinards-a-la-turque-de-zeynep-32583-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_epinards-a-la-turque-de-zeynep_32583.aspx",
+    "name": "Epinards à la turque de Zeynep",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "épinards frais",
+        "raw": "500 g d'épinards frais"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à café rases de sucre",
+        "raw": "1 cuillères à café rases de sucre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Eplucher et couper l'oignon en gros morceaux. Les mettre dans une casserole à feu doux avec un peu d'huile d'olive et la cuillère de sucre (ça adoucit le goût des oignons, dit Zeynep). Couvrir et remuer de temps en temps.",
+      "2. Pendant ce temps, laver les épinards et les égoutter à la main (en faisant des petits mouvements secs, là, comme ca, c'est bien). Les hacher grossièrement au couteau.",
+      "3. Quand les oignons sont cuits (ils deviennent translucides et mous), ajouter les épinards et laisser cuire (sans couvercle cette fois) en remuant de temps en temps. Il faut qu'il ne reste presque pas d'eau, les épinards en contiennent encore bien assez.",
+      "4. Si vous voulez, vous pouvez ajouter du yaourt dans vos épinards, juste après avoir servi.",
+      "5. A manger avec du pain arabe ou du pain pitta."
+    ],
+    "tags_raw": "Epinards à la turque de Zeynep, , épinards frais, oignon, huile d'olive, sucre, poivre, sel, très facile, bon marché, rapide",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turque"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gozleme-d-agneau-au-airfryer-538232-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gozleme-d-agneau-au-airfryer_538232.aspx",
+    "name": "Gozleme d'agneau, pain plat farci à la turque au Airfryer",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 30,
+    "cook_minutes": 22,
+    "total_minutes": 52,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "farine",
+        "raw": "200 g de farine"
+      },
+      {
+        "quantity": "100",
+        "unit": "ml",
+        "name": "eau",
+        "raw": "100 ml d'eau"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "oignon",
+        "raw": "50 g d'oignon"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "poivron vert",
+        "raw": "50 g de poivron vert"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "bonnes cuillères à soupe d'huile d'olive",
+        "raw": "1/2 bonnes cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "agneau hâché",
+        "raw": "200 g d'agneau hâché"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "bonnes cuillères à café de sumac",
+        "raw": "1/2 bonnes cuillères à café de sumac"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Mettez la farine et le sel dans un saladier et pétrissez tout en versant l’eau lentement. Continuez à pétrir jusqu’à ce qu’une pâte homogène se forme. Donnez à la pâte une forme de boule, couvrez avec un torchon humide puis laissez reposer 10-15 minutes. Pour cette étape, vous pouvez utiliser un robot pâtissier ou un batteur à main avec crochet de pétrissage.",
+      "2. Entre-temps, préparez la farce. Pelez et coupez l'oignon en dés fins. Lavez le poivron vert, retirez la tige et les pépins puis coupez en petits morceaux.",
+      "3. Faites chauffer l’huile d'olive dans une poêle, ajoutez les oignons en dés et faites revenir jusqu'à ce qu'ils soient mous et translucides. Ajoutez le poivron vert coupé et l'agneau haché et poursuivez la cuisson, en brisant les morceaux, jusqu'à ce que l'agneau ait bruni.",
+      "4. Enfin, incorporez le sumac en poudre, le sel et le poivre, retirez du feu et laissez refroidir pendant 10-15 minutes.",
+      "5. Divisez la pâte en deux parts égales et étalez chacune d'elles de façon à obtenir une feuille très fine d'environ 20 x 40 cm. Répartissez la moitié de la farce à l'agneau refroidie sur une moitié de la pâte, en laissant environ 1 cm vide sur les bords, puis repliez la moitié vide de la pâte pour recouvrir la farce et appuyez sur les bords pour sceller.",
+      "6. Répétez le processus avec la boule restante. À la fin, enduisez chaque gozleme d’une cuillère à soupe d’huile d'olive sur tous les côtés.",
+      "7. Placez le gozleme dans le panier du Airfryer, et lancez la cuisson pour 4 minutes à 200°C.",
+      "8. Ouvrez le Airfryer et retournez le gozleme avec précaution. Redémarrez l'appareil à la température et pour la durée indiquées. Faites cuire en deux fournées, en répétant tout le processus.",
+      "9. Une fois les gozlemes cuits, laissez-les refroidir légèrement. Coupez chacun d'eux en quatre parts égales puis servez."
+    ],
+    "tags_raw": "Gozleme d'agneau, pain plat farci à la turque au Airfryer, , farine, eau, oignon, poivron vert, huile d'olive, agneau, sumac, sel, poivre, très facile, bon marché",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turque"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gratin-d-aubergines-et-de-courgettes-a-la-turque-36502-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gratin-d-aubergines-et-de-courgettes-a-la-turque_36502.aspx",
+    "name": "Gratin d'aubergines et de courgettes à la turque",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "aubergines",
+        "raw": "1 aubergines"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "courgettes",
+        "raw": "1 courgettes"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "tomates",
+        "raw": "4 tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "12.5",
+        "unit": "cl",
+        "name": "crème fraîche épaisse",
+        "raw": "12.5 cl de crème fraîche épaisse"
+      },
+      {
+        "quantity": "2",
+        "unit": "escalopes",
+        "name": "dinde ou poulet (ou viande hachée)",
+        "raw": "2 escalopes de dinde ou poulet (ou viande hachée)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "fines tranches de pain de seigle",
+        "raw": "2 fines tranches de pain de seigle"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "gruyère râpé",
+        "raw": "80 g de gruyère râpé"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faire revenir l'aubergine coupée en morceaux (pas trop petits) dans un peu d'huile d'olive pendant 10 min à feu moyen (les morceaux doivent être un peu asséchés, mais pas grillés).",
+      "2. Disposer ensuite les morceaux dans le fond d'un plat. Pendant ce temps, faire revenir la courgette coupée en rondelles avec les tomates en morceaux, l'oignon en tranches et l'ail en morceaux pendant 15 min à feu moyen. Salez et poivrez à votre convenance.",
+      "3. Recouvrir les morceaux d'aubergines avec la moitié du mélange courgette/tomates. Recouvrir de morceaux de pain assez grand. Mettre la crème fraiche par-dessus, puis la viande, puis le reste du mélange tomates/courgettes.",
+      "4. Saupoudrer de gruyère râpé, puis enfourner au four préchauffé à 225°C (thermostat 7/8) pendant 30 min environ."
+    ],
+    "tags_raw": "Gratin d'aubergines et de courgettes à la turque, gratin de légumes, aubergine, courgette, tomate, oignon, ail, crème fraîche épaisse, escalope de dinde, pain de seigle, gruyère râpé, poivre, sel, très facile, bon marché | gratin de légumes",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turque"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-karni-yarik-turquie-aubergines-farcies-11399-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_karni-yarik-turquie-aubergines-farcies_11399.aspx",
+    "name": "Karni Yarik (Turquie) (aubergines farcies)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 45,
+    "cook_minutes": 35,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "aubergines",
+        "name": "taille moyenne",
+        "raw": "4 aubergines de taille moyenne"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "viande hachée",
+        "raw": "300 g de viande hachée"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons",
+        "raw": "3 oignons"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "tomates",
+        "raw": "4 tomates"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "20 cl d'huile d'olive"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "piments verts",
+        "raw": "4 piments verts"
+      }
+    ],
+    "steps": [
+      "1. Couper la queue des aubergines. Les éplucher en laissant des bandes de peau de 2 cm de largeur.",
+      "2. Préparer la poêle, chauffer l'huile.",
+      "3. Faire rissoler les aubergines fendues d'un côté. Les retirer. Les ranger sur un plat de service.",
+      "4. Débarrasser la poêle de l'huile restante. Mettre du beurre.",
+      "5. Ajouter la viande, râper les oignons après les avoir salés et poivrés, Faire revenir l'ensemble durant 3 min. Râper les 3 tomates sur l'ensemble, puis faire cuire encore 3 min. Ajouter le persil.",
+      "6. Introduire très soigneusement la farce dans la fente des aubergines,. Mettre sur chacune 1 rondelette de tomate et 1 piment vert.",
+      "7. Faire cuire les unités durant 15 min à ciel ouvert en ajoutant 40 cl d'eau.",
+      "8. Le Karni Yarik se sert chaud."
+    ],
+    "tags_raw": "Karni Yarik (Turquie) (aubergines farcies), légumes farcis, aubergine, viande hachée, oignon, tomate, poivre, sel, persil, huile d'olive, beurre, piment vert, moyenne, moyen | légumes farcis",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turquie"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kebab-d-agneau-83609-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kebab-d-agneau_83609.aspx",
+    "name": "Kebab d'agneau",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 6,
+    "total_minutes": 21,
+    "ingredients": [
+      {
+        "quantity": "750",
+        "unit": "g",
+        "name": "gigot d'agneau désossé",
+        "raw": "750 g de gigot d'agneau désossé"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons râpé",
+        "raw": "1 oignons râpé"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "paprika",
+        "raw": "1 cuillères à café de paprika"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cumin moulu",
+        "raw": "1 cuillères à café de cumin moulu"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "persil plat ciselé",
+        "raw": "2 cuillères à soupe de persil plat ciselé"
+      },
+      {
+        "quantity": "6",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "6 cl d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre .",
+        "raw": "poivre ."
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Ne dégraissez pas la viande. Coupez-la en cubes de 3 cm et mettez-la dans un récipient avec l'oignon, le paprika, le cumin, le persil et l'huile d'olive. Poivrez. Remuez la viande pour l'enrober de sauce, couvrez et laissez mariner 2 heures au réfrigérateur.",
+      "2. Piquez la viande sur des brochettes et faites la cuire environ 6 minutes au barbecue, en les retournant et en les badigeonnant de marinade."
+    ],
+    "tags_raw": "Kebab d'agneau, kebab, gigot d'agneau, oignon, paprika, cumin, persil, huile d'olive, poivre, sel, très facile, bon marché, rapide | kebab",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:kebab"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kebab-maison-aux-carottes-et-poireau-69928-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kebab-maison-aux-carottes-et-poireau_69928.aspx",
+    "name": "Kebab maison aux carottes et poireau",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "pains pita",
+        "raw": "4 pains pita"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "carottes moyennes",
+        "raw": "3 carottes moyennes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poireaux",
+        "raw": "1 poireaux"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "viande (épaule d'agneau ou aiguillettes de poulet)",
+        "raw": "200 g de viande (épaule d'agneau ou aiguillettes de poulet)"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "crème fraîche épaisse",
+        "raw": "4 cuillères à soupe de crème fraîche épaisse"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "1 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "mesclun",
+        "raw": "100 g de mesclun"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à café",
+        "name": "moutarde",
+        "raw": "2 cuillères à café de moutarde"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "feuille de mesclun",
+        "raw": "feuille de mesclun"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à café",
+        "name": "vinaigre (celui que vous préférez !)",
+        "raw": "4 cuillères à café de vinaigre (celui que vous préférez !)"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "pavot bleu",
+        "raw": "1 pincées de pavot bleu"
+      }
+    ],
+    "steps": [
+      "1. Laver les légumes, émincer le poireau et éplucher grossièrement la chair des carottes.",
+      "2. Faire revenir dans une poêle préalablement chauffée avec l'huile d'olive. Laisser cuire jusqu'à ce que le poireau devienne translucide.",
+      "3. En attendant, préparer la viande : coupez en petits morceaux et \"tartinez\" de moutarde.",
+      "4. Réserver les légumes cuits.",
+      "5. Dans la même poêle, saisir la viande puis revenir sur feu doux. Ajouter les légumes, mélanger. C'est le moment de mettre la crème fraîche. Bien mélanger et laisser deux minutes à feu doux.",
+      "6. Pendant ce temps, passer les pains au grille-pain et décorer les assiettes de quelques feuilles de mesclun. Arroser de vinaigre et saupoudrer d'une pincée de pavot bleu.",
+      "7. Fendre les pains à l'aide d'un couteau  et tapisser le fond avec des feuilles de mesclun.",
+      "8. Garnir chaque pain du mélange de viande et de légumes et déposer sur les assiettes décorées.",
+      "9. Servir de suite.",
+      "10. Bon appétit !"
+    ],
+    "tags_raw": "Kebab maison aux carottes et poireau, kebab, pain pita, carotte, poireau, viande, crème fraîche épaisse, huile d'olive, mesclun, moutarde, facile, bon marché | kebab",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:kebab"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kebab-assiette-a-ma-facon-201502-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kebab-assiette-a-ma-facon_201502.aspx",
+    "name": "Kebab sur assiette à ma façon",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "poivrons",
+        "raw": "2 poivrons"
+      },
+      {
+        "quantity": "6",
+        "unit": "filets",
+        "name": "dinde ou poulet",
+        "raw": "6 filets de dinde ou poulet"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "courgettes",
+        "raw": "6 courgettes"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "tomates",
+        "raw": "5 tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "salades",
+        "raw": "1 salades"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "fromage blanc (ou 2 yaourts bulgares)",
+        "raw": "1 fromage blanc (ou 2 yaourts bulgares)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "jus de citron",
+        "raw": "jus de citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "herbes",
+        "raw": "herbes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "épices",
+        "raw": "épices"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile",
+        "raw": "huile"
+      }
+    ],
+    "steps": [
+      "1. Dans une poêle avec huile, faire revenir les oignons émincés.",
+      "2. Émincer les poivrons et les ajouter dans la poêle.",
+      "3. Émincer le poulet (ou la dinde) et ajouter dans la poêle. Râper les courgettes, les ajouter.",
+      "4. Couper les tomates en petits quartiers et les ajouter aussi. Saler, poivrer, mettre des herbes et/ou épices (mexicaines) selon les goûts.",
+      "5. Laisser mijoter à feu moyen en remuant régulièrement.",
+      "6. Laver la salade.",
+      "7. Préparer la sauce blanche : mettre le fromage blanc dans un saladier avec jus de citron, sel, poivre, herbes. Bien mélanger.",
+      "8. Présenter sur assiette individuelle : mettre des feuilles de salade, puis de la sauce blanche, puis le mélange poêlé, puis la sauce blanche. Accompagner de frites."
+    ],
+    "tags_raw": "Kebab sur assiette à ma façon, kebab, oignon, poivron, dinde, courgette, tomate, salade, fromage blanc, jus de citron, poivre, sel, herbes, épices, huile, facile, bon marché | kebab",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:kebab"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-kumpir-turquie-530309-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_kumpir-turquie_530309.aspx",
+    "name": "Kumpir (Turquie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 58,
+    "total_minutes": 78,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "4 pommes de terre"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "fromage frais",
+        "raw": "400 g de fromage frais"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "crème fraîche épaisse",
+        "raw": "2 cuillères à soupe de crème fraîche épaisse"
+      },
+      {
+        "quantity": "1",
+        "unit": "bocaux",
+        "name": "poivron mariné",
+        "raw": "1 bocaux de poivron mariné"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites boîtes de maïs",
+        "raw": "1 petites boîtes de maïs"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "chou rouge",
+        "raw": "1/2 chou rouge"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "tomates cerise",
+        "raw": "tomates cerise"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons rouges",
+        "raw": "1 oignons rouges"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "beurre",
+        "raw": "beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "gros sel",
+        "raw": "gros sel"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four à 180°C",
+      "2. Laver les pommes de terre et placer les dans un plat allant au four. Les badigeonner avec un filet d'huile d'olive et une pincée de gros sel. Enfourner 50min-1 heure",
+      "3. A la sortie du four des pommes de terre, les couper en deux et les écarter. Avec une fourchette, faire de la purée.",
+      "4. Ajouter une noix de beurre sur chaque pomme de terre encore bien chaude",
+      "5. Égoutter les poivrons marinés et les coupés en fines lanières. Égoutter le maïs. Couper les tomates cerise en deux. Émincer le chou rouge et l'oignon.",
+      "6. Garnir l'intérieur des pommes de terre.",
+      "7. Mélanger avec une fourchette le fromage frais et la crème fraîche, saler et poivrer.",
+      "8. Déposer une cuillère à soupe de la préparation sur les pommes de terre."
+    ],
+    "tags_raw": "Kumpir (Turquie), pommes au four, pomme de terre, fromage frais, crème fraîche épaisse, poivron, maïs, chou rouge, tomates cerise, oignon rouge, huile d'olive, beurre, gros sel, facile, moyen | pommes au four",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turquie"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-melemen-turquie-31999-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_melemen-turquie_31999.aspx",
+    "name": "Melemen (Turquie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 40,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons",
+        "raw": "3 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "poivrons verts",
+        "raw": "2 poivrons verts"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "tomates",
+        "raw": "5 tomates"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "5 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "verres",
+        "name": "huile de tournesol",
+        "raw": "1 verres d'huile de tournesol"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel et de poivre",
+        "raw": "1 pincées de sel et de poivre"
+      }
+    ],
+    "steps": [
+      "1. Dans une casserole, couper les oignons en petits dés ainsi que les poivrons en fines lamelles. Mettre un peu de sel et un peu de poivre. Faire cuire à feu moyen / fort.",
+      "2. Couper les 5 tomates en petits morceaux et les ajouter après 15 mn sur la gazinière.",
+      "3. Casser 5 oeufs sur les tomates après 5 minutes et servir légèrement tiède."
+    ],
+    "tags_raw": "Melemen (Turquie), , oignon, poivron vert, tomate, oeuf, huile de tournesol, sel, facile, bon marché",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turquie"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-mezze-au-foie-turquie-46734-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_mezze-au-foie-turquie_46734.aspx",
+    "name": "Mezze au foie (Turquie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "foie d'agneau denervé et coupé en petits cubes de 2 cm",
+        "raw": "500 g de foie d'agneau denervé et coupé en petits cubes de 2 cm"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons moyens",
+        "raw": "2 oignons moyens"
+      },
+      {
+        "quantity": "1",
+        "unit": "verres",
+        "name": "farine",
+        "raw": "1 verres de farine"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "piment fort en poudre",
+        "raw": "1/2 cuillères à café de piment fort en poudre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "bottes de persil",
+        "raw": "1/2 bottes de persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de tournesol",
+        "raw": "huile de tournesol"
+      }
+    ],
+    "steps": [
+      "1. Peler et couper les oignons en 2 puis les trancher assez finement",
+      "2. Dans un saladier ou une assiette creuse, mélanger farine et piment, ajouter les cubes de foie et bien les enrober de farine.",
+      "3. Faire chauffer de l'huile dans une poêle, le fond de la poêle doit être bien recouvert mais il ne s'agit quand même pas de grande friture.",
+      "4. Dés que l'huile est chaude, y déposer les cubes de foie et faire cuire 10 à 15 min en remuant. A mi-cuisson, ajouter les demi-tranches d'oignon.",
+      "5. Dés que la viande est cuite, la déposer dans l'assiette sans l'huile, saupoudrer de persil grossièrement haché.",
+      "6. Servir à température ambiante."
+    ],
+    "tags_raw": "Mezze au foie (Turquie), foie, foie, oignon, farine, piment fort, persil, poivre, sel, huile de tournesol, très facile, bon marché | foie",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turquie"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pain-turc-29650-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pain-turc_29650.aspx",
+    "name": "Pain turc",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 galettes",
+    "servings": 10,
+    "prep_minutes": 120,
+    "cook_minutes": 15,
+    "total_minutes": 135,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "farine",
+        "raw": "1 kg de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1 cuillères à café de sel"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "eau tiède",
+        "raw": "50 cl d'eau tiède"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "levure de boulanger",
+        "raw": "30 g de levure de boulanger"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "1 cuillères à soupe d'huile"
+      }
+    ],
+    "steps": [
+      "1. Mettre la farine et le sel dans un saladier, creuser un puit et y émietter la levure. Délayer la levure avec 10 cl d'eau tiède et un peu de farine, laisser reposer 10 mn sous un torchon.",
+      "2. Pétrir la pâte en incorporant 40 cl d'eau tiède, jusqu'à ce qu'elle devienne souple mais ne colle plus. Faire une boule. Badigeonner avec de l'huile, couvrir d'un torchon et laisser lever 45 mn dans un endroit tiède.",
+      "3. Pétrir brièvement et diviser en 10 parts. Aplatir chaque part au rouleau ou avec les mains sur un plan de travail fariné jusqu'à ce que le pain atteigne 0,5 cm d'épaisseur.",
+      "4. Déposer les galettes sur une plaque à pâtisserie huilée. Les couvrir à nouveau du torchon et laisser lever 30 mn dans un endroit tiède.",
+      "5. Préchauffer le four à 220°C. Faire cuire les galettes 10 mn, puis les retourner et les faire cuire à nouveau 5 mn."
+    ],
+    "tags_raw": "Pain turc, , farine, sel, eau, levure de boulanger, huile, facile, bon marché",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turc"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-potiron-confit-turquie-65059-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_potiron-confit-turquie_65059.aspx",
+    "name": "Potiron confit (Turquie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "potiron pelé et coupé en morceaux/tranches (3x5 cm environ)",
+        "raw": "1 kg de potiron pelé et coupé en morceaux/tranches (3x5 cm environ)"
+      },
+      {
+        "quantity": "1",
+        "unit": "verres",
+        "name": "eau de sucre (environ 140 g)",
+        "raw": "1 verres d'eau de sucre (environ 140 g)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "girofle",
+        "raw": "1 girofle"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "Noix concassée",
+        "raw": "1 poignées de Noix concassée"
+      }
+    ],
+    "steps": [
+      "1. Déposer le potiron dans une grande marmite avec les clous de girofle. Verser le sucre par dessus.",
+      "2. (Si possible laisser en attente une nuit au réfrigérateur)",
+      "3. Cuire à feu doux et à couvert jusqu'à ce que les morceaux de potiron soient tendres.",
+      "4. Même sans remuer, le potiron n'a jamais brulé dans mes casseroles mais surveiller et baisser le feu au maximum si besoin.",
+      "5. Déposer les morceaux cuits dans le plat de service, arroser avec le sirop rendu, répartir les noix hachées sur le dessus.",
+      "6. Servir froid, éventuellement accompagné de crème épaisse."
+    ],
+    "tags_raw": "Potiron confit (Turquie), , potiron, eau, girofle, Noix concassée, très facile, moyen",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turquie"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-quiche-a-la-saucisse-turque-17331-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_quiche-a-la-saucisse-turque_17331.aspx",
+    "name": "Quiche à la saucisse turque",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "saucisses turques (Sucuk)",
+        "raw": "3 saucisses turques (Sucuk)"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "oeufs entiers",
+        "raw": "5 oeufs entiers"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "crème fraîche",
+        "raw": "2 cuillères à soupe de crème fraîche"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petits verres de lait demi-écrémé",
+        "raw": "1 petits verres de lait demi-écrémé"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "fromage râpé",
+        "raw": "100 g de fromage râpé"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "basilic",
+        "raw": "basilic"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cumin",
+        "raw": "cumin"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pâtes feuilletées",
+        "raw": "1 pâtes feuilletées"
+      }
+    ],
+    "steps": [
+      "1. Dans un saladier battre les oeufs entiers, ajouter la crème fraîche et le petit verre de lait.",
+      "2. Découper les saucisses en petits morceaux, les ajouter au mélange avec le fromage râpé. Ajouter du basilic et une petite cuillère à soupe de cumin pour relever le goût.",
+      "3. Saler, poivrer.",
+      "4. Beurrer une tôle à tarte, y placer la pâte feuilletée et faire précuire 10 mn au four recouvert d'un papier d'aluminium.",
+      "5. Verser ensuite le mélange sur la pâte précuite en faisant attention à ce que les morceaux de saucisses soient bien disposés un peu partout et que le mélange ne déborde pas de la tôle.",
+      "6. Mettre au four thermostat 210°C pendant 30 mn (à surveiller)."
+    ],
+    "tags_raw": "Quiche à la saucisse turque, saucisses, saucisse, oeuf, crème fraîche, lait demi-écrémé, fromage râpé, poivre, sel, basilic, cumin, pâte feuilletée, très facile, bon marché | saucisses",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turque"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-roule-feuillete-au-boeuf-turquie-43273-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_roule-feuillete-au-boeuf-turquie_43273.aspx",
+    "name": "Roulé feuilleté au boeuf (Turquie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "total_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "viande hachée",
+        "raw": "500 g de viande hachée"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "20 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poivrons verts",
+        "raw": "1 poivrons verts"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à café d'épices à couscous",
+        "raw": "2 cuillères à café d'épices à couscous"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pâtes feuilletées",
+        "raw": "1 pâtes feuilletées"
+      }
+    ],
+    "steps": [
+      "1. Dans une poêle, faire dorer les oignons émincés dans le beurre.",
+      "2. Ajouter le poivron coupé en petits morceaux et laisser mijoter à feu doux et à couvert pendant 5 min.",
+      "3. Ajouter la viande, saler et poivrer. Cuire pendant 5 minutes.",
+      "4. Laisser refroidir.",
+      "5. Dérouler la pâte dans une plaque, déposer la préparation au milieu et rouler la pâte pour faire une bûche. Eventuellement dorer au jaune d'oeuf.",
+      "6. Faire cuire au four à 225°C (thermostat 7-8) 10 à 15 min.",
+      "7. Couper des parts de 5 cm d'épaisseur et servir avec une salade."
+    ],
+    "tags_raw": "Roulé feuilleté au boeuf (Turquie), feuilleté, viande hachée, oignon, beurre, poivron vert, épices à couscous, poivre, sel, pâte feuilletée, très facile, bon marché | feuilleté",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turquie"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-sarma-feuilles-de-chou-farcies-turquie-29921-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_sarma-feuilles-de-chou-farcies-turquie_29921.aspx",
+    "name": "Sarma (feuilles de chou farcies - Turquie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "chou blanc ou frisé",
+        "raw": "1 chou blanc ou frisé"
+      },
+      {
+        "quantity": "1",
+        "unit": "tasses",
+        "name": "riz (soit 150 g)",
+        "raw": "1 tasses de riz (soit 150 g)"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "viande hachée (boeuf ou mouton)",
+        "raw": "250 g de viande hachée (boeuf ou mouton)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "tomates",
+        "raw": "1 tomates"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cumin",
+        "raw": "cumin"
+      }
+    ],
+    "steps": [
+      "1. Amener un litre d'eau à ébullition. Y plonger les feuilles de chou quelques minutes pour les blanchir puis les réserver. Plonger le riz 5 min dans l'eau bouillante pour l'attendrir.",
+      "2. Faire revenir la viande dans une poêle, saler, poivrer, ajouter éventuellement du cumin (ou les épices que vous appréciez).",
+      "3. Farcir les feuilles de chou avec la viande et le riz, les disposer dans la poêle et poser par-dessus une grande assiette retournée. Poser un objet lourd sur l'assiette pour maintenir les feuilles roulées.",
+      "4. Faire cuire 20 minutes en versant de l'eau petit à petit, jusqu'à ce que les feuilles soient tendres.",
+      "5. Servir chaud avec un tzatziki."
+    ],
+    "tags_raw": "Sarma (feuilles de chou farcies - Turquie), , chou blanc, riz, viande hachée, tomate, poivre, sel, cumin, facile, bon marché",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turquie"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-soupe-turque-aigre-douce-aux-boulettes-eksili-kofte-165095-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_soupe-turque-aigre-douce-aux-boulettes-eksili-kofte_165095.aspx",
+    "name": "Soupe turque aigre douce aux boulettes (eksili köfte)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 45,
+    "cook_minutes": 30,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "boeuf haché",
+        "raw": "500 g de boeuf haché"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "bouquets de persil",
+        "raw": "1/2 bouquets de persil"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "riz blanc cuit à l'eau",
+        "raw": "1 poignées de riz blanc cuit à l'eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "carottes",
+        "raw": "2 carottes"
+      },
+      {
+        "quantity": "2",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "2 pommes de terre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "citron",
+        "raw": "citron"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs + 1 jaune",
+        "raw": "1 oeufs + 1 jaune"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "farine",
+        "raw": "farine"
+      }
+    ],
+    "steps": [
+      "1. Eplucher les pommes de terre et les carottes, les couper en cube. Les mettre à bouillir dans une marmite contenant environ 2 litres d'eau salée.",
+      "2. Pendant la cuisson des légumes, préparer les boulettes :",
+      "3. Hacher finement l'oignon et le persil (au mixer si possible).",
+      "4. Dans un grand saladier, mélanger la viande hâchée, l'oignon, le persil, le riz, le sel et le poivre, jusqu'à obtention d'une pâte assez souple.",
+      "5. Former les boulettes : prendre une petite quantité du mélange dans la paume (dans cette recette, les boulettes doivent être petites, c'est plus facile à manger dans une soupe), la rouler entre ses mains à plat, sans appuyer, en un mouvement rotatif, jusqu'à obtenir une petite boule ferme. Rouler immédiatement la boulette dans la farine et la déposer sur une assiette. Répéter jusqu'à épuisement du mélange.",
+      "6. Vérifier la cuisson des légumes : lorsque les carottes sont tendre, ajouter les boulettes et mélanger délicatement à la cuillère en bois pendant quelques instants, pour éviter que les boulettes ne collent entre elles.",
+      "7. Battre un oeuf + un jaune avec le jus du citron, saler et poivrer.",
+      "8. Lorsque les boulettes sont cuites (8 min environ), ajouter progressivement le mélange oeuf/citron de la manière suivante (pour éviter que l'oeuf ne cuise brutalement en entrant en contact avec la soupe chaude): prélever une louche de bouillon, et l'ajouter lentement au mélange tout en le battant à la fourchette. Recommencer avec une deuxième louche.",
+      "9. Incorporer ensuite le mélange à la soupe en la remuant doucement.",
+      "10. Laisser cuire 5 min environ, puis servir."
+    ],
+    "tags_raw": "Soupe turque aigre douce aux boulettes (eksili köfte), boulettes de viande, boeuf haché, persil, riz blanc, oignon, carotte, pomme de terre, citron, oeuf, poivre, sel, farine, facile, bon marché | boulettes de viande",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turque"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-soupes-de-lentilles-corail-a-la-turque-537874-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_soupes-de-lentilles-corail-a-la-turque_537874.aspx",
+    "name": "Soupes de lentilles corail à la turque",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "lentilles corail",
+        "raw": "200 g de lentilles corail"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "l",
+        "name": "eau",
+        "raw": "1.5 l d'eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "carotte grosse",
+        "raw": "1 pièces de carotte grosse"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "pomme de terre grosse",
+        "raw": "1 pièces de pomme de terre grosse"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "oignon rouge",
+        "raw": "1 pièces d'oignon rouge"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "concentré de tomates",
+        "raw": "1 cuillères à soupe de concentré de tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cumin en poudre",
+        "raw": "1 cuillères à café de cumin en poudre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "curcuma",
+        "raw": "1/2 cuillères à café de curcuma"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "1 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre du moulin",
+        "raw": "poivre du moulin"
+      }
+    ],
+    "steps": [
+      "1. Rincez les lentilles corail. Épluchez la carotte et la pomme de terre. Lavez-les puis séchez-les bien avant de les couper en petits dés. Pelez l’ail ainsi que l’oignon et émincez-les finement.",
+      "2. Dans une cocotte, faites chauffer l’huile d’olive et faites-y revenir l’ail et l’oignon. Laissez suer légèrement avant d’y ajouter les dés de pommes de terre et de carotte. Faites revenir à feu moyen pour colorer très légèrement tout en mélangeant.",
+      "3. Ajoutez le concentré de tomates ainsi que le cumin, le curcuma et les lentilles corail. Assaisonnez légèrement avec le sel et le poivre. Mélangez puis versez l’eau et mélangez à nouveau.",
+      "4. Couvrez et laissez mijoter durant 30 minutes à feu doux en mélangeant de temps en temps afin que la soupe n’accroche pas. Vérifiez la cuisson (tous les légumes doivent être mous).",
+      "5. Mixez le tout avec un mixeur plongeant en gardant un peu de texture (ce ne soit pas être un velouté). Goûtez et rectifiez l’assaisonnement si nécessaire. Servez bien chaud."
+    ],
+    "tags_raw": "Soupes de lentilles corail à la turque, , lentilles corail, eau, carotte, pomme de terre, oignon rouge, ail, concentré de tomates, cumin en poudre, curcuma, huile d'olive, sel, poivre du moulin, très facile, bon marché",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turque"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-taboule-a-la-turque-40118-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_taboule-a-la-turque_40118.aspx",
+    "name": "Taboulé à la Turque",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "semoule (grain moyen)",
+        "raw": "500 g de semoule (grain moyen)"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "6 oeufs"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "huile de tournesol",
+        "raw": "10 cl d'huile de tournesol"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "jus de citron en bouteille",
+        "raw": "10 cl de jus de citron en bouteille"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "grosses cuillères à soupe de concentré de tomates",
+        "raw": "2 grosses cuillères à soupe de concentré de tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil plat",
+        "raw": "persil plat"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre noir",
+        "raw": "poivre noir"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment",
+        "raw": "piment"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "feuille de légumes crus au choix, salade, chicon, tomate, concombre, navets coupés en tranches",
+        "raw": "feuille de légumes crus au choix, salade, chicon, tomate, concombre, navets coupés en tranches"
+      }
+    ],
+    "steps": [
+      "1. Dans une poêle, faire chauffer l'huile de tournesol. Quand elle est chaude, y casser les oeufs et les faire cuire sans les remuer comme si c'étaient des oeufs sur le plat.",
+      "2. Pendant qu'ils cuisent, faire bouillir une tasse d'eau.",
+      "3. Mettre la semoule dans un saladier et verser une petite tasse d'eau bouillante dessus. Recouvrir d'une assiette.",
+      "4. Hâcher l'oignon. Nettoyer et hâcher le persil plat.",
+      "5. 10 minutes après avoir versé l'eau bouillante sur la semoule, (le plat doit être complètement refroidi), ajouter les oeufs et leur huile de cuisson, le sel (++), le poivre noir, les paillettes de piment, le jus de citron en bouteille et l'oignon.",
+      "6. Malaxer à la main assez longtemps pour que tous les ingrédients soient répartis de façon homogène. La semoule ne doit pas coller elle doit être en grains.",
+      "7. Ajouter ensuite 2 bonnes cuillères à soupe de concentré de tomate et malaxer le tout assez bien.",
+      "8. Rectifier l'assaisonement et ajouter ensuite le persil plat et le jus de citron frais suivant le goût.",
+      "9. Ca se mange en se servant des feuilles de légumes comme couvert, on rempli les feuilles de légumes du mélange et on s'en sert pour manger."
+    ],
+    "tags_raw": "Taboulé à la Turque, Taboulé, semoule, oeuf, huile de tournesol, jus de citron, concentré de tomates, citron, oignon, persil, sel, poivre, piment, légumes, très facile, bon marché, rapide | Taboulé",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:turque"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-wrap-kebab-539927-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_wrap-kebab_539927.aspx",
+    "name": "Wrap kebab",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 5,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "320",
+        "unit": "g",
+        "name": "viande kebab",
+        "raw": "320 g de viande kebab"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "tortillas",
+        "raw": "4 tortillas"
+      },
+      {
+        "quantity": "120",
+        "unit": "g",
+        "name": "iceberg",
+        "raw": "120 g d'iceberg"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "fromage frais",
+        "raw": "80 g de fromage frais"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "oignon rouge",
+        "raw": "80 g d'oignon rouge"
+      },
+      {
+        "quantity": "4",
+        "unit": "brins",
+        "name": "ciboulette",
+        "raw": "4 brins de ciboulette"
+      }
+    ],
+    "steps": [
+      "1. Déposez les lamelles de kebab dans une poêle chaude et laissez-les dorer pendant environ 2 minutes en les mélangeant de temps en temps.",
+      "2. Taillez les oignons rouges en fines lamelles.",
+      "3. Garnissez chaque galette légèrement réchauffée avec le fromage à tartiner, les lamelles de kebab, la salade Iceberg, les oignons rouges et un peu de ciboulette ciselée.",
+      "4. Refermez les wraps en les roulant bien serrés, puis tranchez-les en deux avant de servir."
+    ],
+    "tags_raw": "Wrap kebab, , viande, tortilla, iceberg, fromage frais, oignon rouge, ciboulette, très facile, moyen, rapide",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:kebab"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-wrap-kofte-kebab-392488-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_wrap-kofte-kebab_392488.aspx",
+    "name": "Wrap Köfte Kebab",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 0,
+    "cook_minutes": 0,
+    "total_minutes": 0,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "viande hachée",
+        "raw": "400 g de viande hachée"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "tranche de poivron",
+        "raw": "tranche de poivron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "épices",
+        "raw": "épices"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères",
+        "name": "concentré de tomates",
+        "raw": "2 cuillères de concentré de tomates"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "tomates",
+        "raw": "3 tomates"
+      },
+      {
+        "quantity": "3",
+        "unit": "feuilles",
+        "name": "salade",
+        "raw": "3 feuilles de salade"
+      },
+      {
+        "quantity": "1",
+        "unit": "verres",
+        "name": "eau",
+        "raw": "1 verres d'eau"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "aneth",
+        "raw": "aneth"
+      },
+      {
+        "quantity": "1",
+        "unit": "tranches",
+        "name": "concombre",
+        "raw": "1 tranches de concombre"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères",
+        "name": "crème fraîche",
+        "raw": "2 cuillères de crème fraîche"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères",
+        "name": "huile d'olive",
+        "raw": "2 cuillères d'huile d'olive"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "galettes wrap",
+        "raw": "4 galettes wrap"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      }
+    ],
+    "steps": [
+      "1. Mettre dans un récipient 400 à 500 grammes de viande hachée (bovine). Éplucher un oignon et une gousse d’ail et râpés en petit morceaux.",
+      "2. Rassembler le tout dans le récipient. Ajouter une cuillère à soupe d’huile d’olive ainsi qu'une pincée de sel et des épices, herbes provençales, et un peu de poivre moulu.",
+      "3. Ajouter une tranche de poivrons rouge râpée. Puis mélanger le contenu. Donner une forme de boulettes à la farce et faire revenir dans une poêle.",
+      "4. Sauce 1 : Aouter deux cuillères à soupes de concentré de tomate puis une à deux tomates pelées sans la peau.",
+      "5. Éplucher une petite gousse d’ail et râper en petit morceaux et ajouter une pincée de sel.",
+      "6. Rassembler le tout dans une petite casserole mélanger à feux doux et ajouter au fur et à mesure un petit verre d’eau. Ensuite éteindre le feu et verser le contenu dans un bol.",
+      "7. Crudités: Deuxième saveur dans notre wrap kebab.\nLaver les légumes et couper les trois feuilles de salade.",
+      "8. Ajouter une pincée d’aneth ou persil, un oignon éplucher et couper en lamelles aussi.",
+      "9. Ajouter une tomate et quelques tranches de concombre que je coupe en mini cubes. Ajouter ensuite un peu de poivron coupé en cube.",
+      "10. Pour l’assaisonnement,  ajouteR deux cuillères de crème fraîche épaisse avec une petite cuillère d’huile d’olive et du sel. Mélanger le tout.",
+      "11. Dans une petite casserole faire fondre le beurre.",
+      "12. Mettre en premier la sauce et ajouter ensuite les boulettes, un peu de salade et une cuillère de beurre fondu. \nLa technique pour refermer le wrap est simple : Il faut commencer le wrap en une ligne droite au milieu. Puis refermer le bas puis couvrir d’un côté et rouler jusqu’à l’autre côté et mettre un cure-dent pour tenir votre wrap.",
+      "13. J’allume la poêle à feu doux et chauffer les deux côtés. \n Bon appétit !"
+    ],
+    "tags_raw": "Wrap Köfte Kebab, plat principal, viande hachée, oignon, ail, poivron, sel, épices, concentré de tomates, tomate, salade, eau, persil, aneth, concombre, crème fraîche, huile d'olive, galette, beurre, facile, bon marché, rapide | plat principal",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:kebab"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-coban-salata-salade-berger-80387-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_coban-salata-salade-berger_80387.aspx",
+    "name": "çoban salata (salade berger)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 5,
+    "cook_minutes": 0,
+    "total_minutes": 5,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "tomates",
+        "raw": "2 tomates"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "concombres",
+        "raw": "2 concombres"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "demis",
+        "name": "fromage turque (beyaz peynir)",
+        "raw": "1 demis de fromage turque (beyaz peynir)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "1 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "jus de citron",
+        "raw": "1/2 jus de citron"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "menthe sèche",
+        "raw": "1 cuillères à café de menthe sèche"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "paprika",
+        "raw": "1 cuillères à café de paprika"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Coupez les tomates et les concombres en petit dés, l'oignon en demi-rondelles très fines, et mettez le tout dans un saladier.",
+      "2. Dans un bol, mélangez l'huile, le jus de citron, la menthe et le paprika.",
+      "3. Mettez la sauce sur le mélange de tomates.",
+      "4. Coupez le fromage en petit dés et disposez-les sur la salade.",
+      "5. Bon appétit!"
+    ],
+    "tags_raw": "çoban salata (salade berger), , tomate, concombre, oignon, fromage, huile d'olive, jus de citron, menthe, paprika, sel, très facile, bon marché, rapide",
+    "country": "turquie",
+    "country_label": "Turquie",
+    "country_score": 6,
+    "country_match_reasons": [
+      "ingredient:turque",
+      "ingredient:menthe"
+    ]
+  }
+]

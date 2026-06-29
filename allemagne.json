@@ -1,0 +1,3218 @@
+[
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bretzel-allemagne-12342-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bretzel-allemagne_12342.aspx",
+    "name": "Bretzel (Allemagne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "7 personnes",
+    "servings": 7,
+    "prep_minutes": 60,
+    "cook_minutes": 35,
+    "total_minutes": 95,
+    "ingredients": [
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "lait",
+        "raw": "1/2 lait"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "beurre tendre",
+        "raw": "75 g de beurre tendre"
+      },
+      {
+        "quantity": "650",
+        "unit": "g",
+        "name": "farine",
+        "raw": "650 g de farine"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "levure de boulanger (ou sachet de levure de boulanger deshydratée)",
+        "raw": "50 g de levure de boulanger (ou sachet de levure de boulanger deshydratée)"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "sel fin",
+        "raw": "10 g de sel fin"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "75 g de sucre"
+      }
+    ],
+    "steps": [
+      "1. Dans la moitié du lait tiédi, délayer la levure.",
+      "2. Faire une pâte à pain avec la farine et le levain.",
+      "3. Laisser lever jusqu'à ce que la pâte double de volume.",
+      "4. Ajouter l'autre moitié de lait, le beurre,le sucre et le sel fin.",
+      "5. Pétrir et laisser lever 30 mn.",
+      "6. Façonner : étirer la pâte en rouleaux de 1m20 à 1m50 de long. Former les bretzels, les cisailler, badigeonner d'un mélange de jaune d'oeuf, de bière et de lait.",
+      "7. Laisser reposer une 1/2 heurre et parsemer de gros sel sur les deux faces.",
+      "8. Cuire 35 mn environ à four moyen."
+    ],
+    "tags_raw": "Bretzel (Allemagne), bretzel, lait, beurre tendre, farine, levure de boulanger, sel, sucre, moyenne, bon marché | bretzel",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:allemagne",
+      "titre:bretzel"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-strudel-alsacien-12816-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_strudel-alsacien_12816.aspx",
+    "name": "Strudel alsacien",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 60,
+    "cook_minutes": 37,
+    "total_minutes": 97,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "farine",
+        "raw": "200 g de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "1/16",
+        "unit": "",
+        "name": "l d'eau tiède",
+        "raw": "1/16 l d'eau tiède"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "2 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "saumon fumé pré-tranché",
+        "raw": "600 g de saumon fumé pré-tranché"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "choucroute",
+        "raw": "1 kg de choucroute"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "pommes (de type Granny smith)",
+        "raw": "2 pommes (de type Granny smith)"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "60 g de beurre"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "chapelure",
+        "raw": "80 g de chapelure"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "beurre fondu",
+        "raw": "60 g de beurre fondu"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "crème épaisse",
+        "raw": "50 cl de crème épaisse"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "raifort râpé",
+        "raw": "2 cuillères à soupe de raifort râpé"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "choucroute",
+        "raw": "choucroute"
+      }
+    ],
+    "steps": [
+      "1. Faites cuire la choucroute avec des oignons, de l'ail, du thym, du laurier, des baies de genièvre, sel et poivre, et mouillée à moitié hauteur avec du vin blanc ou de la bière.",
+      "2. Complétez pour couvrir avec de l’eau, cuire à feu doux environ 1 heure.",
+      "3. Pendant ce temps, pétrissez sur une planche tous les ingrédients de la pâte : celle-ci doit être lisse et aérée. Laissez-la reposer 30 mn, couverte.",
+      "4. Etendez sur une table un grand torchon et saupoudrez-le de farine.",
+      "5. Etendez-la pâte au rouleau jusqu'à ce qu'elle soit si fine que l'on voie à travers (si, si, c’est possible sur le torchon).",
+      "6. Passez la choucroute et récupérez le jus de cuisson que vous faites réduire jusqu’à un demi verre.",
+      "7. Pelez les pommes et coupez les en petits dés, préchauffez le four.",
+      "8.",
+      "9. Badigeonnez toute la surface de la pâte avec le beurre fondu, parsemez de chapelure, recouvrez de tranches de saumon fumé, puis de la choucroute après avoir enlevé les baies, le thym et le laurier et en fin mettez les pommes, quelques tours de moulin à poivre et un peu de sel pour finir.",
+      "10. En soulevant le torchon , roulez le strudel et faites le glisser sur la plaque du four recouverte d’un papier cuisson et mettez le au four pour 30 à 45 mn , pendant la cuisson badigeonnez-le de beurre fondu afin que la pâte ne durcisse pas.",
+      "11. Mélangez les ingrédients de la sauce sans la faire bouillir, servez le strudel au sortir du four, coupé en tranches de 2 cm et nappé de sauce."
+    ],
+    "tags_raw": "Strudel alsacien, , farine, oeuf, sel, eau, huile, moyenne, moyen",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:strudel",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-strudel-aux-fruits-rouges-326579-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_strudel-aux-fruits-rouges_326579.aspx",
+    "name": "Strudel aux fruits rouges",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 Personnes",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 20,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "450",
+        "unit": "g",
+        "name": "fruits rouges mêlés",
+        "raw": "450 g de fruits rouges mêlés"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "sucre en poudre",
+        "raw": "2 cuillères à soupe de sucre en poudre"
+      },
+      {
+        "quantity": "5",
+        "unit": "feuilles",
+        "name": "filo ,",
+        "raw": "5 feuilles de filo ,"
+      },
+      {
+        "quantity": "40",
+        "unit": "g",
+        "name": "beurre fondu",
+        "raw": "40 g de beurre fondu"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "sucre glace (pour la finition)",
+        "raw": "2 cuillères à soupe de sucre glace (pour la finition)"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "groseilles",
+        "raw": "4 groseilles"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "menthe fraîche",
+        "raw": "menthe fraîche"
+      }
+    ],
+    "steps": [
+      "1. Préchauffez le four à 200°C (thermostat 6-7). Équeutez les fruits rouges : si besoin, coupez les fraises en morceaux. Mélangez les fruits avec le sucre en poudre en fonction de leur acidité.",
+      "2. Humidifiez un linge et étendez-le sur un plan de travail. Déposez dessus 2 ou 3 feuilles de filo, en les faisant se chevaucher sur environ 3 cm le long d'un grand côté et en les encollant au pinceau avec du beurre fondu. Couvrez avec les autres feuilles de filo, et badigeonnez-les de beurre fondu.",
+      "3. Déposez les fruits rouges au centre du rectangle de pâte filo, en préservant une bordure d'environ 4 cm sur tout le pourtour. Refermez la pâte avec soin, toujours en l'encollant avec du beurre fondu : vous devez obtenir un long rectangle scellé et bien rebondi. Déposez-le sur la plaque tapissée de papier sulfurisé, badigeonnez-le du reste de beurre fondu avec le pinceau et saupoudrez-le d'un voile de sucre glace. Enfournez pour 20 min : la pâte doit être bien dorée.",
+      "4. Laissez tiédir le strudel hors du four. Coupez-le en parts et décorez celles-ci avec le grappe de groseilles et la menthe avant de servir."
+    ],
+    "tags_raw": "Strudel aux fruits rouges, strudel, fruits rouges, sucre en poudre, filo, beurre, sucre glace, facile, bon marché | strudel",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:strudel",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-strudel-aux-poires-20872-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_strudel-aux-poires_20872.aspx",
+    "name": "STRUDEL AUX POIRES",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 50,
+    "cook_minutes": 30,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "poire",
+        "raw": "600 g de poire"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "pâte feuilletée",
+        "raw": "200 g de pâte feuilletée"
+      },
+      {
+        "quantity": "70",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "70 g de sucre"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "biscuit italiens (Savoiardi)",
+        "raw": "60 g de biscuit italiens (Savoiardi)"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "raisins secs",
+        "raw": "30 g de raisins secs"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "20 g de sucre en poudre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "zeste de citron",
+        "raw": "zeste de citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cannelle",
+        "raw": "cannelle"
+      }
+    ],
+    "steps": [
+      "1. Epluchez et coupez en quatre les poires ; étendez un rectangle de pâte feuilletée de 30 cm pour 25 cm et couvrez le tout avec les savoiardi émiettés.",
+      "2. Ajoutez les poires en tranches fines, les raisins et un peu de sucre.",
+      "3. Épicez avec la zeste de citron et la cannelle.",
+      "4. Enroulez la pâte feuilletée, refermez les ingrédients et fermez les deux extrémités.",
+      "5. Faîtes deux coupes sur la partie supérieure de la pâte, mettez le Strudel dans un plat à rôti et mettez le plat dans un four chaud à 220°C pendant 30 mn.",
+      "6. A cuisson terminée, enlevez le Strudel et laissez tiédir.",
+      "7. Saupoudrez-le avec le sucre en poudre.",
+      "8. Coupez-le en tranches et servez-le tiède ou froid."
+    ],
+    "tags_raw": "STRUDEL AUX POIRES, strudel, poire, pâte feuilletée, sucre, biscuit, raisins secs, sucre en poudre, citron, cannelle, facile, moyen | strudel",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:strudel",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-strudel-aux-pommes-28860-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_strudel-aux-pommes_28860.aspx",
+    "name": "Strudel aux pommes",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pâte à Strudel (voir la recette )",
+        "raw": "pâte à Strudel (voir la recette )"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "pomme",
+        "raw": "1 kg de pomme"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "raisins secs trempés dans du rhum ou de l'eau de vie de fruits",
+        "raw": "100 g de raisins secs trempés dans du rhum ou de l'eau de vie de fruits"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "100 g de sucre"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "noix grossièrement hachées",
+        "raw": "100 g de noix grossièrement hachées"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "chapelure",
+        "raw": "50 g de chapelure"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "beurre en flocons",
+        "raw": "30 g de beurre en flocons"
+      }
+    ],
+    "steps": [
+      "1. Pendant que la pâte repose, peler, vider et couper les pommes en dés, les déposer dans un saladier. Ajouter tous les autres ingrédients, mélanger délicatement.",
+      "2. Verser ce mélange sur la pâte abaissée, et suivre les instructions de la recette de la pâte à Strudel."
+    ],
+    "tags_raw": "Strudel aux pommes, strudel, pâte, pomme, raisins secs, sucre, noix, chapelure, cannelle, beurre, difficile, bon marché | strudel",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:strudel",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-strudel-aux-pommes-et-au-miel-37994-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_strudel-aux-pommes-et-au-miel_37994.aspx",
+    "name": "Strudel aux pommes et au miel",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pâtes feuilletées",
+        "raw": "1 pâtes feuilletées"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "pommes",
+        "raw": "3 pommes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oranges pressée",
+        "raw": "1 oranges pressée"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "miel liquide",
+        "raw": "2 cuillères à soupe de miel liquide"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "30 g de beurre"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "raisins secs",
+        "raw": "80 g de raisins secs"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "amandes en poudre",
+        "raw": "80 g d'amandes en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs battu",
+        "raw": "1 oeufs battu"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "50 g de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1 cuillères à café de cannelle"
+      }
+    ],
+    "steps": [
+      "1. Couper les pommes en petits morceaux, puis les faire revenir dans le beurre.",
+      "2. Ajouter le jus de l'orange, le miel, les raisins secs et le sucre.",
+      "3. Laisser cuire à petit feu pendant 10 à 15 min, afin que les pommes et les raisins prennent le goût du miel et du jus d'orange :  c'est le secret de la recette.",
+      "4. Egoutter et laisser refroidir.",
+      "5. Préchauffer le four à 220°C.",
+      "6. Etaler la pâte feuilletée, verser une bande de poudre d'amande au milieu, puis mettre dessus la préparation de pommes.",
+      "7. Rajouter le reste de poudre d'amande au-dessus. Replier la pâte feuilletée et badigeonner avec l'oeuf battu.",
+      "8. Mélanger un peu de sucre avec la cannelle, puis saupoudrer dessus.",
+      "9. Faire cuire 20 à 25 min au four.",
+      "10. Servir chaud ou tiède."
+    ],
+    "tags_raw": "Strudel aux pommes et au miel, strudel, pâte feuilletée, pomme, orange, miel liquide, beurre, raisins secs, amandes en poudre, oeuf, sucre, cannelle, très facile, bon marché | strudel",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:strudel",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-strudel-d-aubergines-333506-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_strudel-d-aubergines_333506.aspx",
+    "name": "Strudel d'aubergines et scamorza",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 Personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 40,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pâtes feuilletées ou brisée",
+        "raw": "1 pâtes feuilletées ou brisée"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "aubergines (petites)",
+        "raw": "2 aubergines (petites)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "6",
+        "unit": "feuilles",
+        "name": "basilic frais",
+        "raw": "6 feuilles de basilic frais"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "fromages italiens",
+        "raw": "100 g de fromages italiens"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "pavot",
+        "raw": "1 pincées de pavot"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "lait (suffisamment pour faire adhérer les graines sur la pâte)",
+        "raw": "20 cl de lait (suffisamment pour faire adhérer les graines sur la pâte)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      }
+    ],
+    "steps": [
+      "1. Faire revenir à feu doux l’oignon haché finement dans l'huile d'olive.",
+      "2. Ajouter les aubergines coupées en petits dés et les feuilles de basilic (coupées avec les mains en petits morceaux).",
+      "3. Continuer la cuisson à feu vif jusqu’à ce que les aubergines soient presque cuites.",
+      "4. Étaler la pâte.",
+      "5. Distribuer dessus les légumes et en dernier la scamorza coupée en petits dés.",
+      "6. Fermer la pâte sur elle-même comme un strudel.",
+      "7. Avec un pinceau, étaler le lait et recouvrir de graines de pavot.",
+      "8. Préchauffer le four à 180°C (thermostat 6) et cuire le strudel  35 à 40 minutes environ."
+    ],
+    "tags_raw": "Strudel d'aubergines et scamorza, , pâte feuilletée, aubergine, oignon, basilic frais, fromages italiens, pavot, lait, huile d'olive, facile, bon marché",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:strudel",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-strudel-a-la-choucroute-et-autres-strudel-sales-28862-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_strudel-a-la-choucroute-et-autres-strudel-sales_28862.aspx",
+    "name": "Strudel à la choucroute et autres Strudel salés",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pâte à Strudel (voir la recette )",
+        "raw": "pâte à Strudel (voir la recette )"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "20 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "choucroute (810 g) nature",
+        "raw": "1 boîtes de choucroute (810 g) nature"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "crème fraîche",
+        "raw": "100 g de crème fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "aneth",
+        "raw": "1 bouquets d'aneth"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "saumon cru ou fumé ou de lardons",
+        "raw": "300 g de saumon cru ou fumé ou de lardons"
+      }
+    ],
+    "steps": [
+      "1. Peler, hacher les oignons, les faire revenir dans le beurre avec la choucroute durant 10 mn. Ajouter un peu de vin blanc (1/2 verre) et laisser réduire.",
+      "2. Ajouter le saumon coupé en dés.",
+      "3. Ajouter la crème, le sel, le poivre, l'aneth. Laisser refroidir.",
+      "4. Etaler la pâte à Strudel, et suivre les instructions données dans la recette de la pâte à Strudel."
+    ],
+    "tags_raw": "Strudel à la choucroute et autres Strudel salés, choucroute, pâte, oignon, beurre, choucroute, crème fraîche, poivre, sel, aneth, saumon, difficile, bon marché | choucroute",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:strudel",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-beignets-a-la-confiture-allemagne-30745-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_beignets-a-la-confiture-allemagne_30745.aspx",
+    "name": "Beignets à la confiture (Allemagne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 180,
+    "cook_minutes": 6,
+    "total_minutes": 186,
+    "ingredients": [
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "farine",
+        "raw": "250 g de farine"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "10 cl de lait"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "20 g de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "1 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "1",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "1 jaunes d'oeuf"
+      },
+      {
+        "quantity": "15",
+        "unit": "g",
+        "name": "levure de boulanger fraîche",
+        "raw": "15 g de levure de boulanger fraîche"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "confiture au choix",
+        "raw": "200 g de confiture au choix"
+      }
+    ],
+    "steps": [
+      "1. Délayer la levure dans une cuillère à soupe de lait.",
+      "2. Mélanger la farine, le sucre, le sel, l'huile, le jaune d'oeuf et la levure délayée.",
+      "3. Ajouter progressivement le lait pour former une boule de pâte très souple. Laisser lever la pâte pendant 2 h 30 min.",
+      "4. Au bout de ce temps, étaler la pâte sur 1,5 cm d'épaisseur et y découper des cercle de 6 à 7 cm de diamètre.",
+      "5. Les déposer sur une plaque huilée. Les beignets vont lever encore.",
+      "6. Pendant ce temps, mettre l'huile de friture à chauffer à 175°.",
+      "7. La cuisson se déroule en 2 temps : faire frire les beignets à dans l'huile chaudes pendant 3 min. Egoutter, puis remettre à cuire une seconde fois pendant 3 min.",
+      "8. Remplir de confiture une seringue ou une poche à douille avec un embout long et fin. Injecter la confiture dans les beignets.",
+      "9. Il est possible de servir les begnets saupoudrés de sucre glace à volonté."
+    ],
+    "tags_raw": "Beignets à la confiture (Allemagne), beignets sucrés, farine, lait, sucre, sel, huile, jaune d'oeuf, levure de boulanger fraîche, confiture, facile, bon marché, rapide | beignets sucrés",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemagne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boulettes-de-konigsberg-konigsberger-klopse-allemagne-23184-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boulettes-de-konigsberg-konigsberger-klopse-allemagne_23184.aspx",
+    "name": "Boulettes de Königsberg (Königsberger Klopse, Allemagne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 60,
+    "cook_minutes": 60,
+    "total_minutes": 120,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pains au lait rassis",
+        "raw": "1 pains au lait rassis"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "lait",
+        "raw": "3 cuillères à soupe de lait"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "boeuf haché (ou veau)",
+        "raw": "300 g de boeuf haché (ou veau)"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "porc haché",
+        "raw": "200 g de porc haché"
+      },
+      {
+        "quantity": "2",
+        "unit": "filets",
+        "name": "anchois au sel",
+        "raw": "2 filets d'anchois au sel"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "citrons (zeste)",
+        "raw": "1/2 citrons (zeste)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "muscade",
+        "raw": "muscade"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "moutarde de Dijon",
+        "raw": "1 cuillères à café de moutarde de Dijon"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "persil",
+        "raw": "1 bouquets de persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poireaux",
+        "raw": "1 poireaux"
+      },
+      {
+        "quantity": "2",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "2 feuilles de laurier"
+      },
+      {
+        "quantity": "35",
+        "unit": "g",
+        "name": "farine",
+        "raw": "35 g de farine"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "30 g de beurre"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères",
+        "name": "câpres surfines égouttées et coupées en deux",
+        "raw": "4 cuillères de câpres surfines égouttées et coupées en deux"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à soupe",
+        "name": "moutarde de Dijon",
+        "raw": "1/2 cuillères à soupe de moutarde de Dijon"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "1",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "1 jaunes d'oeuf"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères",
+        "name": "crème liquide",
+        "raw": "2 cuillères de crème liquide"
+      }
+    ],
+    "steps": [
+      "1. Mouiller le pain avec le lait dans un bol.",
+      "2. Porter à ébullition un litre d'eau légèrement salée, avec le poireau, l'oignon, le laurier, faire bouillir pendant 20 min, de préférence dans un grand faitout ovale (avec une large surface).",
+      "3. Mixer persil, oignon et anchois, les mélanger avec la viande. Ajouter le zeste de citron, l'oeuf, le sel (pas trop, les anchois c'est aussi bien salé!), le poivre, la muscade, et le petit pain une fois qu'il à bien été imprégné, le cas échéant égoutté s'il est trop mouillé.",
+      "4. Avec des mains humides, on forme des petites boulettes de viande de la taille d'une balle de ping pong.",
+      "5. Baisser le feu sous le faitout. Y plonger délicatement les boulettes, attention, l'eau ne doit plus bouillir. On les laisse dans une eau frémissante pendant une vingtaine de minutes. L'idéal est qu'elles aient suffisamment de place pour tourner sur elles-mêmes, au besoin on agite la casserole de temps en temps pour les bouger un peu. A la fin, elles doivent flotter à la surface.",
+      "6. Ecrémer la surface de l'eau de la graisse qui y traîne, sortir les boulettes et les réserver dans un endroit où elles restent tièdes. Faire autant de \"fournées\" de boulettes que nécessaires, si vous n'aviez pas la place de les cuire toutes en même temps.",
+      "7. Filtrer le bouillon de cuisson, en garder 1/2 à 3/4 de litres.",
+      "8. Faire un roux blond avec la farine et le beurre, ajouter le bouillon, les câpres, un peu de jus de citron, y mettre les boulettes de viande à réchauffer et ajouter à la fin le jaune d'oeuf préalablement mélangé à la crème fluide.",
+      "9. Ouf ! ca y est ! il n'y à plus qu'à servir."
+    ],
+    "tags_raw": "Boulettes de Königsberg (Königsberger Klopse, Allemagne), boulettes de viande, pain au lait, lait, boeuf haché, porc, anchois, citron, muscade, moutarde de Dijon, oeuf, persil, poivre, sel, moyenne, moyen | boulettes de viande",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemagne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bretzel-du-nouvel-an-20058-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bretzel-du-nouvel-an_20058.aspx",
+    "name": "BRETZEL DU NOUVEL AN",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 30,
+    "cook_minutes": 40,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "levure de boulanger",
+        "raw": "1 sachets de levure de boulanger"
+      },
+      {
+        "quantity": "55",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "55 g de sucre en poudre"
+      },
+      {
+        "quantity": "13",
+        "unit": "cl",
+        "name": "lait tiède",
+        "raw": "13 cl de lait tiède"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine",
+        "raw": "500 g de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "sucre vanillé",
+        "raw": "1 sachets de sucre vanillé"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "beurre tendre",
+        "raw": "250 g de beurre tendre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "lait concentré",
+        "raw": "lait concentré"
+      }
+    ],
+    "steps": [
+      "1. Mélangez la levure avec le lait et une cuillère à café de sucre. Laissez reposer 15 mn.",
+      "2. Mettez la farine dans une terrine et creusez un puit au centre.",
+      "3. Sur les bords extérieurs du puit, ajoutez les 50 g de sucre restant, le sucre vanillé, le sel, l'oeuf et le beurre coupé en morceaux. Versez la levure délayée au centre.",
+      "4. Malaxez pendant 5 mn à l'aide du batteur équipé de bras pétrisseurs, d'abord à petite, puis à grande vitesse.",
+      "5. Réservez un peu de pâte pour le motif décoratif, puis partagez le reste en trois morceaux égaux.",
+      "6. Roulez chaque morceau en boudins, tressez les et nouez les en forme de bretzel.",
+      "7. Avec le reste de pâte, modelez une fleur et des feuilles.",
+      "8. Badigeonnez l'ensemble du bretzel au lait concentré avec un pinceau et laissez reposer 30 mn dans un endroit chaud. Puis mettez dans le four préchauffé à 200°C (Th 6) et faites cuire 40 mn."
+    ],
+    "tags_raw": "BRETZEL DU NOUVEL AN, , levure de boulanger, sucre en poudre, lait, farine, sucre vanillé, sel, oeuf, beurre tendre, lait concentré, moyenne, bon marché",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bretzel"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bretzel-et-mauricette-de-ode-70753-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bretzel-et-mauricette-de-ode_70753.aspx",
+    "name": "Bretzel et mauricette de ode !",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine",
+        "raw": "500 g de farine"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "sel fin",
+        "raw": "10 g de sel fin"
+      },
+      {
+        "quantity": "11",
+        "unit": "g",
+        "name": "levure sèche de boulanger",
+        "raw": "11 g de levure sèche de boulanger"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "15 cl d'eau"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "lait tiède",
+        "raw": "15 cl de lait tiède"
+      },
+      {
+        "quantity": "35",
+        "unit": "g",
+        "name": "margarine ramollie",
+        "raw": "35 g de margarine ramollie"
+      },
+      {
+        "quantity": "1",
+        "unit": "l",
+        "name": "eau",
+        "raw": "1 l d'eau"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "bicarbonate",
+        "raw": "100 g de bicarbonate"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "2 cuillères à café de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "gros sel ou gruyère râpé ou lardon gruyère (laissez parler votre imagination)",
+        "raw": "gros sel ou gruyère râpé ou lardon gruyère (laissez parler votre imagination)"
+      }
+    ],
+    "steps": [
+      "1. Mélanger la farine et la levure. Ajouter le sel, puis l'eau et le lait. Travailler un peu la pâte puis ajouter la margarine. Laisser reposer 1 heure.",
+      "2. Préchauffer le four à 200°C (thermostat 6/7 ).",
+      "3. Dans une casserole, mélanger l'eau, le sel et le bicarbonate. Faire chauffé 5 minutes.",
+      "4. Diviser la pâte en 12 portions.",
+      "5. Rouler ces portions pour former des petits pains ovales pour les mauricettes ou rouler les portions en bâtons d’environ 35 cm plus épais au milieu pour former les bretzels.",
+      "6. Les baigner dans le bain (mélange eau, bicarbonate et sel), posez-les sur une plaque beurrée.",
+      "7. Strier le dessus de chaque petit pain et bas de bretzel, badigeonner à l'œuf.",
+      "8. Saupoudrer de gros sel, ou gruyère pour les mauricettes et de gros sel pour les bretzels. Mettre au four 15 minutes, les mauricettes ou bretzels doivent avoir une belle couleur dorée bien foncée."
+    ],
+    "tags_raw": "Bretzel et mauricette de ode !, bretzel, farine, sel, levure, eau, lait, margarine, moyenne, bon marché | bretzel",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bretzel"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chevreuil-a-l-allemande-34051-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chevreuil-a-l-allemande_34051.aspx",
+    "name": "Chevreuil à l' allemande",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "chevreuil",
+        "raw": "1 chevreuil"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouteilles",
+        "name": "vin rouge (moyenne gamme)",
+        "raw": "1 bouteilles de vin rouge (moyenne gamme)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "carottes",
+        "raw": "1 carottes"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "verres",
+        "name": "whisky ou de cognac",
+        "raw": "1/2 verres de whisky ou de cognac"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "laurier",
+        "raw": "laurier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "thym",
+        "raw": "thym"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "épices",
+        "raw": "4 épices"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "3 gousses d'ail"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "concentré de tomates",
+        "raw": "2 cuillères à soupe de concentré de tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "pots",
+        "name": "crème fraîche",
+        "raw": "1 pots de crème fraîche"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "clou de girofle",
+        "raw": "clou de girofle"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "vinaigre",
+        "raw": "1 cuillères à soupe de vinaigre"
+      },
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "genièvre",
+        "raw": "10 genièvre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faire mariner la gigue de chevreuil selon les goûts, la veille voir 2 à 3 jours avant, dans cette préparation.",
+      "2. Marinade :",
+      "3. verser la bouteille de vin dans un grand récipient.",
+      "4. Ajouter les baies de genièvre, l'oignon épluché que vous aurez piqué avec les clous de girofle, le whisky (ou cognac), le sel, le poivre, le laurier, la carotte épluchée et coupée en morceau, les gousses d'ail épluchée, l'huile, un peu de 4 épices, le thym et le vinaigre.",
+      "5. Laisser mariner au frigo ou dans un endroit frais (si la marinade ne couvre pas la totalité de la gigue, la retourner lorsque vous parvenez à la moitié de votre temps de marinade.",
+      "6. Cuisson :",
+      "7. Extraire la gigue et la faire revenir des 2 côtés dans de l'huile.",
+      "8. Filtrer la marinade puis la verser sur la gigue.",
+      "9. Ajouter le concentré de tomate puis mélanger.",
+      "10. A ce moment, vous pouvez si vous le souhaitez, ajouter des champignons dans votre sauce.",
+      "11. Laisser cuire à feu moyen environ 1 h30 .",
+      "12. Au bout d'une heure de cuisson, ajuster l'assaisonnement et la consistance de la sauce (si vous l'aimez plus consistante, ajouter un peu de maïzena ou de sauceline) et ajouter la crème fraîche. Mélangez.",
+      "13. Au moment de servir, retirer la gigue pour la couper en morceau : dans la longueur si vous n'avez pas désossé votre gigue, sinon dans la largeur."
+    ],
+    "tags_raw": "Chevreuil à l' allemande, gibier, chevreuil, vin rouge, carotte, whisky, laurier, thym, épices, ail, concentré de tomates, crème fraîche, oignon, clou de girofle, vinaigre, genièvre, poivre, sel, très facile, assez cher | gibier",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemande"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chou-blanc-a-la-viande-hachee-recette-allemande-81182-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chou-blanc-a-la-viande-hachee-recette-allemande_81182.aspx",
+    "name": "Chou blanc à la viande hachée (recette allemande)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 50,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "chou blanc",
+        "raw": "1/2 chou blanc"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "viande hachée (mélange boeuf-porc)",
+        "raw": "500 g de viande hachée (mélange boeuf-porc)"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons",
+        "raw": "3 oignons"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "crème fraîche épaisse",
+        "raw": "250 g de crème fraîche épaisse"
+      },
+      {
+        "quantity": "200",
+        "unit": "ml",
+        "name": "lait",
+        "raw": "200 ml de lait"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile",
+        "raw": "huile"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "carvi (ou un peu de cumin moulu)",
+        "raw": "1 cuillères à soupe de carvi (ou un peu de cumin moulu)"
+      }
+    ],
+    "steps": [
+      "1. Couper les oignons en dés et les faire revenir dans une sauteuse avec un peu d'huile et la viande hachée.",
+      "2. Faire saisir la viande pendant 5 minutes avant d'ajouter le chou coupé en lanières.",
+      "3. Faire cuire en tournant régulièrement pendant 5 à 10 minutes.",
+      "4. Ajouter sel, poivre et le carvi et disposer le mélange dans un plat allant au four.",
+      "5. Battre les oeufs dans un bol avec la crème et le lait, saler et verser l'appareil sur le chou.",
+      "6. Mettre au four à 200°C (thermostat 6-7) pendant 40 min."
+    ],
+    "tags_raw": "Chou blanc à la viande hachée (recette allemande), , chou blanc, viande hachée, oignon, oeuf, crème fraîche épaisse, lait, huile, poivre, sel, carvi, facile, bon marché",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemande"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-chou-rouge-a-la-oma-allemagne-67362-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_chou-rouge-a-la-oma-allemagne_67362.aspx",
+    "name": "Chou rouge à la Oma (Allemagne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "chou rouge",
+        "raw": "1 chou rouge"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons jaunes",
+        "raw": "1 oignons jaunes"
+      },
+      {
+        "quantity": "2/3",
+        "unit": "",
+        "name": "pommes (plutôt acides, genre reinettes ou pommes à cidre)",
+        "raw": "2/3 pommes (plutôt acides, genre reinettes ou pommes à cidre)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bonnes poignées de raisins secs",
+        "raw": "1 bonnes poignées de raisins secs"
+      },
+      {
+        "quantity": "1",
+        "unit": "noisettes",
+        "name": "beurre",
+        "raw": "1 noisettes de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "2",
+        "unit": "clous",
+        "name": "girofle",
+        "raw": "2 clous de girofle"
+      },
+      {
+        "quantity": "1/4",
+        "unit": "cuillères à café",
+        "name": "muscade",
+        "raw": "1/4 cuillères à café de muscade"
+      }
+    ],
+    "steps": [
+      "1. Couper l'oignon en petits morceaux et le chou rouge en lanières. Faire revenir l'oignon dans le beurre dans une cocotte.",
+      "2. Ajouter le chou, les épices et les raisins secs, puis commencer la cuisson avec un bol d'eau.",
+      "3. Pendant ce temps, éplucher les pommes, les couper en morceaux. Rajoutez-les au bout de 10 min de cuisson.",
+      "4. Toute la cuisson (à part pour l'oignon, qui doit être un peu saisit) doit se faire à feu doux pour ne pas brûler  le chou (dès qu'il se colore trop, le chou rouge est immangeable). Il faut surveiller la cuisson et ajouter un peu d'eau si besoin."
+    ],
+    "tags_raw": "Chou rouge à la Oma (Allemagne), , chou rouge, oignon jaune, pomme, raisins secs, beurre, cannelle, clou de girofle, muscade, facile, bon marché",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemagne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-christstollen-pfarrhausart-allemagne-13230-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_christstollen-pfarrhausart-allemagne_13230.aspx",
+    "name": "Christstollen (Pfarrhausart) (Allemagne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 80,
+    "total_minutes": 100,
+    "ingredients": [
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "farine",
+        "raw": "600 g de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "poudre à lever",
+        "raw": "1 paquets de poudre à lever"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "sucre vanillé",
+        "raw": "1 paquets de sucre vanillé"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "200 g de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "pointes",
+        "name": "couteau de cardamome",
+        "raw": "1 pointes de couteau de cardamome"
+      },
+      {
+        "quantity": "1",
+        "unit": "pointes",
+        "name": "couteau de muscade moulue",
+        "raw": "1 pointes de couteau de muscade moulue"
+      },
+      {
+        "quantity": "4",
+        "unit": "gouttes",
+        "name": "essence d'amande amère",
+        "raw": "4 gouttes d'essence d'amande amère"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "rhum",
+        "raw": "2 cuillères à soupe de rhum"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "zeste de citron",
+        "raw": "zeste de citron"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "125 g de beurre"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "amandes moulues",
+        "raw": "125 g d'amandes moulues"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "raisin de Corinthe",
+        "raw": "125 g de raisin de Corinthe"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "fromage frais",
+        "raw": "250 g de fromage frais"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "citronat haché",
+        "raw": "75 g de citronat haché"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "raisins secs",
+        "raw": "250 g de raisins secs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "beurre ou de la margarine pour beurrer le moule",
+        "raw": "beurre ou de la margarine pour beurrer le moule"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre + sucre en poudre",
+        "raw": "50 g de beurre + sucre en poudre"
+      }
+    ],
+    "steps": [
+      "1. Mélanger la farine et la poudre à lever dans un grand récipient.",
+      "2. Ajouter le sucre et le sucre vanillé, les épices, le rhum, le zeste de citron et les oeufs. On ajoute beurre et graisse (coupés en petits morceaux) en mélangeant avec le fromage frais.",
+      "3. Ajouter également le citronat, les amandes, les corintes et les raisins sec.",
+      "4. Malaxer le tout pour obtenir une pâte pas trop liquide, si la pâte n'a pas assez de consistance, ajouter un peut de farine.",
+      "5. Verser dans un moule a Stollen et mettre au four préchauffé à 190°C.",
+      "6. Laisser cuire environ 1h20.",
+      "7. En sortant du four, badigeonner avec du beurre et soupoudrer avec le sucre glace."
+    ],
+    "tags_raw": "Christstollen (Pfarrhausart) (Allemagne), , farine, poudre à lever, sucre vanillé, sucre, sel, couteau, couteau, essence d'amande amère, rhum, citron, oeuf, beurre, amandes, raisin, fromage frais, citronat, raisins secs, beurre, beurre, facile, moyen",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemagne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-currywurst-321635-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_currywurst_321635.aspx",
+    "name": "Currywurst",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 5,
+    "cook_minutes": 15,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "saucisses",
+        "name": "Francfort",
+        "raw": "4 saucisses de Francfort"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "moutarde",
+        "raw": "1 cuillères à soupe de moutarde"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "vinaigre",
+        "raw": "10 cl de vinaigre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sucre",
+        "raw": "1 cuillères à café de sucre"
+      },
+      {
+        "quantity": "40",
+        "unit": "cl",
+        "name": "coulis de tomate",
+        "raw": "40 cl de coulis de tomate"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "curry",
+        "raw": "1 cuillères à soupe de curry"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Dans un bol mélangez la moutarde, le vinaigre, le sucre, le sel et le poivre. Ajoutez le coulis de tomate et  remuez bien.",
+      "2. Faites revenir l'oignon émincé avec de l'huile puis ajoutez la préparation. Laissez mijoter 5 minutes.",
+      "3. Faites griller les saucisses avec un peu d'huile puis coupez-les en gros tronçons.",
+      "4. Recouvrez les tronçons de saucisse de la sauce puis saupoudrer de curry en poudre."
+    ],
+    "tags_raw": "Currywurst, , saucisse de Francfort, moutarde, vinaigre, sucre, coulis de tomate, oignon, huile d'olive, curry, sel, poivre, facile, bon marché",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:currywurst"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-fricandeaux-a-la-mode-allemande-56660-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_fricandeaux-a-la-mode-allemande_56660.aspx",
+    "name": "Fricandeaux à la mode allemande",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "tranches",
+        "name": "boeuf",
+        "raw": "2 tranches de boeuf"
+      },
+      {
+        "quantity": "2",
+        "unit": "tranches",
+        "name": "lard épaisses",
+        "raw": "2 tranches de lard épaisses"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "moutarde",
+        "raw": "moutarde"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "vin rouge",
+        "raw": "10 cl de vin rouge"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "crème",
+        "raw": "10 cl de crème"
+      }
+    ],
+    "steps": [
+      "1. Badigeonnez les tranches de boeuf de moutarde, de sel et poivre et des éventuelles épices.",
+      "2. Etalez les tranches de boeuf à plat, ajoutez par dessus le lard et 1/2 oignon en rondelles pour chaque tranche.",
+      "3. Enroulez-les et piquez-les avec des cure-dents de chaque côté.",
+      "4. La viande ne doit pas se défaire pendant la cuisson.",
+      "5. Pour la sauce, faites réduire le vin rouge, ajoutez la crème et chauffez-la sans faire bouillir.",
+      "6. Ajoutez les fricandeaux, les faire mijoter jusqu'à ce que l'intérieur soit cuit.",
+      "7. Allongez la sauce si nécessaire.",
+      "8. Autre possibilité :",
+      "9. Faire cuire les fricandeaux dans très peu d'huile et les faire griller."
+    ],
+    "tags_raw": "Fricandeaux à la mode allemande, , boeuf, lard, oignon, moutarde, poivre, sel, facile, moyen",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemande"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gateau-allemand-au-fromage-blanc-18351-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gateau-allemand-au-fromage-blanc_18351.aspx",
+    "name": "Gâteau allemand au fromage blanc",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pâtes brisées",
+        "raw": "1 pâtes brisées"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "oeufs ,",
+        "raw": "5 oeufs ,"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "250 g de sucre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "l de lait ,",
+        "raw": "1/2 l de lait ,"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "fromage blanc égoutté,",
+        "raw": "500 g de fromage blanc égoutté,"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "amidon ,",
+        "raw": "50 g d'amidon ,"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons (son zeste et son jus)",
+        "raw": "1 citrons (son zeste et son jus)"
+      }
+    ],
+    "steps": [
+      "1. Séparer les blancs des jaunes d'oeufs. Mélanger les jaunes avec le sucre, jus et zeste de citron, l'amidon, le fromage et le lait.",
+      "2. Mélanger le tout petit à petit. Battre les blance en neige ferme et incorporer au mélange tout doucement.",
+      "3. Graisser un moule et y mettre la pâte en prenant soin de bien recouvrir les bords du moule. Y déposer la crême et mettre au four à 200°C pendant 45 min."
+    ],
+    "tags_raw": "Gâteau allemand au fromage blanc, cheesecake, pâte brisée, oeuf, sucre, lait, fromage blanc, amidon, citron, facile, bon marché | cheesecake",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemand"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gateau-au-pavot-comme-en-allemagne-57587-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gateau-au-pavot-comme-en-allemagne_57587.aspx",
+    "name": "Gâteau au pavot comme en Allemagne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 50,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "farine",
+        "raw": "200 g de farine"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre mou en dés",
+        "raw": "100 g de beurre mou en dés"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "100 g de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "sachets",
+        "name": "levure",
+        "raw": "1/2 sachets de levure"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "25 cl de lait"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "semoule fine",
+        "raw": "75 g de semoule fine"
+      },
+      {
+        "quantity": "1",
+        "unit": "noix",
+        "name": "beurre",
+        "raw": "1 noix de beurre"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "pavot pouvant être remplacée par 125g de pavot moulu + 1 oeuf + 150 g de sucre)",
+        "raw": "250 g de pavot pouvant être remplacée par 125g de pavot moulu + 1 oeuf + 150 g de sucre)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "2",
+        "unit": "sachets",
+        "name": "sucre vanillé",
+        "raw": "2 sachets de sucre vanillé"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four à 180°C (thermostat 6).",
+      "2. Préparer la pâte en pétrissant à la main les ingrédients nécessaires.",
+      "3. Foncer un moule graissé avec 3/4 de la pâte.",
+      "4. Faire bouillir le lait, y verser la semoule et le beurre et remuer quelques minutes afin d'obtenir un mélange épais.",
+      "5. Retirer du feu.",
+      "6. Préparer le mélange au pavot.",
+      "7. Ajouter-le à la semoule au lait.",
+      "8. Ajouter l'oeuf et le sucre vanillé, bien mélanger.",
+      "9. Verser cette préparation sur le fond de tarte et émietter le quart de pâte restant sur le gâteau comme pour un crumble.",
+      "10. Enfourner environ 50 minutes.",
+      "11. Laisser refroidir et mettre au frais quelques heures."
+    ],
+    "tags_raw": "Gâteau au pavot comme en Allemagne, , farine, beurre, sucre, oeuf, levure, très facile, bon marché",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemagne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gateau-bretzel-chocolat-et-caramel-533735-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gateau-bretzel-chocolat-et-caramel_533735.aspx",
+    "name": "Gâteau bretzel chocolat et caramel",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "",
+    "servings": null,
+    "prep_minutes": 25,
+    "cook_minutes": 35,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "220",
+        "unit": "g",
+        "name": "beurre salé",
+        "raw": "220 g de beurre salé"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "sucre roux",
+        "raw": "60 g de sucre roux"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à café d'extrait de vanille liquide",
+        "raw": "2 cuillères à café d'extrait de vanille liquide"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "farine",
+        "raw": "60 g de farine"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "levure",
+        "raw": "10 g de levure"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "pépites de chocolat",
+        "raw": "150 g de pépites de chocolat"
+      },
+      {
+        "quantity": "160",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "160 g de sucre"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "beurre demi-sel",
+        "raw": "80 g de beurre demi-sel"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "crème liquide entière",
+        "raw": "200 g de crème liquide entière"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "cacahuète grillée",
+        "raw": "150 g de cacahuète grillée"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "chocolat",
+        "raw": "300 g de chocolat"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à café d'huile de coco",
+        "raw": "1 cuillères à café d'huile de coco"
+      },
+      {
+        "quantity": "24",
+        "unit": "",
+        "name": "Bretzels",
+        "raw": "24 Bretzels"
+      }
+    ],
+    "steps": [
+      "1. Commencer par la pâte à cookie. Pour cela, mélanger le beurre et les sucres.",
+      "2. Ajouter les œufs un à un en battant.",
+      "3. Ajouter la vanille, le sucre, la levure mélanger.",
+      "4. Ajouter les pépites de chocolat, mélanger délicatement.",
+      "5. Etaler la pâte à cookie sur plaque de cuisson.",
+      "6. Faire cuire 20 min.",
+      "7. Faire ensuite le caramel en faisant cuire le sucre à sec.",
+      "8. Une fois le sucre fond ajouter le beurre en morceaux qui est à température ambiante et continuer à remuer",
+      "9. Une fois épaissi ajouter la crème fraîche à feu doux en remuant.",
+      "10. Laisser refroidir.",
+      "11. Faire fondre le chocolat et l’huile coco.",
+      "12. Passer au dressage. Sur la base cookie déposer une couche de caramel",
+      "13. Recouvrir de cacahuètes.",
+      "14. Puis verser une autre couche de caramel.",
+      "15. Puis verser une autre couche de caramel.",
+      "16. Presser les bretzels sur le dessus et laisser prendre 1 heure au frigo."
+    ],
+    "tags_raw": "Gâteau bretzel chocolat et caramel, , beurre salé, sucre roux, oeuf, extrait de vanille liquide, farine, levure, pépites de chocolat, très facile, moyen",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bretzel"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-lebkuchen-allemagne-10756-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_lebkuchen-allemagne_10756.aspx",
+    "name": "Lebkuchen (Allemagne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 12,
+    "total_minutes": 42,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "tasses",
+        "name": "sucre",
+        "raw": "2 tasses de sucre"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "5 oeufs"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "amandes pilées",
+        "raw": "500 g d'amandes pilées"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "citron épluché",
+        "raw": "100 g de citron épluché"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à café",
+        "name": "muscade",
+        "raw": "2 cuillères à café de muscade"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "clou de girofle",
+        "raw": "1/2 cuillères à café de clou de girofle"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons (zeste)",
+        "raw": "1 citrons (zeste)"
+      },
+      {
+        "quantity": "1",
+        "unit": "tasses",
+        "name": "sucre glace",
+        "raw": "1 tasses de sucre glace"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à café",
+        "name": "jus de citron",
+        "raw": "3 cuillères à café de jus de citron"
+      }
+    ],
+    "steps": [
+      "1. Battez les oeufs, le sucre et le zeste de citron au mixer pendant 15 min. Ajouter les autres ingrédients à la main. La pâte doit être compacte.",
+      "2. Laissez-la tomber sur un plat à four huilé, en laissant une marge de 10 cm pour que la pâte puisse s'étaler. Recouvrez-la avec le glaçage.",
+      "3. Passer au four."
+    ],
+    "tags_raw": "Lebkuchen (Allemagne), , sucre, oeuf, amandes, citron, muscade, cannelle, clou de girofle, citron, moyenne, moyen, rapide",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemagne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-marzipanstollen-allemagne-43602-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_marzipanstollen-allemagne_43602.aspx",
+    "name": "Marzipanstollen (Allemagne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 60,
+    "cook_minutes": 60,
+    "total_minutes": 120,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine",
+        "raw": "500 g de farine"
+      },
+      {
+        "quantity": "40",
+        "unit": "g",
+        "name": "levure",
+        "raw": "40 g de levure"
+      },
+      {
+        "quantity": "1/8",
+        "unit": "",
+        "name": "lait",
+        "raw": "1/8 lait"
+      },
+      {
+        "quantity": "180",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "180 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "70",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "70 g de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "sucre vanillé",
+        "raw": "1 sachets de sucre vanillé"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "amandes épluchées et moulues",
+        "raw": "125 g d'amandes épluchées et moulues"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "citron",
+        "raw": "125 g de citron"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "vanille",
+        "raw": "2 gousses de vanille"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "pâte d'amande",
+        "raw": "300 g de pâte d'amande"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "100 g de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "amandes hachées",
+        "raw": "80 g d'amandes hachées"
+      },
+      {
+        "quantity": "3",
+        "unit": "cl",
+        "name": "Liqueur d’orange",
+        "raw": "3 cl de Liqueur d’orange"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre glace",
+        "raw": "50 g de sucre glace"
+      }
+    ],
+    "steps": [
+      "1. Préparer d'abord la garniture.",
+      "2. Couper les gousses de vanille dans le sens de la longueur, pour en extraire le contenu.",
+      "3. Mélanger la pâte d’amande avec le sucre, l'œuf, les amandes hachées, la vanille, et la liqueur d’orange. Laisser reposer 1 h.",
+      "4. Former une fontaine avec 150 g de farine tamisée. Emietter la levure à l'intérieur, ajouter 1 cuillère de sucre, et le lait tiède. Pétrir la pâte. Laisser gonfler ce levain pendant 15 min.",
+      "5. Dans un plat, mélanger bien le sucre restant, le sucre vanillé, le beurre ramolli, le sel, et toute la farine.",
+      "6. Puis, incorporer le levain pour obtenir une pâte ferme. Pétrir à nouveau 15 min.",
+      "7. Ajouter les amandes et les écorces de citron. Laisser reposer un moment.",
+      "8. Abaisser la pâte en un rectangle de 30 cm. Appliquer sur ce rectangle la pâte d’amande. Et refermer la pâte sur la pâte d’amande, en pressant fortement",
+      "9. Poser sur un papier de cuisson, plié sur la tôle de cuisson.",
+      "10. Enfourner à 220°C (thermostat 7-8), à mi hauteur, pendant 50 à 60 min.",
+      "11. Sortir du four, et enduire le gâteau (encore chaud!) de beurre fondu, à plusieurs reprises. Poudrer avec le sucre glace.",
+      "12. Vous pouvez garder ce gâteau jusqu’à 4 semaines, s’il est pauvre en matières grasses, 4 à 12 semaines sil est plus riche..."
+    ],
+    "tags_raw": "Marzipanstollen (Allemagne), , farine, levure, lait, beurre, sel, sucre, sucre vanillé, amandes, citron, moyenne, moyen",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemagne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pain-brioche-allemand-aux-fruits-secs-23590-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pain-brioche-allemand-aux-fruits-secs_23590.aspx",
+    "name": "Pain brioché allemand aux fruits secs",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 50,
+    "cook_minutes": 60,
+    "total_minutes": 110,
+    "ingredients": [
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "farine",
+        "raw": "250 g de farine"
+      },
+      {
+        "quantity": "5",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "5 cl de lait"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "50 g de sucre"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "levure",
+        "raw": "30 g de levure"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "beurre fondu",
+        "raw": "75 g de beurre fondu"
+      },
+      {
+        "quantity": "25",
+        "unit": "g",
+        "name": "boeuf",
+        "raw": "25 g de boeuf"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "raisins secs",
+        "raw": "50 g de raisins secs"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "amandes",
+        "raw": "50 g d'amandes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons (zestes)",
+        "raw": "1 citrons (zestes)"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      }
+    ],
+    "steps": [
+      "1. Malaxez la farine avec 1 cuillère à soupe de sucre et la levure délayée dans le lait tièdi. Couvrez et laissez lever dans un endroit chaud jusqu'à ce que la pâte ait doublé de volume.",
+      "2. Incorporez à la pâte le reste du sucre, le beurre et la graisse fondus, le sel, les zestes, les raisins secs et les amandes. Pétrissez jusqu'à ce que la pâte soit souple puis laissez monter 1 heure au chaud.",
+      "3. Formez un pain ovale et laissez reposer 30 minutes.",
+      "4. Préchauffez le four à 175°C (thermostat 5-6).",
+      "5. Badigeonnez de beurre fondu et enfournez pour 1 heure de cuisson.",
+      "6. A la sortir du four, badigeonnez de beurre fondu à nouveau et saupoudrez de sucre."
+    ],
+    "tags_raw": "Pain brioché allemand aux fruits secs, , farine, lait, sucre, levure, beurre, boeuf, raisins secs, amandes, citron, sel, moyenne, bon marché",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemand"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-salade-de-gouda-et-cervelas-allemagne-29625-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_salade-de-gouda-et-cervelas-allemagne_29625.aspx",
+    "name": "Salade de gouda et cervelas (Allemagne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 0,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "gouda (fromage coupe ou rayon frais)",
+        "raw": "400 g de gouda (fromage coupe ou rayon frais)"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "cervelas (rayon charcuterie)",
+        "raw": "500 g de cervelas (rayon charcuterie)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons selon la grosseur et les goûts",
+        "raw": "1 oignons selon la grosseur et les goûts"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "vinaigrette (à préparer selon vos préférences)",
+        "raw": "vinaigrette (à préparer selon vos préférences)"
+      }
+    ],
+    "steps": [
+      "1. Couper le cervelas puis le gouda en dé très fin (plus c'est fin, meilleur c'est). Hacher l'oignon très finement.",
+      "2. Mélanger et le tout avec la vinaigrette. L'idéal est de laisser mariner la salade un peu dans le vinaigre au frais, donc de la préparer 8 heures environ avant de la servir (mais ça n'est pas obligatoire)."
+    ],
+    "tags_raw": "Salade de gouda et cervelas (Allemagne), , gouda, cervelas, oignon, vinaigrette, très facile, bon marché, rapide",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemagne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-salade-fraiche-de-melon-allemande-27018-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_salade-fraiche-de-melon-allemande_27018.aspx",
+    "name": "Salade fraîche de melon allemande",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "total_minutes": 10,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "concombres coupé en petits dés",
+        "raw": "1 concombres coupé en petits dés"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "melons en petites boules",
+        "raw": "1 melons en petites boules"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poires coupée en dés",
+        "raw": "1 poires coupée en dés"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "yaourts natures",
+        "raw": "1/2 yaourts natures"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "cornichons coupés en petits morceaux",
+        "raw": "3 cornichons coupés en petits morceaux"
+      },
+      {
+        "quantity": "3",
+        "unit": "rondelles",
+        "name": "cervelas coupé en petits morceaux",
+        "raw": "3 rondelles de cervelas coupé en petits morceaux"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "yaourts fruits de la passion-pêche",
+        "raw": "1 yaourts fruits de la passion-pêche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "jus",
+        "name": "citron",
+        "raw": "1 jus de citron"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Mélanger le tout et servir très frais"
+    ],
+    "tags_raw": "Salade fraîche de melon allemande, , concombre, melon, poire, yaourt nature, cornichons, cervelas, yaourt, huile d'olive, jus de citron, poivre, sel, très facile, bon marché, rapide",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemande"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-soupe-de-pomme-de-terre-allemande-62644-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_soupe-de-pomme-de-terre-allemande_62644.aspx",
+    "name": "Soupe de pomme de terre allemande",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "750",
+        "unit": "g",
+        "name": "pomme de terre",
+        "raw": "750 g de pomme de terre"
+      },
+      {
+        "quantity": "1.25",
+        "unit": "l",
+        "name": "bouillon",
+        "raw": "1.25 l de bouillon"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "lardons",
+        "raw": "150 g de lardons"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons moyens",
+        "raw": "2 oignons moyens"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "crème liquide ou fraîche",
+        "raw": "25 cl de crème liquide ou fraîche"
+      },
+      {
+        "quantity": "2",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "2 jaunes d'oeuf"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "beurre",
+        "raw": "beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "marjolaine",
+        "raw": "1 cuillères à soupe de marjolaine"
+      }
+    ],
+    "steps": [
+      "1. Dans un peu de beurre faire revenir les oignons en dés et les lardons.",
+      "2. Rajouter les pommes de terre coupées en petits dés et mettre le bouillon (légumes ou autre).",
+      "3. Saler, poivrer, mettre la marjolaine et laisser mijoute pendant 20  minutes.",
+      "4. Mélanger la crème aux jaunes d'oeufs et rajouter à la soupe.",
+      "5. Mixer le tout et laisser encore 5 min sur le feu sans faire bouillir.",
+      "6. A la place des lardons, on peut également mettre du saumon fumé."
+    ],
+    "tags_raw": "Soupe de pomme de terre allemande, soupe, pomme de terre, bouillon, lardons, oignon, crème liquide, jaune d'oeuf, beurre, poivre, sel, marjolaine, très facile, bon marché | soupe",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemande"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-spatzle-a-l-alsacienne-mehlknepfle-23784-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_spatzle-a-l-alsacienne-mehlknepfle_23784.aspx",
+    "name": "Spätzle à l'alsacienne (mehlknepfle)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 60,
+    "cook_minutes": 10,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "farine",
+        "raw": "300 g de farine"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "7",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "7 cl d'eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1 cuillères à café de sel"
+      },
+      {
+        "quantity": "4",
+        "unit": "l",
+        "name": "eau salée",
+        "raw": "4 l d'eau salée"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "croûtons frits",
+        "raw": "croûtons frits"
+      }
+    ],
+    "steps": [
+      "1. Mélanger la farine, les œufs, l'eau et le sel avec une spatule en bois afin d'obtenir une pâte 'coulante' pas trop épaisse.",
+      "2. Étaler un peu de pâte au bord d'une planchette, détacher avec un couteau préalablement plongé dans l'eau bouillante salée, de petites lamelles de pâte qu'on fera bouillir dans une grande casserole, juste le temps nécessaire pour qu'elles remontent à la surface. Puis les faire passer sous l'eau froide, les égoutter et les faire sauter au beurre.",
+      "3. Avant de servir, les garnir de croûtons frits au beurre."
+    ],
+    "tags_raw": "Spätzle à l'alsacienne (mehlknepfle), , farine, oeuf, eau, sel, eau, beurre, croûtons, facile, bon marché, rapide",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:spatzle"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-stollen-rhenan-pain-de-noel-allemand-26587-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_stollen-rhenan-pain-de-noel-allemand_26587.aspx",
+    "name": "Stollen rhénan (pain de Noël allemand)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 pains",
+    "servings": 3,
+    "prep_minutes": 1440,
+    "cook_minutes": 40,
+    "total_minutes": 1480,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "raisins secs",
+        "raw": "500 g de raisins secs"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "amandes",
+        "raw": "200 g d'amandes"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "citron confit",
+        "raw": "100 g de citron confit"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "orange confites",
+        "raw": "100 g d'orange confites"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "zeste de citron non traités",
+        "raw": "zeste de citron non traités"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1 cuillères à café de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "1",
+        "unit": "pointes",
+        "name": "couteau de cardamome",
+        "raw": "1 pointes de couteau de cardamome"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "muscade",
+        "raw": "1 pincées de muscade"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à café d'anis en poudre",
+        "raw": "1 cuillères à café d'anis en poudre"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "vanille",
+        "raw": "3 gousses de vanille"
+      },
+      {
+        "quantity": "125",
+        "unit": "ml",
+        "name": "rhum (ou kirsch)",
+        "raw": "125 ml de rhum (ou kirsch)"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "levure du boulanger",
+        "raw": "100 g de levure du boulanger"
+      },
+      {
+        "quantity": "500",
+        "unit": "ml",
+        "name": "lait",
+        "raw": "500 ml de lait"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "250 g de sucre"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "kg",
+        "name": "farine",
+        "raw": "1.5 kg de farine"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "250 g de beurre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "750",
+        "unit": "g",
+        "name": "pâte d'amande",
+        "raw": "750 g de pâte d'amande"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre fondu",
+        "raw": "100 g de beurre fondu"
+      },
+      {
+        "quantity": "2",
+        "unit": "sachets",
+        "name": "sucre vanillé",
+        "raw": "2 sachets de sucre vanillé"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "200 g de sucre en poudre"
+      }
+    ],
+    "steps": [
+      "1. La veille :",
+      "2. Broyer les amandes, les mélanger avec le raisin, toutes les épices, les fruits confits, les zestes et le rhum. Couvrir et laisser reposer une nuit.",
+      "3. Dans un grand saladier, délayer la levure dans une tasse de lait tiède, avec 2 cuillères à café de sucre et 3 cuillères à soupe de farine. Laisser travailler un 1/4 d’heure.",
+      "4. Ajouter le restant de farine et de sucre, pétrir avec le beurre, le reste de lait et les oeufs. Travailler la pâte jusqu’à la rendre molle et lisse (et non collante). Mêler enfin la pâte à la préparation de la veille.",
+      "5. Laisser reposer 30 mn sous un linge.",
+      "6. Partager la pâte en 3 parts égales et former 3 pâtons ovales.",
+      "7. Ouvrir chaque pâton dans le sens de la longueur à l’aide d’un couteau. Placer la pâte d’amande à l’intérieur puis rabattre le bord de la pâte.",
+      "8. Laisser reposer encore les trois pains côte à côte sur une plaque pendant 30 mn, puis cuire à feu moyen environ 1/2 heure.",
+      "9. Badigeonner les pains sortant du four avec le beurre fondu, saupoudrer de sucre vanillé, puis largement de sucre en poudre..."
+    ],
+    "tags_raw": "Stollen rhénan (pain de Noël allemand), , raisins secs, amandes, citron confit, orange, citron, sel, cannelle, couteau, muscade, anis en poudre, vanille, rhum, levure, lait, sucre, farine, beurre, oeuf, pâte d'amande, beurre, sucre vanillé, sucre en poudre, facile, moyen",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:allemand"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-balais-de-sorcieres-32719-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_balais-de-sorcieres_32719.aspx",
+    "name": "balais de sorcières",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "24",
+        "unit": "",
+        "name": "Bretzels en stick",
+        "raw": "24 Bretzels en stick"
+      },
+      {
+        "quantity": "8",
+        "unit": "",
+        "name": "fromages long à effilocher",
+        "raw": "8 fromages long à effilocher"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "bouquets de persil ou ciboulette",
+        "raw": "1/2 bouquets de persil ou ciboulette"
+      }
+    ],
+    "steps": [
+      "1. Couper les fromages longs en 3.",
+      "2. Effilocher un des côtés.",
+      "3. Planter un stick bretzel dans chacun du côté non effiloché.",
+      "4. A l'aide d'un brin de persil ou de ciboulette, sécuriser le tout en faisant un noeud."
+    ],
+    "tags_raw": "balais de sorcières, , Bretzel, fromage, persil, très facile, bon marché, rapide",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:bretzel"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bretzels-thermomix-527895-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bretzels-thermomix_527895.aspx",
+    "name": "Bretzels Thermomix",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "",
+        "name": "farine T55",
+        "raw": "500 farine T55"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "levure de boulanger fraîche",
+        "raw": "20 g de levure de boulanger fraîche"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "10 g de sucre"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "sel",
+        "raw": "10 g de sel"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "beurre mou",
+        "raw": "30 g de beurre mou"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "eau",
+        "raw": "100 g d'eau"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "lait",
+        "raw": "100 g de lait"
+      },
+      {
+        "quantity": "2",
+        "unit": "l",
+        "name": "eau",
+        "raw": "2 l d'eau"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "bicarbonate",
+        "raw": "75 g de bicarbonate"
+      },
+      {
+        "quantity": "1",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "1 jaunes d'oeuf"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "lait",
+        "raw": "2 cuillères à soupe de lait"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "gros sel",
+        "raw": "1 poignées de gros sel"
+      }
+    ],
+    "steps": [
+      "1. Versez l'eau, le lait et la levure dans le Thermomix. Faites chauffer à 36°C. Faites mélanger à vitesse pendant 2min30s",
+      "2. Ajoutez ensuite le beurre mou, le sucre et le sel. Mélangez et pétrissez la pâte pendant 3 minutes (avec le Thermomix) sur fonction pétrin (jusqu'elle soit lisse et homogène)",
+      "3. Farinez légèrement un saladier. Versez-y la pâte à bretzel et façonnez une grosse boule sans trop pétrir avec vos mains. Recouvrez d’un torchon propre et sec. Laissez lever la pâte, pendant une heure, dans un endroit sec et chaud. La pâte doit doubler de volume.",
+      "4. Farinez légèrement le plan de travail. Versez-y la pâte, puis enlevez l’air de la pâte en l’aplatissant avec vos mains. Découpez ensuite 6 bâtons (boudin) de taille identique (40-50cm).",
+      "5. Formez un U avec les bâtons, puis rabattez les extrémités vers l’intérieur pour qu’elles se croisent. Ils doivent ainsi formés un bretzel! Faîtes ainsi vos 6 bretzels.",
+      "6. Préchauffez votre four à 220°C. Dans une grande casserole, à feu vif, mettez l’eau avec le bicarbonate à ébullition. Lorsque l’eau bout, plongez les bretzels les uns après les autres, en les faisant cuire jusqu’à qu’ils remontent à la surface. Sortez-les de l’eau avec une écumoire, laissez-les égoutter sur une grille, puis disposez-les dans une plaque recouverte de papier cuisson, en veillant à bien les espacer (ils gonflent ensuite pendant la cuisson).",
+      "7. Badigeonnez les bretzels avec le jaune d’œuf mélangé au lait. Saupoudrez-les avec le gros sel, puis faites-les cuire au four, pendant 15 minutes, jusqu’à ce qu’ils soient bien dorés (Ils peuvent paraître grillés au bout de 10min mais c’est juste la dorure. Maintenant régalez-vous ! (Attention à ne pas vous brûler au début !)"
+    ],
+    "tags_raw": "Bretzels Thermomix, bretzel, farine, levure de boulanger fraîche, sucre, sel, beurre, eau, lait, facile, bon marché | bretzel",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:bretzel"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gratin-de-spatzles-au-munster-84426-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gratin-de-spatzles-au-munster_84426.aspx",
+    "name": "Gratin de spätzlés au munster",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 45,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "spätzle faits maison ou achetés",
+        "raw": "400 g de spätzle faits maison ou achetés"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "gruyère râpé",
+        "raw": "150 g de gruyère râpé"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "chapelure",
+        "raw": "50 g de chapelure"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "munsters fermier",
+        "raw": "1 munsters fermier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "crème semi-épaisse",
+        "raw": "15 cl de crème semi-épaisse"
+      },
+      {
+        "quantity": "25",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "25 g de beurre"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "lardons (allumettes)",
+        "raw": "100 g de lardons (allumettes)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      }
+    ],
+    "steps": [
+      "1. Faites préchauffer votre four à 180°, thermostat 6 pendant 10 min.",
+      "2. Faites revenir l'oignon dans une poêle avec le beurre.",
+      "3. Rajoutez les spätzlés dans la poêle jusqu'à ce qu'ils soient grillés.",
+      "4. Dans une petite casserole, faites fondre le munster avec la crème et le gruyère.",
+      "5. Dans la poêle faites revenir les lardons puis rajoutez les oignons, les spätzlés, les lardons et le munster sur le dessus.",
+      "6. Mettez le tout dans un plat à gratin, salez, poivrez et enfournez pendant 45 min.",
+      "7. Servir avec un peu de salade de saison.",
+      "8. Bon appétit."
+    ],
+    "tags_raw": "Gratin de spätzlés au munster, , spätzle, gruyère râpé, chapelure, munster, sel, poivre, crème semi-épaisse, beurre, lardons, oignon, facile, bon marché",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:spatzle"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-quiche-a-la-choucroute-et-saucisse-16280-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_quiche-a-la-choucroute-et-saucisse_16280.aspx",
+    "name": "Quiche à la choucroute et saucisse",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "choucroute cuite",
+        "raw": "400 g de choucroute cuite"
+      },
+      {
+        "quantity": "5",
+        "unit": "saucisses",
+        "name": "Strasbourg",
+        "raw": "5 saucisses de Strasbourg"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pâtes brisées ou feuilletée",
+        "raw": "1 pâtes brisées ou feuilletée"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "briquettes",
+        "name": "crème fraîche liquide (25 cl)",
+        "raw": "1 briquettes de crème fraîche liquide (25 cl)"
+      }
+    ],
+    "steps": [
+      "1. Mettre la pâte dans un moule à tarte (on peut éventuellement la faire cuire avant de mettre la garniture).",
+      "2. Mettre la choucroute avec les saucisses coupées en dés. Faire le mélange creme oeufs sel poivre mettre",
+      "3. Cette préparation sur la garniture et faire cuire (thermostat 6/7-180°C) pendant 15 à 20 mn.",
+      "4. Cela peut être servi en entrée, en apéro amélioré, ou en plat avec une salade."
+    ],
+    "tags_raw": "Quiche à la choucroute et saucisse, choucroute, choucroute, saucisse de Strasbourg, pâte brisée, oeuf, crème fraîche liquide, très facile, bon marché | choucroute",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 6,
+    "country_match_reasons": [
+      "titre:choucroute",
+      "titre:saucisse"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-rennes-de-noel-en-chamallow-529715-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_rennes-de-noel-en-chamallow_529715.aspx",
+    "name": "Rennes de Noël en chamallow",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 guimauves",
+    "servings": 10,
+    "prep_minutes": 20,
+    "cook_minutes": 0,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "chamallows",
+        "raw": "10 chamallows"
+      },
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "M&M's cacahuète Mini rouge",
+        "raw": "10 M&M's cacahuète Mini rouge"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "chocolat au lait",
+        "raw": "100 g de chocolat au lait"
+      },
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "Bretzels mini",
+        "raw": "10 Bretzels mini"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "chocolat blanc",
+        "raw": "50 g de chocolat blanc"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "chocolat noir",
+        "raw": "20 g de chocolat noir"
+      }
+    ],
+    "steps": [
+      "1. Pour les yeux : déposer une goutte de chocolat blanc fondu sur une plaque de pâtisserie recouverte de feuille de papier cuisson, répéter l’opération 20 fois.",
+      "2. Taper la plaque sur le plan de travail pour obtenir des contours nets.",
+      "3. A l'aide d'un cure-dent, prélever une petite quantité de chocolat noir et la déposer une goutte de chocolat noir sur les formes en chocolat blanc. Placer au réfrigérateur 20 minutes.",
+      "4. Faire fondre le chocolat au lait.",
+      "5. Piquer un marshmallow sur un des bâtonnets. Tremper dans le chocolat fondu.",
+      "6. Déposer les yeux, le nez en m&amp;m’s puis les cornes en bretzel sur les côtés en les cassant en deux au milieu. Laisser prendre 5 minutes au frigo pour que les éléments se maintiennent."
+    ],
+    "tags_raw": "Rennes de Noël en chamallow, guimauve, chamallow, M&M's cacahuète, chocolat au lait, Bretzel, facile, bon marché, rapide | guimauve",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:bretzel"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-sucettes-pop-au-fromage-et-au-bacon-532606-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_sucettes-pop-au-fromage-et-au-bacon_532606.aspx",
+    "name": "Sucettes pops au fromage et au bacon",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 8,
+    "cook_minutes": 0,
+    "total_minutes": 8,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "fromage frais",
+        "raw": "200 g de fromage frais"
+      },
+      {
+        "quantity": "5",
+        "unit": "tranches",
+        "name": "bacon",
+        "raw": "5 tranches de bacon"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "ciboulette",
+        "raw": "1 bouquets de ciboulette"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "piment",
+        "raw": "1 pincées de piment"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Bretzel bâtons",
+        "raw": "Bretzel bâtons"
+      }
+    ],
+    "steps": [
+      "1. Avec les mains, façonner des boules de fromage frais.",
+      "2. Couper en petits dés les tranches de bacon grillé ainsi que la ciboulette.",
+      "3. Planter un bâton de bretzel au centre de la boule de fromage frais, puis les rouler dans le mélange bacon et ciboulette.",
+      "4. Ajoutez une petite pincée de piment sur vos boules."
+    ],
+    "tags_raw": "Sucettes pops au fromage et au bacon, apéritif ou buffet, fromage frais, bacon, ciboulette, piment, Bretzel, très facile, bon marché, rapide | apéritif ou buffet",
+    "country": "allemagne",
+    "country_label": "Allemagne",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:bretzel"
+    ]
+  }
+]

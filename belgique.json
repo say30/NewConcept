@@ -1,0 +1,3339 @@
+[
+  {
+    "id": "https-www-marmiton-org-recettes-recette-la-pate-de-speculoos-belge-221653-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_la-pate-de-speculoos-belge_221653.aspx",
+    "name": "La pâte de spéculoos belge",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 pots",
+    "servings": 3,
+    "prep_minutes": 15,
+    "cook_minutes": 3,
+    "total_minutes": 18,
+    "ingredients": [
+      {
+        "quantity": "450",
+        "unit": "g",
+        "name": "lait concentré sucré",
+        "raw": "450 g de lait concentré sucré"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "spéculoos",
+        "raw": "300 g de spéculoos"
+      },
+      {
+        "quantity": "160",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "160 g de beurre"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à café",
+        "name": "jus de citron",
+        "raw": "3 cuillères à café de jus de citron"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "1.5 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "feuilles",
+        "name": "Gélatine",
+        "raw": "1.5 feuilles de Gélatine"
+      }
+    ],
+    "steps": [
+      "1. Ramollir la gélatine (ou de l'agar-agar) dans de l'eau.",
+      "2. Mixer les biscuits en poudre fine.",
+      "3. Faire fondre le beurre et l'huile.",
+      "4. Mélanger le lait aux biscuits. Ajouter le mélange beurre-huile.",
+      "5. Chauffer doucement le jus de citron, et y dissoudre la gélatine.",
+      "6. L'ajouter à la mixture et bien mélanger.",
+      "7. Mettre en pots.",
+      "8. Une fois ouverts, les conserver au frigo."
+    ],
+    "tags_raw": "La pâte de spéculoos belge, speculoos, lait concentré sucré, spéculoos, beurre, jus de citron, huile, Gélatine, facile, bon marché, rapide | speculoos",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 19,
+    "country_match_reasons": [
+      "titre:belge",
+      "titre:speculoos belge",
+      "titre:speculoos"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-speculoos-belgique-14062-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_speculoos-belgique_14062.aspx",
+    "name": "Speculoos (Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 15,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine",
+        "raw": "500 g de farine"
+      },
+      {
+        "quantity": "375",
+        "unit": "g",
+        "name": "cassonade",
+        "raw": "375 g de cassonade"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "250 g de beurre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "cannelle",
+        "raw": "1/2 cuillères à café de cannelle"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à café d'épices (anis, clous de girofle, muscade, gincembre)",
+        "raw": "1 cuillères à café d'épices (anis, clous de girofle, muscade, gincembre)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "amandes en poudre",
+        "raw": "100 g d'amandes en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "levure chimique",
+        "raw": "1 cuillères à café de levure chimique"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      }
+    ],
+    "steps": [
+      "1. Mélanger le tout et laisser reposer dans un endroit sec et frais jusqu'au lendemain.",
+      "2. Rouler la pâte finement, découper des formes. Les poser sur a plaque de cuisson.",
+      "3. Cuire 15 min à feu doux."
+    ],
+    "tags_raw": "Speculoos (Belgique), speculoos, farine, cassonade, beurre, cannelle, épices, oeuf, amandes, levure chimique, sel, très facile, bon marché | speculoos",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:belgique",
+      "titre:speculoos"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-les-carbonnades-de-la-mere-patoche-56798-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_les-carbonnades-de-la-mere-patoche_56798.aspx",
+    "name": "les carbonnades de la mère Patoche",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 3,
+    "total_minutes": 33,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "demis",
+        "name": "beurre et une demi CS de margarine",
+        "raw": "1 demis de beurre et une demi CS de margarine"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "kg",
+        "name": "boeuf",
+        "raw": "1.5 kg de boeuf"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons (moyens)",
+        "raw": "2 oignons (moyens)"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "3 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouteilles",
+        "name": "bière 33 cl \"FRUIT DEFENDU\" (c'est une bière brune assez forte de Belgique et on la trouve en France)",
+        "raw": "1 bouteilles de bière 33 cl \"FRUIT DEFENDU\" (c'est une bière brune assez forte de Belgique et on la trouve en France)"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "carottes",
+        "raw": "4 carottes"
+      },
+      {
+        "quantity": "3",
+        "unit": "tranches",
+        "name": "pain d'épices sucré",
+        "raw": "3 tranches de pain d'épices sucré"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre blanc",
+        "raw": "poivre blanc"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "bonnes pincées d'épices \"",
+        "raw": "2 bonnes pincées d'épices \""
+      }
+    ],
+    "steps": [
+      "1. Mettre le beurre et la margarine à chauffer (le mélange doit se colorer et être vraiment très chaud).",
+      "2. Y faire saisir la viande de tous les cotés pendant quelques minutes.",
+      "3. Ajouter les oignons émincés, mélanger le tout et laisser cuire jusqu'à ce que les oignons deviennent plus transparents.",
+      "4. Pendant la cuisson, ajouter le sel, le poivre et le mélange 5 épices.",
+      "5. Retirer du feu pour saupoudrer de farine et mélanger bien le tout.",
+      "6. Ajouter directement la bouteille de bière et les carottes coupées en rondelles.",
+      "7. Remettre à chauffer et quand la bière est bien chaude, ajouter les tranches de pain d'épice par dessus tout.",
+      "8. Baisser maintenant votre source de chaleur (3) et laisser mijoter pendant des heures à semi-découvert la première heure et à découvert ensuite.",
+      "9. Plus vous laissez mijoter, meilleur ce sera (moi j'essaie souvent 6 à 7 h) !"
+    ],
+    "tags_raw": "les carbonnades de la mère Patoche, carbonade, beurre, boeuf, oignon, farine, bière, carotte, pain d'épices, poivre, sel, épices, très facile, bon marché, rapide | carbonade",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 10,
+    "country_match_reasons": [
+      "ingredient:belgique",
+      "combinaison:biere boeuf",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-carbonnade-flamande-169399-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_carbonnade-flamande_169399.aspx",
+    "name": "Carbonnade Flamande",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 120,
+    "total_minutes": 145,
+    "ingredients": [
+      {
+        "quantity": "6",
+        "unit": "tranches",
+        "name": "pain d'épices",
+        "raw": "6 tranches de pain d'épices"
+      },
+      {
+        "quantity": "40",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "40 g de beurre"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "kg",
+        "name": "gîte de boeuf",
+        "raw": "1.5 kg de gîte de boeuf"
+      },
+      {
+        "quantity": "700",
+        "unit": "g",
+        "name": "oignon",
+        "raw": "700 g d'oignon"
+      },
+      {
+        "quantity": "25",
+        "unit": "g",
+        "name": "sucre roux",
+        "raw": "25 g de sucre roux"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "farine",
+        "raw": "30 g de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "l",
+        "name": "bière blonde ou ambrée",
+        "raw": "1 l de bière blonde ou ambrée"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "thym",
+        "raw": "thym"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "laurier",
+        "raw": "laurier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "moutarde",
+        "raw": "moutarde"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "vinaigre",
+        "raw": "10 g de vinaigre"
+      }
+    ],
+    "steps": [
+      "1. Faire fondre le beurre, ajouter le bœuf coupé en morceau (5cm) et laissez colorer les deux faces",
+      "2. Retirer la viande et dans le beurre de cuisson ajouter et laisser colorer les oignon, saupoudrer de sucre et de farine.",
+      "3. Laisser caraméliser.",
+      "4. Mouiller avec la bière.",
+      "5. Porter à ébullition sans cesser de remuer,",
+      "6. Ajouter la viande, le thym, le laurier, une partie du persil, le vinaigre, sel, poivre.",
+      "7. Couvrir et laisser mijoter à feu doux 45min.",
+      "8. Ajouter les tartines de pain d'épices moutardé et laisser encore 90min."
+    ],
+    "tags_raw": "Carbonnade Flamande, carbonade, pain d'épices, beurre, gîte, oignon, sucre roux, farine, bière blonde, thym, laurier, persil, poivre, sel, moutarde, vinaigre, facile, moyen | carbonade",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:carbonnade flamande",
+      "ingredient:biere blonde"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-carbonnade-flamande-de-belle-maman-222664-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_carbonnade-flamande-de-belle-maman_222664.aspx",
+    "name": "Carbonnade Flamande de Belle-Maman",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 210,
+    "total_minutes": 240,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "75",
+        "unit": "cl",
+        "name": "bière blonde",
+        "raw": "75 cl de bière blonde"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "boeuf",
+        "raw": "1 kg de boeuf"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bouquets garnis",
+        "raw": "1 bouquets garnis"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "cassonade",
+        "raw": "1 cuillères à soupe de cassonade"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de tournesol",
+        "raw": "2 cuillères à soupe d'huile de tournesol"
+      },
+      {
+        "quantity": "25",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "25 g de beurre"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "moutarde de Dijon",
+        "raw": "4 cuillères à soupe de moutarde de Dijon"
+      },
+      {
+        "quantity": "350",
+        "unit": "g",
+        "name": "oignon",
+        "raw": "350 g d'oignon"
+      },
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "pain rassis",
+        "raw": "4 tranches de pain rassis"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "vinaigre de vin",
+        "raw": "2 cuillères à soupe de vinaigre de vin"
+      }
+    ],
+    "steps": [
+      "1. Détailler la viande en gros cubes. Peler et couper les oignons en fines rondelles. Peler et écraser la gousse d’ail.",
+      "2. Dans une cocotte, faire chauffer l’huile. Faire revenir la viande pendant 5 min. Saler et poivrer. Réserver.",
+      "3. Dans la même cocotte, faire fondre le beurre et dorer les oignons pendant 15 min. Lorsqu’ils sont bien colorés, ajouter le vinaigre et la cassonade. Laisser cuire environ 10 min.",
+      "4. Ajouter la viande, l’ail écrasé, le bouquet garni et mouiller à la bière qui doit arriver au niveau de la viande.",
+      "5. Badigeonner de moutarde les tranches de pain de chaque côté. Mettre le pain dans la cocotte.",
+      "6. Porter à ébullition. Aux premiers bouillons, couvrir et baisser le feu. Laisser mijoter à feu doux pendant 3 heures.",
+      "7. Servir accompagné de frites ou de pommes de terre."
+    ],
+    "tags_raw": "Carbonnade Flamande de Belle-Maman, carbonade, ail, bière blonde, boeuf, bouquet garni, cassonade, huile de tournesol, beurre, moutarde de Dijon, oignon, pain, sel, poivre, vinaigre de vin, facile, bon marché | carbonade",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:carbonnade flamande",
+      "ingredient:biere blonde"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-asperges-a-la-flamande-recette-belge-bien-connue-22061-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_asperges-a-la-flamande-recette-belge-bien-connue_22061.aspx",
+    "name": "Asperges à la Flamande (Recette belge bien connue)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 personne",
+    "servings": 1,
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "8",
+        "unit": "",
+        "name": "asperges (ou 6 grosses asperges blanches)",
+        "raw": "8 asperges (ou 6 grosses asperges blanches)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "asperges vertes pour la décoration",
+        "raw": "1 asperges vertes pour la décoration"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil haché",
+        "raw": "persil haché"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel de mer et poivre du moulin (c'est toujours meilleur!)",
+        "raw": "sel de mer et poivre du moulin (c'est toujours meilleur!)"
+      }
+    ],
+    "steps": [
+      "1. Peler les asperges (mais pas les vertes), et casser le bout (que vous pouvez garder pour en faire un potage).",
+      "2. Cuire les asperges dans l'eau bouillante salée (les blanches environ 15 à 20 min, et les vertes 8 à 10 min).",
+      "3. Les piquer avec un couteau, pour vérifier la cuisson.",
+      "4. Faire cuire les oeufs 9 à 10 min, afin qu'ils soient durs.",
+      "5. Hacher le persil.",
+      "6. Faire fondre le beurre à feu doux.",
+      "7. Ecraser les oeufs durs à la fourchette. Mélanger le beurre fondu avec le persil. Et bien assaisonner le mélange.",
+      "8. Placer les asperges en éventail sur une assiette (chaude de préférence).",
+      "9. Sur le bas des asperges, disposer le mélange oeufs, beurre et persil.",
+      "10. Couper, dans le sens de la longueur, les asperges vertes que vous placerez sur l'assiette pour la déco."
+    ],
+    "tags_raw": "Asperges à la Flamande (Recette belge bien connue), entrée facile, asperges, asperges, oeuf, beurre, persil, sel, très facile, moyen | entrée facile",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belge"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-boulettes-sauce-tomate-belgique-31946-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_boulettes-sauce-tomate-belgique_31946.aspx",
+    "name": "Boulettes sauce tomate (Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 25,
+    "cook_minutes": 40,
+    "total_minutes": 65,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "viande hachée de veau et de porc",
+        "raw": "500 g de viande hachée de veau et de porc"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "1 jaunes d'oeuf"
+      },
+      {
+        "quantity": "5",
+        "unit": "cuillères à soupe",
+        "name": "chapelure",
+        "raw": "5 cuillères à soupe de chapelure"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "2",
+        "unit": "pincées",
+        "name": "muscade moulue",
+        "raw": "2 pincées de muscade moulue"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "beurre",
+        "raw": "beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "coulis",
+        "name": "tomate",
+        "raw": "1 coulis de tomate"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "échalotes",
+        "raw": "1 échalotes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "origan",
+        "raw": "origan"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "basilic",
+        "raw": "basilic"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "laurier",
+        "raw": "laurier"
+      }
+    ],
+    "steps": [
+      "1. Mettre le haché dans un plat.",
+      "2. Peler et hacher finement la gousse d'ail.",
+      "3. Ajouter l'ail, le jaune l'oeuf et la chapelure au haché, saler, poivrer et ajouter la noix de muscade. Bien mélanger le tout avec les mains. Former des boulettes.",
+      "4. Faire fondre un peu de beurre dans une poêle et faire dorer les boulettes.",
+      "5. Pendant ce temps, faire rissoler l'échalote finement hachée dans un petit morceau de beurre et ajouter le coulis de tomates.",
+      "6. Assaisonner de sel, poivre, origan, basilic et laurier.",
+      "7. Déposer les boulettes dans la sauce tomate et faire mijoter pendant 30 à 40 minutes.",
+      "8. Accompagner de frites, bien sûr!"
+    ],
+    "tags_raw": "Boulettes sauce tomate (Belgique), boulettes de viande, viande hachée, ail, jaune d'oeuf, chapelure, poivre, sel, muscade, beurre, coulis de tomate, échalote, origan, basilic, laurier, très facile, bon marché | boulettes de viande",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-carbonade-flamande-belgique-13458-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_carbonade-flamande-belgique_13458.aspx",
+    "name": "Carbonade Flamande (belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 personnes",
+    "servings": 3,
+    "prep_minutes": 30,
+    "cook_minutes": 120,
+    "total_minutes": 150,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "noix",
+        "name": "beurre",
+        "raw": "1 noix de beurre"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "boeuf",
+        "raw": "500 g de boeuf"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "pain d'épices (sans morceaux de sucre)",
+        "raw": "4 tranches de pain d'épices (sans morceaux de sucre)"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "bière de table (ou de Gueuze)",
+        "raw": "50 cl de bière de table (ou de Gueuze)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faire revenir dans une casserole la carbonnade de boeuf, lorsque les morceaux sont saisis, déverser la bière et ajouter les oignons coupé en lamelle.",
+      "2. Saler, poivrer et laisser mijoter à couvert 1/2 heure.Ensuite, placer les tranches de pain d'épice sur la préparation (sans les casser ni les mélanger) et laisser mijoter à petit feu pendant minimum 1h30.",
+      "3. Lorsque le temps est écoulé, mélanger et rectifier l'assaisonnement."
+    ],
+    "tags_raw": "Carbonade Flamande (belgique), carbonade, beurre, boeuf, oignon, pain d'épices, bière, poivre, sel, très facile, bon marché | carbonade",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-carbonade-flamande-belgique-18406-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_carbonade-flamande-belgique_18406.aspx",
+    "name": "Carbonade flamande simple (Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 30,
+    "cook_minutes": 120,
+    "total_minutes": 150,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "boeuf à braiser",
+        "raw": "3 boeuf à braiser"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons hachés",
+        "raw": "3 oignons hachés"
+      },
+      {
+        "quantity": "8",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "8 pommes de terre"
+      },
+      {
+        "quantity": "1",
+        "unit": "canettes",
+        "name": "bière (type 'Trappiste')",
+        "raw": "1 canettes de bière (type 'Trappiste')"
+      }
+    ],
+    "steps": [
+      "1. Faire revenir la viande dans une poêle.",
+      "2. Enlever la viande.",
+      "3. Dans le même poêle, faire blondir les oignons, puis ajouter la bière.",
+      "4. Mettre la viande, les oignons et la sauce dans une casserole épaisse.",
+      "5. Placer les pommes de terre au sommet et laisser cuire, à feu doux, pendant 2 heures."
+    ],
+    "tags_raw": "Carbonade flamande simple (Belgique), carbonade, boeuf, oignon, pomme de terre, canette, très facile, bon marché | carbonade",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-carbonade-a-la-chouffe-belgique-11349-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_carbonade-a-la-chouffe-belgique_11349.aspx",
+    "name": "Carbonade à la Chouffe (Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 40,
+    "cook_minutes": 120,
+    "total_minutes": 160,
+    "ingredients": [
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "boeuf (collier, épaule,...)",
+        "raw": "600 g de boeuf (collier, épaule,...)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "bière \"Chouffe\"",
+        "raw": "25 cl de bière \"Chouffe\""
+      },
+      {
+        "quantity": "1",
+        "unit": "cubes",
+        "name": "bouillon de boeuf",
+        "raw": "1 cubes de bouillon de boeuf"
+      },
+      {
+        "quantity": "1",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "1 feuilles de laurier"
+      },
+      {
+        "quantity": "3",
+        "unit": "clous",
+        "name": "girofle",
+        "raw": "3 clous de girofle"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sirop de Liège (à tartiner)",
+        "raw": "1 cuillères à soupe de sirop de Liège (à tartiner)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "farine",
+        "raw": "farine"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre .",
+        "raw": "poivre ."
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Plat mijoté à la Chouffe,  bière spéciale de Houffalize (Ardennes Belges) !",
+      "2. Dans une cocotte en fonte, faire colorer le boeuf coupé en cubes, dans un peu de beurre.",
+      "3. Saler, poivrer, et retirer la viande.",
+      "4. Jeter les 2 oignons hachés grossièrement, dans la cocotte jusqu'à ce qu'ils dorent.",
+      "5. Verser la bière pour déglacer les sucs de cuisson, remettre la viande, le laurier, clous de girofle, et le cube de bouillon.",
+      "6. Ajouter de l'eau, pour couvrir (à peine) la viande.",
+      "7. Saupoudrer de farine, et laisser mijoter au moins 2 h, à feu très doux.",
+      "8. Avant de servir, ajouter le sirop de Liège, rectifier, et lier la sauce.",
+      "9. Servir avec des pommes de terre, et une compote de pommes."
+    ],
+    "tags_raw": "Carbonade à la Chouffe (Belgique), carbonade, boeuf, oignon, bière, cube de bouillon, feuille de laurier, clou de girofle, sirop de Liège, farine, poivre, sel, moyenne, moyen | carbonade",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-carbonnade-flamande-a-ma-facon-36287-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_carbonnade-flamande-a-ma-facon_36287.aspx",
+    "name": "Carbonnade flamande à ma façon",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 180,
+    "total_minutes": 195,
+    "ingredients": [
+      {
+        "quantity": "750",
+        "unit": "g",
+        "name": "macreuse (viande de boeuf type pour bourguignon)",
+        "raw": "750 g de macreuse (viande de boeuf type pour bourguignon)"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons émincés",
+        "raw": "3 oignons émincés"
+      },
+      {
+        "quantity": "2",
+        "unit": "tranches",
+        "name": "pain d'épices",
+        "raw": "2 tranches de pain d'épices"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "cassonade ou vergeoise",
+        "raw": "3 cuillères à soupe de cassonade ou vergeoise"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "lardons allumettes",
+        "raw": "250 g de lardons allumettes"
+      },
+      {
+        "quantity": "2",
+        "unit": "tranches",
+        "name": "pain blanc couvertes abondamment de moutarde à l'ancienne",
+        "raw": "2 tranches de pain blanc couvertes abondamment de moutarde à l'ancienne"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "baies roses",
+        "raw": "10 baies roses"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "moutarde",
+        "raw": "1 cuillères à café de moutarde"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "bière brune (Chimay Bleue)",
+        "raw": "2 bière brune (Chimay Bleue)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "beurre salé",
+        "raw": "2 cuillères à soupe de beurre salé"
+      },
+      {
+        "quantity": "2",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "2 feuilles de laurier"
+      },
+      {
+        "quantity": "1",
+        "unit": "branches",
+        "name": "thym",
+        "raw": "1 branches de thym"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail taillées en lamelles",
+        "raw": "2 gousses d'ail taillées en lamelles"
+      }
+    ],
+    "steps": [
+      "1. Dans une cocotte-minute, mettre le beurre et l'huile d'olive.",
+      "2. Quand c'est chaud, ajouter la viande coupée en morceaux de 4 cm environ, les faire rôtir.",
+      "3. Ajouter les lardons et les oignons émincés, ne pas les noircir, ils doivent rester blonds.",
+      "4. Jeter en pluie la cassonade, et remuer parfaitement.",
+      "5. Tartiner les tranches de pain avec la moutarde, et poser sur la viande coté moutarde, remuer doucement.",
+      "6. Verser les 2 bouteilles de chimay.",
+      "7. Couper en gros morceaux le pain d'épice, l'ajouter à la préparation, saler et poivrer, mettre les baies roses, le laurier, le thym, l'ail.",
+      "8. Fermer la cocotte minute, et faire cuire à feu doux 3 h, à partir de la rotation de la soupape. Attention, il ne faut pas être en contact direct avec la flamme, placer un diffuseur de chaleur entre la flamme et la cocotte.",
+      "9. Servir accompagné de pommes de terre."
+    ],
+    "tags_raw": "Carbonnade flamande à ma façon, carbonade, macreuse, oignon, pain d'épices, cassonade, lardons, pain, poivre, sel, baies roses, moutarde, bière brune, huile d'olive, beurre salé, feuille de laurier, thym, ail, moyenne, bon marché | carbonade",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:carbonnade flamande"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-choux-rouge-aux-pommes-et-cote-de-porc-belgique-16297-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_choux-rouge-aux-pommes-et-cote-de-porc-belgique_16297.aspx",
+    "name": "Choux rouge aux pommes et côte de porc (Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "choux rouge",
+        "raw": "1 choux rouge"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "pommes à cuire",
+        "raw": "2 pommes à cuire"
+      },
+      {
+        "quantity": "3",
+        "unit": "tranches",
+        "name": "lard entrelardé pas trop fines",
+        "raw": "3 tranches de lard entrelardé pas trop fines"
+      },
+      {
+        "quantity": "5",
+        "unit": "pommes",
+        "name": "terre moyennes",
+        "raw": "5 pommes de terre moyennes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre fin",
+        "raw": "100 g de sucre fin"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "côtes de porc",
+        "raw": "6 côtes de porc"
+      }
+    ],
+    "steps": [
+      "1. Couper et laver le choux rouge, puis laver et éplucher les pommes de terre. Ensuite, brunir les tranches de lard et retirer du feux une fois brunies.",
+      "2. Cuire à feu vif le choux rouge pendant 5 mn, puis les retirer du feu. Y ajouter les pommes de terre coupées en gros dés, les morceaux de lard entrelardé, le sucre, le sel, puis mouiller deau jusqu'à couvrir l'ensemble.",
+      "3. Faites cuire 1h. Pendant ce temps, cuire les côtes de porc.",
+      "4. Apres l'heure de cuisson, ajouter les pommes coupées en quatre et laissez de nouveaux cuire 30 mn. S'il reste trop d'eau à la fin de la cuisson, la retirer.",
+      "5. Attention à prévoir une casserole assez grande."
+    ],
+    "tags_raw": "Choux rouge aux pommes et côte de porc (Belgique), côtelettes, chou, pomme, lard, pomme de terre, sel, sucre fin, côte de porc, très facile, moyen | côtelettes",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-croquettes-aux-crevettes-grises-comme-en-belgique-22661-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_croquettes-aux-crevettes-grises-comme-en-belgique_22661.aspx",
+    "name": "Croquettes aux crevettes grises (comme en Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 20,
+    "cook_minutes": 7,
+    "total_minutes": 27,
+    "ingredients": [
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "crevette grise épluchées",
+        "raw": "250 g de crevette grise épluchées"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "60 g de beurre"
+      },
+      {
+        "quantity": "15",
+        "unit": "g",
+        "name": "Gélatine (en feuilles)",
+        "raw": "15 g de Gélatine (en feuilles)"
+      },
+      {
+        "quantity": "40",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "40 cl de lait"
+      },
+      {
+        "quantity": "5",
+        "unit": "cl",
+        "name": "crème fraîche",
+        "raw": "5 cl de crème fraîche"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "chapelure",
+        "raw": "100 g de chapelure"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "farine",
+        "raw": "150 g de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "maïzena",
+        "raw": "1 cuillères à soupe de maïzena"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "boîte de homard",
+        "raw": "boîte de homard"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faire ramollir la gélatine dans l'eau froide.",
+      "2. Séparer les jaunes d’œufs, et les battre avec la crème fraîche.",
+      "3. Réserver les blancs d’œufs.",
+      "4. Préparer la béchamel avec le beurre, 60 g de farine, la maïzéna, et le lait.",
+      "5. Ajouter la gélatine, lorsque la sauce est bien épaisse (si vous avez optez pour la bisque de homard - ce qui affine nettement le goût- , ajoutez 2 cuillères à soupe de bisque non diluée.",
+      "6. Saler modérément, poivrer généreusement (sans excès bien sûr), et hors du feu ajouter la crème et les jaunes d’œufs.",
+      "7. Incorporer les crevettes, vérifier l'assaisonnement, et verser le mélange dans un plat rectangulaire huilé.",
+      "8. Laisser reposer une douzaine d'heures au frigo....",
+      "9. Battre les blancs d’œufs à la fourchette.",
+      "10. Découper des portions de pâte, les fariner, les passer au blanc d’œuf et puis dans la chapelure.",
+      "11. Les croquettes peuvent encore reposer quelques heures au frigo (et même éventuellement être surgelées).",
+      "12. Les cuire dans une friture à 180°C, et servir avec du persil frit et des quartiers de citron."
+    ],
+    "tags_raw": "Croquettes aux crevettes grises (comme en Belgique), crevettes, crevette grise, beurre, Gélatine, lait, crème fraîche, oeuf, chapelure, farine, maïzena, homard, citron, persil, poivre, sel, facile, moyen, rapide | crevettes",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-croquettes-de-fromage-a-la-belge-227597-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_croquettes-de-fromage-a-la-belge_227597.aspx",
+    "name": "Croquettes de fromage à la belge",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "30 croquettes",
+    "servings": 30,
+    "prep_minutes": 120,
+    "cook_minutes": 5,
+    "total_minutes": 125,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "l",
+        "name": "lait entier",
+        "raw": "1 l de lait entier"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "fromage en morceaux ou râpés (traditionnellement 250 g de parmesan et 250 g d'emmental ou de comté, recette possible avec des crevettes ou encore des asperges)",
+        "raw": "500 g de fromage en morceaux ou râpés (traditionnellement 250 g de parmesan et 250 g d'emmental ou de comté, recette possible avec des crevettes ou encore des asperges)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "muscade",
+        "raw": "muscade"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "farine",
+        "raw": "200 g de farine"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "200 g de beurre"
+      },
+      {
+        "quantity": "6",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "6 jaunes d'oeuf"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "crème fraîche",
+        "raw": "100 g de crème fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "farine",
+        "raw": "farine"
+      },
+      {
+        "quantity": "6",
+        "unit": "blancs",
+        "name": "oeuf",
+        "raw": "6 blancs d'oeuf"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "2 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "verres d'eau",
+        "raw": "1/2 verres d'eau"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "chapelure (pour un meilleur résultat passer au moulin du pain sec)",
+        "raw": "chapelure (pour un meilleur résultat passer au moulin du pain sec)"
+      }
+    ],
+    "steps": [
+      "1. Pour la pâte :",
+      "2. 1)Dans un grand bol, mélanger les jaunes d'oeufs et la crème. Laisser de côté.",
+      "3. 2)Puis, faire un roux : dans une casserole à feux moyen, faire fondre le beurre puis y ajouter la farine.",
+      "4. 3)Ajouter ensuite le lait entier petit à petit sans s'arrêter de mélanger jusqu'à l'obtention d'une béchamel épaisse comme une purée.",
+      "5. 4)Tout en mélangeant à la spatule, ajouter le fromage (ou les crevettes ou les asperges cuisinées et préparées).",
+      "6. 5)Hors du feu, ajouter le mélange 1) (jaunes d’œufs et crème fraîche)",
+      "7. 6)Pour des croquettes carrées: Étaler cette préparation dans un plat carré huilé (type plaque à rôtir) sur environ deux centimètres d'épaisseur et faire refroidir au frigo.",
+      "8. Pour des croquettes rondes : mettre la pâte dans un grand saladier au frigo",
+      "9. Façonnage des croquettes:",
+      "10. Pour des croquettes carrée, découper la pâte démoulée du plat à rôtir.",
+      "11. Pour des croquettes rondes, utiliser une cuillère à glace ou à soupe.",
+      "12. Préparer le pané à l'anglaise: une assiette de farine, une assiette de blanc à l'anglaise (blancs d'oeufs + 2 cuillères à soupe d'huile + 1/2verre d'eau + sel + poivre), et enfin une assiette de chapelure.",
+      "13. Passer la croquette dans chaque assiette, dans cet ordre.",
+      "14. Faire deux fois sans oublier de bien secouer la croquette à chaque étape.",
+      "15. Les croquettes peuvent être ensuite congelées.",
+      "16. Pour la cuisson: dans l'huile chaude (180°C) d'une poêle ou d'une friteuse, jusqu’à ce que la croquette soit bien dorée."
+    ],
+    "tags_raw": "Croquettes de fromage à la belge, , lait entier, fromage, poivre, sel, muscade, farine, beurre, jaune d'oeuf, crème fraîche, moyenne, moyen, rapide",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belge"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-endives-chicons-au-gratin-belgique-27819-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_endives-chicons-au-gratin-belgique_27819.aspx",
+    "name": "Endives / chicons au gratin (Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 45,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "endives (endives)",
+        "raw": "4 endives (endives)"
+      },
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "jambon (une tranche par chicon)",
+        "raw": "4 tranches de jambon (une tranche par chicon)"
+      },
+      {
+        "quantity": "40",
+        "unit": "g",
+        "name": "farine",
+        "raw": "40 g de farine"
+      },
+      {
+        "quantity": "40",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "40 g de beurre"
+      },
+      {
+        "quantity": "60",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "60 cl de lait"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "muscade",
+        "raw": "muscade"
+      }
+    ],
+    "steps": [
+      "1. Préparez une grande quantité de sauce béchamel. N'hésitez pas sur le noix de muscade en assaisonnant.",
+      "2. Enroulez chaque chicon dans une tranche de jambon et disposez-les dans le plat. Prévoyez 2 chicons par personne.",
+      "3. Remplissez le plat avec la sauce.",
+      "4. Saupoudrez de gruyère râpé.",
+      "5. Hop au four 180°C pendant 45 min.",
+      "6. Servez avec une purée maison éventuellement gratinée elle aussi."
+    ],
+    "tags_raw": "Endives / chicons au gratin (Belgique), , endive, jambon, farine, beurre, lait, poivre, sel, muscade, facile, bon marché",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-etuves-belgique-42508-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_etuves-belgique_42508.aspx",
+    "name": "Etuvés (Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "saucisses fumées",
+        "raw": "6 saucisses fumées"
+      },
+      {
+        "quantity": "6",
+        "unit": "tranches",
+        "name": "lard (assez épaisses)",
+        "raw": "6 tranches de lard (assez épaisses)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pomme de terre fermes (même quantité qu'en accompagnement)",
+        "raw": "pomme de terre fermes (même quantité qu'en accompagnement)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "farine",
+        "raw": "farine"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "thym et laurier",
+        "raw": "thym et laurier"
+      }
+    ],
+    "steps": [
+      "1. Faire fricasser le lard dans une casserole en fonte. Ajouter les oignons.",
+      "2. Délayer la farine dans de l'eau, et verser dans la casserole.",
+      "3. Ajouter les pommes de terre épluchées, et coupées en 4.",
+      "4. Mettre les saucisses fumées dans la casserole. Saler, poivrer, ajouter du thym et du laurier.",
+      "5. Laisser mijoter, jusqu'à ce que les pommes de terre soit cuites.",
+      "6. Rajouter de l'eau si besoin, pour avoir la quantité de sauce voulue."
+    ],
+    "tags_raw": "Etuvés (Belgique), , saucisse, lard, oignon, pomme de terre, farine, poivre, sel, thym, très facile, bon marché",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-filet-de-saumon-en-waterzooi-19216-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_filet-de-saumon-en-waterzooi_19216.aspx",
+    "name": "Filet de saumon en waterzooi",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 5,
+    "cook_minutes": 30,
+    "total_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "julienne de légumes frais",
+        "raw": "1 sachets de julienne de légumes frais"
+      },
+      {
+        "quantity": "2",
+        "unit": "cubes",
+        "name": "bouillon de poisson",
+        "raw": "2 cubes de bouillon de poisson"
+      },
+      {
+        "quantity": "4",
+        "unit": "filets",
+        "name": "saumon",
+        "raw": "4 filets de saumon"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "1 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "2",
+        "unit": "dl",
+        "name": "crème fraîche",
+        "raw": "2 dl de crème fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faites blanchir 1 oignon haché.",
+      "2. Ajoutez 1 sachet de 500 g de julienne de légumes.",
+      "3. Couvrez d'eau et ajoutez 2 cubes de bouillon de poisson. Laissez mijoter 20 mn.",
+      "4. Salez et poivrez les 4 filets de saumon et ajoutez-les dans la casserole et prolongez la cuisson de 10 mn.",
+      "5. Délayez 1 cuillère à soupe de farine dans 2 dl de crème fraîche. Versez-les dans la préparation et mélangez.",
+      "6. Accompagnez ce waterzooi de poisson de riz ou de pommes frites.",
+      "7. Bon appétit !"
+    ],
+    "tags_raw": "Filet de saumon en waterzooi, filets de poisson, oignon, julienne, cube de bouillon, saumon, farine, crème fraîche, poivre, sel, très facile, moyen | filets de poisson",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:waterzooi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-galettes-de-liege-a-la-noix-de-coco-belgique-47376-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_galettes-de-liege-a-la-noix-de-coco-belgique_47376.aspx",
+    "name": "Galettes de Liège à la noix de coco (Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "15 biscuits",
+    "servings": 15,
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "farine",
+        "raw": "250 g de farine"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "100 g de beurre"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "sucre en poudre",
+        "raw": "125 g de sucre en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "lait",
+        "raw": "1 cuillères à soupe de lait"
+      },
+      {
+        "quantity": "15",
+        "unit": "g",
+        "name": "levure en poudre",
+        "raw": "15 g de levure en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "1 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "sucre vanillé",
+        "raw": "1 sachets de sucre vanillé"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "noix de coco rapée",
+        "raw": "100 g de noix de coco rapée"
+      },
+      {
+        "quantity": "1",
+        "unit": "pots",
+        "name": "confiture d'abricot",
+        "raw": "1 pots de confiture d'abricot"
+      }
+    ],
+    "steps": [
+      "1. Mélanger la farine avec la levure et les sucres.",
+      "2. Faire une fontaine au milieu et y ajouter l'oeuf et le beurre légèrement fondu.",
+      "3. Bien mélanger jusqu'à obtention d'une pâte épaisse et lisse, puis délayer avec le lait.",
+      "4. Préchauffer le four à 180°C (thermostat 6).",
+      "5. Former à l'aide de 2 cuillères à café des petites boules de pâte et les répartir sur une grille préalablement recouverte de papier cuisson (ne pas former de trop grosses galettes car elles s'étalent à la cuisson).",
+      "6. Laisser cuire 10 à 15 minutes par fournée de galettes, les retirer dès qu'elles sont dorées, et les laisser refroidir sur la plaque.",
+      "7. Pendant ce temps, prendre 2 saladiers. Dans le premier, y mettre la noix de coco, dans le deuxième, la confiture d'abricots lègèrement tiédie.",
+      "8. Tremper les galettes dans la confiture puis dans la noix de coco et remettre sur la plaque.",
+      "9. Les biscuits peuvent se conserver une semaine sans problème."
+    ],
+    "tags_raw": "Galettes de Liège à la noix de coco (Belgique), , farine, beurre, sucre en poudre, lait, levure, oeuf, sucre vanillé, noix de coco rapée, confiture d'abricot, facile, bon marché, rapide",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-la-frite-belge-de-liege-58184-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_la-frite-belge-de-liege_58184.aspx",
+    "name": "La frite Belge de Liège",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "pomme -de-terre (en moyenne 2/3 par personnes) \"Bintje\" de préférence sinon, préférez la chair ferme",
+        "raw": "800 g de pomme -de-terre (en moyenne 2/3 par personnes) \"Bintje\" de préférence sinon, préférez la chair ferme"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "graisse à friteuse de type solide",
+        "raw": "1 kg de graisse à friteuse de type solide"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "4",
+        "unit": "clous",
+        "name": "girofle",
+        "raw": "4 clous de girofle"
+      },
+      {
+        "quantity": "1",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "1 feuilles de laurier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. 1ère étape essentielle : faites fondre votre nouvelle graisse dans la friteuse à 170°C.",
+      "2. Quand celle-ci est à température, plongez-y l'oignon coupé en deux et piquez des clous de girofle ainsi que la feuille de laurier (5 minutes minimum) puis, retirer et laisser reposer la graisse 1/4h en la diminuant.",
+      "3. Pendant ce temps, pelez vos pommes-de-terre et coupez-les en bâtonnets (au couteau car plus elles sont irrégulières et meilleures elles seront).",
+      "4. Lavez-les à grande eau et bien les rincer.",
+      "5. 2ème étape essentielle : dans un essuie (torchon comme disent nos voisins les français), les essuyer en remuant bien les frites afin qu'elles soient le plus sèches possible.",
+      "6. Plongez-les frites dans la graisse à 160-170°, en ne chargeant pas de trop la panier afin de ne pas les faire coller entre elles.",
+      "7. Quand le bord de vos frites se colore : égouttez et étalez sur un lèche-frite (plaque de cuisson du four) car, sachez que les frites précuites continuent de cuire encore 5 bonnes minutes hors de la graisse et que trop cuites, elles deviendraient \"creuses ou vides\" à la dégustation.",
+      "8. Laissez les refroidir.",
+      "9. Dernière étape : faire chauffer la graisse a 190° et plongez les frites qui vont se saisir et dorer à souhait.",
+      "10. Quand votre couleur vous sied, égouttez bien les frites dans leur panier puis basculez-les dans un plat avec un papier absorbant et secouez encorer ce plat afin de les sècher au maximum.",
+      "11. Ne salez jamais vos frites que dans votre assiette, en dernière minute, sinon, elles deviendront molles.",
+      "12. Très bon appétit !"
+    ],
+    "tags_raw": "La frite Belge de Liège, , pomme, graisse à friteuse, oignon, clou de girofle, feuille de laurier, sel, très facile, bon marché, rapide",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belge"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-lapin-belge-a-la-biere-oignons-et-pruneaux-254306-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_lapin-belge-a-la-biere-oignons-et-pruneaux_254306.aspx",
+    "name": "Lapin belge à la bière, oignons et pruneaux",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 10,
+    "cook_minutes": 40,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "6",
+        "unit": "cuisses",
+        "name": "lapin (ou 6 râbles)",
+        "raw": "6 cuisses de lapin (ou 6 râbles)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "pruneaux",
+        "raw": "10 pruneaux"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "lardons nature",
+        "raw": "lardons nature"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bière brune",
+        "raw": "1 bière brune"
+      },
+      {
+        "quantity": "1",
+        "unit": "tranches",
+        "name": "pain d'épices",
+        "raw": "1 tranches de pain d'épices"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "farine",
+        "raw": "farine"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive (ou beurre)",
+        "raw": "huile d'olive (ou beurre)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pincée de sel",
+        "raw": "pincée de sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Dans une cocotte ou un faitout, faire revenir l'oignon découpé en petits morceaux dans l'huile ou le beurre.",
+      "2. Quand l'oignon est ramolli, ajouter les lardons.",
+      "3. Une fois les lardons cuits, retirer le tout de la cocotte.",
+      "4. Mettre le lapin à dorer dans la cocotte, 2 minutes de chaque côté à feu doux. Saupoudrer ensuite de farine de manière à ce que le lapin soit légèrement badigeonné de chaque côté.",
+      "5. Laisser revenir encore un peu. Ajouter de l'eau et 1 bière brune. Saler (très peu à cause des lardons) et poivrer.",
+      "6. Laisser revenir pendant 15 minutes en retournant régulièrement les morceaux de lapin.",
+      "7. Ajouter ensuite le mélange lardons-oignons, les pruneaux et le pain d'épices émietté.",
+      "8. Laisser mijoter à feu doux en retournant les morceaux de temps en temps jusqu'à ce que le lapin soit cuit.",
+      "9. Si la sauce réduit trop, ajouter un peu d'eau pendant la cuisson.",
+      "10. Servir chaud avec des tagliatelles fraîches ou de la semoule."
+    ],
+    "tags_raw": "Lapin belge à la bière, oignons et pruneaux, lapin en sauce, cuisse de lapin, oignon, pruneau, lardons, bière brune, pain d'épices, farine, huile d'olive, sel, poivre, facile, bon marché | lapin en sauce",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belge"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-lapin-a-la-biere-blonde-168244-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_lapin-a-la-biere-blonde_168244.aspx",
+    "name": "Lapin à la bière blonde",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 120,
+    "total_minutes": 150,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "cuisses",
+        "name": "lapin",
+        "raw": "4 cuisses de lapin"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "lardons fumés",
+        "raw": "150 g de lardons fumés"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "champignon blonds",
+        "raw": "250 g de champignon blonds"
+      },
+      {
+        "quantity": "1",
+        "unit": "bottes",
+        "name": "persil",
+        "raw": "1 bottes de persil"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "échalotes",
+        "raw": "5 échalotes"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à café",
+        "name": "moutarde de Dijon",
+        "raw": "4 cuillères à café de moutarde de Dijon"
+      },
+      {
+        "quantity": "6",
+        "unit": "tranches",
+        "name": "pain d'épices",
+        "raw": "6 tranches de pain d'épices"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à café",
+        "name": "thym",
+        "raw": "4 cuillères à café de thym"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "1.5 feuilles de laurier"
+      },
+      {
+        "quantity": "60",
+        "unit": "cl",
+        "name": "fond de volaille (ou de veau)",
+        "raw": "60 cl de fond de volaille (ou de veau)"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouteilles",
+        "name": "bière blonde belge)",
+        "raw": "1 bouteilles de bière blonde belge)"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "persil fraichement haché",
+        "raw": "4 cuillères à soupe de persil fraichement haché"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "beurre (ou margarine)",
+        "raw": "4 cuillères à soupe de beurre (ou margarine)"
+      }
+    ],
+    "steps": [
+      "1. La veille :",
+      "2. - Emincer les échalotes.",
+      "3. - Hacher le persil.",
+      "4. - Couper les champignons en lamelles.",
+      "5. - Couper les tranches de pain d'épices en dés de 1cm².",
+      "6. Dans une poële à revêtement anti-adhésif:",
+      "7. - Faire revenir les lardons sans rajouter de matière grasse puis les retirer en laissant les sucs de cuisson.",
+      "8. - Dans les sucs de cuisson des lardons , faire revenir les champignons ( +/- 3 minutes ) et les mettre de côté.",
+      "9. - Mettre un peu de beurre sur la poële et y faire dorer les cuisses de lapin sur toutes leurs faces.",
+      "10. Dans une grande casserole:",
+      "11. - Faire fondre le restant du beurre.",
+      "12. - Y faire revenir les échalotes.",
+      "13. - Ajouter la moutarde et bien mélanger.",
+      "14. - Mélanger pendant 1 minute.",
+      "15. - Ajouter les cuisses de lapin , les champignons , les lardons , le pain d'épice en morceaux.",
+      "16. - Couvrir avec la duvel et le fond de volaille.",
+      "17. - Ajouter le laurier , le thym et le persil et bien mélanger.",
+      "18. - Couvrir et laisser mijoter pendant 1h30.",
+      "19. Le lendemain :",
+      "20. - Faire réchauffer à feu doux pendant 30 minutes.",
+      "21. - Servir les cuisses de lapin.",
+      "22. - Si besoin , lier la sauce avec un peu de liant instantané pour sauce ou de maïzena."
+    ],
+    "tags_raw": "Lapin à la bière blonde, , cuisse de lapin, lardons fumés, champignon, persil, échalote, moutarde de Dijon, pain d'épices, thym, feuille de laurier, fond de volaille, bière blonde, persil, poivre, sel, beurre, facile, moyen",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "ingredient:belge",
+      "titre:biere blonde"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-matoufe-belgique-wallonie-25345-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_matoufe-belgique-wallonie_25345.aspx",
+    "name": "Matoufé (Belgique - Wallonie)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 5,
+    "cook_minutes": 5,
+    "total_minutes": 10,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "lard maigre salé mais non fumé, en tranches",
+        "raw": "300 g de lard maigre salé mais non fumé, en tranches"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "farine d'épeautre",
+        "raw": "4 cuillères à soupe de farine d'épeautre"
+      },
+      {
+        "quantity": "12.5",
+        "unit": "cl",
+        "name": "lait entier",
+        "raw": "12.5 cl de lait entier"
+      },
+      {
+        "quantity": "12.5",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "12.5 cl d'eau"
+      },
+      {
+        "quantity": "8",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "8 oeufs"
+      }
+    ],
+    "steps": [
+      "1. Détaillez le lard en petits morceaux de 1 cm et faites-les revenir à la poêle, sans graisse.",
+      "2. Battez les oeufs en omelette.",
+      "3. Délayez la farine d'épeautre dans le lait coupé d'eau.",
+      "4. Une fois que le lard à rendu toute sa graisse, jetez-y, en une fois, le mélange eau-lait-farine. Mélangez bien le tout, puis ajoutez les oeufs.",
+      "5. Laissez épaissir à feu doux sans cesser de remuer : le matoufé doit rester crémeux."
+    ],
+    "tags_raw": "Matoufé (Belgique - Wallonie) , , lard, farine d'épeautre, lait entier, eau, oeuf, très facile, bon marché, rapide",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-moules-a-la-belge-11360-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_moules-a-la-belge_11360.aspx",
+    "name": "Moules à la belge",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "kg",
+        "name": "moules",
+        "raw": "2 kg de moules"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "carottes",
+        "raw": "1 carottes"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "céleri vert",
+        "raw": "1 céleri vert"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poireaux",
+        "raw": "1 poireaux"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "bouillon de légumes",
+        "raw": "bouillon de légumes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Bien nettoyer les moules en les grattant.",
+      "2. Couper les légumes en rondelles très fines. Et les faire suer dans du beurre.",
+      "3. Couvrir d'eau. Ajouter le sel, le poivre, et le cube de bouillon.",
+      "4. Jeter les moules dans la casserole, sur feu très vif, jusqu'à ouverture.",
+      "5. Ajouter ensuite le jus des légumes."
+    ],
+    "tags_raw": "Moules à la belge, moules, moules, carotte, oignon, céleri, poireau, bouillon de légumes, poivre, sel, facile, bon marché, rapide | moules",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belge"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-recette-belge-du-gateau-au-chocolat-57506-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_recette-belge-du-gateau-au-chocolat_57506.aspx",
+    "name": "Recette belge du gâteau au chocolat",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 15,
+    "cook_minutes": 120,
+    "total_minutes": 135,
+    "ingredients": [
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "125 g de beurre"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "chocolat",
+        "raw": "200 g de chocolat"
+      },
+      {
+        "quantity": "4",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "4 jaunes d'oeuf"
+      },
+      {
+        "quantity": "2",
+        "unit": "blancs",
+        "name": "oeuf",
+        "raw": "2 blancs d'oeuf"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "petit beurre",
+        "raw": "1 paquets de petit beurre"
+      }
+    ],
+    "steps": [
+      "1. Faire fondre le beurre avec le chocolat.",
+      "2. Ecraser les biscuits sans ouvrir le paquet et les ajouter au chocolat et au beurre fondu.",
+      "3. Battre les blancs en neige, et les ajouter à la préparation, ainsi que les jaunes.",
+      "4. Verser le tout bien mélangé dans un plat avec un film aluminium dans le fond.",
+      "5. Placer le plat 2h30 au congèlateur, et le sortir 15 min avant de servir."
+    ],
+    "tags_raw": "Recette belge du gâteau au chocolat, gâteau au chocolat, beurre, chocolat, jaune d'oeuf, blanc d'oeuf, petit beurre, facile, bon marché | gâteau au chocolat",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belge"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-soupe-repas-dite-grosse-soupe-en-wallonie-belgique-25109-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_soupe-repas-dite-grosse-soupe-en-wallonie-belgique_25109.aspx",
+    "name": "Soupe repas dite 'Grosse Soupe' en Wallonie (Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 60,
+    "cook_minutes": 120,
+    "total_minutes": 180,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "l",
+        "name": "eau au départ. Cela variera en fonction de la consistance voulue et des légumes disponibles",
+        "raw": "3 l d'eau au départ. Cela variera en fonction de la consistance voulue et des légumes disponibles"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "pomme de terre",
+        "raw": "500 g de pomme de terre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "poireaux",
+        "raw": "2 poireaux"
+      },
+      {
+        "quantity": "2",
+        "unit": "branches",
+        "name": "céleri",
+        "raw": "2 branches de céleri"
+      },
+      {
+        "quantity": "3",
+        "unit": "feuilles",
+        "name": "chou",
+        "raw": "3 feuilles de chou"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "navets",
+        "raw": "2 navets"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons piqués de clous de girofle",
+        "raw": "2 oignons piqués de clous de girofle"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "haricot blancs",
+        "raw": "200 g de haricot blancs"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "carottes",
+        "raw": "4 carottes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "thym",
+        "raw": "thym"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "laurier",
+        "raw": "laurier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "jambonneaux",
+        "name": "porc",
+        "raw": "1 jambonneaux de porc"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "boeuf",
+        "raw": "1 kg de boeuf"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "belles tranches de jarret de boeuf",
+        "raw": "1 belles tranches de jarret de boeuf"
+      }
+    ],
+    "steps": [
+      "1. Verser l'eau dans une grande casserole et faire bouillir.",
+      "2. Y verser tous les légumes disponibles ; même quelques feuilles de laitue.",
+      "3. Saler, poivrer.",
+      "4. Ajouter du thym et du laurier.",
+      "5. Incorporer au mélange bouillant toute la viande désirée.",
+      "6. Ajouter de l'eau selon les goûts et la consistance désirée.",
+      "7. Laisser frémir pendant 1h30.",
+      "8. Rectifier l'assaisonnement."
+    ],
+    "tags_raw": "Soupe repas dite 'Grosse Soupe' en Wallonie (Belgique) , soupe, eau, pomme de terre, poireau, céleri, chou, navet, oignon, haricot, carotte, thym, laurier, poivre, sel, jambonneau, boeuf, jarret de boeuf, très facile, bon marché | soupe",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-stump-belge-339649-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_stump-belge_339649.aspx",
+    "name": "Stump belge",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "légumes (pommes de terre et carottes)",
+        "raw": "1 kg de légumes (pommes de terre et carottes)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pincée de poivre",
+        "raw": "pincée de poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "4",
+        "unit": "saucisses",
+        "name": "Strasbourg",
+        "raw": "4 saucisses de Strasbourg"
+      }
+    ],
+    "steps": [
+      "1. Eplucher et couper les légumes en morceaux.",
+      "2. Mettre les morceaux à cuire dans une grande casserole d'eau bouillante.",
+      "3. Une fois que les légumes sont cuits, les mettre à égoutter.",
+      "4. Couper l'oignon en lamelles. Mettre le beurre dans la casserole, le faire chauffer, puis verser l'oignon pour le faire revenir.",
+      "5. Remettre les légumes dans la casserole et assaisonner le tout.",
+      "6. Passer la préparation au moulin à légume ou au mixer afin d'en faire une purée grossière.",
+      "7. Faire cuire les saucisses à l'eau, les couper en rondelles et les ajouter à la purée.",
+      "8. Servir chaud."
+    ],
+    "tags_raw": "Stump belge, , légumes, oignon, beurre, poivre, sel, saucisse de Strasbourg, très facile, bon marché, rapide",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belge"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tarte-al-djote-nivelles-belgique-51893-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tarte-al-djote-nivelles-belgique_51893.aspx",
+    "name": "Tarte al djote (Nivelles - Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "12 tartelettes",
+    "servings": 12,
+    "prep_minutes": 50,
+    "cook_minutes": 12,
+    "total_minutes": 62,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "farine de blé",
+        "raw": "1 kg de farine de blé"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "beurre salé",
+        "raw": "250 g de beurre salé"
+      },
+      {
+        "quantity": "40",
+        "unit": "g",
+        "name": "levure fraîche",
+        "raw": "40 g de levure fraîche"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs entiers",
+        "raw": "4 oeufs entiers"
+      },
+      {
+        "quantity": "2",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "2 jaunes d'oeuf"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "sel de cuisine",
+        "raw": "30 g de sel de cuisine"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "20 cl de lait"
+      },
+      {
+        "quantity": "2.4",
+        "unit": "kg",
+        "name": "bètcheye (fromage de Nivelles de type boulette)",
+        "raw": "2.4 kg de bètcheye (fromage de Nivelles de type boulette)"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "bette à carde (sans les cardes)",
+        "raw": "75 g de bette à carde (sans les cardes)"
+      },
+      {
+        "quantity": "75",
+        "unit": "g",
+        "name": "persil frisé (sans les tiges)",
+        "raw": "75 g de persil frisé (sans les tiges)"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oignons blancs de la grosseur d’une noix (+/- 150 g)",
+        "raw": "4 oignons blancs de la grosseur d’une noix (+/- 150 g)"
+      },
+      {
+        "quantity": "9",
+        "unit": "",
+        "name": "oeufs entiers",
+        "raw": "9 oeufs entiers"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à café",
+        "name": "poivre blanc",
+        "raw": "2 cuillères à café de poivre blanc"
+      },
+      {
+        "quantity": "450",
+        "unit": "g",
+        "name": "beurre salé de ferme et fondu",
+        "raw": "450 g de beurre salé de ferme et fondu"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "1 cuillères à café de sel"
+      }
+    ],
+    "steps": [
+      "1. Pâte :",
+      "2. Tamiser 950 g farine pour la rendre plus légère.",
+      "3. Mélanger le sel à la farine.",
+      "4. Délayer la levure dans le lait tiède et une pincée de sucre, la laisser germer.",
+      "5. Former une fontaine, y verser les 4 œufs entiers + les 2 jaunes d’œuf.",
+      "6. Mélanger le beurre (consistance « pommade »).",
+      "7. Dans la farine, y verser la levure.",
+      "8. Travailler la farine délicatement afin d’y incorporer le tout.",
+      "9. Bien pétrir jusqu’à l’obtention d’une pâte bien lisse.",
+      "10. Séparer la pâte en boulots de 150 g pour des platines de 19 cm de diamètre.",
+      "11. Laisser lever les pâtons (sous un linge sec, à l’abri des courants d’air et près d’une source de chaleur).",
+      "12. Makayance (garniture):",
+      "13. Séparer les feuilles de persil de leurs tiges.",
+      "14. Laver les bettes et le persil et les essorer.",
+      "15. Mélanger le fromage émietté avec les 9 œufs entiers et le beurre fondu chaud (couleur noisette foncée).",
+      "16. En dernière minute, hacher finement les légumes (bettes, persil, oignons) à la main (éviter les robots).",
+      "17. Malaxer le fromage avec les légumes, le sel et le poivre.",
+      "18. Rectifier l’assaisonnement si nécessaire.",
+      "19. Platines :",
+      "20. Au rouleau, abaisser les pâtons au diamètre extérieur de vos platines.",
+      "21. Foncer délicatement la pâte dans des platines bien beurrées.",
+      "22. Piquer le fond de la tarte à l’aide d’une fourchette",
+      "23. Etaler la makayance sur une épaisseur de +/- 8 mm.",
+      "24. Cuire +/- 10 minutes à four préchauffé (200°C - thermostat 6-7) jusqu’à ce que la croûte soit dorée.",
+      "25. Eviter de brunir le fromage par une cuisson trop longue.",
+      "26. Après cuisson, retirer immédiatement les tartes des platines et les déposer sur des claies.",
+      "27. Servir les tartes bien chaudes, nappées de beurre de ferme salé.",
+      "28. Bon appétit !…"
+    ],
+    "tags_raw": "Tarte al djote (Nivelles - Belgique), , farine de blé, beurre salé, levure, oeuf, jaune d'oeuf, sel, lait, moyenne, moyen, rapide",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tarte-al-djote-belgique-12459-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tarte-al-djote-belgique_12459.aspx",
+    "name": "Tarte al'djote (Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 tartes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine",
+        "raw": "500 g de farine"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "beurre doux",
+        "raw": "150 g de beurre doux"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "bètcheye (fromage gras de Nivelles)",
+        "raw": "3 bètcheye (fromage gras de Nivelles)"
+      },
+      {
+        "quantity": "4",
+        "unit": "feuilles",
+        "name": "bette à carde",
+        "raw": "4 feuilles de bette à carde"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "carde .",
+        "raw": "carde ."
+      },
+      {
+        "quantity": "15",
+        "unit": "g",
+        "name": "persil hâché",
+        "raw": "15 g de persil hâché"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons",
+        "raw": "3 oignons"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs entiers",
+        "raw": "3 oeufs entiers"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "beurre salé",
+        "raw": "150 g de beurre salé"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Réaliser une pâte levée non sucrée en y ajoutant néanmoins du beurre fondu.",
+      "2. Séparer la pâte en boulots de +/- 170 gr. Laisser fermenter.",
+      "3. Mélanger le fromage avec les oeufs entiers , le beurre fondu, le sel et le poivre.",
+      "4. A ce mélange, ajouter les légumes hachés (oignons et persils) et malaxer le tout.",
+      "5. Préchauffer le four au maximum.",
+      "6. Abaisser la pâte et foncer les platines bien beurrées.",
+      "7. Etaler le mélange sur une épaisseur de +/- 8 mm.",
+      "8. Enfourner et laisser cuire durant 10 min. à four chaud (220°C)."
+    ],
+    "tags_raw": "Tarte al'djote (Belgique), , farine, beurre doux, facile, bon marché, rapide",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tartines-au-fromage-blanc-belgique-15071-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tartines-au-fromage-blanc-belgique_15071.aspx",
+    "name": "Tartines au fromage blanc (Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "pain de campagne ou ordinaire -suivant grandeur)",
+        "raw": "4 tranches de pain de campagne ou ordinaire -suivant grandeur)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "petites bottes de radis rouges",
+        "raw": "2 petites bottes de radis rouges"
+      },
+      {
+        "quantity": "1",
+        "unit": "bottes",
+        "name": "oignon",
+        "raw": "1 bottes d'oignon"
+      },
+      {
+        "quantity": "8",
+        "unit": "brins",
+        "name": "ciboulette",
+        "raw": "8 brins de ciboulette"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "fromage blanc frais (45% de MG)",
+        "raw": "400 g de fromage blanc frais (45% de MG)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre noir du moulin, beurre ou margarine (facultatif)",
+        "raw": "poivre noir du moulin, beurre ou margarine (facultatif)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Laver, sécher et émincer les radis, oignons et ciboulette.",
+      "2. Couper des tranches de pain de 5-6 mm",
+      "3. d'épaisseur, les beurrer.",
+      "4. Enduire les tranches de pain d'une bonne couche (3mm) de fromage blanc, saler et poivrer suivant goût.",
+      "5. Les garnir de radis, oignon et ciboulette. Saler encore un peu les radis."
+    ],
+    "tags_raw": "Tartines au fromage blanc (Belgique), tartine, pain de campagne, radis, oignon, ciboulette, fromage blanc, poivre, sel, très facile, bon marché, rapide | tartine",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tomates-crevettes-a-la-belge-39217-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tomates-crevettes-a-la-belge_39217.aspx",
+    "name": "Tomates-crevettes à la belge",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "total_minutes": 10,
+    "ingredients": [
+      {
+        "quantity": "8",
+        "unit": "",
+        "name": "tomates",
+        "raw": "8 tomates"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "crevette grise",
+        "raw": "400 g de crevette grise"
+      },
+      {
+        "quantity": "6",
+        "unit": "cuillères à soupe",
+        "name": "mayonnaise",
+        "raw": "6 cuillères à soupe de mayonnaise"
+      }
+    ],
+    "steps": [
+      "1. Découpez le dessus des tomates, évidez-les.",
+      "2. Coupez le coeur des tomates, en tout petits cubes.",
+      "3. Dans une jatte, mélangez intimement les crevettes grises, la mayonnaise et les coeurs de tomates.",
+      "4. Remplir les tomates de ce mélange, remettre le \"couvercle\" et servir avec de bonnes frites."
+    ],
+    "tags_raw": "Tomates-crevettes à la belge, crevettes, tomate, crevette grise, mayonnaise, très facile, moyen, rapide | crevettes",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belge"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-vlaai-belgique-13112-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_vlaai-belgique_13112.aspx",
+    "name": "Vlaai (Belgique)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "20 personnes",
+    "servings": 20,
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "l",
+        "name": "lait",
+        "raw": "3 l de lait"
+      },
+      {
+        "quantity": "84",
+        "unit": "",
+        "name": "biscottes rondes",
+        "raw": "84 biscottes rondes"
+      },
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "oeufs (battus à la fourchette)",
+        "raw": "10 oeufs (battus à la fourchette)"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "sucre",
+        "raw": "1 kg de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "Macis",
+        "raw": "1 cuillères à café de Macis"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "cannelle",
+        "raw": "1 cuillères à soupe de cannelle"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "sucre de canne",
+        "raw": "500 g de sucre de canne"
+      }
+    ],
+    "steps": [
+      "1. Mélanger le tout et faire cuire 1 heure à 175°C ou 200°C (si on le veut très brun)."
+    ],
+    "tags_raw": "Vlaai (Belgique), , lait, biscotte, oeuf, sucre, Macis, cannelle, sucre de canne, très facile, bon marché",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belgique"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-waterzooi-de-poulet-a-la-gantoise-82794-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_waterzooi-de-poulet-a-la-gantoise_82794.aspx",
+    "name": "Waterzooi  de poulet à la Gantoise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 45,
+    "cook_minutes": 30,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "bouillon de poule",
+        "raw": "25 cl de bouillon de poule"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poulets ou 4 blancs de poulet",
+        "raw": "1 poulets ou 4 blancs de poulet"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "carottes",
+        "raw": "3 carottes"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "céleri",
+        "raw": "3 céleri"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poireaux",
+        "raw": "1 poireaux"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "muscade",
+        "raw": "1 muscade"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "20 g de beurre"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "farine de blé",
+        "raw": "30 g de farine de blé"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "cl",
+        "name": "crème",
+        "raw": "1.5 cl de crème"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "persil haché",
+        "raw": "2 cuillères à soupe de persil haché"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "cerfeuil haché",
+        "raw": "1 cuillères à soupe de cerfeuil haché"
+      }
+    ],
+    "steps": [
+      "1. Couper le poulet en quatre.",
+      "2. Couper en julienne le céleri, le poireau et les carottes.",
+      "3. Etuver les légumes 10 minutes dans une noix de beurre sans les laisser brunir.",
+      "4. Ajouter ensuite le bouillon de poule dégraissé pour immerger les légumes.",
+      "5. Assaisonner et ajouter les morceaux de poulet et les laisser cuire à feu doux 20 minutes jusqu'à ce qu'ils soient cuits.",
+      "6. Retirer le poulet et les légumes et les réserver au chaud dans un reste de bouillon.",
+      "7. Faire fondre le beurre et y mélanger la farine pour obtenir une pâte légèrement jaune.",
+      "8. Ajouter cette pâte au bouillon et laisser cuire 10 minutes à feu doux.",
+      "9. Dresser les morceaux de poulet dans une soupière.",
+      "10. Incorporer la crème fraîche dans le bouillon.",
+      "11. Égoutter la julienne de légumes et l'ajouter à la sauce.",
+      "12. Ne plus laisser bouillir.",
+      "13. Si besoin, rectifier l'assaisonnement en ajoutant un peu de muscade.",
+      "14. Verser cette préparation sur le poulet et saupoudrer le tout de persil et de cerfeuil finement hachés avant de servir."
+    ],
+    "tags_raw": "Waterzooi  de poulet à la Gantoise, , bouillon de poule, poulet, carotte, céleri, poireau, poivre, sel, muscade, beurre, farine de blé, crème, persil, cerfeuil, facile, bon marché",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:waterzooi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-waterzooi-de-dinde-printanier-16579-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_waterzooi-de-dinde-printanier_16579.aspx",
+    "name": "Waterzooi de dinde printanier",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 45,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "dinde",
+        "raw": "800 g de dinde"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "eau",
+        "raw": "2 eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bouquets garnis (carotte céleri poireau thym laurier une branche de persil), le tout lié avec une ficelle",
+        "raw": "1 bouquets garnis (carotte céleri poireau thym laurier une branche de persil), le tout lié avec une ficelle"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "persil haché",
+        "raw": "1 cuillères à soupe de persil haché"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "ciboulette hachée",
+        "raw": "1 cuillères à soupe de ciboulette hachée"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "cerfeuil haché",
+        "raw": "1 cuillères à soupe de cerfeuil haché"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "basilic",
+        "raw": "1 cuillères à soupe de basilic"
+      },
+      {
+        "quantity": "8",
+        "unit": "",
+        "name": "carottes",
+        "raw": "8 carottes"
+      },
+      {
+        "quantity": "16",
+        "unit": "",
+        "name": "haricots mange-tout",
+        "raw": "16 haricots mange-tout"
+      },
+      {
+        "quantity": "8",
+        "unit": "",
+        "name": "asperges",
+        "raw": "8 asperges"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "courgettes",
+        "raw": "1 courgettes"
+      },
+      {
+        "quantity": "1",
+        "unit": "dl",
+        "name": "crème fraîche",
+        "raw": "1 dl de crème fraîche"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "maïzena",
+        "raw": "4 cuillères à soupe de maïzena"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre et muscade",
+        "raw": "poivre et muscade"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Dans une grande casserole, posez les morceaux d'osso buccu et recouvrez-les d'eau froide.",
+      "2. Portez à ébullition, écumez délicatement jusqu'à disparition de l'écume.",
+      "3. Ajoutez le bouquet garni, le sel, le poivre et faites cuire 1/2 h, à petits bouillons.",
+      "4. Coupez tous les légumes en petits dés.",
+      "5. Après 30 mn de cuisson, retirez le bouquet garni",
+      "6. Ajoutez les légumes et laissez cuire environ 10 mn.",
+      "7. Juste avant de servir, ajoutez la maïzena diluée dans la crème fraîche, puis les fines herbes et rectifiez l'assaisonnement avec le poivre et la muscade."
+    ],
+    "tags_raw": "Waterzooi de dinde printanier, , dinde, eau, bouquet garni, persil, ciboulette, cerfeuil, basilic, carotte, haricot mange-tout, asperges, courgette, crème fraîche, maïzena, poivre, sel, facile, bon marché",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:waterzooi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-waterzooi-de-poulet-a-la-blanche-de-hoegaarden-et-au-poivre-rose-25610-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_waterzooi-de-poulet-a-la-blanche-de-hoegaarden-et-au-poivre-rose_25610.aspx",
+    "name": "Waterzooi de poulet à la Blanche de Hoegaarden et au poivre rose",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 50,
+    "total_minutes": 65,
+    "ingredients": [
+      {
+        "quantity": "6",
+        "unit": "blancs",
+        "name": "poulet",
+        "raw": "6 blancs de poulet"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "poivre rose (en saumure)",
+        "raw": "3 cuillères à soupe de poivre rose (en saumure)"
+      },
+      {
+        "quantity": "33",
+        "unit": "cl",
+        "name": "bière Blanche Hoegaarden",
+        "raw": "33 cl de bière Blanche Hoegaarden"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "fond de volaille liquide (en bocal)",
+        "raw": "50 cl de fond de volaille liquide (en bocal)"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "crème fraîche",
+        "raw": "50 cl de crème fraîche"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "beurre",
+        "raw": "beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pomme de terre nature (à chair ferme)",
+        "raw": "pomme de terre nature (à chair ferme)"
+      }
+    ],
+    "steps": [
+      "1. Faire cuire et dorer les blancs de poulet au beurre dans une cocotte, saler et poivrer en cours de cuisson. Les retirer de la cocotte et les garder au chaud.",
+      "2. Hacher finement l'oignon pendant la cuisson du poulet.",
+      "3. Remettre une noix de beurre dans la cocotte et y faire blondir l'oignon. Verser la bière sur l'oignon, faire réduire de moitié. Ajouter le fond de volaille, faire réduire.",
+      "4. Terminer en ajoutant la crème fraîche et le poivre rose. Laisser à nouveau réduire jusqu'à obtention d'une sauce nappante. A défaut lier avec un peu de Maïzena. Rectifier l'assaisonnement.",
+      "5. Couper les blancs de poulet en tranches de 2 cm, les mettre dans la sauce afin de bien les réchauffer.",
+      "6. Disposer les morceaux de poulet au centre de l'assiette, napper de sauce, et mettre quelques pommes de terre autour. Décorer avec quelques feuilles de persil plat. Ca fait une jolie présentation."
+    ],
+    "tags_raw": "Waterzooi de poulet à la Blanche de Hoegaarden et au poivre rose, , blanc de poulet, poivre, bière, fond de volaille, crème fraîche, oignon, beurre, poivre, sel, pomme de terre, très facile, bon marché",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:waterzooi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-waterzooi-de-chimere-15772-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_waterzooi-de-chimere_15772.aspx",
+    "name": "Waterzooï de chimère",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 60,
+    "cook_minutes": 20,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "chimère",
+        "raw": "600 g de chimère"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "carotte",
+        "raw": "200 g de carotte"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "endive",
+        "raw": "200 g d'endive"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "poireaux",
+        "raw": "2 poireaux"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "vin blanc sec",
+        "raw": "20 cl de vin blanc sec"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "fumet de poisson",
+        "raw": "30 g de fumet de poisson"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "crème fleurette",
+        "raw": "50 cl de crème fleurette"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "échalotes",
+        "raw": "3 échalotes"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "20 cl d'eau"
+      }
+    ],
+    "steps": [
+      "1. Tailler les légumes en julienne,les faire suer dans le beurre, y ajouter le vin blanc sec.",
+      "2. Attendre 2 à 3 minutes, puis mettre la crème, l'eau et le fumet. Laisser réduire 10 mn.",
+      "3. Rouler les filets et les faire cuire dans cette préparation au four, recouvert d'aluminium, pendant 20 mn environ."
+    ],
+    "tags_raw": "Waterzooï de chimère, , chimère, carotte, endive, poireau, vin blanc sec, fumet, crème fleurette, échalote, beurre, eau, facile, assez cher",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:waterzooi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-waterzooi-de-la-mer-172357-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_waterzooi-de-la-mer_172357.aspx",
+    "name": "Waterzooï de la mer",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 8,
+    "cook_minutes": 25,
+    "total_minutes": 33,
+    "ingredients": [
+      {
+        "quantity": "550",
+        "unit": "g",
+        "name": "Poisson à chair ferme en filet (3 à 5 sortes)",
+        "raw": "550 g de Poisson à chair ferme en filet (3 à 5 sortes)"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "crevette grise décortiquées",
+        "raw": "50 g de crevette grise décortiquées"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "légumes pour soupe",
+        "raw": "500 g de légumes pour soupe"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "2 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "2 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "lait entier",
+        "raw": "20 cl de lait entier"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "25 cl d'eau"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "fond de poisson en bocal",
+        "raw": "20 cl de fond de poisson en bocal"
+      },
+      {
+        "quantity": "1",
+        "unit": "cubes",
+        "name": "bouillon de poisson",
+        "raw": "1 cubes de bouillon de poisson"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bouquets garnis (queue persil, thym en branche et feuille de laurier)",
+        "raw": "1 bouquets garnis (queue persil, thym en branche et feuille de laurier)"
+      },
+      {
+        "quantity": "5",
+        "unit": "cl",
+        "name": "crème fraîche",
+        "raw": "5 cl de crème fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil plat (ou frisé) haché",
+        "raw": "persil plat (ou frisé) haché"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Couper les légumes pour soupe en julienne (fins bâtonnets de 7 à 8 cm).",
+      "2. Faire revenir les légumes à feu doux dans un faitout avec l'huile.",
+      "3. Couvrir et laisser suer durant 10 min.",
+      "4. Saupoudrer avec la farine et mélanger durant 30 sec, ajouter le lait.",
+      "5. Ajouter le fond de poisson, l'eau, le cube de bouillon de poisson et le bouquet garni.",
+      "6. Porter à ébullition, couvrir et laisser mijoter 10 min à feu doux.",
+      "7. Retirer le bouquet garni.",
+      "8. Couper les poissons en tronçons.",
+      "9. Ajouter les poissons et faire cuire durant 5 min à feu très doux à partir de la reprise de l'ébullition.",
+      "10. Ajouter la crème, les crevettes grises et le persil haché.",
+      "11. Servir très chaud avec des pommes de terre nature ou avec du riz.",
+      "12. Un plat chaud se sert sur une assiette chaude.",
+      "13. Bonne cuisine et bon appétit."
+    ],
+    "tags_raw": "Waterzooï de la mer, , Poisson, crevette grise, légumes, huile, farine, lait entier, eau, fond, cube de bouillon, bouquet garni, crème fraîche, persil, poivre, sel, facile, moyen",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:waterzooi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-zizi-coincoin-228614-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_zizi-coincoin_228614.aspx",
+    "name": "Zizi coincoin (cocktail belge)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 litre",
+    "servings": 1,
+    "prep_minutes": 10,
+    "cook_minutes": 0,
+    "total_minutes": 10,
+    "ingredients": [
+      {
+        "quantity": "30",
+        "unit": "cl",
+        "name": "cointreau",
+        "raw": "30 cl de cointreau"
+      },
+      {
+        "quantity": "40",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "40 cl d'eau"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "citron",
+        "raw": "20 cl de citron"
+      },
+      {
+        "quantity": "60",
+        "unit": "ml",
+        "name": "sirop de sucre de canne",
+        "raw": "60 ml de sirop de sucre de canne"
+      }
+    ],
+    "steps": [
+      "1. Mélanger le tout, c'est prêt!"
+    ],
+    "tags_raw": "Zizi coincoin (cocktail belge), , cointreau, eau, citron, sirop de sucre de canne, très facile, moyen, rapide",
+    "country": "belgique",
+    "country_label": "Belgique",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:belge"
+    ]
+  }
+]

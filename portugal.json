@@ -1,0 +1,5403 @@
+[
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bacalhau-a-bras-morue-a-la-portugaise-37900-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bacalhau-a-bras-morue-a-la-portugaise_37900.aspx",
+    "name": "bacalhau a bras (morue à la portugaise)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 40,
+    "cook_minutes": 10,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "pavés",
+        "name": "morue (600 g environ)",
+        "raw": "3 pavés de morue (600 g environ)"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "6 oeufs"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de tournesol",
+        "raw": "4 cuillères à soupe d'huile de tournesol"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "4 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "12",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "12 pommes de terre"
+      }
+    ],
+    "steps": [
+      "1. Laisser dessaler la morue dans de l'eau (que vous renouvelez régulièrement) environ 24 heures avant de commencer la préparation.",
+      "2. C'est indispensable à la bonne réalisation de ce plat car sinon, ce serait immangeable, car trop salé!!",
+      "3. Découper la morue en petits morceaux, en retirant méticuleusement les arêtes.",
+      "4. Faire revenir les oignons et l'ail émincés dans l'huile de tournesol et l'huile d'olive.",
+      "5. Faire revenir pendant 5 minutes les morceaux de morue avec l'oignon et l'ail.",
+      "6. Réserver.",
+      "7. Découper les pommes de terre en frites très fines. Les plonger dans la friteuse pour qu'elles soient précuites (et non cuites !!!).",
+      "8. Mélanger les frites, la morue, les oignons et l'ail ensemble dans la poêle. Refaire chauffer pendant 5 minutes.",
+      "9. Battre les oeufs en omelette, saler, poivrer. Mettre cette préparation avec la morue 1 minute avant la fin de la cuisson. Laisser chauffer quelques instants tout en remuant ( faire attention à ne pas cuire les oeufs).",
+      "10. Saupoudrer de persil et mélanger.",
+      "11. Décorer d'olives noires et de tomates cerises.",
+      "12. C'est prêt... MMMMMmmmmm...."
+    ],
+    "tags_raw": "bacalhau a bras (morue à la portugaise), , morue, oeuf, huile de tournesol, huile d'olive, oignon, ail, persil, pomme de terre, facile, moyen, rapide",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 19,
+    "country_match_reasons": [
+      "titre:portugaise",
+      "titre:bacalhau",
+      "titre:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bacalhau-a-bras-morue-a-bras-335457-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bacalhau-a-bras-morue-a-bras_335457.aspx",
+    "name": "Bacalhau à Brás (recette portugaise)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "morue",
+        "raw": "500 g de morue"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "pomme de terre",
+        "raw": "500 g de pomme de terre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "ail",
+        "raw": "3 ail"
+      },
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "10 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "branches",
+        "name": "laurier",
+        "raw": "1 branches de laurier"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "olives noires",
+        "raw": "6 olives noires"
+      },
+      {
+        "quantity": "1",
+        "unit": "branches",
+        "name": "persil",
+        "raw": "1 branches de persil"
+      },
+      {
+        "quantity": "1",
+        "unit": "filets",
+        "name": "huile d'olive",
+        "raw": "1 filets d'huile d'olive"
+      }
+    ],
+    "steps": [
+      "1. Dessaler la morue en la baignant dans l’eau pendant 24 h. Changer régulièrement l’eau.",
+      "2. Enlever les arrêtes et la peau de la morue. Couper la morue en petits morceaux.",
+      "3. Couper finement les oignons et l’ail. Les faire revenir dans une casserole, avec l’huile d’olive et les feuilles de laurier. Faire cuire la morue dans la casserole.",
+      "4. Éplucher les pommes de terre, les couper très finement (en frites) et les faire frire.",
+      "5. Dans un bol, casser les œufs, ajouter le persil, le sel et le poivre.",
+      "6. Une fois la morue cuite, ajouter les pommes de terre, puis les œufs. Bien mélanger pour que la morue ne colle pas.",
+      "7. Ajouter les olives et servir bien chaud.",
+      "8. Bon appétit !"
+    ],
+    "tags_raw": "Bacalhau à Brás (recette portugaise), , morue, pomme de terre, oignon, ail, oeuf, laurier, olives noires, persil, huile d'olive, facile, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 17,
+    "country_match_reasons": [
+      "titre:portugaise",
+      "titre:bacalhau",
+      "ingredient:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-francesinha-originale-portugal-42686-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_francesinha-originale-portugal_42686.aspx",
+    "name": "Francesinha originale (Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 60,
+    "cook_minutes": 60,
+    "total_minutes": 120,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "l",
+        "name": "bière blonde",
+        "raw": "1 l de bière blonde"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "20 cl d'huile d'olive"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "viande (veau par exemple)",
+        "raw": "200 g de viande (veau par exemple)"
+      },
+      {
+        "quantity": "2",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "2 feuilles de laurier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "harissa ou piri-piri (juste un peu !)",
+        "raw": "harissa ou piri-piri (juste un peu !)"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "maïzena",
+        "raw": "50 g de maïzena"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "pulpe de tomate",
+        "raw": "50 g de pulpe de tomate"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "vin de porto",
+        "raw": "20 cl de vin de porto"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel fin",
+        "raw": "1 pincées de sel fin"
+      },
+      {
+        "quantity": "8",
+        "unit": "tranches",
+        "name": "pain de mie",
+        "raw": "8 tranches de pain de mie"
+      },
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "jambon",
+        "raw": "4 tranches de jambon"
+      },
+      {
+        "quantity": "4",
+        "unit": "saucisses",
+        "name": "porc fumées épicées à l'ail et au paprika)",
+        "raw": "4 saucisses de porc fumées épicées à l'ail et au paprika)"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "knacks",
+        "raw": "4 knacks"
+      },
+      {
+        "quantity": "8",
+        "unit": "tranches",
+        "name": "fromage qui fond bien (peut-être de l'emmental)",
+        "raw": "8 tranches de fromage qui fond bien (peut-être de l'emmental)"
+      }
+    ],
+    "steps": [
+      "1. Couper les oignons en petits morceaux, et les mettre dans une casserole à fond épais. Y ajouter l'huile d'olive, l'ail, le laurier et la viande. Laisser mijoter.",
+      "2. Y ajouter le vin de porto et la tomate en mélangeant bien.",
+      "3. Enfin, ajouter la bière.",
+      "4. Laisser mijoter pendant +/- 1 heure.",
+      "5. Passer le tout au mixeur (comme pour la soupe).",
+      "6. La Maizena sera ajoutée si besoin est pour donner une consistance plus épaisse à la sauce (elle doit napper les francesinhas).",
+      "7. Quand la sauce est prête, préparer les francesinhas comme suit :",
+      "8. 1 tranche de pain, 1 tranche de jambon, le steak, la linguiça et la 2ème tranche de pain de mie.",
+      "9. Recouvrir avec les tranches de fromage (le tout doit être presque complètement caché sous le fromage).",
+      "10. Mettre au four pour faire légèrement fondre le fromage. Disposer chaque francesinha dans une assiette (un peu creuse)et napper de sauce.",
+      "11. J'espère que vous apprécierez... Bon appétit !"
+    ],
+    "tags_raw": "Francesinha originale (Portugal), , bière blonde, huile d'olive, oignon, ail, viande, feuille de laurier, harissa, maïzena, pulpe de tomate, vin, sel, facile, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 17,
+    "country_match_reasons": [
+      "titre:portugal",
+      "titre:francesinha",
+      "ingredient:piri piri"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pasteis-de-nata-petits-flans-portugais-16819-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pasteis-de-nata-petits-flans-portugais_16819.aspx",
+    "name": "Pasteis de nata (petits flans portugais)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "35 pièces",
+    "servings": 35,
+    "prep_minutes": 60,
+    "cook_minutes": 12,
+    "total_minutes": 72,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine",
+        "raw": "500 g de farine"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "25 cl d'eau"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "sel",
+        "raw": "10 g de sel"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "50 g de sucre"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "400 g de beurre"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "l de lait entier",
+        "raw": "1/2 l de lait entier"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "l de crème",
+        "raw": "1/2 l de crème"
+      },
+      {
+        "quantity": "15",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "15 jaunes d'oeuf"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "250 g de sucre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à café d'amidon de maïs",
+        "raw": "2 cuillères à café d'amidon de maïs"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons (le zeste)",
+        "raw": "1 citrons (le zeste)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bâtons de cannelle",
+        "raw": "1 bâtons de cannelle"
+      }
+    ],
+    "steps": [
+      "1. Matériel : des petits moules",
+      "2. Préparer une pâte feuilletée avec les ingrédients ci-dessus. Laisser reposer 2 heures au froid.",
+      "3. Préparer un plan de travail et un rouleau bien fariné, étaler la pâte en un rectangle le plus fin possible et couper dans le sens de la longueur en trois morceaux égaux.",
+      "4. Enrouler chaque morceau dans le sens de la longueur pour obtenir un long rouleau. Le couper en tronçons de 3 cm.",
+      "5. Dans chaque moule, mettre un tronçon et l'étirer à l'aide des pouces humidifiés jusqu'au rebord. Laisser sécher à l'air libre pour que la pâte ne rétrecisse pas à la cuisson. Pendant ce temps préparer la crème.",
+      "6. Pour la crème: mélanger tous les ingrédients dans une casserole et faire épaissir à feu doux sans cesser de remuer. Filtrer immédiatement à l'aide d'une passoire fine dans un récipient froid. Battre au fouet jusqu'à tiédir l'appareil. Remplir les moules.",
+      "7. Cuire quelques instants à four très chaud (300°C, ou 250°C au minimum), pour que la crème se colore rapidement sans bouillir. Il est normal que des bulles brûlées apparaissent à la surface des gâteaux.",
+      "8. Consommer froids, ou tièdes (c'est meilleur), natures, saupoudrés de cannelle ou de sucre glace."
+    ],
+    "tags_raw": "Pasteis de nata (petits flans portugais), pasteis de nata, farine, eau, sel, sucre, beurre, moyenne, bon marché, rapide | pasteis de nata",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:portugais",
+      "titre:pasteis de nata"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pasteis-de-nata-portugal-12614-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pasteis-de-nata-portugal_12614.aspx",
+    "name": "Pastéis de nata (Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "24 petits moules individuels",
+    "servings": 24,
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "11",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "11 jaunes d'oeuf"
+      },
+      {
+        "quantity": "1",
+        "unit": "l",
+        "name": "lait",
+        "raw": "1 l de lait"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "500 g de sucre"
+      },
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "farine",
+        "raw": "125 g de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "zestes",
+        "name": "citron ou vanille",
+        "raw": "1 zestes de citron ou vanille"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pâte feuilletée",
+        "raw": "pâte feuilletée"
+      }
+    ],
+    "steps": [
+      "1. Mélanger dans une casserole le sucre, la farine, la vanille avec le lait et ajouter une pincée de sel.",
+      "2. Faire cuire en remuant jusqu'à ce que la crème se détache de la spatule.",
+      "3. Oter du feu et laisser refroidir quelques minutes.\r\nIncorporer les jaunes d'oeufs et bien mélanger.",
+      "4. Verser dans les petits moules déjà garnis de la pâte feuilletée",
+      "5. et mettre au four, préalablement chauffé à 300° (th 9/10).",
+      "6. Sortir du four et saupoudrer de cannelle.",
+      "7. Déguster"
+    ],
+    "tags_raw": "Pastéis de nata (Portugal), pasteis de nata, jaune d'oeuf, lait, sucre, farine, citron, sel, pâte feuilletée, facile, moyen | pasteis de nata",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:portugal",
+      "titre:pasteis de nata"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gambas-a-la-portugaise-58600-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gambas-a-la-portugaise_58600.aspx",
+    "name": "Gambas à la portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 5,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "gambas",
+        "raw": "800 g de gambas"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment portugais piri-piri",
+        "raw": "piment portugais piri-piri"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "croûtons",
+        "raw": "croûtons"
+      }
+    ],
+    "steps": [
+      "1. Eplucher les gambas délicatement. Presser le citron. Hacher l'ail.",
+      "2. Bien faire chauffer l'huile d'olive et ajouter les gambas.",
+      "3. Au bout de 2-3 minutes, ajouter l'ail haché, le piment et le jus de citron. Saler, poivrer.",
+      "4. Pendant ce temps, faire revenir les croûtons dans de l'huile d'olive.",
+      "5. Servir après avoir saupoudré de persil."
+    ],
+    "tags_raw": "Gambas à la portugaise, crevettes, gambas, ail, huile d'olive, piment, citron, persil, poivre, sel, croûtons, très facile, bon marché, rapide | crevettes",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 14,
+    "country_match_reasons": [
+      "ingredient:portugais",
+      "titre:portugaise",
+      "ingredient:piri piri"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-caldo-verde-19488-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_caldo-verde_19488.aspx",
+    "name": "caldo verde",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "l",
+        "name": "eau",
+        "raw": "2 l d'eau"
+      },
+      {
+        "quantity": "450",
+        "unit": "g",
+        "name": "pomme de terre",
+        "raw": "450 g de pomme de terre"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "chou portugais",
+        "raw": "500 g de chou portugais"
+      },
+      {
+        "quantity": "2.5",
+        "unit": "dl",
+        "name": "huile d'olive ou 250 g de beurre",
+        "raw": "2.5 dl d'huile d'olive ou 250 g de beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faire bouillir l'eau salée avec les pommes de terre épluchées et coupées en morceaux. Quand elles sont bien cuites les réduire en fine purée et les remettre dans l'eau de cuisson.",
+      "2. Pendant ce temps bien empiler les feuilles de choux, les enrouler pour les couper en rubans très fins. Les mettre dans de l'eau froide et bien les laver en ayant soin de changer l'eau au moins trois fois.",
+      "3. 10 mn avant de servir les ajouter à l'eau avec la purée de pommes de terre, ajouter l'huile (ou le beurre) et laisser bouillir 5 mn sans couvercle.",
+      "4. Servir bien chaud."
+    ],
+    "tags_raw": "caldo verde, , eau, pomme de terre, chou, huile d'olive, poivre, sel, très facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 13,
+    "country_match_reasons": [
+      "ingredient:portugais",
+      "titre:caldo verde"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cozido-a-la-portugaise-342795-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cozido-a-la-portugaise_342795.aspx",
+    "name": "Cozido à la portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 70,
+    "total_minutes": 100,
+    "ingredients": [
+      {
+        "quantity": "750",
+        "unit": "g",
+        "name": "viande de vache",
+        "raw": "750 g de viande de vache"
+      },
+      {
+        "quantity": "970",
+        "unit": "g",
+        "name": "entrecôte",
+        "raw": "970 g d'entrecôte"
+      },
+      {
+        "quantity": "1",
+        "unit": "oreilles",
+        "name": "porc fumée",
+        "raw": "1 oreilles de porc fumée"
+      },
+      {
+        "quantity": "900",
+        "unit": "ml",
+        "name": "eau",
+        "raw": "900 ml d'eau"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuisses",
+        "name": "poulet",
+        "raw": "2 cuisses de poulet"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "carottes",
+        "raw": "4 carottes"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "choux portugais",
+        "raw": "2 choux portugais"
+      },
+      {
+        "quantity": "10",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "10 pommes de terre"
+      },
+      {
+        "quantity": "480",
+        "unit": "g",
+        "name": "oreilles de porc cuite",
+        "raw": "480 g d'oreilles de porc cuite"
+      },
+      {
+        "quantity": "520",
+        "unit": "g",
+        "name": "haricot blancs",
+        "raw": "520 g de haricot blancs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "riz",
+        "raw": "riz"
+      }
+    ],
+    "steps": [
+      "1. Mettez la viande dans la cocotte-minute. Ajoutez de l'eau (500 ml) et salez. Fermez la cocotte-minute. Quand elle commence à siffler, laissez cuire pendant 20 minutes. Éteignez le feu, laissez évacuer la pression.",
+      "2. Ajoutez le chouriço et le poulet. Fermez de nouveau la cocotte-minute. Quand elle commence à siffler, laissez cuire pendant 10 minutes. Éteignez le feu, laissez évacuer la pression. Ajoutez les carottes coupées en bâtonnets et les choux coupés en quatre. Retirez un peu d'eau pour cuire le riz et les haricots blancs.",
+      "3. Fermez de nouveau la cocotte-minute. Quand elle commence à siffler, laissez cuire pendant 15 minutes. Éteignez le feu, laissez évacuer la pression. Ajoutez les pommes de terre coupées dans le sens de la longueur et l'oreille de porc cuite. Ajoutez de l'eau (400 ml) et salez. Fermez de nouveau la cocotte-minute. Quand elle commence à siffler, laissez cuire pendant 10 minutes. Éteignez le feu, laissez évacuer la pression.",
+      "4. Séparément, cuisez les autres charcuteries dans de l'eau salée. Faîtes des trous pour éviter que les charcuteries ne s'ouvrent.",
+      "5. Dégustez avec vos amis et votre famille ! Vous pouvez accompagner le plat avec du vin rouge, avec modération..."
+    ],
+    "tags_raw": "Cozido à la portugaise, , viande, entrecôte, oreilles, eau, sel, cuisse de poulet, carotte, chou, pomme de terre, oreilles, haricot, riz, facile, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 13,
+    "country_match_reasons": [
+      "ingredient:portugais",
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pot-au-feu-portugais-cuzido-167661-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pot-au-feu-portugais-cuzido_167661.aspx",
+    "name": "Pot au feu Portugais (Cuzido)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 personnes",
+    "servings": 8,
+    "prep_minutes": 20,
+    "cook_minutes": 105,
+    "total_minutes": 125,
+    "ingredients": [
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "jarret de boeuf",
+        "raw": "jarret de boeuf"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poitrine fumée",
+        "raw": "poitrine fumée"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "jarret de porc",
+        "raw": "jarret de porc"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "saucisse à l'oignon Portugaise (chourico de sangue e cebola)",
+        "raw": "saucisse à l'oignon Portugaise (chourico de sangue e cebola)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "saucisse de viande Portugaise (chourico de carne)",
+        "raw": "saucisse de viande Portugaise (chourico de carne)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pieds de porc préalablement salés",
+        "raw": "pieds de porc préalablement salés"
+      },
+      {
+        "quantity": "1",
+        "unit": "cubes",
+        "name": "bouillon de volaille",
+        "raw": "1 cubes de bouillon de volaille"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "carottes",
+        "raw": "6 carottes"
+      },
+      {
+        "quantity": "10",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "10 pommes de terre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "choux brisé",
+        "raw": "1 choux brisé"
+      },
+      {
+        "quantity": "2",
+        "unit": "saucisses",
+        "name": "Toulouse",
+        "raw": "2 saucisses de Toulouse"
+      }
+    ],
+    "steps": [
+      "1. Dans un grand faitout, mettre le jarret de boeuf, les pieds de porc, les oignons coupés en 4 puis recouvrir d'eau.",
+      "2. Faire bouillir pendant 45 minutes.",
+      "3. Ensuite mettre les carottes épluchées mais entières, les saucisses portugaises, le jarret de porc, la poitrine fumée, le chou coupé en 4 puis finir par les pommes de terre épluchées.",
+      "4. Rajouter 25 cl d'eau.",
+      "5. Laisser cuire avec un couvercle à feu doux pendant 1 heure.",
+      "6. Enlever les pommes de terres avant si elles sont cuites.",
+      "7. Toujours meilleur réchauffé le lendemain !!"
+    ],
+    "tags_raw": "Pot au feu Portugais (Cuzido), , jarret de boeuf, poitrine fumée, jarret de porc, saucisse, saucisse, pieds, cube de bouillon, carotte, pomme de terre, oignon, chou, saucisse de Toulouse, facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 13,
+    "country_match_reasons": [
+      "titre:portugais",
+      "ingredient:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-soupe-de-chou-portugaise-23439-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_soupe-de-chou-portugaise_23439.aspx",
+    "name": "Soupe de chou portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "750",
+        "unit": "g",
+        "name": "pomme de terre",
+        "raw": "750 g de pomme de terre"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "chou vert portugais ou chou frisé",
+        "raw": "400 g de chou vert portugais ou chou frisé"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "saucissons fumé portugais",
+        "raw": "1 saucissons fumé portugais"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "olives noires",
+        "raw": "1 poignées d'olives noires"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "6 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "2.5",
+        "unit": "l",
+        "name": "eau",
+        "raw": "2.5 l d'eau"
+      }
+    ],
+    "steps": [
+      "1. Peler l'ail, émincer l'oignon, laver et couper les pommes de terre en rondelles.",
+      "2. Effeuiller le chou, retirer les côtes des feuilles et les détailler en fines lanières. Blanchir ces lanières 5 min à l'eau bouillante.",
+      "3. Faire chauffer l'eau dans une grande marmite avec une poignée de gros sel, l'ail, l'oignon et le saucisson portugais entier.",
+      "4. Porter à ébullition, puis ajouter les pommes de terre.",
+      "5. Laisser cuire jusqu'à ce qu'elles se défassent.",
+      "6. Retirer le saucisson, mixer le tout en purée et remettre à feu doux.",
+      "7. Ajouter le chou à la purée et porter à ébullition.",
+      "8. Ajouter la moitié de l'huile d'olive et laisser cuire 5 minutes.",
+      "9. Au moment de servir, goûter, saler et poivrer si nécessaire et ajouter l'huile d'olive restante.",
+      "10. Servir avec le saucisson coupé en rondelles, les olives noires, et des bâtonnets de pain."
+    ],
+    "tags_raw": "Soupe de chou portugaise, soupe, pomme de terre, chou, oignon, ail, saucisson, olives noires, huile d'olive, poivre, sel, eau, facile, moyen | soupe",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 13,
+    "country_match_reasons": [
+      "ingredient:portugais",
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-accras-de-morue-a-la-portugaise-28070-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_accras-de-morue-a-la-portugaise_28070.aspx",
+    "name": "accras de morue à la portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 45,
+    "cook_minutes": 30,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "morue séchée et trempée dans l'eau pendant 3 jours",
+        "raw": "morue séchée et trempée dans l'eau pendant 3 jours"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "pomme de terre (même poids que la morue)",
+        "raw": "pomme de terre (même poids que la morue)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs en fonction",
+        "raw": "2 oeufs en fonction"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      }
+    ],
+    "steps": [
+      "1. Faire cuire les pommes de terre pelées dans l'eau (il faut qu'elles soient fondantes).",
+      "2. Faire cuire la morue dans l'eau bouillante pendant 10 à 15 min.",
+      "3. Emietter la morue cuite en prenant soin de retirer toutes les arêtes.",
+      "4. Ecraser les pommes de terre à la fourchette et ajouter la morue émiettée et le persil haché.",
+      "5. Battre les oeufs et les ajouter à la préparation.",
+      "6. Celle-ci ne doit pas être trop consistante, au besoin rajouter un oeuf.",
+      "7. Former l'accras en jouant avec deux cuillères à soupe et déposer le délicatement dans l'huile de friture bien chaude.",
+      "8. Retirer quand l'accras devient légèrement brun."
+    ],
+    "tags_raw": "accras de morue à la portugaise, accras, morue, pomme de terre, oeuf, persil, très facile, bon marché | accras",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:portugaise",
+      "titre:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bacalhau-gratin-de-morue-12616-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bacalhau-gratin-de-morue_12616.aspx",
+    "name": "Bacalhau (gratin de morue)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "350",
+        "unit": "g",
+        "name": "morue dessalée",
+        "raw": "350 g de morue dessalée"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons moyens",
+        "raw": "2 oignons moyens"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "pomme de terre",
+        "raw": "300 g de pomme de terre"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre (pas de sel)",
+        "raw": "poivre (pas de sel)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      }
+    ],
+    "steps": [
+      "1. Détailler la morue en lamelles. Emincer les oignons. Couper les pommes de terre en rondelles.",
+      "2. Dans une cocotte, faire un lit d'oignon (avec une gousse d'ail hachée). Par-dessus la morue puis les pommes de terre. Ajouter un peu de poivre.",
+      "3. Couvrir presque complètement d'huile d'olive.",
+      "4. Cuire à feu doux une demi-heure environ, c'est-à-dire jusqu'à cuisson des pommes de terre."
+    ],
+    "tags_raw": "Bacalhau (gratin de morue), poisson au four, morue, oignon, pomme de terre, ail, poivre, huile d'olive, très facile, bon marché | poisson au four",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:bacalhau",
+      "titre:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-morue-pourrie-bacalhau-podre-171711-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_morue-pourrie-bacalhau-podre_171711.aspx",
+    "name": "Bacalhau podre (morue)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "morceaux",
+        "name": "morue dessalée",
+        "raw": "4 morceaux de morue dessalée"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "tomates fraiches",
+        "raw": "4 tomates fraiches"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "ail (à votre convenance)",
+        "raw": "ail (à votre convenance)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "olives noires",
+        "raw": "olives noires"
+      }
+    ],
+    "steps": [
+      "1. Faites votre sauce tomate, en faisant revenir à feu doux les tomates (qui auront été épépinées et pelées préalablement), l'oignon, un peu de persil, l'ail et l'huile d'olive.",
+      "2. A part, panez vos filets de morue en les trempant dans les œufs (battus en omelette) et en les passant 2 minutes de chaque coté à la poêle.",
+      "3. Dans un plat à gratin, disposez la morue et recouvrez de la préparation de tomate.",
+      "4. Mettez au four environ 15 minutes à 180°C (thermostat 6).",
+      "5. Au moment de servir,parsemez ce plat de persil frais, d'olives noires et de quelques brisures d'ail."
+    ],
+    "tags_raw": "Bacalhau podre (morue), , morue, tomate, oignon, oeuf, huile d'olive, sel, poivre, persil, ail, olives noires, très facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:bacalhau",
+      "titre:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-morue-bacalhau-a-gomes-de-sa-314976-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_morue-bacalhau-a-gomes-de-sa_314976.aspx",
+    "name": "Morue \"bacalhau a gomes de sa\"",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 Personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 45,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "morue salée",
+        "raw": "800 g de morue salée"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oignons",
+        "raw": "4 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "pomme de terre",
+        "raw": "1 kg de pomme de terre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs durs",
+        "raw": "2 oeufs durs"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "poignées",
+        "name": "olives noires",
+        "raw": "1 poignées d'olives noires"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "persil",
+        "raw": "1 bouquets de persil"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "10 cl d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Mettre la morue à dessaler la veille dans de l'eau fraîche (à faire plusieurs fois).",
+      "2. Laver les pommes de terre, les cuire 20 min à l'eau bouillante salée.",
+      "3. Les égoutter, les peler, et les couper en rondelles.",
+      "4. Rincer la morue sous l'eau courante, mettre les morceaux dans une casserole, couvrir d'eau froide, porter à ébullition, puis réduire le feu.",
+      "5. Laisser la morue 20 min dans l'eau frémissante.",
+      "6. Égoutter, effeuiller.",
+      "7. Peler et émincer l'ail et les oignons, faire revenir à la poêle 5min dans 2 cuillères d'huile, remuer.",
+      "8. Préchauffer le four à 180°C(th 6).",
+      "9. Huiler un plat à four, y disposer en alternant, couches de pomme de terre, d'ail-d'oignons et de morue, arroser le plat avec le reste huile.",
+      "10. Faire cuire 20 min au four.",
+      "11. Sortir le plat, décorer avec des rondelles d'oeufs dur, olives noires et persil ciselé."
+    ],
+    "tags_raw": "Morue \"bacalhau a gomes de sa\", , morue, oignon, pomme de terre, oeuf, ail, olives noires, persil, huile d'olive, poivre, sel, facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:bacalhau",
+      "titre:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-morue-au-four-a-la-portugaise-49621-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_morue-au-four-a-la-portugaise_49621.aspx",
+    "name": "Morue au four à la portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 60,
+    "cook_minutes": 30,
+    "total_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "morue",
+        "raw": "500 g de morue"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "pomme de terre",
+        "raw": "500 g de pomme de terre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs cuits",
+        "raw": "2 oeufs cuits"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "olives noires",
+        "raw": "olives noires"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      }
+    ],
+    "steps": [
+      "1. Faites tremper la morue dans de l'eau froide (changer l'eau 2 à 3 fois) la veille afin de la dessaler.",
+      "2. Le lendemain, mettez le(s) morceau(x) de morue dans de l'eau bouillante et retirez aussitôt la casserole du feu. Couvrez et laissez ainsi 20 min.",
+      "3. Egouttez la morue, enlevez la peau et les arêtes, puis défaites-la en lanières.",
+      "4. Mettez-les dans un récipient et recouvrez avec du lait bien chaud et laissez infuser 2 à 3 h.",
+      "5. Au bout de ce temps, faites cuire les pommes de terre à l'eau, en conservant la peau ; épluchez- les et coupez-les en rondelles pas trop minces (si vos rondelles sont trop grandes, coupez-les en deux).",
+      "6. Coupez les oignons et l'ail en rondelles et faites colorer légèrement dans un fond d'huile d'olive.",
+      "7. Ajoutez alors les pommes de terre et mélangez légèrement puis ajoutez la morue égouttée.",
+      "8. Ajoutez un peu d'huile d'olive, remuez à nouveau légèrement, en essayant de ne pas trop faire de \"purée\" ; gouttez pour ajuster le sel et le poivre et laissez revenir 2 min (on doit bien sentir le bon goût de l'huile d'olive).",
+      "9. Versez aussitôt la préparation dans un plat à gratin et mettez au four bien chaud environ 10 min.",
+      "10. Servez dans le plat à four, en ayant au préalable parsemé de persil et décoré avec les œufs en rondelles et les olives noires."
+    ],
+    "tags_raw": "Morue au four à la portugaise, poisson au four, morue, pomme de terre, oignon, ail, oeuf, huile d'olive, olives noires, poivre, sel, persil, facile, moyen | poisson au four",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:portugaise",
+      "titre:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-morue-a-la-mode-de-porto-bacalhau-a-congregado-12632-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_morue-a-la-mode-de-porto-bacalhau-a-congregado_12632.aspx",
+    "name": "Morue à la mode de Porto (Bacalhau a congregado)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "5 personnes",
+    "servings": 5,
+    "prep_minutes": 30,
+    "cook_minutes": 20,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "morue",
+        "raw": "500 g de morue"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "pomme de terre",
+        "raw": "500 g de pomme de terre"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oignons",
+        "raw": "4 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "persil",
+        "raw": "1 persil"
+      },
+      {
+        "quantity": "1",
+        "unit": "clous",
+        "name": "girofle",
+        "raw": "1 clous de girofle"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      }
+    ],
+    "steps": [
+      "1. Oter les arêtes et détailler en lamelles pas trop épaisses la morue qu'on aura fait déssaler pendant 12 heures.",
+      "2. Couper en rondelles les pommes de terre.",
+      "3. Disposer au fond d'une cocotte une couche d'oignons coupés en rondelles, la gousse d'ail et le rameau de persil.",
+      "4. Sur cette 1ère couche disposer les lamelles de morie et de pommes de terre en les saupoudrant de poivre. Ajouter le clou de girofle. Verser de l'huile d'olives de façon à couvrir presque entièrement.",
+      "5. Mettre la cocotte couverte à feu doux et secouer de temps en temps sans découvrir.",
+      "6. Cuire une vingtaine de minutes."
+    ],
+    "tags_raw": "Morue à la mode de Porto (Bacalhau a congregado), , morue, pomme de terre, oignon, ail, persil, clou de girofle, huile d'olive, très facile, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:bacalhau",
+      "titre:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-morue-a-la-portugaise-12609-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_morue-a-la-portugaise_12609.aspx",
+    "name": "Morue à la portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 75,
+    "cook_minutes": 30,
+    "total_minutes": 105,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "morue dessalée",
+        "raw": "1 kg de morue dessalée"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bouquets garnis",
+        "raw": "1 bouquets garnis"
+      },
+      {
+        "quantity": "6",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "6 pommes de terre"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "huile",
+        "raw": "25 cl d'huile"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons moyens",
+        "raw": "3 oignons moyens"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "3 gousses d'ail"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "verres",
+        "name": "vin blanc sec",
+        "raw": "1/2 verres de vin blanc sec"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "oeufs durs",
+        "raw": "6 oeufs durs"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "persil",
+        "raw": "1 cuillères à soupe de persil"
+      }
+    ],
+    "steps": [
+      "1. Faire cuire la morue avec le bouquet garni dans un grand faitout d'eau, laisser cuire à frémissement pendant 20 min.",
+      "2. Conserver le liquide de cuisson, retirer la peau et les arêtes de la morue.",
+      "3. Faire cuire les pommes de terre dans l'eau de cuisson. Puis les peler et les couper en rondelles.",
+      "4. Préchauffer le four à thermostat 7/8.",
+      "5. Faire chauffer l'huile dans une sauteuse, ajouter les oignons et l'ail coupes en fines lamelles, les laisser blondir.",
+      "6. Ajouter alors la morue et les pommes de terre. Laisser cuire 5 min. Mouiller avec le vin blanc, poivrer.",
+      "7. Verser le tout dans un plat à four et laisser gratiner 30 min environ à four bien chaud.",
+      "8. Ecaler les oeufs, coupez-en 3 en rondelles.",
+      "9. Hachez les 3 autres avec le persil.",
+      "10. Disposer les rondelles autour du plat gratiné. Parsemer avec le hachis d'oeuf et de persil et servir aussitôt."
+    ],
+    "tags_raw": "Morue à la portugaise, , morue, bouquet garni, pomme de terre, huile, oignon, ail, vin blanc sec, oeuf, persil, facile, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:portugaise",
+      "titre:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-morue-a-la-portugaise-facile-32002-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_morue-a-la-portugaise-facile_32002.aspx",
+    "name": "Morue à la portugaise facile",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 60,
+    "cook_minutes": 60,
+    "total_minutes": 120,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "morue (environ 1kg)",
+        "raw": "4 tranches de morue (environ 1kg)"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "oignons",
+        "raw": "6 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "pomme de teere",
+        "raw": "1 kg de pomme de teere"
+      },
+      {
+        "quantity": "5",
+        "unit": "cl",
+        "name": "huile de d'olive",
+        "raw": "5 cl d'huile de d'olive"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "tomates",
+        "raw": "2 tomates"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "poivrons (rouges ou verts)",
+        "raw": "2 poivrons (rouges ou verts)"
+      }
+    ],
+    "steps": [
+      "1. Couper les oignons en rondelles, puis les mettre dans une terrine.",
+      "2. Mettre la morue, le sel et l'huile d'olive, puis couper les pommes de terre, les tomates et les poivrons en morceaux. Ajouter de l'eau jusqu'à couvrir, puis mettre au four (220°C).",
+      "3. Il faut attendre environ 1 heure. Servir chaud."
+    ],
+    "tags_raw": "Morue à la portugaise facile, poisson facile, morue, oignon, pomme, huile, tomate, sel, poivron, très facile, bon marché | poisson facile",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:portugaise",
+      "titre:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-poulet-au-piri-piri-portugal-11029-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_poulet-au-piri-piri-portugal_11029.aspx",
+    "name": "Poulet au piri-piri (Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "total_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poulets",
+        "raw": "1 poulets"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "moutarde",
+        "raw": "4 cuillères à soupe de moutarde"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "vin blanc",
+        "raw": "20 cl de vin blanc"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "20 cl d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "colorant orange (spécialité du Portugal)",
+        "raw": "1 cuillères à soupe de colorant orange (spécialité du Portugal)"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "Pili Pili (piment)",
+        "raw": "1 cuillères à soupe de Pili Pili (piment)"
+      }
+    ],
+    "steps": [
+      "1. Coupez le poulet en deux et aplatissez-le avec la paume de la main.",
+      "2. Préparez une pâte avec moutarde, huile, colorant piri-piri et vin blanc. Enduisez le poulet de cette pâte et faites-le cuire au barbecue."
+    ],
+    "tags_raw": "Poulet au piri-piri (Portugal), , poulet, moutarde, vin blanc, huile d'olive, colorant, Pili Pili, moyenne, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:portugal",
+      "titre:piri piri"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-salade-portugaise-a-la-morue-et-aux-pois-chiches-21865-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_salade-portugaise-a-la-morue-et-aux-pois-chiches_21865.aspx",
+    "name": "Salade portugaise à la morue et aux pois chiches",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "morue cuite (désalée et cuite au court-bouillon ou dans du lait)",
+        "raw": "300 g de morue cuite (désalée et cuite au court-bouillon ou dans du lait)"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "pois chiches",
+        "raw": "1 boîtes de pois chiches"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "olives",
+        "raw": "100 g d'olives"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "échalotes",
+        "raw": "1 échalotes"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "poivrons verts au vinaigre",
+        "raw": "4 poivrons verts au vinaigre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile",
+        "raw": "huile"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "vinaigre",
+        "raw": "vinaigre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "moutarde",
+        "raw": "moutarde"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "ciboulette",
+        "raw": "ciboulette"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Mélanger les pois chiches égouttés et rincés et la morue émiettée.",
+      "2. Ajouter les olives et l'échalote finement hachée.",
+      "3. Préparer une vinaigrette à la moutarde et à la ciboulette, la verser sur le tout. Ajouter les poivrons au vinaigre pour décorer et laisser macérer 2 h au frais."
+    ],
+    "tags_raw": "Salade portugaise à la morue et aux pois chiches, , morue, pois chiches, olives, échalote, poivron vert, huile, vinaigre, moutarde, ciboulette, poivre, sel, très facile, bon marché, rapide",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 11,
+    "country_match_reasons": [
+      "titre:portugaise",
+      "titre:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-acorda-portugal-32712-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_acorda-portugal_32712.aspx",
+    "name": "açorda (Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 5,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "tranches",
+        "name": "morue de 300 g",
+        "raw": "1 tranches de morue de 300 g"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "4 oeufs"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "pain dur par personne",
+        "raw": "100 g de pain dur par personne"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "3 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "coriandre fraiche",
+        "raw": "coriandre fraiche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      }
+    ],
+    "steps": [
+      "1. Cuire la morue dans 2 litres d'eau pendant 5 mn. Réserver dans un plat.",
+      "2. Faire pocher les oeufs dans la même eau.",
+      "3. Mettre le pain dur dans un grand plat creux (on peut le passer auparavant au four pour qu'il soit croustillant). Emietter la morue sur le pain, ajouter également l'ail écrasé avec la coriandre. Mettre un peu d'huile d'olive.",
+      "4. Ajouter l'eau bouillante avec l'oeuf sur le pain et laisser gonfler un peu.",
+      "5. Servir aussitôt."
+    ],
+    "tags_raw": "açorda (Portugal), , morue, oeuf, pain, ail, coriandre, huile d'olive, très facile, bon marché, rapide",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:portugal",
+      "ingredient:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bacalhau-com-natas-23271-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bacalhau-com-natas_23271.aspx",
+    "name": "Bacalhau com Natas",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 60,
+    "cook_minutes": 45,
+    "total_minutes": 105,
+    "ingredients": [
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "morue (bacalhau)",
+        "raw": "800 g de morue (bacalhau)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "ail",
+        "raw": "2 ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "1 feuilles de laurier"
+      },
+      {
+        "quantity": "4",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "4 pommes de terre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "béchamel ou 200 g de crème fraîche",
+        "raw": "béchamel ou 200 g de crème fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre selon goût",
+        "raw": "poivre selon goût"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faire cuire à l'eau le Bacalhau et après le défaire en morceaux.",
+      "2. Eplucher et couper les pommes de terres en petit carrés et les frire à l'huile.",
+      "3. Couper les oignons et l'ail en très petits morceaux et les faire revenir dans l'huile d'olive avec la feuille de laurier, saler et poivrer selon votre goût.",
+      "4. Mélanger le bacalhau au mélange revenu, laisser mijoter 10 mn puis enlever la feuille de laurier.",
+      "5. Mettre les pommes de terre frites dans un Pyrex, ensuite le mélange bacalhau/ail/oignons et couvrir de  sauce béchamel ou de crème fraîche.",
+      "6. Faire cuire 30 mn au four à 180ºC.",
+      "7. <i>Note du validateur Marmiton :</i>",
+      "8. Bacalhau = morue salée et séchée (à dessaler la veille)."
+    ],
+    "tags_raw": "Bacalhau com Natas, , morue, oignon, ail, feuille de laurier, pomme de terre, béchamel, poivre, sel, moyenne, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:bacalhau",
+      "ingredient:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-francesinha-a-torgueda-164984-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_francesinha-a-torgueda_164984.aspx",
+    "name": "Francesinha a torgueda",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 45,
+    "cook_minutes": 30,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "bière",
+        "raw": "50 cl de bière"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "beurre",
+        "raw": "4 cuillères à soupe de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouillon",
+        "name": "volaille",
+        "raw": "1 bouillon de volaille"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "verres",
+        "name": "whisky",
+        "raw": "1/2 verres de whisky"
+      },
+      {
+        "quantity": "570",
+        "unit": "g",
+        "name": "ketchup",
+        "raw": "570 g de ketchup"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "Pili Pili",
+        "raw": "Pili Pili"
+      },
+      {
+        "quantity": "1",
+        "unit": "tasses",
+        "name": "lait",
+        "raw": "1 tasses de lait"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "maïzena",
+        "raw": "maïzena"
+      },
+      {
+        "quantity": "8",
+        "unit": "tranches",
+        "name": "pain de mie épaisses",
+        "raw": "8 tranches de pain de mie épaisses"
+      },
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "boeuf cuit",
+        "raw": "4 tranches de boeuf cuit"
+      },
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "jambon",
+        "raw": "4 tranches de jambon"
+      },
+      {
+        "quantity": "8",
+        "unit": "tranches",
+        "name": "fromage",
+        "raw": "8 tranches de fromage"
+      },
+      {
+        "quantity": "4",
+        "unit": "rondelles",
+        "name": "chorizo",
+        "raw": "4 rondelles de chorizo"
+      }
+    ],
+    "steps": [
+      "1. Pour faire la sauce:",
+      "2. Dans une casserole mettre tous les ingredients sauf le lait et la maisena melanger et porter a ebulition a feu doux. Mettre le lait et laisser bouillir encore une fois mais a feu vif. Si la sauce est trop liquide diluer un peu de maisena dans peu d' eau et verser au reste de la sauce puis mélanger. Laisser bouillir une dernière fois.",
+      "3. Pour faire le sandwich:",
+      "4. 1 tranche de pain de mie, 1 tranche de fromage, le bife, 1 tranche de jambon, 1 tranche de pain de mie et pour finir 1 tranche de fromage.",
+      "5. Mettre quelques secondes au micro-onde et verser la sauce par dessus. Pour finaliser disposer 1 rondelle de chorizo."
+    ],
+    "tags_raw": "Francesinha a torgueda, , bière, beurre, bouillon de volaille, whisky, ketchup, Pili Pili, lait, maïzena, facile, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:francesinha",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-omelette-portugaise-538975-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_omelette-portugaise_538975.aspx",
+    "name": "Omelette portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "morue séchée effilochée",
+        "raw": "400 g de morue séchée effilochée"
+      },
+      {
+        "quantity": "4",
+        "unit": "pièces",
+        "name": "oeuf gros extra-frais",
+        "raw": "4 pièces d'oeuf gros extra-frais"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "chips en pailles",
+        "raw": "200 g de chips en pailles"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "oignon",
+        "raw": "1 pièces d'oignon"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "18",
+        "unit": "pièces",
+        "name": "olives noires dénoyautées",
+        "raw": "18 pièces d'olives noires dénoyautées"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "feuilles",
+        "name": "feuille de laurier",
+        "raw": "1 feuilles de feuille de laurier"
+      },
+      {
+        "quantity": "3",
+        "unit": "brins",
+        "name": "persil",
+        "raw": "3 brins de persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre du moulin",
+        "raw": "poivre du moulin"
+      }
+    ],
+    "steps": [
+      "1. Pensez à bien faire dessaler la morue au moins 3 jours avant la préparation. Pelez l'oignon et émincez-le. Pelez l'ail, ôtez les germes et hachez finement. Lavez et séchez le persil.",
+      "2. Faites revenir l'oignon dans un peu d'huile d'olive. Quand il devient translucide, ajoutez la morue bien effilochée, l'ail, la feuille de laurier et un peu de poivre.",
+      "3. Mélangez bien et laissez cuire 5 à 10 min jusqu'à ce que la préparation ne soit plus humide. Ajoutez les chips en allumettes. Mélangez.",
+      "4. Cassez les œufs dans un grand bol et battez-les en omelette aérienne. Versez le tout dans la poêle. Laissez cuire à feu doux environ 2 min. La préparation doit rester moite. Intégrez les olives préalablement coupées en rondelles.",
+      "5. Retirez du feu et parsemez de persil déchiré à la main (pour favoriser les saveurs) et servez aussitôt."
+    ],
+    "tags_raw": "Omelette portugaise, , morue, oeuf, chips, oignon, ail, olives noires, huile d'olive, feuille de laurier, persil, poivre du moulin, moyenne, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:portugaise",
+      "ingredient:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pasteis-de-bacalhau-537340-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pasteis-de-bacalhau_537340.aspx",
+    "name": "Pasteis de Bacalhau",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 50,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "morue",
+        "raw": "400 g de morue"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "pomme de terre",
+        "raw": "400 g de pomme de terre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "persil",
+        "raw": "2 cuillères à soupe de persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile pour frire les beignets",
+        "raw": "huile pour frire les beignets"
+      }
+    ],
+    "steps": [
+      "1. La veille, faites dessaler la morue en la plaçant dans un grand récipient d'eau froide. Changez l'eau toutes les 3 à 4 heures.",
+      "2. Égouttez la morue dessalée, puis placez-la dans une casserole d'eau froide. Portez à ébullition, puis réduisez le feu et laissez cuire. Égouttez et laissez refroidir. Une fois refroidie, émiettez la morue en retirant soigneusement les arêtes et la peau.",
+      "3. Pendant que la morue cuit, épluchez les pommes de terre et faites-les cuire dans de l'eau salée jusqu'à ce qu'elles soient bien tendres. Égouttez-les et écrasez-les en purée. Pour gagner du temps, vous pouvez également tout faire cuire ensemble (morue + pommes de terre).",
+      "4. Dans un grand bol, mélangez la morue émiettée avec la purée de pommes de terre. Ajoutez l'oignon finement haché, les gousses d'ail écrasées, et le persil haché. Incorporez ensuite les œufs un à un, en mélangeant bien à chaque ajout, jusqu'à obtenir une pâte homogène.",
+      "5. Avec une cuillère à soupe, prélevez des portions de la préparation et façonnez-les en forme ovale ou ronde avec vos mains légèrement mouillées.",
+      "6. Faites chauffer de l'huile dans une poêle. Plongez les beignets dans l’huile chaude et faites-les frire jusqu’à ce qu’ils soient bien dorés et croustillants. Égouttez-les sur du papier absorbant."
+    ],
+    "tags_raw": "Pasteis de Bacalhau, , morue, pomme de terre, oignon, ail, oeuf, persil, sel, poivre, huile, facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:bacalhau",
+      "ingredient:morue"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pates-a-la-portugaise-de-belle-maman-309775-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pates-a-la-portugaise-de-belle-maman_309775.aspx",
+    "name": "Pâtes à la Portugaise de Belle Maman",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 Personnes",
+    "servings": 8,
+    "prep_minutes": 20,
+    "cook_minutes": 50,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poulets entier",
+        "raw": "1 poulets entier"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "carottes",
+        "raw": "3 carottes"
+      },
+      {
+        "quantity": "5",
+        "unit": "pommes",
+        "name": "terre (taille moyenne)",
+        "raw": "5 pommes de terre (taille moyenne)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons moyen",
+        "raw": "1 oignons moyen"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "macaroni ou spaghetti",
+        "raw": "400 g de macaroni ou spaghetti"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "tomates bien mûres",
+        "raw": "6 tomates bien mûres"
+      },
+      {
+        "quantity": "2",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "2 feuilles de laurier"
+      },
+      {
+        "quantity": "1",
+        "unit": "cubes",
+        "name": "bouillon de volaille",
+        "raw": "1 cubes de bouillon de volaille"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères",
+        "name": "fond de veau",
+        "raw": "1 cuillères de fond de veau"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "eau bouillante",
+        "raw": "1 eau bouillante"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "vinaigre",
+        "raw": "1 cuillères à café de vinaigre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment Doux",
+        "raw": "piment Doux"
+      }
+    ],
+    "steps": [
+      "1. Commencer par enlever la peau du poulet et le couper en morceaux (cuisses en 2, ailes, dos en 3 et chaque poitrine en 2 ou 3) et éplucher et couper vos carottes (rondelles) et vos pommes de terre (cubes).",
+      "2. Faire revenir l'oignon et l'ail dans 2 cuil. à soupe d'huile d'olive, avec les feuilles de laurier.",
+      "3. Sans laisser beaucoup colorer.",
+      "4. Ajouter l'eau bouillante, puis les tomates mixées, le cube de volaille, le fond de veau, le sel, le poivre, le piment doux, le vinaigre et laisser mijoter à feu doux 5 minutes.",
+      "5. Ajouter le poulet en morceaux, les carottes en rondelles, les pommes de terres en petits dés et laisser cuire sur feux moyen 20 minutes.",
+      "6. Mélanger de temps en temps et ajouter de l'eau si nécessaire.",
+      "7. Ensuite ajouter les pâtes et laisser cuire 10 minutes.",
+      "8. C'est prêt!"
+    ],
+    "tags_raw": "Pâtes à la Portugaise de Belle Maman, autres pâtes, poulet entier, carotte, pomme de terre, oignon, ail, macaroni, tomate, feuille de laurier, cube de bouillon, fond de veau, eau, huile d'olive, vinaigre, poivre, sel, piment, facile, bon marché | autres pâtes",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:portugaise",
+      "second_tri_approfondi"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-beignets-portugais-214956-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_beignets-portugais_214956.aspx",
+    "name": "Beignets portugais",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 240,
+    "cook_minutes": 30,
+    "total_minutes": 270,
+    "ingredients": [
+      {
+        "quantity": "1.5",
+        "unit": "kg",
+        "name": "farine (prévoir 2 kg au cas où)",
+        "raw": "1.5 kg de farine (prévoir 2 kg au cas où)"
+      },
+      {
+        "quantity": "10",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "10 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "verres",
+        "name": "jus d'orange (jus de 2 oranges environ)",
+        "raw": "1 verres de jus d'orange (jus de 2 oranges environ)"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "25 cl d'huile d'olive"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "verres d'eau de vie",
+        "raw": "1/2 verres d'eau de vie"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à café",
+        "name": "sel",
+        "raw": "2 cuillères à café de sel"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "levure de boulangerie (1 cube)",
+        "raw": "50 g de levure de boulangerie (1 cube)"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "15 cl de lait"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de friture",
+        "raw": "huile de friture"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sucre",
+        "raw": "sucre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cannelle (éventuellement)",
+        "raw": "cannelle (éventuellement)"
+      }
+    ],
+    "steps": [
+      "1. Défaire la levure dans le lait tiède, ajouter une poignée de farine. Laisser en attente.",
+      "2. Faire bouillir l'huile d'olive dans une petite casserole.",
+      "3. Simultanément, mettre 1 kg de farine dans une grande bassine profonde et ajouter le sel, mélanger.",
+      "4. Lorsque l'huile bout, verser doucement sur la farine, pour l'ébouillanter (attention aux projections). Mélanger avec une cuillère de bois.",
+      "5. Avec les doigts (au début, attention de ne pas se brûler), émietter farine et huile pour enlever le plus de grumeaux possibles (pas grave s'il en reste).",
+      "6. La difficulté commence ici, on travaille la pâte au juger, d'où l'impossibilité de donner une quantité de farine précise à ajouter (je dirais 500 g, mais cela varie à cause de la taille des œufs, de la tasse et du verre utilisés).",
+      "7. De plus, si vous n'avez pas de force dans les bras il vaut mieux abandonner (ou trouver quelqu'un qui en a) car le travail de la pâte est assez fatigant !",
+      "8. Ajouter le lait \"levuré\" et commencer à pétrir avec les mains, ajouter les œufs un par un, en continuant de pétrir entre chacun.",
+      "9. Ajouter le jus d'orange (garder les peaux) et l'eau de vie.",
+      "10. Ajouter de la farine progressivement, une personne pétrit, une autre saupoudre de petites quantités de farine sur toute la pâte, tout en la soulevant, la mélangeant, la faisant tourner.",
+      "11. Au final, en la \"fessant\" vivement en partant des parois, on doit pouvoir la décoller. Attention, elle doit tout de même rester humide, légèrement collante.",
+      "12. Avec un couteau, dessiner une croix sur la pâte.",
+      "13. Recouvrir la bassine d'un linge et la laisser reposer dans un endroit chaud 3-4 heures. Elle doit gonfler, voire doubler de volume.",
+      "14. Prendre une grande poêle à frire, profonde. La remplir d'huile de tournesol. Attendre qu'elle soit très chaude. Tester la température avec un peu de pâte jetée dedans, qui doit frire aussitôt. L'huile est donc prête.",
+      "15. Pour la friture de la pâte, il est préférable d'être deux personnes : une qui étend la pâte et la dépose dans la poêle, une qui la tourne pour la frire des deux cotés, qui l'enlève et qui la saupoudre de sucre.",
+      "16. Préparer un bol avec de l'huile (tournesol) pour étendre la pâte entre chaque beignet.",
+      "17. Mouiller ses mains avec l'huile du bol, prendre une boule de pâte de la taille d'un œuf et l'étendre doucement, en évitant les trous, sur environ 20 cm, les bords seront plus épais.",
+      "18. L'autre personne s'occupera de la cuisson (assez rapide, le beignet doit être doré) et au saupoudrage de sucre (+ cannelle pour les gens qui aiment).",
+      "19. Pour éviter que l'huile ne brûle, on jette un morceau des peaux d'oranges conservés. Quand il est brûlé, on le retire et on en met un autre.",
+      "20. On déguste tiède ou froid."
+    ],
+    "tags_raw": "Beignets portugais, beignets sucrés, farine, oeuf, jus d'orange, huile d'olive, eau, sel, levure, lait, huile de friture, sucre, cannelle, difficile, bon marché | beignets sucrés",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bifanas-portugal-31475-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bifanas-portugal_31475.aspx",
+    "name": "Bifanas (Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "escalopes",
+        "name": "porc",
+        "raw": "4 escalopes de porc"
+      },
+      {
+        "quantity": "4",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "4 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "paprika",
+        "raw": "paprika"
+      },
+      {
+        "quantity": "2",
+        "unit": "verres",
+        "name": "vin blanc",
+        "raw": "2 verres de vin blanc"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de friture",
+        "raw": "huile de friture"
+      }
+    ],
+    "steps": [
+      "1. Dans un plat creux, disposer les escalopes de porc, l'ail coupé en morceaux, saler (gros sel) et poivrer selon votre goût.",
+      "2. Couvrir les escalopes de paprika (de chaque côté), y ajouter le vin.",
+      "3. Laisser mariner le tout environ une heure.",
+      "4. Frire ensuite la viande, avec l'ail de la marinade dans un peu d'huile.",
+      "5. En fin de cuisson, retirer la viande de la poêle et y verser la marinade. Faire cuire cette sauce, à feu moyen, environ 5 mn.",
+      "6. Servir dans un plat en ajoutant la sauce par dessus."
+    ],
+    "tags_raw": "Bifanas (Portugal), plat principal, escalope de porc, ail, paprika, vin blanc, poivre, sel, huile de friture, très facile, bon marché, rapide | plat principal",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugal"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bolo-rei-portugal-16597-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bolo-rei-portugal_16597.aspx",
+    "name": "Bolo rei (Portugal )",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 40,
+    "cook_minutes": 45,
+    "total_minutes": 85,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "farine",
+        "raw": "500 g de farine"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "levure de boulanger",
+        "raw": "30 g de levure de boulanger"
+      },
+      {
+        "quantity": "1",
+        "unit": "dl",
+        "name": "eau",
+        "raw": "1 dl d'eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons (le zeste râpé)",
+        "raw": "1 citrons (le zeste râpé)"
+      },
+      {
+        "quantity": "3",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "3 jaunes d'oeuf"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "l",
+        "name": "vin mousseux",
+        "raw": "1.5 l de vin mousseux"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre (ou de margarine)",
+        "raw": "100 g de beurre (ou de margarine)"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "fruit confit variés",
+        "raw": "150 g de fruit confit variés"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oeufs battu (pour passer au pinceau sur la pâte)",
+        "raw": "1 oeufs battu (pour passer au pinceau sur la pâte)"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "fruit confit pour décorer",
+        "raw": "200 g de fruit confit pour décorer"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sucre glace pour décorer",
+        "raw": "sucre glace pour décorer"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "gelée (parfum au choix)",
+        "raw": "gelée (parfum au choix)"
+      }
+    ],
+    "steps": [
+      "1. Verser les 2/3 de la farine dans un récipient.",
+      "2. Dissoudre la levure de boulanger avec le reste de la farine, dans de l'eau tiède, puis mélanger.",
+      "3. Dans le récipient avec toute la farine, laisser reposer jusqu à ce que la pâte soit un peu levée.",
+      "4. Ajouter ensuite, sel, citron, jaunes d'oeufs, vin mousseux et beurre fondu. Bien pétrir la pâte qui doit avoir la consistance de la pâte à pain.",
+      "5. Mélanger les fruits coupés en petits morceaux, et mélanger à la pâte, que vous ferez reposer ensuite dans un local tiède, jusqu'à ce que la pâte double de volume.",
+      "6. Ensuite, faire une boule avec la pâte et façonner le gâteau: le placer dans un moule beurré et saupoudré de farine, puis faire alors une ouverture au couteau à l'intérieur du gâteau et y placez un petit cadeau surprise enveloppé dans du papier végétal, ainsi qu'une fève.",
+      "7. Laisser encore le gâteau lever un moment, puis avec le pinceau, passer l oeuf battu sur le dessus et autour du gâteau, pour qu'il ait une jolie couleur dorée. Décorez avec les fruits confits et des petits monticules de sucre.",
+      "8. Mettre au four à 160°C pendant plus ou moins 45 mn ou 1 heure. Attention à ne pas laisser trop dorer le gâteau.",
+      "9. En sortant du four, passer la gelée au pinceau, sur les fruits confits et démoulez le gâteau sur un plat de service."
+    ],
+    "tags_raw": "Bolo rei (Portugal ), , farine, levure de boulanger, eau, sel, citron, jaune d'oeuf, vin, beurre, fruit confit, oeuf, fruit confit, sucre glace, gelée, moyenne, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugal"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-bolo-rei-portugal-15953-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_bolo-rei-portugal_15953.aspx",
+    "name": "Bolo Rei (Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "125 g de beurre"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "250 g de sucre"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "farine",
+        "raw": "250 g de farine"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à café",
+        "name": "levure",
+        "raw": "2 cuillères à café de levure"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons (citron)",
+        "raw": "1 citrons (citron)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "muscade",
+        "raw": "muscade"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "porto",
+        "raw": "10 cl de porto"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "eau de vie d'arbouse)",
+        "raw": "10 cl d'eau de vie d'arbouse)"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "noix en morceaux",
+        "raw": "50 g de noix en morceaux"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "mélasse",
+        "raw": "10 cl de mélasse"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "confiture de mangue",
+        "raw": "1 cuillères à soupe de confiture de mangue"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "coing",
+        "raw": "1 cuillères à soupe de coing"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "fruit confit grossièrement coupés",
+        "raw": "250 g de fruit confit grossièrement coupés"
+      }
+    ],
+    "steps": [
+      "1. Battre le beurre avec le sucre jusqu'à obtenir un mélange crémeux et ajouter les jaunes en continuant de battre.",
+      "2. Incorporer le mélange farine et levure puis le reste des ingrédients en terminant par les fruits confits (en garder quelques uns de côté). Enfin incorporer délicatement les blancs en neige.",
+      "3. Mettre le mélange dans un moule en forme de couronne beurré et fariné et mettre à four moyen pendant environ une heure.",
+      "4. Décorer avec le reste des fruits confits (on peut les rajouter sur le gâteau en milieu de cuisson)."
+    ],
+    "tags_raw": "Bolo Rei (Portugal), , beurre, sucre, oeuf, farine, levure, citron, muscade, porto, eau, noix, mélasse, confiture de mangue, coing, fruit confit, facile, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugal"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cabillaud-a-la-portugaise-371499-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cabillaud-a-la-portugaise_371499.aspx",
+    "name": "Cabillaud à la portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 45,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "cabillaud",
+        "raw": "300 g de cabillaud"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "-1 olives",
+        "raw": "-1 olives"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "poivrons jaunes",
+        "raw": "1 poivrons jaunes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre 5 baies",
+        "raw": "poivre 5 baies"
+      }
+    ],
+    "steps": [
+      "1. Dans un plat allant au four placer le morceau de cabillaud au centre.\nAjouter autour le poivron jaune coupé en lamelles.\nVerser sur le tout un filet d'huile d'olive assez généreux.\nSaler et poivrer (5 baies). Ajouter les olives noires.",
+      "2. Faire cuire au four à 200°C (thermostat 6-7) pendant 45 minutes. \nArroser pendant la cuisson si besoin"
+    ],
+    "tags_raw": "Cabillaud à la portugaise, poisson au four, cabillaud, olives, poivron jaune, huile d'olive, oignon, sel, poivre 5 baies, très facile, bon marché | poisson au four",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-calamar-de-l-embouchure-du-fleuve-cavado-portugal-11393-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_calamar-de-l-embouchure-du-fleuve-cavado-portugal_11393.aspx",
+    "name": "Calamar de l'embouchure du fleuve Cavado (Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 40,
+    "cook_minutes": 3,
+    "total_minutes": 43,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "calamar",
+        "raw": "1 kg de calamar"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "farine",
+        "raw": "50 g de farine"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de friture",
+        "raw": "huile de friture"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "salade verte",
+        "raw": "salade verte"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Nettoyer les calamars : tirer la tête afin de vider l'intérieur.",
+      "2. A l'aide d'un couteau, oter le cartilage transparent situé dans la poche. Laver à l'eau l'intérieur de la poche et gratter la fine membrane irisée qui la recouvre.",
+      "3. Couper les calamars en rondelles d'1cm de largeur environ.",
+      "4. Faire chauffer l'huile de friture.",
+      "5. Battre les œufs et les saler.",
+      "6. Y tremper les rondelles de calmars, puis les enrober de farine.",
+      "7. Frire les rondelles dans l'huile pendant 3 min environ.",
+      "8. Arroser de jus de citron, et accompagner de salade verte."
+    ],
+    "tags_raw": "Calamar de l'embouchure du fleuve Cavado (Portugal), calamar, poulpe, calamar, farine, oeuf, huile de friture, citron, salade, sel, moyenne, moyen, rapide | calamar, poulpe",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugal"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-caldeirada-portugaise-537415-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_caldeirada-portugaise_537415.aspx",
+    "name": "Caldeirada portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 40,
+    "cook_minutes": 50,
+    "total_minutes": 90,
+    "ingredients": [
+      {
+        "quantity": "1.6",
+        "unit": "kg",
+        "name": "Poisson (Sardine, Dorade, baudroie...)",
+        "raw": "1.6 kg de Poisson (Sardine, Dorade, baudroie...)"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "calamar",
+        "raw": "400 g de calamar"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "tomate",
+        "raw": "300 g de tomate"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "pulpe de tomate",
+        "raw": "400 g de pulpe de tomate"
+      },
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "oignon",
+        "raw": "600 g d'oignon"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "2",
+        "unit": "pièces",
+        "name": "poivron vert",
+        "raw": "2 pièces de poivron vert"
+      },
+      {
+        "quantity": "2",
+        "unit": "pièces",
+        "name": "poivron rouge",
+        "raw": "2 pièces de poivron rouge"
+      },
+      {
+        "quantity": "1.6",
+        "unit": "kg",
+        "name": "pomme de terre",
+        "raw": "1.6 kg de pomme de terre"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "persil",
+        "raw": "1 bouquets de persil"
+      },
+      {
+        "quantity": "3",
+        "unit": "feuilles",
+        "name": "feuille de laurier",
+        "raw": "3 feuilles de feuille de laurier"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "paprika",
+        "raw": "1 cuillères à café de paprika"
+      },
+      {
+        "quantity": "1",
+        "unit": "pièces",
+        "name": "petit piment",
+        "raw": "1 pièces de petit piment"
+      }
+    ],
+    "steps": [
+      "1. Préparez les calamars en retirant la tête et la plume. Coupez et conservez les tentacules ainsi que les corps après les avoir vidés et nettoyés. Taillez le calamar et les filets de poisson en gros morceaux.",
+      "2. Mondez les tomates et coupez-les en quartiers. Pelez les oignons et taillez-les en rondelles. Lavez et séchez les poivrons. Retirez le pédoncule, les graines et les parties blanches avant de les découper en lanières larges. Pelez l’ail et pressez les gousses après en avoir retiré les germes.",
+      "3. Lavez le persil, hachez-le finement. Faites de même avec le piment. Pelez les pommes de terre, rincez-les puis taillez-les en gros cubes. Dans une grande cocotte, versez l’huile et faites y revenir les oignons avant d’ajouter les poivrons et les tomates coupées. Ajoutez l’ail pressé et assaisonnez légèrement.  Laissez cuire à feu moyen durant 10 minutes.",
+      "4. Ajoutez les aromates et épices. Déposez les pommes de terre ainsi que les morceaux de poissons et de calamars en couches alternées. Versez la pulpe de tomate. Couvrez et laissez cuire durant 40 minutes à feu doux. Ajoutez un peu d’eau à mi-cuisson si la préparation se dessèche trop. Servez bien chaud."
+    ],
+    "tags_raw": "Caldeirada portugaise, , Poisson, calamar, tomate, pulpe de tomate, oignon, ail, poivron vert, poivron rouge, pomme de terre, persil, feuille de laurier, paprika, petit piment, moyenne, assez cher",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-carne-de-porco-alentejana-emince-de-porc-aux-vongoles-recette-portugaise-69143-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_carne-de-porco-alentejana-emince-de-porc-aux-vongoles-recette-portugaise_69143.aspx",
+    "name": "Carne de porco alentejana (Emincé de porc aux vongoles) recette portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 120,
+    "cook_minutes": 30,
+    "total_minutes": 150,
+    "ingredients": [
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "porc",
+        "raw": "800 g de porc"
+      },
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "coques , fraîches ou surgelées",
+        "raw": "800 g de coques , fraîches ou surgelées"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "vin blanc",
+        "raw": "20 cl de vin blanc"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "3 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "paprika",
+        "raw": "paprika"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "coriandre",
+        "raw": "coriandre"
+      },
+      {
+        "quantity": "1",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "1 feuilles de laurier"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "saindoux",
+        "raw": "100 g de saindoux"
+      }
+    ],
+    "steps": [
+      "1. La veille, commencez par assaisonner la viande (préalablement coupée en petits dés) avec l'ail, sel, poivre, paprika, laurier et le vin blanc. Laissez mariner au moins une nuit.",
+      "2. 2 heures avant de commencer la cuisson, faites tremper les vongoles, (si elles sont fraîches) dans de l'eau avec du sel, afin qu'elles perdent leur sable éventuel.",
+      "3. Lavez-les bien dans plusieurs eaux et faites-les bien égoutter.",
+      "4. Faire frire la viande bien essorée, dans le saindoux, en remuant de temps en temps jusqu'à ce qu'elle soit bien dorée.",
+      "5. Ajoutez la marinade et laissez porter à ébullition.",
+      "6. Rajoutez les vongoles et laissez cuire encore quelques minutes jusqu'à ce que les vongoles s'ouvrent.",
+      "7. Saupoudrez avec la coriandre ciselée. Mélangez bien et servez immédiatement, avec des rondelles de citron en décoration.",
+      "8. Accompagnez avec des pommes de terre frites en carrés ou vapeur selon les goûts. Bon appétit."
+    ],
+    "tags_raw": "Carne de porco alentejana (Emincé de porc aux vongoles) recette portugaise, , porc, coques, vin blanc, ail, poivre, sel, paprika, coriandre, feuille de laurier, citron, saindoux, facile, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-coquillages-a-la-cataplana-18013-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_coquillages-a-la-cataplana_18013.aspx",
+    "name": "Coquillages à la cataplana",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "5 personnes",
+    "servings": 5,
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "2.5",
+        "unit": "kg",
+        "name": "palourde",
+        "raw": "2.5 kg de palourde"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "coques",
+        "raw": "coques"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "vénus ou praires",
+        "raw": "vénus ou praires"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons",
+        "raw": "3 oignons"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "andouille ou d'andouillette",
+        "raw": "150 g d'andouille ou d'andouillette"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "jambon en gelée",
+        "raw": "150 g de jambon en gelée"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment en poudre, pili pili",
+        "raw": "piment en poudre, pili pili"
+      }
+    ],
+    "steps": [
+      "1. Au fond de la cataplana, placer les coquillages bien lavés au préalable, les recouvrir d'oignons émincés, saupoudrer de piment, ajouter le jambon en gelée coupé en dés et l'andouille en rondelles. Recommencer l'opération en alternant les couches de coquillage et de garniture jusqu'à ce que la cataplana soit remplie. Sur la dernière couche, mettre un peu de beurre et du pili pili selon goût. Couvrir, laisser cuire 20 minutes à feu doux. N'ouvrir qu'au moment de servir."
+    ],
+    "tags_raw": "Coquillages à la cataplana, , palourde, coques, vénus, oignon, andouille, jambon, beurre, persil, piment, très facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:cataplana"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cosses-de-feves-a-la-portugaise-3eme-rencontre-marmiton-28589-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cosses-de-feves-a-la-portugaise-3eme-rencontre-marmiton_28589.aspx",
+    "name": "cosses de fèves à la portugaise (3ème rencontre Marmiton)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 10,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "fèves nouvelles dans leurs belles gousses vertes",
+        "raw": "1 kg de fèves nouvelles dans leurs belles gousses vertes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons moyen, émincé",
+        "raw": "1 oignons moyen, émincé"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "10 cl d'huile d'olive"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail émincées",
+        "raw": "2 gousses d'ail émincées"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "5",
+        "unit": "cl",
+        "name": "vinaigre de vin",
+        "raw": "5 cl de vinaigre de vin"
+      },
+      {
+        "quantity": "5",
+        "unit": "cl",
+        "name": "eau selon le mode de cuisson",
+        "raw": "5 cl d'eau selon le mode de cuisson"
+      }
+    ],
+    "steps": [
+      "1. Ecosser les fèves et les mettre de côté pour une autre recette ou pour les déguster crues à la croque au sel (rendement : environ 200 g).",
+      "2. Nous allons cuisiner les épluchures, oui, ces belles gousses vertes qu'on à pris soin de choisir les plus fraîches possibles.",
+      "3. Oter les fils avec soin, au couteau si nécessaire. Procéder rapidement, les cosses de fèves ont la particularité de noircir. Ce n'est pas grave, mais c'est temporairement laid à regarder.",
+      "4. Laver les cosses, les égoutter, les couper en tronçons.",
+      "5. Faire blondir l'oignon émincé dans l'huile d'olive. Quand il est tendre, ajouter les cosses de fèves, bien remuer.",
+      "6. Mouiller avec le vinaigre.",
+      "7. Ajouter ail émincé, sel et poivre.",
+      "8. Cuire à l'étouffée :",
+      "9. ajouter 5 cl d'eau, fermer l'autocuiseur et cuire 10 mn à partir du chuchotement de la soupape.",
+      "10. A la casserole :",
+      "11. ajouter 20 cl d'eau, couvrir et laisser bouilloter à feu minimum 30 mn.",
+      "12. Les cosses sont tendres, juste enrobées d'un voile de jus de cuisson."
+    ],
+    "tags_raw": "cosses de fèves à la portugaise (3ème rencontre Marmiton), , fèves, oignon, huile d'olive, ail, poivre, sel, vinaigre de vin, eau, très facile, moyen, rapide",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-cotes-de-veau-au-porto-et-a-l-estragon-portugal-12561-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_cotes-de-veau-au-porto-et-a-l-estragon-portugal_12561.aspx",
+    "name": "Côtes de veau au porto et à l'estragon (Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 30,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "côtes de veau",
+        "raw": "2 côtes de veau"
+      },
+      {
+        "quantity": "2",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "2 jaunes d'oeuf"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "brin d'estragon frais",
+        "raw": "brin d'estragon frais"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "concentré de tomates",
+        "raw": "2 cuillères à soupe de concentré de tomates"
+      },
+      {
+        "quantity": "6",
+        "unit": "cuillères à soupe",
+        "name": "bouillon de boeuf (préparé avec du concentré)",
+        "raw": "6 cuillères à soupe de bouillon de boeuf (préparé avec du concentré)"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "porto",
+        "raw": "4 cuillères à soupe de porto"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "farine",
+        "raw": "1 cuillères à soupe de farine"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "30 g de beurre"
+      }
+    ],
+    "steps": [
+      "1. Colorer rapidement les côtes de veau dans une poele avec l'huile chaude sur les deux faces, salez et poivrez.",
+      "2. Ajoutez le concentré de tomates delayé avec 2 cuillères de bouillon (soit 1/3).",
+      "3. Laissez cuire 20 mn en retournant a mi-cuisson. Pendant ce temps, faites fondre l'oignon haché menu dans le beurre fondu, puis monter le feu pour qu'il se colore. Saupoudrez de farine, remuez et laisser brunir.",
+      "4. Ajouter le porto, l'estragon haché, le reste de bouillon et poivrez. Amenez a ébullition en remuant, puis cuire a feu doux 5 mn.",
+      "5. Quand la viande est cuite, réservez-la au chaud. Versez la sauce dans la poele et melangez-la au jus de cuisson de la viande en grattant bien le fond avec une spatule.",
+      "6. Versez le tout dans une casserole, incorporez les jaunes d'oeufs et faites épaissir au bain-marie (en plongeant la casserole dans une autre plus grande remplie d'eau chaude) sans cesser de remuer.",
+      "7. Servez une demi-côte de veau par personne et la sauce a part."
+    ],
+    "tags_raw": "Côtes de veau au porto et à l'estragon (Portugal), , côte de veau, jaune d'oeuf, oignon, estragon, concentré de tomates, bouillon de boeuf, porto, farine, huile d'olive, beurre, facile, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugal"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-douceur-portugaise-81067-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_douceur-portugaise_81067.aspx",
+    "name": "Douceur Portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 5,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "lait concentré sucré (environ 350-400 g)",
+        "raw": "1 boîtes de lait concentré sucré (environ 350-400 g)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "lait (l'équivalent de la boîte de lait concentré sucré)",
+        "raw": "lait (l'équivalent de la boîte de lait concentré sucré)"
+      },
+      {
+        "quantity": "5",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "5 jaunes d'oeuf"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "biscuits secs (type petits beurres)",
+        "raw": "1 paquets de biscuits secs (type petits beurres)"
+      },
+      {
+        "quantity": "40",
+        "unit": "cl",
+        "name": "crème fraîche liquide",
+        "raw": "40 cl de crème fraîche liquide"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "sucre",
+        "raw": "3 cuillères à soupe de sucre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "café",
+        "raw": "café"
+      }
+    ],
+    "steps": [
+      "1. Mettre sur le feu le lait concentré sucré mélangé au lait et aux 5 jaunes d'oeufs. Remuer jusqu'à épaississement.",
+      "2. Déposer ensuite cette crème dans un plat à gratin.",
+      "3. Tremper les biscuits dans le café et les disposer de façon à recouvrir la crème.",
+      "4. Fouetter la crème et le sucre afin d'obtenir une chantilly et la déposer sur les biscuits.",
+      "5. Décorer avec des biscuits émiettés ou un peu de cannelle.",
+      "6. Mettre au frais pendant environ 2 heures et déguster!"
+    ],
+    "tags_raw": "Douceur Portugaise, , lait concentré sucré, lait, jaune d'oeuf, biscuits secs, crème fraîche liquide, sucre, café, facile, bon marché, rapide",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-escalopes-de-veau-a-la-portugaise-et-poireaux-223110-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_escalopes-de-veau-a-la-portugaise-et-poireaux_223110.aspx",
+    "name": "Escalopes de veau à la portugaise et poireaux",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 personnes",
+    "servings": 3,
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "escalopes",
+        "name": "veau",
+        "raw": "3 escalopes de veau"
+      },
+      {
+        "quantity": "3",
+        "unit": "cl",
+        "name": "vin rosé (Côte de Provence utilisé ici)",
+        "raw": "3 cl de vin rosé (Côte de Provence utilisé ici)"
+      },
+      {
+        "quantity": "3",
+        "unit": "cl",
+        "name": "sirop de cassis",
+        "raw": "3 cl de sirop de cassis"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "crème fraîche",
+        "raw": "20 cl de crème fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "25",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "25 g de beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "1 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "poireaux",
+        "raw": "2 poireaux"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "jus de citron jaune",
+        "raw": "jus de citron jaune"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "farine",
+        "raw": "farine"
+      }
+    ],
+    "steps": [
+      "1. Coupez les poireaux en 4 puis lavez-les. Coupez-les ensuite en morceaux. Mettez-les dans une cocotte minute avec 3 cuillères à soupe de jus de citron et du gros sel.",
+      "2. Laissez cuire 20 min à partir de la rotation de la soupape.",
+      "3. Faites fondre le beurre avec l'huile dans une poêle.",
+      "4. Saupoudrez les escalopes avec la farine. Faites cuire 5 min sur chaque face. Salez et poivrez.",
+      "5. Égouttez le poireau.",
+      "6. Mélangez la crème fraiche, le rosé et la crème de cassis dans un bol. Déglacez la poêle avec ce mélange.",
+      "7. Versez le poireau dans la poêle et laissez mijoter 10 min."
+    ],
+    "tags_raw": "Escalopes de veau à la portugaise et poireaux, escalopes, escalope de veau, vin rosé, sirop de cassis, crème fraîche, sel, poivre, beurre, huile, poireau, jus de citron, farine, facile, bon marché | escalopes",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-escalopes-sauce-portugaise-18289-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_escalopes-sauce-portugaise_18289.aspx",
+    "name": "Escalopes sauce portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 12,
+    "total_minutes": 32,
+    "ingredients": [
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "escalope de veau",
+        "raw": "800 g d'escalope de veau"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères",
+        "name": "crème fraîche",
+        "raw": "3 cuillères de crème fraîche"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "60 g de beurre"
+      },
+      {
+        "quantity": "3",
+        "unit": "cl",
+        "name": "madère",
+        "raw": "3 cl de madère"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre en grains",
+        "raw": "poivre en grains"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Aplatir les escalopes. Saler et poivrer.",
+      "2. Faire fondre le beurre dans une poêle et faire dorer les escalopes des deux côtés.",
+      "3. Ensuite mouiller au madère et mettre sur feu doux.",
+      "4. Retirer les escalopes et ajouter la crème fraîche. Remuer pour épaissir la sauce et ne pas laisser attacher.",
+      "5. Arroser les escalopes avec la sauce et servir avec des champignons sautés et des frites."
+    ],
+    "tags_raw": "Escalopes sauce portugaise, escalopes, escalope de veau, crème fraîche, beurre, madère, poivre en grains, sel, très facile, bon marché, rapide | escalopes",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-flan-portugais-simple-pudim-87465-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_flan-portugais-simple-pudim_87465.aspx",
+    "name": "Flan portugais simple (pudim)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 10,
+    "cook_minutes": 60,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "7",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "7 oeufs"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "50 cl de lait"
+      },
+      {
+        "quantity": "7",
+        "unit": "cuillères à soupe",
+        "name": "sucre",
+        "raw": "7 cuillères à soupe de sucre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "caramel liquide (doser selon les goûts)",
+        "raw": "caramel liquide (doser selon les goûts)"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four à 180°C (thermostat 6).",
+      "2. Mélanger les 7 œufs.",
+      "3. Rajouter les 7 cuillères à soupe de sucre.",
+      "4. Ajouter peu à peu le lait et mélanger.",
+      "5. Mettre du caramel liquide dans un plat allant au four.",
+      "6. Mettre ensuite le mélange œuf/lait/sucre dans ce plat.",
+      "7. Mettre le plat dans un bain-marie et enfourner.",
+      "8. Cuire pendant 1 h."
+    ],
+    "tags_raw": "Flan portugais simple (pudim), flan, oeuf, lait, sucre, caramel, très facile, bon marché | flan",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-francesinhas-portugal-15110-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_francesinhas-portugal_15110.aspx",
+    "name": "Francesinhas (Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "3 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "60 g de beurre"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "tomate",
+        "raw": "2 cuillères à soupe de tomate"
+      },
+      {
+        "quantity": "1",
+        "unit": "dl",
+        "name": "porto",
+        "raw": "1 dl de porto"
+      },
+      {
+        "quantity": "1",
+        "unit": "dl",
+        "name": "vin blanc sec (une autre recette utilise de la bière)",
+        "raw": "1 dl de vin blanc sec (une autre recette utilise de la bière)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites cuillères de piment rouge fort (en poudre ou pâte)",
+        "raw": "1 petites cuillères de piment rouge fort (en poudre ou pâte)"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères",
+        "name": "farine",
+        "raw": "1 cuillères de farine"
+      },
+      {
+        "quantity": "8",
+        "unit": "tranches",
+        "name": "pain de mie",
+        "raw": "8 tranches de pain de mie"
+      },
+      {
+        "quantity": "4",
+        "unit": "filets",
+        "name": "porc",
+        "raw": "4 filets de porc"
+      },
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "jambon cuit",
+        "raw": "4 tranches de jambon cuit"
+      },
+      {
+        "quantity": "4",
+        "unit": "tranches",
+        "name": "emmental",
+        "raw": "4 tranches d'emmental"
+      },
+      {
+        "quantity": "2.5",
+        "unit": "dl",
+        "name": "fond de veau",
+        "raw": "2.5 dl de fond de veau"
+      }
+    ],
+    "steps": [
+      "1. Hachez finement les oignons et l'ail, puis faites-les revenir à feu doux avec la moitié du beurre.",
+      "2. Quand l'onion a prix de la couleur, ajoutez le concentré de tomate et les vins, sur feu vif.",
+      "3. Ajoutez alors le fond de veau et le piment rouge, puis laissez frémir doucement pendant 15 a 20 mn.",
+      "4. Saupoudrez avec la farine et mélangez vivement, la sauce prend forme.",
+      "5. Ajoutez le reste du persil haché, retirez du feu mais maintenez au chaud.",
+      "6. Chauffez les tranches de pain, poêlez les bifanas de chaque côté avec le restant du beurre, puis assaisonez avec du sel et poivre. Disposez chaque bifana sur une tranche de pain.",
+      "7. Sur la bifana, disposez une tranche de jambon et une de fromage. Couvrez le sandwich avec le reste du pain, puis placez au four jusqu'à ce que le fromage soit fondu.",
+      "8. Servez les francesinhas avec beaucoup de sauce dessus!"
+    ],
+    "tags_raw": "Francesinhas (Portugal), , oignon, ail, persil, beurre, tomate, porto, vin blanc sec, piment, farine, pain de mie, porc, jambon, emmental, fond de veau, facile, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugal"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gesiers-de-volaille-facon-portugaise-21962-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gesiers-de-volaille-facon-portugaise_21962.aspx",
+    "name": "Gesiers de volaille façon portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "gésier de volaille frais (pas confits!)",
+        "raw": "800 g de gésier de volaille frais (pas confits!)"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons moyens",
+        "raw": "3 oignons moyens"
+      },
+      {
+        "quantity": "4",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "4 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites boîtes de tomates pelées",
+        "raw": "1 petites boîtes de tomates pelées"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Peler et hacher les oignons ainsi que l'ail.",
+      "2. Dans une casserole faire revenir les oignons et l'ail de façon à ce qu'ils deviennent blonds et qu'ils fondent un peu. Y ajouter ensuite les tomates que vous aurez préalablement coupées en petits morceaux, faire mijoter l'ensemble pendant une dizaine de minutes afin d'obtenir une sauce tomate (feux doux).",
+      "3. Ajouter ensuite les gésiers que vous aurez auparavant lavés dans la sauce et faire cuire environ 20 mn.",
+      "4. Vous pouvez accompagner ce plat de riz blanc (basmati par exemple) ou, si vous n'avez pas peur des calories, de quelques frites!"
+    ],
+    "tags_raw": "Gesiers de volaille façon portugaise, , gésier de volaille, oignon, ail, tomates pelées, poivre, sel, très facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-iscas-a-portuguesa-foie-de-veau-a-la-portugaise-35721-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_iscas-a-portuguesa-foie-de-veau-a-la-portugaise_35721.aspx",
+    "name": "Iscas a Portuguesa (foie de veau à la portugaise)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 180,
+    "cook_minutes": 10,
+    "total_minutes": 190,
+    "ingredients": [
+      {
+        "quantity": "750",
+        "unit": "g",
+        "name": "foie de veau",
+        "raw": "750 g de foie de veau"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "vinaigre de vin blanc",
+        "raw": "4 cuillères à soupe de vinaigre de vin blanc"
+      },
+      {
+        "quantity": "1",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "1 feuilles de laurier"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "2 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "8",
+        "unit": "pommes",
+        "name": "terre moyennes",
+        "raw": "8 pommes de terre moyennes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Couper le foie en tranches très fines.",
+      "2. Dans un saladier mélanger l'ail épluché et coupé en petits morceaux, le vinaigre de vin blanc, et les tranches de foie (Iscas), le laurier. Saler et poivrer, puis recouvrir de film plastique et laisser mariner pendant quelques heures au réfrigérateur.",
+      "3. Une fois le temps passé, chauffer la graisse dans une grande poêle et saisissez les iscas, puis laisser cuire à feu plus doux en ajoutant le jus.",
+      "4. Entretemps, faire cuire les patates, puis les éplucher, les couper et les faire revenir dans la poêle avec la sauce des iscas bien chaude.",
+      "5. Servir immédiatement.",
+      "6. Bon appétit."
+    ],
+    "tags_raw": "Iscas a Portuguesa (foie de veau à la portugaise), foie, foie de veau, ail, vinaigre de vin, feuille de laurier, huile, pomme de terre, poivre, sel, très facile, bon marché, rapide | foie",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-le-pregos-sandwich-portugais-168721-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_le-pregos-sandwich-portugais_168721.aspx",
+    "name": "Le Prégos (sandwich portugais)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 240,
+    "cook_minutes": 4,
+    "total_minutes": 244,
+    "ingredients": [
+      {
+        "quantity": "8",
+        "unit": "",
+        "name": "fines tranches de contre-filet",
+        "raw": "8 fines tranches de contre-filet"
+      },
+      {
+        "quantity": "75",
+        "unit": "cl",
+        "name": "bière blonde minimum (ou brune si vous désirez une marinade plus corsée),",
+        "raw": "75 cl de bière blonde minimum (ou brune si vous désirez une marinade plus corsée),"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "oignon émincés,",
+        "raw": "oignon émincés,"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'arachide ,",
+        "raw": "1 cuillères à soupe d'huile d'arachide ,"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "gousse d'ail ,",
+        "raw": "gousse d'ail ,"
+      },
+      {
+        "quantity": "1",
+        "unit": "feuilles",
+        "name": "laurier ,",
+        "raw": "1 feuilles de laurier ,"
+      },
+      {
+        "quantity": "5",
+        "unit": "grains",
+        "name": "poivre noir.",
+        "raw": "5 grains de poivre noir."
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "baguette ou pistolets (pains fendus),",
+        "raw": "baguette ou pistolets (pains fendus),"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "tomate en tranches,",
+        "raw": "tomate en tranches,"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "feuille de salade ciselées,",
+        "raw": "feuille de salade ciselées,"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "oignon crus émincés éventuellement...",
+        "raw": "oignon crus émincés éventuellement..."
+      }
+    ],
+    "steps": [
+      "1. Recette kinoise (Congo ex-Zaïre) à la bière:",
+      "2. Préparer la viande; de (très) fines tranches de contre-filet que votre",
+      "3. boucher préféré se fera un plaisir de vous couper avant de vous les emballer avec amour...",
+      "4. - Préparer la marinade; 75cl de bière blonde minimum (ou brune si vous désirez une marinade plus corsée),",
+      "5. deux gros oignon émincés, une ou deux cuillères à soupe d'huile d'arachide, deux gousses d'ail, une feuille de",
+      "6. laurier, 5 à 7 grains de poivre noir.",
+      "7. - Immerger la viande dans la marinade et laisser au frais de 2 heures minimum à une nuit au frigo.",
+      "8. - Préparer le pain; baguette ou pistolet, fendez le en deux juste avant la cuisson des prégos et réserver.",
+      "9. - Préparer la garniture; tomates en tranche, feuilles de salade ciselées, oignons crus émincés éventuellement...",
+      "10. - Cuisson à la poêle; jeter les tranches de bœuf dans la poêle napée d'huile d'arachide, saisir d'un côté,",
+      "11. saisir de l'autre, verser un peu de marinade en fin de cuisson, ouvrir le pain, écarter la viande, écraser le côté mie dans la poêle pour qu'il s'imprègne de jus et prenne un petit coup de chaud, enlever le pain,",
+      "12. y glisser une ou deux tranches selon la taille du pain, ajouter la garniture désirée, fermer, déguster...",
+      "13. - Cuisson au makala (BBQ); jeter les tranches de bœuf sur la grille, saisir d'un côté, saisir de l'autre,",
+      "14. ouvrir le pain, l'imbiber de marinade et le retourner également sur la grille, enlever le tout quand la viande est cuite, ne cramez pas le pain, mettre la viande dans le pain, garnir au choix...",
+      "15. Plusieurs variantes existent au vin rouge ou au Matéus rosé ... la base est la même!",
+      "16. Bonne dégustation!"
+    ],
+    "tags_raw": "Le Prégos (sandwich portugais), sandwich, contre-filet, bière blonde, oignon, huile d'arachide, ail, feuille de laurier, poivre, baguette, tomate, salade, oignon, facile, bon marché, rapide | sandwich",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-moelas-gesiers-a-la-portugaise-340347-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_moelas-gesiers-a-la-portugaise_340347.aspx",
+    "name": "Moelas (Gésiers) à la portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "gésier de volaille",
+        "raw": "400 g de gésier de volaille"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "grandes boîtes de tomates pelées",
+        "raw": "1 grandes boîtes de tomates pelées"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "paprika",
+        "raw": "1 pincées de paprika"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "vin blanc sec",
+        "raw": "10 cl de vin blanc sec"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "fécule de maïs",
+        "raw": "1 cuillères à café de fécule de maïs"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Emincer l'oignon. Le cuire dans une casserole avec l'huile d'olive.",
+      "2. Bien laver les gésiers, les égoutter et les déposer dans la casserole avec l'ail haché.",
+      "3. Laisser cuire 5 minutes et ajouter : les tomates pelées, le vin blanc et le paprika. Saler et poivrer (vous pouvez ajouter un petit morceau de sucre afin de neutraliser l'acidité de la tomate).",
+      "4. Ajouter de l'eau pour couvrir les gésiers et porter à ébullition puis baisser le feu et laisser mijoter à couvert pendant 1h.",
+      "5. La sauce ayant réduit, mélanger la fécule de maïs avec un peu d'eau froide et l'ajouter aux gésiers.",
+      "6. Laisser mijoter quelques minutes de plus pour épaissir légèrement la sauce et éteindre le feu.",
+      "7. Servir avec des frites, du riz ou de la salade."
+    ],
+    "tags_raw": "Moelas (Gésiers) à la portugaise, , gésier de volaille, oignon, tomates pelées, paprika, huile d'olive, vin blanc sec, fécule de maïs, ail, sel, poivre, facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-mousse-onctueuse-au-lait-concentre-bave-de-chameau-portugal-41481-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_mousse-onctueuse-au-lait-concentre-bave-de-chameau-portugal_41481.aspx",
+    "name": "Mousse onctueuse au lait concentré (Bave de chameau - Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 50,
+    "total_minutes": 65,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "lait concentré sucré en métal (295g)",
+        "raw": "1 boîtes de lait concentré sucré en métal (295g)"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "6 oeufs"
+      }
+    ],
+    "steps": [
+      "1. Dans une cocotte minute, faire caraméliser le lait concentré sucré au bain marie : mettre la boîte fermée dans la cocotte et remplir d'eau jusqu'à la moitié de la boîte.",
+      "2. Laisser cuire à feu moyen-chaud durant 50 min à partir de l'évacuation de la vapeur par le sifflet de la cocotte.",
+      "3. Ensuite ouvrir la boîte (attention! la faire tremper dans de l'eau froide avant, sinon ça risque de brûler!) le lait concentré doit alors avoir une couleur marron-dorée uniformément.",
+      "4. Dans un saladier mélanger le contenu entier de la boîte avec les 6 jaunes d'oeufs jusqu'à l'obention d'une crème homogène.",
+      "5. Monter les 6 blancs en neige ferme et les incorporer délicatement dans le saladier afin d'obtenir une mousse onctueuse.",
+      "6. Mettre au frigo durant 3 heures et c'est prêt!"
+    ],
+    "tags_raw": "Mousse onctueuse au lait concentré (Bave de chameau - Portugal), , lait concentré sucré, oeuf, très facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugal"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-natas-do-ceu-dessert-portugais-212917-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_natas-do-ceu-dessert-portugais_212917.aspx",
+    "name": "Natas do ceu (portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 ramequins",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 0,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "lait concentré sucré",
+        "raw": "1 boîtes de lait concentré sucré"
+      },
+      {
+        "quantity": "37",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "37 cl de lait"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "4 oeufs"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "crème liquide",
+        "raw": "25 cl de crème liquide"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sucre en poudre",
+        "raw": "1 cuillères à soupe de sucre en poudre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "biscuits secs",
+        "raw": "biscuits secs"
+      }
+    ],
+    "steps": [
+      "1. Dans une casserole, mettre le lait concentré, le lait (utiliser la même boîte pour doser le lait) et 4 jaunes d'oeufs (garder les blancs de côté).",
+      "2. Mélanger le tout et faire bouillir tout en remuant jusqu'à obtenir une crème.",
+      "3. Disperser la crème dans des ramequins jusqu'à la moitié.",
+      "4. Écraser les biscuits et les mettre dessus (environ 4 biscuits par ramequin).",
+      "5. Mettre au frais.",
+      "6. En attendant, monter les blancs en neige.",
+      "7. Faire une crème chantilly avec la crème, le sucre et incorporer les blancs délicatement.",
+      "8. Remplir le reste du ramequin de ce mélange et ajouter du biscuits pour la déco.",
+      "9. Avant de servir vous pouvez mélanger du jaune d’œuf avec du sucre et en mettre un peu sur le dessert (facultatif)."
+    ],
+    "tags_raw": "Natas do ceu (portugal), , lait concentré sucré, lait, oeuf, crème liquide, sucre en poudre, biscuits secs, moyenne, bon marché, rapide",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugal"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pastel-nata-portugais-42661-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pastel-nata-portugais_42661.aspx",
+    "name": "pastel nata (Portugais)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "12 personnes",
+    "servings": 12,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "l de lait",
+        "raw": "1/2 l de lait"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "200 g de sucre"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "maïzena",
+        "raw": "2 cuillères à soupe de maïzena"
+      },
+      {
+        "quantity": "1",
+        "unit": "pelures",
+        "name": "citron",
+        "raw": "1 pelures de citron"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "4 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pâtes feuilletées",
+        "raw": "1 pâtes feuilletées"
+      }
+    ],
+    "steps": [
+      "1. Dans une casserole, mettre le lait, le sucre, la maïzéna, et l zeste de citron.",
+      "2. Mélanger pour bien incorporer tous les ingrédients.",
+      "3. Faire chauffer, à feu doux dans une casserole, en mélangeant toujours avec une cuillère en bois.",
+      "4. Arrêter le feu, quand le mélange s'épaissit.",
+      "5. Dans 2 moules à muffins, mettre des petits ronds de pâte feuilletée (les découper en prenant une tasse moyenne pour la mesure).",
+      "6. Puis, séparer les blancs des jaunes... Garder les blancs pour une autre utilisation, ou bien les jeter.",
+      "7. Enlever le zeste de citron, et incorporer les jaunes d'oeufs.",
+      "8. Mélanger, sur feu doux, pendant 5 min.",
+      "9. Verser le mélange dans la pâte feuilletée.",
+      "10. Enfourner à 210°C (thermostat 7), pendant 30 min... le dessus de ces petits flans va brunir, c'est normal!"
+    ],
+    "tags_raw": "pastel nata (Portugais), , lait, sucre, maïzena, citron, oeuf, pâte feuilletée, très facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pasteis-de-nata-au-thermomix-382606-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pasteis-de-nata-au-thermomix_382606.aspx",
+    "name": "Pastéis de nata au Thermomix",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 15,
+    "total_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pâtes feuilletées",
+        "raw": "1 pâtes feuilletées"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "50 cl de lait"
+      },
+      {
+        "quantity": "4",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "4 jaunes d'oeuf"
+      },
+      {
+        "quantity": "2.5",
+        "unit": "cuillères à soupe",
+        "name": "fécule de maïs",
+        "raw": "2.5 cuillères à soupe de fécule de maïs"
+      },
+      {
+        "quantity": "120",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "120 g de sucre"
+      },
+      {
+        "quantity": "2",
+        "unit": "sachets",
+        "name": "sucre vanillé",
+        "raw": "2 sachets de sucre vanillé"
+      },
+      {
+        "quantity": "1",
+        "unit": "zestes",
+        "name": "citron",
+        "raw": "1 zestes de citron"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "cannelle",
+        "raw": "1 pincées de cannelle"
+      }
+    ],
+    "steps": [
+      "1. Préchauffez le four à 240 °C (th. 8).",
+      "2. Foncez la pâte dans de petits moules à muffin.",
+      "3. Dans un bol, mélangez la fécule, le sucre, le sucre vanillé. Ajoutez 2 c. à soupe de lait et mélangez à nouveau. Réservez.",
+      "4. Faites bouillir le reste de lait dans la cuve de votre Thermomix, avec les zestes de citron pendant 5 min / 100 °C / vit. 1 en surveillant attentivement. Filtrez avec une passoire, et reversez le lait dans la cuve.",
+      "5. Versez le mélange de fécule dans la cuve, puis faites chauffer pour épaissir pendant 4 min / 95 °C / vit.4.",
+      "6. Sans cuisson, ajoutez les jaunes d’œufs et battez pendant 1 min / 0 °C / vit. 4.",
+      "7. Répartissez la préparation dans les fonds de pâte, saupoudrez de cannelle, puis enfournez pour 15 à 20 min.",
+      "8. Servez une fois refroidi."
+    ],
+    "tags_raw": "Pastéis de nata au Thermomix, pasteis de nata, pâte feuilletée, lait, jaune d'oeuf, fécule de maïs, sucre, sucre vanillé, citron, cannelle, facile, moyen | pasteis de nata",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:pasteis de nata"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pied-de-porc-portugaise-82019-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pied-de-porc-portugaise_82019.aspx",
+    "name": "Pied de porc portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "total_minutes": 75,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "porc",
+        "raw": "2 porc"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "carottes",
+        "raw": "4 carottes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "5",
+        "unit": "pommes",
+        "name": "terre",
+        "raw": "5 pommes de terre"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "pois chiches en boîte",
+        "raw": "300 g de pois chiches en boîte"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bouquets garnis",
+        "raw": "1 bouquets garnis"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "1 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "cubes",
+        "name": "bouillon de poule",
+        "raw": "1 cubes de bouillon de poule"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faire couper en deux chacun des pieds de porc par votre boucher.",
+      "2. Remplir une cocotte minute de deux litres d'eau, rajouter le cube de bouillon de poule et mettre à cuire 1 heure après le début du sifflement de la cocotte.",
+      "3. Éplucher les carottes et pommes de terre et l'oignon.",
+      "4. Émincer l'oignon, couper en tranches de 5 mm les carottes et en plus gros les pommes de terre.",
+      "5. Après 1 heure de cuisson des pieds de porc dans la cocotte, les sortir et réserver, vider la cocotte.",
+      "6. Dans celle-ci mettre un peu d'huile d'olive, faire chauffer et ajouter l'oignon émincé.",
+      "7. Une fois l'oignon revenu rajouter les carottes, pommes de terre, pois chiches, bouquet garni, sel et poivre.",
+      "8. Faire sauter quelques minutes et ajouter les pieds de porc.",
+      "9. Laisser mijoter quelques minutes en remuant doucement, puis couvrir d'eau. L'eau doit tout couvrir à plus de 2 cm environ.",
+      "10. Fermer votre cocotte et cuire pendant 40 minutes après le sifflement."
+    ],
+    "tags_raw": "Pied de porc portugaise, , porc, carotte, oignon, pomme de terre, pois chiches, bouquet garni, huile d'olive, cube de bouillon, poivre, sel, facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-porc-alentejana-ou-porc-aux-coquillages-portugal-19734-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_porc-alentejana-ou-porc-aux-coquillages-portugal_19734.aspx",
+    "name": "Porc alentejana ou porc aux coquillages (Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 120,
+    "total_minutes": 135,
+    "ingredients": [
+      {
+        "quantity": "40",
+        "unit": "",
+        "name": "vénus ou coques (elles peuvent êtres surgelées dans leur coquille)",
+        "raw": "40 vénus ou coques (elles peuvent êtres surgelées dans leur coquille)"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "huile d'olive",
+        "raw": "80 g d'huile d'olive"
+      },
+      {
+        "quantity": "160",
+        "unit": "g",
+        "name": "oignon épluchés et coupés en rondelles",
+        "raw": "160 g d'oignon épluchés et coupés en rondelles"
+      },
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "échine de porc coupée en cubes",
+        "raw": "800 g d'échine de porc coupée en cubes"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "dl",
+        "name": "vin blanc sec",
+        "raw": "1.5 dl de vin blanc sec"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "concentré de tomates",
+        "raw": "30 g de concentré de tomates"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail épluchée",
+        "raw": "1 gousses d'ail épluchée"
+      },
+      {
+        "quantity": "2",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "2 feuilles de laurier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil haché",
+        "raw": "persil haché"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "riz ou pommes de terre nature",
+        "raw": "riz ou pommes de terre nature"
+      }
+    ],
+    "steps": [
+      "1. 1) laver les coques plusieurs fois, mais ne laissez pas tremper dans l'eau, si elles sont surgelées aucune préparation.",
+      "2. 2) dans une cocotte, faire chauffer l'huile et laisser dorer les oignons ; ajouter les cubes se porc et laisser dorer de tous les côtés.",
+      "3. 3) mouiller avec le vin blanc ; ajouter le concentré de tomates, l'ail et les feuilles de laurier ; saler et poivrer ; couvrir et laisser mijoter à feu doux pendant 1h50 en surveillant la quantité de liquide pour le mijotement, ajoutez un peu d'eau si nécessaire.",
+      "4. 4) ajouter les coques ; laisser cuire 10 mn, saupoudrer de persil et servir."
+    ],
+    "tags_raw": "Porc alentejana ou porc aux coquillages (Portugal), , vénus, huile d'olive, oignon, échine de porc, vin blanc sec, concentré de tomates, ail, feuille de laurier, persil, riz, très facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugal"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-potage-portugais-a-la-crevette-21157-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_potage-portugais-a-la-crevette_21157.aspx",
+    "name": "Potage portugais à la crevette",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "crevette rose",
+        "raw": "600 g de crevette rose"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "céleri",
+        "raw": "2 céleri"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "carottes",
+        "raw": "2 carottes"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "purée de tomate",
+        "raw": "20 cl de purée de tomate"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bouquets garnis",
+        "raw": "1 bouquets garnis"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "persil frais haché",
+        "raw": "1 bouquets de persil frais haché"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "crème liquide",
+        "raw": "10 cl de crème liquide"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "fécule de pomme de terre ou maïzena",
+        "raw": "fécule de pomme de terre ou maïzena"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faire suer les oignons, le céleri et les carottes hachés fin dans de l'huile.",
+      "2. Ajouter les crevettes entières rincées puis la purée de tomate. Bien mélanger. Mouiller d'eau chaude à hauteur, ajouter le bouquet garni, sel, poivre, et les gousses d'ail entières.",
+      "3. Laisser cuire 30 min, puis filtrer la soupe en pressant bien les crevettes. Lier avec un peu de fécule de pommes de terre délayée dans de l'eau, ajouter la crème liquide et le persil haché.",
+      "4. Décortiquer les crevettes, les remettre dans le potage puis servir."
+    ],
+    "tags_raw": "Potage portugais à la crevette, soupe, crevette rose, oignon, céleri, carotte, purée de tomate, bouquet garni, ail, persil, crème liquide, fécule de pomme de terre, poivre, sel, facile, moyen | soupe",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-poulpe-cuit-en-sauce-verte-portugal-11394-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_poulpe-cuit-en-sauce-verte-portugal_11394.aspx",
+    "name": "Poulpe cuit en sauce verte (Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 40,
+    "cook_minutes": 45,
+    "total_minutes": 85,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "poulpe",
+        "raw": "1 kg de poulpe"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "persil",
+        "raw": "1 bouquets de persil"
+      },
+      {
+        "quantity": "20",
+        "unit": "",
+        "name": "olives noires",
+        "raw": "20 olives noires"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "20 cl d'huile d'olive"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "vinaigre",
+        "raw": "3 cuillères à soupe de vinaigre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre blanc",
+        "raw": "poivre blanc"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Préparer le poulpe : couper sa tête et retirer le bec dur situé entre les tentacules à l'aide d'un couteau.",
+      "2. Battre le poulpe sur une surface dure à l'aide d'une planchette, pendant une dizaine de minutes.",
+      "3. Cuire le poulpe entier dans l'eau bouillante pendant 45 min environ.",
+      "4. Oter la peau recouvrant les tentacules, en conservant les ventouses. Couper la chair en petits morceaux et en lamelles. Les disposer dans un saladier.",
+      "5. Préparer une vinaigrette avec l'huile et le vinaigre.",
+      "6. Eplucher et hacher les oignons.",
+      "7. Hacher le persil.",
+      "8. Ajouter les oignons et le persil à la vinaigrette.",
+      "9. Saler et poivrer.",
+      "10. Assaisonner le poulpe avec la vinaigrette, et parsemer d'olives noires."
+    ],
+    "tags_raw": "Poulpe cuit en sauce verte (Portugal), calamar, poulpe, poulpe, oignon, persil, olives noires, huile d'olive, vinaigre, poivre, sel, moyenne, moyen | calamar, poulpe",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugal"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-ragout-de-fruits-de-mer-a-la-portugaise-24122-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_ragout-de-fruits-de-mer-a-la-portugaise_24122.aspx",
+    "name": "Ragoût de fruits de mer à la portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "homards",
+        "name": "700 g",
+        "raw": "1 homards de 700 g"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "crevette rose décortiquées",
+        "raw": "400 g de crevette rose décortiquées"
+      },
+      {
+        "quantity": "12",
+        "unit": "",
+        "name": "moules",
+        "raw": "12 moules"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "palourde",
+        "raw": "400 g de palourde"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "coquilles saint-jacques",
+        "raw": "6 coquilles saint-jacques"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "tomates rouges",
+        "raw": "6 tomates rouges"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "poivrons",
+        "raw": "2 poivrons"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "jambon cru haché",
+        "raw": "50 g de jambon cru haché"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "40",
+        "unit": "cl",
+        "name": "vin blanc",
+        "raw": "40 cl de vin blanc"
+      },
+      {
+        "quantity": "4",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "4 cl d'huile d'olive"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "50 cl d'eau"
+      },
+      {
+        "quantity": "1",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "1 feuilles de laurier"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "safran",
+        "raw": "1 safran"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "persil haché",
+        "raw": "1 cuillères à soupe de persil haché"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Hacher les poivrons finement. Peler et émincer les oignons puis les faire fondre dans une cocotte avec un peu d'huile. puis ajouter le hachis de poivron. Faire cuire doucement 5 min.",
+      "2. Laver et couper grossièrement les tomates. Ajouter le jambon, l'ail et le laurier dans la cocotte. Laisser revenir 2 min avant d'incorporer les tomates concassées.",
+      "3. Arroser le tout de vin blanc et d'eau. Cuire 15 min, puis poivrer et ajouter le safran.",
+      "4. Décoquiller les moules et les palourdes et les mettre dans la cocotte avec le homard, les crevettes et les coquilles Saint-Jacques.",
+      "5. Porter à nouveau à ébullition, rectifier l'assaisonnement si besoin.",
+      "6. Saupoudrer de persil haché avant de servir."
+    ],
+    "tags_raw": "Ragoût de fruits de mer à la portugaise, , homard, crevette rose, moules, palourde, coquille saint-jacques, facile, moyen",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-rissois-aux-crevettes-petits-beignets-du-portugal-164934-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_rissois-aux-crevettes-petits-beignets-du-portugal_164934.aspx",
+    "name": "Rissois aux crevettes (petits beignets du Portugal)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "40 pièces",
+    "servings": 40,
+    "prep_minutes": 45,
+    "cook_minutes": 10,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "bols",
+        "name": "eau",
+        "raw": "2 bols d'eau"
+      },
+      {
+        "quantity": "2",
+        "unit": "bols",
+        "name": "farine",
+        "raw": "2 bols de farine"
+      },
+      {
+        "quantity": "800",
+        "unit": "g",
+        "name": "crevettes coupées en dés",
+        "raw": "800 g de crevettes coupées en dés"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "gambas",
+        "raw": "4 gambas"
+      },
+      {
+        "quantity": "180",
+        "unit": "g",
+        "name": "surimi râpé",
+        "raw": "180 g de surimi râpé"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "chapelure extra fine (n'hésitez pas à la passer au mixeur pour obtenir une poudre la plus fine possible)",
+        "raw": "chapelure extra fine (n'hésitez pas à la passer au mixeur pour obtenir une poudre la plus fine possible)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment de Cayenne",
+        "raw": "piment de Cayenne"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de friture",
+        "raw": "huile de friture"
+      }
+    ],
+    "steps": [
+      "1. 1/ Préparer la pâte :",
+      "2. Faire bouillir l'eau avec une pincée ded sel et le beurre. Aux premiers bouillons, ajouter la farine d'un coup et mélanger vigoureusement jusqu'à ce qu ela pate se décolle des bords de la casserole (c'est le même principe qu'une pâte à choux). Former une boule et laisser reposer la pâte.",
+      "3. 2/ Préparer l'appareil à rissois :",
+      "4. Faire cuire à l'eau 4 gambas entières, non épluchées. Les couper en dés. Surtout, conserver l'eau de cuisson",
+      "5. Emincer l'oignon et l'ail : dans une casserole, les faire revenir dans de l'huile d'olive. Ajouter les crevettes, le surimi râpé et les gambas. Verser un peu d'eau de cuisson des gambas sur cette préparation. Assaisonner tout ça avec : sel, poivre, piment de cayenne. Lier le tout avec 3 CS de maïzena et mélanger jusqu'à ce que le mélange épaississe. s'il est trop liquide, rajouter de la maïzena (on doit obtenir la consistance d'une béchamel).",
+      "6. Eteindre le feu et ajouter le persil haché : laisser refroidir.",
+      "7. 3/ Confectionner les rissois :",
+      "8. Etaler la pâte à rissois préparée en étape 1 et y couper, à l'aide d'un verre, des cercles. Farcir ces cercles de pâte à rissois préparée en étape 2 et les replier afin de former des demi cercles. Bien presser les bords pour que la pâte ne déborde pas à la cuisson.",
+      "9. 4/ Paner et cuire :",
+      "10. Rouler les rissois confectionnés dans les oeufs préalablement battus. Puis les paner à la chapelure. Les faire frire et dorer quelques minutes dans un bain d'huile."
+    ],
+    "tags_raw": "Rissois aux crevettes (petits beignets du Portugal), crevettes, eau, farine, crevettes, gambas, surimi, beurre, oeuf, oignon, ail, chapelure, piment de Cayenne, persil, poivre, sel, huile d'olive, huile de friture, facile, moyen, rapide | crevettes",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugal"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-rissois-portugais-viande-ou-crevette-335359-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_rissois-portugais-viande-ou-crevette_335359.aspx",
+    "name": "Rissois portugais (Viande ou crevette)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 60,
+    "cook_minutes": 40,
+    "total_minutes": 100,
+    "ingredients": [
+      {
+        "quantity": "40",
+        "unit": "cl",
+        "name": "eau (2 tasses)",
+        "raw": "40 cl d'eau (2 tasses)"
+      },
+      {
+        "quantity": "5",
+        "unit": "g",
+        "name": "sel (1 cuillère à café)",
+        "raw": "5 g de sel (1 cuillère à café)"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "farine (2 tasses)",
+        "raw": "200 g de farine (2 tasses)"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "beurre (1 cuillère)",
+        "raw": "30 g de beurre (1 cuillère)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "zeste de citron jaune",
+        "raw": "zeste de citron jaune"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "viande de porc ou de poulet",
+        "raw": "400 g de viande de porc ou de poulet"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cuillère d'huile d'olive",
+        "raw": "cuillère d'huile d'olive"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "3 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "coriandre voir de persil frais(facultatif)",
+        "raw": "1 bouquets de coriandre voir de persil frais(facultatif)"
+      },
+      {
+        "quantity": "15",
+        "unit": "cl",
+        "name": "vin rouge (facultatif)",
+        "raw": "15 cl de vin rouge (facultatif)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "chapelure doré",
+        "raw": "250 g de chapelure doré"
+      },
+      {
+        "quantity": "1",
+        "unit": "jus",
+        "name": "citron",
+        "raw": "1 jus de citron"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "crevettes cuites",
+        "raw": "400 g de crevettes cuites"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "20 cl de lait"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères",
+        "name": "maïzena",
+        "raw": "1 cuillères de maïzena"
+      }
+    ],
+    "steps": [
+      "1. Pour commencer, faire mariner la viande (porc ou poulet) pendant 30 minutes avec du sel et poivre dans le jus de citron.",
+      "2. Pour la Pâte :",
+      "3. Dans une casserole haute, mettre l'eau à bouillir avec le sel, les zestes de citron et le beurre. Retirer les zestes puis lorsque l'eau bout, verser en une fois la farine. Puis battre immédiatement avec une cuillère en bois.",
+      "4. Mélanger jusqu'à ce que la pâte se décolle de la casserole.",
+      "5. Préparer un torchon propre saupoudré de farine, y déposer la pâte puis la travailler à la main le plus chaud possible. Ne pas hésiter à ouvrir la pâte en deux pour saupoudrer de plus de farine jusqu'à l'obtention d'une pâte non collante.",
+      "6. Une fois la pâte prête, la laisser reposer au chaud.",
+      "7. Farce à la viande :",
+      "8. Dans une poêle, faire revenir les trois gousses d'ail fendues en quatre dans l'huile d'olive et les laisser dorer.",
+      "9. Une fois doré retiré l'ail ou les laisser selon votre goût.",
+      "10. Mettre la viande marinée dans la poêle et ne la retourner que lorsqu'elle est bien dorée pour sceller la viande. Ajouter l'oignon coupé en petits quartiers une fois la viande cuite des deux cotés.",
+      "11. Verser le vin rouge ou de l'eau petit à petit pour déglacer la poêle de temps en temps. Puis mettre le feu au minimum",
+      "12. en ajoutant ce qu'il reste de vin ou un peu d'eau.",
+      "13. Goûter et corriger l'assaisonnement.",
+      "14. Vous pouvez ajouter la coriandre finement hachée voir du persil pendant 3 à 6 minutes sur le feu doux.",
+      "15. Passer la farce au mixeur rapidement : 3-4 coups.",
+      "16. Puis laisser la farce refroidir.",
+      "17. Variante avec crevettes :",
+      "18. Mixer 2 cuillère d'huile d'olive, 3 gousses d'ail et un oignon au mixeur.",
+      "19. Préparer les crevettes, retirer le tube digestif noir dorsale, qui donne un gout amer, avec une entaille sur le dos. Puis les couper en petit morceau (0.5*0.5 cm).",
+      "20. Faire revenir le mixe dans une poêle à feu moyen/fort jusqu'à ce que l'oignon soit bien doré. Ajouter les crevettes découpées. Assaisonner avec du sel et du poivre. Encore une fois vous pouvez ajouter de la coriandre hachée à ce moment pendant 3 minutes selon votre gout.",
+      "21. Passer la maïzena dans un chinois puis la mettre dans le lait. Rajouter le lait dans la poêle et remuer jusqu’à obtention d'une sauce épaisse. Si la farce est trop liquide ajouter de la maïzena en saupoudrant. Laisser refroidir et assaisonner une dernière fois.",
+      "22. Les rissois :",
+      "23. Avec un rouleau sur une surface plane farinée, étendre la pâte jusqu'à une épaisseur d'un millimètre.",
+      "24. En commençant par un bord, placer 3/4 de cuillère à soupe de farce à 5 cm du bord en un seul point. Replier la pâte pour recouvrir la farce plus que nécessaire en dépassant de 3 à 4 centimètre au delà de la farce. Avec une roulette à pâte ou un emporte pièce circulaire, dessiner un arc de cercle autour de la farce en appuyant fortement. Une fois le rissois découper appuyer avec les doigts sur l’extérieur pour bien solidifier les joints (voir Photo).",
+      "25. Faire de même pour toute la pâte et la farce.",
+      "26. Passer les rissois dans les deux oeufs battus pour les recouvrir. Puis dans un sachet plastique déposer la chapelure. Un par un poser un rissois dans le sachet plastique puis secouer le sachet sur les côtés.",
+      "27. Une fois tous les rissois recouvert de chapelure les placer à frire dans une friteuse ou une poêle. Déguster chaud ou tiède."
+    ],
+    "tags_raw": "Rissois portugais (Viande ou crevette), accompagnement, eau, sel, farine, beurre, citron, moyenne, bon marché | accompagnement",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugais"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-sautes-de-veau-facon-portugaise-197537-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_sautes-de-veau-facon-portugaise_197537.aspx",
+    "name": "Sautés de veau façon portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "total_minutes": 25,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "sauté",
+        "name": "veau",
+        "raw": "2 sauté de veau"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "tomates pelées",
+        "raw": "300 g de tomates pelées"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "fond de veau",
+        "raw": "1 cuillères à café de fond de veau"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "cuillères à soupe d'eau",
+        "raw": "4 cuillères à soupe d'eau"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "madère",
+        "raw": "3 cuillères à soupe de madère"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "grosses poignées de champignons de Paris",
+        "raw": "1 grosses poignées de champignons de Paris"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "crème liquide",
+        "raw": "2 cuillères à soupe de crème liquide"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "piment d'Espelette",
+        "raw": "1 pincées de piment d'Espelette"
+      },
+      {
+        "quantity": "2",
+        "unit": "pincées",
+        "name": "basilic",
+        "raw": "2 pincées de basilic"
+      }
+    ],
+    "steps": [
+      "1. Faites revenir les sautés de veau dans une poêle avec un peu de beurre.",
+      "2. A la fin de la cuisson, ajouter les champignons préalablement lavés et détaillés en fines rondelles.",
+      "3. Retirer la viande et la maintenir au chaud.",
+      "4. Ajouter les tomates pelées dans la poêle avec les champignons. Ajouter les épices, le madère, le fond de veau, la crème et laisser mijoter une dizaine de minutes à feu doux.",
+      "5. Ensuite, verser dans un plat contenant la viande."
+    ],
+    "tags_raw": "Sautés de veau façon portugaise, , sauté de veau, tomates pelées, fond de veau, eau, madère, champignons de Paris, crème liquide, piment d'Espelette, basilic, facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-serradura-recette-portugaise-167470-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_serradura-recette-portugaise_167470.aspx",
+    "name": "Serradura (Recette portugaise)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 0,
+    "total_minutes": 15,
+    "ingredients": [
+      {
+        "quantity": "5",
+        "unit": "dl",
+        "name": "crème fraîche liquide",
+        "raw": "5 dl de crème fraîche liquide"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "lait concentré sucré",
+        "raw": "1 boîtes de lait concentré sucré"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "petit beurre",
+        "raw": "1 paquets de petit beurre"
+      }
+    ],
+    "steps": [
+      "1. casser les petits beurre et les passer aux mixer afin d'obtenir une \"poudre\"",
+      "2. monter la crème à l'aide d'un fouet électrique jusqu'à ce qu'elle soit bien ferme",
+      "3. y incorporer délicatement à l'aide d'une spatule les biscuits mixés et le lait condensé.",
+      "4. mettre le plat ou saladier au frigo 1h avant de servir.",
+      "5. vous pouvez aussi mettre dans des verrines avant de mettre au frais.",
+      "6. Texture très aérée comme une mousse."
+    ],
+    "tags_raw": "Serradura (Recette portugaise), dessert, crème fraîche liquide, lait concentré sucré, petit beurre, très facile, bon marché, rapide | dessert",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-steak-a-la-portugaise-94786-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_steak-a-la-portugaise_94786.aspx",
+    "name": "Steak à la portugaise",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "2 personnes",
+    "servings": 2,
+    "prep_minutes": 5,
+    "cook_minutes": 15,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "steaks",
+        "raw": "2 steaks"
+      },
+      {
+        "quantity": "2",
+        "unit": "tranches",
+        "name": "jambon fumé",
+        "raw": "2 tranches de jambon fumé"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "demi verres de porto blanc",
+        "raw": "1 demi verres de porto blanc"
+      },
+      {
+        "quantity": "2",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "2 feuilles de laurier"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "3 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      }
+    ],
+    "steps": [
+      "1. - saler les steaks",
+      "2. - peler l'ail, retirer le germe en les coupant en deux",
+      "3. - faire chauffer l'huile d'olive (environ 3 cuillerées à soupe) avec le laurier et l'ail",
+      "4. - quand l'huile est bien chaude, baisser le feu et mettre les steaks, attendre 5 minutes et les retourner",
+      "5. - poser une tranche de jambon sur chaque steak",
+      "6. - arroser avec le porto",
+      "7. - couvrir, la viande va mijoter dans le porto 15 minutes environ",
+      "8. - servir aussitôt, garder la sauce pour éventuellement arroser une purée maison"
+    ],
+    "tags_raw": "Steak à la portugaise, pièce de boeuf, steak, jambon fumé, porto, feuille de laurier, ail, huile d'olive, très facile, moyen | pièce de boeuf",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-tarte-de-lait-specialite-portugaise-58971-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_tarte-de-lait-specialite-portugaise_58971.aspx",
+    "name": "Tarte de lait (spécialité portugaise)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 10,
+    "cook_minutes": 20,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "3 oeufs"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "25 cl de lait"
+      },
+      {
+        "quantity": "260",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "260 g de sucre"
+      },
+      {
+        "quantity": "70",
+        "unit": "g",
+        "name": "margarine",
+        "raw": "70 g de margarine"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "farine fermentante",
+        "raw": "100 g de farine fermentante"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four à 180°C (thermostat 6).",
+      "2. Mélanger les oeufs avec le sucre et la farine.",
+      "3. Faire fondre la margarine. L’ajouter au mélange ainsi que le lait.",
+      "4. Beurrer un moule à tarte en verre. Verser la préparation dans le moule et enfourner pour environ 20 minutes de cuisson.",
+      "5. Arrêter la cuisson quand elle est dorée au-dessus mais presque liquide à l’intérieur."
+    ],
+    "tags_raw": "Tarte de lait (spécialité portugaise), , oeuf, lait, sucre, margarine, farine fermentante, facile, bon marché",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:portugaise"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gratin-de-choux-au-gorgonzola-391730-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gratin-de-choux-au-gorgonzola_391730.aspx",
+    "name": "Gratin de choux au gorgonzola",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personne(s)",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 50,
+    "total_minutes": 65,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "choux-fleurs",
+        "raw": "1 choux-fleurs"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "gorgonzola",
+        "raw": "300 g de gorgonzola"
+      },
+      {
+        "quantity": "25",
+        "unit": "cl",
+        "name": "crème fraîche",
+        "raw": "25 cl de crème fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Découper le choux fleurs en fleurettes.",
+      "2. Cuire les fleurettes dans de l'eau bouillante pendant 20 minutes.",
+      "3. Egoutter et déposer dans un plat à gratin les fleurettes.",
+      "4. Recouvrir les fleurettes de gorgonzola préalablement mélangé avec la crème fraiche.\nSaler, poivrer.",
+      "5. Cuire 30 mns au four  à 180°C."
+    ],
+    "tags_raw": "Gratin de choux au gorgonzola, pasteis de nata, chou-fleur, gorgonzola, crème fraîche, sel, poivre, facile, bon marché | pasteis de nata",
+    "country": "portugal",
+    "country_label": "Portugal",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:pasteis de nata"
+    ]
+  }
+]

@@ -1,0 +1,2858 @@
+[
+  {
+    "id": "https-www-marmiton-org-recettes-recette-farofa-de-bananes-bresil-66471-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_farofa-de-bananes-bresil_66471.aspx",
+    "name": "Farofa de Bananes (Brésil)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 personnes",
+    "servings": 3,
+    "prep_minutes": 30,
+    "cook_minutes": 15,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "farine de manioc",
+        "raw": "250 g de farine de manioc"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "bacon coupé",
+        "raw": "50 g de bacon coupé"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons emincé",
+        "raw": "1 oignons emincé"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail émincée finement",
+        "raw": "1 gousses d'ail émincée finement"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "bananes coupées en rondelles",
+        "raw": "3 bananes coupées en rondelles"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre noir",
+        "raw": "poivre noir"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Dans une poêle, laisser fondre le beurre et faire frire le bacon.",
+      "2. Ajouter l´ail et l´oignon Jusqu'à ce qu'il devienne transparent.",
+      "3. Baisser le feu et ajouter la farine de manioc (ici, au Brésil, nous avons beaucoup de types de farine de manioc et je crois que chez vous, vous achetez le croud, très claire).",
+      "4. Cuire en remuant de temps en temps pour dorer la farine (pas foncée).",
+      "5. Retirer du feu et ajouter les morceaux de bananes. Saler et poivrer."
+    ],
+    "tags_raw": "Farofa de Bananes (Brésil), , farine de manioc, bacon, oignon, ail, beurre, banane, poivre, sel, très facile, bon marché",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 17,
+    "country_match_reasons": [
+      "titre:bresil",
+      "titre:farofa",
+      "ingredient:manioc"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-moqueca-bresilienne-91969-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_moqueca-bresilienne_91969.aspx",
+    "name": "Moqueca Brésilienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 40,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "3 gousses d'ail"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "poivrons verts",
+        "raw": "1/2 poivrons verts"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "tomates",
+        "raw": "3 tomates"
+      },
+      {
+        "quantity": "250",
+        "unit": "ml",
+        "name": "lait de coco",
+        "raw": "250 ml de lait de coco"
+      },
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "Poisson à chair ferme (Lotte, Collin ou cabillaud)",
+        "raw": "600 g de Poisson à chair ferme (Lotte, Collin ou cabillaud)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons verts",
+        "raw": "1 citrons verts"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "piment ,",
+        "raw": "piment ,"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "basilic",
+        "raw": "basilic"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "coriandre",
+        "raw": "coriandre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil frais",
+        "raw": "persil frais"
+      }
+    ],
+    "steps": [
+      "1. Couper en cube le poisson. Le faire mariner au réfrigérateur avec le citron, du sel et du poivre.",
+      "2. Découper en dés, l'oignon, le poivron et les tomates.",
+      "3. Faire revenir dans l'huile bien chaude, l'oignon et les ails préssés, puis le poivron et enfin les tomates. Faire revenir 10 minutes.",
+      "4. Puis ajouter le lait de coco, couvrer et laissez mijoter à feux doux 20 minutes environ.",
+      "5. Puis salez, poivrez, ajoutez un peu de piment, (pas obligatoire).",
+      "6. Ajoutez les herbes, le poisson et laissez mijoter 10 minutes environ.",
+      "7. Je vous recommande de servir ce plat avec du riz pilaf (revenu dans l'huile d'olive et une gousse d'ail)."
+    ],
+    "tags_raw": "Moqueca Brésilienne, , huile d'olive, oignon, ail, poivron vert, tomate, lait de coco, Poisson, citron vert, poivre, sel, piment, basilic, coriandre, persil, moyenne, moyen",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 17,
+    "country_match_reasons": [
+      "titre:bresilienne",
+      "titre:moqueca",
+      "ingredient:lait de coco"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-moqueca-de-peixe-bresil-10580-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_moqueca-de-peixe-bresil_10580.aspx",
+    "name": "Moqueca de peixe (Brésil)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "700",
+        "unit": "g",
+        "name": "Poisson blanc de mer",
+        "raw": "700 g de Poisson blanc de mer"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "tomates",
+        "raw": "4 tomates"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons moyens émincés",
+        "raw": "2 oignons moyens émincés"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "ail emincé",
+        "raw": "3 gousses d'ail emincé"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile d'olive",
+        "raw": "huile d'olive"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "lait de coco",
+        "raw": "50 cl de lait de coco"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de \"dendê\" (très spécifique et typique de Bahia, cherchez dans une maison spécialisée, mais surtout ne le remplacez pas, il vaut mieux ne rien mettre si on ne le trouve pas)",
+        "raw": "1 cuillères à soupe d'huile de \"dendê\" (très spécifique et typique de Bahia, cherchez dans une maison spécialisée, mais surtout ne le remplacez pas, il vaut mieux ne rien mettre si on ne le trouve pas)"
+      }
+    ],
+    "steps": [
+      "1. Coupez les tomates en gros morceaux et disposez-les au fond d'une casserole. Couvrez ensuite avec les oignons et l'ail, arrosez avec de",
+      "2. l'huile d'olive. Mettez ensuite les filets de poisson et un peu plus d'huile d'olive.",
+      "3. Versez le lait de coco jusqu'à ce que le poisson soit à peine couvert.",
+      "4. Allumez un feu doux et laissez bouillir.",
+      "5. Remuez de temps en temps, très délicatement pour ne pas émietter le poisson.",
+      "6. Quand il sera presque cuit (ça arrive très vite, en fonction du feu), salez, poivrez, mettez du persil et finalement une cuillère de \"dendê\" (pas",
+      "7. plus). Si vous trouvez qu'il manque un peu de tomate, ajoutez un peu de pulpe.",
+      "8. La moqueca doit être jaune avec le \"dendê\" (personnellement, j'ai du y",
+      "9. ajouter un peu de colorant).",
+      "10. Goûtez, relevez un peu plus s'il le faut et servez très chaud accompagné de riz blanc et farine de manioc.",
+      "11. Pas d'entrée, le plat est déjà assez lourd à cause du lait de coco.",
+      "12. Attention : quelques uns ne supportent pas bien le \"dendê\"!",
+      "13. Vous pouvez aussi rajouter du poivron, si vous l'aimez (en dessous, avec la tomate)."
+    ],
+    "tags_raw": "Moqueca de peixe (Brésil), , Poisson, tomate, oignon, ail, persil, poivre, sel, huile d'olive, lait de coco, huile, moyenne, moyen",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 17,
+    "country_match_reasons": [
+      "titre:bresil",
+      "titre:moqueca",
+      "ingredient:lait de coco"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-feijoada-cassoulet-portugais-21458-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_feijoada-cassoulet-portugais_21458.aspx",
+    "name": "Feijoada ( cassoulet Brésilien )",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "5 personnes",
+    "servings": 5,
+    "prep_minutes": 30,
+    "cook_minutes": 75,
+    "total_minutes": 105,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "haricots rouges secs",
+        "raw": "500 g de haricots rouges secs"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "saucisses fumées",
+        "raw": "5 saucisses fumées"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "chorizo assez fort",
+        "raw": "1 chorizo assez fort"
+      },
+      {
+        "quantity": "5",
+        "unit": "tranches",
+        "name": "poitrine fumée épaisses",
+        "raw": "5 tranches de poitrine fumée épaisses"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "boeuf (ou tout autre morceau à cuisson assez longue)",
+        "raw": "2 boeuf (ou tout autre morceau à cuisson assez longue)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "carottes",
+        "raw": "2 carottes"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "oignons",
+        "raw": "3 oignons"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "thym",
+        "raw": "thym"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "laurier",
+        "raw": "laurier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "paprika",
+        "raw": "paprika"
+      }
+    ],
+    "steps": [
+      "1. Faire tremper les haricots secs dans l'eau (au moins un après midi) pour qu'ils gonflent... au mieux 24h.",
+      "2. Dans une cocotte mettre les haricots trempés avec leur eau de trempage, recouvrir d'eau si nécessaire. Ajouter du gros sel, un oignon coupé en quatre, les 2 carottes coupées en rondelles, du thym et une feuille de laurier. Laisser cuire à gros bouillons environ 1h/1h30 . Ils doivent être encore un peu croquants.",
+      "3. Au même moment, mettre les morceaux de boeuf, le chorizo coupé en morceaux et la poitrine fumée dans une autre cocotte, remplir d'eau, mettre un peu de gros sel. Laisser cuire comme les haricots.",
+      "4. A la fin des 2 cuissons ci- dessus, dans une troisième cocotte (ou bien dans celle des viandes que vous aurez vidées, viandes et bouillon réservés), faire dorer les 2 oignons restants, émincés, avec un peu de beurre. Ajouter les morceaux de viandes un à un pour les faire dorer un peu. Ajouter les haricots/ carottes saisis à l'écumoire et recouvrir le tout d'une partie de l'eau de cuisson des haricots (très important pour donner le goût final!). Un peu du bouillon de cuisson des viandes est aussi péférable.",
+      "5. Ajouter sel- poivre et 3 cuillères à soupe de paprika et les saucisses fumées.",
+      "6. Mettre sur feu doux, remuer souvent (cuisson jusqu'à ce que les haricots soient bien cuits, le jus liquéfié mais remplissant encore bien les 1/3 mini de la cocotte, soit environ 1h/1h30 ).",
+      "7. Servir dans la cocotte de cuisson, bien chaud..."
+    ],
+    "tags_raw": "Feijoada ( cassoulet Brésilien ), cassoulet, haricots rouges, saucisse, chorizo, poitrine fumée, boeuf, carotte, oignon, poivre, sel, thym, laurier, paprika, facile, bon marché | cassoulet",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:bresilien",
+      "titre:feijoada"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-feijoada-bresilienne-26150-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_feijoada-bresilienne_26150.aspx",
+    "name": "Feijoada brésilienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "9 personnes",
+    "servings": 9,
+    "prep_minutes": 1440,
+    "cook_minutes": 300,
+    "total_minutes": 1740,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "haricots noirs",
+        "raw": "500 g de haricots noirs"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "4 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons hachés",
+        "raw": "2 oignons hachés"
+      },
+      {
+        "quantity": "5",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "5 gousses d'ail"
+      },
+      {
+        "quantity": "3",
+        "unit": "feuilles",
+        "name": "laurier",
+        "raw": "3 feuilles de laurier"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "tasses de persil haché",
+        "raw": "1/2 tasses de persil haché"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "tasses de ciboulette hachée",
+        "raw": "1/2 tasses de ciboulette hachée"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "saucisse de porc fumée",
+        "raw": "300 g de saucisse de porc fumée"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "saucisson de porc fumé et salé",
+        "raw": "300 g de saucisson de porc fumé et salé"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "viande saléé hachée en cubes",
+        "raw": "500 g de viande saléé hachée en cubes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "porc salé",
+        "raw": "1 porc salé"
+      },
+      {
+        "quantity": "1",
+        "unit": "oreilles",
+        "name": "porc salée",
+        "raw": "1 oreilles de porc salée"
+      },
+      {
+        "quantity": "1",
+        "unit": "queues",
+        "name": "porc salée",
+        "raw": "1 queues de porc salée"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "porc salée",
+        "raw": "500 g de porc salée"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "échine de porc hachée en cubes",
+        "raw": "300 g d'échine de porc hachée en cubes"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "lard haché en petits cubes",
+        "raw": "100 g de lard haché en petits cubes"
+      },
+      {
+        "quantity": "1",
+        "unit": "doses",
+        "name": "cachaça (l’eau de vie brésilienne)",
+        "raw": "1 doses de cachaça (l’eau de vie brésilienne)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oranges bien lavée (entière, avec écorce)",
+        "raw": "1 oranges bien lavée (entière, avec écorce)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel (s’il faut)",
+        "raw": "sel (s’il faut)"
+      }
+    ],
+    "steps": [
+      "1. La veille, hachez en cubes les viandes salées (pied, oreille, queue, viande et épaule) et faites tremper dans de l’eau froide; changez l’eau 6 ou 7 fois.",
+      "2. Puis, faites bouillir les viandes dans l’eau pour enlever l’excès de graisse.",
+      "3. Si vous préferez, vous pouvez dessaler les viandes comme ça : faites-les bouillir 5 min dans l’eau chaude et recommencez cette opération 2 fois. C’est plus facile et vous pouvez faire ça le jour de la préparation!",
+      "4. La veille aussi, laissez tremper les haricots dans l’eau froide pendant 12 h.",
+      "5. Le jour même, 5 h avant de servir au minimum, faites bouillir les haricots, la viande salée et les côtelettes dans l’eau, dans une grande marmite.",
+      "6. À fur et à mesure que l’eau se réduit, ajoutez un peu plus de l’eau bouillante et laissez cuire à feu doux pendant 3 h (couvercle fermé). Puis ajoutez les autres ingrédients salés.",
+      "7. Quand les haricots commenceront à cuire, ajoutez les saucissons et les saucisses, coupés en tranches; cuisinez jusqu’à ce que la sauce devienne épaisse.",
+      "8. Dans une poêle, faites revenir le lard, l’ail, l’oignon et les feuilles de laurier.",
+      "9. Ajoutez ensuite 500 ml du bouillon de haricots et laissez cuire 10 min. Mélangez.",
+      "10. Ajoutez le persil, la ciboulette, la cachaça et l’orange et laissez cuire à feu doux.",
+      "11. Déguster et ajoutez du sel, s’il faut.",
+      "12. Pour servir, retirez l’orange et écartez-la, l’orange enlève l’excès de graisse.",
+      "13. La feijoada est prête !"
+    ],
+    "tags_raw": "Feijoada brésilienne, , haricots noirs, huile, oignon, ail, feuille de laurier, persil, ciboulette, saucisse, saucisson, viande, porc, oreilles, queue, porc, échine de porc, lard, cachaça, orange, sel, moyenne, bon marché",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 16,
+    "country_match_reasons": [
+      "titre:bresilienne",
+      "titre:feijoada"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-la-muqueka-de-mon-ami-ze-plat-bresilien-67783-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_la-muqueka-de-mon-ami-ze-plat-bresilien_67783.aspx",
+    "name": "La muqueka de mon ami Zé (plat brésilien)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 30,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "poivrons rouges",
+        "raw": "2 poivrons rouges"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "courgettes",
+        "raw": "2 courgettes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "tomates",
+        "raw": "2 tomates"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "crevettes",
+        "raw": "500 g de crevettes"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "lait de coco (750 ml)",
+        "raw": "1 boîtes de lait de coco (750 ml)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de palme rouge",
+        "raw": "2 cuillères à soupe d'huile de palme rouge"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "coriandre",
+        "raw": "coriandre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil plat",
+        "raw": "persil plat"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "citrons verts",
+        "raw": "2 citrons verts"
+      },
+      {
+        "quantity": "1",
+        "unit": "fond",
+        "name": "musique brésilienne!",
+        "raw": "1 fond de musique brésilienne!"
+      }
+    ],
+    "steps": [
+      "1. Décortiquez les crevettes et faites-les mariner dans le jus d'un citron et de l'eau.",
+      "2. Pendant ce temps, coupez en rondelles les poivrons, les courgettes, les tomates et les oignons.",
+      "3. Hors du feu, dans une poêle assez profonde ou un faitout (on peux aussi utiliser une casserole), disposez les légumes dans le fond, comme ce qui suit :",
+      "4. - les poivrons",
+      "5. - les oignons",
+      "6. - les courgettes",
+      "7. - les tomates",
+      "8. - les crevettes",
+      "9. Ajoutez le jus du deuxième citron sur les légumes et les crevettes,",
+      "10. secouez la boite de lait de coco avant de l'ouvrir, et versez le contenu, et ajoutez l'huile de palme.",
+      "11. Couvrez le tout, et mettez sur le feu, on commencera à feu fort pendant 15 min, puis à feu doux les 15 min restantes.",
+      "12. Servez avec du <a href=\"http://www.marmiton.org/recettes/recette.cfm?num_recette=59340\" class=\"lientexte\" target=\"_blank\"><u>riz à l'ail</u></a> et de la <a href=\"http://www.marmiton.org/recettes/recette.cfm?num_recette=14706\" class=\"lientexte\" target=\"_blank\"><u>farine de manioc (farofa)</u></a>."
+    ],
+    "tags_raw": "La muqueka de mon ami Zé (plat brésilien), , poivron rouge, courgette, oignon, tomate, crevettes, lait de coco, huile de palme, coriandre, persil, citron vert, fond, facile, bon marché",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 14,
+    "country_match_reasons": [
+      "titre:bresilien",
+      "ingredient:bresilienne",
+      "ingredient:lait de coco"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-caipirinha-a-la-bresilienne-83362-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_caipirinha-a-la-bresilienne_83362.aspx",
+    "name": "Caipirinha à la Brésilienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "1 personnes",
+    "servings": 1,
+    "prep_minutes": 3,
+    "cook_minutes": 0,
+    "total_minutes": 3,
+    "ingredients": [
+      {
+        "quantity": "6",
+        "unit": "cl",
+        "name": "cachaça (alcool brésilien)",
+        "raw": "6 cl de cachaça (alcool brésilien)"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons verts",
+        "raw": "1 citrons verts"
+      },
+      {
+        "quantity": "2",
+        "unit": "gouttes",
+        "name": "sirop de sucre de canne ou une pincée de sucré cristallisé",
+        "raw": "2 gouttes de sirop de sucre de canne ou une pincée de sucré cristallisé"
+      }
+    ],
+    "steps": [
+      "1. Mettre la Cachaça, 1/2 citron vert pressé et le sucre dans un shaker et bien secouer.",
+      "2. Verser le tout dans un verre avec le reste de citron coupé en tranches (plus ou moins grosse).",
+      "3. Boire très frais."
+    ],
+    "tags_raw": "Caipirinha à la Brésilienne, Caipirinha, cachaça, citron vert, sirop de sucre de canne, très facile, bon marché, rapide | Caipirinha",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 13,
+    "country_match_reasons": [
+      "ingredient:bresilien",
+      "titre:bresilienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-dorades-a-la-bresilienne-58789-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_dorades-a-la-bresilienne_58789.aspx",
+    "name": "Dorades à la brésilienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 25,
+    "cook_minutes": 30,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "dorades avec la tête",
+        "raw": "4 dorades avec la tête"
+      },
+      {
+        "quantity": "5",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "5 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons verts",
+        "raw": "1 citrons verts"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "piments verts",
+        "raw": "1 piments verts"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "coriandre",
+        "raw": "coriandre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "lait de coco",
+        "raw": "20 cl de lait de coco"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "tomates",
+        "raw": "1 tomates"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "poivrons verts",
+        "raw": "1/2 poivrons verts"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "",
+        "name": "poivrons rouges",
+        "raw": "1/2 poivrons rouges"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      }
+    ],
+    "steps": [
+      "1. Dans un mortier, faire une marinade avec : ail, coriandre, piment, sel, jus de citron, poivre.",
+      "2. Dans un grand bol, déposer les morceaux de poisson, ajouter la marinade et mélanger.",
+      "3. Epépiner la tomate et couper en gros dés. Couper l'oignon en rondelles. Couper les poivrons en rondelles.",
+      "4. Dans une poêle assez profonde, déposer le poisson, l'oignon, les poivrons, 10 cl de lait de coco, la tomate et cuire à feu doux.",
+      "5. Vérifier la cuisson après 20 minutes, puis rajouter l'autre moitié de lait de coco (10 cl).",
+      "6. Servir avec un riz blanc."
+    ],
+    "tags_raw": "Dorades à la brésilienne, , dorade, ail, citron vert, piment vert, coriandre, poivre, sel, lait de coco, tomate, poivron vert, poivron rouge, oignon, facile, moyen",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:bresilienne",
+      "ingredient:lait de coco"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-farofa-a-l-huile-de-palme-14730-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_farofa-a-l-huile-de-palme_14730.aspx",
+    "name": "Farofa à l'huile de palme",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "1.5",
+        "unit": "tasses",
+        "name": "huile de palme",
+        "raw": "1.5 tasses d'huile de palme"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "semoule de manioc",
+        "raw": "1 kg de semoule de manioc"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "crevettes séchées",
+        "raw": "100 g de crevettes séchées"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Hachez menu les oignons, puis mettez-les dans une poêle avec l'huile de palme et portez au feu pour les faire frire jusqu'à ce qu'ils soient bien dorés.",
+      "2. Mixez les crevettes en prenant soin qu'elles ne se défassent pas trop. Ajoutez la semoule de manioc et les crevettes en mélangeant avec une cuillère de bois, de façon à bien imprégner d'huile tous les ingrédients. Salez.",
+      "3. Laissez sur le feu jusqu'à ce que la farofa soit bien grillée, tout en remuant pour qu'elle ne brûle pas."
+    ],
+    "tags_raw": "Farofa à l'huile de palme, , huile de palme, semoule, oignon, crevettes, sel, très facile, moyen",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:farofa",
+      "ingredient:manioc"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-feijoada-completa-40628-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_feijoada-completa_40628.aspx",
+    "name": "Feijoada Completa",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 240,
+    "cook_minutes": 180,
+    "total_minutes": 420,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "haricots noirs",
+        "raw": "1 kg de haricots noirs"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "boeuf séchée",
+        "raw": "1 kg de boeuf séchée"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "oreilles et de queues de porc",
+        "raw": "250 g d'oreilles et de queues de porc"
+      },
+      {
+        "quantity": "2",
+        "unit": "pieds",
+        "name": "porc",
+        "raw": "2 pieds de porc"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "saucisse de porc",
+        "raw": "500 g de saucisse de porc"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "saucisses fumées",
+        "raw": "2 saucisses fumées"
+      },
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "côte de porc ou de palette fumée",
+        "raw": "600 g de côte de porc ou de palette fumée"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "porc salé (collet ou filet)",
+        "raw": "500 g de porc salé (collet ou filet)"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "lard",
+        "raw": "200 g de lard"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "riz",
+        "raw": "1 kg de riz"
+      },
+      {
+        "quantity": "10",
+        "unit": "feuilles",
+        "name": "brocoli",
+        "raw": "10 feuilles de brocoli"
+      },
+      {
+        "quantity": "1",
+        "unit": "kg",
+        "name": "farine de manioc",
+        "raw": "1 kg de farine de manioc"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "citrons verts",
+        "raw": "3 citrons verts"
+      },
+      {
+        "quantity": "1",
+        "unit": "bouquets",
+        "name": "coriandre",
+        "raw": "1 bouquets de coriandre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "piments rouge",
+        "raw": "1 piments rouge"
+      },
+      {
+        "quantity": "1",
+        "unit": "tasses",
+        "name": "huile d'olive",
+        "raw": "1 tasses d'huile d'olive"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "feuille de laurier",
+        "raw": "feuille de laurier"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "gousse d'ail",
+        "raw": "gousse d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "oignon",
+        "raw": "oignon"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "beurre ou margarine",
+        "raw": "beurre ou margarine"
+      }
+    ],
+    "steps": [
+      "1. La veille, faites tremper les haricots noirs et les viandes salées et séchées, dans des récipients séparés.",
+      "2. L'eau de dessalage des viandes doit être renouvelée plusieurs fois.",
+      "3. Le lendemain, coupez les viandes en morceaux, et faites-les bouillir, après avoir enlevé les parties grasses.",
+      "4. Faites cuire les haricots pendant 1 h dans une grande quantité d'eau.",
+      "5. Ajoutez les viandes dessalées, les abats, puis le lard, et la viande de porc.",
+      "6. Laissez cuire 45 min. Ajoutez les saucisses, 2 gousses d'ail pilées, 2 oignons hachés, le laurier et la coriandre.",
+      "7. Laissez cuire le tout pendant 1 h.",
+      "8. Lavez, et coupez les feuilles de brocoli en les roulant.",
+      "9. Dans une passoire, arrosez-les d'eau bouillante et égouttez!"
+    ],
+    "tags_raw": "Feijoada Completa, , haricots noirs, boeuf, oreilles, pieds, saucisse, saucisse, côte de porc, porc, lard, riz, brocoli, farine de manioc, citron vert, coriandre, piment, huile d'olive, feuille de laurier, persil, ail, oignon, sel, beurre, moyenne, moyen",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:feijoada",
+      "ingredient:manioc"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-la-citrouille-bresilienne-173335-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_la-citrouille-bresilienne_173335.aspx",
+    "name": "La citrouille brésilienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 30,
+    "cook_minutes": 70,
+    "total_minutes": 100,
+    "ingredients": [
+      {
+        "quantity": "350",
+        "unit": "g",
+        "name": "crevettes décortiquées",
+        "raw": "350 g de crevettes décortiquées"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "tomates coupées finement",
+        "raw": "3 tomates coupées finement"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "3",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "3 gousses d'ail"
+      },
+      {
+        "quantity": "30",
+        "unit": "cl",
+        "name": "lait de coco",
+        "raw": "30 cl de lait de coco"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "cancoillotte (fromage)",
+        "raw": "100 g de cancoillotte (fromage)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "ciboulette",
+        "raw": "ciboulette"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "persil",
+        "raw": "persil"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      }
+    ],
+    "steps": [
+      "1. Faire une ouverture sur le dessus de la citrouille d’environ 10 cm de diamètre.",
+      "2. Ôter les pépins et les filaments.  Saler l’intérieur et le tartiner de cancoillotte. Mettre la citrouille (sans le chapeau) au four environ 3/4 d’heure à 180°C (thermostat 6). Surveiller sa cuisson, elle est cuite lorsque sa peau est devenue dorée-brune.",
+      "3. Pendant ce temps, préparer la sauce : Décortiquer les crevettes si besoin et les mettre de côté. Faire dorer au beurre l’oignon (coupé en petits dés) et l’ail. Ajouter les tomates, les herbes, le sel et le poivre. Laisser fondre puis ajouter enfin le lait de coco et les crevettes.",
+      "4. Remplir la citrouille de cette préparation et remettre au four une bonne dizaine de minutes.",
+      "5. Pour servir : racler l'intérieur de la citrouille en même temps que vous servez la sauce.",
+      "6. Servir avec du riz nature."
+    ],
+    "tags_raw": "La citrouille brésilienne, , crevettes, tomate, oignon, ail, lait de coco, cancoillotte, ciboulette, persil, sel, poivre, facile, bon marché",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:bresilienne",
+      "ingredient:lait de coco"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pain-au-fromage-319083-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pain-au-fromage_319083.aspx",
+    "name": "Petits pains au fromage brésilien",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 Personnes",
+    "servings": 10,
+    "prep_minutes": 40,
+    "cook_minutes": 40,
+    "total_minutes": 80,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "fécule à base de manioc)",
+        "raw": "400 g de fécule à base de manioc)"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "eau",
+        "raw": "200 g d'eau"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "huile",
+        "raw": "100 g d'huile"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "fromage râpé",
+        "raw": "200 g de fromage râpé"
+      },
+      {
+        "quantity": "50",
+        "unit": "cl",
+        "name": "lait caillé",
+        "raw": "50 cl de lait caillé"
+      },
+      {
+        "quantity": "6",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "6 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "sel",
+        "raw": "1 cuillères à soupe de sel"
+      }
+    ],
+    "steps": [
+      "1. Dans un bol, mettez le \"polvilho\".",
+      "2. Dans la casserole mettez l'eau, l'huile et faire bouillir.",
+      "3. Lorsque l'ébullition est complète, versez sur le \"polvilho\". Mettez du sel et remuez avec une cuillère en bois.",
+      "4. Laissez refroidir puis pétrissez avec les mains.",
+      "5. Placez les oeufs progressivement avec le lait caillé.",
+      "6. Pétrissez jusqu'à ce que vous ayez une pâte homogène. Enfin, mettez le fromage râpé.",
+      "7. Faites des boules pour former les petits pains.",
+      "8. Cuire au four à 200°C (thermostat 6-7)."
+    ],
+    "tags_raw": "Petits pains au fromage brésilien, , fécule, eau, huile, fromage râpé, lait caillé, oeuf, sel, facile, bon marché",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:bresilien",
+      "ingredient:manioc"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-quindims-de-yaya-bresil-11848-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_quindims-de-yaya-bresil_11848.aspx",
+    "name": "Quindims de yaya (Brésil)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "8 gâteaux",
+    "servings": 8,
+    "prep_minutes": 25,
+    "cook_minutes": 20,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "125",
+        "unit": "g",
+        "name": "noix de coco râpé",
+        "raw": "125 g de noix de coco râpé"
+      },
+      {
+        "quantity": "40",
+        "unit": "cl",
+        "name": "lait de coco",
+        "raw": "40 cl de lait de coco"
+      },
+      {
+        "quantity": "9",
+        "unit": "jaunes",
+        "name": "oeuf",
+        "raw": "9 jaunes d'oeuf"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "300 g de sucre"
+      },
+      {
+        "quantity": "90",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "90 g de beurre"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "parmesan râpé",
+        "raw": "60 g de parmesan râpé"
+      }
+    ],
+    "steps": [
+      "1. Dans un bol, faites gongler la noix de coco avec 15 cl de lait de coco, pendant 30 mn.",
+      "2. Sortez le beurre du réfrigérateur et laissez-le ramollir à température ambiante.",
+      "3. Placez un plat à gratin à moitié rempli d'eau dans le four et préchauffez sur th.5/6(170°C).",
+      "4. Beurrez huit ramequins individuels et saupoudrez l'intérieur d'un peu de sucre.",
+      "5. Fouettez légèrement le reste du beure ramolli et le sucre.",
+      "6. Incorporez alors les jaunes d'oeufs l'un après les autre,en fouttant jusqu'à ce que le mélange devienne lisse et bien crèmeux.",
+      "7. Délayez en versant progressivement le lait de coco restant.",
+      "8. Ajoutez la noix de coco et le parmesan.Mélangez soigneusement pour obtenir une pâte qui soit homogène.",
+      "9. Répartissez dans les ramequins.",
+      "10. Installez-les dans le bain-marie.",
+      "11. Rajoutez de l'eau chaude si cele vous paraît necéssaire(l'eau doit arriver aux deux tiers de la hauteur des ramequins).",
+      "12. Laissez cuire pendant 20 mn.",
+      "13. Laissez tiédir, démoulez et servez tiède ou froid."
+    ],
+    "tags_raw": "Quindims de yaya (Brésil), , noix de coco, lait de coco, jaune d'oeuf, sucre, beurre, parmesan râpé, moyenne, moyen",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 9,
+    "country_match_reasons": [
+      "titre:bresil",
+      "ingredient:lait de coco"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-ananas-roti-a-la-cannelle-bresil-34871-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_ananas-roti-a-la-cannelle-bresil_34871.aspx",
+    "name": "Ananas rôti à la cannelle ( Brésil )",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 personnes",
+    "servings": 3,
+    "prep_minutes": 5,
+    "cook_minutes": 15,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "ananas à choisir avec la peau la plus jaune possible, afin de s'assurer de sa maturité et de sa saveur",
+        "raw": "1 ananas à choisir avec la peau la plus jaune possible, afin de s'assurer de sa maturité et de sa saveur"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sucre en poudre",
+        "raw": "sucre en poudre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cannelle en poudre",
+        "raw": "cannelle en poudre"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer le four therm 6-7.",
+      "2. Peler l'ananas sans trancher en ne laissant que la queue.",
+      "3. Saupoudrer généreusement la chair du fruit de sucre en poudre.",
+      "4. Puis le saupoudrer de cannelle en poudre afin que que l'ananas soit presque marron.",
+      "5. Placer l'ananas sur une plaque allant au four.",
+      "6. Mettre la plaque au four pendant 15 à 20 mn en prenant soin de retourner l'ananas de temps à autre.",
+      "7. Dès que le sucre caramélise, c'est prêt !!!",
+      "8. Sortir l'ananas du four et le trancher en morceaux circulaires."
+    ],
+    "tags_raw": "Ananas rôti à la cannelle ( Brésil ), , ananas, sucre en poudre, cannelle, très facile, bon marché",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresil"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-brigadeiro-26154-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_brigadeiro_26154.aspx",
+    "name": "Brigadeiro",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "30 balles",
+    "servings": 30,
+    "prep_minutes": 60,
+    "cook_minutes": 10,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "lait concentré sucré (395 g)",
+        "raw": "1 boîtes de lait concentré sucré (395 g)"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères",
+        "name": "chocolat en poudre",
+        "raw": "4 cuillères de chocolat en poudre"
+      },
+      {
+        "quantity": "25",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "25 g de beurre"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "copeaux de chocolat",
+        "raw": "50 g de copeaux de chocolat"
+      }
+    ],
+    "steps": [
+      "1. Mélangez le lait, le chocolat en poudre et le beurre dans une marmite. Remuez à feu moyen jusqu’à ce qu’apparaisse le fond de la marmite. Versez dans un plat graissé avec un peu de beurre.",
+      "2. Quand la préparation est refroidie, graissez-vous les mains avec un peu de beurre. Prenez un morceau avec une petite cuillère et faites de petites balles rondes avec les mains. Après, roulez (passez) chaque balle sur le chocolat en granulés et mettez-les dans un petit récipient (spécial pour des petits desserts)."
+    ],
+    "tags_raw": "Brigadeiro , , lait concentré sucré, chocolat en poudre, beurre, copeaux de chocolat, très facile, bon marché, rapide",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:brigadeiro"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-charlotte-bresilienne-31676-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_charlotte-bresilienne_31676.aspx",
+    "name": "Charlotte Brésilienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 30,
+    "cook_minutes": 0,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "café soluble",
+        "raw": "2 cuillères à soupe de café soluble"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "chocolat à croquer noir",
+        "raw": "100 g de chocolat à croquer noir"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "150 g de beurre"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "100 g de sucre"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "4 oeufs"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "amandes hachées et grillées",
+        "raw": "50 g d'amandes hachées et grillées"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "kirsch",
+        "raw": "3 cuillères à soupe de kirsch"
+      },
+      {
+        "quantity": "24",
+        "unit": "",
+        "name": "biscuits à la cuillère",
+        "raw": "24 biscuits à la cuillère"
+      }
+    ],
+    "steps": [
+      "1. Faites fondre le chocolat à four doux, après l'avoir cassé en petits morceaux et y avoir ajouté 1 cuillère à soupe d'eau tiède.",
+      "2. Dans une jatte, travaillez avec une fourchette pendant 15 mn le beurre et le sucre jusqu'à l'obtention d'une crème, ajoutez les jaunes d'oeuf puis le chocolat fondu en crème et à peine tiède, mélangez bien.",
+      "3. Battez les blancs en neige ferme, ajoutez-les délicatement à la pâte ainsi que les amandes grillées et le café soluble.",
+      "4. Garnissez le fond et le tour d'un moule à charlotte avec les biscuits à la cuillère trempés dans le kirsch, versez la crème au centre, tassez et mettez au réfrigérateur jusqu'au lendemain (au moins 6 h de réfrigération).",
+      "5. Démoulez au moment de servir."
+    ],
+    "tags_raw": "Charlotte Brésilienne, , café soluble, chocolat, beurre, sucre, oeuf, amandes, kirsch, biscuits à la cuillère, moyenne, moyen, rapide",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresilienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-charlotte-bresilienne-d-elodie-165154-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_charlotte-bresilienne-d-elodie_165154.aspx",
+    "name": "Charlotte brésilienne d'Elodie",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 0,
+    "cook_minutes": 5,
+    "total_minutes": 5,
+    "ingredients": [
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "langue de chat",
+        "raw": "150 g de langue de chat"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "20 g de beurre"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "chocolat noir amer",
+        "raw": "150 g de chocolat noir amer"
+      },
+      {
+        "quantity": "50",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "50 g de beurre"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "sucre en poudre",
+        "raw": "2 cuillères à soupe de sucre en poudre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs extra-frais",
+        "raw": "2 oeufs extra-frais"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "petits suisses",
+        "raw": "4 petits suisses"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "crème épaisse",
+        "raw": "4 cuillères à soupe de crème épaisse"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "sucre en poudre",
+        "raw": "3 cuillères à soupe de sucre en poudre"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs extra-frais",
+        "raw": "2 oeufs extra-frais"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'extrait de café",
+        "raw": "1 cuillères à soupe d'extrait de café"
+      }
+    ],
+    "steps": [
+      "1. Préparer la mousse au chocolat:",
+      "2. Casser le chocolat en morceaux, couper le beurre en dés. Les faire fondre ensemble au bain-marie avec 2 cuil a soupe d'eau. Lorsque la pâte est lisse et brillante, remuer et laisser tiédir.",
+      "3. Casser les oeufs pour séparer les blancs des jaunes. Battre les blancs en neige, en incorporant le sucre petit à petit.",
+      "4. Ajouter les jaunes d'oeufs au chocolat fondu lorsqu'il est devenu tiède. Remuer énergiquement, puis melanger délicatement avec la neige. Réserver au frais.",
+      "5. Préparer la mousse au café:",
+      "6. Casser les oeufs et séparer les blancs des jaunes. Travailler énergiquement les petits-suisses, la crème, l'extrait de café, le sucre ainsi que les jaunes d'oeufs. Battre les blancs en neige et mélanger délicatement les deux préparations. Beurrer un moule a manqué. Etaler la mousse de café au fond, couvrer d'une couche de langue de chat, puis verser la mousse au chocolat. Mettre 24h au frais. Pour servir, démouler sur un plat et coller les langues de chat taillés à la hauteur adéquate, partie ronde vers le haut. Décorer le dessus de la charlotte de la même façon et server frais. Vous pouvez ajouter du coco rapé pour une note exotique."
+    ],
+    "tags_raw": "Charlotte brésilienne d'Elodie, , langue de chat, beurre, facile, bon marché, rapide",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresilienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-coxinha-au-poulet-222541-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_coxinha-au-poulet_222541.aspx",
+    "name": "Coxinha au poulet (croquettes)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "20 pièces",
+    "servings": 20,
+    "prep_minutes": 60,
+    "cook_minutes": 10,
+    "total_minutes": 70,
+    "ingredients": [
+      {
+        "quantity": "24",
+        "unit": "cl",
+        "name": "eau",
+        "raw": "24 cl d'eau"
+      },
+      {
+        "quantity": "48",
+        "unit": "cl",
+        "name": "lait",
+        "raw": "48 cl de lait"
+      },
+      {
+        "quantity": "2",
+        "unit": "cubes",
+        "name": "bouillon de volaille",
+        "raw": "2 cubes de bouillon de volaille"
+      },
+      {
+        "quantity": "2",
+        "unit": "pommes",
+        "name": "terre cuites et pressées",
+        "raw": "2 pommes de terre cuites et pressées"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "beurre",
+        "raw": "1 cuillères à soupe de beurre"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "farine de blé",
+        "raw": "300 g de farine de blé"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "margarine",
+        "raw": "margarine"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "chapelure",
+        "raw": "chapelure"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs battus",
+        "raw": "2 oeufs battus"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "huile de friture",
+        "raw": "huile de friture"
+      },
+      {
+        "quantity": "1.5",
+        "unit": "kg",
+        "name": "poulet",
+        "raw": "1.5 kg de poulet"
+      },
+      {
+        "quantity": "3",
+        "unit": "cuillères à soupe",
+        "name": "fromage à la crème",
+        "raw": "3 cuillères à soupe de fromage à la crème"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "maïs",
+        "raw": "maïs"
+      }
+    ],
+    "steps": [
+      "1. Remplissage :",
+      "2. Dans une casserole, verser l'huile d'olive, l'ail haché et l'oignon.",
+      "3. Placer le poulet en filaments et les assaisonner selon votre goût.",
+      "4. Faire cuire pendant environ 5 min, retirer du feu et mélanger avec fromage à la crème.",
+      "5. Laisser refroidir pour faire les coxinhas.",
+      "6. La Coxinha :",
+      "7. Dans une grande casserole, placer de l'eau, le lait, le cube de bouillon, les pommes de terre et le beurre et laisser mijoter.",
+      "8. Ajouter la farine en une seule fois, en remuant jusqu’à ce qu’il n’accroche plus à la casserole.",
+      "9. Le placer sur un plat, graissé, bien pétrir et laisser refroidir.",
+      "10. Étaler la pâte avec les mains, mettre dans le centre le remplissage de la taille d’une olive et le remplissage, et fermer pour donner la forme de la coxinha.",
+      "11. Passer la coxinha sur les œufs, puis la chapelure et faire frire dans l'huile chaude jusqu'à ce que la coxinha dore.",
+      "12. Égoutter sur du papier absorbant et servir."
+    ],
+    "tags_raw": "Coxinha au poulet (croquettes), , eau, lait, cube de bouillon, pomme de terre, beurre, farine de blé, margarine, facile, bon marché, rapide",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:coxinha"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-crabe-bresilien-26801-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_crabe-bresilien_26801.aspx",
+    "name": "Crabe brésilien",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 35,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "8",
+        "unit": "cl",
+        "name": "huile d'olive",
+        "raw": "8 cl d'huile d'olive"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons jaunes sauciers",
+        "raw": "2 oignons jaunes sauciers"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "piment fort (petit)",
+        "raw": "1 piment fort (petit)"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "tomates pelées",
+        "raw": "3 tomates pelées"
+      },
+      {
+        "quantity": "1",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "1 gousses d'ail"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "crabe émietté (en boîte)",
+        "raw": "300 g de crabe émietté (en boîte)"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "tranches",
+        "name": "pain grillé broyée",
+        "raw": "1 tranches de pain grillé broyée"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "beurre",
+        "raw": "beurre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'olives vertes dénoyautées",
+        "raw": "1 cuillères à soupe d'olives vertes dénoyautées"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "persil frais haché",
+        "raw": "2 cuillères à soupe de persil frais haché"
+      }
+    ],
+    "steps": [
+      "1. Découper les oignons en fines lamelles.",
+      "2. Dans une sauteuse verser le demi verre d'huile d'olive. Y ajouter les oignons et les faires blondir à feu doux.",
+      "3. Hacher le piment, l'ail et le persil ; couper en dés les tomates. Les ajouter dans la sauteuse et laisser cuire un quart d'heure à feu doux en remuant régulièrement.",
+      "4. Pendant ce temps, battre les oeufs et leur ajouter les olives coupées en fines rondelles.",
+      "5. Allumer le four Th 8/9.",
+      "6. Incorporer le crabe en miettes au mélange contenu dans la sauteuse. Saler légèrement et poivrer. Couvrir et laisser cuire environs 5 mn.",
+      "7. Ajouter ensuite en mélangeant les oeufs battus et les olives. Positionner sur feu moyen et laisser prendre les oeufs tout en mélangeant.",
+      "8. Répartir cette préparation dans quatre gros ramequins huilés au préalable.",
+      "9. Parsemer de pain grillé broyé et de noisettes de beurre.",
+      "10. Faire gratiner 3 à 4 mn à four chaud."
+    ],
+    "tags_raw": "Crabe brésilien, crustacés, huile d'olive, oignon jaune, piment fort, tomates pelées, ail, crabe, oeuf, pain, beurre, olives vertes, poivre, sel, persil, facile, bon marché | crustacés",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresilien"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-creme-bresilienne-32842-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_creme-bresilienne_32842.aspx",
+    "name": "Crème Brésilienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "5 personnes",
+    "servings": 5,
+    "prep_minutes": 20,
+    "cook_minutes": 20,
+    "total_minutes": 40,
+    "ingredients": [
+      {
+        "quantity": "500",
+        "unit": "ml",
+        "name": "lait demi-écrémé",
+        "raw": "500 ml de lait demi-écrémé"
+      },
+      {
+        "quantity": "10",
+        "unit": "g",
+        "name": "café instantané lyophilisé",
+        "raw": "10 g de café instantané lyophilisé"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "80 g de sucre"
+      },
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "chocolat noir",
+        "raw": "60 g de chocolat noir"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "4 oeufs"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cannelle en poudre",
+        "raw": "cannelle en poudre"
+      }
+    ],
+    "steps": [
+      "1. Faire chauffer le lait avec le café et la cannelle, au micro-ondes ou à la casserole. Eteindre le feu avant frémissement.",
+      "2. Faire un caramel : dans un fond de casserole, mettre la moitié du sucre, 2 cuillères à soupe d'eau et quelques gouttes de citron. Faire chauffer à feu vif jusqu'à ce que le caramel brunisse.",
+      "3. Rajouter une cuillère d'eau pour liquéfier et remettre sur feu doux.",
+      "4. Ajouter le chocolat et faire fondre puis arrêter le feu. Verser lentement le lait sur le caramel.",
+      "5. Fouetter les oeufs avec le sucre jusqu'à ce que le mélange blanchisse. Y incorporer le lait chocolaté tiède.",
+      "6. Répartir dans des ramequins individuels. Les placer dans un bain-marie et mettre au four Th 6 (180°C).",
+      "7. Cuire environ 20 mn en piquant une crème pour vérifier la cuisson : la crème doit être souple mais pas liquide.",
+      "8. Laisser les crèmes refroidir puis placer au réfrigérateur pour servir frais."
+    ],
+    "tags_raw": "Crème Brésilienne, , lait demi-écrémé, café instantané lyophilisé, sucre, chocolat noir, oeuf, cannelle, très facile, bon marché",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresilienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-doce-de-abobora-bresil-compote-de-courge-96351-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_doce-de-abobora-bresil-compote-de-courge_96351.aspx",
+    "name": "Doce de abóbora (Brésil : compote de courge)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 25,
+    "cook_minutes": 20,
+    "total_minutes": 45,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "courge",
+        "raw": "1 courge"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sucre (la moitié du poids de votre courge)",
+        "raw": "sucre (la moitié du poids de votre courge)"
+      },
+      {
+        "quantity": "10",
+        "unit": "clous",
+        "name": "girofle",
+        "raw": "10 clous de girofle"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bâtons de cannelle ou 1.5 cuillère de cannelle en poudre",
+        "raw": "1 bâtons de cannelle ou 1.5 cuillère de cannelle en poudre"
+      }
+    ],
+    "steps": [
+      "1. Eplucher la courge et la débiter en petits morceaux. Rincer.",
+      "2. Mettre les cubes de courge dans une casserole, recouvrir d'eau et porter à ébullition. Cuire jusqu'à amollissement de la courge.",
+      "3. Dans un récipient, écraser la courge à la fourchette avec soin.",
+      "4. Ajouter le sucre, les clous de girofle et la cannelle.",
+      "5. Faire cuire ce mélange à feu doux, en remuant constamment jusqu'à ce que toute l'eau (celle qui est contenue dans la courge, n'en rajoutez pas!) ait disparu.",
+      "6. Votre compote est prête. A déguster frais ou à température ambiante."
+    ],
+    "tags_raw": "Doce de abóbora (Brésil : compote de courge), , courge, sucre, clou de girofle, cannelle, très facile, bon marché",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresil"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-gateau-bresilien-au-citron-vert-167637-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_gateau-bresilien-au-citron-vert_167637.aspx",
+    "name": "Gâteau brésilien au citron vert",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 40,
+    "cook_minutes": 15,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "25",
+        "unit": "",
+        "name": "petit lu émiettés finement pour faire une farine (pour la pâte – 1ère couche)",
+        "raw": "25 petit lu émiettés finement pour faire une farine (pour la pâte – 1ère couche)"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "cuillères à soupe d'huile",
+        "raw": "3 cuillères à soupe d'huile"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "beurre salé",
+        "raw": "100 g de beurre salé"
+      },
+      {
+        "quantity": "4",
+        "unit": "cuillères à soupe",
+        "name": "sucre",
+        "raw": "4 cuillères à soupe de sucre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites boîtes de lait concentré",
+        "raw": "1 petites boîtes de lait concentré"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "crème fraîche épaisse",
+        "raw": "crème fraîche épaisse"
+      },
+      {
+        "quantity": "4",
+        "unit": "blancs",
+        "name": "oeuf",
+        "raw": "4 blancs d'oeuf"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "zeste de citron vert",
+        "raw": "zeste de citron vert"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "citron vert (possible avec des fruits de la passion)",
+        "raw": "citron vert (possible avec des fruits de la passion)"
+      }
+    ],
+    "steps": [
+      "1. Émiettez les petits Lu pour faire une fine farine. Mélangez-les avec le beurre et l’huile. Ce sera la première couche de votre gâteau, à laisser au fond du plat.",
+      "2. Mélangez délicatement le lait concentré avec la crème fraiche et le jus des citrons. Ce sera la deuxième couche de votre gâteau.",
+      "3. Et jamais deux sans trois, pour la troisième couche, bâtez les blancs en neige. Mélangez-les délicatement avec le sucre.",
+      "4. Cuisson",
+      "5. Mettez au four à 240° jusqu’à ce qu’il soit doré (environ 10 minutes). Une fois refroidi, décorez avec le zeste et mettez-le au frigo."
+    ],
+    "tags_raw": "Gâteau brésilien au citron vert, gâteaux aux fruits, petit lu, huile, beurre salé, sucre, lait concentré, crème fraîche épaisse, blanc d'oeuf, citron vert, citron vert, moyenne, bon marché | gâteaux aux fruits",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresilien"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-le-bresilien-23089-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_le-bresilien_23089.aspx",
+    "name": "Le brésilien",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 10,
+    "cook_minutes": 45,
+    "total_minutes": 55,
+    "ingredients": [
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "200 g de sucre"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "farine",
+        "raw": "200 g de farine"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "200 g de beurre"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "amandes en poudre",
+        "raw": "150 g d'amandes en poudre"
+      },
+      {
+        "quantity": "5",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "5 oeufs"
+      },
+      {
+        "quantity": "1",
+        "unit": "paquets",
+        "name": "levure",
+        "raw": "1 paquets de levure"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "café soluble",
+        "raw": "1 cuillères à soupe de café soluble"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à soupe",
+        "name": "rhum",
+        "raw": "1 cuillères à soupe de rhum"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "cuillères à soupe d'eau",
+        "raw": "1 cuillères à soupe d'eau"
+      }
+    ],
+    "steps": [
+      "1. Préchauffer votre four à 180°C (thermostat 6).",
+      "2. Tamiser le paquet de levure avec la farine et les verser dans un saladier.",
+      "3. Dans une casserole, faire chauffer un tout petit peu d'eau et y incorporer le café soluble avec le rhum.",
+      "4. Incorporer au mélange de farine, ajouter la poudre d'amandes et le sucre puis faire une fontaine au milieu.",
+      "5. Faire fondre le beurre. Casser les oeufs au centre de la fontaine, y ajouter le beurre fondu, puis le mélange eau/rhum/café. Bien mélanger le tout jusqu'à l'obtention d'une pâte bien lisse.",
+      "6. Verser ensuite cette pâte dans le moule à manqué et enfourner à four chaud pour 45 min en s'assurant que le gâteau est bien placé au centre du four pour une cuisson homogène.",
+      "7. Vérifier la cuisson à l'aide de la pointe d'un couteau, celle-ci doit en sortir sèche si le gâteau est cuit.",
+      "8. Démouler le gâteau sur un plat et le laisser refroidir."
+    ],
+    "tags_raw": "Le brésilien, , sucre, farine, beurre, amandes, oeuf, levure, café soluble, rhum, eau, facile, moyen",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresilien"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-muffins-au-chocolat-et-aux-noix-du-para-bresil-319091-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_muffins-au-chocolat-et-aux-noix-du-para-bresil_319091.aspx",
+    "name": "Muffins au chocolat et aux noix du Pará (Brésil)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 Personnes",
+    "servings": 6,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "total_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "tasses",
+        "name": "thé de farine de blé",
+        "raw": "1 tasses de thé de farine de blé"
+      },
+      {
+        "quantity": "3/4",
+        "unit": "",
+        "name": "tasses de chocolat en poudre",
+        "raw": "3/4 tasses de chocolat en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "tasses",
+        "name": "thé de sucre en poudre",
+        "raw": "1 tasses de thé de sucre en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "levure chimique",
+        "raw": "1 levure chimique"
+      },
+      {
+        "quantity": "3/4",
+        "unit": "",
+        "name": "tasses de thé de lait",
+        "raw": "3/4 tasses de thé de lait"
+      },
+      {
+        "quantity": "1/4",
+        "unit": "",
+        "name": "tasses de thé d'huile",
+        "raw": "1/4 tasses de thé d'huile"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "2 oeufs"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "chocolat noir (ou blanc)",
+        "raw": "100 g de chocolat noir (ou blanc)"
+      },
+      {
+        "quantity": "70",
+        "unit": "g",
+        "name": "noix du brésil",
+        "raw": "70 g de noix du brésil"
+      },
+      {
+        "quantity": "80",
+        "unit": "g",
+        "name": "beurre",
+        "raw": "80 g de beurre"
+      }
+    ],
+    "steps": [
+      "1. Préchauffez le four à 200°C.",
+      "2. Dans un bol, mélangez au fouet les oeufs, le lait, l'huile.",
+      "3. Ensuite, tamiser la farine, le chocolat, le sucre, le sel et la levure dans un autre bol.",
+      "4. Versez les ingrédients liquides sur les secs.",
+      "5. Coupez votre chocolat et les noix en petits morceaux et versez-les dans la pâte obtenue.",
+      "6. Mélangez quelques minutes, sans battre la pâte et ajoutez le beurre que vous avez fait fondre.",
+      "7. Dans vos petits moules, versez la préparation jusqu'aux bords et enfournez pendant 20 minutes."
+    ],
+    "tags_raw": "Muffins au chocolat et aux noix du Pará (Brésil), muffin, thé, chocolat en poudre, sel, thé, levure chimique, thé, thé, oeuf, chocolat noir, noix du brésil, beurre, facile, bon marché | muffin",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresil"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-petites-boules-de-chocolat-facon-bresil-brigadiers-43467-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_petites-boules-de-chocolat-facon-bresil-brigadiers_43467.aspx",
+    "name": "Petites boules de chocolat façon Brésil (Brigadiers)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "30 pièces",
+    "servings": 30,
+    "prep_minutes": 5,
+    "cook_minutes": 30,
+    "total_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "lait concentré sucré",
+        "raw": "1 boîtes de lait concentré sucré"
+      },
+      {
+        "quantity": "6",
+        "unit": "cuillères à soupe",
+        "name": "cacao non sucré",
+        "raw": "6 cuillères à soupe de cacao non sucré"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "beurre",
+        "raw": "1 cuillères à café de beurre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "vermicelles ou autre décoration",
+        "raw": "vermicelles ou autre décoration"
+      }
+    ],
+    "steps": [
+      "1. Verser le lait concentré sucré dans une casserole, ajouter le cacao et le beurre.",
+      "2. Bien mélanger avec une cuillère en bois, et le faire cuire à feux doux (c'est très important, la pâte risque de coller au fond si le feu est trop fort).",
+      "3. Mélanger la pâte (toujours!), jusqu'à que ça se \"décolle\" du fond de la casserole... la pâte doit être brillante et épaisse.",
+      "4. On peut très bien utiliser un fouet.",
+      "5. Arrêter le feux, et verser la préparation dans un plat pour que ça refroidisse.",
+      "6. Faire des petites boules (passer un peu de beurre dans les mains, c'est plus facile pour les rouler), et les rouler dans les vermicelles."
+    ],
+    "tags_raw": "Petites boules de chocolat façon Brésil (Brigadiers), , lait concentré sucré, cacao, beurre, vermicelles, très facile, bon marché",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresil"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-potage-a-la-banane-bresil-12520-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_potage-a-la-banane-bresil_12520.aspx",
+    "name": "Potage à la banane (Brésil)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "total_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "oignons",
+        "raw": "2 oignons"
+      },
+      {
+        "quantity": "850",
+        "unit": "g",
+        "name": "tomates pelées ou 1,5 kg de tomates fraîches",
+        "raw": "850 g de tomates pelées ou 1,5 kg de tomates fraîches"
+      },
+      {
+        "quantity": "1",
+        "unit": "cubes",
+        "name": "bouillon de poule",
+        "raw": "1 cubes de bouillon de poule"
+      },
+      {
+        "quantity": "2",
+        "unit": "bananes",
+        "name": "taille moyenne",
+        "raw": "2 bananes de taille moyenne"
+      },
+      {
+        "quantity": "20",
+        "unit": "cl",
+        "name": "crème fraîche",
+        "raw": "20 cl de crème fraîche"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre et curry",
+        "raw": "poivre et curry"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Faire blondir les 2 oignons, ajouter les tomates, le cube, les bananes. Assaisonner de sel, poivre et curry.",
+      "2. Laisser cuire 20 minutes. Mixer, puis ajouter la crème fraîche."
+    ],
+    "tags_raw": "Potage à la banane (Brésil), soupe, oignon, tomates pelées, cube de bouillon, banane, crème fraîche, poivre, sel, très facile, bon marché | soupe",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresil"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pudim-de-leite-condensado-flan-a-la-bresilienne-337616-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pudim-de-leite-condensado-flan-a-la-bresilienne_337616.aspx",
+    "name": "Pudim de leite condensado (flan à la brésilienne)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "10 personnes",
+    "servings": 10,
+    "prep_minutes": 0,
+    "cook_minutes": 0,
+    "total_minutes": 0,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "lait concentré sucré",
+        "raw": "1 boîtes de lait concentré sucré"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "lait (utiliser la canette de lait condensé pour mesurer)",
+        "raw": "1 boîtes de lait (utiliser la canette de lait condensé pour mesurer)"
+      },
+      {
+        "quantity": "1/2",
+        "unit": "cuillères à café",
+        "name": "maïzena",
+        "raw": "1/2 cuillères à café de maïzena"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "oeufs",
+        "raw": "4 oeufs"
+      },
+      {
+        "quantity": "200",
+        "unit": "g",
+        "name": "sucre",
+        "raw": "200 g de sucre"
+      }
+    ],
+    "steps": [
+      "1. Recette traditionnelle brésilienne de ma mère, très différente de la façon de faire portugaise, mais avec la même saveur.",
+      "2. Prévoir 1 moule à kouglof en métal et 1 moule plus grand que le moule à kouglof (c'est pour un bain-marie).",
+      "3. Préchauffer le four à 180°C (thermostat 6).",
+      "4. Mettre tous les ingrédients de la pâte dans un mixeur et les mélanger pendant 5 minutes.  Laisser de côté pendant la préparation du caramel.",
+      "5. Faire fondre le sucre dans une casserole à feu doux jusqu'à ce qu'il prenne une couleur dorée. Si le caramel est trop épais, mettre un peu d'eau bouillante (attention aux projections) et remuer (mais il vaut mieux pas le faire. En général le caramel ne nécessite pas d'eau supplémentaire). Lorsque que le caramel est prêt, le verser dans le moule à kouglof.",
+      "6. Faire en sorte de couvrir une bonne partie du moule avec le caramel. Faire attention aux mains, car le moule devient bouillant très rapidement.",
+      "7. Verser la pâte dans le moule à kouglof déjà caramélisé. Mettre le moule avec le mélange dans un moule plus grand avec de l'eau à température ambiante dedans. Mettre le tout dans le four et faire cuire à 180°C pendant 40 minutes. Pour vérifier la cuisson, se servir d'un pique en bois. Le planter dans le pudim. S'il est sort \"sec\", la cuisson est bonne. Sinon, le laisser un peu plus longtemps au four.",
+      "8. Une fois la cuisson terminée, laisser refroidir un peu et mettre au réfrigérateur. Servir froid (il faut au moins 6h pour qu'un pudim de cette taille refroidisse).",
+      "9. Pour démouler le pudim, passer la lame d'un couteau sur les bords, mettre un plat sur le moule et retourner le pudim d'un seul coup pour qu'il ne se casse pas."
+    ],
+    "tags_raw": "Pudim de leite condensado (flan à la brésilienne), flan, lait concentré sucré, lait, maïzena, oeuf, moyenne, bon marché, rapide | flan",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresilienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-salade-bresilienne-11562-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_salade-bresilienne_11562.aspx",
+    "name": "Salade brésilienne",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "3 personnes",
+    "servings": 3,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "total_minutes": 35,
+    "ingredients": [
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "pomme de terre",
+        "raw": "400 g de pomme de terre"
+      },
+      {
+        "quantity": "250",
+        "unit": "g",
+        "name": "crevettes cuites",
+        "raw": "250 g de crevettes cuites"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "fenouil",
+        "raw": "1 fenouil"
+      },
+      {
+        "quantity": "4",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "4 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "1",
+        "unit": "coeurs",
+        "name": "laitue",
+        "raw": "1 coeurs de laitue"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "arachide pilées",
+        "raw": "100 g d'arachide pilées"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Lavez les pommes de terre sans les éplucher.",
+      "2. Faites-les cuire à la vapeur 10mn à l'autocuiseur ou 20 min dans une marmite à double fond.",
+      "3. Décortiquez les crevettes.",
+      "4. Epluchez la tête de fenouil, lavez-la, coupez-la en dés. Coupez le citron en deux, épluchez à vif l'une des moitié et faites des cubes.",
+      "5. Mettre le fenouil,les crevettes,le citron,et les arroser avec du jus du 1/2citron,salez,poivrez.",
+      "6. Laissez macérer ainsi 10 min.",
+      "7. Pelez les pommes de terre encore tièdes et les couper en dés,séparez les feuilles de laitues, ajoutez-les au contenue du saladier.",
+      "8. Mélangez délicatement, arrosez avec l'huile d'olive et saupoudrez de cacahuètes.",
+      "9. Servez aussitôt."
+    ],
+    "tags_raw": "Salade brésilienne, Salade de pomme de terre, pomme de terre, crevettes, fenouil, huile d'olive, citron, laitue, arachide, poivre, sel, moyenne, moyen | Salade de pomme de terre",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresilienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-salpicaon-salade-bresilienne-tres-originale-39111-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_salpicaon-salade-bresilienne-tres-originale_39111.aspx",
+    "name": "salpicaon (salade brésilienne très originale)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 45,
+    "cook_minutes": 15,
+    "total_minutes": 60,
+    "ingredients": [
+      {
+        "quantity": "2",
+        "unit": "blancs",
+        "name": "poulet",
+        "raw": "2 blancs de poulet"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "citrons verts",
+        "raw": "3 citrons verts"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "ail",
+        "raw": "ail"
+      },
+      {
+        "quantity": "3",
+        "unit": "",
+        "name": "carottes",
+        "raw": "3 carottes"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "coeur de palmier",
+        "raw": "1 boîtes de coeur de palmier"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petits bocaux d'olives vertes",
+        "raw": "1 petits bocaux d'olives vertes"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites boîtes de maïs",
+        "raw": "1 petites boîtes de maïs"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "pommes genre granny Smith",
+        "raw": "1 pommes genre granny Smith"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "mayonnaise , allégée ou non",
+        "raw": "mayonnaise , allégée ou non"
+      },
+      {
+        "quantity": "1",
+        "unit": "sachets",
+        "name": "chips \"frites allumettes\" goût sel (si si)",
+        "raw": "1 sachets de chips \"frites allumettes\" goût sel (si si)"
+      }
+    ],
+    "steps": [
+      "1. La veille ou le matin pour le soir, enduire les blancs de poulet d'ail haché, frotter de sel et faire mariner dans le jus des trois citrons verts.",
+      "2. Cuire le poulet à feu doux en évitant qu'il ne colore trop.",
+      "3. Prendre un grand saladier, déchiqueter le poulet en très fins filaments.",
+      "4. Couper les olives en 2 puis en fines lamelles, râper la pomme et les carottes, rajouter les coeurs de palmier en fines lamelles ainsi que le maïs. Rajouter la mayonnaise et quelques frites sur le pourtour.",
+      "5. Les convives rajouteront le restant des chips par la suite pour que la salade reste bien croquante..."
+    ],
+    "tags_raw": "salpicaon (salade brésilienne très originale), salade originale, blanc de poulet, citron vert, ail, carotte, coeur de palmier, olives vertes, maïs, pomme, mayonnaise, chips, très facile, bon marché | salade originale",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresilienne"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-vatapa-bresil-13769-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_vatapa-bresil_13769.aspx",
+    "name": "Vatapa (Brésil)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "4 personnes",
+    "servings": 4,
+    "prep_minutes": 20,
+    "cook_minutes": 30,
+    "total_minutes": 50,
+    "ingredients": [
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "oignons",
+        "raw": "1 oignons"
+      },
+      {
+        "quantity": "20",
+        "unit": "g",
+        "name": "gingembre frais",
+        "raw": "20 g de gingembre frais"
+      },
+      {
+        "quantity": "2",
+        "unit": "gousses",
+        "name": "ail",
+        "raw": "2 gousses d'ail"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petits piments Jalapeno au naturel",
+        "raw": "1 petits piments Jalapeno au naturel"
+      },
+      {
+        "quantity": "1",
+        "unit": "boîtes",
+        "name": "tomate",
+        "raw": "1 boîtes de tomate"
+      },
+      {
+        "quantity": "1/4",
+        "unit": "",
+        "name": "tasses de cacahuète grillée , pelées",
+        "raw": "1/4 tasses de cacahuète grillée , pelées"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "noix de coco rapée",
+        "raw": "2 cuillères à soupe de noix de coco rapée"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile d'olive",
+        "raw": "2 cuillères à soupe d'huile d'olive"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "citrons",
+        "raw": "1 citrons"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "feuilles de coriandre fraîche",
+        "raw": "2 cuillères à soupe de feuilles de coriandre fraîche"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "paprika",
+        "raw": "1 pincées de paprika"
+      },
+      {
+        "quantity": "2",
+        "unit": "cuillères à soupe",
+        "name": "crème de coco",
+        "raw": "2 cuillères à soupe de crème de coco"
+      },
+      {
+        "quantity": "10",
+        "unit": "cl",
+        "name": "fumet de poisson",
+        "raw": "10 cl de fumet de poisson"
+      },
+      {
+        "quantity": "500",
+        "unit": "g",
+        "name": "crevettes moyennes cuites, pelées et décortiquées",
+        "raw": "500 g de crevettes moyennes cuites, pelées et décortiquées"
+      },
+      {
+        "quantity": "300",
+        "unit": "g",
+        "name": "lieu noir noir",
+        "raw": "300 g de lieu noir noir"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "poivre",
+        "raw": "poivre"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "sel",
+        "raw": "sel"
+      }
+    ],
+    "steps": [
+      "1. Peler et émincer l'oignon, l'ail et le gingembre.",
+      "2. Emincer très finement le piment Jalapeno. Coupez en gros morceaux les tomates en réservant le quart du jus.",
+      "3. Mixer finement les cacahuètes. En réserver le quart pour la garniture.",
+      "4. Faire revenir l'oignon avec une cuillerée d'huile d'olive dans une grande sauteuse jusqu'à ce qu'il soit transparent. Ajouter la moitié des tomates avec le quart du jus de tomate réservé et la crème de coco. Cuire 2 min.",
+      "5. Ajouter les 3/4 des cacahuètes broyées, une cuillerée à soupe de noix de coco râpée, une cuillerée à soupe de feuilles de coriandre fraîche. Cuire 2 min.",
+      "6. Mixer le tout. Réserver dans la sauteuse, ajoutez les reste des tomates et le fumet de poisson.",
+      "7. Amener à ébullition et laisser mijoter à découvert, jusqu'à épaississement (environ 15 min).",
+      "8. Saler légèrement, couvrir et garder au chaud.",
+      "9. Saler et poivrer les filets de poissons, les cuire 5 min dans une cuillère à soupe d'huile d'olive en les retournant une fois.",
+      "10. Ajouter les crevettes rincées et la sauce bien chaude. Laisser mijoter 2 min.",
+      "11. Décorer avec le reste des cacahuètes broyés de la noix de coco râpée et de la coriandre. Servir sur un lit de riz.",
+      "12. Normalement, l'huile d'olive et le paprika sont remplacés au Brésil par de l'huile de palme (on la trouve dans les épiceries exotiques)."
+    ],
+    "tags_raw": "Vatapa (Brésil), , oignon, gingembre, ail, petit piment, tomate, cacahuète grillée, noix de coco rapée, huile d'olive, citron, feuilles de coriandre, paprika, crème de coco, fumet, crevettes, lieu noir, poivre, sel, moyenne, moyen",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 8,
+    "country_match_reasons": [
+      "titre:bresil"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-fudge-blanc-et-noir-chocolat-33467-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_fudge-blanc-et-noir-chocolat_33467.aspx",
+    "name": "Fudge blanc et noir (chocolat)",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 personnes",
+    "servings": 6,
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "total_minutes": 20,
+    "ingredients": [
+      {
+        "quantity": "600",
+        "unit": "g",
+        "name": "chocolat blanc de bonne qualité",
+        "raw": "600 g de chocolat blanc de bonne qualité"
+      },
+      {
+        "quantity": "400",
+        "unit": "g",
+        "name": "lait concentré sucré",
+        "raw": "400 g de lait concentré sucré"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "sel",
+        "raw": "1 pincées de sel"
+      },
+      {
+        "quantity": "1",
+        "unit": "cuillères à café",
+        "name": "jus de citron",
+        "raw": "1 cuillères à café de jus de citron"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "chocolat noir",
+        "raw": "150 g de chocolat noir"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "cacao",
+        "raw": "cacao"
+      },
+      {
+        "quantity": "150",
+        "unit": "g",
+        "name": "noisettes",
+        "raw": "150 g de noisettes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "amandes",
+        "raw": "amandes"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "noix du brésil (ou un mélange avec des raisins secs)",
+        "raw": "noix du brésil (ou un mélange avec des raisins secs)"
+      },
+      {
+        "quantity": "",
+        "unit": "",
+        "name": "amandes ou noisettes",
+        "raw": "amandes ou noisettes"
+      }
+    ],
+    "steps": [
+      "1. Verser le lait condensé dans une casserole n'attachant pas. Ajouter le chocolat blanc en morceaux, et faire fondre A FEU DOUX, en remuant fréquemment.",
+      "2. Une fois le chocolat fondu, bien remuer, vigoureusement, la masse doit être lisse, épaisse et luisante. Elle se détache très facilement de la casserole.",
+      "3. Hors du feu, ajouter le citron, sel et fruits secs, bien remuer.",
+      "4. Verser dans un moule à gâteau carré recouvert de papier sulfurisé ou d'alu huilé. Mettre au frais 1 h.",
+      "5. Faire fondre le chocolat noir et en recouvrir le fudge, saupoudrer d'éclats d'amandes ou noisettes. Remettre à prendre au frais.",
+      "6. Couper en petits carrés (attention, c'est très riche !)"
+    ],
+    "tags_raw": "Fudge blanc et noir (chocolat), , chocolat blanc, lait concentré sucré, sel, jus de citron, chocolat noir, cacao, noisettes, amandes, noix du brésil, amandes, très facile, bon marché, rapide",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:bresil"
+    ]
+  },
+  {
+    "id": "https-www-marmiton-org-recettes-recette-pumpkin-spice-cookies-vegan-529216-aspx",
+    "source": "marmiton",
+    "source_url": "https://www.marmiton.org/recettes/recette_pumpkin-spice-cookies-vegan_529216.aspx",
+    "name": "Pumpkin Spice Cookies vegan",
+    "difficulty": "",
+    "budget": "",
+    "servings_text": "6 cookies",
+    "servings": 6,
+    "prep_minutes": 20,
+    "cook_minutes": 10,
+    "total_minutes": 30,
+    "ingredients": [
+      {
+        "quantity": "60",
+        "unit": "g",
+        "name": "potiron mou après cuisson au four ou à la vapeur, en morceaux",
+        "raw": "60 g de potiron mou après cuisson au four ou à la vapeur, en morceaux"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "gingembre en poudre",
+        "raw": "1 pincées de gingembre en poudre"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "bonnes pincées de cannelle",
+        "raw": "1 bonnes pincées de cannelle"
+      },
+      {
+        "quantity": "100",
+        "unit": "g",
+        "name": "farine",
+        "raw": "100 g de farine"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "muscade",
+        "raw": "1 pincées de muscade"
+      },
+      {
+        "quantity": "40",
+        "unit": "g",
+        "name": "sucre brun",
+        "raw": "40 g de sucre brun"
+      },
+      {
+        "quantity": "30",
+        "unit": "g",
+        "name": "noix du brésil 20g pour la pâte, 10g pour la décoration",
+        "raw": "30 g de noix du brésil 20g pour la pâte, 10g pour la décoration"
+      },
+      {
+        "quantity": "2",
+        "unit": "",
+        "name": "cuillères à soupe d'huile de coco solide température ambiante ou margarine végétale",
+        "raw": "2 cuillères à soupe d'huile de coco solide température ambiante ou margarine végétale"
+      },
+      {
+        "quantity": "1",
+        "unit": "",
+        "name": "petites pincées de curcuma",
+        "raw": "1 petites pincées de curcuma"
+      },
+      {
+        "quantity": "1",
+        "unit": "pincées",
+        "name": "bicarbonate ou une pincée de levure",
+        "raw": "1 pincées de bicarbonate ou une pincée de levure"
+      }
+    ],
+    "steps": [
+      "1. Éplucher le potiron et le couper en morceaux pas trop gros",
+      "2. Cuire au four ou à la vapeur jusqu'à ce qu'il soit fondant",
+      "3. Mélanger doucement le sucre et l'huile de coco dans un saladier. Attention à ne pas rendre la matière grasse liquide en mélangeant trop fort.",
+      "4. Ajouter la farine, le bicarbonate et les épices dans le saladier. Mélanger.",
+      "5. Hacher 20g de noix en petits morceaux, ajouter au mélange, puis ajouter le potiron.",
+      "6. Mélanger avec les mains pour obtenir une pâte sableuse, puis former une boule.",
+      "7. Séparer la pâte à cookies en 6 boules, les aplatir un peu à l'aide de la paume de main et les placer sur une plaque de cuisson.",
+      "8. Ajouter le reste des noix en décoration sur les cookies avant d'enfourner.",
+      "9. Enfourner une dizaine de minutes dans un four préchauffé à 180°C en surveillant. Les cookies sont prêts lorsqu'ils commencent à dorer, cela peut prendre un peu plus ou moins de temps selon votre four.",
+      "10. Laissez refroidir un peu avant de déguster."
+    ],
+    "tags_raw": "Pumpkin Spice Cookies vegan, cookie, potiron, gingembre en poudre, cannelle, farine, muscade, sucre brun, noix du brésil, huile de coco, curcuma, bicarbonate, très facile, bon marché, rapide | cookie",
+    "country": "bresil",
+    "country_label": "Brésil",
+    "country_score": 6,
+    "country_match_reasons": [
+      "tag:bresil"
+    ]
+  }
+]
