@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-// Etape 9 — refonte de la boucle : que changer au fonctionnement, plutot qu'au theme,
-// pour que le modele achete cesse d'etre une enieme copie.
+// Etape 9 — meme moteur, autre verbe. Le modele achete est une equation
+// (puissance contre resistance, butin rapporte, zones qui s'ouvrent) qui ne dit
+// nulle part "couper". Voici les activites qui rentrent dedans sans toucher au code.
 const fs = require('fs');
 const path = require('path');
 const { readData, ROOT } = require('./lib');
@@ -16,52 +17,96 @@ const ref = (cle, note) => {
     <span><strong>${esc(r.nom)}</strong><em>${num(r.joueurs)} joueurs · ${esc(note)}</em></span></a>`;
 };
 
+// Les six rouages du modele, exprimes sans jamais dire "herbe" ni "couper".
+const ROUAGES = ['La résistance', 'Ton outil', 'Ta force', 'Le butin', 'Pourquoi ça revient', 'Les zones'];
+
 const IDEES = [
   {
-    n: 1, nom: 'On peut te voler ton butin', cout: 'faible', fort: true,
-    change: 'Le couloir devient commun à tout le serveur. Quand tu remontes avec tes deux idoles dans les bras, n\'importe qui peut te percuter et te les prendre. Toi aussi, tu peux attendre à la sortie plutôt que couper.',
-    reutilise: 'Tout. Le portage existe déjà, il suffit d\'autoriser le transfert entre joueurs.',
-    ajoute: 'Une détection de contact, une chute d\'objet, et un délai avant de pouvoir revoler. Quelques jours de travail.',
-    pourquoi: 'C\'est la formule la plus puissante de Roblox aujourd\'hui, et ton modèle en possède déjà la moitié sans l\'exploiter. Un jeu de vol, c\'est exactement « transporter un objet d\'un point A à un point B pendant que d\'autres essaient de te le prendre ». Ton trajet retour est ce trajet-là, mais personne ne t\'y menace.',
-    refs: [['Steal An Egg', 'premier jeu de Roblox'], ['Steal a Brainrot', 'deuxième'], ['Jump To Steal Soccer Players', 'la formule greffée ailleurs']],
-    risque: 'Le vol peut dégoûter les joueurs faibles. Il faut une zone sûre près du vendeur et un plafond sur ce qu\'on peut perdre d\'affilée.',
+    n: 1, nom: 'Pompier', titre: 'Le feu et les gens', fort: true,
+    pitch: 'Tu entres dans un bâtiment en flammes avec une lance. Le feu recule quand tu l\'arroses. Au fond, des gens inconscients : tu en charges deux, un sur chaque épaule, et tu ressors les mettre en sécurité.',
+    map: [
+      'Le feu a des points de vie, comme l\'herbe. Un gros brasier avec une lance faible, ça prend des minutes — le mur reste doux.',
+      'La lance, puis le canon, puis l\'hélicoptère largueur. Achetés avec l\'argent des sauvetages.',
+      'L\'endurance. Elle monte à chaque seconde d\'arrosage, exactement comme la force montait à chaque coup.',
+      'Les victimes. Deux à la fois, une par épaule — et pour une fois la limite se comprend toute seule.',
+      'Le feu se propage à nouveau dès que tu sors. La régénération est déjà écrite dans le thème.',
+      'Maison, immeuble, école, hôpital, gratte-ciel, raffinerie.',
+    ],
+    pourquoi: 'C\'est le seul des cinq où le trajet retour arrête d\'être une corvée. Tu ne rapportes pas une matière première à revendre, tu rapportes quelqu\'un. Le même code, mais le joueur ressent autre chose — et c\'est ce que tu cherches : garder le moteur sans refaire le même jeu.',
+    refs: [['Firefighters', 'personne n\'occupe le terrain'], ['Rescue Animals', 'le sauvetage plaît, en petit']],
+    dessiner: 'Le feu, ce sont des particules — Roblox les fournit. Les victimes sont des mannequins d\'avatar. Les bâtiments, des boîtes. Tu n\'as rien à modéliser.',
+    risque: 'Il faut rester sobre sur la représentation du danger : des gens évanouis, pas blessés. Roblox est strict là-dessus.',
   },
   {
-    n: 2, nom: 'Le couloir se referme derrière toi', cout: 'faible',
-    change: 'La végétation repousse pendant que tu t\'enfonces. Plus tu vas loin, plus il faudra couper pour ressortir. Tu dois garder de la force en réserve pour le retour.',
-    reutilise: 'Le système de repousse existe déjà — il s\'applique quand tu sors. Il suffit de le rendre continu et plus rapide.',
-    ajoute: 'Presque rien : un réglage de vitesse de repousse et un indicateur de profondeur.',
-    pourquoi: 'Ça transforme une progression linéaire en pari. Chaque pas de plus est une décision : est-ce que je pousse encore, ou est-ce que je rentre pendant que je peux ? C\'est ce qui manque le plus au modèle d\'origine, où avancer n\'a aucun coût.',
+    n: 2, nom: 'Chasseur de fantômes', titre: 'L\'aspirateur',
+    pitch: 'Un manoir hanté, un aspirateur sur le dos. Tu vises un fantôme, tu tires, il résiste et tu dois tenir. Ton réservoir contient deux spectres : tu remontes les vider chez le client.',
+    map: [
+      'La résistance du fantôme remplace la dureté de l\'herbe. Un spectre ancien avec un aspirateur d\'entrée de gamme, tu tires pendant des minutes.',
+      'La puissance d\'aspiration : aspirateur de poche, puis dorsal, puis camion.',
+      'La poigne. Elle monte à chaque capture réussie.',
+      'Les fantômes eux-mêmes, deux par réservoir.',
+      'Le manoir se repeuple la nuit. Aucune explication à inventer.',
+      'Le grenier, la cave, la bibliothèque, la chapelle, le cimetière, le manoir d\'à côté.',
+    ],
+    pourquoi: 'Le geste change complètement : au lieu de frapper en boucle, tu maintiens une pression contre quelque chose qui résiste et qui tire dans l\'autre sens. C\'est le même calcul, mais ça ne se joue pas pareil du tout.',
     refs: [],
-    risque: 'Mal réglé, c\'est punitif. Il faut toujours laisser une sortie de secours, même lente.',
+    dessiner: 'Un fantôme, c\'est une sphère blanche translucide avec deux yeux. C\'est l\'idée la moins coûteuse en dessin des cinq.',
+    risque: 'Fort à Halloween, plus tiède ensuite. À sortir maintenant ou à assumer comme saisonnier.',
   },
   {
-    n: 3, nom: 'Le poids remplace le nombre', cout: 'faible',
-    change: 'Fini la limite à deux objets. Chaque butin a un poids : une petite idole se porte vite, la grande te fait marcher au ralenti. Tu choisis entre trois petites prises sûres ou une grosse qui te rend vulnérable.',
-    reutilise: 'La limite d\'inventaire existe, on remplace le compteur par une somme de poids.',
-    ajoute: 'Un poids par objet et un lien entre charge et vitesse. Une journée.',
-    pourquoi: 'La limite à deux est une règle arbitraire que le joueur subit. Le poids est un arbitrage qu\'il décide. Et ça se marie parfaitement avec le vol : le gros butin est celui qu\'on te prendra.',
+    n: 3, nom: 'Démolisseur', titre: 'La masse',
+    pitch: 'Un bâtiment condamné. Tu tapes les murs, ils se fissurent puis s\'écroulent. Dans les gravats, du cuivre et des câbles que tu revends à la casse.',
+    map: [
+      'Le béton a des points de vie. Le mur porteur en a beaucoup plus que la cloison.',
+      'Masse, marteau-piqueur, boule de démolition, explosifs.',
+      'La force brute, montant à chaque impact.',
+      'Les matériaux récupérés, deux charges à la fois.',
+      'Bâtiment suivant : le chantier se réinitialise plutôt que de repousser.',
+      'Cabane, pavillon, entrepôt, usine, tour, barrage.',
+    ],
+    pourquoi: 'La destruction est immédiatement lisible et satisfaisante, et l\'effet avant/après est bien plus spectaculaire qu\'un carré d\'herbe rasé. C\'est le meilleur des cinq pour faire une vignette qui donne envie de cliquer.',
     refs: [],
-    risque: 'Si le ralentissement est trop fort, plus personne ne prend les gros objets. C\'est un équilibrage à surveiller de près.',
+    dessiner: 'Des blocs. Littéralement. Roblox est né pour ça, et tu peux t\'en tirer sans une seule texture.',
+    risque: 'C\'est le seul où la ressource ne repousse pas : il faut enchaîner les chantiers, donc en produire beaucoup.',
   },
   {
-    n: 4, nom: 'Chaque coup est un tirage', cout: 'faible',
-    change: 'Chaque coup d\'outil a une petite chance de faire tomber une pièce rare, avec une aura et une annonce à tout le serveur. Le reste ne change pas.',
-    reutilise: 'La détection de coup existe déjà. On y branche un tirage.',
-    ajoute: 'Une table de raretés, des effets visuels, un message de serveur. Quelques jours.',
-    pourquoi: 'Le tirage rare est un genre entier sur Roblox et il se greffe sur n\'importe quoi. Ça donne une raison de continuer à couper une matière que tu maîtrises déjà, au lieu de foncer vers l\'étape suivante.',
-    refs: [["Sol's RNG", 'le genre du tirage']],
-    risque: 'Facile à surdoser. Si tout le monde a du rare en dix minutes, il n\'y a plus de rare.',
+    n: 4, nom: 'Dépanneur', titre: 'Le remorquage',
+    pitch: 'Des épaves sont plantées un peu partout. Tu accroches un câble et tu tires. Plus c\'est lourd, plus tu avances lentement — et le trajet retour devient l\'épreuve elle-même.',
+    map: [
+      'Le poids remplace les points de vie. Une voiture se traîne, un camion à peine, un avion pas du tout sans treuil.',
+      'Le câble, le treuil, la dépanneuse, le tracteur.',
+      'La traction, qui monte à chaque mètre parcouru sous charge.',
+      'L\'épave elle-même. Une seule, mais énorme — la limite devient physique.',
+      'De nouvelles épaves apparaissent pendant ton absence.',
+      'Le parking, la route, la falaise, le port, la casse, le désert.',
+    ],
+    pourquoi: 'C\'est le plus malin des cinq sur le plan de la structure : il fusionne l\'action et le trajet retour, qui ne sont plus deux moments séparés mais un seul. Le temps mort du modèle disparaît au lieu d\'être meublé.',
+    refs: [['Pull An Egg', 'tirer marche déjà, sous une autre forme']],
+    dessiner: 'Des véhicules simples, ou des formes cubiques assumées. Un pack de voitures à bas polygones coûte une dizaine d\'euros.',
+    risque: 'Un objet lourd traîné trop lentement devient pénible. Le réglage de la vitesse sous charge décide de tout.',
   },
   {
-    n: 5, nom: 'Un seul couloir pour tout le serveur', cout: 'moyen',
-    change: 'Au lieu que chacun ait son couloir, le serveur entier creuse le même. Ce que tu coupes reste coupé pour les autres, et l\'avancée est affichée à tous. Au bout, quelque chose que personne ne peut atteindre seul.',
-    reutilise: 'Le couloir et les paliers restent identiques.',
-    ajoute: 'Une synchronisation de l\'état du couloir entre joueurs, et un objectif collectif. Plus lourd que les autres.',
-    pourquoi: 'Ça règle le problème de fond de ces jeux : on y est seul au milieu d\'autres gens. Un objectif commun donne une raison de parler, et donc de rester.',
+    n: 5, nom: 'Perceur de coffres', titre: 'La chambre forte',
+    pitch: 'Une banque, une succession de portes blindées. Chaque serrure résiste selon sa qualité. Tu forces, tu ouvres, tu prends deux lingots et tu ressors avant que ça se referme.',
+    map: [
+      'La solidité de la serrure, exactement comme la dureté de l\'herbe.',
+      'Crochets, perceuse, chalumeau, explosifs.',
+      'La dextérité, qui monte à chaque serrure ouverte.',
+      'Les lingots, deux dans les bras.',
+      'La banque réarme ses portes quand tu es parti.',
+      'Bureau de tabac, banque de quartier, banque centrale, musée, casino, réserve d\'or.',
+    ],
+    pourquoi: 'Le casse est un fantasme universel et l\'univers autorise une esthétique très propre, faite de couloirs et de métal — donc peu de choses à dessiner.',
     refs: [],
-    risque: 'Un joueur qui coupe tout prive les autres de jeu. Il faut que la matière repousse assez vite pour que chacun ait sa part.',
+    dessiner: 'Des couloirs, des portes, des lingots dorés. Aucun modèle organique, que des formes droites.',
+    risque: 'Tu arrives sur le terrain des jeux de vol, qui sont énormes et féroces. C\'est le pari le plus exposé des cinq.',
   },
+];
+
+const GREFFES = [
+  ['On peut te prendre ce que tu portes', 'Le trajet retour devient l\'enjeu du jeu. Les deux plus gros jeux de Roblox reposent là-dessus, et ton moteur a déjà le portage.'],
+  ['La sortie se referme', 'Le feu se propage derrière toi, la serrure se réarme, les fantômes reviennent. Il faut garder des ressources pour ressortir.'],
+  ['Le poids plutôt que le nombre', 'Trois petites prises sûres, ou une grosse qui te ralentit. Un arbitrage plutôt qu\'une règle subie.'],
 ];
 
 const html = `<title>Changer le fonctionnement, pas le décor</title>
@@ -79,7 +124,7 @@ const html = `<title>Changer le fonctionnement, pas le décor</title>
 *{box-sizing:border-box}
 body{background:var(--fond);color:var(--encre);margin:0;font-size:15px;line-height:1.62;
  font-family:"Public Sans",ui-sans-serif,system-ui,sans-serif}
-.page{max-width:880px;margin:0 auto;padding:44px 22px 90px}
+.page{max-width:900px;margin:0 auto;padding:44px 22px 90px}
 a{color:var(--acc)}a:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
 h1{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:clamp(30px,5.4vw,45px);
  line-height:1.05;margin:0 0 12px;letter-spacing:-.025em;text-wrap:balance}
@@ -90,33 +135,37 @@ h2{font-family:"Bricolage Grotesque",sans-serif;font-size:25px;margin:52px 0 8px
 h3{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;text-transform:uppercase;
  letter-spacing:.11em;color:var(--doux);margin:0 0 6px}
 
-.constat{background:var(--carte);border-left:3px solid var(--chaud);padding:20px 24px}
-.constat p{margin:0 0 11px}.constat p:last-child{margin:0}
-.gros{font-family:"JetBrains Mono",monospace;font-size:28px;font-weight:700;color:var(--chaud);
- font-variant-numeric:tabular-nums;letter-spacing:-.02em}
-
-.trajet{display:flex;align-items:center;gap:0;margin:26px 0 8px;flex-wrap:wrap}
-.etape{background:var(--carte);border:1px solid var(--trait);border-radius:3px;
- padding:9px 14px;font-size:13px;white-space:nowrap}
-.etape.vide{border-style:dashed;border-color:var(--chaud);color:var(--chaud)}
-.fleche{color:var(--doux);padding:0 9px;font-family:"JetBrains Mono",monospace;font-size:12px}
-.legende-trajet{font-size:12.5px;color:var(--doux);margin:0}
+.equation{background:var(--carte);border:1px solid var(--trait);border-radius:4px;padding:22px 26px}
+.equation>p{margin:0 0 15px}
+.rouages{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));gap:1px;
+ background:var(--trait);border:1px solid var(--trait)}
+.rouage{background:var(--carte);padding:12px 14px}
+.rouage b{display:block;font-size:13px;margin-bottom:2px}
+.rouage span{font-size:12px;color:var(--doux)}
+.souligne{color:var(--chaud);font-weight:600}
 
 .idee{background:var(--carte);border:1px solid var(--trait);border-radius:4px;
  padding:24px 26px;margin-bottom:18px}
 .idee.fort{border-color:var(--acc);border-width:2px}
-.idee>header{display:flex;align-items:baseline;gap:11px;flex-wrap:wrap;margin-bottom:10px}
+.idee>header{display:flex;align-items:baseline;gap:11px;flex-wrap:wrap;margin-bottom:9px}
 .rg{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:26px;
  color:var(--trait);line-height:1;letter-spacing:-.03em}
 .idee h4{font-family:"Bricolage Grotesque",sans-serif;font-size:22px;margin:0;letter-spacing:-.015em}
-.cout{font-family:"JetBrains Mono",monospace;font-size:10px;text-transform:uppercase;
- letter-spacing:.07em;padding:3px 8px;border-radius:3px;border:1px solid currentColor}
-.cout.faible{color:var(--acc)}.cout.moyen{color:var(--or)}
+.verbe{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--acc);
+ border:1px solid var(--acc);border-radius:3px;padding:2px 8px}
 .recommande{font-family:"JetBrains Mono",monospace;font-size:10px;text-transform:uppercase;
  letter-spacing:.08em;background:var(--acc);color:var(--carte);padding:3px 9px;border-radius:3px}
-.change{margin:0 0 16px;font-size:15.5px}
-.grille{display:grid;grid-template-columns:1fr 1fr;gap:16px 26px;
- border-top:1px solid var(--trait);padding-top:15px}
+.pitch{margin:0 0 17px;font-size:15.5px}
+
+.corresp{border-top:1px solid var(--trait);padding-top:14px;margin-bottom:16px}
+.corresp ul{list-style:none;padding:0;margin:0;display:grid;gap:7px}
+.corresp li{display:grid;grid-template-columns:132px 1fr;gap:14px;font-size:13.5px;align-items:baseline}
+@media(max-width:600px){.corresp li{grid-template-columns:1fr;gap:1px}}
+.corresp b{font-family:"JetBrains Mono",monospace;font-size:10.5px;text-transform:uppercase;
+ letter-spacing:.06em;color:var(--doux);font-weight:700}
+.corresp span{color:var(--doux)}
+
+.grille{display:grid;grid-template-columns:1fr 1fr;gap:16px 26px}
 @media(max-width:640px){.grille{grid-template-columns:1fr}}
 .bloc p{margin:0;font-size:13.5px;color:var(--doux)}
 .bloc.cle p{color:var(--encre);font-size:14px}
@@ -129,6 +178,10 @@ h3{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;text-
 .ref em{font-style:normal;font-family:"JetBrains Mono",monospace;font-size:9.5px;color:var(--doux)}
 .ref:hover strong{color:var(--acc)}
 
+.greffes{display:grid;gap:9px}
+.gr{background:var(--carte);border-left:3px solid var(--or);padding:13px 17px}
+.gr b{font-family:"Bricolage Grotesque",sans-serif;font-size:15px}
+.gr p{margin:3px 0 0;font-size:13.5px;color:var(--doux)}
 .fin{background:var(--carte);border-left:3px solid var(--acc);padding:20px 24px;margin-top:16px}
 .fin p{margin:0 0 11px}.fin p:last-child{margin:0}
 .note{margin-top:52px;padding-top:22px;border-top:1px solid var(--trait);font-size:13px;
@@ -139,56 +192,61 @@ h3{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;text-
 <div class="page">
 <header class="entete">
   <h1>Changer le fonctionnement, pas le décor</h1>
-  <p class="chapeau">Cinq façons de modifier la boucle du modèle que tu achètes, classées par ce qu'elles coûtent à développer. Toutes réutilisent le code existant.</p>
+  <p class="chapeau">Cinq jeux qui n'ont plus rien à voir avec la coupe d'herbe, et qui tournent pourtant sur exactement le même moteur que celui que tu achètes.</p>
 </header>
 
-<h2>Ton modèle a un trajet mort</h2>
-<div class="constat">
-  <p>Regarde ta propre description : tu coupes, tu ramasses deux objets, <strong>tu les rapportes au vendeur</strong>, tu revends. Ce retour, c'est du temps où le joueur ne fait rien. Il marche.</p>
-  <p>Or les deux plus gros jeux de Roblox en ce moment sont exactement ça — transporter un objet pendant que d'autres essaient de te le prendre :</p>
-  <div class="refs" style="margin:14px 0">
-    ${ref('Steal An Egg', 'premier jeu de Roblox')}
-    ${ref('Steal a Brainrot', 'deuxième')}
+<h2>Ce que tu achètes vraiment</h2>
+<div class="equation">
+  <p>Écris la boucle du modèle sans jamais prononcer le mot « herbe ». Il reste six rouages — et <span class="souligne">aucun d'eux ne dit « couper »</span>. C'est là que tu as de la place.</p>
+  <div class="rouages">
+    <div class="rouage"><b>Une résistance</b><span>Elle a des points de vie et monte par paliers.</span></div>
+    <div class="rouage"><b>Un outil</b><span>Acheté avec l'argent, il augmente ta production.</span></div>
+    <div class="rouage"><b>Une force</b><span>Elle monte toute seule à chaque geste répété.</span></div>
+    <div class="rouage"><b>Un butin</b><span>Deux unités en main, à convertir en argent.</span></div>
+    <div class="rouage"><b>Un aller-retour</b><span>Le butin se ramène à un vendeur fixe.</span></div>
+    <div class="rouage"><b>Des zones</b><span>Elles s'ouvrent selon ta puissance, jamais brutalement.</span></div>
   </div>
-  <p><span class="gros">1 988 649</span></p>
-  <p>joueurs connectés à eux deux, sur une mécanique dont <strong>tu possèdes déjà la moitié</strong> et dont tu ne fais rien.</p>
 </div>
 
-<div class="trajet">
-  <span class="etape">Couper</span><span class="fleche">→</span>
-  <span class="etape">Ramasser</span><span class="fleche">→</span>
-  <span class="etape vide">Rapporter — rien ne se passe</span><span class="fleche">→</span>
-  <span class="etape">Vendre</span>
-</div>
-<p class="legende-trajet">Le maillon en pointillé est le seul moment où tous les joueurs du serveur sont visibles au même endroit, les bras chargés. C'est le meilleur endroit du jeu, et il est vide.</p>
-
-<h2>Les cinq refontes</h2>
-<p class="intro">Classées par coût de développement. Les quatre premières se branchent sur du code qui existe déjà dans le modèle.</p>
+<h2>Cinq autres verbes</h2>
+<p class="intro">Pour chacun, la correspondance rouage par rouage : c'est ce qui prouve que ton développeur n'a pas à réécrire la logique, seulement à renommer et rhabiller. Aucun des cinq n'est occupé sur Roblox.</p>
 
 ${IDEES.map(i => `<article class="idee${i.fort ? ' fort' : ''}">
   <header><span class="rg">${String(i.n).padStart(2, '0')}</span><h4>${esc(i.nom)}</h4>
-    <span class="cout ${i.cout}">coût ${esc(i.cout)}</span>
+    <span class="verbe">${esc(i.titre)}</span>
     ${i.fort ? '<span class="recommande">mon choix</span>' : ''}</header>
-  <p class="change">${esc(i.change)}</p>
+  <p class="pitch">${esc(i.pitch)}</p>
+  <div class="corresp"><h3>Rouage par rouage</h3>
+    <ul>${ROUAGES.map((r, k) => `<li><b>${esc(r)}</b><span>${esc(i.map[k])}</span></li>`).join('')}</ul>
+  </div>
   <div class="grille">
-    <div class="bloc cle" style="grid-column:1/-1"><h3>Pourquoi ça marche</h3><p>${esc(i.pourquoi)}</p>
+    <div class="bloc cle" style="grid-column:1/-1"><h3>Pourquoi ce n'est plus le même jeu</h3><p>${esc(i.pourquoi)}</p>
       ${i.refs.length ? `<div class="refs">${i.refs.map(([c, n]) => ref(c, n)).join('')}</div>` : ''}</div>
-    <div class="bloc"><h3>Ce que tu réutilises</h3><p>${esc(i.reutilise)}</p></div>
-    <div class="bloc"><h3>Ce qu'il faut ajouter</h3><p>${esc(i.ajoute)}</p></div>
-    <div class="bloc risque" style="grid-column:1/-1"><h3>Le risque</h3><p>${esc(i.risque)}</p></div>
+    <div class="bloc"><h3>Ce qu'il faut dessiner</h3><p>${esc(i.dessiner)}</p></div>
+    <div class="bloc risque"><h3>Le risque</h3><p>${esc(i.risque)}</p></div>
   </div>
 </article>`).join('')}
 
+<h2>Trois ajouts qui marchent sur n'importe lequel</h2>
+<p class="intro">Quel que soit le verbe que tu choisis, ces trois greffes se posent par-dessus et coûtent peu.</p>
+<div class="greffes">
+${GREFFES.map(([n, p]) => `<div class="gr"><b>${esc(n)}</b><p>${esc(p)}</p></div>`).join('')}
+</div>
+<div class="refs" style="margin-top:14px">
+  ${ref('Steal An Egg', 'le portage disputé, premier jeu de Roblox')}
+  ${ref('Steal a Brainrot', 'même principe, deuxième')}
+</div>
+
 <h2>Ce que je ferais</h2>
 <div class="fin">
-  <p><strong>Les trois premières ensemble, pas séparément.</strong> Le vol donne un enjeu au trajet retour. Le poids te fait choisir ce que tu risques. Le couloir qui se referme t'oblige à garder des forces pour rentrer. Prises isolées, ce sont trois ajouts sympathiques ; prises ensemble, elles déplacent le cœur du jeu : <strong>couper n'est plus le jeu, c'est la préparation. Le jeu, c'est rentrer.</strong></p>
-  <p>Et c'est ça qui te sort de la copie. Les cinquante autres acheteurs du modèle sortiront un jeu où on coupe de l'herbe verte, jaune ou bleue. Toi, tu sors un jeu où on se fait braquer à la sortie du couloir avec une idole trop lourde dans les bras. Ce n'est plus le même jeu.</p>
-  <p><strong>Une précaution.</strong> Ajoute le vol en dernier, et seulement une fois que couper est déjà agréable. Si la boucle de base n'est pas bonne, le vol ne fera qu'accélérer le départ des joueurs — ils partiront frustrés au lieu de partir ennuyés.</p>
+  <p><strong>Le pompier.</strong> C'est celui qui s'éloigne le plus de la coupe d'herbe tout en gardant le moteur intact. Le feu a des points de vie comme l'herbe, la lance remplace la faucille, l'endurance remplace la force, les zones sont des bâtiments de plus en plus grands, et le feu se propage à nouveau dès que tu sors — la régénération n'a même pas besoin d'être justifiée.</p>
+  <p>Mais surtout, il règle le vrai défaut du modèle : <strong>ce que tu ramènes n'est plus une marchandise, c'est quelqu'un.</strong> Deux victimes, une par épaule — ta limite d'inventaire arrête d'être une règle arbitraire. Personne ne dira que tu as copié un jeu de coupe d'herbe.</p>
+  <p><strong>Si tu veux le moins de dessin possible</strong>, prends le chasseur de fantômes : un spectre est une sphère blanche avec deux yeux. Et si tu veux la vignette la plus vendeuse, prends le démolisseur — l'avant/après d'un immeuble qui s'écroule bat n'importe quel carré d'herbe rasé.</p>
 </div>
 
 <section class="note">
-  <p><strong>Sur les chiffres.</strong> Les joueurs connectés sont un instantané relevé le ${new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })} et varient fortement selon l'heure. Les estimations de temps de développement sont des ordres de grandeur pour un développeur Roblox expérimenté travaillant sur un modèle qu'il découvre.</p>
-  <p><strong>Une limite.</strong> Je décris ces refontes à partir de la boucle telle que tu me l'as racontée, sans avoir vu le code du modèle. Avant de commander quoi que ce soit, fais confirmer par le développeur que le couloir peut être partagé entre joueurs — c'est l'hypothèse sur laquelle repose la première idée, et la plus structurante.</p>
+  <p><strong>Vérification.</strong> Chacun de ces cinq verbes a été cherché sur Roblox sous plusieurs formulations le ${new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}. Les jeux les plus proches trouvés sont très petits : Firefighters! à ${num((R['Firefighters'] || {}).joueurs || 0)} joueurs, Rescue Animals! à ${num((R['Rescue Animals'] || {}).joueurs || 0)}. Aucun ne fait tourner cette boucle.</p>
+  <p><strong>Limite.</strong> Je décris ces correspondances à partir de la boucle telle que tu me l'as racontée, sans avoir vu le code. Fais confirmer par le développeur avant de commander : selon la façon dont le modèle est écrit, remplacer les points de vie de l'herbe par ceux d'un feu peut être une ligne à changer, ou un système entier à reprendre.</p>
 </section>
 </div>`;
 
