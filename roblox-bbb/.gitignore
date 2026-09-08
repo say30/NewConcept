@@ -1,4 +1,5 @@
 data/*.json
 data/cache/
 classeur.html
+genre-keyboard.html
 node_modules/
