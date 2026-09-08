@@ -1,22 +1,31 @@
 /* ============================================================================
-   BuiltByBit -> collecte des annonces Roblox / Game Setups
+   BuiltByBit -> collecte des annonces Roblox / Game Setups  (v2)
    A COLLER DANS LA CONSOLE DU NAVIGATEUR, sur builtbybit.com, connecte.
-   Le navigateur passe Cloudflare : c'est lui qui recupere les pages.
-   Duree : ~8 minutes pour 65 pages + le detail de chaque annonce.
-   A la fin, un fichier builtbybit-roblox.json est telecharge automatiquement.
+
+   Structure reelle du site (XenForo), confirmee par diagnostic.js :
+     - chaque annonce  = .structItem--resource   (21 par page, 65 pages)
+     - titre           = .structItem-title a
+     - accroche        = .structItem-resourceTagLine
+     - note            = .structItem-metaItem--rating
+     - pagination      = /resources/result?category_id=54&sort=date_published&page=N
+
+   Duree : ~12 min pour les ~1365 annonces avec leur detail.
+   Resultat : fichier builtbybit-roblox.json telecharge, plus une copie dans le
+   presse-papier si le telechargement est bloque par le navigateur.
    ============================================================================ */
 (async () => {
-  const PAGES   = 65;    // nombre de pages du listing
-  const DELAI   = 400;   // ms entre deux requetes (ne pas descendre plus bas)
-  const DETAILS = true;  // false = listing seul, beaucoup plus rapide
+  const PAGES   = 65;
+  const DELAI   = 350;   // ms entre deux requetes
+  const DETAILS = true;  // false = listing seul (~1 min)
 
-  const base = 'https://builtbybit.com/resources/roblox/game-setups/search/?sort=date_published';
+  const LISTE = n => `https://builtbybit.com/resources/result?category_id=54&sort=date_published&page=${n}`;
   const pause = ms => new Promise(r => setTimeout(r, ms));
-  const html2doc = h => new DOMParser().parseFromString(h, 'text/html');
+  const doc_de = h => new DOMParser().parseFromString(h, 'text/html');
+  const propre = s => (s || '').replace(/\s+/g, ' ').trim();
 
   async function get(url) {
     const r = await fetch(url, { credentials: 'include' });
-    if (!r.ok) throw new Error(`HTTP ${r.status} sur ${url}`);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
     return r.text();
   }
 
@@ -24,76 +33,85 @@
   const trouves = new Map();
   for (let p = 1; p <= PAGES; p++) {
     let doc;
-    try { doc = html2doc(await get(`${base}&page=${p}`)); }
-    catch (e) { console.warn(`page ${p} ignoree : ${e.message}`); continue; }
+    try { doc = doc_de(await get(LISTE(p))); }
+    catch (e) { console.warn(`page ${p} ignoree : ${e.message}`); await pause(DELAI); continue; }
 
-    // On ratisse large : tout lien vers une ressource, quel que soit le theme.
-    for (const a of doc.querySelectorAll('a[href*="/resources/"]')) {
-      const m = a.getAttribute('href').match(/\/resources\/([\w-]*\.)?(\d+)\/?$/);
-      if (!m) continue;
-      const id = m[2];
-      if (trouves.has(id)) continue;
-      const titre = (a.textContent || '').trim();
-      if (titre.length < 3) continue;                 // vignettes sans texte
-      const bloc = a.closest('li, .structItem, .resourceListItem, div') || a.parentElement;
+    const items = doc.querySelectorAll('.structItem--resource');
+    for (const it of items) {
+      const a = it.querySelector('.structItem-title a[href*="/resources/"]')
+             || it.querySelector('a[href*="/resources/"]');
+      if (!a) continue;
+      const href = a.getAttribute('href');
+      const id = (href.match(/(\d+)\/?(?:$|\?)/) || [])[1];   // .../slug.12345/
+      if (!id || trouves.has(id)) continue;
+
+      const texte = propre(it.textContent);
       trouves.set(id, {
         id,
-        titre,
-        url: `https://builtbybit.com/resources/${id}/`,
-        contexte: (bloc ? bloc.textContent : '').replace(/\s+/g, ' ').trim().slice(0, 300),
+        titre: propre(a.textContent),
+        url: new URL(href, location.origin).href,
+        accroche: propre((it.querySelector('.structItem-resourceTagLine') || {}).textContent),
+        note: (it.querySelector('.structItem-metaItem--rating') || {}).title || null,
+        // Le prix apparait dans le bloc de l'annonce sous forme $xx.xx ou "Free".
+        prix: (texte.match(/\$\s?\d+(?:[.,]\d{1,2})?/) || [/free/i.test(texte) ? '$0' : null])[0],
+        listing: texte.slice(0, 300),
       });
     }
-    console.log(`listing ${p}/${PAGES} — ${trouves.size} annonces`);
+    console.log(`listing ${p}/${PAGES} — ${items.length} sur la page, ${trouves.size} au total`);
+
+    if (p === 1 && trouves.size === 0) {
+      console.error('ARRET : aucune annonce sur la page 1. Es-tu bien connecte sur builtbybit.com ?');
+      return;
+    }
     await pause(DELAI);
   }
 
   const annonces = [...trouves.values()];
-  console.log(`${annonces.length} annonces trouvees.`);
+  console.log(`${annonces.length} annonces collectees.`);
 
   /* ---- Phase 2 : detail de chaque annonce -------------------------------- */
   if (DETAILS) {
     for (let i = 0; i < annonces.length; i++) {
       const a = annonces[i];
       try {
-        const brut = await get(a.url);
-        const doc = html2doc(brut);
+        const doc = doc_de(await get(a.url));
 
-        // Corps de la description : on prend le plus gros bloc de texte.
-        const blocs = [...doc.querySelectorAll('.bbWrapper, .message-body, article, .resourceBody')];
-        const corps = blocs.sort((x, y) => y.textContent.length - x.textContent.length)[0];
-        const zone  = corps || doc.body;
-        const texte = (zone.textContent || '').replace(/\s+/g, ' ').trim();
+        // Corps de la description : .bbWrapper est le conteneur XenForo standard.
+        const blocs = [...doc.querySelectorAll('.bbWrapper, .message-body, .resourceBody')];
+        const zone = blocs.sort((x, y) => y.textContent.length - x.textContent.length)[0] || doc.body;
+        const texte = propre(zone.textContent);
 
-        a.titrePage = (doc.querySelector('h1') || {}).textContent?.trim() || a.titre;
-        // Metriques de richesse : c'est la-dessus que repose la notation.
-        a.mots      = texte.split(' ').filter(Boolean).length;
-        a.images    = zone.querySelectorAll('img').length;
-        a.videos    = zone.querySelectorAll('iframe, video').length;
-        a.titres    = zone.querySelectorAll('h1,h2,h3,h4,b,strong').length;
-        a.puces     = zone.querySelectorAll('li').length;
-        a.liens     = zone.querySelectorAll('a').length;
-        a.extrait   = texte.slice(0, 700);
+        // Metriques de richesse : c'est sur elles que repose la notation.
+        a.mots   = texte.split(' ').filter(Boolean).length;
+        a.images = zone.querySelectorAll('img').length;
+        a.videos = zone.querySelectorAll('iframe, video').length;
+        a.titres = zone.querySelectorAll('h1,h2,h3,h4,b,strong').length;
+        a.puces  = zone.querySelectorAll('li').length;
+        a.spoilers = zone.querySelectorAll('.bbCodeSpoiler, .bbCodeBlock').length;
+        a.extrait = texte.slice(0, 500);
 
-        // Prix, note, avis, telechargements : on lit ce que la page expose.
-        const t = doc.body.textContent.replace(/\s+/g, ' ');
-        a.prix    = (t.match(/\$\s?\d+(?:[.,]\d{2})?/) || [null])[0];
-        a.note    = (t.match(/([0-5][.,]\d)\s*(?:\/\s*5|stars?|etoiles?)/i) || [null, null])[1];
-        a.avis    = (t.match(/(\d+)\s*(?:ratings?|reviews?|avis)/i) || [null, null])[1];
-        a.dl      = (t.match(/(\d[\d,. ]*)\s*(?:downloads?|purchases?|sales?)/i) || [null, null])[1];
-        a.maj     = (doc.querySelector('time') || {}).getAttribute?.('datetime') || null;
-      } catch (e) {
-        a.erreur = e.message;
-      }
+        const t = propre(doc.body.textContent);
+        a.auteur = propre((doc.querySelector('.username, .u-concealed a') || {}).textContent) || null;
+        a.avis   = (t.match(/(\d+)\s*(?:ratings?|reviews?)/i) || [])[1] || null;
+        a.ventes = (t.match(/(\d[\d,. ]*)\s*(?:purchases?|downloads?|sales?)/i) || [])[1] || null;
+        a.maj    = (doc.querySelector('time') || {}).getAttribute?.('datetime') || null;
+        a.majs   = doc.querySelectorAll('.block--messages .message, .resourceUpdate').length;
+      } catch (e) { a.erreur = e.message; }
+
       if ((i + 1) % 25 === 0) console.log(`detail ${i + 1}/${annonces.length}`);
       await pause(DELAI);
     }
   }
 
-  /* ---- Telechargement ---------------------------------------------------- */
-  const blob = new Blob([JSON.stringify(annonces)], { type: 'application/json' });
-  const lien = document.createElement('a');
-  lien.href = URL.createObjectURL(blob);
-  lien.download = 'builtbybit-roblox.json';
-  lien.click();
-  console.log(`TERMINE — ${annonces.length} annonces, fichier builtbybit-roblox.json telecharge.`);
+  /* ---- Sortie ------------------------------------------------------------ */
+  const json = JSON.stringify(annonces);
+  try {
+    const l = document.createElement('a');
+    l.href = URL.createObjectURL(new Blob([json], { type: 'application/json' }));
+    l.download = 'builtbybit-roblox.json';
+    document.body.appendChild(l); l.click(); l.remove();
+  } catch (e) { console.warn('telechargement bloque :', e.message); }
+  try { copy(json); console.log('(copie aussi dans le presse-papier)'); } catch (e) {}
+  console.log(`TERMINE — ${annonces.length} annonces. Fichier builtbybit-roblox.json.`);
+  window.RESULTAT = annonces;   // dispo dans la console si besoin
 })();

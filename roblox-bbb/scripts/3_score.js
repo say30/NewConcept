@@ -39,14 +39,17 @@ const VARIANT_IDEAS = {
 };
 
 function scoreListing(r) {
+  // Quand la collecte navigateur a deja mesure la page, on reprend ses metriques :
+  // elles portent sur la description reelle, pas sur l'extrait tronque.
+  const m = r._metrics;
   const body = strip(text(r));
   const html = String(r.description || '');
-  const words = body.split(/\s+/).filter(Boolean).length;
-  const media = (html.match(/<img|\[img\]|\[media|youtube|\.png|\.jpg|\.gif|\.mp4/gi) || []).length;
-  const headings = (html.match(/<h[1-6]|\[h\d\]|\[size=/gi) || []).length;
-  const bullets = (html.match(/<li|\[\*\]|^\s*[-•]/gim) || []).length;
+  const words = m ? m.words : body.split(/\s+/).filter(Boolean).length;
+  const media = m ? m.media : (html.match(/<img|\[img\]|\[media|youtube|\.png|\.jpg|\.gif|\.mp4/gi) || []).length;
+  const headings = m ? m.headings : (html.match(/<h[1-6]|\[h\d\]|\[size=/gi) || []).length;
+  const bullets = m ? m.bullets : (html.match(/<li|\[\*\]|^\s*[-•]/gim) || []).length;
   const features = /feature|include|what you get|contenu|systeme|system/i.test(body) ? 1 : 0;
-  const changelog = (r._updates || []).length;
+  const changelog = m ? m.changelog : (r._updates || []).length;
   const reviews = (r._reviews || []).length || r.review_count || 0;
   const rating = Number(r.review_average || r.rating || 0);
 
