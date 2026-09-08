@@ -109,6 +109,14 @@ async function matchesFor(title) {
     const f = path.join(DATA, 'bbb_resources.json');
     if (!fs.existsSync(f)) { console.error('data/bbb_resources.json absent — lance d abord 1_bbb_fetch.js'); process.exit(1); }
     titles = JSON.parse(fs.readFileSync(f, 'utf8')).map(r => r.title || r.name);
+    // On ne croise avec Roblox que les meilleures annonces : 1350 recherches seraient
+    // inutilement longues alors que seul le haut du classement compte.
+    const pre = path.join(DATA, 'classement.json');
+    const N = parseInt(process.env.TOP_N || '0', 10);
+    if (N && fs.existsSync(pre)) {
+      titles = JSON.parse(fs.readFileSync(pre, 'utf8')).slice(0, N).map(r => r.titre);
+      console.log(`  restreint aux ${titles.length} meilleures annonces`);
+    }
   }
   const out = {};
   for (let i = 0; i < titles.length; i++) {

@@ -17,8 +17,9 @@ const GENRES = {
   social: ['hangout', 'dance', 'club'], battle: ['battlegrounds', 'pvp', 'arena', 'fight'],
 };
 function genresOf(s) {
-  const l = s.toLowerCase();
-  return Object.entries(GENRES).filter(([, kw]) => kw.some(k => l.includes(k))).map(([g]) => g);
+  const l = ' ' + s.toLowerCase().replace(/[^a-z0-9]+/g, ' ') + ' ';
+  const mot = k => new RegExp(`\\b${k.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`).test(l);
+  return Object.entries(GENRES).filter(([, kw]) => kw.some(mot)).map(([g]) => g);
 }
 
 // Idees de variantes proposees quand le marche Roblox est peu occupe.
@@ -38,59 +39,63 @@ const VARIANT_IDEAS = {
   _default: ['ajouter une boucle de progression longue (rebirth)', 'monetisation par gamepasses + boutique rotative', 'evenements limites dans le temps', 'mode cooperatif ou PvP additionnel'],
 };
 
+// Bareme cale sur la distribution reelle des 1350 annonces collectees :
+// mediane 157 mots, 23 images, 3 intertitres, 18 puces, 5 ventes.
+// Le suivi des mises a jour n'est pas mesurable depuis la page publique : ecarte.
 function scoreListing(r) {
-  // Quand la collecte navigateur a deja mesure la page, on reprend ses metriques :
-  // elles portent sur la description reelle, pas sur l'extrait tronque.
-  const m = r._metrics;
+  const m = r._metrics || {};
   const body = strip(text(r));
-  const html = String(r.description || '');
-  const words = m ? m.words : body.split(/\s+/).filter(Boolean).length;
-  const media = m ? m.media : (html.match(/<img|\[img\]|\[media|youtube|\.png|\.jpg|\.gif|\.mp4/gi) || []).length;
-  const headings = m ? m.headings : (html.match(/<h[1-6]|\[h\d\]|\[size=/gi) || []).length;
-  const bullets = m ? m.bullets : (html.match(/<li|\[\*\]|^\s*[-•]/gim) || []).length;
-  const features = /feature|include|what you get|contenu|systeme|system/i.test(body) ? 1 : 0;
-  const changelog = m ? m.changelog : (r._updates || []).length;
-  const reviews = (r._reviews || []).length || r.review_count || 0;
-  const rating = Number(r.review_average || r.rating || 0);
+  const words = m.words ?? body.split(/\s+/).filter(Boolean).length;
+  const media = m.media ?? 0;
+  const headings = m.headings ?? 0;
+  const bullets = m.bullets ?? 0;
+  const reviews = Number(r.review_count || 0);
+  const rating = Number(r.review_average || 0);
+  const features = /feature|include|what you get|contenu|system/i.test(body) ? 1 : 0;
 
   const q = {
-    longueur: clamp(Math.log10(Math.max(words, 1)) * 5, 12),     // 1000 mots ~ 15 -> plafonne a 12
-    structure: clamp(headings * 1.2 + bullets * 0.4, 8),
-    medias: clamp(media * 1.5, 10),
+    longueur: clamp((Math.log10(words + 1) - 1.5) * 12, 14),
+    structure: clamp(headings * 0.6 + bullets * 0.25, 10),
+    medias: clamp((Math.log10(media + 1) - 0.7) * 10, 12),
     contenu_liste: features * 6,
-    suivi: clamp(changelog * 1.5, 6),
-    preuve_sociale: clamp(reviews * 1.2 + rating * 1.0, 8),
+    preuve_sociale: clamp(reviews * 1.5 + rating * 1.2, 8),
   };
   const qualite = Object.values(q).reduce((a, b) => a + b, 0);
 
-  const purchases = Number(r.purchase_count || r.download_count || 0);
+  const purchases = Number(r.purchase_count || 0);
   const price = Number(r.price || 0);
   const t = {
-    ventes: clamp(Math.log10(purchases + 1) * 8, 14),
+    ventes: clamp(Math.log10(purchases + 1) * 9, 14),
     positionnement_prix: price === 0 ? 1 : clamp(3 + Math.min(price, 60) / 20, 6),
   };
-  const traction = t.ventes + t.positionnement_prix;
 
-  return { qualite, sousScoresQualite: q, traction, sousScoresTraction: t,
-           _stats: { words, media, headings, bullets, changelog, reviews, rating, purchases, price } };
+  return { qualite, sousScoresQualite: q, traction: t.ventes + t.positionnement_prix,
+           sousScoresTraction: t,
+           _stats: { words, media, headings, bullets, reviews, rating, purchases, price } };
 }
 
 function scoreMarket(match) {
   const v = (match && match.variants) || [];
-  const solides = v.filter(x => x.similarity >= 0.5);
+  // Un concurrent credible : titre suffisamment proche ET audience reelle.
+  // Le seuil de 0.35 evite de declarer un genre libre alors que des equivalents
+  // evidents existent sous un nom un peu different.
+  for (const x of v) x.concurrent = x.similarity >= 0.35 && (x.visits || 0) > 100000;
+  const solides = v.filter(x => x.concurrent);
   const top = solides[0] || v[0];
   if (!top) return { marche: 5, detail: { demande: 0, opportunite: 5, fraicheur: 0 }, variantesSolides: 0 };
 
   // Demande : audience prouvee du meilleur equivalent sur Roblox.
   const demande = clamp(Math.log10((top.visits || 0) + 1) * 2.2, 16);
-  // Opportunite : beaucoup de demande mais peu de concurrents credibles = bon signe.
+  // Opportunite : forte demande et peu de concurrents credibles = bon signe.
+  // Aucun equivalent du tout n'est un signal incertain, pas un feu vert.
   const n = solides.length;
-  const opportunite = n <= 1 ? 9 : n <= 3 ? 7 : n <= 6 ? 4 : 2;
+  const opportunite = n === 0 ? 5 : n <= 2 ? 9 : n <= 4 ? 7 : n <= 7 ? 4 : 2;
   // Fraicheur : un equivalent maintenu recemment prouve que le genre vit encore.
   const days = top.updated ? (Date.now() - new Date(top.updated)) / 864e5 : 9999;
   const fraicheur = days < 30 ? 5 : days < 180 ? 3 : days < 365 ? 1 : 0;
 
-  return { marche: demande + opportunite + fraicheur, detail: { demande, opportunite, fraicheur }, variantesSolides: n };
+  return { marche: demande + opportunite + fraicheur,
+           detail: { demande, opportunite, fraicheur }, variantesSolides: n };
 }
 
 (async () => {
@@ -117,6 +122,7 @@ function scoreMarket(match) {
       blocs: { qualite: +L.qualite.toFixed(1), traction: +L.traction.toFixed(1), marche: +M.marche.toFixed(1) },
       detailScores: { ...L.sousScoresQualite, ...L.sousScoresTraction, ...M.detail },
       stats: L._stats,
+      promo: r.promo || null,
       roblox: (matches[title] && matches[title].variants) || [],
       variantesSolides: M.variantesSolides,
       ideesVariantes: idees.length ? idees : VARIANT_IDEAS._default,
