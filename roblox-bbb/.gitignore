@@ -1,7 +1,8 @@
-classeur.html
 data/*.json
 data/cache/
+node_modules/
+classeur.html
 genre-keyboard.html
 idees-jeux.html
-node_modules/
 reskin-cut-grass.html
+refonte-mecanique.html
