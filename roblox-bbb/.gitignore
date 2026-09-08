@@ -1,0 +1,4 @@
+data/*.json
+data/cache/
+classeur.html
+node_modules/
