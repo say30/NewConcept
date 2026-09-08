@@ -1,5 +1,6 @@
 data/*.json
 data/cache/
 classeur.html
+idees-jeux.html
 genre-keyboard.html
 node_modules/
