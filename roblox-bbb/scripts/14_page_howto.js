@@ -12,15 +12,15 @@ const PARTIES = [
     etapes: [
       ['Duplique le fichier', 'Fais une copie de <code>Keyboard Escape.rbxl</code> et renomme-la <code>Breakfast v1.rbxl</code>. Tu travailles sur la copie, jamais sur l\'original.'],
       ['Refais une copie à chaque grande étape', 'v2, v3, v4. Ça ne coûte rien et ça t\'évitera de tout perdre le jour où une manipulation tourne mal.'],
-      ['Dans Studio, active l\'enregistrement automatique', 'File → Studio Settings → Studio → AutoSave, mets un intervalle de 5 minutes.'],
+      ['Active l\'enregistrement automatique', 'Menu <code>File</code> → <code>Studio Settings</code> → section <code>Studio</code> → <code>AutoSave</code>. Mets un intervalle de 5 minutes.'],
     ],
   },
   {
     n: 2, titre: 'Trouver les décors actuels', duree: '20 minutes',
     intro: 'Avant de fabriquer, il faut savoir où ça se pose. Ton template a déjà 5 décors muraux quelque part — on va les repérer pour comprendre comment ils sont montés.',
     etapes: [
-      ['Ouvre l\'Explorer', 'Onglet View → Explorer. C\'est l\'arborescence du jeu, à droite de l\'écran.'],
-      ['Ouvre aussi Properties', 'Onglet View → Properties. C\'est là qu\'on modifie tout.'],
+      ['Ouvre l\'Explorer', 'Menu <code>Window</code> → <code>Explorer</code>, ou onglet <code>Home</code>. C\'est l\'arborescence du jeu, à droite de l\'écran. Elle est normalement déjà ouverte.'],
+      ['Ouvre aussi Properties', 'Même endroit : menu <code>Window</code> → <code>Properties</code>. C\'est le panneau où l\'on modifie tout.'],
       ['Clique sur un décor dans le jeu', 'Dans la fenêtre 3D, clique directement sur un panneau WARNING ou une toile d\'araignée. L\'Explorer va se positionner tout seul dessus.'],
       ['Regarde ce que c\'est', 'Sous la Part sélectionnée, tu verras un objet <code>Decal</code> ou <code>Texture</code>. Clique dessus : dans Properties, la ligne <code>Texture</code> contient une adresse du type <code>rbxassetid://123456789</code>. C\'est l\'image.'],
       ['Note le chemin', 'Regarde où cette Part se trouve dans l\'arborescence — Workspace, puis probablement un dossier par étape. C\'est là que tu iras poser les tiennes.'],
@@ -45,7 +45,7 @@ const PARTIES = [
     n: 4, titre: 'Envoyer tes images dans Roblox', duree: '10 minutes, puis de l\'attente',
     intro: 'Une image sur ton ordinateur ne sert à rien. Il faut la téléverser chez Roblox, qui la vérifie avant de la rendre utilisable.',
     etapes: [
-      ['Ouvre l\'Asset Manager', 'Dans Studio, onglet View → Asset Manager. Une fenêtre s\'ouvre en bas à gauche.'],
+      ['Ouvre l\'Asset Manager', 'Menu <code>Window</code> → <code>Asset Manager</code>, ou onglet <code>Home</code>. Une fenêtre s\'ouvre en bas à gauche.'],
       ['Va dans le dossier Images', 'Double-clique sur <code>Images</code>.'],
       ['Clic droit → Add Images', 'Sélectionne tes six PNG d\'un coup. Ils partent en modération.'],
       ['Attends', 'Roblox vérifie chaque image. Ça prend de quelques minutes à quelques heures. Tant que c\'est en cours, l\'image apparaît grisée.'],
@@ -69,9 +69,9 @@ const PARTIES = [
     n: 6, titre: 'Fabriquer la cuillère', duree: '30 minutes',
     intro: 'L\'exemple type de l\'objet en volume. Deux formes, aucun logiciel de modélisation. Une fois que tu sais faire ça, tu sais faire les dix-neuf autres.',
     etapes: [
-      ['Insère un cylindre', 'Onglet Home → Part → Cylinder. Il apparaît devant la caméra.'],
+      ['Insère un cylindre', 'Onglet <code>Home</code> → <code>Part</code> → <code>Cylinder</code>. Il apparaît devant la caméra.'],
       ['Allonge-le', 'Outil Scale (touche R). Tire sur une poignée pour en faire un manche fin et long.'],
-      ['Insère une sphère', 'Home → Part → Sphere.'],
+      ['Insère une sphère', 'Onglet <code>Home</code> → <code>Part</code> → <code>Sphere</code>.'],
       ['Écrase-la', 'Scale à nouveau : aplatis-la fortement sur un axe pour obtenir un ovale plat. C\'est le creux de la cuillère.'],
       ['Place-la au bout du manche', 'Outil Move (touche V pour aimanter les pièces entre elles).'],
       ['Colore les deux', 'Properties → <code>Color</code>. Un gris clair. Puis <code>Material</code> → <code>Metal</code> pour l\'aspect couvert.'],
@@ -174,6 +174,11 @@ ol.etapes span{font-size:14px;color:var(--doux)}
 <div class="avant">
   <p><strong>Ce que tu vas réellement faire.</strong> Deux gestes, répétés. Le premier : dessiner une image plate dans un éditeur gratuit, l'envoyer chez Roblox, coller son identifiant sur un mur. Le second : empiler deux ou trois formes de base dans Studio pour faire un objet.</p>
   <p>C'est tout. Il n'y a pas de troisième geste, et aucun des deux ne ressemble à ce que tu as essayé avec Meshy.</p>
+</div>
+
+<div class="avant" style="border-left-color:var(--or)">
+  <p><strong>Un mot sur l'interface.</strong> Studio a changé de présentation : l'onglet <code>View</code> n'existe plus. Les onglets sont désormais <code>Home</code>, <code>Model</code>, <code>Avatar</code>, <code>UI</code>, <code>Script</code> et <code>Plugins</code>.</p>
+  <p>Les trois fenêtres dont tu auras besoin — <strong>Explorer</strong>, <strong>Properties</strong> et <strong>Asset Manager</strong> — s'ouvrent toutes depuis le <strong>menu <code>Window</code></strong> en haut, ou depuis l'onglet <code>Home</code>. Elles sont normalement affichées par défaut ; ce chemin ne sert que si tu en as fermé une.</p>
 </div>
 
 ${PARTIES.map(p => `<section class="partie">
