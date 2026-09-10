@@ -1,24 +1,36 @@
 # Breakfast Escape — la déco
 
-10 assets à générer, à poser sur des étapes qui existent déjà.
-On ne touche à rien d'autre.
+10 assets à générer avec l'IA de Roblox Studio, à poser sur des étapes qui
+existent déjà. On ne touche à rien d'autre.
+
+---
+
+## Comment générer dans Studio
+
+Dans l'Assistant de Studio, tape `/generate` suivi de la description. Le modèle
+arrive directement dans ta scène, texturé, sans passer par un site tiers ni
+par un import.
+
+**Avant la première génération :** `File` → `Game Settings` → `Security`, et
+active les API `EditableImage` / `EditableMesh`. Sans ça les textures sautent
+silencieusement. À vérifier chez toi — cette étape vient de sources tierces,
+pas de la documentation officielle.
 
 ---
 
 ## Le suffixe de style
 
-À coller à la fin de **chaque** prompt, sans jamais le changer :
+L'IA de Roblox préfère les prompts courts. Colle juste ceci à la fin de
+**chaque** description :
 
 ```
-, low-poly stylized cartoon game asset, flat solid colors, minimal surface detail,
-smooth simple shapes, single centered object, no text, no logos, matte finish,
-plain background
+, low poly, cartoon style, flat colors, simple shapes
 ```
 
-C'est lui qui fait que les dix objets ont l'air de venir du même jeu.
-Sans lui, chacun sort dans un style différent.
+C'est lui qui fait que les dix objets ont l'air de venir du même jeu. Garde-le
+identique du premier au dernier — c'est la seule chose à ne jamais changer.
 
-Ne colle que l'anglais dans le champ : pas le nom français, pas le `|`.
+Écris les prompts en anglais.
 
 ---
 
@@ -94,20 +106,20 @@ collées sur sa face avant avec un `Decal`. Un asset, six apparences.
 
 ---
 
-## Réglages dans 3D AI Studio
+## Relance plutôt que de te contenter
 
-| Réglage | Valeur |
-|---|---|
-| Smart Low-Poly | **ON** |
-| Polygon Count | **4000** |
-| Enable Texturing | **OFF** (pour recolorer dans Studio) |
-| Material Type | `Shaded` |
-| Texture / Mesh Quality | `Standard` |
-| Email When Complete | ON |
+C'est le gros avantage sur un site payant : générer ne te coûte rien.
+
+**Lance le même prompt trois ou quatre fois et garde le meilleur.** Les
+résultats varient beaucoup d'une fois à l'autre, et le troisième essai est
+souvent le bon. Sur un outil à crédits tu devais rationner ; ici, non.
+
+Si un objet ne te plaît toujours pas après quatre essais, ce n'est pas la
+chance, c'est le prompt. Passe au suivant et reviens dessus plus tard.
 
 ---
 
-## Réglages à l'import dans Studio
+## Réglages sur chaque modèle généré
 
 Sur chaque modèle, sans exception :
 
@@ -115,22 +127,20 @@ Sur chaque modèle, sans exception :
 2. `CanCollide` **décoché** — c'est de la déco, le joueur doit la traverser.
 3. `CollisionFidelity` = **`Box`**.
 4. `Material` = `SmoothPlastic`.
+5. **Si tu veux recolorer** un objet : vide sa propriété `TextureID`, puis
+   change `Color`. La texture générée écrase la couleur tant qu'elle est là.
+   C'est comme ça que la même fraise devient rouge, verte ou jaune.
 
 ---
 
-## Ordre et coût
+## Par où commencer
 
-| Lot | Assets | Crédits |
-|---|---|---|
-| **1** | Bol, Cuillère, Tasse, Brique | 140 |
-| 2 | Boîte, Pancakes | 70 |
-| 3 | Anneau, Fraise | 70 |
-| 4 | Grille-pain, Pot de miel | 70 |
+Fais d'abord **le bol, la cuillère, la tasse et la brique de lait**. Pose-les
+dans une étape, lance le jeu, regarde-les en vrai.
 
-**Total : 350 crédits.**
-
-**Arrête-toi après le lot 1.** Pose les quatre dans le jeu, regarde. Si le style
-ne va pas, on corrige le suffixe et tu n'as perdu que 140 crédits.
+Si le style te plaît, tu enchaînes les six autres. S'il ne te plaît pas, c'est
+le suffixe qu'on ajuste — et comme ça ne coûte rien, on peut essayer plusieurs
+formulations avant de continuer.
 
 ---
 
@@ -140,3 +150,4 @@ ne va pas, on corrige le suffixe et tu n'as perdu que 140 crédits.
 - **Couleurs sales** → ajoute `bright saturated flat colors, no shading`
 - **Formes molles** → ajoute `sharp clean edges, geometric`
 - **Ne ressemble pas aux autres** → le suffixe a bougé, vérifie mot pour mot
+- **Rien ne marche sur cet objet** → relance trois fois avant de conclure
