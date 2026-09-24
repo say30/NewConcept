@@ -1,0 +1,20 @@
+<!doctype html><html><body style="margin:0;background:#445">
+<script type="importmap">{"imports":{"three":"../../node_modules/three/build/three.module.js","three/addons/":"../../node_modules/three/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+const r = new THREE.WebGLRenderer({antialias:true}); r.setSize(900,600); document.body.append(r.domElement);
+const s = new THREE.Scene(); s.background = new THREE.Color(0x556070);
+s.add(new THREE.HemisphereLight(0xffffff,0x444444,1.5)); const d=new THREE.DirectionalLight(0xffffff,2); d.position.set(3,5,-4); s.add(d);
+const cam = new THREE.PerspectiveCamera(35,1.5,0.1,500);
+const url = new URLSearchParams(location.search).get('f');
+new GLTFLoader().load(url, (g) => {
+  s.add(g.scene);
+  const box = new THREE.Box3().setFromObject(g.scene); const c = box.getCenter(new THREE.Vector3()); const sz = box.getSize(new THREE.Vector3()).length();
+  cam.position.copy(c).add(new THREE.Vector3(0.7,0.4,-0.9).normalize().multiplyScalar(sz*1.3)); cam.lookAt(c);
+  let skinned = null; g.scene.traverse(o => { if (o.isSkinnedMesh) skinned = o; });
+  window.info = { skinned: !!skinned, bones: skinned ? skinned.skeleton.bones.length : 0 };
+  if (skinned && location.search.includes('pose')) { const b = skinned.skeleton.bones.find(b=>/Leg1_1_R|Arm1_1_R/.test(b.name)); if (b) b.rotation.x = 0.8; const t = skinned.skeleton.bones.find(b=>/Head/.test(b.name)); if (t) t.rotation.y = 0.5; }
+  r.render(s, cam); window.done = true;
+});
+</script></body></html>

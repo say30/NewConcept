@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Créateur de Créatures</title>
+  <meta name="description" content="Crée des créatures façon Spore et exporte-les pour Roblox (GLB riggé ou OBJ, maillage étanche)." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦎</text></svg>" />
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="logo">🦎</span><span>Créateur de Créatures</span></div>
+    <input id="name" class="name" maxlength="40" spellcheck="false" title="Nom de la créature" />
+    <nav class="modes" id="modes">
+      <button data-mode="build" class="active">🦴 Construire</button>
+      <button data-mode="paint">🎨 Peindre</button>
+      <button data-mode="test">▶️ Tester</button>
+    </nav>
+    <div class="actions">
+      <button id="btn-new" title="Nouvelle créature à partir d'un modèle">📄 Nouveau</button>
+      <button id="btn-random" title="Créature aléatoire">🎲 Aléatoire</button>
+      <button id="btn-undo" title="Annuler (Ctrl+Z)">↶</button>
+      <button id="btn-redo" title="Rétablir (Ctrl+Y)">↷</button>
+      <button id="btn-gallery" title="Ma collection">📚 Collection</button>
+      <button id="btn-export" class="primary" title="Exporter pour Roblox">⬇️ Exporter pour Roblox</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="left" id="left"></aside>
+    <section class="stage" id="stage">
+      <div id="viewport"></div>
+      <div class="viewbar">
+        <button data-view="front" title="Vue de face">Face</button>
+        <button data-view="side" title="Vue de côté">Côté</button>
+        <button data-view="top" title="Vue de dessus">Dessus</button>
+        <button data-view="persp" title="Vue 3/4">3/4</button>
+        <span class="sep"></span>
+        <button id="toggle-handles" class="on" title="Afficher les poignées (os, articulations)">⚪ Poignées</button>
+      </div>
+      <div class="busy" id="busy"><span></span></div>
+      <div class="hint" id="hint"></div>
+      <div class="stats" id="stats"></div>
+    </section>
+    <aside class="right" id="right"></aside>
+  </main>
+
+  <div class="modal hidden" id="modal"><div class="modal-card" id="modal-card"></div></div>
+  <div class="toasts" id="toasts"></div>
+  <input type="file" id="file-input" accept=".json,application/json" hidden />
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
