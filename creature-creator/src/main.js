@@ -1,12 +1,12 @@
 import { Viewport } from './viewport.js';
-import { buildCreature, defaultPaint, limbJoints, limbRoot, limbRadii, spineFrame, spinePoint, spineRadius, makeAttachment, makeLimbAnchor, frameFromNormal, isMirrored, uid, resolveAttachment } from './core/creature.js';
+import { buildCreature, defaultPaint, limbJoints, limbRoot, limbRadii, spineFrame, spinePoint, spineRadius, makeAttachment, makeLimbAnchor, frameFromNormal, isMirrored, uid, resolveAttachment, slotHex, SLOTS as SLOT_LIST, hashStr, pieceMatrix } from './core/creature.js';
 import { PARTS, LIMBS, CATEGORIES } from './core/parts.js';
 import { PRESETS, buildPreset } from './core/presets.js';
 import { randomCreature, randomPaint, PALETTES } from './core/random.js';
 import { resolvePaint, PATTERNS } from './core/paint.js';
-import { makeModel, trace, ownerAt, symmetricHit, createPart, createLimb } from './core/edit.js';
+import { symmetricHit, createPart, createLimb } from './core/edit.js';
 import { sub, scale, norm, len } from './core/sdf.js';
-import { prepareExport, makeGLB, makeOBJZip, safeName } from './export/files.js';
+import { assembleExport, makeGLB, makeOBJZip, safeName } from './export/files.js';
 import MeshWorker from './worker.js?worker&inline';
 
 const $ = (s) => document.querySelector(s);
@@ -125,21 +125,55 @@ function aoScale() {
   return creature.spine.reduce((s, v) => s + v.r, 0) / creature.spine.length;
 }
 
+const ROUGH = { eyeWhite: 0.25, eye: 0.2, pupil: 0.15, highlight: 0.08, teeth: 0.3, claw: 0.4, mouth: 0.6, tongue: 0.45 };
+let lastBodyKey = '';
+
 function requestPreview(fast) {
   wPending = { fast };
-  if (!fast) needFull = false; else needFull = true;
+  needFull = !!fast;
   pump();
+}
+
+function showPieces() {
+  viewport.setPieces(build.pieces.map((pc) => ({
+    key: pc.key, matrix: pieceMatrix(pc), color: slotHex(creature.paint, pc.slot, pc.color), rough: ROUGH[pc.slot] ?? 0.6,
+    owner: pc.owner, id: pc.id, bone: pc.bone, mirror: pc.mirror,
+  })));
+}
+
+function updateStats() {
+  const d = viewport.meshData;
+  let tris = d ? d.indices.length / 3 : 0;
+  for (const m of viewport.pieces.children) tris += m.geometry.index.count / 3;
+  $('#stats').textContent = `Aperçu ${Math.round(tris).toLocaleString('fr-FR')} △ · ${1 + build.pieces.length} objets · ${creature.parts.length} pièces · ${creature.limbs.length} membres`;
 }
 
 function pump() {
   if (wBusy || !wPending) return;
   const { fast } = wPending;
   wPending = null;
+  const paint = resolvePaint(creature.paint, build);
+  const bodyKey = hashStr(JSON.stringify(build.prims) + JSON.stringify(creature.paint)) + (fast ? 'f' : 'F');
+  const needBody = bodyKey.slice(0, -1) !== lastBodyKey.slice(0, -1) || (!fast && !lastBodyKey.endsWith('F'));
+  const need = [];
+  const seen = new Set();
+  for (const pc of build.pieces) {
+    if (seen.has(pc.key) || viewport.geometry(pc.key)) continue;
+    seen.add(pc.key);
+    need.push({ key: pc.key, prims: pc.prims });
+  }
+  showPieces();
+  updateStats();
+  if (!needBody && !need.length) {
+    $('#busy').classList.remove('on');
+    if (mode === 'test') startTest();
+    return;
+  }
   wBusy = true;
   $('#busy').classList.add('on');
   const id = ++reqId;
-  inflight.set(id, { bones: build.bones, fast });
-  worker.postMessage({ type: 'preview', id, prims: build.prims, paint: resolvePaint(creature.paint, build), div: fast ? 52 : 84, aoScale: aoScale() });
+  inflight.set(id, { bones: build.bones, fast, bodyKey });
+  worker.postMessage({ type: 'preview', id, body: needBody ? { prims: build.prims } : null, pieces: need, paint, div: fast ? 70 : 150, aoScale: aoScale() });
 }
 
 worker.onmessage = (e) => {
@@ -148,14 +182,19 @@ worker.onmessage = (e) => {
     const info = inflight.get(m.id);
     inflight.delete(m.id);
     wBusy = false;
-    viewport.setMesh(m);
-    lastMesh = { data: m, bones: info.bones };
-    $('#stats').textContent = `Aperçu ${(m.indices.length / 3).toLocaleString('fr-FR')} △ · ${creature.parts.length} pièces · ${creature.limbs.length} membres`;
+    if (m.body) {
+      viewport.setMesh(m.body);
+      lastMesh = { data: m.body, bones: info.bones };
+      lastBodyKey = info.bodyKey;
+    }
+    for (const pc of m.pieces) viewport.geometry(pc.key, pc);
+    showPieces();
+    updateStats();
     if (!first.framed) { first.framed = true; viewport.frame(); }
     if (!wPending && needFull && !drag) requestPreview(false);
     if (!wPending) $('#busy').classList.remove('on');
     pump();
-    if (mode === 'test') startTest();
+    if (mode === 'test' && !wPending && !wBusy) startTest();
   } else if (m.type === 'progress') {
     if (exportJob) exportJob.progress(m.label, m.f);
   } else if (m.type === 'export') {
@@ -171,15 +210,8 @@ worker.onmessage = (e) => {
 };
 const first = { framed: false };
 
-let pickCache = new Map();
-function pickModel(skip = '') {
-  if (!pickCache.has(skip)) pickCache.set(skip, makeModel(build.prims, skip || undefined));
-  return pickCache.get(skip);
-}
-
 function changed({ commit: doCommit = true, fast = false, inspector = true } = {}) {
   build = buildCreature(creature);
-  pickCache = new Map();
   updateHandles();
   requestPreview(fast);
   if (doCommit) commit();
@@ -223,15 +255,13 @@ let drag = null;
 let wheelTimer = null;
 
 function traceEvent(ev, skip) {
-  const { ro, rd } = viewport.ray(ev);
-  return trace(pickModel(skip), ro, rd);
+  return viewport.raycast(ev, skip);
 }
 
 function ownerFromHit(hit) {
-  const o = ownerAt(pickModel(), hit.p);
-  if (!o) return null;
-  const [type, id] = o.owner.split(':');
-  return { type, id, mirrored: o.mirrored };
+  if (!hit || !hit.owner) return null;
+  const [type, id] = hit.owner.split(':');
+  return { type, id, mirrored: hit.mirrored };
 }
 
 function nearestVert(p) {
@@ -260,7 +290,7 @@ canvas.addEventListener('pointerdown', (ev) => {
       else {
         sel = { type: 'limb', id: h.limb, joint: h.j };
         drag = { kind: 'joint', limb: h.limb, j: h.j, mirror: h.mirror, moved: false };
-        if (h.j === 0) drag.skipModel = pickModel('limb:' + h.limb);
+        if (h.j === 0) drag.skip = 'limb:' + h.limb;
       }
       changed({ commit: false });
       return;
@@ -275,7 +305,7 @@ canvas.addEventListener('pointerdown', (ev) => {
     if (mode === 'build') {
       block();
       canvas.setPointerCapture(ev.pointerId);
-      drag = { kind: 'part', id: o.id, x: ev.clientX, y: ev.clientY, moved: false, skipModel: pickModel('part:' + o.id) };
+      drag = { kind: 'part', id: o.id, x: ev.clientX, y: ev.clientY, moved: false, skip: 'part:' + o.id };
     }
   } else if (o.type === 'limb') sel = { type: 'limb', id: o.id, joint: null };
   else sel = { type: 'spine', vert: nearestVert(hit.p) };
@@ -304,8 +334,7 @@ canvas.addEventListener('pointermove', (ev) => {
     const limb = creature.limbs.find((l) => l.id === drag.limb);
     if (!limb) return;
     if (drag.j === 0) {
-      const { ro, rd } = viewport.ray(ev);
-      const hit = trace(drag.skipModel, ro, rd);
+      const hit = viewport.raycast(ev, drag.skip);
       if (!hit) return;
       let { p, n } = hit;
       if (drag.mirror) { p = [-p[0], p[1], p[2]]; n = [-n[0], n[1], n[2]]; }
@@ -328,8 +357,7 @@ canvas.addEventListener('pointermove', (ev) => {
     if (!drag.moved && Math.hypot(ev.clientX - drag.x, ev.clientY - drag.y) < 4) return;
     const part = creature.parts.find((p) => p.id === drag.id);
     if (!part) return;
-    const { ro, rd } = viewport.ray(ev);
-    const hit = trace(drag.skipModel, ro, rd);
+    const hit = viewport.raycast(ev, drag.skip);
     if (!hit) return;
     let p = hit.p, n = hit.n;
     if (part.mirror !== false) ({ p, n } = symmetricHit(p, n));
@@ -550,7 +578,35 @@ function checkRow(label, value, onChange) {
   c.addEventListener('change', () => { onChange(c.checked); changed(); });
   return el('div', { class: 'row' }, el('label', {}, label), c);
 }
-const SLOTS = [['base', 'Peau (motif)'], ['secondary', 'Secondaire'], ['detail', 'Détail'], ['claw', 'Griffes / os'], ['custom', 'Personnalisée']];
+const SLOTS = SLOT_LIST;
+
+// Colour of every separate piece of a part (each = one MeshPart in Roblox).
+function piecesPanel(ownerKey, overrides, note) {
+  const seen = new Set();
+  const rows = [];
+  for (const pc of build.pieces) {
+    if (pc.owner !== ownerKey || seen.has(pc.piece)) continue;
+    seen.add(pc.piece);
+    const ov = overrides[pc.piece] || {};
+    const slot = pc.slot;
+    const sw = el('span', { class: 'dot', style: `background:${slotHex(creature.paint, slot, pc.color)}` });
+    const sel2 = el('select', {}, ...SLOTS.map(([v, t]) => el('option', { value: v, selected: v === slot }, t)));
+    sel2.addEventListener('change', () => { overrides[pc.piece] = Object.assign({}, ov, { slot: sel2.value }); changed(); });
+    const row = el('div', { class: 'row piece-row' }, sw, el('label', { title: pc.piece }, pc.piece), sel2);
+    rows.push(row);
+    if (slot === 'custom') {
+      const c = el('input', { type: 'color', value: ov.color || pc.color || '#ffffff' });
+      c.addEventListener('input', () => { overrides[pc.piece] = Object.assign({}, overrides[pc.piece] || {}, { slot: 'custom', color: c.value }); changed({ commit: false, inspector: false }); sw.style.background = c.value; });
+      c.addEventListener('change', () => commit());
+      rows.push(el('div', { class: 'row' }, el('label', {}, ''), c));
+    }
+  }
+  if (!rows.length) return null;
+  return el('div', { class: 'panel' },
+    el('h3', {}, `Pièces séparées (${rows.filter((r) => r.classList.contains('piece-row')).length})`),
+    el('p', { class: 'small' }, note || 'Chaque pièce devient un MeshPart à part dans Roblox : tu pourras changer sa couleur et son matériau.'),
+    ...rows);
+}
 
 // ---------------------------------------------------------------- inspector
 function renderRight() {
@@ -679,17 +735,15 @@ function limbInspector() {
         el('span', {}, String(limb.joints.length)),
         el('button', { onclick: () => limbJointOp(limb, 1), disabled: limb.joints.length >= 10 }, '＋')),
       checkRow('Symétrique', limb.mirror !== false, (v) => (limb.mirror = v)),
-      selectRow('Couleur', SLOTS, limb.slot || 'base', (v) => (limb.slot = v)),
-      limb.slot === 'custom' ? colorRow('Teinte', limb.color || '#ffffff', (v) => (limb.color = v)) : null),
+      el('p', { class: 'small' }, 'Le membre fait partie du corps (même MeshPart, couleur « Peau ») pour des articulations sans couture.')),
     el('div', { class: 'panel' },
       el('h3', {}, 'Extrémité (main / pied)'),
       selectRow('Type', ends, limb.end || 'none', (v) => (limb.end = v)),
       endDef ? slider('Taille', limb.endScale ?? 1, 0.3, 3, 0.01, (v) => (limb.endScale = v)) : null,
       endDef ? slider('Rotation', (limb.endRot || [0, 0, 0])[1], -180, 180, 1, (v) => { limb.endRot = limb.endRot || [0, 0, 0]; limb.endRot[1] = v; }, (v) => `${Math.round(v)}°`) : null,
       endDef ? slider('Inclinaison', (limb.endRot || [0, 0, 0])[0], -90, 90, 1, (v) => { limb.endRot = limb.endRot || [0, 0, 0]; limb.endRot[0] = v; }, (v) => `${Math.round(v)}°`) : null,
-      ...(endDef ? paramSliders(endDef, limb.endParams) : []),
-      endDef ? selectRow('Couleur', [['', 'Par défaut'], ...SLOTS], limb.endSlot || '', (v) => (limb.endSlot = v || null)) : null,
-      endDef && limb.endSlot === 'custom' ? colorRow('Teinte', limb.endColor || '#ffffff', (v) => (limb.endColor = v)) : null),
+      ...(endDef ? paramSliders(endDef, limb.endParams) : [])),
+    endDef ? piecesPanel('limb:' + limb.id, limb.endPieces || (limb.endPieces = {}), 'Les parties couleur peau de la main / du pied sont fondues dans le corps ; les griffes, sabots, etc. sont des pièces séparées.') : null,
     el('div', { class: 'panel btns' },
       el('button', { onclick: () => duplicate() }, '⧉ Dupliquer'),
       el('button', { class: 'danger', onclick: () => removeSel() }, '🗑 Supprimer')));
@@ -727,8 +781,9 @@ function partInspector() {
       slider('Rotation Z', part.rot[2], -180, 180, 1, (v) => (part.rot[2] = v), deg),
       ...paramSliders(def, part.params),
       checkRow('Symétrique', part.mirror !== false, (v) => (part.mirror = v)),
-      selectRow('Couleur', [['', 'Par défaut'], ...SLOTS], part.slot || '', (v) => (part.slot = v || null)),
-      part.slot === 'custom' ? colorRow('Teinte', part.color || '#ffffff', (v) => (part.color = v)) : null),
+      checkRow('Fondre dans le corps', part.fuse ?? !!def.fuse, (v) => (part.fuse = v)),
+      el('p', { class: 'small' }, '« Fondre » : les pièces couleur Peau se mélangent au corps (plus organique). Décoché : tout reste en pièces séparées.')),
+    piecesPanel('part:' + part.id, part.pieces || (part.pieces = {})) || el('div', { class: 'panel' }, el('p', { class: 'small' }, 'Cette pièce est fondue dans le corps (couleur Peau).')),
     el('div', { class: 'panel btns' },
       el('button', { onclick: () => { part.rot = [0, 0, 0]; part.lift = 0; changed(); } }, '↺ Réinitialiser'),
       el('button', { onclick: () => duplicate() }, '⧉ Dupliquer'),
@@ -797,15 +852,23 @@ function paintPanel() {
       el('div', { class: 'btns' }, el('button', { onclick: () => { Object.assign(P, randomPaint(Math.random)); changed(); renderLeft(); } }, '🎲 Peinture aléatoire'))),
     el('div', { class: 'panel' }, el('h3', {}, 'Couleurs'),
       el('div', { class: 'colors' },
-        colorCell('Principale', 'base'), colorCell('Secondaire', 'secondary'),
-        colorCell('Détail', 'detail'), colorCell('Griffes / os', 'claw'),
-        colorCell('Ventre', 'bellyColor'), colorCell('Yeux', 'eye')),
+        ...SLOTS.filter(([k]) => k !== 'custom').map(([k, t]) => colorCell(k === 'base' ? 'Peau (corps)' : t, k))),
+      el('p', { class: 'small' }, 'Chaque couleur s\'applique à toutes les pièces qui l\'utilisent. Dans Roblox, chaque pièce reste recolorable une par une.')),
+    el('div', { class: 'panel' }, el('h3', {}, 'Ventre'),
+      el('div', { class: 'colors' }, colorCell('Couleur du ventre', 'bellyColor')),
       slider('Ventre clair', P.bellyAmount, 0, 1, 0.01, set('bellyAmount'))),
-    el('div', { class: 'panel' }, el('h3', {}, 'Motif'), pats,
-      slider('Taille du motif', P.patternScale, 0.05, 0.8, 0.005, set('patternScale')),
-      slider('Intensité', P.patternAmount, 0, 1, 0.01, set('patternAmount')),
-      slider('Grain de peau', P.texture ?? 0.5, 0, 2, 0.01, set('texture')),
-      el('div', { class: 'btns' }, el('button', { onclick: () => { P.seed = Math.floor(Math.random() * 1000); changed(); } }, '🔀 Varier le motif'))),
+    el('div', { class: 'panel' }, el('h3', {}, 'Motif du corps'),
+      (() => {
+        const cb = el('input', { type: 'checkbox', checked: !!P.usePattern });
+        cb.addEventListener('change', () => { P.usePattern = cb.checked; store.set('cc.texture', cb.checked ? '1' : '0'); changed(); renderLeft(); });
+        return el('div', { class: 'row' }, el('label', {}, 'Motif + ventre'), cb, el('span', { class: 'small' }, P.usePattern ? 'activé (exporté en texture)' : 'désactivé : corps couleur unie'));
+      })(),
+      el('p', { class: 'small' }, 'Désactivé, le corps est d\'une seule couleur : parfait pour appliquer un matériau Roblox. Activé, le motif est peint dans une texture à l\'export.'),
+      P.usePattern ? pats : null,
+      P.usePattern && slider('Taille du motif', P.patternScale, 0.05, 0.8, 0.005, set('patternScale')),
+      P.usePattern && slider('Intensité', P.patternAmount, 0, 1, 0.01, set('patternAmount')),
+      P.usePattern && slider('Grain de peau', P.texture ?? 0.5, 0, 2, 0.01, set('texture')),
+      P.usePattern && el('div', { class: 'btns' }, el('button', { onclick: () => { P.seed = Math.floor(Math.random() * 1000); changed(); } }, '🔀 Varier le motif'))),
     el('div', { class: 'panel' }, el('p', { class: 'small' }, 'Astuce : clique une pièce pour changer sa couleur (Principale, Secondaire, Détail, Griffes, ou une teinte personnalisée) dans le panneau de droite.')));
 }
 
@@ -917,13 +980,19 @@ function pushAndLoad(c, fn) {
 
 // ---------------------------------------------------------------- export
 function exportModal() {
-  const opts = { height: +(store.get('cc.height') || 6), budget: +(store.get('cc.budget') || 12000), texSize: +(store.get('cc.tex') || 1024), rig: store.get('cc.rig') !== '0' };
+  const opts = {
+    height: +(store.get('cc.height') || 6), budget: +(store.get('cc.budget2') || 10000), detail: +(store.get('cc.detail') || 1),
+    texSize: +(store.get('cc.tex') || 1024), rig: store.get('cc.rig') !== '0', texture: !!creature.paint.usePattern,
+  };
   const nameIn = el('input', { value: safeName(creature.name) });
   const heightIn = el('input', { type: 'number', min: 0.5, max: 200, step: 0.5, value: opts.height });
   const budgetVal = el('span', { class: 'val' }, String(opts.budget));
-  const budgetIn = el('input', { type: 'range', min: 1000, max: 20000, step: 500, value: opts.budget });
+  const budgetIn = el('input', { type: 'range', min: 2000, max: 20000, step: 500, value: opts.budget });
   budgetIn.addEventListener('input', () => (budgetVal.textContent = budgetIn.value));
-  const texIn = el('select', {}, el('option', { value: 512, selected: opts.texSize === 512 }, '512 × 512 (léger)'), el('option', { value: 1024, selected: opts.texSize === 1024 }, '1024 × 1024 (net)'));
+  const detailIn = el('select', {},
+    ...[[0.6, 'Léger (mobile)'], [1, 'Standard'], [1.6, 'Élevé'], [2.4, 'Maximum']].map(([v, t]) => el('option', { value: v, selected: +v === opts.detail }, t)));
+  const texCheck = el('input', { type: 'checkbox', checked: opts.texture });
+  const texIn = el('select', {}, el('option', { value: 512, selected: opts.texSize === 512 }, '512 × 512'), el('option', { value: 1024, selected: opts.texSize === 1024 }, '1024 × 1024'));
   const rigIn = el('input', { type: 'checkbox', checked: opts.rig });
   const bar = el('div', {});
   const progressText = el('div', { class: 'small' });
@@ -931,8 +1000,9 @@ function exportModal() {
   const result = el('div');
   const go = el('button', { class: 'primary' }, '⚙️ Générer le modèle');
   go.addEventListener('click', () => {
-    const o = { height: Math.max(0.5, +heightIn.value || 6), budget: +budgetIn.value, texSize: +texIn.value, rig: rigIn.checked };
-    store.set('cc.height', o.height); store.set('cc.budget', o.budget); store.set('cc.tex', o.texSize); store.set('cc.rig', o.rig ? '1' : '0');
+    const o = { height: Math.max(0.5, +heightIn.value || 6), budget: +budgetIn.value, detail: +detailIn.value, texSize: +texIn.value, rig: rigIn.checked, texture: texCheck.checked };
+    store.set('cc.height', o.height); store.set('cc.budget2', o.budget); store.set('cc.detail', o.detail); store.set('cc.tex', o.texSize);
+    store.set('cc.rig', o.rig ? '1' : '0');
     go.disabled = true;
     result.innerHTML = '';
     progress.classList.remove('hidden');
@@ -947,31 +1017,36 @@ function exportModal() {
       fail: (msg) => { go.disabled = false; progressText.textContent = 'Erreur : ' + msg.split('\n')[0]; },
     });
   });
+  const nPieces = build.pieces.length;
   openModal(el('div', {},
     el('h2', {}, '⬇️ Exporter pour Roblox'),
-    el('p', { class: 'small' }, 'Le modèle est reconstruit en un seul maillage fermé (aucun trou, aucune face interne), avec une texture peinte et, si tu veux, un squelette.'),
+    el('p', { class: 'small', html: `Le modèle est exporté en <b>${1 + nPieces} objets séparés</b> : le corps + une pièce par élément de couleur (blanc des yeux, iris, pupille, dents, griffes…). Chaque objet est un maillage <b>fermé</b> (aucun trou) et devient un <b>MeshPart</b> que tu peux colorer et changer de matériau dans Roblox.` }),
     el('div', { class: 'row' }, el('label', {}, 'Nom'), nameIn),
     el('div', { class: 'row' }, el('label', {}, 'Hauteur (studs)'), heightIn),
-    el('div', { class: 'row' }, el('label', {}, 'Triangles max'), budgetIn, budgetVal),
-    el('p', { class: 'small' }, 'Roblox accepte jusqu\'à 20 000 triangles par MeshPart. 8 000 – 12 000 est un bon compromis beauté / performances.'),
-    el('div', { class: 'row' }, el('label', {}, 'Texture'), texIn),
+    el('div', { class: 'row' }, el('label', {}, 'Triangles du corps'), budgetIn, budgetVal),
+    el('div', { class: 'row' }, el('label', {}, 'Détail des pièces'), detailIn),
+    el('p', { class: 'small' }, 'Limite Roblox : 20 000 triangles par MeshPart. Le corps est simplifié intelligemment (les formes restent nettes) ; les pièces gardent leurs pointes.'),
+    el('div', { class: 'row' }, el('label', {}, 'Texture du corps'), texCheck, el('span', { class: 'small' }, 'motif + ventre peints (sinon couleur unie)')),
+    el('div', { class: 'row' }, el('label', {}, 'Taille texture'), texIn),
     el('div', { class: 'row' }, el('label', {}, 'Squelette (os)'), rigIn, el('span', { class: 'small' }, 'pour animer la créature')),
     el('div', { class: 'btns' }, go),
     progress, progressText, result,
     el('h3', {}, 'Importer dans Roblox Studio'),
     el('ol', { class: 'steps', html: `
       <li>Onglet <b>Accueil</b> (ou Avatar) → <b>Importer 3D</b>, puis choisis le fichier <b>.glb</b>.</li>
-      <li>Dans les réglages d'import : <b>File Geometry → Scale Unit : Stud</b> (le modèle est déjà à la bonne taille en studs).</li>
-      <li>Laisse la texture activée (elle est intégrée au .glb). Clique <b>Import</b>.</li>
-      <li>Avec squelette : le modèle arrive avec ses <b>Bones</b> ; ajoute un <b>AnimationController</b> + <b>Animator</b> (ou utilise l'éditeur d'animation) pour l'animer.</li>
-      <li>Sans squelette : c'est un <b>MeshPart</b> classique, pense à l'ancrer (<b>Anchored</b>) si c'est un décor.</li>
-      <li>Format <b>OBJ</b> (zip) : dézippe et importe le .obj, la texture .png est à côté.</li>`
+      <li>Dans les réglages d'import : <b>File Geometry → Scale Unit : Studs</b> (le modèle est déjà à la bonne taille).</li>
+      <li>Clique <b>Import</b> : tu obtiens un <b>Model</b> contenant un MeshPart par pièce (Corps, OeilRond_R_Iris, …).</li>
+      <li>Sélectionne une pièce et change sa <b>Color</b> et son <b>Material</b> librement.</li>
+      <li>Avec squelette : les <b>Bones</b> sont dans le modèle ; ajoute un <b>AnimationController</b> + <b>Animator</b> pour l'animer.</li>
+      <li>Sans squelette : pense à <b>souder</b> les pièces (WeldConstraint) ou à ancrer le modèle.</li>`
     })));
 }
 
 function runExport(o, name, ui) {
   const b = buildCreature(creature);
   const id = ++reqId;
+  const uniq = new Map();
+  for (const pc of b.pieces) if (!uniq.has(pc.key)) uniq.set(pc.key, { key: pc.key, prims: pc.prims });
   exportJob = {
     id,
     progress: ui.progress,
@@ -980,26 +1055,34 @@ function runExport(o, name, ui) {
       exportJob = null;
       if (job.cancelled) return;
       try {
-        const png = await rgbaToPng(m.tex.rgba, m.tex.size);
-        const res = { mesh: m.mesh, tex: m.tex };
-        const prep = prepareExport(res, b.bones, { height: o.height });
-        const glb = makeGLB(prep, name, png, o.rig);
-        const zip = makeOBJZip(prep, name, png);
-        const ch = m.mesh.check;
-        const texUrl = URL.createObjectURL(new Blob([png], { type: 'image/png' }));
+        const png = m.tex ? await rgbaToPng(m.tex.rgba, m.tex.size) : null;
+        const asm = assembleExport(m, b, creature.paint, { height: o.height });
+        const glb = makeGLB(asm, name, o.rig, png);
+        const zip = makeOBJZip(asm, name, png);
+        let tris = 0, open = 0, nm = 0, maxTris = 0;
+        for (const p of asm.parts) {
+          const ch = p.check;
+          if (!ch) continue;
+          tris += ch.triangles;
+          maxTris = Math.max(maxTris, ch.triangles);
+          if (ch.boundary) open++;
+          nm += ch.nonManifold;
+        }
         const files = el('div', { class: 'btns' },
           el('button', { class: 'primary', onclick: () => download(glb, `${name}.glb`, 'model/gltf-binary') }, `⬇️ ${name}.glb ${o.rig ? '(avec squelette)' : '(statique)'} · ${(glb.length / 1048576).toFixed(1)} Mo`),
-          el('button', { onclick: () => download(zip, `${name}_obj.zip`, 'application/zip') }, `⬇️ OBJ + texture (.zip)`),
-          el('button', { onclick: () => download(png, `${name}_texture.png`, 'image/png') }, '🖼 Texture seule'));
-        const sz = prep.X.size.map((v) => v.toFixed(1)).join(' × ');
-        const watertight = ch.boundary === 0;
-        const rep = el('div', { class: 'report', html: `
-          <div>Triangles</div><div><b>${ch.triangles.toLocaleString('fr-FR')}</b> / ${o.budget.toLocaleString('fr-FR')}</div>
-          <div>Trous (bords ouverts)</div><div class="${watertight ? 'ok' : 'warn'}">${watertight ? '0 — maillage fermé ✔' : ch.boundary + ' ⚠'}</div>
-          <div>Arêtes non-manifold</div><div class="${ch.nonManifold ? 'warn' : 'ok'}">${ch.nonManifold ? ch.nonManifold + ' (sans trou, invisible)' : '0 ✔'}</div>
-          <div>Taille (L × H × P)</div><div>${sz} studs</div>
-          <div>Os</div><div>${o.rig ? b.bones.length : '—'}</div>
-          <div>Texture</div><div><img class="tex-preview" src="${texUrl}" alt="texture" /></div>` });
+          el('button', { onclick: () => download(zip, `${name}_obj.zip`, 'application/zip') }, '⬇️ OBJ (.zip)'),
+          png ? el('button', { onclick: () => download(png, `${name}_Corps.png`, 'image/png') }, '🖼 Texture du corps') : null);
+        const sz = asm.size.map((v) => v.toFixed(1)).join(' × ');
+        const list = asm.parts.map((p) => `<span class="chip"><span class="dot" style="background:rgb(${p.color.map((v) => Math.round(v * 255)).join(',')})"></span>${p.name}</span>`).join('');
+        const rep = el('div', {},
+          el('div', { class: 'report', html: `
+            <div>Objets (MeshParts)</div><div><b>${asm.parts.length}</b></div>
+            <div>Triangles au total</div><div><b>${tris.toLocaleString('fr-FR')}</b> (max ${maxTris.toLocaleString('fr-FR')} par objet)</div>
+            <div>Maillages avec trous</div><div class="${open ? 'warn' : 'ok'}">${open ? open + ' ⚠' : '0 — tout est fermé ✔'}</div>
+            <div>Arêtes non-manifold</div><div class="${nm ? 'warn' : 'ok'}">${nm ? nm + ' ⚠' : '0 ✔'}</div>
+            <div>Taille (L × H × P)</div><div>${sz} studs</div>
+            <div>Os</div><div>${o.rig ? b.bones.length : '—'}</div>` }),
+          el('details', { class: 'pieces-list' }, el('summary', {}, 'Voir la liste des pièces'), el('div', { html: list })));
         ui.done(files, rep);
       } catch (err) {
         console.error(err);
@@ -1008,7 +1091,10 @@ function runExport(o, name, ui) {
     },
     fail: (msg) => { exportJob = null; ui.fail(msg); },
   };
-  worker.postMessage({ type: 'export', id, prims: b.prims, paint: resolvePaint(creature.paint, b), opts: { budget: o.budget, texSize: o.texSize, aoScale: aoScale() } });
+  worker.postMessage({
+    type: 'export', id, body: { prims: b.prims }, pieces: [...uniq.values()], paint: resolvePaint(creature.paint, b),
+    opts: { budget: o.budget, detail: o.detail, texture: o.texture, texSize: o.texSize, aoScale: aoScale() },
+  });
 }
 
 function rgbaToPng(rgba, size) {
@@ -1121,4 +1207,4 @@ loadCreature(initial || buildPreset('quadruped'));
 renderLeft();
 
 // debug / automation hook
-window.creatureApp = { get creature() { return creature; }, loadCreature, buildPreset, setMode, resolveAttachment };
+window.creatureApp = { get creature() { return creature; }, loadCreature, buildPreset, setMode, resolveAttachment, viewport };

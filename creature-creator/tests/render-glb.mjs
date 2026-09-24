@@ -8,9 +8,10 @@ const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PAT
 const page = await browser.newPage({ viewport: { width: 900, height: 600 } });
 page.on('pageerror', e => console.log('ERR', e.message)); page.on('console', m => m.type()==='error' && console.log('console', m.text()));
 for (const f of process.argv.slice(3)) {
-  await page.goto(`http://localhost:8765/tests/viewer/viewer.html?f=/sp/out/${f}.glb`);
+  const [nm, opt] = f.split(':');
+  await page.goto(`http://localhost:8765/tests/viewer/viewer.html?f=/sp/out/${nm}.glb${opt ? '&' + opt + '=1' : ''}`);
   await page.waitForFunction(() => window.done, null, { timeout: 60000 });
   console.log(f, JSON.stringify(await page.evaluate(() => window.info)));
-  await page.screenshot({ path: `${SP}/glb_${f}.png` });
+  await page.screenshot({ path: `${SP}/glb_${f.replace(':', '_')}.png` });
 }
 await browser.close(); srv.close();

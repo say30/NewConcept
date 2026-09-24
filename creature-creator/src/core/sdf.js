@@ -10,6 +10,13 @@ export const T_CONE = 1; // round cone (capsule when ra == rb)
 export const T_ELL = 2; // ellipsoid (oriented)
 export const T_BOX = 3; // rounded box (oriented)
 export const T_TRI = 4; // triangle slab (for membranes / fins)
+export const T_PLANE = 5; // half-space, d = dot(p - o, n) (used with op 'int')
+export const T_TORUS = 6; // torus around local Y axis (h = [R, r])
+export const T_GROUP = 7; // sub-field made of its own prims (union / sub / int)
+
+// op: 'add' (smooth union), 'sub' (smooth subtraction), 'int' (smooth intersection)
+export const OP_RANK = { add: 0, sub: 1, int: 2 };
+export function primOp(p) { return p.op || (p.sub ? 'sub' : 'add'); }
 
 export const UNSET = 1e9;
 
@@ -52,6 +59,19 @@ export function prepPrim(src, minR = 0) {
       p.h = p.h.map((v) => Math.max(v, minR * 0.5));
       p.rr = Math.min(p.rr || 0, Math.min(p.h[0], p.h[1], p.h[2]));
       break;
+    case T_PLANE:
+      p.n = norm(p.n);
+      break;
+    case T_TORUS:
+      p.h = [Math.max(p.h[0], minR), Math.max(p.h[1], minR)];
+      break;
+    case T_GROUP: {
+      const rank = { add: 0, sub: 1, int: 2 };
+      p.prims = p.prims.map((c) => prepPrim(c, minR));
+      p.prims.forEach((c, i) => (c._g = i));
+      p.prims.sort((a, b) => rank[a.op] - rank[b.op] || a._g - b._g);
+      break;
+    }
     case T_TRI: {
       p.th = Math.max(p.th, minR);
       const [a, b, c] = [p.a, p.b, p.c];
@@ -64,6 +84,7 @@ export function prepPrim(src, minR = 0) {
       break;
     }
   }
+  p.op = primOp(p);
   p.box = primAABB(p);
   return p;
 }
@@ -95,6 +116,24 @@ export function primAABB(p) {
       mx = [0, 1, 2].map((i) => p.c[i] + ext[i]);
       break;
     }
+    case T_PLANE:
+      mn = [-1e4, -1e4, -1e4];
+      mx = [1e4, 1e4, 1e4];
+      break;
+    case T_TORUS: {
+      const m = p.m, R = p.h[0], r = p.h[1];
+      const ext = [0, 1, 2].map((i) => Math.abs(m[i]) * (R + r) + Math.abs(m[3 + i]) * r + Math.abs(m[6 + i]) * (R + r));
+      mn = [0, 1, 2].map((i) => p.c[i] - ext[i]);
+      mx = [0, 1, 2].map((i) => p.c[i] + ext[i]);
+      break;
+    }
+    case T_GROUP:
+      mn = [Infinity, Infinity, Infinity]; mx = [-Infinity, -Infinity, -Infinity];
+      for (const c of p.prims) {
+        if (c.op !== 'add') continue;
+        for (let i = 0; i < 3; i++) { mn[i] = Math.min(mn[i], c.box.mn[i]); mx[i] = Math.max(mx[i], c.box.mx[i]); }
+      }
+      break;
     case T_TRI:
       mn = [0, 1, 2].map((i) => Math.min(p.a[i], p.b[i], p.c[i]) - p.th);
       mx = [0, 1, 2].map((i) => Math.max(p.a[i], p.b[i], p.c[i]) + p.th);
@@ -154,6 +193,21 @@ export function primDist(p, x, y, z) {
       const ox = Math.max(qx, 0), oy = Math.max(qy, 0), oz = Math.max(qz, 0);
       return Math.sqrt(ox * ox + oy * oy + oz * oz) + Math.min(Math.max(qx, qy, qz), 0) - r;
     }
+    case T_PLANE:
+      return (x - p.o[0]) * p.n[0] + (y - p.o[1]) * p.n[1] + (z - p.o[2]) * p.n[2];
+    case T_TORUS: {
+      const dx = x - p.c[0], dy = y - p.c[1], dz = z - p.c[2];
+      const m = p.m;
+      const lx = m[0] * dx + m[1] * dy + m[2] * dz;
+      const ly = m[3] * dx + m[4] * dy + m[5] * dz;
+      const lz = m[6] * dx + m[7] * dy + m[8] * dz;
+      const q = Math.hypot(lx, lz) - p.h[0];
+      return Math.hypot(q, ly) - p.h[1];
+    }
+    case T_GROUP: {
+      const f = fieldAt(p.prims, x, y, z);
+      return f >= UNSET ? 1e3 : f;
+    }
     case T_TRI: {
       const pa = [x - p.a[0], y - p.a[1], z - p.a[2]];
       const pb = [x - p.b[0], y - p.b[1], z - p.b[2]];
@@ -192,10 +246,15 @@ export function fieldAt(prims, x, y, z, list, skipOwner) {
     const p = prims[list ? list[i] : i];
     if (skipOwner !== undefined && p.owner === skipOwner) continue;
     const d = primDist(p, x, y, z);
-    if (!p.sub) f = f >= UNSET ? d : smin(f, d, p.k);
-    else if (f < UNSET) f = smax(f, -d, p.k);
+    f = combine(p.op, f, d, p.k);
   }
   return f;
+}
+
+export function combine(op, f, d, k) {
+  if (op === 'sub') return f < UNSET ? smax(f, -d, k) : f;
+  if (op === 'int') return f < UNSET ? smax(f, d, k) : f;
+  return f >= UNSET ? d : smin(f, d, k);
 }
 
 // ------------------------------------------------------------ small vec ops

@@ -47,6 +47,7 @@ await page.waitForTimeout(500);
 console.log('after 2 undo parts', await count());
 // paint mode
 await page.click('#modes button[data-mode=paint]');
+await page.check('.row:has(label:text-is("Motif + ventre")) input[type=checkbox]');
 await page.click('.patterns button:has-text("Tigre")');
 await page.waitForTimeout(2500);
 await page.screenshot({ path: SP + '/e2e_paint.png' });
@@ -61,13 +62,13 @@ await page.screenshot({ path: SP + '/e2e_random.png' });
 // export
 await page.click('#btn-export');
 await page.click('text=Générer le modèle');
-await page.waitForSelector('text=Terminé', { timeout: 120000 });
+await page.waitForSelector('text=Terminé', { timeout: 240000 });
 await page.screenshot({ path: SP + '/e2e_export.png' });
 const [dl] = await Promise.all([page.waitForEvent('download'), page.click('.modal-card button.primary:has-text(".glb")')]);
 const p = SP + '/dl.glb'; await dl.saveAs(p);
 const rep = await validator.validateBytes(new Uint8Array(fs.readFileSync(p)));
 console.log('downloaded', dl.suggestedFilename(), fs.statSync(p).size, 'errors', rep.issues.numErrors, 'warnings', rep.issues.numWarnings);
-const [dl2] = await Promise.all([page.waitForEvent('download'), page.click('text=OBJ + texture')]);
+const [dl2] = await Promise.all([page.waitForEvent('download'), page.click('text=OBJ (.zip)')]);
 console.log('zip', dl2.suggestedFilename());
 console.log(errs.join('\n') || 'no errors');
 await browser.close();

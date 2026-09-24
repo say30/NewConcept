@@ -60,6 +60,9 @@ export class Viewport {
     this.mesh.castShadow = true;
     this.mesh.receiveShadow = true;
     scene.add(this.mesh);
+    this.pieces = new THREE.Group();
+    scene.add(this.pieces);
+    this.geoCache = new Map();
 
     this.handles = new THREE.Group();
     scene.add(this.handles);
@@ -150,24 +153,101 @@ export class Viewport {
       }
     }
     col.needsUpdate = true;
+    for (const m of this.pieces.children) {
+      const on = this.ownerSel && m.userData.owner === this.ownerSel;
+      m.material.emissive.setRGB(on ? 0.05 : 0, on ? 0.12 : 0, on ? 0.3 : 0);
+    }
+  }
+
+  // cached local-space geometry of a piece
+  geometry(key, data) {
+    if (data) {
+      const g = new THREE.BufferGeometry();
+      g.setAttribute('position', new THREE.BufferAttribute(data.positions, 3));
+      g.setAttribute('normal', new THREE.BufferAttribute(data.normals, 3));
+      g.setIndex(new THREE.BufferAttribute(data.indices, 1));
+      g.computeBoundingSphere();
+      this.geoCache.set(key, g);
+      if (this.geoCache.size > 600) {
+        const first = this.geoCache.keys().next().value;
+        this.geoCache.get(first).dispose();
+        this.geoCache.delete(first);
+      }
+    }
+    return this.geoCache.get(key);
+  }
+
+  // list: [{key, matrix (16), color (hex), rough, owner, id}]
+  setPieces(list) {
+    for (const m of this.pieces.children) m.material.dispose();
+    this.pieces.clear();
+    for (const pc of list) {
+      const g = this.geoCache.get(pc.key);
+      if (!g) continue;
+      const mat = new THREE.MeshStandardMaterial({ color: new THREE.Color(pc.color), roughness: pc.rough ?? 0.6, metalness: 0 });
+      const m = new THREE.Mesh(g, mat);
+      m.matrixAutoUpdate = false;
+      m.matrix.fromArray(pc.matrix);
+      m.matrixWorldNeedsUpdate = true;
+      m.castShadow = true;
+      m.receiveShadow = true;
+      m.userData = { owner: pc.owner, id: pc.id, bone: pc.bone, mirror: pc.mirror };
+      this.pieces.add(m);
+    }
+    this.pieceList = list;
+    this.applyHighlight();
+  }
+
+  // raycast against body + pieces; skip = owner key to ignore
+  raycast(ev, skip) {
+    this.ray(ev);
+    const targets = [this.mesh, ...this.pieces.children].filter((o) => o.visible);
+    const hits = this.raycaster.intersectObjects(targets, false);
+    const d = this.meshData;
+    for (const h of hits) {
+      let owner, mirrored = false;
+      if (h.object === this.mesh) {
+        if (!d) continue;
+        const name = d.ownerNames[d.owners[h.face.a]] || 'spine';
+        [owner] = name.split('|');
+        mirrored = name.includes('|m');
+      } else {
+        owner = h.object.userData.owner;
+        mirrored = !!h.object.userData.mirror;
+      }
+      if (skip && owner === skip) continue;
+      const n = h.face.normal.clone().transformDirection(h.object.matrixWorld);
+      return { p: [h.point.x, h.point.y, h.point.z], n: [n.x, n.y, n.z], owner, mirrored };
+    }
+    return null;
+  }
+
+  bounds() {
+    const b = new THREE.Box3();
+    if (this.mesh.geometry.boundingBox) b.union(this.mesh.geometry.boundingBox);
+    for (const m of this.pieces.children) {
+      m.geometry.computeBoundingBox();
+      b.union(m.geometry.boundingBox.clone().applyMatrix4(m.matrix));
+    }
+    return b.isEmpty() ? null : b;
   }
 
   frame(box) {
-    const b = box || this.mesh.geometry.boundingBox;
+    const b = box || this.bounds();
     if (!b) return;
     const c = new THREE.Vector3(), s = new THREE.Vector3();
     b.getCenter(c); b.getSize(s);
     const r = Math.max(s.x, s.y, s.z, 1);
     const dir = this.camera.position.clone().sub(this.controls.target).normalize();
     this.controls.target.copy(c);
-    this.camera.position.copy(c).addScaledVector(dir, r * 2.1);
+    this.camera.position.copy(c).addScaledVector(dir, r * 1.65);
   }
 
   view(name) {
-    const b = this.mesh.geometry.boundingBox;
+    const b = this.bounds();
     const c = new THREE.Vector3(0, 1, 0), s = new THREE.Vector3(3, 3, 3);
     if (b) { b.getCenter(c); b.getSize(s); }
-    const r = Math.max(s.x, s.y, s.z, 1) * 2.2;
+    const r = Math.max(s.x, s.y, s.z, 1) * 1.75;
     const dirs = { front: [0, 0.15, -1], side: [1, 0.12, 0], top: [0.001, 1, -0.02], persp: [0.62, 0.42, -0.75] };
     const d = new THREE.Vector3(...dirs[name]).normalize();
     this.controls.target.copy(c);
@@ -276,6 +356,18 @@ export class Viewport {
     this.scene.add(skinned);
     skinned.updateMatrixWorld(true);
     skinned.bind(new THREE.Skeleton(B));
+    // rigid pieces follow their bone
+    for (const src of this.pieces.children) {
+      const bi = src.userData.bone;
+      const bone = B[bi] || B[0];
+      const m = new THREE.Mesh(src.geometry, src.material);
+      m.matrixAutoUpdate = false;
+      const bp = bones[bi] ? bones[bi].pos : [0, 0, 0];
+      m.matrix.makeTranslation(-bp[0], -bp[1], -bp[2]).multiply(src.matrix);
+      m.castShadow = true;
+      bone.add(m);
+    }
+    this.pieces.visible = false;
     this.mesh.visible = false;
     this.handles.visible = false;
     const rest = B.map((b) => b.position.clone());
@@ -295,6 +387,7 @@ export class Viewport {
     this.test.mesh.geometry.dispose();
     this.test = null;
     this.mesh.visible = true;
+    this.pieces.visible = true;
     this.handles.visible = this.showHandles;
   }
 }

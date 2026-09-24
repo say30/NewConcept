@@ -1,24 +1,31 @@
 // Wavefront OBJ + MTL (shared positions -> topologically watertight) and a
 // tiny "store" ZIP writer to bundle obj/mtl/png together.
 
-export function writeOBJ({ name, positions, normals, cornerUVs, indices }) {
+export function writeOBJ({ name, objects, texture }) {
   const f = (v) => (Math.abs(v) < 1e-7 ? '0' : v.toFixed(5));
-  const lines = [`# ${name} - Creature Creator`, `mtllib ${name}.mtl`, `o ${name}`];
-  for (let i = 0; i < positions.length; i += 3) lines.push(`v ${f(positions[i])} ${f(positions[i + 1])} ${f(positions[i + 2])}`);
-  for (let i = 0; i < normals.length; i += 3) lines.push(`vn ${f(normals[i])} ${f(normals[i + 1])} ${f(normals[i + 2])}`);
-  for (let i = 0; i < cornerUVs.length; i += 2) lines.push(`vt ${f(cornerUVs[i])} ${f(1 - cornerUVs[i + 1])}`);
-  lines.push(`usemtl ${name}Material`, 's 1');
-  for (let t = 0; t < indices.length; t += 3) {
-    const a = indices[t] + 1, b = indices[t + 1] + 1, c = indices[t + 2] + 1;
-    const ta = t + 1, tb = t + 2, tc = t + 3;
-    lines.push(`f ${a}/${ta}/${a} ${b}/${tb}/${b} ${c}/${tc}/${c}`);
+  const lines = [`# ${name} - Creature Creator`, `mtllib ${name}.mtl`];
+  const mtl = [];
+  let vBase = 0, tBase = 0;
+  for (const o of objects) {
+    lines.push(`o ${o.name}`);
+    for (let i = 0; i < o.positions.length; i += 3) lines.push(`v ${f(o.positions[i])} ${f(o.positions[i + 1])} ${f(o.positions[i + 2])}`);
+    for (let i = 0; i < o.normals.length; i += 3) lines.push(`vn ${f(o.normals[i])} ${f(o.normals[i + 1])} ${f(o.normals[i + 2])}`);
+    if (o.uvs) for (let i = 0; i < o.uvs.length; i += 2) lines.push(`vt ${f(o.uvs[i])} ${f(1 - o.uvs[i + 1])}`);
+    lines.push(`usemtl ${o.name}Material`, 's 1');
+    const I = o.indices;
+    for (let t = 0; t < I.length; t += 3) {
+      const a = I[t] + 1 + vBase, b = I[t + 1] + 1 + vBase, c = I[t + 2] + 1 + vBase;
+      if (o.uvs) lines.push(`f ${a}/${tBase + t + 1}/${a} ${b}/${tBase + t + 2}/${b} ${c}/${tBase + t + 3}/${c}`);
+      else lines.push(`f ${a}//${a} ${b}//${b} ${c}//${c}`);
+    }
+    vBase += o.positions.length / 3;
+    if (o.uvs) tBase += I.length;
+    const col = o.color.map((v) => v.toFixed(4)).join(' ');
+    mtl.push(`newmtl ${o.name}Material`, `Kd ${o.uvs ? '1 1 1' : col}`, 'Ka 0 0 0', 'Ks 0 0 0', 'd 1', 'illum 1');
+    if (o.uvs && texture) mtl.push(`map_Kd ${texture}`);
+    mtl.push('');
   }
-  const mtl = [
-    `newmtl ${name}Material`,
-    'Ka 1 1 1', 'Kd 1 1 1', 'Ks 0 0 0', 'd 1', 'illum 1',
-    `map_Kd ${name}.png`,
-  ].join('\n');
-  return { obj: lines.join('\n') + '\n', mtl: mtl + '\n' };
+  return { obj: lines.join('\n') + '\n', mtl: mtl.join('\n') };
 }
 
 const CRC_TABLE = (() => {

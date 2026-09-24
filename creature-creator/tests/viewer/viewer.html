@@ -11,7 +11,9 @@ const url = new URLSearchParams(location.search).get('f');
 new GLTFLoader().load(url, (g) => {
   s.add(g.scene);
   const box = new THREE.Box3().setFromObject(g.scene); const c = box.getCenter(new THREE.Vector3()); const sz = box.getSize(new THREE.Vector3()).length();
-  cam.position.copy(c).add(new THREE.Vector3(0.7,0.4,-0.9).normalize().multiplyScalar(sz*1.3)); cam.lookAt(c);
+  const q = new URLSearchParams(location.search);
+  if (q.get('face')) { const t = new THREE.Vector3(c.x, box.max.y - sz*0.12, box.min.z + sz*0.1); cam.position.copy(t).add(new THREE.Vector3(0.45,0.15,-1).normalize().multiplyScalar(sz*0.38)); cam.lookAt(t); }
+  else { cam.position.copy(c).add(new THREE.Vector3(0.7,0.4,-0.9).normalize().multiplyScalar(sz*1.3)); cam.lookAt(c); }
   let skinned = null; g.scene.traverse(o => { if (o.isSkinnedMesh) skinned = o; });
   window.info = { skinned: !!skinned, bones: skinned ? skinned.skeleton.bones.length : 0 };
   if (skinned && location.search.includes('pose')) { const b = skinned.skeleton.bones.find(b=>/Leg1_1_R|Arm1_1_R/.test(b.name)); if (b) b.rotation.x = 0.8; const t = skinned.skeleton.bones.find(b=>/Head/.test(b.name)); if (t) t.rotation.y = 0.5; }

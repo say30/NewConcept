@@ -1,32 +1,54 @@
 // Heavy lifting off the UI thread: meshing for the live preview and export.
-import { FieldModel, buildMesh } from './core/mesher.js';
-import { exportMesh } from './core/bake.js';
+import { meshBody, meshPiece } from './core/pipeline.js';
+import { bakeAtlas } from './core/bake.js';
+import { checkMesh } from './core/validate.js';
+
+function post(msg, bufs) { self.postMessage(msg, bufs); }
 
 self.onmessage = (e) => {
   const msg = e.data;
   try {
     if (msg.type === 'preview') {
-      const probe = new FieldModel(msg.prims, 0.05, { minThickness: 0 });
-      const size = Math.max(...[0, 1, 2].map((i) => probe.mx[i] - probe.mn[i]));
-      const h = Math.max(size / msg.div, 0.008);
-      const mesh = buildMesh(msg.prims, msg.paint, h, { fast: true, iters: 1, bones: true, aoScale: msg.aoScale });
-      const out = {
-        type: 'preview', id: msg.id,
-        positions: mesh.positions, normals: mesh.normals, colors: mesh.colors, indices: mesh.indices,
-        owners: mesh.owners, ownerNames: mesh.ownerNames, joints: mesh.joints, weights: mesh.weights,
-      };
-      self.postMessage(out, [out.positions.buffer, out.normals.buffer, out.colors.buffer, out.indices.buffer, out.owners.buffer, out.joints.buffer, out.weights.buffer]);
+      const out = { type: 'preview', id: msg.id, pieces: [] };
+      const bufs = [];
+      if (msg.body) {
+        const m = meshBody(msg.body.prims, msg.paint, { div: msg.div, aoScale: msg.aoScale });
+        out.body = { positions: m.positions, normals: m.normals, colors: m.colors, indices: m.indices, owners: m.owners, ownerNames: m.ownerNames, joints: m.joints, weights: m.weights };
+        bufs.push(m.positions.buffer, m.normals.buffer, m.colors.buffer, m.indices.buffer, m.owners.buffer, m.joints.buffer, m.weights.buffer);
+      }
+      for (const pc of msg.pieces) {
+        const m = meshPiece(pc.prims, { quality: 'preview' });
+        out.pieces.push({ key: pc.key, positions: m.positions, normals: m.normals, indices: m.indices });
+        bufs.push(m.positions.buffer, m.normals.buffer, m.indices.buffer);
+      }
+      post(out, bufs);
     } else if (msg.type === 'export') {
-      const res = exportMesh(msg.prims, msg.paint, msg.opts, (label, f) => self.postMessage({ type: 'progress', id: msg.id, label, f }));
-      const m = res.mesh;
+      const { opts } = msg;
+      const progress = (label, f) => post({ type: 'progress', id: msg.id, label, f });
+      progress('Corps…', 0.05);
+      const body = meshBody(msg.body.prims, msg.paint, { quality: 'export', budget: opts.budget, aoScale: opts.aoScale, progress: (l) => progress(l, 0.2) });
+      let tex = null;
+      if (opts.texture) {
+        progress('Cuisson de la texture du corps…', 0.45);
+        tex = bakeAtlas(body.model, body, msg.paint, opts.texSize, (f) => progress('Cuisson de la texture du corps…', 0.45 + f * 0.2));
+      }
+      const pieces = [];
+      const n = msg.pieces.length;
+      msg.pieces.forEach((pc, i) => {
+        progress(`Pièces ${i + 1} / ${n}…`, 0.65 + (0.33 * i) / Math.max(1, n));
+        const m = meshPiece(pc.prims, { quality: 'export', detail: opts.detail });
+        pieces.push({ key: pc.key, positions: m.positions, normals: m.normals, indices: m.indices, check: checkMesh(m.indices, m.positions.length / 3) });
+      });
       const out = {
         type: 'export', id: msg.id,
-        mesh: { positions: m.positions, normals: m.normals, indices: m.indices, joints: m.joints, weights: m.weights, check: m.check, cell: m.cell },
-        tex: res.tex,
+        body: { positions: body.positions, normals: body.normals, indices: body.indices, joints: body.joints, weights: body.weights, check: body.check },
+        tex, pieces,
       };
-      self.postMessage(out, [m.positions.buffer, m.normals.buffer, m.indices.buffer, m.joints.buffer, m.weights.buffer, res.tex.rgba.buffer, res.tex.uvs.buffer]);
+      const bufs = [body.positions.buffer, body.normals.buffer, body.indices.buffer, body.joints.buffer, body.weights.buffer];
+      if (tex) bufs.push(tex.rgba.buffer, tex.uvs.buffer);
+      post(out, bufs);
     }
   } catch (err) {
-    self.postMessage({ type: 'error', id: msg.id, message: String(err && err.stack || err) });
+    post({ type: 'error', id: msg.id, message: String((err && err.stack) || err) });
   }
 };

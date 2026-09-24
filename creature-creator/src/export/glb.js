@@ -1,7 +1,8 @@
-// Minimal, dependency-free glTF 2.0 binary (.glb) writer:
-// one textured mesh, optionally skinned to a bone hierarchy.
+// Minimal, dependency-free glTF 2.0 binary (.glb) writer.
+// Several meshes (one per piece => one MeshPart each in Roblox), each with its
+// own material (solid colour, or a texture), optionally sharing one skeleton.
 
-export function writeGLB({ name, positions, normals, uvs, indices, joints, weights, bones, png }) {
+export function writeGLB({ name, meshes, bones }) {
   const chunks = [];
   let byteLength = 0;
   const bufferViews = [];
@@ -24,60 +25,73 @@ export function writeGLB({ name, positions, normals, uvs, indices, joints, weigh
     return accessors.length - 1;
   }
 
-  const nV = positions.length / 3;
-  const mn = [Infinity, Infinity, Infinity], mx = [-Infinity, -Infinity, -Infinity];
-  for (let i = 0; i < positions.length; i += 3)
-    for (let k = 0; k < 3; k++) { mn[k] = Math.min(mn[k], positions[i + k]); mx[k] = Math.max(mx[k], positions[i + k]); }
-
-  const attributes = {
-    POSITION: addAccessor(positions, 'VEC3', 5126, nV, 34962, { min: mn, max: mx }),
-    NORMAL: addAccessor(normals, 'VEC3', 5126, nV, 34962),
-    TEXCOORD_0: addAccessor(uvs, 'VEC2', 5126, nV, 34962),
-  };
-  const skinned = bones && bones.length && joints && weights;
-  if (skinned) {
-    attributes.JOINTS_0 = addAccessor(joints, 'VEC4', 5123, nV, 34962);
-    attributes.WEIGHTS_0 = addAccessor(weights, 'VEC4', 5126, nV, 34962);
-  }
-  const idxAcc = addAccessor(indices, 'SCALAR', 5125, indices.length, 34963);
-  const imgView = addView(png);
-
-  // node 0: the skinned mesh, node 1: armature root (skinned meshes must be
-  // scene roots in glTF; bones live under the armature)
-  const nodes = [];
-  nodes.push({ name: name + 'Mesh', mesh: 0 });
-  const root = { name, children: [] };
-  nodes.push(root);
+  const skinned = !!(bones && bones.length && meshes.some((m) => m.joints));
   const gltf = {
     asset: { version: '2.0', generator: 'Creature Creator (NewConcept)' },
     scene: 0,
-    scenes: [{ name, nodes: [0, 1] }],
-    nodes,
-    meshes: [{ name: name + 'Mesh', primitives: [{ attributes, indices: idxAcc, material: 0, mode: 4 }] }],
-    materials: [{
-      name: name + 'Material',
-      pbrMetallicRoughness: { baseColorTexture: { index: 0 }, metallicFactor: 0, roughnessFactor: 0.8 },
-      doubleSided: false,
-    }],
-    textures: [{ source: 0, sampler: 0 }],
-    images: [{ name: name + 'Texture', bufferView: imgView, mimeType: 'image/png' }],
-    samplers: [{ magFilter: 9729, minFilter: 9987, wrapS: 33071, wrapT: 33071 }],
+    scenes: [{ name, nodes: [] }],
+    nodes: [],
+    meshes: [],
+    materials: [],
     accessors,
     bufferViews,
     buffers: [],
   };
+  const textures = [], images = [];
+
+  for (const m of meshes) {
+    const nV = m.positions.length / 3;
+    if (!nV || !m.indices.length) continue;
+    const mn = [Infinity, Infinity, Infinity], mx = [-Infinity, -Infinity, -Infinity];
+    for (let i = 0; i < m.positions.length; i += 3)
+      for (let k = 0; k < 3; k++) { mn[k] = Math.min(mn[k], m.positions[i + k]); mx[k] = Math.max(mx[k], m.positions[i + k]); }
+    const attributes = {
+      POSITION: addAccessor(m.positions, 'VEC3', 5126, nV, 34962, { min: mn, max: mx }),
+      NORMAL: addAccessor(m.normals, 'VEC3', 5126, nV, 34962),
+    };
+    if (m.uvs) attributes.TEXCOORD_0 = addAccessor(m.uvs, 'VEC2', 5126, nV, 34962);
+    if (skinned && m.joints) {
+      attributes.JOINTS_0 = addAccessor(m.joints, 'VEC4', 5123, nV, 34962);
+      attributes.WEIGHTS_0 = addAccessor(m.weights, 'VEC4', 5126, nV, 34962);
+    }
+    const idx = addAccessor(m.indices, 'SCALAR', 5125, m.indices.length, 34963);
+    const mat = {
+      name: m.name,
+      pbrMetallicRoughness: { baseColorFactor: [...(m.color || [1, 1, 1]), 1], metallicFactor: 0, roughnessFactor: m.roughness ?? 0.7 },
+    };
+    if (m.png) {
+      images.push({ name: m.name + 'Texture', bufferView: addView(m.png), mimeType: 'image/png' });
+      textures.push({ source: images.length - 1, sampler: 0 });
+      mat.pbrMetallicRoughness.baseColorTexture = { index: textures.length - 1 };
+      mat.pbrMetallicRoughness.baseColorFactor = [1, 1, 1, 1];
+    }
+    gltf.materials.push(mat);
+    gltf.meshes.push({ name: m.name, primitives: [{ attributes, indices: idx, material: gltf.materials.length - 1, mode: 4 }] });
+    const node = { name: m.name, mesh: gltf.meshes.length - 1 };
+    if (skinned && m.joints) node.skin = 0;
+    gltf.nodes.push(node);
+    gltf.scenes[0].nodes.push(gltf.nodes.length - 1);
+  }
+  if (images.length) {
+    gltf.images = images;
+    gltf.textures = textures;
+    gltf.samplers = [{ magFilter: 9729, minFilter: 9987, wrapS: 33071, wrapT: 33071 }];
+  }
 
   if (skinned) {
-    const base = nodes.length;
+    const armature = { name: name + 'Armature', children: [] };
+    gltf.nodes.push(armature);
+    gltf.scenes[0].nodes.push(gltf.nodes.length - 1);
+    const base = gltf.nodes.length;
     bones.forEach((b) => {
       const parent = b.parent >= 0 ? bones[b.parent].pos : [0, 0, 0];
-      nodes.push({ name: b.name, translation: [b.pos[0] - parent[0], b.pos[1] - parent[1], b.pos[2] - parent[2]] });
+      gltf.nodes.push({ name: b.name, translation: [b.pos[0] - parent[0], b.pos[1] - parent[1], b.pos[2] - parent[2]] });
     });
     bones.forEach((b, i) => {
       if (b.parent >= 0) {
-        const pn = nodes[base + b.parent];
+        const pn = gltf.nodes[base + b.parent];
         (pn.children || (pn.children = [])).push(base + i);
-      } else root.children.push(base + i);
+      } else armature.children.push(base + i);
     });
     const ibm = new Float32Array(bones.length * 16);
     bones.forEach((b, i) => {
@@ -87,10 +101,8 @@ export function writeGLB({ name, positions, normals, uvs, indices, joints, weigh
     const ibmAcc = addAccessor(ibm, 'MAT4', 5126, bones.length);
     const rootBone = bones.findIndex((b) => b.parent < 0);
     gltf.skins = [{ name: name + 'Skin', inverseBindMatrices: ibmAcc, joints: bones.map((_, i) => base + i), skeleton: base + Math.max(0, rootBone) }];
-    nodes[0].skin = 0;
   }
 
-  if (!root.children.length) delete root.children;
   const pad = (4 - (byteLength % 4)) % 4;
   if (pad) { chunks.push(new Uint8Array(pad)); byteLength += pad; }
   gltf.buffers.push({ byteLength });
@@ -106,16 +118,20 @@ export function writeGLB({ name, positions, normals, uvs, indices, joints, weigh
   const total = 12 + 8 + json.length + 8 + byteLength;
   const out = new Uint8Array(total);
   const dv = new DataView(out.buffer);
-  dv.setUint32(0, 0x46546c67, true); // glTF
+  dv.setUint32(0, 0x46546c67, true);
   dv.setUint32(4, 2, true);
   dv.setUint32(8, total, true);
   dv.setUint32(12, json.length, true);
-  dv.setUint32(16, 0x4e4f534a, true); // JSON
+  dv.setUint32(16, 0x4e4f534a, true);
   out.set(json, 20);
   let o = 20 + json.length;
   dv.setUint32(o, byteLength, true);
-  dv.setUint32(o + 4, 0x004e4942, true); // BIN
+  dv.setUint32(o + 4, 0x004e4942, true);
   o += 8;
   for (const c of chunks) { out.set(c, o); o += c.length; }
   return out;
+}
+
+export function srgbToLinear(c) {
+  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
 }

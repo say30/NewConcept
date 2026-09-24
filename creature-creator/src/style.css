@@ -131,3 +131,10 @@ kbd { background: var(--panel-2); border: 1px solid var(--line); border-bottom-w
   .stage { height: 60vh; order: -1; }
   .left, .right { max-height: none; }
 }
+
+.piece-row > label { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text); }
+.piece-row select { flex: 0 0 120px !important; }
+.dot { flex: 0 0 14px; height: 14px; border-radius: 50%; border: 1px solid rgba(255,255,255,.35); }
+.pieces-list { margin: 8px 0; font-size: 12.5px; }
+.pieces-list summary { cursor: pointer; color: var(--muted); }
+.chip { display: inline-flex; align-items: center; gap: 5px; background: var(--panel-2); border: 1px solid var(--line); border-radius: 12px; padding: 2px 8px; margin: 3px; }

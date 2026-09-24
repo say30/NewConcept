@@ -5,19 +5,22 @@
 // by an even number of faces. The resulting surface is always closed
 // (no holes), which is exactly what Roblox needs for a clean MeshPart.
 
-import { prepPrim, primDist, fieldAt, smin, smax, UNSET } from './sdf.js';
+import { prepPrim, primDist, fieldAt, combine, UNSET } from './sdf.js';
 import { shade } from './paint.js';
 
 export class FieldModel {
   constructor(primsIn, h, opts = {}) {
     this.h = h;
     const minR = opts.minThickness ?? 0.9 * h;
+    const rank = { add: 0, sub: 1, int: 2 };
     this.prims = primsIn.map((p) => prepPrim(p, minR));
+    this.prims.forEach((p, i) => (p._o = i));
+    this.prims.sort((a, b) => rank[a.op] - rank[b.op] || a._o - b._o);
     let kmax = 0;
     const mn = [Infinity, Infinity, Infinity], mx = [-Infinity, -Infinity, -Infinity];
     for (const p of this.prims) {
       kmax = Math.max(kmax, p.k || 0);
-      if (p.sub) continue;
+      if (p.op !== 'add') continue;
       for (let i = 0; i < 3; i++) {
         mn[i] = Math.min(mn[i], p.box.mn[i]);
         mx[i] = Math.max(mx[i], p.box.mx[i]);
@@ -89,7 +92,7 @@ export class FieldModel {
       const p = this.prims[l[i]];
       const k = p.k || 0;
       const rel = ds[i] - minAd;
-      const wc = Math.exp(-rel / (0.12 * k + 0.25 * this.h + 1e-4)) * (p.layer === 2 ? 1.5 : 1);
+      const wc = Math.exp(-rel / (0.12 * k + 0.25 * this.h + 1e-4));
       if (wc > bestW) { bestW = wc; best = l[i]; }
       if (bones && p.bw) {
         const wb = Math.exp(-rel / Math.max(0.6 * k, 0.05));
@@ -206,9 +209,7 @@ export function polygonize(model, jitter = [0, 0, 0], maxCells = 14e6) {
         let idx = lo[0] + nx * (y + ny * z);
         for (let x = lo[0]; x <= hi[0]; x++, idx++) {
           const d = primDist(p, o[0] + x * h, wy, wz);
-          const f = F[idx];
-          if (!p.sub) F[idx] = f >= UNSET ? d : smin(f, d, k);
-          else if (f < UNSET) F[idx] = smax(f, -d, k);
+          F[idx] = combine(p.op, F[idx], d, k);
         }
       }
     }

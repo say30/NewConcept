@@ -1,65 +1,10 @@
-// Export pipeline: pick a voxel size that fits the triangle budget, mesh with
-// the high-quality settings, then bake colours into a texture atlas.
+// Optional texture for the body: bakes the procedural skin pattern into an atlas.
 //
 // Atlas layout: every triangle gets half of a small square cell. Triangles are
 // ordered along a Morton curve so that neighbouring cells are neighbours on the
 // creature too (mip-maps then blend similar colours instead of random ones).
 
-import { FieldModel, polygonize, refine, attributes, cleanDegenerate, repairNonManifold } from './mesher.js';
-import { checkMesh } from './validate.js';
 import { shade } from './paint.js';
-
-export function exportMesh(prims, P, opts, progress = () => {}) {
-  const budget = opts.budget ?? 15000;
-  const probe = new FieldModel(prims, 0.05);
-  const size = Math.max(...[0, 1, 2].map((i) => probe.mx[i] - probe.mn[i]));
-  let h = size / 90;
-  let best = null;
-  // 1. find the voxel size (geometry only, fast)
-  for (let it = 0; it < 7; it++) {
-    progress(`Recherche de la résolution (${it + 1})…`, 0.05 + it * 0.03);
-    const model = new FieldModel(prims, h);
-    const m = polygonize(model);
-    const T = m.indices.length / 3;
-    if (T <= budget && (!best || T > best.T)) best = { h, T };
-    const ratio = T / budget;
-    if (ratio <= 1 && ratio > 0.9) break;
-    h *= Math.sqrt(ratio / 0.95);
-  }
-  if (!best) best = { h, T: 0 };
-  // 2. mesh (retry with a shifted grid if a rare ambiguous configuration shows up)
-  const jitters = [[0, 0, 0], [0.5, 0.5, 0.5], [0.25, 0.6, 0.4], [0.7, 0.2, 0.55], [0.4, 0.3, 0.8], [0.15, 0.85, 0.3], [0.6, 0.7, 0.1], [0.33, 0.1, 0.66], [0.9, 0.45, 0.2], [0.05, 0.35, 0.95]];
-  const hs = [1, 1, 1, 1, 1, 1.01, 1.02, 1.015, 1.025, 1.03];
-  let chosen = null;
-  for (let j = 0; j < jitters.length; j++) {
-    progress('Génération du maillage étanche…', 0.3 + j * 0.015);
-    const model = new FieldModel(prims, best.h * hs[j]);
-    const mesh = polygonize(model, jitters[j]);
-    cleanDegenerate(mesh);
-    repairNonManifold(mesh);
-    if (mesh.indices.length / 3 > budget) continue;
-    const chk = checkMesh(mesh.indices, mesh.positions.length / 3);
-    if (!chosen || chk.nonManifold < chosen.chk.nonManifold) chosen = { model, mesh, chk };
-    if (chk.nonManifold === 0 && chk.boundary === 0) break;
-  }
-  if (!chosen) {
-    const model = new FieldModel(prims, best.h * 1.1);
-    const mesh = polygonize(model);
-    cleanDegenerate(mesh);
-    repairNonManifold(mesh);
-    chosen = { model, mesh, chk: checkMesh(mesh.indices, mesh.positions.length / 3) };
-  }
-  const { model, mesh } = chosen;
-  progress('Lissage de la surface…', 0.45);
-  refine(model, mesh, 3, false);
-  progress('Couleurs et poids des os…', 0.55);
-  attributes(model, mesh, P, { bones: true, aoScale: opts.aoScale, keepAo: true });
-  mesh.check = checkMesh(mesh.indices, mesh.positions.length / 3);
-  mesh.cell = best.h;
-  progress('Cuisson de la texture…', 0.65);
-  const tex = bakeAtlas(model, mesh, P, opts.texSize ?? 1024, (f) => progress('Cuisson de la texture…', 0.65 + f * 0.3));
-  return { mesh, tex };
-}
 
 function morton(x, y, z) {
   const spread = (v) => {
@@ -163,14 +108,3 @@ export function bakeAtlas(model, mesh, P, texSize, progress = () => {}) {
 }
 
 function toSrgb8(v) { return Math.round(Math.max(0, Math.min(1, v)) * 255); }
-
-// Place the creature on the ground, centred, and scale it to a height in studs.
-export function exportTransform(mesh, height) {
-  const P = mesh.positions;
-  const mn = [Infinity, Infinity, Infinity], mx = [-Infinity, -Infinity, -Infinity];
-  for (let i = 0; i < P.length; i += 3)
-    for (let k = 0; k < 3; k++) { mn[k] = Math.min(mn[k], P[i + k]); mx[k] = Math.max(mx[k], P[i + k]); }
-  const s = height / Math.max(1e-6, mx[1] - mn[1]);
-  const off = [-(mn[0] + mx[0]) / 2, -mn[1], -(mn[2] + mx[2]) / 2];
-  return { s, off, apply: (p) => [(p[0] + off[0]) * s, (p[1] + off[1]) * s, (p[2] + off[2]) * s], size: [0, 1, 2].map((k) => (mx[k] - mn[k]) * s) };
-}
