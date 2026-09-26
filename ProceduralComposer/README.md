@@ -9,9 +9,14 @@ Totalement générique : aucun nom de Part, de biome ou d'asset n'est codé en d
 ## 1. Installation
 
 **Option A — fichier prêt à l'emploi**
-1. Copier `dist/ProceduralComposer.rbxmx` dans le dossier Plugins de Studio
-   (Studio : onglet *Plugins* → *Plugins Folder*).
-2. Redémarrer Studio. Un bouton **Composer** apparaît dans l'onglet *Plugins*.
+1. Sur GitHub, ouvrir `dist/ProceduralComposer.rbxm` puis cliquer sur **Download raw file**
+   (icône de téléchargement). Ne pas utiliser « Enregistrer le lien sous » : cela enregistre
+   une page HTML et Studio affiche *Failed to load plugin*.
+   Vérification : le fichier doit faire environ 160 Ko (`.rbxm`) ou 370 Ko (`.rbxmx`, qui commence par `<roblox version="4">`).
+2. Le copier dans le dossier Plugins de Studio (onglet *Plugins* → *Plugins Folder*).
+   Garder **un seul** des deux fichiers (`.rbxm` ou `.rbxmx`).
+3. Redémarrer Studio. Un bouton **Composer** apparaît dans l'onglet *Plugins*.
+   En cas de problème, les messages `[Procedural Composer]` s'affichent dans l'Output.
 
 **Option B — depuis les sources (Rojo)**
 ```bash
