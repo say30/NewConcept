@@ -1,0 +1,412 @@
+--[[
+	Placer : logique de placement (aucune interface ici).
+
+	1. analyzeZone : trouve le sol (la plus grande dalle horizontale) et les murs
+	   (Parts verticales fines), puis calcule l'INTÉRIEUR : le rectangle du sol
+	   rogné sur la face intérieure de chaque mur. Tout est calculé dans le repère
+	   du sol, donc ça marche même si la zone est tournée.
+	2. Les STRUCTURES sont posées contre la face intérieure des murs, dos au mur,
+	   tournées vers l'intérieur.
+	3. Les ASSETS sont posés sur le sol, dans les bandes latérales : jamais dans
+	   la zone centrale, jamais hors des murs, sans se chevaucher.
+	La base réelle de chaque objet touche exactement le sol (pivot ignoré).
+]]
+
+local Placer = {}
+
+local UP = Vector3.new(0, 1, 0)
+local EPS = 0.02
+
+local function collectParts(inst)
+	local parts = {}
+	if inst:IsA("BasePart") then
+		table.insert(parts, inst)
+	end
+	for _, d in ipairs(inst:GetDescendants()) do
+		if d:IsA("BasePart") then
+			table.insert(parts, d)
+		end
+	end
+	return parts
+end
+
+-- Boîte (min, max) de parts dans un repère donné.
+local function boundsInFrame(frame, parts)
+	local lo = Vector3.new(math.huge, math.huge, math.huge)
+	local hi = -lo
+	for _, p in ipairs(parts) do
+		local h = p.Size / 2
+		for _, sx in ipairs({ -1, 1 }) do
+			for _, sy in ipairs({ -1, 1 }) do
+				for _, sz in ipairs({ -1, 1 }) do
+					local c = frame:PointToObjectSpace(p.CFrame:PointToWorldSpace(Vector3.new(h.X * sx, h.Y * sy, h.Z * sz)))
+					lo = Vector3.new(math.min(lo.X, c.X), math.min(lo.Y, c.Y), math.min(lo.Z, c.Z))
+					hi = Vector3.new(math.max(hi.X, c.X), math.max(hi.Y, c.Y), math.max(hi.Z, c.Z))
+				end
+			end
+		end
+	end
+	return lo, hi
+end
+
+-- Repère "debout" à partir d'un CFrame (garde seulement la rotation autour de Y).
+local function yawFrame(cf)
+	local look = cf.LookVector - UP * cf.LookVector:Dot(UP)
+	if look.Magnitude < 0.2 then
+		look = cf.UpVector - UP * cf.UpVector:Dot(UP)
+	end
+	if look.Magnitude < 0.2 then
+		return CFrame.new(cf.Position)
+	end
+	look = look.Unit
+	return CFrame.fromMatrix(cf.Position, look:Cross(UP), UP)
+end
+
+-- Axe local d'une Part le plus proche de la verticale : index, signe.
+local function verticalAxis(part)
+	local axes = { part.CFrame.XVector, part.CFrame.YVector, part.CFrame.ZVector }
+	local best, bestDot, sign = 1, -1, 1
+	for i, a in ipairs(axes) do
+		local d = math.abs(a:Dot(UP))
+		if d > bestDot then
+			best, bestDot, sign = i, d, if a:Dot(UP) >= 0 then 1 else -1
+		end
+	end
+	return best, sign, axes
+end
+
+local function dims(part)
+	return { part.Size.X, part.Size.Y, part.Size.Z }
+end
+
+--[[
+	Analyse de la zone sélectionnée.
+	Renvoie zone = { Floor, Frame, U0, U1, V0, V1, Walls, CrossAxis, Parts } ou nil, message.
+]]
+function Placer.analyzeZone(roots)
+	local parts = {}
+	for _, r in ipairs(roots) do
+		for _, p in ipairs(collectParts(r)) do
+			table.insert(parts, p)
+		end
+	end
+	if #parts == 0 then
+		return nil, "La zone sélectionnée ne contient aucune Part."
+	end
+
+	-- Sol : la Part dont la face du dessus est la plus grande.
+	local floor, floorArea = nil, -1
+	for _, p in ipairs(parts) do
+		local i, _, _ = verticalAxis(p)
+		local d = dims(p)
+		local area = 1
+		for k = 1, 3 do
+			if k ~= i then
+				area *= d[k]
+			end
+		end
+		if d[i] <= math.max(d[1], d[2], d[3]) * 0.5 and area > floorArea then
+			floor, floorArea = p, area
+		end
+	end
+	if not floor then
+		return nil, "Aucun sol trouvé (une Part large et plate est nécessaire)."
+	end
+
+	-- Repère du sol : origine au centre de la face du dessus, Y = haut.
+	local i, sign, axes = verticalAxis(floor)
+	local d = dims(floor)
+	local up = axes[i] * sign
+	local others = {}
+	for k = 1, 3 do
+		if k ~= i then
+			table.insert(others, k)
+		end
+	end
+	local uIndex = if d[others[1]] >= d[others[2]] then others[1] else others[2]
+	local vIndex = if uIndex == others[1] then others[2] else others[1]
+	local top = floor.Position + up * (d[i] / 2)
+	local frame = CFrame.fromMatrix(top, axes[uIndex], up)
+	local hu, hv = d[uIndex] / 2, d[vIndex] / 2
+	local zone = {
+		Floor = floor,
+		Frame = frame,
+		U0 = -hu, U1 = hu, V0 = -hv, V1 = hv,
+		Walls = {},
+		Parts = parts,
+	}
+
+	-- Murs : Parts verticales fines. L'intérieur est rogné sur leur face intérieure.
+	local clippedU, clippedV = false, false
+	for _, p in ipairs(parts) do
+		if p ~= floor then
+			local lo, hi = boundsInFrame(frame, { p })
+			local height = hi.Y - math.max(lo.Y, 0)
+			local du, dv = hi.X - lo.X, hi.Z - lo.Z
+			local thin = math.min(du, dv) <= math.max(du, dv) * 0.5
+			if height >= 2 and thin and hi.Y > 0.5 then
+				local wall = { Part = p }
+				if dv >= du then
+					-- Mur qui court le long de V : il limite l'axe U.
+					if (lo.X + hi.X) / 2 < 0 then
+						wall.Side, wall.Inner = "U-", hi.X
+						zone.U0 = math.max(zone.U0, hi.X)
+					else
+						wall.Side, wall.Inner = "U+", lo.X
+						zone.U1 = math.min(zone.U1, lo.X)
+					end
+					wall.A0, wall.A1 = lo.Z, hi.Z
+					clippedU = true
+				else
+					if (lo.Z + hi.Z) / 2 < 0 then
+						wall.Side, wall.Inner = "V-", hi.Z
+						zone.V0 = math.max(zone.V0, hi.Z)
+					else
+						wall.Side, wall.Inner = "V+", lo.Z
+						zone.V1 = math.min(zone.V1, lo.Z)
+					end
+					wall.A0, wall.A1 = lo.X, hi.X
+					clippedV = true
+				end
+				table.insert(zone.Walls, wall)
+			end
+		end
+	end
+	if zone.U1 - zone.U0 < 1 or zone.V1 - zone.V0 < 1 then
+		return nil, "L'intérieur entre les murs est trop petit."
+	end
+	-- Axe de la zone centrale vide : entre les murs (ou la plus petite dimension).
+	if clippedU and clippedV then
+		zone.CrossAxis = "Both"
+	elseif clippedU then
+		zone.CrossAxis = "U"
+	elseif clippedV then
+		zone.CrossAxis = "V"
+	else
+		zone.CrossAxis = if (zone.U1 - zone.U0) <= (zone.V1 - zone.V0) then "U" else "V"
+	end
+	return zone
+end
+
+--[[
+	Bibliothèque : chaque Model ou Part (les dossiers sont parcourus) devient
+	un asset mesuré dans un repère "debout" à la position de son pivot.
+]]
+function Placer.scanLibrary(root)
+	local assets = {}
+	local function add(inst)
+		local parts = collectParts(inst)
+		local visible = {}
+		for _, p in ipairs(parts) do
+			if p.Transparency < 1 then
+				table.insert(visible, p)
+			end
+		end
+		if #visible == 0 then
+			visible = parts
+		end
+		if #visible == 0 then
+			return
+		end
+		local ref = yawFrame(inst:GetPivot())
+		local lo, hi = boundsInFrame(ref, visible)
+		local size = hi - lo
+		table.insert(assets, {
+			Instance = inst,
+			Name = inst.Name,
+			PivotFromRef = ref:ToObjectSpace(inst:GetPivot()),
+			Anchor = Vector3.new((lo.X + hi.X) / 2, lo.Y, (lo.Z + hi.Z) / 2),
+			Center = (lo + hi) / 2,
+			Size = size,
+			Radius = 0.5 * math.sqrt(size.X * size.X + size.Z * size.Z),
+		})
+	end
+	local function visit(inst)
+		if inst:IsA("Model") or inst:IsA("BasePart") then
+			add(inst)
+		else
+			for _, c in ipairs(inst:GetChildren()) do
+				visit(c)
+			end
+		end
+	end
+	if root:IsA("Model") and not root.PrimaryPart and root:FindFirstChildWhichIsA("BasePart") == nil then
+		for _, c in ipairs(root:GetChildren()) do
+			visit(c)
+		end
+	else
+		visit(root)
+	end
+	return assets
+end
+
+-- CFrame de pivot pour poser un asset au point (u, v) du sol avec un angle yaw.
+local function pivotFor(zone, asset, u, v, yaw)
+	local rot = zone.Frame.Rotation * CFrame.Angles(0, yaw, 0)
+	local world = zone.Frame:PointToWorldSpace(Vector3.new(u, 0, v))
+	local ref = CFrame.new(world - rot:VectorToWorldSpace(asset.Anchor)) * rot
+	return ref * asset.PivotFromRef
+end
+Placer.pivotFor = pivotFor
+
+-- Angle pour que l'avant de l'asset (-Z) regarde la direction (du, dv) du sol.
+local function yawFacing(du, dv)
+	return math.atan2(-du, -dv)
+end
+
+-- La position (u, v) est-elle dans la zone centrale interdite ?
+local function inCenter(zone, u, v, r, clear)
+	if clear <= 0 then
+		return false
+	end
+	local a, b = (1 - clear) / 2, (1 + clear) / 2
+	local function band(lo, hi, x)
+		local w = hi - lo
+		return x + r > lo + w * a and x - r < lo + w * b
+	end
+	local inU = band(zone.U0, zone.U1, u)
+	local inV = band(zone.V0, zone.V1, v)
+	if zone.CrossAxis == "U" then
+		return inU
+	elseif zone.CrossAxis == "V" then
+		return inV
+	end
+	return inU and inV
+end
+Placer.inCenter = inCenter
+
+local function overlaps(placed, u, v, r, spacing)
+	for _, p in ipairs(placed) do
+		local du, dv = p.U - u, p.V - v
+		if du * du + dv * dv < (p.R + r + spacing) ^ 2 then
+			return true
+		end
+	end
+	return false
+end
+
+local function place(zone, asset, u, v, yaw, folder, anchorParts)
+	local clone = asset.Instance:Clone()
+	if not clone then
+		return nil
+	end
+	clone:PivotTo(pivotFor(zone, asset, u, v, yaw))
+	if anchorParts then
+		for _, p in ipairs(collectParts(clone)) do
+			p.Anchored = true
+		end
+	end
+	clone.Parent = folder
+	return clone
+end
+
+--[[
+	Génération.
+	options = { Seed, AssetCount, CenterClear (0..0.9), Spacing, StructureGap }
+	Renvoie { Items = { {U, V, R, Kind, Instance, Yaw} }, Structures = n, Assets = n }
+]]
+function Placer.generate(zone, assets, structures, folders, options)
+	local rng = Random.new(options.Seed)
+	local function rand(a, b)
+		return a + (b - a) * rng:NextNumber()
+	end
+	local placed = {}
+	local result = { Items = placed, Structures = 0, Assets = 0 }
+	local clear = options.CenterClear
+	local spacing = options.Spacing
+
+	-- 1) Structures contre la face intérieure des murs.
+	local sides = {}
+	for _, w in ipairs(zone.Walls) do
+		table.insert(sides, w)
+	end
+	if #sides == 0 then
+		-- Pas de murs : les deux grands bords du sol.
+		if zone.U1 - zone.U0 >= zone.V1 - zone.V0 then
+			table.insert(sides, { Side = "V-", Inner = zone.V0, A0 = zone.U0, A1 = zone.U1 })
+			table.insert(sides, { Side = "V+", Inner = zone.V1, A0 = zone.U0, A1 = zone.U1 })
+		else
+			table.insert(sides, { Side = "U-", Inner = zone.U0, A0 = zone.V0, A1 = zone.V1 })
+			table.insert(sides, { Side = "U+", Inner = zone.U1, A0 = zone.V0, A1 = zone.V1 })
+		end
+	end
+	if #structures > 0 then
+		for _, w in ipairs(sides) do
+			local alongU = w.Side == "V-" or w.Side == "V+"
+			local a0 = math.max(w.A0, if alongU then zone.U0 else zone.V0)
+			local a1 = math.min(w.A1, if alongU then zone.U1 else zone.V1)
+			-- Normale vers l'intérieur.
+			local nu, nv = 0, 0
+			if w.Side == "U-" then
+				nu = 1
+			elseif w.Side == "U+" then
+				nu = -1
+			elseif w.Side == "V-" then
+				nv = 1
+			else
+				nv = -1
+			end
+			local yaw = yawFacing(nu, nv)
+			local t = a0 + rand(0, options.StructureGap)
+			local guard = 0
+			while t < a1 and guard < 200 do
+				guard += 1
+				local s = structures[rng:NextInteger(1, #structures)]
+				local width, depth = s.Size.X, s.Size.Z
+				if t + width > a1 then
+					break
+				end
+				-- Dos contre le mur (+ petit écart anti z-fighting).
+				local offset = w.Inner + (depth / 2 + EPS) * (nu + nv)
+				local along = t + width / 2
+				local u = if alongU then along else offset
+				local v = if alongU then offset else along
+				local r = s.Radius
+				local insideOk = depth <= (if alongU then zone.V1 - zone.V0 else zone.U1 - zone.U0)
+				if insideOk and not inCenter(zone, u, v, math.min(width, depth) / 2, clear) and not overlaps(placed, u, v, r * 0.7, 0) then
+					local inst = place(zone, s, u, v, yaw, folders.Structures, options.Anchor)
+					if inst then
+						table.insert(placed, { U = u, V = v, R = r * 0.7, Kind = "Structure", Instance = inst, Yaw = yaw })
+						result.Structures += 1
+					end
+				end
+				t += width + rand(options.StructureGap * 0.5, options.StructureGap * 1.5)
+			end
+		end
+	end
+
+	-- 2) Assets sur le sol, hors du centre, à l'intérieur des murs.
+	if #assets > 0 then
+		local attempts = 0
+		while result.Assets < options.AssetCount and attempts < options.AssetCount * 60 do
+			attempts += 1
+			local a = assets[rng:NextInteger(1, #assets)]
+			local r = a.Radius
+			local u, v
+			-- 50 % : près d'un asset déjà posé (petits groupes naturels).
+			local anchorItem = nil
+			if #placed > 0 and rng:NextNumber() < 0.5 then
+				anchorItem = placed[rng:NextInteger(1, #placed)]
+			end
+			if anchorItem then
+				local ang = rand(0, math.pi * 2)
+				local dist = anchorItem.R + r + spacing + rand(0, r * 2 + spacing)
+				u, v = anchorItem.U + math.cos(ang) * dist, anchorItem.V + math.sin(ang) * dist
+			else
+				u, v = rand(zone.U0 + r, zone.U1 - r), rand(zone.V0 + r, zone.V1 - r)
+			end
+			local inside = u - r >= zone.U0 and u + r <= zone.U1 and v - r >= zone.V0 and v + r <= zone.V1
+			if inside and not inCenter(zone, u, v, r, clear) and not overlaps(placed, u, v, r, spacing) then
+				local yaw = rand(0, math.pi * 2)
+				local inst = place(zone, a, u, v, yaw, folders.Assets, options.Anchor)
+				if inst then
+					table.insert(placed, { U = u, V = v, R = r, Kind = "Asset", Instance = inst, Yaw = yaw })
+					result.Assets += 1
+				end
+			end
+		end
+	end
+	return result
+end
+
+return Placer
