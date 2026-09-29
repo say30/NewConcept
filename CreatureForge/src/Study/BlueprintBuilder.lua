@@ -121,6 +121,77 @@ function BlueprintBuilder.build(report, parent: Instance)
 	return model, map
 end
 
+-- Fantôme : copie d'étude transparente de l'original, dans le blueprint uniquement.
+-- Jamais publiée ni réutilisée pour une créature générée.
+local STRIP = { "LuaSourceContainer", "JointInstance", "WeldConstraint", "Constraint", "Sound", "ProximityPrompt", "ClickDetector" }
+
+function BlueprintBuilder.hasGhost(blueprint: Model)
+	for _, d in blueprint:GetChildren() do
+		if d:GetAttribute(A .. "Ghost") then
+			return true
+		end
+	end
+	return false
+end
+
+function BlueprintBuilder.toggleGhost(report, blueprint: Model)
+	local pivot = blueprint:GetPivot()
+	if BlueprintBuilder.hasGhost(blueprint) then
+		for _, d in blueprint:GetChildren() do
+			if d:GetAttribute(A .. "Ghost") then
+				d:Destroy()
+			elseif d:IsA("BasePart") and d.Transparency < 0.95 then
+				d.Transparency = Config.VIZ.BlueprintTransparency
+			end
+		end
+		return false
+	end
+	local explode = blueprint:GetAttribute(A .. "Explode") or 0
+	local center = blueprint:GetAttribute(A .. "Center") or Vector3.zero
+	local k = 1 + explode * 1.6
+	for _, d in blueprint:GetChildren() do
+		if d:IsA("BasePart") and d.Transparency < 0.95 then
+			d.Transparency = 0.85 -- les boîtes deviennent des contours
+		end
+	end
+	for _, p in report.parts do
+		if p.region ~= "ignore" and p.transparency < 0.95 and p.inst.Parent then
+			local ok, ghost = pcall(function()
+				return p.inst:Clone()
+			end)
+			if ok and ghost then
+				for _, d in ghost:GetDescendants() do
+					for _, cls in STRIP do
+						if d:IsA(cls) then
+							d:Destroy()
+							break
+						end
+					end
+				end
+				for _, child in ghost:GetChildren() do
+					if child:IsA("BasePart") then
+						child:Destroy() -- les sous-pièces ont leur propre fantôme
+					end
+				end
+				ghost.Name = "Ghost_" .. (p.name:match("[^/\\]+$") or p.name)
+				ghost.Anchored = true
+				ghost.CanCollide = false
+				ghost.CanTouch = false
+				ghost.CanQuery = false
+				ghost.CastShadow = false
+				ghost.Transparency = math.max(p.transparency, 0.25)
+				local base = p.localCFrame
+				ghost:SetAttribute(A .. "Ghost", true)
+				ghost:SetAttribute(A .. "BaseCF", base)
+				local pos = center + (base.Position - center) * k
+				ghost.CFrame = pivot * (CFrame.new(pos) * base.Rotation)
+				ghost.Parent = blueprint
+			end
+		end
+	end
+	return true
+end
+
 -- Retrouve la correspondance source -> blueprint (après redémarrage du plugin).
 function BlueprintBuilder.rebuildMap(report, blueprint: Model)
 	local byPath = {}

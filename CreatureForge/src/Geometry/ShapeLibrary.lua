@@ -45,13 +45,16 @@ function Shapes.ellipsoid(p)
 	local rings = p.rings or 5
 	local flat = p.flat or 0
 	local spine, radii = {}, {}
+	-- sqY > 0 : profil vertical « super-ellipse » (extrémités plus pleines, remplit la boîte).
+	local e = 2 / (2 + (p.sqY or 0) * 6)
 	for k = 0, rings + 1 do
 		local phi = -math.pi / 2 + math.pi * k / (rings + 1)
-		local y = math.sin(phi) * p.sy * 0.5
+		local sn = math.sin(phi)
+		local y = math.sign(sn) * math.abs(sn) ^ e * p.sy * 0.5
 		if y < 0 then
 			y *= (1 - flat)
 		end
-		local c = math.cos(phi)
+		local c = math.abs(math.cos(phi)) ^ e
 		if k == 0 or k == rings + 1 then
 			c = 0
 		end

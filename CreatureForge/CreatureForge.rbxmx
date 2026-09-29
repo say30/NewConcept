@@ -1,4 +1,4 @@
-<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4"><Item class="Folder" referent="RBX00000023"><Properties><string name="Name">CreatureForge</string></Properties><Item class="Folder" referent="RBX00000005"><Properties><string name="Name">Analysis</string></Properties><Item class="ModuleScript" referent="RBX00000001"><Properties><string name="Name">CreatureAnalyzer</string><ProtectedString name="Source"><![CDATA[-- CreatureAnalyzer : point d'entrée de l'analyse d'une créature (lecture seule).
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4"><Item class="Folder" referent="RBX00000024"><Properties><string name="Name">CreatureForge</string></Properties><Item class="Folder" referent="RBX00000005"><Properties><string name="Name">Analysis</string></Properties><Item class="ModuleScript" referent="RBX00000001"><Properties><string name="Name">CreatureAnalyzer</string><ProtectedString name="Source"><![CDATA[-- CreatureAnalyzer : point d'entrée de l'analyse d'une créature (lecture seule).
 -- Ne modifie JAMAIS le modèle source.
 
 local Analysis = script.Parent
@@ -1120,6 +1120,7 @@ local Util = require(Root.Core.Util)
 local CreatureAnalyzer = require(Root.Analysis.CreatureAnalyzer)
 local RigAnalyzer = require(Root.Analysis.RigAnalyzer)
 local CreatureGenerator = require(Root.Generation.CreatureGenerator)
+local Rebuilder = require(Root.Generation.Rebuilder)
 local PaletteGenerator = require(Root.Generation.PaletteGenerator)
 local RigBuilder = require(Root.Rigging.RigBuilder)
 local MaterialManager = require(Root.Materials.MaterialManager)
@@ -1556,6 +1557,69 @@ function Controller:createCreature()
 		self:setStatus("publish", nil, "Meshes non publiés (temporaires) → PUBLIER")
 		Selection:Set({ model })
 	end)
+end
+
+-- Reconstruction fidèle : mêmes pièces, positions, tailles, couleurs et rig que la référence,
+-- avec des meshes 100 % générés (publiables sur votre compte).
+function Controller:rebuildFaithful()
+	self:run("Reconstruction…", function()
+		local st = self.state
+		local report = self:ensureReport()
+		for _, key in { "create", "meshes", "rig", "colors", "material", "publish" } do
+			self:setStatus(key, nil, nil)
+		end
+		st.publish = nil
+
+		local ext = math.max(report.boundingSize.X, report.boundingSize.Z)
+		local index = countGeneratedFrom(report.name) + 1
+		local place = report.frame + Vector3.new(-(ext + Config.LAYOUT_GAP) * index, 0, 0)
+
+		local model, info, rig, mat
+		Util.record("Reconstruire fidèle", function()
+			local plan = Rebuilder.plan(report)
+			model, info = CreatureGenerator.build({
+				plan = plan,
+				traits = report.traits,
+				level = 0,
+				seed = 0,
+				parent = Util.getOutputFolder(true),
+				placeCFrame = place,
+				referenceName = report.name,
+				onProgress = function(i, n)
+					self:progress(string.format("Reconstruction des meshes… %d / %d", i, n))
+				end,
+			})
+			rig = RigBuilder.build(model)
+			mat = MaterialManager.apply(model, st.settings.material, st.settings.variant)
+		end)
+
+		st.generated = model
+		self:bindPalette(model)
+		self:setStatus("create", true, "Reconstruction fidèle : " .. info.name)
+		self:setStatus("meshes", true, string.format("%d meshes · %d pièces · %d triangles", info.meshes, info.parts, info.triangles))
+		self:setStatus("rig", true, string.format("Rig d'origine repris : %d Motor6D · %d welds", rig.motors, rig.welds))
+		self:reportMaterial(mat)
+		self:setStatus("publish", nil, "Meshes non publiés (temporaires) → PUBLIER")
+		Selection:Set({ model })
+	end)
+end
+
+-- Fantôme : superpose l'original (vraie forme) au blueprint, en transparence.
+function Controller:toggleGhost()
+	self:run("Fantôme…", function()
+		local st = self.state
+		local bp = self:ensureBlueprint()
+		local shown
+		Util.record("Fantôme", function()
+			shown = BlueprintBuilder.toggleGhost(st.report, bp)
+		end)
+		self:setStatus("blueprint", nil, if shown then "Fantôme affiché (forme réelle, étude uniquement)" else "Fantôme masqué")
+	end)
+end
+
+function Controller:isGhostShown()
+	local bp = self.state.blueprint
+	return alive(bp) and BlueprintBuilder.hasGhost(bp)
 end
 
 function Controller:reportMaterial(mat)
@@ -2035,7 +2099,7 @@ function Util.shortError(err)
 end
 
 return Util
-]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX0000000E"><Properties><string name="Name">Generation</string></Properties><Item class="ModuleScript" referent="RBX0000000A"><Properties><string name="Name">BodyPlanner</string><ProtectedString name="Source"><![CDATA[-- BodyPlanner : proportions -> plan de construction (liste de pièces placées).
+]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX0000000F"><Properties><string name="Name">Generation</string></Properties><Item class="ModuleScript" referent="RBX0000000A"><Properties><string name="Name">BodyPlanner</string><ProtectedString name="Source"><![CDATA[-- BodyPlanner : proportions -> plan de construction (liste de pièces placées).
 -- Repère créature : Y haut, -Z avant, +X = droite de la créature, sol à y = 0.
 --
 -- Chaque pièce :
@@ -2960,9 +3024,10 @@ function CreatureGenerator.design(traits, level: number, seed: number, biome: st
 end
 
 -- Étape 2 : instancie le Model (EditableMesh + MeshParts).
--- opts : { traits, level, seed, biome?, parent, placeCFrame, referenceName, onProgress? }
+-- opts : { traits, level, seed, biome?, parent, placeCFrame, referenceName, onProgress?, plan? }
+-- `plan` (optionnel) : plan déjà calculé (ex. Rebuilder = reconstruction fidèle).
 function CreatureGenerator.build(opts)
-	local plan = CreatureGenerator.design(opts.traits, opts.level, opts.seed, opts.biome)
+	local plan = opts.plan or CreatureGenerator.design(opts.traits, opts.level, opts.seed, opts.biome)
 	local palette = plan.palette
 	local place = opts.placeCFrame * CFrame.new(0, plan.groundOffset, 0)
 
@@ -2978,6 +3043,7 @@ function CreatureGenerator.build(opts)
 	model:SetAttribute(A .. "RefMaterial", opts.traits.material or "Plastic")
 	model:SetAttribute(A .. "RefVariant", opts.traits.materialVariant or "")
 	model:SetAttribute(A .. "Published", false)
+	model:SetAttribute(A .. "Mode", if plan.faithful then "rebuild" else "create")
 
 	local uniqueKeys, meshCount, tris = {}, 0, 0
 	local total = #plan.parts
@@ -3005,6 +3071,10 @@ function CreatureGenerator.build(opts)
 		part:SetAttribute(A .. "RigParent", spec.parent or "Root")
 		part:SetAttribute(A .. "JointPos", spec.joint + Vector3.new(0, plan.groundOffset, 0))
 		part:SetAttribute(A .. "JointKind", spec.jointKind)
+		if spec.sourceMaterial then
+			part:SetAttribute(A .. "SourceMaterial", spec.sourceMaterial)
+			part:SetAttribute(A .. "SourceVariant", spec.sourceVariant or "")
+		end
 		part.Parent = model
 		if opts.onProgress then
 			opts.onProgress(i, total)
@@ -3017,6 +3087,15 @@ function CreatureGenerator.build(opts)
 	model.WorldPivot = opts.placeCFrame
 	model:SetAttribute(A .. "MeshCount", meshCount)
 	PaletteGenerator.apply(model, palette)
+	-- Reconstruction fidèle : couleurs exactes de chaque pièce d'origine.
+	for _, spec in plan.parts do
+		if spec.color then
+			local part = model:FindFirstChild(spec.name)
+			if part then
+				part.Color = spec.color
+			end
+		end
+	end
 	model.Parent = opts.parent
 
 	return model,
@@ -3487,7 +3566,217 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 end
 
 return ProportionGenerator
-]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX00000014"><Properties><string name="Name">Geometry</string></Properties><Item class="ModuleScript" referent="RBX0000000F"><Properties><string name="Name">EditableMeshFactory</string><ProtectedString name="Source"><![CDATA[-- EditableMeshFactory : MeshBuilder -> EditableMesh -> MeshPart.
+]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX0000000E"><Properties><string name="Name">Rebuilder</string><ProtectedString name="Source"><![CDATA[-- Rebuilder : « RECONSTRUIRE FIDÈLE ».
+-- Chaque pièce visible de la référence est refaite avec une forme procédurale qui
+-- remplit EXACTEMENT sa boîte (même taille, position, rotation, couleur, matière).
+-- Le rig reprend la hiérarchie des Motor6D / welds d'origine.
+-- Aucun sommet source n'est lu : seules les boîtes englobantes sont utilisées.
+
+local Root = script.Parent.Parent
+local PaletteAnalyzer = require(Root.Analysis.PaletteAnalyzer)
+local MeshRegistry = require(Root.Geometry.MeshRegistry)
+
+local Rebuilder = {}
+
+local ELONGATED = { horn = true, claw = true, spike = true }
+
+local function round(x)
+	return math.floor(x * 100 + 0.5) / 100
+end
+
+-- Rotation qui aligne l'axe Y d'une forme sur l'axe `axis` (1 = X, 2 = Y, 3 = Z) de la pièce,
+-- et tailles de forme correspondantes (sx, sy, sz).
+local function alignY(axis: number, size: Vector3)
+	if axis == 1 then
+		return CFrame.Angles(0, 0, math.pi / 2), size.Y, size.X, size.Z
+	elseif axis == 3 then
+		return CFrame.Angles(math.pi / 2, 0, 0), size.X, size.Z, size.Y
+	end
+	return CFrame.new(), size.X, size.Y, size.Z
+end
+
+local function sortedAxes(size: Vector3)
+	local dims = { { 1, size.X }, { 2, size.Y }, { 3, size.Z } }
+	table.sort(dims, function(a, b)
+		return a[2] > b[2]
+	end)
+	return dims
+end
+
+-- Choisit une forme qui remplit la boîte d'une pièce. Retourne shape, params, cframe local.
+local function fitShape(p, localCF: CFrame, bodyCenter: Vector3)
+	local size = p.size
+	local dims = sortedAxes(size)
+	local maxD, midD, minD = dims[1][2], dims[2][2], dims[3][2]
+	local longAxis = dims[1][1]
+
+	-- Cornes / griffes / pics allongés : cône orienté vers l'extérieur du corps.
+	if ELONGATED[p.region] and maxD > midD * 1.6 then
+		local rot = alignY(longAxis, size)
+		local axisWorld = (localCF * rot).UpVector
+		local outward = (localCF.Position - bodyCenter):Dot(axisWorld) >= 0
+		local flip = if outward then CFrame.new() else CFrame.Angles(math.pi, 0, 0)
+		return "horn",
+			{ len = round(maxD), r = round(midD * 0.5), curve = 0, out = 0, segs = 3, sides = 6 },
+			localCF * rot * flip * CFrame.new(0, -maxD * 0.5, 0)
+	end
+
+	-- Plaques fines (armures, ailes, nageoires, carapaces plates) : dalle arrondie.
+	if minD < midD * 0.22 then
+		return "roundedCube",
+			{ sx = round(size.X), sy = round(size.Y), sz = round(size.Z), bevel = round(minD * 0.45) },
+			localCF
+	end
+
+	-- Tout le reste : super-ellipsoïde orienté sur l'axe long (remplit ~90 % de la boîte).
+	local rot, sx, sy, sz = alignY(longAxis, size)
+	local sq = if p.region == "eye" then 0 else 0.45
+	return "ellipsoid",
+		{ sx = round(sx), sy = round(sy), sz = round(sz), sq = sq, sqY = sq, rings = 5, sides = 8 },
+		localCF * rot
+end
+
+local function shortName(name: string)
+	return (name:match("[^/\\]+$") or name):gsub("%.", "_")
+end
+
+function Rebuilder.plan(report)
+	local frame = report.frame
+	local slots = report.palette.slots
+	local slotNames = { "Primary", "Secondary", "Accent", "Eyes", "Special" }
+
+	local parts = {}
+	for _, p in report.parts do
+		if p.region ~= "ignore" and p.transparency < 0.95 then
+			table.insert(parts, p)
+		end
+	end
+	assert(#parts > 0, "Aucune pièce visible à reconstruire")
+
+	-- Centre du corps (pour orienter les cornes vers l'extérieur).
+	local bodyCenter, wsum = Vector3.zero, 0
+	for _, p in parts do
+		local w = p.volume
+		bodyCenter += frame:PointToObjectSpace(p.cframe.Position) * w
+		wsum += w
+	end
+	bodyCenter /= math.max(wsum, 1e-6)
+
+	-- Noms uniques (le rig retrouve les parents par nom).
+	local used = { Root = true, Palette = true }
+	local nameOf, specs, byName = {}, {}, {}
+	for _, p in parts do
+		local base = shortName(p.name)
+		local name, i = base, 2
+		while used[name] do
+			name = base .. "_" .. i
+			i += 1
+		end
+		used[name] = true
+		nameOf[p.inst] = name
+
+		local localCF = frame:ToObjectSpace(p.cframe)
+		local shape, params, cf = fitShape(p, localCF, bodyCenter)
+		params.seed = 1
+		params.jitter = 0.015
+
+		-- Emplacement de palette le plus proche (pour NOUVELLES COULEURS / édition).
+		local bestSlot, bestD = "Primary", math.huge
+		for _, slot in slotNames do
+			local d = PaletteAnalyzer.distance(p.color, slots[slot])
+			if d < bestD then
+				bestSlot, bestD = slot, d
+			end
+		end
+
+		local spec = {
+			name = name,
+			shape = shape,
+			params = params,
+			cframe = cf,
+			slot = bestSlot,
+			region = p.region,
+			color = p.color,
+			sourceMaterial = p.material.Name,
+			sourceVariant = p.materialVariant,
+			parent = nil,
+			joint = localCF.Position,
+			jointKind = "Weld",
+			mirror = false,
+			volume = p.volume,
+		}
+		table.insert(specs, spec)
+		byName[name] = spec
+	end
+
+	-- Rig : on reprend les articulations de la référence.
+	local function createsCycle(child, parentName)
+		local cur = parentName
+		local guard = 0
+		while cur and cur ~= "Root" and guard < 200 do
+			if cur == child then
+				return true
+			end
+			cur = byName[cur] and byName[cur].parent
+			guard += 1
+		end
+		return false
+	end
+	for pass = 1, 2 do -- Motor6D d'abord, welds ensuite
+		for _, j in report.rig.joints do
+			local isMotor = j.kind == "Motor6D"
+			if (pass == 1) == isMotor and j.part1 and nameOf[j.part1] then
+				local childName = nameOf[j.part1]
+				local spec = byName[childName]
+				local parentName = if j.part0 and nameOf[j.part0] then nameOf[j.part0] else "Root"
+				if spec.parent == nil and parentName ~= childName and not createsCycle(childName, parentName) then
+					spec.parent = parentName
+					spec.jointKind = if isMotor then "Motor6D" else "Weld"
+					if isMotor and j.part0 and j.c0 then
+						spec.joint = frame:PointToObjectSpace((j.part0.CFrame * j.c0).Position)
+					end
+				end
+			end
+		end
+	end
+
+	-- Pièces sans articulation : soudées à la plus grosse pièce (elle-même sur Root).
+	table.sort(specs, function(a, b)
+		return a.volume > b.volume
+	end)
+	local main = specs[1]
+	if main.parent == nil then
+		main.parent = "Root"
+		main.jointKind = "Motor6D"
+	end
+	for _, spec in specs do
+		if spec.parent == nil then
+			spec.parent = main.name
+			spec.jointKind = "Weld"
+		end
+	end
+
+	-- Géométrie + mise au sol identique à la référence (repère d'analyse = sol).
+	for _, spec in specs do
+		local geo, key = MeshRegistry.geometry(spec.shape, spec.params, false)
+		spec.geometry = geo
+		spec.meshKey = key
+	end
+
+	local palette = table.clone(slots)
+	return {
+		parts = specs,
+		byName = byName,
+		groundOffset = 0,
+		palette = palette,
+		name = report.name .. "_Rebuild",
+		proportions = { locomotion = report.traits.locomotion },
+		faithful = true,
+	}
+end
+
+return Rebuilder
+]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX00000015"><Properties><string name="Name">Geometry</string></Properties><Item class="ModuleScript" referent="RBX00000010"><Properties><string name="Name">EditableMeshFactory</string><ProtectedString name="Source"><![CDATA[-- EditableMeshFactory : MeshBuilder -> EditableMesh -> MeshPart.
 -- Ombrage « flat » (une normale par face = look low-poly) et UV planaires
 -- en studs (pour que les MaterialVariants comme Studs s'affichent correctement).
 
@@ -3578,7 +3867,7 @@ function EditableMeshFactory.isMeshMissing(part: MeshPart)
 end
 
 return EditableMeshFactory
-]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX00000010"><Properties><string name="Name">MeshBuilder</string><ProtectedString name="Source"><![CDATA[-- MeshBuilder : géométrie pure Lua (liste de sommets + triangles).
+]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX00000011"><Properties><string name="Name">MeshBuilder</string><ProtectedString name="Source"><![CDATA[-- MeshBuilder : géométrie pure Lua (liste de sommets + triangles).
 -- Indépendant de Roblox Instance : on construit ici, puis EditableMeshFactory
 -- convertit en EditableMesh. Convention : triangles CCW vus de l'extérieur.
 
@@ -3714,7 +4003,7 @@ function MeshBuilder:jitter(rng, amount: number)
 end
 
 return MeshBuilder
-]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX00000011"><Properties><string name="Name">MeshRegistry</string><ProtectedString name="Source"><![CDATA[-- MeshRegistry : cache des meshes générés, indexés par « clé de forme »
+]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX00000012"><Properties><string name="Name">MeshRegistry</string><ProtectedString name="Source"><![CDATA[-- MeshRegistry : cache des meshes générés, indexés par « clé de forme »
 -- (forme + paramètres + miroir). Deux pièces identiques (patte gauche/droite)
 -- partagent le même EditableMesh -> un seul asset à publier.
 --
@@ -3801,7 +4090,7 @@ function MeshRegistry.restorePart(part: MeshPart)
 end
 
 return MeshRegistry
-]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX00000012"><Properties><string name="Name">MeshUtils</string><ProtectedString name="Source"><![CDATA[-- MeshUtils : primitives de construction (anneaux, loft, sweep, plaques extrudées).
+]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX00000013"><Properties><string name="Name">MeshUtils</string><ProtectedString name="Source"><![CDATA[-- MeshUtils : primitives de construction (anneaux, loft, sweep, plaques extrudées).
 -- Toutes les formes de ShapeLibrary sont bâties sur ces 3 briques.
 
 local MeshBuilder = require(script.Parent.MeshBuilder)
@@ -3987,7 +4276,7 @@ function MeshUtils.sampleProfile(profile, t: number)
 end
 
 return MeshUtils
-]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX00000013"><Properties><string name="Name">ShapeLibrary</string><ProtectedString name="Source"><![CDATA[-- ShapeLibrary : bibliothèque de formes stylisées low-poly, 100 % procédurales.
+]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX00000014"><Properties><string name="Name">ShapeLibrary</string><ProtectedString name="Source"><![CDATA[-- ShapeLibrary : bibliothèque de formes stylisées low-poly, 100 % procédurales.
 -- Chaque forme = fonction(params, rng) -> MeshBuilder, dans son repère local :
 --   * formes « membres » (limb, horn, claw, spike, crystal, tentacle, ear, tail...) :
 --     base à l'origine, croissance selon +Y ;
@@ -4034,13 +4323,16 @@ function Shapes.ellipsoid(p)
 	local rings = p.rings or 5
 	local flat = p.flat or 0
 	local spine, radii = {}, {}
+	-- sqY > 0 : profil vertical « super-ellipse » (extrémités plus pleines, remplit la boîte).
+	local e = 2 / (2 + (p.sqY or 0) * 6)
 	for k = 0, rings + 1 do
 		local phi = -math.pi / 2 + math.pi * k / (rings + 1)
-		local y = math.sin(phi) * p.sy * 0.5
+		local sn = math.sin(phi)
+		local y = math.sign(sn) * math.abs(sn) ^ e * p.sy * 0.5
 		if y < 0 then
 			y *= (1 - flat)
 		end
-		local c = math.cos(phi)
+		local c = math.abs(math.cos(phi)) ^ e
 		if k == 0 or k == rings + 1 then
 			c = 0
 		end
@@ -4592,7 +4884,7 @@ function ShapeLibrary.build(shape: string, params)
 end
 
 return ShapeLibrary
-]]></ProtectedString></Properties></Item></Item><Item class="Script" referent="RBX00000015"><Properties><string name="Name">Main</string><ProtectedString name="Source"><![CDATA[-- Creature Forge — point d'entrée du plugin (plugin local Roblox Studio).
+]]></ProtectedString></Properties></Item></Item><Item class="Script" referent="RBX00000016"><Properties><string name="Name">Main</string><ProtectedString name="Source"><![CDATA[-- Creature Forge — point d'entrée du plugin (plugin local Roblox Studio).
 -- Bouton de barre d'outils -> fenêtre ancrable « CREATURE FORGE ».
 
 local Selection = game:GetService("Selection")
@@ -4643,7 +4935,7 @@ plugin.Unloading:Connect(function()
 	redoConn:Disconnect()
 	controller:destroy()
 end)
-]]></ProtectedString></Properties></Item><Item class="Folder" referent="RBX00000017"><Properties><string name="Name">Materials</string></Properties><Item class="ModuleScript" referent="RBX00000016"><Properties><string name="Name">MaterialManager</string><ProtectedString name="Source"><![CDATA[-- MaterialManager : Original / Studs (MaterialVariant) / SmoothPlastic.
+]]></ProtectedString></Properties></Item><Item class="Folder" referent="RBX00000018"><Properties><string name="Name">Materials</string></Properties><Item class="ModuleScript" referent="RBX00000017"><Properties><string name="Name">MaterialManager</string><ProtectedString name="Source"><![CDATA[-- MaterialManager : Original / Studs (MaterialVariant) / SmoothPlastic.
 -- Les yeux restent en SmoothPlastic pour garder un regard net.
 
 local MaterialService = game:GetService("MaterialService")
@@ -4699,6 +4991,11 @@ function MaterialManager.apply(model: Instance, mode: string, variantName: strin
 			elseif mode == "Studs" and variant then
 				d.Material = variant.BaseMaterial
 				d.MaterialVariant = variant.Name
+			elseif mode == "Original" and d:GetAttribute(A .. "SourceMaterial") then
+				-- Reconstruction fidèle : matière d'origine de CETTE pièce.
+				d.Material = materialFromName(tostring(d:GetAttribute(A .. "SourceMaterial")))
+				local v = MaterialManager.findVariant(tostring(d:GetAttribute(A .. "SourceVariant") or ""))
+				d.MaterialVariant = if v then v.Name else ""
 			elseif mode == "Original" then
 				if refVariant then
 					d.Material = refVariant.BaseMaterial
@@ -4720,7 +5017,7 @@ function MaterialManager.apply(model: Instance, mode: string, variantName: strin
 end
 
 return MaterialManager
-]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX00000019"><Properties><string name="Name">Publishing</string></Properties><Item class="ModuleScript" referent="RBX00000018"><Properties><string name="Name">AssetPublisher</string><ProtectedString name="Source"><![CDATA[-- AssetPublisher : publie UNIQUEMENT les EditableMesh générés par le plugin
+]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX0000001A"><Properties><string name="Name">Publishing</string></Properties><Item class="ModuleScript" referent="RBX00000019"><Properties><string name="Name">AssetPublisher</string><ProtectedString name="Source"><![CDATA[-- AssetPublisher : publie UNIQUEMENT les EditableMesh générés par le plugin
 -- (AssetService:CreateAssetAsync, plugin local -> compte Studio connecté),
 -- puis applique les nouveaux IDs aux MeshParts correspondantes.
 --
@@ -4991,7 +5288,7 @@ function AssetPublisher.describeFailure(results)
 end
 
 return AssetPublisher
-]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX0000001B"><Properties><string name="Name">Rigging</string></Properties><Item class="ModuleScript" referent="RBX0000001A"><Properties><string name="Name">RigBuilder</string><ProtectedString name="Source"><![CDATA[-- RigBuilder : crée automatiquement le rig d'une créature générée.
+]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX0000001C"><Properties><string name="Name">Rigging</string></Properties><Item class="ModuleScript" referent="RBX0000001B"><Properties><string name="Name">RigBuilder</string><ProtectedString name="Source"><![CDATA[-- RigBuilder : crée automatiquement le rig d'une créature générée.
 -- Root (ancré, invisible) -> Body -> Neck -> Head -> Jaw ... via Motor6D ;
 -- détails décoratifs (yeux, cornes, pics) via WeldConstraint.
 -- Aucune hypothèse humanoïde : la hiérarchie vient des attributs CF_RigParent
@@ -5161,7 +5458,7 @@ function RigBuilder.describe(model: Model)
 end
 
 return RigBuilder
-]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX0000001F"><Properties><string name="Name">Study</string></Properties><Item class="ModuleScript" referent="RBX0000001C"><Properties><string name="Name">BlueprintBuilder</string><ProtectedString name="Source"><![CDATA[-- BlueprintBuilder : copie d'étude à côté de l'original.
+]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX00000020"><Properties><string name="Name">Study</string></Properties><Item class="ModuleScript" referent="RBX0000001D"><Properties><string name="Name">BlueprintBuilder</string><ProtectedString name="Source"><![CDATA[-- BlueprintBuilder : copie d'étude à côté de l'original.
 -- Chaque pièce source -> boîte englobante (taille, position, rotation exactes),
 -- couleur approximative, contour et nom visible. Le modèle source n'est pas modifié.
 
@@ -5284,6 +5581,77 @@ function BlueprintBuilder.build(report, parent: Instance)
 	return model, map
 end
 
+-- Fantôme : copie d'étude transparente de l'original, dans le blueprint uniquement.
+-- Jamais publiée ni réutilisée pour une créature générée.
+local STRIP = { "LuaSourceContainer", "JointInstance", "WeldConstraint", "Constraint", "Sound", "ProximityPrompt", "ClickDetector" }
+
+function BlueprintBuilder.hasGhost(blueprint: Model)
+	for _, d in blueprint:GetChildren() do
+		if d:GetAttribute(A .. "Ghost") then
+			return true
+		end
+	end
+	return false
+end
+
+function BlueprintBuilder.toggleGhost(report, blueprint: Model)
+	local pivot = blueprint:GetPivot()
+	if BlueprintBuilder.hasGhost(blueprint) then
+		for _, d in blueprint:GetChildren() do
+			if d:GetAttribute(A .. "Ghost") then
+				d:Destroy()
+			elseif d:IsA("BasePart") and d.Transparency < 0.95 then
+				d.Transparency = Config.VIZ.BlueprintTransparency
+			end
+		end
+		return false
+	end
+	local explode = blueprint:GetAttribute(A .. "Explode") or 0
+	local center = blueprint:GetAttribute(A .. "Center") or Vector3.zero
+	local k = 1 + explode * 1.6
+	for _, d in blueprint:GetChildren() do
+		if d:IsA("BasePart") and d.Transparency < 0.95 then
+			d.Transparency = 0.85 -- les boîtes deviennent des contours
+		end
+	end
+	for _, p in report.parts do
+		if p.region ~= "ignore" and p.transparency < 0.95 and p.inst.Parent then
+			local ok, ghost = pcall(function()
+				return p.inst:Clone()
+			end)
+			if ok and ghost then
+				for _, d in ghost:GetDescendants() do
+					for _, cls in STRIP do
+						if d:IsA(cls) then
+							d:Destroy()
+							break
+						end
+					end
+				end
+				for _, child in ghost:GetChildren() do
+					if child:IsA("BasePart") then
+						child:Destroy() -- les sous-pièces ont leur propre fantôme
+					end
+				end
+				ghost.Name = "Ghost_" .. (p.name:match("[^/\\]+$") or p.name)
+				ghost.Anchored = true
+				ghost.CanCollide = false
+				ghost.CanTouch = false
+				ghost.CanQuery = false
+				ghost.CastShadow = false
+				ghost.Transparency = math.max(p.transparency, 0.25)
+				local base = p.localCFrame
+				ghost:SetAttribute(A .. "Ghost", true)
+				ghost:SetAttribute(A .. "BaseCF", base)
+				local pos = center + (base.Position - center) * k
+				ghost.CFrame = pivot * (CFrame.new(pos) * base.Rotation)
+				ghost.Parent = blueprint
+			end
+		end
+	end
+	return true
+end
+
 -- Retrouve la correspondance source -> blueprint (après redémarrage du plugin).
 function BlueprintBuilder.rebuildMap(report, blueprint: Model)
 	local byPath = {}
@@ -5301,7 +5669,7 @@ function BlueprintBuilder.rebuildMap(report, blueprint: Model)
 end
 
 return BlueprintBuilder
-]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX0000001D"><Properties><string name="Name">ExplodedView</string><ProtectedString name="Source"><![CDATA[-- ExplodedView : écarte les composants d'un blueprint autour du centre.
+]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX0000001E"><Properties><string name="Name">ExplodedView</string><ProtectedString name="Source"><![CDATA[-- ExplodedView : écarte les composants d'un blueprint autour du centre.
 -- L'orientation de chaque pièce est conservée (seule la position change).
 
 local Config = require(script.Parent.Parent.Config)
@@ -5331,7 +5699,7 @@ function ExplodedView.apply(blueprint: Model, t: number)
 end
 
 return ExplodedView
-]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX0000001E"><Properties><string name="Name">RigVisualizer</string><ProtectedString name="Source"><![CDATA[-- RigVisualizer : affiche Motor6D, Welds, Bones et Attachments sous forme de
+]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX0000001F"><Properties><string name="Name">RigVisualizer</string><ProtectedString name="Source"><![CDATA[-- RigVisualizer : affiche Motor6D, Welds, Bones et Attachments sous forme de
 -- lignes (Beams) et de petits marqueurs toujours visibles.
 -- Ne dessine QUE dans nos propres modèles (blueprint ou créature générée).
 
@@ -5360,7 +5728,7 @@ function RigVisualizer.clear(model: Instance)
 	if model:GetAttribute(A .. "Blueprint") then
 		local base = Config.VIZ.BlueprintTransparency
 		for _, d in model:GetChildren() do
-			if d:IsA("BasePart") and d.Transparency < 0.9 then
+			if d:IsA("BasePart") and d.Transparency < 0.9 and not d:GetAttribute(A .. "Ghost") then
 				d.Transparency = base
 			end
 		end
@@ -5492,7 +5860,7 @@ function RigVisualizer.show(model: Model, data)
 
 	if model:GetAttribute(A .. "Blueprint") then
 		for _, d in model:GetChildren() do
-			if d:IsA("BasePart") and d.Transparency < 0.9 then
+			if d:IsA("BasePart") and d.Transparency < 0.9 and not d:GetAttribute(A .. "Ghost") then
 				d.Transparency = VIZ.BlueprintTransparencyRig
 			end
 		end
@@ -5502,7 +5870,7 @@ function RigVisualizer.show(model: Model, data)
 end
 
 return RigVisualizer
-]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX00000022"><Properties><string name="Name">UI</string></Properties><Item class="ModuleScript" referent="RBX00000020"><Properties><string name="Name">Components</string><ProtectedString name="Source"><![CDATA[-- Components : petits composants d'interface (thème sombre, gros boutons simples).
+]]></ProtectedString></Properties></Item></Item><Item class="Folder" referent="RBX00000023"><Properties><string name="Name">UI</string></Properties><Item class="ModuleScript" referent="RBX00000021"><Properties><string name="Name">Components</string><ProtectedString name="Source"><![CDATA[-- Components : petits composants d'interface (thème sombre, gros boutons simples).
 
 local Components = {}
 
@@ -6017,7 +6385,7 @@ function Components.collapsible(parent, title: string, order)
 end
 
 return Components
-]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX00000021"><Properties><string name="Name">MainWindow</string><ProtectedString name="Source"><![CDATA[-- MainWindow : fenêtre ancrable « CREATURE FORGE » à deux onglets.
+]]></ProtectedString></Properties></Item><Item class="ModuleScript" referent="RBX00000022"><Properties><string name="Name">MainWindow</string><ProtectedString name="Source"><![CDATA[-- MainWindow : fenêtre ancrable « CREATURE FORGE » à deux onglets.
 -- Toute la logique est dans Controller ; ici on ne fait qu'afficher et relayer les clics.
 
 local Root = script.Parent.Parent
@@ -6187,6 +6555,12 @@ function MainWindow:buildStudy(page)
 			c:blueprint()
 		end,
 	})
+	ui.ghost = Components.button(study, "FANTÔME (forme réelle)", {
+		order = k(),
+		onClick = function()
+			c:toggleGhost()
+		end,
+	})
 	ui.explode = Components.button(study, "VUE ÉCLATÉE", {
 		order = k(),
 		onClick = function()
@@ -6233,6 +6607,18 @@ function MainWindow:buildStudy(page)
 		onClick = function()
 			c:createCreature()
 		end,
+	})
+	ui.rebuild = Components.button(mine, "RECONSTRUIRE FIDÈLE", {
+		order = k(),
+		style = "primary",
+		onClick = function()
+			c:rebuildFaithful()
+		end,
+	})
+	Components.label(mine, "Fidèle = même disposition, tailles, couleurs et rig que l'original, avec tes propres meshes.", {
+		order = k(),
+		size = 11,
+		color = Theme.Muted,
 	})
 
 	Components.label(mine, "Couleurs  (cliquez une pastille pour la modifier)", { order = k(), size = 12, color = Theme.SubText })
@@ -6351,6 +6737,8 @@ function MainWindow:render(state)
 	ui.blueprint.setEnabled(not busy and hasRef)
 	ui.blueprint.setText(if hasBlueprint then "RECRÉER LE BLUEPRINT" else "BLUEPRINT")
 	ui.explode.setEnabled(not busy and hasRef)
+	ui.ghost.setEnabled(not busy and hasRef)
+	ui.ghost.setText(if c:isGhostShown() then "MASQUER LE FANTÔME" else "FANTÔME (forme réelle)")
 	ui.slider.setVisible(hasBlueprint)
 	ui.slider.set(state.explode or 0)
 	ui.rig.setEnabled(not busy and (hasRef or (state.selectionKind == "generated" and hasGen)))
@@ -6359,6 +6747,7 @@ function MainWindow:render(state)
 	ui.variation.set(state.settings.variation)
 	ui.seed.set(state.settings.seed or "")
 	ui.create.setEnabled(not busy and hasRef)
+	ui.rebuild.setEnabled(not busy and hasRef)
 	ui.create.setText(if busy and state.busyText:find("Génération") then "GÉNÉRATION…" else "CRÉER MA CRÉATURE")
 
 	ui.swatches.setColors(c:currentPalette())

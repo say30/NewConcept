@@ -836,3 +836,18 @@ DockWidgetPluginGuiInfo = { new = ctor("DockWidgetPluginGuiInfo") }
 function methods.IsFocused()
 	return false
 end
+function methods.Clone(self)
+	local copy = MockInstance(self.ClassName)
+	for k, v in rawget(self, "_props") do
+		if not tostring(k):find("^_sig_") then
+			rawget(copy, "_props")[k] = v
+		end
+	end
+	for k, v in rawget(self, "_attrs") do
+		rawget(copy, "_attrs")[k] = v
+	end
+	for _, child in rawget(self, "_children") do
+		child:Clone().Parent = copy
+	end
+	return copy
+end

@@ -168,6 +168,12 @@ function MainWindow:buildStudy(page)
 			c:blueprint()
 		end,
 	})
+	ui.ghost = Components.button(study, "FANTÔME (forme réelle)", {
+		order = k(),
+		onClick = function()
+			c:toggleGhost()
+		end,
+	})
 	ui.explode = Components.button(study, "VUE ÉCLATÉE", {
 		order = k(),
 		onClick = function()
@@ -214,6 +220,18 @@ function MainWindow:buildStudy(page)
 		onClick = function()
 			c:createCreature()
 		end,
+	})
+	ui.rebuild = Components.button(mine, "RECONSTRUIRE FIDÈLE", {
+		order = k(),
+		style = "primary",
+		onClick = function()
+			c:rebuildFaithful()
+		end,
+	})
+	Components.label(mine, "Fidèle = même disposition, tailles, couleurs et rig que l'original, avec tes propres meshes.", {
+		order = k(),
+		size = 11,
+		color = Theme.Muted,
 	})
 
 	Components.label(mine, "Couleurs  (cliquez une pastille pour la modifier)", { order = k(), size = 12, color = Theme.SubText })
@@ -332,6 +350,8 @@ function MainWindow:render(state)
 	ui.blueprint.setEnabled(not busy and hasRef)
 	ui.blueprint.setText(if hasBlueprint then "RECRÉER LE BLUEPRINT" else "BLUEPRINT")
 	ui.explode.setEnabled(not busy and hasRef)
+	ui.ghost.setEnabled(not busy and hasRef)
+	ui.ghost.setText(if c:isGhostShown() then "MASQUER LE FANTÔME" else "FANTÔME (forme réelle)")
 	ui.slider.setVisible(hasBlueprint)
 	ui.slider.set(state.explode or 0)
 	ui.rig.setEnabled(not busy and (hasRef or (state.selectionKind == "generated" and hasGen)))
@@ -340,6 +360,7 @@ function MainWindow:render(state)
 	ui.variation.set(state.settings.variation)
 	ui.seed.set(state.settings.seed or "")
 	ui.create.setEnabled(not busy and hasRef)
+	ui.rebuild.setEnabled(not busy and hasRef)
 	ui.create.setText(if busy and state.busyText:find("Génération") then "GÉNÉRATION…" else "CRÉER MA CRÉATURE")
 
 	ui.swatches.setColors(c:currentPalette())

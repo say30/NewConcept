@@ -27,7 +27,7 @@ function RigVisualizer.clear(model: Instance)
 	if model:GetAttribute(A .. "Blueprint") then
 		local base = Config.VIZ.BlueprintTransparency
 		for _, d in model:GetChildren() do
-			if d:IsA("BasePart") and d.Transparency < 0.9 then
+			if d:IsA("BasePart") and d.Transparency < 0.9 and not d:GetAttribute(A .. "Ghost") then
 				d.Transparency = base
 			end
 		end
@@ -159,7 +159,7 @@ function RigVisualizer.show(model: Model, data)
 
 	if model:GetAttribute(A .. "Blueprint") then
 		for _, d in model:GetChildren() do
-			if d:IsA("BasePart") and d.Transparency < 0.9 then
+			if d:IsA("BasePart") and d.Transparency < 0.9 and not d:GetAttribute(A .. "Ghost") then
 				d.Transparency = VIZ.BlueprintTransparencyRig
 			end
 		end

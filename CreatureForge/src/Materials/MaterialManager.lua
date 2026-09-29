@@ -54,6 +54,11 @@ function MaterialManager.apply(model: Instance, mode: string, variantName: strin
 			elseif mode == "Studs" and variant then
 				d.Material = variant.BaseMaterial
 				d.MaterialVariant = variant.Name
+			elseif mode == "Original" and d:GetAttribute(A .. "SourceMaterial") then
+				-- Reconstruction fidèle : matière d'origine de CETTE pièce.
+				d.Material = materialFromName(tostring(d:GetAttribute(A .. "SourceMaterial")))
+				local v = MaterialManager.findVariant(tostring(d:GetAttribute(A .. "SourceVariant") or ""))
+				d.MaterialVariant = if v then v.Name else ""
 			elseif mode == "Original" then
 				if refVariant then
 					d.Material = refVariant.BaseMaterial

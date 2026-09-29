@@ -120,6 +120,54 @@ for _, d in bp:GetDescendants() do
 end
 check(left == 0, "masquer le rig nettoie tout")
 
+print("5b. Fantôme (forme réelle superposée au blueprint)")
+c:toggleGhost()
+local ghosts = 0
+for _, d in bp:GetChildren() do
+	if d:GetAttribute(A .. "Ghost") then
+		ghosts += 1
+		check(d.Anchored and not d.CanCollide and #d:GetChildren() == 0 or d:FindFirstChildWhichIsA("Motor6D") == nil, "")
+	end
+end
+check(ghosts == 16, "un fantôme par pièce visible (" .. ghosts .. ")")
+local gh = bp:FindFirstChild("Ghost_Head")
+check((gh.CFrame.Position - bpHead.CFrame.Position).Magnitude < 1e-4, "fantôme exactement sur la boîte")
+check(gh:FindFirstChildWhichIsA("Motor6D") == nil, "fantôme sans joints ni scripts")
+c:toggleGhost()
+ghosts = 0
+for _, d in bp:GetChildren() do
+	if d:GetAttribute(A .. "Ghost") then
+		ghosts += 1
+	end
+end
+check(ghosts == 0, "masquer le fantôme le supprime")
+
+print("5c. Reconstruire fidèle")
+c:rebuildFaithful()
+local rb = c.state.generated
+check(rb and rb:GetAttribute(A .. "Mode") == "rebuild", "reconstruction créée : " .. (rb and rb.Name or "?"))
+local rbParts = 0
+local offset = nil
+for _, src in dragon:GetChildren() do
+	if src:IsA("BasePart") then
+		local copy = rb:FindFirstChild((src.Name:gsub("%.", "_")))
+		check(copy ~= nil, "")
+		rbParts += 1
+		local diff = copy.CFrame.Position - src.CFrame.Position
+		offset = offset or diff
+		assert((diff - offset).Magnitude < 0.15, "position relative conservée : " .. src.Name)
+		assert(copy.Color == src.Color, "couleur exacte : " .. src.Name)
+		assert(not copy.MeshId:find("123456"), "aucun MeshId source")
+		local s1, s2 = copy.Size, src.Size
+		local maxS, minS = math.max(s1.X, s1.Y, s1.Z), math.max(s2.X, s2.Y, s2.Z)
+		assert(math.abs(maxS - minS) / minS < 0.12, "taille conservée : " .. src.Name .. " " .. tostring(s1) .. " vs " .. tostring(s2))
+	end
+end
+check(rbParts == 16, "16 pièces reconstruites, positions / tailles / couleurs identiques")
+local headCopy = rb:FindFirstChild("Head")
+local hm = headCopy:FindFirstChildWhichIsA("Motor6D")
+check(hm and hm.Part0 == rb:FindFirstChild("Body"), "Motor6D d'origine repris (Body -> Head)")
+
 print("6. Créer ma créature")
 plugin.settings = {}
 c.state.settings.material = "Studs"

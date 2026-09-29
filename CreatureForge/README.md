@@ -31,7 +31,9 @@ imposée par Roblox pour `AssetService:CreateAssetAsync` (publication sans promp
 | **BLUEPRINT** | Copie d'étude à côté : une boîte exacte (taille / position / rotation / couleur / nom) par pièce |
 | **VUE ÉCLATÉE** + slider | Écarte les pièces autour du centre, orientation conservée |
 | **AFFICHER RIG** | Motor6D (orange), welds, bones (rose), attachments (cyan) : lignes + marqueurs |
+| **FANTÔME (forme réelle)** | Superpose l'original en transparence sur le blueprint (suit la vue éclatée) — étude uniquement, jamais publié |
 | **CRÉER MA CRÉATURE** | Nouvelle créature stylisée low-poly : meshes neufs, couleurs, rig, matériau |
+| **RECONSTRUIRE FIDÈLE** | Même disposition, tailles, rotations, couleurs, matières et Motor6D que l'original, chaque pièce refaite par une forme générée qui remplit sa boîte |
 | **NOUVELLES COULEURS** | Palette cohérente Primary / Secondary / Accent / Eyes / Special |
 | Pastille de couleur | Sélectionne la couleur → modifiez-la dans Propriétés, la créature suit |
 | Material | Original / Studs (votre MaterialVariant, nom modifiable) / SmoothPlastic |
@@ -43,6 +45,15 @@ Raccourci : **CRÉER MA CRÉATURE** analyse automatiquement si besoin.
 structurelle). `Seed` vide = aléatoire ; une seed fixe régénère la même créature.
 
 **Onglet CREATURE MIXER** : prévu pour l'étape suivante (V2).
+
+## Étudier une créature « de l'intérieur »
+
+Les sommets d'un mesh qui ne vous appartient pas sont illisibles (règle Roblox).
+Pour comprendre la construction : **BLUEPRINT** + **FANTÔME** + **VUE ÉCLATÉE**
+(chaque pièce et sa vraie forme, écartées), **AFFICHER RIG**, et dans Studio
+l'onglet *Affichage* › rendu **fil de fer** (wireframe) pour voir le découpage des
+triangles. Si le créateur du pack vous **partage** ses assets (permissions Roblox)
+ou vend les fichiers sources (.fbx/.blend), vous aurez un accès complet et légal.
 
 ## Limitations réellement bloquantes
 

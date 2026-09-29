@@ -10,6 +10,7 @@ local Util = require(Root.Core.Util)
 local CreatureAnalyzer = require(Root.Analysis.CreatureAnalyzer)
 local RigAnalyzer = require(Root.Analysis.RigAnalyzer)
 local CreatureGenerator = require(Root.Generation.CreatureGenerator)
+local Rebuilder = require(Root.Generation.Rebuilder)
 local PaletteGenerator = require(Root.Generation.PaletteGenerator)
 local RigBuilder = require(Root.Rigging.RigBuilder)
 local MaterialManager = require(Root.Materials.MaterialManager)
@@ -446,6 +447,69 @@ function Controller:createCreature()
 		self:setStatus("publish", nil, "Meshes non publiés (temporaires) → PUBLIER")
 		Selection:Set({ model })
 	end)
+end
+
+-- Reconstruction fidèle : mêmes pièces, positions, tailles, couleurs et rig que la référence,
+-- avec des meshes 100 % générés (publiables sur votre compte).
+function Controller:rebuildFaithful()
+	self:run("Reconstruction…", function()
+		local st = self.state
+		local report = self:ensureReport()
+		for _, key in { "create", "meshes", "rig", "colors", "material", "publish" } do
+			self:setStatus(key, nil, nil)
+		end
+		st.publish = nil
+
+		local ext = math.max(report.boundingSize.X, report.boundingSize.Z)
+		local index = countGeneratedFrom(report.name) + 1
+		local place = report.frame + Vector3.new(-(ext + Config.LAYOUT_GAP) * index, 0, 0)
+
+		local model, info, rig, mat
+		Util.record("Reconstruire fidèle", function()
+			local plan = Rebuilder.plan(report)
+			model, info = CreatureGenerator.build({
+				plan = plan,
+				traits = report.traits,
+				level = 0,
+				seed = 0,
+				parent = Util.getOutputFolder(true),
+				placeCFrame = place,
+				referenceName = report.name,
+				onProgress = function(i, n)
+					self:progress(string.format("Reconstruction des meshes… %d / %d", i, n))
+				end,
+			})
+			rig = RigBuilder.build(model)
+			mat = MaterialManager.apply(model, st.settings.material, st.settings.variant)
+		end)
+
+		st.generated = model
+		self:bindPalette(model)
+		self:setStatus("create", true, "Reconstruction fidèle : " .. info.name)
+		self:setStatus("meshes", true, string.format("%d meshes · %d pièces · %d triangles", info.meshes, info.parts, info.triangles))
+		self:setStatus("rig", true, string.format("Rig d'origine repris : %d Motor6D · %d welds", rig.motors, rig.welds))
+		self:reportMaterial(mat)
+		self:setStatus("publish", nil, "Meshes non publiés (temporaires) → PUBLIER")
+		Selection:Set({ model })
+	end)
+end
+
+-- Fantôme : superpose l'original (vraie forme) au blueprint, en transparence.
+function Controller:toggleGhost()
+	self:run("Fantôme…", function()
+		local st = self.state
+		local bp = self:ensureBlueprint()
+		local shown
+		Util.record("Fantôme", function()
+			shown = BlueprintBuilder.toggleGhost(st.report, bp)
+		end)
+		self:setStatus("blueprint", nil, if shown then "Fantôme affiché (forme réelle, étude uniquement)" else "Fantôme masqué")
+	end)
+end
+
+function Controller:isGhostShown()
+	local bp = self.state.blueprint
+	return alive(bp) and BlueprintBuilder.hasGhost(bp)
 end
 
 function Controller:reportMaterial(mat)

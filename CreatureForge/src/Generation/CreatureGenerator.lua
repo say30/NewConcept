@@ -136,9 +136,10 @@ function CreatureGenerator.design(traits, level: number, seed: number, biome: st
 end
 
 -- Étape 2 : instancie le Model (EditableMesh + MeshParts).
--- opts : { traits, level, seed, biome?, parent, placeCFrame, referenceName, onProgress? }
+-- opts : { traits, level, seed, biome?, parent, placeCFrame, referenceName, onProgress?, plan? }
+-- `plan` (optionnel) : plan déjà calculé (ex. Rebuilder = reconstruction fidèle).
 function CreatureGenerator.build(opts)
-	local plan = CreatureGenerator.design(opts.traits, opts.level, opts.seed, opts.biome)
+	local plan = opts.plan or CreatureGenerator.design(opts.traits, opts.level, opts.seed, opts.biome)
 	local palette = plan.palette
 	local place = opts.placeCFrame * CFrame.new(0, plan.groundOffset, 0)
 
@@ -154,6 +155,7 @@ function CreatureGenerator.build(opts)
 	model:SetAttribute(A .. "RefMaterial", opts.traits.material or "Plastic")
 	model:SetAttribute(A .. "RefVariant", opts.traits.materialVariant or "")
 	model:SetAttribute(A .. "Published", false)
+	model:SetAttribute(A .. "Mode", if plan.faithful then "rebuild" else "create")
 
 	local uniqueKeys, meshCount, tris = {}, 0, 0
 	local total = #plan.parts
@@ -181,6 +183,10 @@ function CreatureGenerator.build(opts)
 		part:SetAttribute(A .. "RigParent", spec.parent or "Root")
 		part:SetAttribute(A .. "JointPos", spec.joint + Vector3.new(0, plan.groundOffset, 0))
 		part:SetAttribute(A .. "JointKind", spec.jointKind)
+		if spec.sourceMaterial then
+			part:SetAttribute(A .. "SourceMaterial", spec.sourceMaterial)
+			part:SetAttribute(A .. "SourceVariant", spec.sourceVariant or "")
+		end
 		part.Parent = model
 		if opts.onProgress then
 			opts.onProgress(i, total)
@@ -193,6 +199,15 @@ function CreatureGenerator.build(opts)
 	model.WorldPivot = opts.placeCFrame
 	model:SetAttribute(A .. "MeshCount", meshCount)
 	PaletteGenerator.apply(model, palette)
+	-- Reconstruction fidèle : couleurs exactes de chaque pièce d'origine.
+	for _, spec in plan.parts do
+		if spec.color then
+			local part = model:FindFirstChild(spec.name)
+			if part then
+				part.Color = spec.color
+			end
+		end
+	end
 	model.Parent = opts.parent
 
 	return model,
