@@ -1,0 +1,6 @@
+{
+  "name": "CreatureForge",
+  "tree": {
+    "$path": "src"
+  }
+}
