@@ -234,7 +234,12 @@ for i, r in PRIORITY do
 	RANK[r] = i
 end
 
-local IGNORE = { humanoidrootpart = true, hitbox = true, collider = true, collision = true, bounds = true }
+local IGNORE = { hitbox = true, collider = true, collision = true, bounds = true, point = true, attachment = true }
+-- Noms complets de pièces techniques (rig / accessoires), jamais de la morphologie.
+local HELPER_NAMES = {
+	humanoidrootpart = true, rootpart = true, root = true, hatpoint = true, torso = true,
+	hitbox = true, collider = true, primarypart = true,
+}
 
 local ARCHETYPES = {
 	dragon = "dragon", wyvern = "dragon", drake = "dragon", dino = "dino", rex = "dino", raptor = "dino",
@@ -374,8 +379,18 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 	local frame = CFrame.lookAt(pivot.Position, pivot.Position + flat.Unit)
 
 	local used = {}
+	local hints = {} -- noms de pièces invisibles (ex. RightWing sans géométrie)
 	for _, p in parts do
 		p.region = M.classifyName(p.name)
+		local lower = p.name:lower()
+		local isPlainPart = p.className == "Part"
+		if (p.transparency or 0) >= 0.95 or (HELPER_NAMES[lower] and isPlainPart) then
+			if p.region and p.region ~= "ignore" and p.region ~= "body" then
+				p.hintRegion = p.region
+				table.insert(hints, p)
+			end
+			p.region = "ignore"
+		end
 		if (p.region == nil or p.region == "body") and p.jointName then
 			local jr = M.classifyName(p.jointName)
 			if jr and jr ~= "ignore" and jr ~= "body" then
@@ -388,9 +403,13 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 	end
 	if #used == 0 then
 		used = parts
+		for _, p in used do
+			p.region = M.classifyName(p.name)
+		end
 	end
 
 	computeBoxes(used, frame)
+	computeBoxes(hints, frame)
 
 	-- Orientation : la tête (ou l'opposé de la queue) définit l'avant (-Z).
 	local all = newBox()
@@ -423,6 +442,7 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 			if angle ~= 0 then
 				frame = frame * CFrame.Angles(0, angle, 0)
 				computeBoxes(used, frame)
+				computeBoxes(hints, frame)
 			end
 		end
 	end
@@ -436,15 +456,19 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 	local center = boxCenter(all)
 	local shift = Vector3.new(center.X, ground, center.Z)
 	frame = frame * CFrame.new(shift)
-	for _, p in used do
-		p.bmin -= shift
-		p.bmax -= shift
-		p.center -= shift
+	for _, list in { used, hints } do
+		for _, p in list do
+			p.bmin -= shift
+			p.bmax -= shift
+			p.center -= shift
+		end
 	end
 	local size = boxSize(all)
 	local H = math.max(size.Y, 0.1)
 	local Lz = math.max(size.Z, 0.1)
 	local Wx = math.max(size.X, 0.1)
+	-- Unité des traits : la plus grande dimension (robuste pour les créatures plates ou longues).
+	local U = math.max(H, Lz, Wx)
 
 	-- Classification géométrique des pièces sans nom parlant.
 	local totalVol = 0
@@ -504,10 +528,12 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 		return out
 	end
 
-	local traits = { name = modelName, scale = H, found = {} }
+	local traits = { name = modelName, scale = U, found = {} }
 	traits.archetype = M.archetypeOf(modelName)
-	traits.lengthRatio = Lz / H
-	traits.widthRatio = Wx / H
+	traits.heightRatio = H / U
+	traits.lengthRatio = Lz / U
+	traits.widthRatio = Wx / U
+	traits.aspect = Lz / H
 
 	-- Corps
 	local bodyBox = regionBox({ "body" })
@@ -518,12 +544,14 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 	local bs = if bodyBox.n > 0 then boxSize(bodyBox) else Vector3.new(0.5 * Wx, 0.4 * H, 0.6 * Lz)
 	local bc = if bodyBox.n > 0 then boxCenter(bodyBox) else Vector3.new(0, 0.55 * H, 0)
 	traits.body = {
-		length = bs.Z / H,
-		width = bs.X / H,
-		height = bs.Y / H,
-		y = bc.Y / H,
+		length = bs.Z / U,
+		width = bs.X / U,
+		height = bs.Y / U,
+		y = bc.Y / U,
 		bottom = (bc.Y - bs.Y * 0.5) / H,
 		upright = bs.Y > bs.Z * 1.15,
+		-- Corps plat et large (raie, manta, poisson plat, soucoupe...).
+		flat = bs.Y < 0.35 * math.max(bs.X, bs.Z) and bs.X > 0.8 * bs.Z,
 	}
 
 	-- Tête (+ museau + mâchoire)
@@ -532,11 +560,11 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 	local hs = if headBox.n > 0 then boxSize(headBox) else Vector3.new(bs.X * 0.6, bs.Y * 0.6, bs.Y * 0.7)
 	local hc = if headBox.n > 0 then boxCenter(headBox) else bc + Vector3.new(0, bs.Y * 0.4, -bs.Z * 0.6)
 	traits.head = {
-		length = hs.Z / H,
-		width = hs.X / H,
-		height = hs.Y / H,
-		y = hc.Y / H,
-		forward = (bc.Z - hc.Z) / H,
+		length = hs.Z / U,
+		width = hs.X / U,
+		height = hs.Y / U,
+		y = hc.Y / U,
+		forward = (bc.Z - hc.Z) / U,
 	}
 	local headVol = hs.X * hs.Y * hs.Z
 	local bodyVol = bs.X * bs.Y * bs.Z
@@ -544,7 +572,7 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 
 	local muzzleBox = regionBox({ "muzzle" })
 	traits.muzzle = {
-		length = if muzzleBox.n > 0 then boxSize(muzzleBox).Z / H else hs.Z / H * 0.3,
+		length = if muzzleBox.n > 0 then boxSize(muzzleBox).Z / U else hs.Z / U * 0.3,
 		beak = false,
 	}
 	for _, p in byRegion.muzzle or {} do
@@ -560,13 +588,13 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 	local neckBox = regionBox({ "neck" })
 	if neckBox.n > 0 then
 		local s = boxSize(neckBox)
-		traits.neckLength = math.max(s.Y, s.Z) / H
+		traits.neckLength = math.max(s.Y, s.Z) / U
 	elseif traits.body.upright then
 		local gap = (hc.Y - hs.Y * 0.5) - (bc.Y + bs.Y * 0.5)
-		traits.neckLength = math.max(gap, 0) / H
+		traits.neckLength = math.max(gap, 0) / U
 	else
 		local gap = (Vector3.new(0, hc.Y, hc.Z) - Vector3.new(0, bc.Y, bc.Z - bs.Z * 0.5)).Magnitude - hs.Z * 0.5
-		traits.neckLength = math.max(gap, 0) / H
+		traits.neckLength = math.max(gap, 0) / U
 	end
 
 	-- Membres
@@ -594,8 +622,8 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 		legThick += t / #g.parts
 	end
 	if #legs > 0 then
-		traits.legLength = (legTop / #legs) / H
-		traits.legThickness = (legThick / #legs) / H
+		traits.legLength = (legTop / #legs) / U
+		traits.legThickness = (legThick / #legs) / U
 		traits.sprawl = (footSpread / #legs) > bs.X * 0.7
 	end
 	if #armGroups > 0 then
@@ -604,7 +632,7 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 			local s = boxSize(g.box)
 			len += math.max(s.X, s.Y, s.Z)
 		end
-		traits.armLength = len / #armGroups / H
+		traits.armLength = len / #armGroups / U
 	end
 	traits.legStyle = "paw"
 	for _, p in byRegion.leg or {} do
@@ -627,9 +655,9 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 			local ps = p.bmax - p.bmin
 			t += math.min(ps.X, ps.Y, ps.Z) * 0.5
 		end
-		traits.tail.length = s.Magnitude * 0.9 / H
+		traits.tail.length = s.Magnitude * 0.9 / U
 		traits.tail.segments = math.clamp(#byRegion.tail, 2, 6)
-		traits.tail.thickness = t / #byRegion.tail / H
+		traits.tail.thickness = t / #byRegion.tail / U
 	end
 
 	-- Ailes
@@ -642,10 +670,26 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 			span += math.max(s.X, s.Y)
 			chord += s.Z
 		end
-		traits.wings.span = span / #wingGroups / H
-		traits.wings.chord = chord / #wingGroups / H
+		traits.wings.span = span / #wingGroups / U
+		traits.wings.chord = chord / #wingGroups / U
 		if traits.wings.count == 1 then
 			traits.wings.count = 2
+		end
+	end
+
+	-- Ailes « fantômes » : pièces invisibles nommées Wing aux extrémités (rigs de pets).
+	if traits.wings.count == 0 then
+		local tip = 0
+		for _, p in hints do
+			if p.hintRegion == "wing" or p.hintRegion == "fin" then
+				tip = math.max(tip, math.abs(p.center.X))
+			end
+		end
+		if tip > bs.X * 0.25 then
+			traits.wings.count = 2
+			traits.wings.span = math.max(tip - bs.X * 0.2, tip * 0.5) / U
+			traits.wings.chord = bs.Z * 0.7 / U
+			traits.wings.fromHints = true
 		end
 	end
 
@@ -657,7 +701,7 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 			local s = boxSize(g.box)
 			size += math.max(s.X, s.Y, s.Z)
 		end
-		return #gs, if #gs > 0 then size / #gs / H else 0
+		return #gs, if #gs > 0 then size / #gs / U else 0
 	end
 	local n, s
 	n, s = countAndSize("horn")
@@ -696,9 +740,9 @@ function M.analyze(parts, pivot: CFrame, modelName: string)
 	else
 		traits.legPairs = 0
 		local lifted = traits.body.bottom > 0.15
-		if lifted or traits.tentacles.count > 0 or traits.wings.count > 0 then
+		if lifted or traits.body.flat or traits.tentacles.count > 0 or traits.wings.count > 0 then
 			traits.locomotion = "floating"
-		elseif traits.lengthRatio > 2.2 then
+		elseif traits.aspect > 2.2 and bs.X < 0.5 * bs.Z then
 			traits.locomotion = "serpentine"
 		else
 			traits.locomotion = "floating"
@@ -2393,7 +2437,7 @@ local function buildWings(ctx, root: Vector3, parentName: string)
 			name = name,
 			shape = "wing",
 			params = { span = W.span * scale, chord = W.chord * scale, style = W.style, fingers = 3 },
-			cframe = CFrame.new(r) * CFrame.Angles(0, math.rad(-12), 0) * CFrame.Angles(0, 0, W.dihedral),
+			cframe = CFrame.new(r) * CFrame.Angles(0, W.sweep or math.rad(-12), 0) * CFrame.Angles(0, 0, W.dihedral),
 			slot = "Secondary",
 			region = "wing",
 			parent = parentName,
@@ -2609,7 +2653,13 @@ local function planFloating(ctx)
 	local BL, BW, BH = P.body.length, P.body.width, P.body.height
 	local bodyY = P.hover + BH * 0.5
 	local bc = Vector3.new(0, bodyY, 0)
-	local blob = P.head.merged or P.archetype == "blob"
+	local flat = P.body.flat
+	local blob = (P.head.merged or P.archetype == "blob") and not flat
+	local fullWidth = BW
+	if flat then
+		-- Raie / manta : la largeur de référence inclut les nageoires ; le corps en garde ~45 %.
+		BW = fullWidth * 0.45
+	end
 
 	ctx.add({
 		name = "Body",
@@ -2635,7 +2685,9 @@ local function planFloating(ctx)
 		})
 	end
 
-	if blob then
+	if flat then
+		BodyPlanner.addFace(ctx, "Body", bc + Vector3.new(0, BH * 0.05, -BL * 0.12), Vector3.new(BW, BH, BL) * 0.5, true)
+	elseif blob then
 		BodyPlanner.addFace(ctx, "Body", bc + Vector3.new(0, BH * 0.08, 0), Vector3.new(BW, BH, BL) * 0.5, false)
 	else
 		buildHead(ctx, bc + Vector3.new(0, BH * 0.1, -BL * 0.42), "Body")
@@ -2673,8 +2725,16 @@ local function planFloating(ctx)
 		ctx.mirror(fin, "Fin_L")
 	end
 
-	buildTail(ctx, bc + Vector3.new(0, 0, BL * 0.45), "Body", Vector3.new(0, 0.1, 1))
-	buildWings(ctx, bc + Vector3.new(BW * 0.3, BH * 0.3, -BL * 0.05), "Body")
+	buildTail(ctx, bc + Vector3.new(0, 0, BL * 0.45), "Body", Vector3.new(0, if flat then 0 else 0.1, 1))
+	if flat then
+		-- Grandes nageoires-ailes qui prolongent le corps jusqu'à la largeur de référence.
+		local W = P.wings
+		W.span = math.max(W.span, (fullWidth * 0.5 - BW * 0.3) * 1.05)
+		W.chord = math.max(W.chord, BL * 0.8)
+		buildWings(ctx, bc + Vector3.new(BW * 0.3, 0, -BL * 0.12), "Body")
+	else
+		buildWings(ctx, bc + Vector3.new(BW * 0.3, BH * 0.3, -BL * 0.05), "Body")
+	end
 	buildDorsal(ctx, function(t)
 		local z = -BL * 0.3 + t * BL * 0.6
 		local pos = Vector3.new(0, bodyY + BH * 0.44 * math.sqrt(math.max(1 - (2 * z / BL) ^ 2, 0.05)) - BH * 0.05, z)
@@ -3180,8 +3240,10 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	end
 
 	local P = { seed = seed, level = level, archetype = traits.archetype }
-	P.scale = vary(clamp(traits.scale or 8, 2, 80), 0.3)
+	-- Unité : plus grande dimension de la référence. hr = hauteur / unité.
+	P.scale = vary(clamp(traits.scale or 8, 2, 120), 0.3)
 	local s = P.scale
+	local hr = clamp(traits.heightRatio or 1, 0.1, 1)
 	P.locomotion = traits.locomotion or "quadruped"
 	P.jitter = Config.LOWPOLY_JITTER * (0.8 + level * 0.3)
 
@@ -3189,19 +3251,26 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	local b = traits.body
 	local upright = P.locomotion == "biped"
 	P.body = {
-		length = vary(clamp(b.length, 0.25, 2.5)) * s,
-		width = vary(clamp(b.width, 0.15, 1.4)) * s,
-		height = vary(clamp(b.height, 0.18, 1.2)) * s,
+		length = vary(clamp(b.length, 0.08, 1)) * s,
+		width = vary(clamp(b.width, 0.06, 1)) * s,
+		height = vary(clamp(b.height, 0.04, 0.9)) * s,
 		style = pick({ "barrel", "chest", "pear" }),
 		sq = rng:NextNumber(0.05, 0.3),
+		flat = b.flat == true,
 	}
 	if upright then
 		-- Pour un bipède, « height » = hauteur du torse, « length » = profondeur.
-		P.body.height = clamp(P.body.height, 0.22 * s, 0.55 * s)
-		P.body.length = clamp(P.body.length, 0.15 * s, 0.45 * s)
+		P.body.height = clamp(P.body.height, 0.22 * hr * s, 0.55 * hr * s)
+		P.body.length = clamp(P.body.length, 0.15 * hr * s, 0.45 * hr * s)
 		P.body.style = "chest"
 	elseif P.locomotion == "serpentine" then
-		P.body.length = clamp(P.body.length, 1.5 * s, 6 * s)
+		P.body.length = clamp(P.body.length, 0.5 * s, 1.1 * s)
+	end
+	if P.body.flat then
+		-- Corps plat : on garde l'aplatissement de la référence.
+		P.body.height = math.min(P.body.height, 0.3 * math.max(P.body.width, P.body.length))
+		P.body.style = "barrel"
+		P.body.sq = rng:NextNumber(0.3, 0.6)
 	end
 	P.belly = chance(0.75)
 
@@ -3211,11 +3280,11 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	if P.locomotion == "hexapod" then
 		stance = if chance(0.7) then "insect" else "sprawl"
 	end
-	local legLen = traits.legLength or DEFAULT_LEG_LENGTH[P.locomotion] or 0.3
+	local legLen = traits.legLength or (DEFAULT_LEG_LENGTH[P.locomotion] or 0.3) * hr
 	P.legs = {
 		pairs = pairs,
-		length = vary(clamp(legLen, 0.12, 0.7)) * s,
-		thickness = vary(clamp((traits.legThickness or 0.06) * 1.35, 0.045, 0.15), 1.2) * s,
+		length = vary(clamp(legLen, 0.04, 0.6)) * s,
+		thickness = vary(clamp((traits.legThickness or 0.06 * hr) * 1.35, 0.02, 0.1), 1.2) * s,
 		style = keepOr(traits.legStyle, { "paw", "paw", "hoof", "talon" }),
 		stance = stance,
 		toes = pick({ 3, 3, 4 }),
@@ -3235,7 +3304,7 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	end
 	P.arms = {
 		count = if armCount >= 2 then 2 else 0,
-		length = vary(clamp(traits.armLength or 0.35, 0.2, 0.7)) * s,
+		length = vary(clamp(traits.armLength or 0.35 * hr, 0.08, 0.6)) * s,
 		thickness = P.legs.thickness * 0.8,
 	}
 
@@ -3243,11 +3312,11 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	local h = traits.head
 	local style = HEAD_STYLE[traits.archetype or ""] or "round"
 	P.head = {
-		length = clamp(vary(h.length) * STYLE_HEAD, 0.14, 0.8) * s,
-		width = clamp(vary(h.width) * STYLE_HEAD, 0.12, 0.8) * s,
-		height = clamp(vary(h.height) * STYLE_HEAD, 0.12, 0.8) * s,
+		length = clamp(vary(h.length) * STYLE_HEAD, 0.04, 0.6) * s,
+		width = clamp(vary(h.width) * STYLE_HEAD, 0.04, 0.6) * s,
+		height = clamp(vary(h.height) * STYLE_HEAD, 0.04, 0.6) * s,
 		style = keepOr(style, { "round", "snout", "boxy", "flat" }),
-		merged = P.locomotion == "floating" and (traits.headRatio or 0) > 0.9,
+		merged = (P.locomotion == "floating" and (traits.headRatio or 0) > 0.9) or P.body.flat,
 	}
 	-- Une tête ne doit être ni minuscule ni plus grosse que 1,3 x le corps.
 	local maxBody = math.max(P.body.width, P.body.height)
@@ -3267,7 +3336,7 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	muzzleStyle = keepOr(muzzleStyle or "snout", { "snout", "snout", "flat", "beak", "none" })
 	P.head.muzzle = {
 		style = muzzleStyle,
-		length = clamp(vary((traits.muzzle and traits.muzzle.length) or 0.1), 0.05, 0.45) * s,
+		length = clamp(vary((traits.muzzle and traits.muzzle.length) or 0.1 * hr), 0.02, 0.35) * s,
 	}
 	if muzzleStyle == "beak" then
 		P.head.muzzle.length = math.max(P.head.muzzle.length, P.head.length * 0.45)
@@ -3284,12 +3353,12 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 		neckAngle = clamp(math.atan2(dy, dz), math.rad(5), math.rad(70))
 	end
 	P.neck = {
-		length = clamp(vary(traits.neckLength or 0.1), 0, 0.9) * s,
+		length = clamp(vary(traits.neckLength or 0.1 * hr), 0, 0.7) * s,
 		thickness = P.head.width * rng:NextNumber(0.28, 0.4),
 		angle = neckAngle + rng:NextNumber(-amt, amt) * 0.6,
 	}
 	if P.locomotion == "serpentine" then
-		P.neck.length = math.max(P.neck.length, 0.35 * s)
+		P.neck.length = math.max(P.neck.length, 0.12 * s)
 	end
 
 	-- Yeux
@@ -3304,7 +3373,7 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	if level == 3 and chance(0.12) then
 		eyeCount = pick({ 1, 4 })
 	end
-	local eyeSize = if traits.eyes.size > 0 then traits.eyes.size else 0.08
+	local eyeSize = if traits.eyes.size > 0 then traits.eyes.size else 0.08 * hr
 	P.eyes = {
 		count = eyeCount,
 		radius = clamp(vary(eyeSize, 0.8) * 0.5 * 1.2 * s, 0.1 * P.head.height, 0.22 * P.head.height),
@@ -3315,7 +3384,7 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	local hasEars = flip(traits.ears.count > 0)
 	P.ears = {
 		count = if hasEars then 2 else 0,
-		size = clamp(vary(if traits.ears.size > 0 then traits.ears.size else 0.15), 0.06, 0.4) * s,
+		size = clamp(vary(if traits.ears.size > 0 then traits.ears.size else 0.15 * hr), 0.02, 0.3) * s,
 		style = pick({ "pointy", "round", "long" }),
 	}
 
@@ -3331,7 +3400,7 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	end
 	P.horns = {
 		count = hornCount,
-		length = clamp(vary(if traits.horns.length > 0 then traits.horns.length else 0.18), 0.06, 0.6) * s,
+		length = clamp(vary(if traits.horns.length > 0 then traits.horns.length else 0.18 * hr), 0.02, 0.45) * s,
 		style = pick({ "curved", "curved", "straight", "ram" }),
 	}
 	P.horns.radius = P.horns.length * rng:NextNumber(0.14, 0.22)
@@ -3341,9 +3410,9 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	local hasTail = if t.has then (level < 3 or chance(0.9)) else flip(false, 0.7)
 	P.tail = {
 		has = hasTail,
-		length = clamp(vary(t.length or 0.6), 0.2, 2.2) * s,
+		length = clamp(vary(t.length or 0.6 * hr), 0.08, 1.2) * s,
 		segments = clamp(t.segments or 4, 3, 5),
-		thickness = clamp(vary(t.thickness or 0.06), 0.03, 0.18) * s,
+		thickness = clamp(vary(t.thickness or 0.06 * hr), 0.01, 0.15) * s,
 		tip = pick({ "none", "point", "spade", "club", "fin", "spikes" }),
 		droop = rng:NextNumber(-0.45, -0.1),
 		curl = rng:NextNumber(0, 0.9),
@@ -3362,8 +3431,8 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	end
 	P.wings = {
 		count = wingCount,
-		span = clamp(vary(w.span or 0.9) * STYLE_WING, 0.35, 2.5) * s,
-		chord = clamp(vary(w.chord or 0.45), 0.2, 1.2) * s,
+		span = clamp(vary(w.span or 0.9 * hr) * STYLE_WING, 0.12, 1.2) * s,
+		chord = clamp(vary(w.chord or 0.45 * hr), 0.08, 0.9) * s,
 		style = keepOr(WING_STYLE[traits.archetype or ""] or "bat", { "bat", "bat", "feather", "membrane" }),
 		dihedral = math.rad(rng:NextNumber(18, 38)),
 	}
@@ -3375,7 +3444,7 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	end
 	P.spikes = {
 		count = clamp(spikeCount, 0, 9),
-		size = clamp(vary(if traits.spikes.size > 0 then traits.spikes.size else 0.1), 0.04, 0.3) * s,
+		size = clamp(vary(if traits.spikes.size > 0 then traits.spikes.size else 0.1 * hr), 0.015, 0.25) * s,
 		kind = if traits.crystals.count > traits.spikes.count
 			then "crystal"
 			else keepOr(traits.spikes.kind, { "spike", "plate", "crystal" }),
@@ -3383,18 +3452,36 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 
 	-- Tentacules
 	local tentacles = traits.tentacles.count
-	if P.locomotion == "floating" and tentacles == 0 and chance(0.5 + cfg.featureFlip) then
+	if P.locomotion == "floating" and not P.body.flat and tentacles == 0 and chance(0.5 + cfg.featureFlip) then
 		tentacles = rng:NextInteger(3, 6)
 	end
 	P.tentacles = {
 		count = tentacles,
-		length = clamp(vary(if traits.tentacles.length > 0 then traits.tentacles.length else 0.5), 0.2, 1.2) * s,
+		length = clamp(vary(if traits.tentacles.length > 0 then traits.tentacles.length else 0.5 * hr), 0.08, 0.9) * s,
 		radius = P.body.width * rng:NextNumber(0.07, 0.11),
 		curl = rng:NextNumber(0.3, 1),
 	}
 
 	P.fins = { side = traits.fins.count > 0 or (traits.archetype == "fish") }
-	P.hover = if P.locomotion == "floating" then math.max(P.tentacles.length * 0.85, 0.25 * s) else 0
+	P.hover = if P.locomotion == "floating" then math.max(P.tentacles.length * 0.85, 0.25 * hr * s) else 0
+
+	-- Corps plat (raie, manta...) : grandes nageoires-ailes, tête fondue dans le corps,
+	-- queue fine, pas d'oreilles ni de tentacules ajoutés.
+	if P.body.flat then
+		P.wings.count = 2
+		P.wings.style = if level == 3 and chance(0.3) then "membrane" else "ray"
+		P.wings.dihedral = math.rad(rng:NextNumber(2, 10))
+		P.ears.count = if traits.ears.count > 0 then 2 else 0
+		P.head.jaw = false
+		P.head.muzzle.style = if chance(0.5) then "flat" else "none"
+		P.tail.droop = rng:NextNumber(-0.08, 0.02)
+		P.tail.curl = rng:NextNumber(0, 0.15)
+		P.tail.thickness = clamp(P.tail.thickness, P.body.height * 0.08, P.body.height * 0.2)
+		P.hover = math.max(P.body.height * 0.8, 0.08 * s)
+		P.body.height *= 0.8
+		P.eyes.radius = math.max(P.eyes.radius, P.body.height * 0.2)
+		P.wings.sweep = math.rad(rng:NextNumber(-6, 2))
+	end
 
 	return P
 end
@@ -4352,6 +4439,16 @@ function Shapes.wing(p)
 			add(a0:Lerp(a1, (t0 + t1) * 0.5):Lerp(P, 0.12))
 		end
 		add(Vector2.new(0.02 * S, 0.6 * C))
+	elseif style == "ray" then
+		-- Nageoire de raie / manta : triangle aux bords courbes, pointe vers l'extérieur.
+		P = Vector2.new(0.3 * S, 0.1 * C)
+		add(Vector2.new(0, -0.4 * C))
+		add(Vector2.new(0.35 * S, -0.3 * C))
+		add(Vector2.new(0.75 * S, -0.1 * C))
+		add(Vector2.new(S, 0.05 * C))
+		add(Vector2.new(0.7 * S, 0.2 * C))
+		add(Vector2.new(0.35 * S, 0.45 * C))
+		add(Vector2.new(0, 0.6 * C))
 	else -- "membrane" : contour elliptique lisse (insecte / nageoire)
 		local n = 14
 		for i = 0, n - 1 do
@@ -5116,9 +5213,11 @@ function BlueprintBuilder.build(report, parent: Instance)
 	table.sort(sorted, function(a, b)
 		return a.volume > b.volume
 	end)
-	for i, p in sorted do
-		if i <= 80 then
+	local n = 0
+	for _, p in sorted do
+		if p.region ~= "ignore" and n < 80 then
 			labelled[p] = true
+			n += 1
 		end
 	end
 
@@ -5132,7 +5231,9 @@ function BlueprintBuilder.build(report, parent: Instance)
 		b.CFrame = pivot * p.localCFrame
 		b.Color = p.color
 		b.Material = Enum.Material.SmoothPlastic
-		b.Transparency = if p.transparency >= 0.95 then 0.9 else Config.VIZ.BlueprintTransparency
+		-- Pièces techniques (HumanoidRootPart, Torso invisible, HatPoint...) : quasi invisibles.
+		local helper = p.region == "ignore"
+		b.Transparency = if helper then 0.97 else Config.VIZ.BlueprintTransparency
 		b.Anchored = true
 		b.CanCollide = false
 		b.CanTouch = false
@@ -5157,10 +5258,11 @@ function BlueprintBuilder.build(report, parent: Instance)
 		box.LineThickness = math.clamp(maxDim * 0.002, 0.01, 0.06)
 		box.Color3 = p.color:Lerp(Color3.new(0, 0, 0), 0.45)
 		box.SurfaceTransparency = 1
+		box.Transparency = if helper then 0.85 else 0
 		box.Parent = b
 
 		if labelled[p] then
-			label(p.name, b, p.size.Y * 0.5 + 0.15, 11)
+			label(p.name:match("[^/\\]+$") or p.name, b, p.size.Y * 0.5 + 0.15, 11)
 		end
 		b.Parent = model
 		map[p.inst] = b

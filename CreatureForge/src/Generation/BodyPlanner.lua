@@ -400,7 +400,7 @@ local function buildWings(ctx, root: Vector3, parentName: string)
 			name = name,
 			shape = "wing",
 			params = { span = W.span * scale, chord = W.chord * scale, style = W.style, fingers = 3 },
-			cframe = CFrame.new(r) * CFrame.Angles(0, math.rad(-12), 0) * CFrame.Angles(0, 0, W.dihedral),
+			cframe = CFrame.new(r) * CFrame.Angles(0, W.sweep or math.rad(-12), 0) * CFrame.Angles(0, 0, W.dihedral),
 			slot = "Secondary",
 			region = "wing",
 			parent = parentName,
@@ -616,7 +616,13 @@ local function planFloating(ctx)
 	local BL, BW, BH = P.body.length, P.body.width, P.body.height
 	local bodyY = P.hover + BH * 0.5
 	local bc = Vector3.new(0, bodyY, 0)
-	local blob = P.head.merged or P.archetype == "blob"
+	local flat = P.body.flat
+	local blob = (P.head.merged or P.archetype == "blob") and not flat
+	local fullWidth = BW
+	if flat then
+		-- Raie / manta : la largeur de référence inclut les nageoires ; le corps en garde ~45 %.
+		BW = fullWidth * 0.45
+	end
 
 	ctx.add({
 		name = "Body",
@@ -642,7 +648,9 @@ local function planFloating(ctx)
 		})
 	end
 
-	if blob then
+	if flat then
+		BodyPlanner.addFace(ctx, "Body", bc + Vector3.new(0, BH * 0.05, -BL * 0.12), Vector3.new(BW, BH, BL) * 0.5, true)
+	elseif blob then
 		BodyPlanner.addFace(ctx, "Body", bc + Vector3.new(0, BH * 0.08, 0), Vector3.new(BW, BH, BL) * 0.5, false)
 	else
 		buildHead(ctx, bc + Vector3.new(0, BH * 0.1, -BL * 0.42), "Body")
@@ -680,8 +688,16 @@ local function planFloating(ctx)
 		ctx.mirror(fin, "Fin_L")
 	end
 
-	buildTail(ctx, bc + Vector3.new(0, 0, BL * 0.45), "Body", Vector3.new(0, 0.1, 1))
-	buildWings(ctx, bc + Vector3.new(BW * 0.3, BH * 0.3, -BL * 0.05), "Body")
+	buildTail(ctx, bc + Vector3.new(0, 0, BL * 0.45), "Body", Vector3.new(0, if flat then 0 else 0.1, 1))
+	if flat then
+		-- Grandes nageoires-ailes qui prolongent le corps jusqu'à la largeur de référence.
+		local W = P.wings
+		W.span = math.max(W.span, (fullWidth * 0.5 - BW * 0.3) * 1.05)
+		W.chord = math.max(W.chord, BL * 0.8)
+		buildWings(ctx, bc + Vector3.new(BW * 0.3, 0, -BL * 0.12), "Body")
+	else
+		buildWings(ctx, bc + Vector3.new(BW * 0.3, BH * 0.3, -BL * 0.05), "Body")
+	end
 	buildDorsal(ctx, function(t)
 		local z = -BL * 0.3 + t * BL * 0.6
 		local pos = Vector3.new(0, bodyY + BH * 0.44 * math.sqrt(math.max(1 - (2 * z / BL) ^ 2, 0.05)) - BH * 0.05, z)

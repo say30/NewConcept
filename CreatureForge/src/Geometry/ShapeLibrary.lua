@@ -450,6 +450,16 @@ function Shapes.wing(p)
 			add(a0:Lerp(a1, (t0 + t1) * 0.5):Lerp(P, 0.12))
 		end
 		add(Vector2.new(0.02 * S, 0.6 * C))
+	elseif style == "ray" then
+		-- Nageoire de raie / manta : triangle aux bords courbes, pointe vers l'extérieur.
+		P = Vector2.new(0.3 * S, 0.1 * C)
+		add(Vector2.new(0, -0.4 * C))
+		add(Vector2.new(0.35 * S, -0.3 * C))
+		add(Vector2.new(0.75 * S, -0.1 * C))
+		add(Vector2.new(S, 0.05 * C))
+		add(Vector2.new(0.7 * S, 0.2 * C))
+		add(Vector2.new(0.35 * S, 0.45 * C))
+		add(Vector2.new(0, 0.6 * C))
 	else -- "membrane" : contour elliptique lisse (insecte / nageoire)
 		local n = 14
 		for i = 0, n - 1 do

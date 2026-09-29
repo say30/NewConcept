@@ -28,6 +28,7 @@ local cases = {
 	wing = { span = 6, chord = 3, style = "bat" },
 	wingFeather = { shape = "wing", span = 6, chord = 3, style = "feather" },
 	wingMembrane = { shape = "wing", span = 4, chord = 2, style = "membrane" },
+	wingRay = { shape = "wing", span = 4, chord = 4, style = "ray" },
 	fin = { height = 1.5, len = 2 },
 	plate = { height = 1.2, width = 1.2 },
 	tailTipSpade = { shape = "tailTip", len = 1.2, width = 1, style = "spade" },

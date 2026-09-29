@@ -69,6 +69,24 @@ local function makeCreature(kind, facing)
 			part("BackSpike" .. i, vec(0, 4.3, -1 + i * 0.8), vec(0.15, 0.6, 0.5), colors.horn)
 		end
 		local motor = MockInstance("Motor6D", { Name = "Neck", Part0 = model:FindFirstChild("Body"), Part1 = model:FindFirstChild("Head"), C0 = CFrame.new(), C1 = CFrame.new() }, model:FindFirstChild("Body"))
+	elseif kind == "Lava Ray" then
+		-- Pet typique : 1 gros mesh (corps + ailes), queue fine, accessoires,
+		-- et des pièces invisibles de rig (HumanoidRootPart, Torso, Root, HatPoint, *Wing).
+		local function hidden(name, pos, size)
+			local p = part(name, pos, size, Color3.fromRGB(120, 120, 120), "Part")
+			p.Transparency = 1
+			return p
+		end
+		part("Meshes/lava_pets_final_1_Lava_Ray_003", vec(0, 0.9, 0), vec(8, 1.1, 5.5), Color3.fromRGB(40, 38, 45))
+		part("Meshes/lava_pets_final_1_Lava_Ray_002.001", vec(0, 1.2, -1.2), vec(2.2, 0.5, 2), Color3.fromRGB(255, 140, 40))
+		part("Meshes/Last_Batch_water_ray_007", vec(0, 0.9, 5.2), vec(0.25, 0.25, 5), Color3.fromRGB(40, 38, 45))
+		part("Meshes/lava_glasses_lavaRay_001", vec(0, 1.4, -2.4), vec(1.6, 0.4, 0.3), Color3.fromRGB(255, 200, 40))
+		hidden("HumanoidRootPart", vec(0, 1, 0), vec(4, 3, 4))
+		hidden("Torso", vec(0, 1, 0), vec(3, 2, 3))
+		hidden("Root", vec(0, 1, 0), vec(1, 1, 1))
+		hidden("HatPoint", vec(0, 1.8, -1), vec(0.2, 0.2, 0.2))
+		hidden("RightWing", vec(4, 1, 0), vec(0.4, 0.4, 0.4))
+		hidden("LeftWing", vec(-4, 1, 0), vec(0.4, 0.4, 0.4))
 	elseif kind == "Stone Golem" then
 		part("Pelvis", vec(0, 3.2, 0), vec(2.4, 1.2, 1.6))
 		part("Torso", vec(0, 5, 0), vec(3.4, 2.6, 2))
@@ -165,5 +183,26 @@ for i, level in levels do
 		level, plan.name, plan.proportions.locomotion, #plan.parts, nkeys, tris, plan.groundOffset))
 	log("  " .. table.concat(names, ", "))
 	dump(plan, "v" .. level, (i - 2) * plan.proportions.scale * 2.2)
+end
+-- Régression : pet plat (raie) avec pièces de rig invisibles -> jamais un « boudin ».
+if not OBJ then
+	local ray = CreatureAnalyzer.analyze((makeCreature("Lava Ray", 0.7)))
+	local t = ray.traits
+	assert(t.locomotion == "floating", "raie : locomotion " .. tostring(t.locomotion))
+	assert(t.body.flat, "raie : corps plat détecté")
+	local ignored = 0
+	for _, p in ray.parts do
+		if p.region == "ignore" then
+			ignored += 1
+		end
+	end
+	assert(ignored == 6, "raie : 6 pièces techniques ignorées (" .. ignored .. ")")
+	for lvl = 1, 3 do
+		local plan = CreatureGenerator.design(t, lvl, 99 + lvl)
+		local body, wing = plan.byName.Body, plan.byName.Wing_R
+		assert(wing and wing.params.span > body.params.sx * 0.5, "raie : grandes nageoires (niveau " .. lvl .. ")")
+		assert(body.params.sy < body.params.sx * 0.5, "raie : corps aplati (niveau " .. lvl .. ")")
+	end
+	log("Raie : " .. ray.morphology .. " -> corps plat + nageoires ✓")
 end
 log("PIPELINE OK")

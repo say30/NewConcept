@@ -56,8 +56,10 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	end
 
 	local P = { seed = seed, level = level, archetype = traits.archetype }
-	P.scale = vary(clamp(traits.scale or 8, 2, 80), 0.3)
+	-- Unité : plus grande dimension de la référence. hr = hauteur / unité.
+	P.scale = vary(clamp(traits.scale or 8, 2, 120), 0.3)
 	local s = P.scale
+	local hr = clamp(traits.heightRatio or 1, 0.1, 1)
 	P.locomotion = traits.locomotion or "quadruped"
 	P.jitter = Config.LOWPOLY_JITTER * (0.8 + level * 0.3)
 
@@ -65,19 +67,26 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	local b = traits.body
 	local upright = P.locomotion == "biped"
 	P.body = {
-		length = vary(clamp(b.length, 0.25, 2.5)) * s,
-		width = vary(clamp(b.width, 0.15, 1.4)) * s,
-		height = vary(clamp(b.height, 0.18, 1.2)) * s,
+		length = vary(clamp(b.length, 0.08, 1)) * s,
+		width = vary(clamp(b.width, 0.06, 1)) * s,
+		height = vary(clamp(b.height, 0.04, 0.9)) * s,
 		style = pick({ "barrel", "chest", "pear" }),
 		sq = rng:NextNumber(0.05, 0.3),
+		flat = b.flat == true,
 	}
 	if upright then
 		-- Pour un bipède, « height » = hauteur du torse, « length » = profondeur.
-		P.body.height = clamp(P.body.height, 0.22 * s, 0.55 * s)
-		P.body.length = clamp(P.body.length, 0.15 * s, 0.45 * s)
+		P.body.height = clamp(P.body.height, 0.22 * hr * s, 0.55 * hr * s)
+		P.body.length = clamp(P.body.length, 0.15 * hr * s, 0.45 * hr * s)
 		P.body.style = "chest"
 	elseif P.locomotion == "serpentine" then
-		P.body.length = clamp(P.body.length, 1.5 * s, 6 * s)
+		P.body.length = clamp(P.body.length, 0.5 * s, 1.1 * s)
+	end
+	if P.body.flat then
+		-- Corps plat : on garde l'aplatissement de la référence.
+		P.body.height = math.min(P.body.height, 0.3 * math.max(P.body.width, P.body.length))
+		P.body.style = "barrel"
+		P.body.sq = rng:NextNumber(0.3, 0.6)
 	end
 	P.belly = chance(0.75)
 
@@ -87,11 +96,11 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	if P.locomotion == "hexapod" then
 		stance = if chance(0.7) then "insect" else "sprawl"
 	end
-	local legLen = traits.legLength or DEFAULT_LEG_LENGTH[P.locomotion] or 0.3
+	local legLen = traits.legLength or (DEFAULT_LEG_LENGTH[P.locomotion] or 0.3) * hr
 	P.legs = {
 		pairs = pairs,
-		length = vary(clamp(legLen, 0.12, 0.7)) * s,
-		thickness = vary(clamp((traits.legThickness or 0.06) * 1.35, 0.045, 0.15), 1.2) * s,
+		length = vary(clamp(legLen, 0.04, 0.6)) * s,
+		thickness = vary(clamp((traits.legThickness or 0.06 * hr) * 1.35, 0.02, 0.1), 1.2) * s,
 		style = keepOr(traits.legStyle, { "paw", "paw", "hoof", "talon" }),
 		stance = stance,
 		toes = pick({ 3, 3, 4 }),
@@ -111,7 +120,7 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	end
 	P.arms = {
 		count = if armCount >= 2 then 2 else 0,
-		length = vary(clamp(traits.armLength or 0.35, 0.2, 0.7)) * s,
+		length = vary(clamp(traits.armLength or 0.35 * hr, 0.08, 0.6)) * s,
 		thickness = P.legs.thickness * 0.8,
 	}
 
@@ -119,11 +128,11 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	local h = traits.head
 	local style = HEAD_STYLE[traits.archetype or ""] or "round"
 	P.head = {
-		length = clamp(vary(h.length) * STYLE_HEAD, 0.14, 0.8) * s,
-		width = clamp(vary(h.width) * STYLE_HEAD, 0.12, 0.8) * s,
-		height = clamp(vary(h.height) * STYLE_HEAD, 0.12, 0.8) * s,
+		length = clamp(vary(h.length) * STYLE_HEAD, 0.04, 0.6) * s,
+		width = clamp(vary(h.width) * STYLE_HEAD, 0.04, 0.6) * s,
+		height = clamp(vary(h.height) * STYLE_HEAD, 0.04, 0.6) * s,
 		style = keepOr(style, { "round", "snout", "boxy", "flat" }),
-		merged = P.locomotion == "floating" and (traits.headRatio or 0) > 0.9,
+		merged = (P.locomotion == "floating" and (traits.headRatio or 0) > 0.9) or P.body.flat,
 	}
 	-- Une tête ne doit être ni minuscule ni plus grosse que 1,3 x le corps.
 	local maxBody = math.max(P.body.width, P.body.height)
@@ -143,7 +152,7 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	muzzleStyle = keepOr(muzzleStyle or "snout", { "snout", "snout", "flat", "beak", "none" })
 	P.head.muzzle = {
 		style = muzzleStyle,
-		length = clamp(vary((traits.muzzle and traits.muzzle.length) or 0.1), 0.05, 0.45) * s,
+		length = clamp(vary((traits.muzzle and traits.muzzle.length) or 0.1 * hr), 0.02, 0.35) * s,
 	}
 	if muzzleStyle == "beak" then
 		P.head.muzzle.length = math.max(P.head.muzzle.length, P.head.length * 0.45)
@@ -160,12 +169,12 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 		neckAngle = clamp(math.atan2(dy, dz), math.rad(5), math.rad(70))
 	end
 	P.neck = {
-		length = clamp(vary(traits.neckLength or 0.1), 0, 0.9) * s,
+		length = clamp(vary(traits.neckLength or 0.1 * hr), 0, 0.7) * s,
 		thickness = P.head.width * rng:NextNumber(0.28, 0.4),
 		angle = neckAngle + rng:NextNumber(-amt, amt) * 0.6,
 	}
 	if P.locomotion == "serpentine" then
-		P.neck.length = math.max(P.neck.length, 0.35 * s)
+		P.neck.length = math.max(P.neck.length, 0.12 * s)
 	end
 
 	-- Yeux
@@ -180,7 +189,7 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	if level == 3 and chance(0.12) then
 		eyeCount = pick({ 1, 4 })
 	end
-	local eyeSize = if traits.eyes.size > 0 then traits.eyes.size else 0.08
+	local eyeSize = if traits.eyes.size > 0 then traits.eyes.size else 0.08 * hr
 	P.eyes = {
 		count = eyeCount,
 		radius = clamp(vary(eyeSize, 0.8) * 0.5 * 1.2 * s, 0.1 * P.head.height, 0.22 * P.head.height),
@@ -191,7 +200,7 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	local hasEars = flip(traits.ears.count > 0)
 	P.ears = {
 		count = if hasEars then 2 else 0,
-		size = clamp(vary(if traits.ears.size > 0 then traits.ears.size else 0.15), 0.06, 0.4) * s,
+		size = clamp(vary(if traits.ears.size > 0 then traits.ears.size else 0.15 * hr), 0.02, 0.3) * s,
 		style = pick({ "pointy", "round", "long" }),
 	}
 
@@ -207,7 +216,7 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	end
 	P.horns = {
 		count = hornCount,
-		length = clamp(vary(if traits.horns.length > 0 then traits.horns.length else 0.18), 0.06, 0.6) * s,
+		length = clamp(vary(if traits.horns.length > 0 then traits.horns.length else 0.18 * hr), 0.02, 0.45) * s,
 		style = pick({ "curved", "curved", "straight", "ram" }),
 	}
 	P.horns.radius = P.horns.length * rng:NextNumber(0.14, 0.22)
@@ -217,9 +226,9 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	local hasTail = if t.has then (level < 3 or chance(0.9)) else flip(false, 0.7)
 	P.tail = {
 		has = hasTail,
-		length = clamp(vary(t.length or 0.6), 0.2, 2.2) * s,
+		length = clamp(vary(t.length or 0.6 * hr), 0.08, 1.2) * s,
 		segments = clamp(t.segments or 4, 3, 5),
-		thickness = clamp(vary(t.thickness or 0.06), 0.03, 0.18) * s,
+		thickness = clamp(vary(t.thickness or 0.06 * hr), 0.01, 0.15) * s,
 		tip = pick({ "none", "point", "spade", "club", "fin", "spikes" }),
 		droop = rng:NextNumber(-0.45, -0.1),
 		curl = rng:NextNumber(0, 0.9),
@@ -238,8 +247,8 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	end
 	P.wings = {
 		count = wingCount,
-		span = clamp(vary(w.span or 0.9) * STYLE_WING, 0.35, 2.5) * s,
-		chord = clamp(vary(w.chord or 0.45), 0.2, 1.2) * s,
+		span = clamp(vary(w.span or 0.9 * hr) * STYLE_WING, 0.12, 1.2) * s,
+		chord = clamp(vary(w.chord or 0.45 * hr), 0.08, 0.9) * s,
 		style = keepOr(WING_STYLE[traits.archetype or ""] or "bat", { "bat", "bat", "feather", "membrane" }),
 		dihedral = math.rad(rng:NextNumber(18, 38)),
 	}
@@ -251,7 +260,7 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 	end
 	P.spikes = {
 		count = clamp(spikeCount, 0, 9),
-		size = clamp(vary(if traits.spikes.size > 0 then traits.spikes.size else 0.1), 0.04, 0.3) * s,
+		size = clamp(vary(if traits.spikes.size > 0 then traits.spikes.size else 0.1 * hr), 0.015, 0.25) * s,
 		kind = if traits.crystals.count > traits.spikes.count
 			then "crystal"
 			else keepOr(traits.spikes.kind, { "spike", "plate", "crystal" }),
@@ -259,18 +268,36 @@ function ProportionGenerator.fromTraits(traits, level: number, seed: number)
 
 	-- Tentacules
 	local tentacles = traits.tentacles.count
-	if P.locomotion == "floating" and tentacles == 0 and chance(0.5 + cfg.featureFlip) then
+	if P.locomotion == "floating" and not P.body.flat and tentacles == 0 and chance(0.5 + cfg.featureFlip) then
 		tentacles = rng:NextInteger(3, 6)
 	end
 	P.tentacles = {
 		count = tentacles,
-		length = clamp(vary(if traits.tentacles.length > 0 then traits.tentacles.length else 0.5), 0.2, 1.2) * s,
+		length = clamp(vary(if traits.tentacles.length > 0 then traits.tentacles.length else 0.5 * hr), 0.08, 0.9) * s,
 		radius = P.body.width * rng:NextNumber(0.07, 0.11),
 		curl = rng:NextNumber(0.3, 1),
 	}
 
 	P.fins = { side = traits.fins.count > 0 or (traits.archetype == "fish") }
-	P.hover = if P.locomotion == "floating" then math.max(P.tentacles.length * 0.85, 0.25 * s) else 0
+	P.hover = if P.locomotion == "floating" then math.max(P.tentacles.length * 0.85, 0.25 * hr * s) else 0
+
+	-- Corps plat (raie, manta...) : grandes nageoires-ailes, tête fondue dans le corps,
+	-- queue fine, pas d'oreilles ni de tentacules ajoutés.
+	if P.body.flat then
+		P.wings.count = 2
+		P.wings.style = if level == 3 and chance(0.3) then "membrane" else "ray"
+		P.wings.dihedral = math.rad(rng:NextNumber(2, 10))
+		P.ears.count = if traits.ears.count > 0 then 2 else 0
+		P.head.jaw = false
+		P.head.muzzle.style = if chance(0.5) then "flat" else "none"
+		P.tail.droop = rng:NextNumber(-0.08, 0.02)
+		P.tail.curl = rng:NextNumber(0, 0.15)
+		P.tail.thickness = clamp(P.tail.thickness, P.body.height * 0.08, P.body.height * 0.2)
+		P.hover = math.max(P.body.height * 0.8, 0.08 * s)
+		P.body.height *= 0.8
+		P.eyes.radius = math.max(P.eyes.radius, P.body.height * 0.2)
+		P.wings.sweep = math.rad(rng:NextNumber(-6, 2))
+	end
 
 	return P
 end

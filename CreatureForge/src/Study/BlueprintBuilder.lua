@@ -50,9 +50,11 @@ function BlueprintBuilder.build(report, parent: Instance)
 	table.sort(sorted, function(a, b)
 		return a.volume > b.volume
 	end)
-	for i, p in sorted do
-		if i <= 80 then
+	local n = 0
+	for _, p in sorted do
+		if p.region ~= "ignore" and n < 80 then
 			labelled[p] = true
+			n += 1
 		end
 	end
 
@@ -66,7 +68,9 @@ function BlueprintBuilder.build(report, parent: Instance)
 		b.CFrame = pivot * p.localCFrame
 		b.Color = p.color
 		b.Material = Enum.Material.SmoothPlastic
-		b.Transparency = if p.transparency >= 0.95 then 0.9 else Config.VIZ.BlueprintTransparency
+		-- Pièces techniques (HumanoidRootPart, Torso invisible, HatPoint...) : quasi invisibles.
+		local helper = p.region == "ignore"
+		b.Transparency = if helper then 0.97 else Config.VIZ.BlueprintTransparency
 		b.Anchored = true
 		b.CanCollide = false
 		b.CanTouch = false
@@ -91,10 +95,11 @@ function BlueprintBuilder.build(report, parent: Instance)
 		box.LineThickness = math.clamp(maxDim * 0.002, 0.01, 0.06)
 		box.Color3 = p.color:Lerp(Color3.new(0, 0, 0), 0.45)
 		box.SurfaceTransparency = 1
+		box.Transparency = if helper then 0.85 else 0
 		box.Parent = b
 
 		if labelled[p] then
-			label(p.name, b, p.size.Y * 0.5 + 0.15, 11)
+			label(p.name:match("[^/\\]+$") or p.name, b, p.size.Y * 0.5 + 0.15, 11)
 		end
 		b.Parent = model
 		map[p.inst] = b
