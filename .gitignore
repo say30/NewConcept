@@ -1,0 +1,6 @@
+/build/
+*.rbxm
+*.rbxmx
+*.rbxl
+*.rbxlx
+!/archive/
