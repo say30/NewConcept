@@ -189,6 +189,24 @@ function Document.pageNames(project: Project, exceptId: string?): { [string]: bo
 	return names
 end
 
+-- Describes an existing node and its subtree as a template (used by duplicate and copy).
+function Document.toTemplate(project: Project, id: string): NodeTemplate
+	local node = project.nodes[id]
+	local children = {}
+	for _, childId in node.children do
+		table.insert(children, Document.toTemplate(project, childId))
+	end
+	return {
+		type = node.type,
+		name = node.name,
+		variant = node.variant,
+		props = Table.deepCopy(node.props),
+		states = Table.deepCopy(node.states),
+		actions = Table.deepCopy(node.actions),
+		children = children,
+	}
+end
+
 --------------------------------------------------------------------------------
 -- Low-level mutations (commands only)
 --------------------------------------------------------------------------------

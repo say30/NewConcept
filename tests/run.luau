@@ -28,8 +28,26 @@ end
 
 local globals = {
 	Random = RandomShim,
-	Instance = roblox.Instance,
+	task = require("@lune/task"),
 }
+for _, name in
+	{
+		"Instance",
+		"Enum",
+		"Color3",
+		"ColorSequence",
+		"ColorSequenceKeypoint",
+		"NumberSequence",
+		"UDim",
+		"UDim2",
+		"Vector2",
+		"Vector3",
+		"Rect",
+		"Font",
+	}
+do
+	globals[name] = (roblox :: any)[name]
+end
 
 --------------------------------------------------------------------------------
 -- Module loader

@@ -8,13 +8,13 @@ L'architecture validée de la V1 est décrite dans le document « Architecture V
 
 | Étape | Contenu | État |
 | --- | --- | --- |
-| 1 | Socle : projet, commandes, undo/redo, GuiCreatorId, sauvegarde dans la place | en cours |
-| 2 | Éditeur minimal : canvas, calques, inspecteur | à faire |
-| 3 | Première génération dans Roblox | à faire |
-| 4 | Thèmes | à faire |
-| 5 | Composants et variantes | à faire |
+| 1 | Socle : projet, commandes, undo/redo, GuiCreatorId, sauvegarde dans la place | fait |
+| 2 | Éditeur : canvas, calques, inspecteur | fait (à tester dans Studio) |
+| 3 | Génération dans Roblox | fait (à tester dans Studio) |
+| 4 | Thèmes | 3 thèmes faits |
+| 5 | Composants et variantes | en grande partie fait |
 | 6 | Pages et actions | à faire |
-| 7 | Bibliothèque d'assets et presets | à faire |
+| 7 | Bibliothèque d'assets et presets | 13 presets faits, assets à faire |
 | 8 | Finitions | à faire |
 
 ## Organisation
@@ -22,8 +22,13 @@ L'architecture validée de la V1 est décrite dans le document « Architecture V
 ```
 src/
 ├── init.server.lua   point d'entrée du plugin
+├── App/              fenêtre de l'éditeur : barre, calques, canvas, inspecteur, choix des modèles
+├── Catalog/          modèles d'éléments et presets de pages
 ├── Core/             projet, commandes, historique, sélection, ids, noms
+├── Generator/        construction des objets Roblox (aperçu et génération)
 ├── Persistence/      sauvegarde du projet dans ServerStorage
+├── Schema/           types d'éléments et propriétés modifiables
+├── Style/            thèmes Cartoon, Flat, Studs
 └── Util/             outils partagés
 tests/                tests lancés avec Lune
 archive/              anciens fichiers JSON, sans lien avec le plugin

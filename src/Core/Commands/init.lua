@@ -23,5 +23,8 @@ return {
 	AddPage = require(script.AddPage),
 	RemovePage = require(script.RemovePage),
 	RenamePage = require(script.RenamePage),
+	SetTheme = require(script.SetTheme),
+	RenameProject = require(script.RenameProject),
+	SetPageOpen = require(script.SetPageOpen),
 	Composite = require(script.Composite),
 }
