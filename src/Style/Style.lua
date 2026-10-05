@@ -1,15 +1,15 @@
 --!strict
--- Resolves theme links and converts plain project values (hex colours, number arrays) into
--- Roblox datatypes. The project itself never stores Color3 or UDim2, so it stays JSON.
+-- Resolves style-pack links and converts plain project values (hex colours, number arrays)
+-- into Roblox datatypes. The project itself never stores Color3 or UDim2, so it stays JSON.
 
-local Themes = require(script.Parent.Themes)
+local Packs = require(script.Parent.Packs)
 
 local Style = {}
 
--- The tokens of a project's theme with its overrides applied.
+-- The tokens of a project's style pack with its overrides applied.
 function Style.tokens(project: any): { [string]: any }
-	local theme = Themes.get(project.theme and project.theme.base)
-	local tokens = table.clone(theme.tokens)
+	local pack = Packs.get(project.theme and project.theme.base)
+	local tokens = table.clone(pack.tokens)
 	for key, value in (project.theme and project.theme.overrides) or {} do
 		tokens[key] = value
 	end
@@ -89,6 +89,14 @@ function Style.font(name: any): Enum.Font
 		return font
 	end
 	return Enum.Font.SourceSansBold
+end
+
+-- Mixes a colour towards black (amount > 0) or white (amount < 0).
+function Style.shade(color: Color3, amount: number): Color3
+	if amount >= 0 then
+		return color:Lerp(Color3.new(0, 0, 0), amount)
+	end
+	return color:Lerp(Color3.new(1, 1, 1), -amount)
 end
 
 function Style.number(value: any, fallback: number): number

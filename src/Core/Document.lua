@@ -60,7 +60,7 @@ local Document = {}
 
 Document.FORMAT_VERSION = 1
 Document.PAGE_TYPE = "Page"
-Document.DEFAULT_THEME = "Cartoon"
+Document.DEFAULT_THEME = "Studs"
 
 --------------------------------------------------------------------------------
 -- Creation

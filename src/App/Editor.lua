@@ -1,6 +1,7 @@
 --!strict
--- Puts the editor together: the window layout, the open project, the current page and
--- screen size, and the actions the panels call (insert, duplicate, delete, generate...).
+-- Puts the plugin together: the home screen, the assistant and the workspace (gallery,
+-- canvas, inspector), the open project, and the actions the panels call (insert, style,
+-- duplicate, delete, generate...).
 
 local AutoSave = require(script.Parent.Parent.Persistence.AutoSave)
 local Commands = require(script.Parent.Parent.Core.Commands)
@@ -9,19 +10,23 @@ local Generator = require(script.Parent.Parent.Generator.Generator)
 local NodeTypes = require(script.Parent.Parent.Schema.NodeTypes)
 local Store = require(script.Parent.Parent.Core.Store)
 local Canvas = require(script.Parent.Canvas)
+local Home = require(script.Parent.Home)
 local Inspector = require(script.Parent.Inspector)
 local Layers = require(script.Parent.Layers)
-local Picker = require(script.Parent.Picker)
+local Palette = require(script.Parent.Palette)
+local Popup = require(script.Parent.Popup)
+local Recipes = require(script.Parent.Parent.Catalog.Recipes)
 local Topbar = require(script.Parent.Topbar)
 local Ui = require(script.Parent.Ui)
+local Wizard = require(script.Parent.Wizard)
 
 local Editor = {}
 Editor.__index = Editor
 
-local TOPBAR = 44
-local LEFT = 230
-local RIGHT = 320
-local STATUS = 24
+local TOPBAR = 54
+local LEFT = 290
+local RIGHT = 330
+local STATUS = 26
 
 export type Services = {
 	projectStore: any, -- Persistence/ProjectStore
@@ -45,9 +50,9 @@ function Editor.new(root: Instance, services: Services, project: any?)
 	self.store = Store.new(project or Editor.newProject())
 	self.device = "PC"
 	self.dragging = false
-	self.openSections = { Fill = true, Text = true, Image = true, Layout = true } :: { [string]: boolean }
 	self.pageId = nil :: string?
 	self.autoSave = nil :: any
+	self.screen = "home"
 
 	self.root = Ui.new("Frame", {
 		Name = "GuiCreator",
@@ -56,45 +61,73 @@ function Editor.new(root: Instance, services: Services, project: any?)
 		Size = UDim2.fromScale(1, 1),
 		Parent = root,
 	})
-	local top =
-		Ui.new("Frame", { BackgroundTransparency = 1, Size = UDim2.new(1, 0, 0, TOPBAR), Parent = self.root })
+
+	-- Workspace: top bar, gallery and layers on the left, canvas, inspector on the right.
+	self.workspace = Ui.new("Frame", {
+		Name = "Workspace",
+		BackgroundTransparency = 1,
+		Size = UDim2.fromScale(1, 1),
+		Visible = false,
+		Parent = self.root,
+	})
+	local top = Ui.new(
+		"Frame",
+		{ BackgroundTransparency = 1, Size = UDim2.new(1, 0, 0, TOPBAR), Parent = self.workspace }
+	)
 	local left = Ui.new("Frame", {
 		BackgroundTransparency = 1,
 		Position = UDim2.fromOffset(0, TOPBAR),
 		Size = UDim2.new(0, LEFT, 1, -(TOPBAR + STATUS)),
-		Parent = self.root,
+		Parent = self.workspace,
+	})
+	local paletteArea =
+		Ui.new("Frame", { BackgroundTransparency = 1, Size = UDim2.fromScale(1, 0.62), Parent = left })
+	local layersArea = Ui.new("Frame", {
+		BackgroundTransparency = 1,
+		Position = UDim2.new(0, 0, 0.62, 2),
+		Size = UDim2.new(1, 0, 0.38, -2),
+		Parent = left,
 	})
 	local center = Ui.new("Frame", {
 		BackgroundTransparency = 1,
 		Position = UDim2.fromOffset(LEFT, TOPBAR),
 		Size = UDim2.new(1, -(LEFT + RIGHT), 1, -(TOPBAR + STATUS)),
-		Parent = self.root,
+		Parent = self.workspace,
 	})
 	local right = Ui.new("Frame", {
 		BackgroundTransparency = 1,
 		AnchorPoint = Vector2.new(1, 0),
 		Position = UDim2.new(1, 0, 0, TOPBAR),
 		Size = UDim2.new(0, RIGHT, 1, -(TOPBAR + STATUS)),
-		Parent = self.root,
+		Parent = self.workspace,
 	})
 	self.statusLabel = Ui.label("", {
-		Position = UDim2.new(0, 10, 1, -STATUS),
-		Size = UDim2.new(1, -20, 0, STATUS),
+		Position = UDim2.new(0, 12, 1, -STATUS),
+		Size = UDim2.new(1, -24, 0, STATUS),
 		TextColor3 = Ui.colors.muted,
-		TextSize = 13,
-		Parent = self.root,
+		TextSize = 14,
+		Parent = self.workspace,
 	})
 
 	self.topbar = Topbar.new(self, top)
-	self.layers = Layers.new(self, left)
+	self.palette = Palette.new(self, paletteArea)
+	self.layers = Layers.new(self, layersArea)
 	self.canvas = Canvas.new(self, center)
 	self.inspector = Inspector.new(self, right)
-	self.picker = Picker.new(self, self.root)
+
+	self.home = Home.new(self, self.root)
+	self.wizard = Wizard.new(self, self.root)
+	self.popup = Popup.new(self, self.root)
 
 	self.store.changed:Connect(function()
-		self:refresh()
+		if self.screen == "workspace" then
+			self:refresh()
+		end
 	end)
 	self.store.selection.changed:Connect(function()
+		if self.screen ~= "workspace" then
+			return
+		end
 		if not self.dragging then
 			self.layers:render()
 			self.inspector:render()
@@ -103,12 +136,98 @@ function Editor.new(root: Instance, services: Services, project: any?)
 	end)
 
 	self:_startAutoSave()
-	self:refresh()
-	self:setStatus("Prêt. Choisis un preset ou ajoute des éléments depuis le panneau de droite.")
+	self:showHome()
 	return self
 end
 
 --------------------------------------------------------------------------------
+-- Screens
+--------------------------------------------------------------------------------
+
+function Editor:_show(screen: string)
+	self.screen = screen
+	self.home.frame.Visible = screen == "home"
+	self.wizard.frame.Visible = screen == "wizard"
+	self.workspace.Visible = screen == "workspace"
+end
+
+function Editor:showHome()
+	self:_show("home")
+	self.home:render()
+end
+
+-- Opens the assistant on the list of window kinds, or straight on one kind.
+function Editor:showWizard(recipeId: string?)
+	self:_show("wizard")
+	self.wizard:start(recipeId)
+end
+
+function Editor:showWorkspace()
+	self:_show("workspace")
+	self:refresh()
+end
+
+-- True when some page of the project has elements.
+function Editor:projectHasContent(): boolean
+	for _, page in self.store.project.pages do
+		local root = self.store.project.nodes[page.rootId]
+		if root and #root.children > 0 then
+			return true
+		end
+	end
+	return false
+end
+
+-- The page the next creation goes into: the current page when it is empty, a new one
+-- otherwise.
+function Editor:_freshPage(name: string): string?
+	local page = self:currentPage()
+	if page and #self.store.project.nodes[page.rootId].children == 0 then
+		if page.name ~= name then
+			self.store:dispatch(Commands.RenamePage.new(page.id, name))
+		end
+		return page.id
+	end
+	local ok, pageId = self.store:dispatch(Commands.AddPage.new(name))
+	return if ok then pageId else nil
+end
+
+function Editor:startBlank()
+	if self:projectHasContent() then
+		local _, pageId = self.store:dispatch(Commands.AddPage.new("Page"))
+		self.pageId = pageId
+	end
+	self:showWorkspace()
+	self:setStatus("Page vide. Clique sur une image de la galerie à gauche pour l'ajouter.")
+end
+
+-- Builds the window the assistant described, on its own page, in the chosen style.
+function Editor:applyRecipe(recipe: any, answers: { [string]: any })
+	local templates = Recipes.build(recipe, answers)
+	self.store:beginGroup("Assistant " .. recipe.label)
+	if answers.pack and answers.pack ~= self.store.project.theme.base then
+		self.store:dispatch(Commands.SetTheme.new(answers.pack))
+	end
+	local pageId = self:_freshPage(recipe.pageName)
+	local first = nil
+	if pageId then
+		local page = self.store.project.pages[pageId]
+		for _, template in templates do
+			local ok, id = self.store:dispatch(Commands.InsertTree.new(template, page.rootId))
+			first = first or (ok and id or nil)
+		end
+	end
+	self.store:endGroup()
+	self.pageId = pageId
+	self:showWorkspace()
+	if first then
+		self.store.selection:set({ first })
+	end
+	self:setStatus(recipe.label .. " créé ! Clique sur n'importe quel élément pour le personnaliser.")
+end
+
+--------------------------------------------------------------------------------
+-- State--------------------------------------------------------------------------------
 -- State
 --------------------------------------------------------------------------------
 
@@ -123,10 +242,14 @@ function Editor:currentPage(): any
 end
 
 function Editor:refresh()
+	if self.screen ~= "workspace" then
+		return
+	end
 	self:currentPage()
 	self.canvas:render()
 	if not self.dragging then
 		self.topbar:render()
+		self.palette:render()
 		self.layers:render()
 		self.inspector:render()
 	end
@@ -163,13 +286,43 @@ end
 -- Actions
 --------------------------------------------------------------------------------
 
-function Editor:insertTemplate(template: any, parentId: string, variantId: string?)
-	local copy = table.clone(template)
-	copy.variant = variantId
-	local ok, id = self:dispatch(Commands.InsertTree.new(copy, parentId))
+function Editor:insertTemplate(template: any, parentId: string)
+	local ok, id = self:dispatch(Commands.InsertTree.new(template, parentId))
 	if ok then
 		self.store.selection:set({ id })
-		self:setStatus(self.store.project.nodes[id].name .. " ajouté. Tout est modifiable à droite.")
+		self:setStatus(self.store.project.nodes[id].name .. " ajouté. Change son look à droite.")
+	end
+end
+
+-- Adds an element from the gallery: windows and layouts go on the page, the rest goes in
+-- the selected container (or next to the selected element).
+function Editor:insertElement(template: any, categoryId: string)
+	local page = self:currentPage()
+	if not page then
+		return
+	end
+	local parentId = if categoryId == "Windows" then page.rootId else self:insertTarget()
+	if parentId then
+		self:insertTemplate(template, parentId)
+	end
+end
+
+-- Changes properties of every selected element, as one undo step.
+function Editor:setProps(changes: { any })
+	local ids = self.store.selection:get()
+	if #ids == 0 then
+		return
+	end
+	self.store:beginGroup("Style")
+	for _, id in ids do
+		self:dispatch(Commands.SetProps.new(id, changes))
+	end
+	self.store:endGroup()
+end
+
+function Editor:setPack(packName: string)
+	if packName ~= self.store.project.theme.base then
+		self:dispatch(Commands.SetTheme.new(packName))
 	end
 end
 
@@ -296,17 +449,18 @@ end
 
 function Editor:openProjects()
 	local projectStore = self.services.projectStore
-	self.picker:openProjects(projectStore:list(), function(id)
+	self.popup:openProjects(projectStore:list(), function(id)
 		local ok, result = pcall(projectStore.load, projectStore, id)
 		if ok then
 			self:loadProject(result)
+			self:showWorkspace()
 			self:setStatus("Projet " .. result.name .. " ouvert.")
 		else
 			self:setStatus("Impossible d'ouvrir ce projet : " .. cleanError(result))
 		end
 	end, function()
 		self:loadProject(Editor.newProject())
-		self:setStatus("Nouveau projet créé.")
+		self:showHome()
 	end)
 end
 

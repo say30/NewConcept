@@ -8,15 +8,31 @@ local Ui = require(script.Parent.Ui)
 local FieldEditors = {}
 
 local TOKEN_LABELS = {
-	radius = "Arrondi du thème",
+	radius = "Arrondi du style",
 	radiusSmall = "Petit arrondi",
-	strokeThickness = "Épaisseur du thème",
-	font = "Police des titres",
-	fontBody = "Police du texte",
+	outlineThickness = "Épaisseur du style",
+	font = "Police du style",
+	fontTitle = "Police des titres",
+	patternSize = "Taille du style",
+	depth = "Relief du style",
 }
 
-local COLOR_TOKENS =
-	{ "primary", "secondary", "accent", "success", "danger", "background", "surface", "text", "stroke" }
+local COLOR_TOKENS = {
+	"frame",
+	"body",
+	"card",
+	"header",
+	"primary",
+	"accent1",
+	"accent2",
+	"accent3",
+	"accent4",
+	"success",
+	"danger",
+	"warning",
+	"text",
+	"outline",
+}
 
 local function row(parent: Instance, order: number, height: number?): Frame
 	return Ui.new("Frame", {
@@ -80,16 +96,13 @@ local function colorEditor(_field: any, value: any, tokens: any, onChange: (any)
 	}).Parent =
 		controls
 	if Style.isToken(value) then
-		Ui.label(
-			"lié au thème",
-			{
-				Size = UDim2.fromOffset(90, 26),
-				TextColor3 = Ui.colors.muted,
-				TextSize = 12,
-				LayoutOrder = 3,
-				Parent = controls,
-			}
-		)
+		Ui.label("lié au thème", {
+			Size = UDim2.fromOffset(90, 26),
+			TextColor3 = Ui.colors.muted,
+			TextSize = 12,
+			LayoutOrder = 3,
+			Parent = controls,
+		})
 	end
 end
 
@@ -178,14 +191,10 @@ local function choiceEditor(field: any, value: any, tokens: any, onChange: (any)
 	})
 	local options = table.clone(field.options or {})
 	for _, token in field.tokens or {} do
-		table.insert(
-			options,
-			1,
-			{
-				value = "$" .. token,
-				label = (TOKEN_LABELS[token] or token) .. " (" .. tostring(tokens[token]) .. ")",
-			}
-		)
+		table.insert(options, 1, {
+			value = "$" .. token,
+			label = (TOKEN_LABELS[token] or token) .. " (" .. tostring(tokens[token]) .. ")",
+		})
 	end
 	for i, option in options do
 		local selected = Table.deepEqual(option.value, value)
@@ -256,15 +265,12 @@ local function udim2Editor(field: any, value: any, _tokens: any, onChange: (any)
 			end,
 		}).Parent =
 			controls
-		Ui.label(
-			"%",
-			{
-				Size = UDim2.fromOffset(14, 26),
-				TextColor3 = Ui.colors.muted,
-				LayoutOrder = 3,
-				Parent = controls,
-			}
-		)
+		Ui.label("%", {
+			Size = UDim2.fromOffset(14, 26),
+			TextColor3 = Ui.colors.muted,
+			LayoutOrder = 3,
+			Parent = controls,
+		})
 		Ui.textBox(formatNumber(current[offsetIndex]), {
 			size = UDim2.fromOffset(56, 26),
 			order = 4,
@@ -278,15 +284,12 @@ local function udim2Editor(field: any, value: any, _tokens: any, onChange: (any)
 			end,
 		}).Parent =
 			controls
-		Ui.label(
-			"px",
-			{
-				Size = UDim2.fromOffset(20, 26),
-				TextColor3 = Ui.colors.muted,
-				LayoutOrder = 5,
-				Parent = controls,
-			}
-		)
+		Ui.label("px", {
+			Size = UDim2.fromOffset(20, 26),
+			TextColor3 = Ui.colors.muted,
+			LayoutOrder = 5,
+			Parent = controls,
+		})
 	end
 end
 
@@ -318,16 +321,13 @@ function FieldEditors.render(
 		LayoutOrder = order,
 		Parent = parent,
 	}, { Ui.list("Vertical", 4) })
-	Ui.label(
-		field.label,
-		{
-			TextColor3 = Ui.colors.muted,
-			TextSize = 13,
-			Size = UDim2.new(1, 0, 0, 16),
-			LayoutOrder = 1,
-			Parent = frame,
-		}
-	)
+	Ui.label(field.label, {
+		TextColor3 = Ui.colors.muted,
+		TextSize = 13,
+		Size = UDim2.new(1, 0, 0, 16),
+		LayoutOrder = 1,
+		Parent = frame,
+	})
 	local editor = EDITORS[field.kind] or textEditor
 	editor(field, value, tokens, onChange, frame)
 	return frame

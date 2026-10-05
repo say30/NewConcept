@@ -1,18 +1,18 @@
 --!strict
--- Every editable property, grouped into the inspector sections. The inspector draws these
--- definitions; it has no per-component code. Labels are what the user reads, so they avoid
--- Roblox jargon (UICorner, UIStroke, ZIndex...).
+-- Every setting of an element as a plain field (number, colour, choice...). The visual
+-- inspector covers the common choices with pictures; these fields are the "Avancé" part,
+-- for exact values. Labels avoid Roblox jargon (UICorner, UIStroke, ZIndex...).
 
 export type Option = { value: any, label: string }
 export type Field = {
 	path: { string },
 	label: string,
-	kind: "text" | "multiline" | "number" | "slider" | "color" | "toggle" | "choice" | "udim2" | "asset",
+	kind: "text" | "multiline" | "number" | "color" | "toggle" | "choice" | "udim2" | "asset",
 	min: number?,
 	max: number?,
 	step: number?,
 	options: { Option }?,
-	-- Theme tokens this field can link to (for numbers and fonts).
+	-- Pack values this field can link to (for numbers and fonts).
 	tokens: { string }?,
 	showIf: ((props: any) -> boolean)?,
 }
@@ -24,22 +24,23 @@ local FONTS = {
 	"Bangers",
 	"GothamBlack",
 	"GothamBold",
-	"Gotham",
-	"SourceSansBold",
-	"SourceSans",
-	"Arcade",
+	"BuilderSansExtraBold",
+	"BuilderSansBold",
 	"Cartoon",
-	"SciFi",
-	"Fantasy",
-	"DenkOne",
+	"Arcade",
+	"Michroma",
 	"Oswald",
 	"PermanentMarker",
+	"DenkOne",
 	"Creepster",
 }
 
-local fontOptions: { Option } = {}
-for _, font in FONTS do
-	table.insert(fontOptions, { value = font, label = font })
+local function options(values: { any }, labels: { string }?): { Option }
+	local out = {}
+	for i, value in values do
+		table.insert(out, { value = value, label = if labels then labels[i] else tostring(value) })
+	end
+	return out
 end
 
 local function is(path: { string }, expected: any)
@@ -69,8 +70,8 @@ Fields.sections = {
 				path = { "text", "font" },
 				label = "Police",
 				kind = "choice",
-				options = fontOptions,
-				tokens = { "font", "fontBody" },
+				options = options(FONTS),
+				tokens = { "font", "fontTitle" },
 			},
 			{ path = { "text", "size" }, label = "Taille", kind = "number", min = 6, max = 100, step = 1 },
 			{ path = { "text", "scaled" }, label = "Taille automatique", kind = "toggle" },
@@ -79,28 +80,55 @@ Fields.sections = {
 				path = { "text", "alignX" },
 				label = "Alignement",
 				kind = "choice",
-				options = {
-					{ value = "Left", label = "Gauche" },
-					{ value = "Center", label = "Centre" },
-					{ value = "Right", label = "Droite" },
-				},
+				options = options({ "Left", "Center", "Right" }, { "Gauche", "Centre", "Droite" }),
 			},
 			{ path = { "text", "wrap" }, label = "Retour à la ligne", kind = "toggle" },
+			{ path = { "text", "stroke", "enabled" }, label = "Contour du texte", kind = "toggle" },
+			{ path = { "text", "stroke", "color" }, label = "Couleur du contour", kind = "color" },
+			{
+				path = { "text", "stroke", "thickness" },
+				label = "Épaisseur du contour",
+				kind = "number",
+				min = 0,
+				max = 8,
+				step = 1,
+			},
 			{
 				path = { "text", "transparency" },
 				label = "Transparence",
-				kind = "slider",
+				kind = "number",
 				min = 0,
 				max = 1,
 				step = 0.05,
 			},
-			{ path = { "text", "strokeEnabled" }, label = "Contour du texte", kind = "toggle" },
+		},
+	},
+	Input = {
+		id = "Input",
+		label = "Zone de saisie",
+		fields = {
+			{ path = { "text", "placeholder" }, label = "Texte d'aide", kind = "text" },
+			{ path = { "text", "value" }, label = "Texte de départ", kind = "text" },
+			{ path = { "text", "size" }, label = "Taille", kind = "number", min = 6, max = 60, step = 1 },
+			{ path = { "text", "color" }, label = "Couleur du texte", kind = "color" },
+			{ path = { "fill", "color" }, label = "Fond", kind = "color" },
 			{
-				path = { "text", "strokeColor" },
-				label = "Couleur du contour",
-				kind = "color",
-				showIf = is({ "text", "strokeEnabled" }, true),
+				path = { "corner" },
+				label = "Arrondi",
+				kind = "number",
+				min = -1,
+				max = 60,
+				step = 1,
+				tokens = { "radius", "radiusSmall" },
 			},
+		},
+	},
+	Icon = {
+		id = "Icon",
+		label = "Icône",
+		fields = {
+			{ path = { "icon", "image" }, label = "Ou une image à toi (ID Roblox)", kind = "asset" },
+			{ path = { "icon", "color" }, label = "Teinte de l'image", kind = "color" },
 		},
 	},
 	Image = {
@@ -112,22 +140,21 @@ Fields.sections = {
 			{
 				path = { "image", "transparency" },
 				label = "Transparence",
-				kind = "slider",
+				kind = "number",
 				min = 0,
 				max = 1,
 				step = 0.05,
 			},
 			{
 				path = { "image", "scaleType" },
-				label = "Ajustement",
+				label = "Remplissage",
 				kind = "choice",
-				options = {
-					{ value = "Fit", label = "Contenir" },
-					{ value = "Stretch", label = "Étirer" },
-					{ value = "Crop", label = "Remplir" },
-					{ value = "Tile", label = "Répéter" },
-				},
+				options = options(
+					{ "Fit", "Stretch", "Crop", "Tile" },
+					{ "Ajuster", "Étirer", "Rogner", "Répéter" }
+				),
 			},
+			{ path = { "corner" }, label = "Arrondi", kind = "number", min = -1, max = 200, step = 1 },
 		},
 	},
 	Fill = {
@@ -136,30 +163,37 @@ Fields.sections = {
 		fields = {
 			{
 				path = { "fill", "kind" },
-				label = "Type de fond",
+				label = "Type",
 				kind = "choice",
-				options = {
-					{ value = "Color", label = "Couleur" },
-					{ value = "Gradient", label = "Dégradé" },
-					{ value = "Image", label = "Image" },
-					{ value = "None", label = "Transparent" },
-				},
+				options = options(
+					{ "Color", "Shade", "Gradient", "Image", "None" },
+					{ "Uni", "Ombré", "Dégradé", "Image", "Transparent" }
+				),
 			},
 			{
 				path = { "fill", "color" },
 				label = "Couleur",
 				kind = "color",
-				showIf = is({ "fill", "kind" }, { "Color", "Gradient", nil }),
+				showIf = is({ "fill", "kind" }, { "Color", "Shade", "Gradient" }),
+			},
+			{
+				path = { "fill", "shade" },
+				label = "Force de l'ombré",
+				kind = "number",
+				min = 0,
+				max = 0.8,
+				step = 0.05,
+				showIf = is({ "fill", "kind" }, "Shade"),
 			},
 			{
 				path = { "fill", "color2" },
-				label = "Couleur 2",
+				label = "Deuxième couleur",
 				kind = "color",
 				showIf = is({ "fill", "kind" }, "Gradient"),
 			},
 			{
 				path = { "fill", "rotation" },
-				label = "Angle du dégradé",
+				label = "Direction",
 				kind = "number",
 				min = -180,
 				max = 180,
@@ -168,44 +202,60 @@ Fields.sections = {
 			},
 			{
 				path = { "fill", "image" },
-				label = "Image de fond (ID)",
+				label = "Image (ID Roblox)",
 				kind = "asset",
 				showIf = is({ "fill", "kind" }, "Image"),
 			},
 			{
 				path = { "fill", "scaleType" },
-				label = "Ajustement",
+				label = "Remplissage",
 				kind = "choice",
-				options = {
-					{ value = "Stretch", label = "Étirer" },
-					{ value = "Crop", label = "Remplir" },
-					{ value = "Fit", label = "Contenir" },
-					{ value = "Tile", label = "Répéter" },
-				},
+				options = options(
+					{ "Stretch", "Tile", "Crop", "Fit" },
+					{ "Étirer", "Répéter", "Rogner", "Ajuster" }
+				),
 				showIf = is({ "fill", "kind" }, "Image"),
 			},
 			{
 				path = { "fill", "tileSize" },
 				label = "Taille du motif",
 				kind = "number",
-				min = 4,
+				min = 8,
 				max = 512,
-				step = 4,
-				showIf = is({ "fill", "scaleType" }, "Tile"),
-			},
-			{
-				path = { "fill", "tint" },
-				label = "Teinte de l'image",
-				kind = "color",
+				step = 8,
 				showIf = is({ "fill", "kind" }, "Image"),
 			},
 			{
 				path = { "fill", "transparency" },
 				label = "Transparence",
-				kind = "slider",
+				kind = "number",
 				min = 0,
 				max = 1,
 				step = 0.05,
+			},
+		},
+	},
+	Pattern = {
+		id = "Pattern",
+		label = "Motif",
+		fields = {
+			{ path = { "pattern", "color" }, label = "Couleur du motif", kind = "color" },
+			{
+				path = { "pattern", "transparency" },
+				label = "Discrétion",
+				kind = "number",
+				min = 0,
+				max = 1,
+				step = 0.05,
+			},
+			{
+				path = { "pattern", "size" },
+				label = "Taille",
+				kind = "number",
+				min = 8,
+				max = 80,
+				step = 2,
+				tokens = { "patternSize" },
 			},
 		},
 	},
@@ -214,12 +264,7 @@ Fields.sections = {
 		label = "Contour",
 		fields = {
 			{ path = { "stroke", "enabled" }, label = "Afficher le contour", kind = "toggle" },
-			{
-				path = { "stroke", "color" },
-				label = "Couleur",
-				kind = "color",
-				showIf = is({ "stroke", "enabled" }, true),
-			},
+			{ path = { "stroke", "color" }, label = "Couleur", kind = "color" },
 			{
 				path = { "stroke", "thickness" },
 				label = "Épaisseur",
@@ -227,17 +272,7 @@ Fields.sections = {
 				min = 0,
 				max = 20,
 				step = 1,
-				tokens = { "strokeThickness" },
-				showIf = is({ "stroke", "enabled" }, true),
-			},
-			{
-				path = { "stroke", "transparency" },
-				label = "Transparence",
-				kind = "slider",
-				min = 0,
-				max = 1,
-				step = 0.05,
-				showIf = is({ "stroke", "enabled" }, true),
+				tokens = { "outlineThickness" },
 			},
 		},
 	},
@@ -247,38 +282,76 @@ Fields.sections = {
 		fields = {
 			{
 				path = { "corner" },
-				label = "Arrondi",
+				label = "Arrondi (-1 = pilule)",
+				kind = "number",
+				min = -1,
+				max = 200,
+				step = 1,
+				tokens = { "radius", "radiusSmall" },
+			},
+		},
+	},
+	Shadow = {
+		id = "Shadow",
+		label = "Ombre",
+		fields = {
+			{
+				path = { "shadow", "size" },
+				label = "Décalage",
 				kind = "number",
 				min = 0,
-				max = 200,
-				step = 2,
-				tokens = { "radius", "radiusSmall" },
+				max = 30,
+				step = 1,
+				tokens = { "depth" },
+			},
+			{
+				path = { "shadow", "transparency" },
+				label = "Transparence",
+				kind = "number",
+				min = 0,
+				max = 1,
+				step = 0.05,
 			},
 		},
 	},
 	Layout = {
 		id = "Layout",
-		label = "Disposition des enfants",
+		label = "Rangement",
 		fields = {
 			{
 				path = { "layout", "kind" },
-				label = "Disposition",
+				label = "Rangement des éléments",
 				kind = "choice",
-				options = {
-					{ value = "None", label = "Libre" },
-					{ value = "Horizontal", label = "Horizontale" },
-					{ value = "Vertical", label = "Verticale" },
-					{ value = "Grid", label = "Grille" },
-				},
+				options = options(
+					{ "Grid", "Vertical", "Horizontal", "None" },
+					{ "Grille", "Colonne", "Ligne", "Libre" }
+				),
+			},
+			{
+				path = { "layout", "columns" },
+				label = "Colonnes",
+				kind = "number",
+				min = 1,
+				max = 12,
+				step = 1,
+				showIf = is({ "layout", "kind" }, "Grid"),
+			},
+			{
+				path = { "layout", "cellHeight" },
+				label = "Hauteur des cases",
+				kind = "number",
+				min = 20,
+				max = 600,
+				step = 5,
+				showIf = is({ "layout", "kind" }, "Grid"),
 			},
 			{
 				path = { "layout", "spacing" },
-				label = "Espacement",
+				label = "Espace entre",
 				kind = "number",
 				min = 0,
 				max = 100,
-				step = 2,
-				showIf = is({ "layout", "kind" }, { "Horizontal", "Vertical", "Grid" }),
+				step = 1,
 			},
 			{
 				path = { "layout", "padding" },
@@ -286,37 +359,7 @@ Fields.sections = {
 				kind = "number",
 				min = 0,
 				max = 100,
-				step = 2,
-				showIf = is({ "layout", "kind" }, { "Horizontal", "Vertical", "Grid" }),
-			},
-			{
-				path = { "layout", "align" },
-				label = "Alignement",
-				kind = "choice",
-				options = {
-					{ value = "Start", label = "Début" },
-					{ value = "Center", label = "Centre" },
-					{ value = "End", label = "Fin" },
-				},
-				showIf = is({ "layout", "kind" }, { "Horizontal", "Vertical", "Grid" }),
-			},
-			{
-				path = { "layout", "cellWidth" },
-				label = "Largeur des cases",
-				kind = "number",
-				min = 10,
-				max = 600,
-				step = 5,
-				showIf = is({ "layout", "kind" }, "Grid"),
-			},
-			{
-				path = { "layout", "cellHeight" },
-				label = "Hauteur des cases",
-				kind = "number",
-				min = 10,
-				max = 600,
-				step = 5,
-				showIf = is({ "layout", "kind" }, "Grid"),
+				step = 1,
 			},
 		},
 	},
@@ -326,22 +369,10 @@ Fields.sections = {
 		fields = {
 			{ path = { "position" }, label = "Position", kind = "udim2" },
 			{ path = { "size" }, label = "Taille", kind = "udim2" },
-			{
-				path = { "anchor" },
-				label = "Point d'ancrage",
-				kind = "choice",
-				options = {
-					{ value = { 0, 0 }, label = "Haut gauche" },
-					{ value = { 0.5, 0 }, label = "Haut" },
-					{ value = { 0.5, 0.5 }, label = "Centre" },
-					{ value = { 0.5, 1 }, label = "Bas" },
-					{ value = { 1, 1 }, label = "Bas droite" },
-				},
-			},
 			{ path = { "rotation" }, label = "Rotation", kind = "number", min = -180, max = 180, step = 5 },
 			{
 				path = { "aspect" },
-				label = "Garder le ratio (0 = non)",
+				label = "Garder les proportions (0 = non)",
 				kind = "number",
 				min = 0,
 				max = 10,
@@ -356,7 +387,7 @@ Fields.sections = {
 			{ path = { "visible" }, label = "Visible en jeu", kind = "toggle" },
 			{
 				path = { "zIndex" },
-				label = "Ordre d'affichage",
+				label = "Devant / derrière",
 				kind = "number",
 				min = 0,
 				max = 50,
@@ -365,6 +396,21 @@ Fields.sections = {
 			{ path = { "clip" }, label = "Couper ce qui dépasse", kind = "toggle" },
 		},
 	},
+} :: { [string]: Section }
+
+-- Which advanced sections each kind of element shows.
+Fields.byType = {
+	Window = { "Fill", "Pattern", "Stroke", "Corner", "Shadow", "Transform", "Display" },
+	Panel = { "Fill", "Pattern", "Stroke", "Corner", "Shadow", "Transform", "Display" },
+	Card = { "Fill", "Pattern", "Stroke", "Corner", "Shadow", "Transform", "Display" },
+	Button = { "Text", "Fill", "Pattern", "Stroke", "Corner", "Shadow", "Transform", "Display" },
+	Text = { "Text", "Transform", "Display" },
+	Input = { "Input", "Transform", "Display" },
+	Icon = { "Icon", "Transform", "Display" },
+	Image = { "Image", "Transform", "Display" },
+	Grid = { "Layout", "Transform", "Display" },
+	List = { "Layout", "Transform", "Display" },
+	ScrollArea = { "Layout", "Transform", "Display" },
 }
 
 return Fields

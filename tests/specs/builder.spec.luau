@@ -6,13 +6,13 @@ return function(t)
 	local Commands = t.require(t.src.Core.Commands)
 	local Builder = t.require(t.src.Generator.Builder)
 	local Generator = t.require(t.src.Generator.Generator)
-	local Variants = t.require(t.src.Catalog.Variants)
-	local Presets = t.require(t.src.Catalog.Presets)
-	local NodeTypes = t.require(t.src.Schema.NodeTypes)
+	local Recipes = t.require(t.src.Catalog.Recipes)
+	local Elements = t.require(t.src.Catalog.Elements)
+	local Packs = t.require(t.src.Style.Packs)
 
 	local function newStore(theme)
 		local store = Store.new(Document.newProject("Test"))
-		store.project.theme.base = theme or "Cartoon"
+		store.project.theme.base = theme or "Studs"
 		local _, pageId = store:dispatch(Commands.AddPage.new("Shop"))
 		return store, store.project.pages[pageId]
 	end
@@ -27,22 +27,21 @@ return function(t)
 	end
 
 	describe("Builder", function()
-		it("builds every variant of every type, in every theme and mode", function()
-			for typeName in NodeTypes.types do
-				for _, variant in Variants.list(typeName) do
-					for _, theme in { "Cartoon", "Flat", "Studs" } do
+		it("builds every gallery element in every pack and mode", function()
+			for _, category in Elements.categories() do
+				for _, entry in category.entries do
+					for _, pack in Packs.list() do
 						for _, mode in { "preview", "game" } do
-							local store, page = newStore(theme)
-							local ok, err =
-								store:dispatch(Commands.InsertTree.new(variant.template, page.rootId))
+							local store, page = newStore(pack.name)
+							local ok, err = store:dispatch(Commands.InsertTree.new(entry.make(), page.rootId))
 							assert(ok, tostring(err))
-							local parent = Instance.new("Folder")
 							local ctx =
 								Builder.newContext(store.project, mode, t.roblox.Vector2.new(800, 600))
-							local built, buildErr = pcall(Builder.syncNode, ctx, page.rootId, parent)
+							local built, buildErr =
+								pcall(Builder.syncNode, ctx, page.rootId, Instance.new("Folder"))
 							assert(
 								built,
-								variant.id .. " / " .. theme .. " / " .. mode .. ": " .. tostring(buildErr)
+								entry.id .. " / " .. pack.name .. " / " .. mode .. ": " .. tostring(buildErr)
 							)
 						end
 					end
@@ -50,14 +49,32 @@ return function(t)
 			end
 		end)
 
-		it("builds every preset", function()
-			for _, preset in Presets.list() do
-				local store, page = newStore()
-				local ok, err = store:dispatch(Commands.InsertTree.new(preset.template, page.rootId))
-				assert(ok, preset.id .. ": " .. tostring(err))
-				local ctx = Builder.newContext(store.project, "game")
-				local built, buildErr = pcall(Builder.syncNode, ctx, page.rootId, Instance.new("Folder"))
-				assert(built, preset.id .. ": " .. tostring(buildErr))
+		it("builds every assistant answer", function()
+			for _, recipe in Recipes.list() do
+				for _, question in recipe.questions do
+					for _, option in question.options do
+						local store, page = newStore()
+						local answers = { [question.id] = option.value }
+						for _, template in Recipes.build(recipe, answers) do
+							local ok, err = store:dispatch(Commands.InsertTree.new(template, page.rootId))
+							assert(ok, recipe.id .. ": " .. tostring(err))
+						end
+						store.project.theme.base = if question.id == "pack" then option.value else "Studs"
+						local ctx = Builder.newContext(store.project, "game")
+						local built, buildErr =
+							pcall(Builder.syncNode, ctx, page.rootId, Instance.new("Folder"))
+						assert(
+							built,
+							recipe.id
+								.. " / "
+								.. question.id
+								.. " = "
+								.. tostring(option.value)
+								.. ": "
+								.. tostring(buildErr)
+						)
+					end
+				end
 			end
 		end)
 
@@ -69,9 +86,20 @@ return function(t)
 				props = {
 					fill = { kind = "Gradient", color = "#FF0000", color2 = "#0000FF" },
 					corner = 12,
-					layout = { kind = "Grid", cellWidth = 90, cellHeight = 110 },
+					pattern = { kind = "Studs" },
 				},
-				children = { { type = "Button", name = "Buy button", props = { text = { value = "Buy" } } } },
+				children = {
+					{
+						type = "Button",
+						name = "Buy button",
+						props = { text = { value = "Buy" }, icon = { id = "Coin" } },
+					},
+					{
+						type = "Grid",
+						name = "Items",
+						props = { layout = { kind = "Grid", columns = 4, cellHeight = 110 } },
+					},
+				},
 			}, page.rootId))
 			local folder = Instance.new("Folder")
 			local ctx = Builder.newContext(store.project, "game")
@@ -83,28 +111,58 @@ return function(t)
 			local window = screen:FindFirstChild("ShopWindow")
 			expect(window.ClassName).toBe("Frame")
 			expect(window:GetAttribute("GuiCreatorId")).toBe(id)
-			expect(window:FindFirstChild("GC_Corner").CornerRadius.Offset).toBe(12)
-			expect(window:FindFirstChild("GC_Gradient").ClassName).toBe("UIGradient")
-			expect(window:FindFirstChild("GC_Layout").CellSize.X.Offset).toBe(90)
-			expect(window:FindFirstChild("GC_Stroke").Thickness).toBe(3) -- Cartoon theme
+			expect(window.BackgroundTransparency).toBe(1)
+			local fill = window:FindFirstChild("GC_Fill")
+			expect(fill:FindFirstChild("GC_Corner").CornerRadius.Offset).toBe(12)
+			expect(fill:FindFirstChild("GC_Gradient").ClassName).toBe("UIGradient")
+			expect(fill:FindFirstChild("GC_Stroke").Thickness).toBe(3) -- Studs pack
+			expect(fill.ZIndex < 0).toBe(true) -- drawn under the children
+			local pattern = window:FindFirstChild("GC_Pattern")
+			expect(pattern.ClassName).toBe("CanvasGroup")
+			expect(pattern:FindFirstChild("GC_Corner").CornerRadius.Offset).toBe(12) -- follows the corners
+			expect(#pattern:GetDescendants() > 50).toBe(true)
+			expect(window:FindFirstChild("GC_Shadow") ~= nil).toBe(true)
+			local grid = window:FindFirstChild("Items")
+			expect(grid:FindFirstChild("GC_Layout").CellSize.X.Scale).toBe(0.25)
 			local buy = window:FindFirstChild("BuyButton")
 			expect(buy.ClassName).toBe("TextButton")
 			expect(buy:FindFirstChild("GC_Label").Text).toBe("Buy")
+			expect(#buy:FindFirstChild("GC_Icon"):GetDescendants() > 5).toBe(true)
 		end)
 
-		it("follows the theme", function()
-			local store, page = newStore("Flat")
-			local _, id = store:dispatch(Commands.InsertTree.new({ type = "Button" }, page.rootId))
+		it("follows the style pack", function()
+			local store, page = newStore("Studs")
+			local _, id = store:dispatch(Commands.InsertTree.new({ type = "Window" }, page.rootId))
 			local ctx = Builder.newContext(store.project, "game")
 			local folder = Instance.new("Folder")
 			Builder.syncNode(ctx, page.rootId, folder)
-			local fill = ctx.instances[id]:FindFirstChild("GC_Fill")
-			expect(fill.BackgroundColor3.R > 0.2 and fill.BackgroundColor3.B > 0.9).toBe(true) -- Flat blue
-			store:dispatch(Commands.SetTheme.new("Studs"))
+			local gradient = ctx.instances[id]:FindFirstChild("GC_Fill"):FindFirstChild("GC_Gradient")
+			local blue = gradient.Color.Keypoints[1].Value
+			expect(blue.B > blue.R).toBe(true) -- Studs blue frame
+			store:dispatch(Commands.SetTheme.new("Garden"))
 			ctx = Builder.newContext(store.project, "game")
 			Builder.syncNode(ctx, page.rootId, folder)
-			fill = ctx.instances[id]:FindFirstChild("GC_Fill")
-			expect(fill.BackgroundColor3.R > 0.85).toBe(true) -- Studs red
+			gradient = ctx.instances[id]:FindFirstChild("GC_Fill"):FindFirstChild("GC_Gradient")
+			local wood = gradient.Color.Keypoints[1].Value
+			expect(wood.R > wood.B).toBe(true) -- Garden wooden frame
+		end)
+
+		it("does not rebuild a pattern or an icon that did not change", function()
+			local store, page = newStore()
+			local _, id = store:dispatch(
+				Commands.InsertTree.new(
+					{ type = "Panel", props = { pattern = { kind = "Dots" } } },
+					page.rootId
+				)
+			)
+			local folder = Instance.new("Folder")
+			local ctx = Builder.newContext(store.project, "preview", t.roblox.Vector2.new(800, 600))
+			Builder.syncNode(ctx, page.rootId, folder)
+			local first = ctx.instances[id]:FindFirstChild("GC_Pattern"):FindFirstChild("Area")
+			store:dispatch(Commands.SetProps.new(id, { { path = { "fill", "color" }, value = "#FF0000" } }))
+			ctx = Builder.newContext(store.project, "preview", t.roblox.Vector2.new(800, 600), ctx.instances)
+			Builder.syncNode(ctx, page.rootId, folder)
+			expect(ctx.instances[id]:FindFirstChild("GC_Pattern"):FindFirstChild("Area")).toBe(first)
 		end)
 	end)
 
@@ -147,13 +205,17 @@ return function(t)
 			local target = Instance.new("Folder")
 			Generator.generate(store.project, target)
 			local buy = find(target, "Buy")
+			local _, iconId =
+				store:dispatch(Commands.InsertTree.new({ type = "Icon", name = "Logo" }, windowId))
+			Generator.generate(store.project, target)
+			local icon = find(target, "Logo")
+			expect(icon.ClassName).toBe("Frame")
 			store:dispatch(
-				Commands.SetProps.new(windowId, { { path = { "fill", "kind" }, value = "Image" } })
+				Commands.SetProps.new(iconId, { { path = { "icon", "image" }, value = "rbxassetid://123" } })
 			)
 			Generator.generate(store.project, target)
-			local window = find(target, "Window")
-			expect(window.ClassName).toBe("ImageLabel")
-			expect(window:FindFirstChild("Buy")).toBe(buy)
+			expect(find(target, "Logo").ClassName).toBe("ImageLabel")
+			expect(find(target, "Buy")).toBe(buy)
 		end)
 
 		it("removes the ScreenGui of a deleted page only", function()

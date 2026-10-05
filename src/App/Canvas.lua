@@ -5,6 +5,7 @@
 local Builder = require(script.Parent.Parent.Generator.Builder)
 local Commands = require(script.Parent.Parent.Core.Commands)
 local Schema = require(script.Parent.Parent.Schema.NodeTypes)
+local Style = require(script.Parent.Parent.Style.Style)
 local Ui = require(script.Parent.Ui)
 
 local Canvas = {}
@@ -42,24 +43,20 @@ function Canvas.new(editor: any, parent: Instance)
 		Size = UDim2.fromScale(1, 1),
 		Parent = parent,
 	})
-	self.stage = Ui.new(
-		"Frame",
-		{
-			Name = "Stage",
-			AnchorPoint = Vector2.new(0.5, 0.5),
-			Position = UDim2.fromScale(0.5, 0.5),
-			BackgroundColor3 = Ui.colors.stage,
-			BorderSizePixel = 0,
-			ClipsDescendants = true,
-			Parent = self.area,
-		},
-		{
-			Ui.new("UIGradient", {
-				Color = ColorSequence.new(Color3.fromRGB(120, 160, 200), Color3.fromRGB(70, 95, 125)),
-				Rotation = 90,
-			}),
-		}
-	)
+	self.stage = Ui.new("Frame", {
+		Name = "Stage",
+		AnchorPoint = Vector2.new(0.5, 0.5),
+		Position = UDim2.fromScale(0.5, 0.5),
+		BackgroundColor3 = Ui.colors.stage,
+		BorderSizePixel = 0,
+		ClipsDescendants = true,
+		Parent = self.area,
+	}, {
+		Ui.new("UIGradient", {
+			Color = ColorSequence.new(Color3.new(1, 1, 1), Color3.fromRGB(200, 205, 215)),
+			Rotation = 90,
+		}),
+	})
 	self.scale = Ui.new("UIScale", { Parent = self.stage })
 	self.deviceLabel = Ui.label("", {
 		Position = UDim2.new(0, 10, 1, -24),
@@ -143,6 +140,7 @@ function Canvas:render()
 			child:Destroy()
 		end
 	end
+	self.stage.BackgroundColor3 = Style.color(Style.tokens(editor.store.project).backdrop)
 	local ctx = Builder.newContext(editor.store.project, "preview", size, self.instances)
 	Builder.syncNode(ctx, page.rootId, self.stage)
 	self.instances = ctx.instances

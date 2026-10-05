@@ -1,350 +1,240 @@
 --!strict
--- What each kind of element is, what it can contain and which inspector sections it shows.
--- Adding a new kind of element means adding an entry here; the inspector follows.
+-- What each kind of element is, what it can contain and its default look.
+-- Values written "$name" follow the project's style pack (Style/Packs).
 
 export type NodeType = {
 	label: string,
-	glyph: string,
+	icon: string, -- icon id from Visual/Icons shown in the editor
 	container: boolean,
+	surface: boolean, -- drawn with fill, outline, pattern, shadow and shine
 	canAdd: { string },
-	sections: { string },
-	quick: { { string } }, -- property paths shown in "Style rapide"
 	defaults: { [string]: any },
 }
 
 local CHILDREN =
-	{ "Button", "Text", "Image", "Icon", "Card", "Panel", "Grid", "List", "ScrollArea", "Window" }
+	{ "Button", "Text", "Input", "Icon", "Image", "Card", "Panel", "Grid", "List", "ScrollArea", "Window" }
 
 local CENTER = { 0.5, 0, 0.5, 0 }
+
+local function surface(fillColor: string, opts: any?): { [string]: any }
+	opts = opts or {}
+	return {
+		fill = {
+			kind = opts.fillKind or "Shade",
+			color = fillColor,
+			color2 = "$body",
+			shade = "$shade",
+			rotation = 90,
+			transparency = 0,
+			image = "",
+			scaleType = "Stretch",
+			tileSize = 64,
+			tint = "#FFFFFF",
+		},
+		stroke = {
+			enabled = opts.stroke ~= false,
+			color = "$outline",
+			thickness = "$outlineThickness",
+			transparency = 0,
+		},
+		corner = opts.corner or "$radiusSmall",
+		pattern = {
+			kind = opts.pattern or "None",
+			color = "$patternColor",
+			transparency = "$patternTransparency",
+			size = "$patternSize",
+		},
+		shadow = {
+			kind = opts.shadow or "None",
+			size = opts.shadowSize or "$depth",
+			color = "$outline",
+			transparency = 0.55,
+		},
+		shine = opts.shine or false,
+	}
+end
+
+local function text(value: string, size: number, opts: any?): { [string]: any }
+	opts = opts or {}
+	return {
+		value = value,
+		font = opts.font or "$font",
+		size = size,
+		scaled = false,
+		color = opts.color or "$text",
+		alignX = opts.alignX or "Center",
+		alignY = "Center",
+		wrap = opts.wrap or false,
+		transparency = 0,
+		stroke = { enabled = "$textStroke", color = "$outline", thickness = opts.strokeThickness or 2 },
+	}
+end
+
+local function merge(...: { [string]: any }): { [string]: any }
+	local result = {}
+	for _, part in { ... } do
+		for key, value in part do
+			result[key] = value
+		end
+	end
+	return result
+end
+
+local function base(size: { number }, zIndex: number): { [string]: any }
+	return {
+		position = CENTER,
+		size = size,
+		anchor = { 0.5, 0.5 },
+		rotation = 0,
+		zIndex = zIndex,
+		visible = true,
+		clip = false,
+		aspect = 0,
+	}
+end
+
+local function layout(kind: string, opts: any?): { [string]: any }
+	opts = opts or {}
+	return {
+		kind = kind,
+		spacing = opts.spacing or 10,
+		padding = opts.padding or 8,
+		align = "Center",
+		columns = opts.columns or 3,
+		cellWidth = 120,
+		cellHeight = opts.cellHeight or 150,
+	}
+end
 
 local NodeTypes: { [string]: NodeType } = {
 	Page = {
 		label = "Page",
-		glyph = "▣",
+		icon = "Home",
 		container = true,
+		surface = false,
 		canAdd = CHILDREN,
-		sections = {},
-		quick = {},
 		defaults = {},
 	},
 	Window = {
 		label = "Fenêtre",
-		glyph = "▢",
+		icon = "Shop",
 		container = true,
+		surface = true,
 		canAdd = CHILDREN,
-		sections = { "Fill", "Stroke", "Corner", "Transform", "Layout", "Display" },
-		quick = { { "fill", "color" }, { "corner" }, { "stroke", "enabled" } },
-		defaults = {
-			position = CENTER,
-			size = { 0, 520, 0, 360 },
-			anchor = { 0.5, 0.5 },
-			fill = {
-				kind = "Color",
-				color = "$background",
-				color2 = "$surface",
-				rotation = 90,
-				transparency = 0,
-			},
-			corner = "$radius",
-			stroke = { enabled = true, color = "$stroke", thickness = "$strokeThickness", transparency = 0 },
-			layout = {
-				kind = "None",
-				spacing = 10,
-				padding = 12,
-				align = "Center",
-				cellWidth = 120,
-				cellHeight = 150,
-			},
-			visible = true,
-			zIndex = 1,
-			clip = false,
-		},
+		defaults = merge(
+			base({ 0, 560, 0, 380 }, 1),
+			surface("$frame", { corner = "$radius", shadow = "Drop", shadowSize = 8 })
+		),
 	},
 	Panel = {
 		label = "Panneau",
-		glyph = "▭",
+		icon = "Calendar",
 		container = true,
+		surface = true,
 		canAdd = CHILDREN,
-		sections = { "Fill", "Stroke", "Corner", "Transform", "Layout", "Display" },
-		quick = { { "fill", "color" }, { "corner" } },
-		defaults = {
-			position = CENTER,
-			size = { 0, 220, 0, 120 },
-			anchor = { 0.5, 0.5 },
-			fill = {
-				kind = "Color",
-				color = "$surface",
-				color2 = "$background",
-				rotation = 90,
-				transparency = 0,
-			},
-			corner = "$radiusSmall",
-			stroke = { enabled = false, color = "$stroke", thickness = "$strokeThickness", transparency = 0 },
-			layout = {
-				kind = "None",
-				spacing = 8,
-				padding = 8,
-				align = "Center",
-				cellWidth = 100,
-				cellHeight = 100,
-			},
-			visible = true,
-			zIndex = 1,
-			clip = false,
-		},
+		defaults = merge(
+			base({ 0, 240, 0, 140 }, 1),
+			surface("$body", { fillKind = "Color", pattern = "$bodyPattern" })
+		),
 	},
 	Card = {
 		label = "Carte",
-		glyph = "▤",
+		icon = "Gift",
 		container = true,
+		surface = true,
 		canAdd = CHILDREN,
-		sections = { "Fill", "Stroke", "Corner", "Transform", "Layout", "Display" },
-		quick = { { "fill", "color" }, { "corner" }, { "stroke", "color" } },
-		defaults = {
-			position = CENTER,
-			size = { 0, 140, 0, 180 },
-			anchor = { 0.5, 0.5 },
-			fill = {
-				kind = "Color",
-				color = "$surface",
-				color2 = "$background",
-				rotation = 90,
-				transparency = 0,
-			},
-			corner = "$radiusSmall",
-			stroke = { enabled = true, color = "$stroke", thickness = "$strokeThickness", transparency = 0 },
-			layout = {
-				kind = "None",
-				spacing = 6,
-				padding = 8,
-				align = "Center",
-				cellWidth = 100,
-				cellHeight = 100,
-			},
-			visible = true,
-			zIndex = 1,
-			clip = false,
-		},
-	},
-	Text = {
-		label = "Texte",
-		glyph = "T",
-		container = false,
-		canAdd = {},
-		sections = { "Text", "Fill", "Stroke", "Corner", "Transform", "Display" },
-		quick = { { "text", "value" }, { "text", "color" }, { "text", "size" } },
-		defaults = {
-			position = CENTER,
-			size = { 0, 220, 0, 44 },
-			anchor = { 0.5, 0.5 },
-			text = {
-				value = "Texte",
-				font = "$font",
-				size = 26,
-				scaled = false,
-				color = "$text",
-				alignX = "Center",
-				wrap = true,
-				transparency = 0,
-				strokeEnabled = false,
-				strokeColor = "$stroke",
-			},
-			fill = {
-				kind = "None",
-				color = "$surface",
-				color2 = "$background",
-				rotation = 90,
-				transparency = 0,
-			},
-			corner = 0,
-			stroke = { enabled = false, color = "$stroke", thickness = 1, transparency = 0 },
-			visible = true,
-			zIndex = 2,
-			clip = false,
-		},
+		defaults = merge(
+			base({ 0, 150, 0, 190 }, 1),
+			surface("$card", { pattern = "$cardPattern", shadow = "Depth" })
+		),
 	},
 	Button = {
 		label = "Bouton",
-		glyph = "◉",
+		icon = "ArrowRight",
 		container = true,
-		canAdd = { "Icon", "Image", "Text" },
-		sections = { "Text", "Fill", "Stroke", "Corner", "Transform", "Display" },
-		quick = { { "text", "value" }, { "fill", "color" }, { "corner" } },
-		defaults = {
-			position = CENTER,
-			size = { 0, 170, 0, 54 },
-			anchor = { 0.5, 0.5 },
-			text = {
-				value = "Bouton",
-				font = "$font",
-				size = 24,
-				scaled = false,
-				color = "$textOnPrimary",
-				alignX = "Center",
-				wrap = false,
-				transparency = 0,
-				strokeEnabled = false,
-				strokeColor = "$stroke",
-			},
-			fill = { kind = "Color", color = "$primary", color2 = "$accent", rotation = 90, transparency = 0 },
-			corner = "$radiusSmall",
-			stroke = { enabled = true, color = "$stroke", thickness = "$strokeThickness", transparency = 0 },
-			visible = true,
-			zIndex = 2,
-			clip = false,
-		},
+		surface = true,
+		canAdd = { "Icon", "Text", "Image" },
+		defaults = merge(
+			base({ 0, 170, 0, 56 }, 2),
+			surface("$primary", { shadow = "Depth", shine = "$shine" }),
+			{
+				text = text("Bouton", 24, { color = "$textOnButton" }),
+				icon = { id = "", image = "" },
+			}
+		),
 	},
-	Image = {
-		label = "Image",
-		glyph = "▨",
+	Text = {
+		label = "Texte",
+		icon = "Ticket",
 		container = false,
+		surface = false,
 		canAdd = {},
-		sections = { "Image", "Fill", "Stroke", "Corner", "Transform", "Display" },
-		quick = { { "image", "id" }, { "image", "color" } },
-		defaults = {
-			position = CENTER,
-			size = { 0, 120, 0, 120 },
-			anchor = { 0.5, 0.5 },
-			image = { id = "", color = "#FFFFFF", transparency = 0, scaleType = "Fit" },
-			fill = {
-				kind = "None",
-				color = "$surface",
-				color2 = "$background",
-				rotation = 90,
-				transparency = 0,
-			},
-			corner = 0,
-			stroke = { enabled = false, color = "$stroke", thickness = 1, transparency = 0 },
-			visible = true,
-			zIndex = 2,
-			clip = false,
-		},
+		defaults = merge(base({ 0, 240, 0, 44 }, 2), { text = text("Texte", 28) }),
+	},
+	Input = {
+		label = "Zone de saisie",
+		icon = "Ticket",
+		container = false,
+		surface = false,
+		canAdd = {},
+		defaults = merge(base({ 0, 300, 0, 52 }, 2), {
+			text = merge(
+				text("", 22, { color = "$textDark" }),
+				{ placeholder = "Écris ici...", placeholderColor = "#8A8FA3" }
+			),
+			fill = { kind = "Color", color = "#FFFFFF", transparency = 0 },
+			stroke = { enabled = true, color = "$outline", thickness = "$outlineThickness", transparency = 0 },
+			corner = "$radiusSmall",
+		}),
 	},
 	Icon = {
 		label = "Icône",
-		glyph = "★",
+		icon = "Coin",
 		container = false,
+		surface = false,
 		canAdd = {},
-		sections = { "Image", "Fill", "Stroke", "Corner", "Transform", "Display" },
-		quick = { { "image", "id" }, { "image", "color" } },
-		defaults = {
-			position = CENTER,
-			size = { 0, 48, 0, 48 },
-			anchor = { 0.5, 0.5 },
-			image = { id = "", color = "#FFFFFF", transparency = 0, scaleType = "Fit" },
-			fill = {
-				kind = "None",
-				color = "$surface",
-				color2 = "$background",
-				rotation = 90,
-				transparency = 0,
-			},
-			corner = 0,
-			stroke = { enabled = false, color = "$stroke", thickness = 1, transparency = 0 },
-			visible = true,
-			zIndex = 3,
-			clip = false,
-			aspect = 1,
-		},
+		defaults = merge(
+			base({ 0, 56, 0, 56 }, 2),
+			{ aspect = 1, icon = { id = "Coin", image = "", color = "#FFFFFF" } }
+		),
+	},
+	Image = {
+		label = "Image",
+		icon = "Pin",
+		container = false,
+		surface = false,
+		canAdd = {},
+		defaults = merge(
+			base({ 0, 120, 0, 120 }, 2),
+			{ image = { id = "", color = "#FFFFFF", transparency = 0, scaleType = "Fit" }, corner = 0 }
+		),
 	},
 	Grid = {
 		label = "Grille",
-		glyph = "▦",
+		icon = "Podium",
 		container = true,
+		surface = false,
 		canAdd = CHILDREN,
-		sections = { "Layout", "Fill", "Stroke", "Corner", "Transform", "Display" },
-		quick = { { "layout", "cellWidth" }, { "layout", "spacing" } },
-		defaults = {
-			position = CENTER,
-			size = { 0.9, 0, 0.6, 0 },
-			anchor = { 0.5, 0.5 },
-			fill = {
-				kind = "None",
-				color = "$surface",
-				color2 = "$background",
-				rotation = 90,
-				transparency = 0,
-			},
-			corner = 0,
-			stroke = { enabled = false, color = "$stroke", thickness = 1, transparency = 0 },
-			layout = {
-				kind = "Grid",
-				spacing = 12,
-				padding = 8,
-				align = "Center",
-				cellWidth = 120,
-				cellHeight = 150,
-			},
-			visible = true,
-			zIndex = 1,
-			clip = false,
-		},
+		defaults = merge(base({ 0.9, 0, 0.6, 0 }, 1), { layout = layout("Grid", { spacing = 12 }) }),
 	},
 	List = {
 		label = "Liste",
-		glyph = "☰",
+		icon = "ArrowUp",
 		container = true,
+		surface = false,
 		canAdd = CHILDREN,
-		sections = { "Layout", "Fill", "Stroke", "Corner", "Transform", "Display" },
-		quick = { { "layout", "kind" }, { "layout", "spacing" } },
-		defaults = {
-			position = CENTER,
-			size = { 0, 240, 0, 260 },
-			anchor = { 0.5, 0.5 },
-			fill = {
-				kind = "None",
-				color = "$surface",
-				color2 = "$background",
-				rotation = 90,
-				transparency = 0,
-			},
-			corner = 0,
-			stroke = { enabled = false, color = "$stroke", thickness = 1, transparency = 0 },
-			layout = {
-				kind = "Vertical",
-				spacing = 8,
-				padding = 4,
-				align = "Center",
-				cellWidth = 100,
-				cellHeight = 100,
-			},
-			visible = true,
-			zIndex = 1,
-			clip = false,
-		},
+		defaults = merge(base({ 0, 260, 0, 280 }, 1), { layout = layout("Vertical") }),
 	},
 	ScrollArea = {
 		label = "Zone défilante",
-		glyph = "⇕",
+		icon = "ArrowUp",
 		container = true,
+		surface = false,
 		canAdd = CHILDREN,
-		sections = { "Layout", "Fill", "Stroke", "Corner", "Transform", "Display" },
-		quick = { { "layout", "kind" }, { "layout", "cellWidth" } },
-		defaults = {
-			position = CENTER,
-			size = { 0.9, 0, 0.65, 0 },
-			anchor = { 0.5, 0.5 },
-			fill = {
-				kind = "None",
-				color = "$surface",
-				color2 = "$background",
-				rotation = 90,
-				transparency = 0,
-			},
-			corner = 0,
-			stroke = { enabled = false, color = "$stroke", thickness = 1, transparency = 0 },
-			layout = {
-				kind = "Grid",
-				spacing = 12,
-				padding = 8,
-				align = "Center",
-				cellWidth = 120,
-				cellHeight = 150,
-			},
-			visible = true,
-			zIndex = 1,
-			clip = true,
-		},
+		defaults = merge(
+			base({ 0.9, 0, 0.65, 0 }, 1),
+			{ clip = true, layout = layout("Grid", { spacing = 12 }) }
+		),
 	},
 }
 
@@ -356,26 +246,37 @@ function Schema.get(typeName: string): NodeType
 	return NodeTypes[typeName] or NodeTypes.Panel
 end
 
--- Merges a node's props over its type defaults (one level deep for grouped props).
+local function isDict(value: any): boolean
+	return type(value) == "table" and next(value) ~= nil and #value == 0
+end
+
+local function deepMerge(target: { [string]: any }, source: { [string]: any })
+	for key, value in source do
+		if isDict(value) and isDict(target[key]) then
+			deepMerge(target[key], value)
+		elseif type(value) == "table" then
+			target[key] = table.clone(value)
+		else
+			target[key] = value
+		end
+	end
+end
+
+local function deepCopy(value: any): any
+	if type(value) ~= "table" then
+		return value
+	end
+	local copy = {}
+	for key, child in value do
+		copy[key] = deepCopy(child)
+	end
+	return copy
+end
+
+-- A node's props merged over its type defaults, at every depth.
 function Schema.effectiveProps(node: any): { [string]: any }
-	local defaults = Schema.get(node.type).defaults
-	local result = {}
-	for key, value in defaults do
-		if type(value) == "table" and not (#value > 0) then
-			result[key] = table.clone(value)
-		else
-			result[key] = value
-		end
-	end
-	for key, value in node.props or {} do
-		if type(value) == "table" and type(result[key]) == "table" and not (#value > 0) then
-			for subKey, subValue in value do
-				result[key][subKey] = subValue
-			end
-		else
-			result[key] = value
-		end
-	end
+	local result = deepCopy(Schema.get(node.type).defaults)
+	deepMerge(result, node.props or {})
 	return result
 end
 

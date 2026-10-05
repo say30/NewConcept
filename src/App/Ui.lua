@@ -5,23 +5,27 @@ local Ui = {}
 
 -- Colours of the plugin window itself (not of the user's interface).
 Ui.colors = {
-	background = Color3.fromRGB(30, 31, 36),
-	panel = Color3.fromRGB(39, 41, 47),
-	panelLight = Color3.fromRGB(50, 52, 60),
-	field = Color3.fromRGB(24, 25, 29),
-	border = Color3.fromRGB(64, 66, 76),
-	text = Color3.fromRGB(232, 233, 237),
-	muted = Color3.fromRGB(150, 153, 165),
-	accent = Color3.fromRGB(76, 141, 255),
-	accentDark = Color3.fromRGB(44, 82, 160),
-	danger = Color3.fromRGB(229, 72, 77),
-	success = Color3.fromRGB(48, 164, 108),
-	selection = Color3.fromRGB(76, 141, 255),
+	background = Color3.fromRGB(23, 26, 38),
+	panel = Color3.fromRGB(31, 35, 51),
+	panelLight = Color3.fromRGB(42, 47, 69),
+	field = Color3.fromRGB(18, 20, 29),
+	border = Color3.fromRGB(53, 59, 87),
+	text = Color3.fromRGB(242, 244, 255),
+	muted = Color3.fromRGB(154, 163, 199),
+	accent = Color3.fromRGB(63, 169, 245),
+	accentDark = Color3.fromRGB(31, 111, 184),
+	danger = Color3.fromRGB(255, 77, 94),
+	success = Color3.fromRGB(69, 194, 74),
+	warning = Color3.fromRGB(255, 197, 49),
+	purple = Color3.fromRGB(183, 107, 255),
+	selection = Color3.fromRGB(255, 197, 49),
 	stage = Color3.fromRGB(90, 120, 150),
+	outline = Color3.fromRGB(14, 16, 24),
 }
 
 Ui.font = Enum.Font.BuilderSans
 Ui.fontBold = Enum.Font.BuilderSansBold
+Ui.fontTitle = Enum.Font.FredokaOne
 
 -- Connecting is routed through here so the test runner can build the interface without
 -- Roblox events.
@@ -206,6 +210,171 @@ function Ui.scroll(props: { [string]: any }?): ScrollingFrame
 		(frame :: any)[key] = value
 	end
 	return frame
+end
+
+-- A label in the plugin's rounded title font.
+function Ui.title(text: string, size: number, props: { [string]: any }?): TextLabel
+	local label = Ui.label(text, {
+		Font = Ui.fontTitle,
+		TextSize = size,
+		Size = UDim2.new(1, 0, 0, size + 6),
+	})
+	for key, value in props or {} do
+		(label :: any)[key] = value
+	end
+	return label
+end
+
+-- A frame whose height follows its content, laid out as a grid of fixed cells.
+function Ui.grid(parent: Instance, cell: Vector2, gap: number, order: number?): Frame
+	return Ui.new("Frame", {
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 0, 0),
+		AutomaticSize = Enum.AutomaticSize.Y,
+		LayoutOrder = order or 0,
+		Parent = parent,
+	}, {
+		Ui.new("UIGridLayout", {
+			CellSize = UDim2.fromOffset(cell.X, cell.Y),
+			CellPadding = UDim2.fromOffset(gap, gap),
+			SortOrder = Enum.SortOrder.LayoutOrder,
+		}),
+	})
+end
+
+-- A frame whose height follows its content, stacking children vertically.
+function Ui.stack(parent: Instance, gap: number, order: number?): Frame
+	return Ui.new("Frame", {
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 0, 0),
+		AutomaticSize = Enum.AutomaticSize.Y,
+		LayoutOrder = order or 0,
+		Parent = parent,
+	}, { Ui.list("Vertical", gap) })
+end
+
+export type TileOptions = {
+	size: UDim2?,
+	order: number?,
+	parent: Instance?,
+	selected: boolean?,
+	label: string?,
+	color: Color3?,
+	onClick: (() -> ())?,
+}
+
+-- A clickable picture tile. Returns the tile and the frame to draw the picture in.
+function Ui.tile(options: TileOptions): (TextButton, Frame)
+	local o = options
+	local tile = Ui.new("TextButton", {
+		Text = "",
+		AutoButtonColor = true,
+		BackgroundColor3 = o.color or Ui.colors.panelLight,
+		BorderSizePixel = 0,
+		Size = o.size or UDim2.fromOffset(96, 96),
+		LayoutOrder = o.order or 0,
+		ClipsDescendants = false,
+	}, {
+		Ui.corner(10),
+		Ui.stroke(if o.selected then Ui.colors.selection else Ui.colors.border, if o.selected then 3 else 1),
+	})
+	local labelHeight = if o.label then 20 else 0
+	local content = Ui.new("Frame", {
+		Name = "Picture",
+		BackgroundTransparency = 1,
+		ClipsDescendants = true,
+		Position = UDim2.fromOffset(5, 5),
+		Size = UDim2.new(1, -10, 1, -(10 + labelHeight)),
+		Parent = tile,
+	})
+	if o.label then
+		Ui.label(o.label, {
+			Font = Ui.fontTitle,
+			TextSize = 14,
+			TextXAlignment = Enum.TextXAlignment.Center,
+			AnchorPoint = Vector2.new(0, 1),
+			Position = UDim2.new(0, 4, 1, -3),
+			Size = UDim2.new(1, -8, 0, 18),
+			TextColor3 = if o.selected then Ui.colors.selection else Ui.colors.text,
+			Parent = tile,
+		})
+	end
+	if o.onClick then
+		Ui.connect(tile, "MouseButton1Click", o.onClick)
+	end
+	if o.parent then
+		tile.Parent = o.parent
+	end
+	return tile, content
+end
+
+-- Highlights or un-highlights a tile made by Ui.tile, without rebuilding it.
+function Ui.setTileSelected(tile: Instance, selected: boolean)
+	local stroke = tile:FindFirstChildOfClass("UIStroke")
+	if stroke then
+		stroke.Color = if selected then Ui.colors.selection else Ui.colors.border
+		stroke.Thickness = if selected then 3 else 1
+	end
+	local label = tile:FindFirstChildOfClass("TextLabel")
+	if label then
+		label.TextColor3 = if selected then Ui.colors.selection else Ui.colors.text
+	end
+end
+
+export type BigButtonOptions = {
+	color: Color3?,
+	size: UDim2?,
+	order: number?,
+	parent: Instance?,
+	textSize: number?,
+	onClick: (() -> ())?,
+}
+
+-- A chunky cartoon button (coloured, with a darker lip), for the main actions.
+function Ui.bigButton(text: string, options: BigButtonOptions?): TextButton
+	local o: BigButtonOptions = options or {}
+	local color = o.color or Ui.colors.accent
+	local button = Ui.new("TextButton", {
+		Text = "",
+		AutoButtonColor = true,
+		BackgroundColor3 = color:Lerp(Color3.new(0, 0, 0), 0.35),
+		BorderSizePixel = 0,
+		Size = o.size or UDim2.fromOffset(160, 44),
+		LayoutOrder = o.order or 0,
+	}, { Ui.corner(12) })
+	local face = Ui.new("Frame", {
+		BackgroundColor3 = color,
+		BorderSizePixel = 0,
+		Size = UDim2.new(1, 0, 1, -4),
+		Parent = button,
+	}, { Ui.corner(12) })
+	Ui.new("UIGradient", {
+		Color = ColorSequence.new(Color3.new(1, 1, 1), Color3.fromRGB(215, 215, 215)),
+		Rotation = 90,
+		Parent = face,
+	})
+	Ui.label(text, {
+		Font = Ui.fontTitle,
+		TextSize = o.textSize or 18,
+		TextXAlignment = Enum.TextXAlignment.Center,
+		TextColor3 = Color3.new(1, 1, 1),
+		Size = UDim2.fromScale(1, 1),
+		Parent = face,
+	})
+	Ui.new("UIStroke", {
+		Color = Ui.colors.outline,
+		Thickness = 1.5,
+		Transparency = 0.3,
+		ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual,
+		Parent = face:FindFirstChildOfClass("TextLabel"),
+	})
+	if o.onClick then
+		Ui.connect(button, "MouseButton1Click", o.onClick)
+	end
+	if o.parent then
+		button.Parent = o.parent
+	end
+	return button
 end
 
 -- Removes everything except layout helpers (UIListLayout, UIPadding...).
